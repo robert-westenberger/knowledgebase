@@ -2,7 +2,7 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T03:47:48.019Z
+date: 2020-07-27T03:55:15.097Z
 tags: 
 editor: markdown
 ---
@@ -62,5 +62,8 @@ brooks_curried(list(brooks_curried,
 `    }`
 `    return current_val;`
 `}`
+
+
+Both statements return 7
 
 ---
