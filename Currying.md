@@ -2,7 +2,7 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T02:57:07.540Z
+date: 2020-07-27T02:57:20.652Z
 tags: 
 editor: markdown
 ---
@@ -43,5 +43,5 @@ brooks_curried(list(brooks_curried,
                     list(brooks_curried, 
                          list(plus_curried, 3, 4))));`
                          
-              
+##### SOLUTION            
 ---
