@@ -2,10 +2,14 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T00:00:17.799Z
+date: 2020-07-27T00:34:20.892Z
 tags: 
 editor: markdown
 ---
 
 # Currying
-Your content here
+
+Currying is the technique of converting a function that takes multiple arguments into a series of functions that each only take one argument. 
+
+## Examples
+
