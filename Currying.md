@@ -2,7 +2,7 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T02:57:20.652Z
+date: 2020-07-27T03:00:14.460Z
 tags: 
 editor: markdown
 ---
@@ -43,5 +43,17 @@ brooks_curried(list(brooks_curried,
                     list(brooks_curried, 
                          list(plus_curried, 3, 4))));`
                          
-##### SOLUTION            
+##### SOLUTION   
+
+`brooks.js`
+`const brooks = (curry_func, argList) => {`
+`    const current_val = curry_func(argList.shift());`
+`    if (typeof current_val === "function") {`
+`        return brooks(current_val, argList);`
+`    }`
+`    return current_val;`
+`}`
+
+brooks_curried.js
+
 ---
