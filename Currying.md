@@ -2,7 +2,7 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T00:34:20.892Z
+date: 2020-07-27T00:39:53.440Z
 tags: 
 editor: markdown
 ---
@@ -13,3 +13,12 @@ Currying is the technique of converting a function that takes multiple arguments
 
 ## Examples
 
+`curry.js`
+
+//uncurried
+const add = (a, b) => (a + b);
+add(3, 4); // 7
+
+//curried
+const add = (a) => ((b) => (a + b));
+add(3)(4); // 7
