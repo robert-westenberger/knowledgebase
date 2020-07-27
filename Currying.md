@@ -2,7 +2,7 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T02:56:59.729Z
+date: 2020-07-27T02:57:07.540Z
 tags: 
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Currying is the technique of converting a function that takes multiple arguments
 
 ### Related Exercises
 #### SICP JS 2.20
-##### PROBLEM
+##### **PROBLEM**
 *Write a function **brooks**, that takes a curried function as first argument then as second argument a list of arguments to which the current function is then applied, one by one, in the given order.*
 
 *For example, the following application of **brooks** should have the same effect as* `add(3)(4) // curried add`
