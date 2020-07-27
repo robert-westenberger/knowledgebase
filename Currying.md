@@ -2,7 +2,7 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T01:03:08.543Z
+date: 2020-07-27T01:08:27.278Z
 tags: 
 editor: markdown
 ---
@@ -32,3 +32,15 @@ Currying is the technique of converting a function that takes multiple arguments
 `brooks(plus_curried, list(3, 4));`
 
 *Also write a curried version of **brooks***.
+
+Lastly, what are the results of evaluating the following two statements?
+
+`brooks_curried(list(brooks_curried,
+                    list(plus_curried, 3, 4)));`
+`
+brooks_curried(list(brooks_curried,
+                    list(brooks_curried, 
+                         list(plus_curried, 3, 4))));`
+                         
+              
+---
