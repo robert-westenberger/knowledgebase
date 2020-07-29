@@ -2,11 +2,12 @@
 title: Trees
 description: 
 published: true
-date: 2020-07-29T02:21:15.544Z
+date: 2020-07-29T02:36:08.935Z
 tags: computer
 editor: markdown
 ---
 
 # Trees
 
-* A sequence of sequences. This is a large generalization since there are many subtypes of trees with differing implementation restrictions. 
+* A way to think of a sequence of sequences is a tree. The elements of the sequence are branches of the tree, and elements that are themselves sequences are subtrees.
+* Recursion is a natural tool for dealing with tree structures, since we can reduce operations on trees to operations on their branches, which reduce to operations on branches of branches, etc.
