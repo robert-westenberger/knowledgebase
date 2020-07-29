@@ -2,7 +2,7 @@
 title: Hierarchical Structures
 description: 
 published: true
-date: 2020-07-29T02:18:01.450Z
+date: 2020-07-29T02:18:10.972Z
 tags: computer-science
 editor: markdown
 ---
