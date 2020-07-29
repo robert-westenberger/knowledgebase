@@ -2,10 +2,11 @@
 title: Hierarchical Structures
 description: 
 published: true
-date: 2020-07-29T02:15:20.625Z
+date: 2020-07-29T02:18:01.450Z
 tags: computer-science
 editor: markdown
 ---
 
-# Header
-Your content here
+# Hierarchical Structures
+
+* A way to think of sequences whose elements themselves are sequencesis as *trees*.
