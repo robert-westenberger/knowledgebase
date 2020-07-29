@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-07-28T02:06:19.673Z
+date: 2020-07-29T02:05:18.052Z
 tags: 
 editor: markdown
 ---
@@ -27,3 +27,7 @@ const squareList2 = (items) => {
         [current_val * current_val] :
         [current_val * current_val, ...squareList2(items)];
 }
+
+#### Exercise 2.22
+Q/A question - skipped for now
+#### Exercise 2.23
