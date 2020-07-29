@@ -2,7 +2,7 @@
 title: Trees
 description: 
 published: true
-date: 2020-07-29T03:02:16.106Z
+date: 2020-07-29T03:02:30.615Z
 tags: computer
 editor: markdown
 ---
