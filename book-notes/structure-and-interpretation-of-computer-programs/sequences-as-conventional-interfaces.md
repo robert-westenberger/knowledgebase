@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-09T02:42:16.304Z
+date: 2020-08-09T02:45:34.728Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -13,4 +13,4 @@ It is frequently helpful to conceptualize processes in terms of signals flowing 
 
 Compare the algorithms for summing the squares of the leaves of a  [tree](/computer-science/trees) that are odd and constructing a list of even fibo numbers *Fib(k)* where *k* is less than or equal to *n*.
 
-![signal-flow algorithm comparisons.png](/signal-flow algorithm comparisons.png)
+![signalflowalgorithm.png](/signalflowalgorithm.png)
