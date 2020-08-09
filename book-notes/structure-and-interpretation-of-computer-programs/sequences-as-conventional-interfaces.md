@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-09T03:52:35.551Z
+date: 2020-08-09T03:55:56.973Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -17,4 +17,4 @@ Compare the algorithms for summing the squares of the leaves of a  [tree](/compu
 
 * Sum squares of the leaves of a tree that are odd
 	* Begin with *enumerator* that generates a **signal** consisting of leaves on given tree.
-* Construct list of eben fibo numbers where k is less than or equal to n
+* Construct list of even fibo numbers where k is less than or equal to n
