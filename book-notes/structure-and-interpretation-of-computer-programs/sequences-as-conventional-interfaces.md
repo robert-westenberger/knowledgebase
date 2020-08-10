@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-10T02:03:10.478Z
+date: 2020-08-10T02:39:52.025Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -10,6 +10,8 @@ editor: markdown
 # Sequences as Conventional Interfaces
 
 It is frequently helpful to conceptualize processes in terms of signals flowing through a cascade of stages, each of which implements part of the program plan. 
+
+Expressing programs as a sequence of operations helps us make programs that are modular. Modular design can be encouraged by providing a library of standard components together with a conventional interface for connecting 
 
 Compare the algorithms for summing the squares of the leaves of a  [tree](/computer-science/trees) that are odd (**TOP**) and constructing a list of even fibo numbers *Fib(k)* where *k* is less than or equal to *n* (**BOTTOM**).
 
@@ -25,4 +27,13 @@ Compare the algorithms for summing the squares of the leaves of a  [tree](/compu
 * Focus on the signals that flow from one stage in the process to the next in order to organize programs that clearly reflect the signal flow structure.
 
 * Sum squares of the leaves of a tree that are odd
+`const sumOddSquares = (tree) => accumulate(plus, 0, map(square, filter(is_odd, enumerate_tree(tree))));`
 * Constructing a list of even fibo numbers *Fib(k)* where *k* is less than or equal to *n* 
+`const evenFibs = (n) => accumulate(pair, null, filter(is_even, map(fib, enumerate_interval(0, n))));`
+
+These pieces (accumulate, map, filter) can be rearranged to perform many other tasks.
+
+
+
+
+
