@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-10T02:39:52.025Z
+date: 2020-08-10T02:41:28.704Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -33,7 +33,7 @@ Compare the algorithms for summing the squares of the leaves of a  [tree](/compu
 
 These pieces (accumulate, map, filter) can be rearranged to perform many other tasks.
 
-
+##### Sequence Operations for 
 
 
 
