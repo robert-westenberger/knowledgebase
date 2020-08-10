@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-10T03:00:07.249Z
+date: 2020-08-10T03:07:42.031Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -35,7 +35,8 @@ These pieces (accumulate, map, filter) can be rearranged to perform many other t
 
 ##### Sequence Operations for Conventional Data Processing
 * A sequence of personnel records can be processed to find, for example, the salary of the highest-paid programmer.
-
+* When we uniformly represent structures as sequences, we have localized
+the data-structure dependencies in our pograms to a small number of sequence operations.
 `const salary_of_highest_paid_programmer = records =>`
 `accumulate(math_max,`
     `	0,`
