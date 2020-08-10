@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-10T02:41:42.185Z
+date: 2020-08-10T03:00:07.249Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -34,6 +34,10 @@ Compare the algorithms for summing the squares of the leaves of a  [tree](/compu
 These pieces (accumulate, map, filter) can be rearranged to perform many other tasks.
 
 ##### Sequence Operations for Conventional Data Processing
+* A sequence of personnel records can be processed to find, for example, the salary of the highest-paid programmer.
 
-
-
+`const salary_of_highest_paid_programmer = records =>`
+`accumulate(math_max,`
+    `	0,`
+    `map(salary,`
+      `  filter(is_programmer, records)));`
