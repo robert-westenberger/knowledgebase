@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-07-29T02:07:31.556Z
+date: 2020-08-15T00:48:20.349Z
 tags: 
 editor: markdown
 ---
@@ -48,6 +48,6 @@ const for_each = (cb, elements) => {
     return (elements.length) ? [cb(elements.shift()), for_each(cb, elements)] : [];
 };
 
-
+#### Exercise 2.37
 
 
