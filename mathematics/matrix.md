@@ -2,7 +2,7 @@
 title: Matrix
 description: 
 published: true
-date: 2020-08-16T02:48:32.917Z
+date: 2020-08-16T02:57:33.142Z
 tags: mathematics, matrix
 editor: markdown
 ---
@@ -22,3 +22,7 @@ editor: markdown
 
 * Scalar multiplication is multiplying a real number by a matrix. 
 ![screen_shot_2020-08-15_at_7.47.46_pm.png](/screen_shot_2020-08-15_at_7.47.46_pm.png)
+ 
+ * Matrix multiplication is the product of two matrices.
+ 
+ * The **dot product** is the result of summing the products of two equal length n-tuples. For example, the dot product of (2, 5) * (3, 1) = (2 * 3) + (5 * 1) = (6 + 5) = 11.
