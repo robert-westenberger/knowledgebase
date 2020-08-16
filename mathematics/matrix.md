@@ -2,7 +2,7 @@
 title: Matrix
 description: 
 published: true
-date: 2020-08-16T03:17:44.376Z
+date: 2020-08-16T03:27:35.174Z
 tags: mathematics, matrix
 editor: markdown
 ---
@@ -28,4 +28,8 @@ In the above matrix, row 1 (r1) is (6, 2) and row 2 (r2) is (4,3). Column 1 (c1)
  
  * The **dot product** is the result of summing the products of two equal length n-tuples. For example, the dot product of (2, 5) * (3, 1) = (2 * 3) + (5 * 1) = (6 + 5) = 11.
  
- * Matrix multiplication is the product of two matrices.
+ * Matrix multiplication is the product of two matrices. 
+ ![matrix_multiplication_diagram.png](/matrix_multiplication_diagram.png)
+ ![matrix_multiplication_answer.png](/matrix_multiplication_answer.png).
+ 
+ Notice how each entry in matrix *C* is the dot product of a row in matrix *A* and a column in matrix *B*
