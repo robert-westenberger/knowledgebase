@@ -2,7 +2,7 @@
 title: Matrix
 description: 
 published: true
-date: 2020-08-16T02:57:33.142Z
+date: 2020-08-16T03:11:12.393Z
 tags: mathematics, matrix
 editor: markdown
 ---
