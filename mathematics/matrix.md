@@ -2,7 +2,7 @@
 title: Matrix
 description: 
 published: true
-date: 2020-08-16T02:41:03.080Z
+date: 2020-08-16T02:48:15.077Z
 tags: mathematics, matrix
 editor: markdown
 ---
@@ -19,3 +19,5 @@ editor: markdown
 `);`
 
 ### Basic matrix operations
+
+* Scalar multiplication is multiplying a real number by a matrix. 
