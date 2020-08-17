@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-17T03:31:57.155Z
+date: 2020-08-17T03:34:25.839Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -53,4 +53,4 @@ the data-structure dependencies in our pograms to a small number of sequence ope
     `	const pairSumsThatArePrime = filter(is_prime_sum, sequenceOfOrderedPairsToN);`
     `	return map(make_pair_sum, pairSumsThatArePrime);`
 `}`
-Above, a way to find all ordered pairs of distinct integers *i* and *j* where 1 <= *j* < i <= *n*, such that i + j is prime. 
+Above, a way to find all ordered pairs of distinct integers *i* and *j* where 1 <= *j* < i <= *n*, such that i + j is prime. Integers are enumerated from 1 to n, and for each of those integers *i* 
