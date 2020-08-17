@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-17T03:22:07.506Z
+date: 2020-08-17T03:28:50.713Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -44,3 +44,12 @@ the data-structure dependencies in our pograms to a small number of sequence ope
       `  filter(is_programmer, records)));`
 
 ##### Nested Mappings
+* Sequences can be mapped and those mappings mapped themselves 
+
+`const prime_sum_pairs = n => {`
+    `	const sequenceOfOrderedPairsToN = flatmap(i => map(j => list(i, j),`
+        `		enumerate_interval(1, i - 1)),`
+        `		enumerate_interval(1, n));`
+    `	const pairSumsThatArePrime = filter(is_prime_sum, sequenceOfOrderedPairsToN);`
+    `	return map(make_pair_sum, pairSumsThatArePrime);`
+`}`
