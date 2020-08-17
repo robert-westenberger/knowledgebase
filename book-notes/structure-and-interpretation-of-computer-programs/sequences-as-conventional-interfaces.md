@@ -2,7 +2,7 @@
 title: Sequences as Conventional Interfaces
 description: 
 published: true
-date: 2020-08-10T03:07:42.031Z
+date: 2020-08-17T03:22:07.506Z
 tags: book-notes, data-structures, design-principles
 editor: markdown
 ---
@@ -42,3 +42,5 @@ the data-structure dependencies in our pograms to a small number of sequence ope
     `	0,`
     `map(salary,`
       `  filter(is_programmer, records)));`
+
+##### Nested Mappings
