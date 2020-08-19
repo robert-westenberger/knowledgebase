@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-08-19T00:59:42.879Z
+date: 2020-08-19T01:00:24.973Z
 tags: 
 editor: markdown
 ---
@@ -12,10 +12,9 @@ editor: markdown
 
 The function square_list takes a list of numbers as argument and returns a list of the squares of those numbers.
 
-console.log(square_list([1, 2, 3, 4]));
-// [1, 4, 9, 16];
 
 ##### Answer
+```
 const squareList1 = (items) => {
     return items.map((item) => {
         return item * item;
@@ -28,7 +27,7 @@ const squareList2 = (items) => {
         [current_val * current_val] :
         [current_val * current_val, ...squareList2(items)];
 }
-
+```
 #### Exercise 2.22
 Q/A question - skipped for now
 #### Exercise 2.23
