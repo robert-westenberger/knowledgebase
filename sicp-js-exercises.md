@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-08-19T00:58:59.354Z
+date: 2020-08-19T00:59:25.237Z
 tags: 
 editor: markdown
 ---
@@ -43,17 +43,18 @@ for_each(x => display(x),
 `88`
 
 ##### Answer
-
+```
 const for_each = (cb, elements) => {
     return (elements.length) ? [cb(elements.shift()), for_each(cb, elements)] : [];
 };
-
+```
 #### Exercise 2.37
 See [matrix](/mathematics/matrix) (basic matrix operations)
 
 #### Exercise 2.41
 > Write a function to find all ordered triples of distinct positive integers i, j, and k less than or equal to a given integer n that sum to a given integer s.
 
+##### Answer
 ```
 const unique_triples = (n) => {
     return flatmap(i => flatmap(j => map(k => list(i, j, k),
