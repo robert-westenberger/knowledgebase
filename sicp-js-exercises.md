@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-08-23T04:08:36.447Z
+date: 2020-08-23T05:14:30.929Z
 tags: 
 editor: markdown
 ---
@@ -86,3 +86,48 @@ tail(list(list("x1", "x2"), list("y1", "y2")));
 `[["y1", ["y2", null]], null]`
 tail(head(list(list("x1", "x2"), list("y1", "y2"))));
 `["x2", null]`
+
+
+#### Exercise 2.54
+Two lists are said to be equal if they contain equal elements arranged in the same order. For example,
+
+```equal(list("this", "is", "a", "list"), 
+      list("this", "is", "a", "list"));
+```      
+is true but 
+
+```equal(list("this", "is", "a", "list"),
+      list("this", list("is", "a"), "list"));
+```
+      
+is false. To be more precise, we can define equal recursively in terms of the basic === equality of strings by saying that a and b are equal with respect to equal if they are both strings and the strings are equal with respect to ===, or if they are both lists such that head(a) is equal with respect to equal to head(b) and tail(a) is equal with respect to equal to tail(b). Using this idea, implement equal as a function.
+
+```const equal = (a, b) => {
+    if (is_pair(a) && is_pair(b)) {
+        return equal(tail(a), tail(b)) && equal(head(a), head(b));
+    }
+    return a === b;
+}
+```
+
+Book answer is way more robust, testing multiple types..
+```
+function equal(xs, ys) {
+    return is_pair(xs)
+        ? (is_pair(ys) &&
+           equal(head(xs), head(ys)) && 
+           equal(tail(xs), tail(ys)))
+        : is_null(xs)
+        ? is_null(ys)
+        : is_number(xs)
+        ? (is_number(ys) && xs === ys)
+        : is_boolean(xs)
+        ? (is_boolean(ys) && ((xs && ys) || (!xs && !ys)))
+        : is_string(xs)
+        ? (is_string(xs) && xs === ys)
+        : is_undefined(xs)
+        ? is_undefined(ys)
+        : // we know now that xs is a function
+          (is_function(ys) && xs === ys);
+}
+```
