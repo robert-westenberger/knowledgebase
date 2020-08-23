@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-08-23T03:26:13.910Z
+date: 2020-08-23T03:52:48.750Z
 tags: 
 editor: markdown
 ---
@@ -76,3 +76,9 @@ const uniqueSumTriples = (n, s) => {
 ```
 #### Exercise 2.42 / 2.43
 Skipped for now
+
+#### Exercise 2.53
+list("a", "b", "c");
+`["a", ["b", ["c"]]];`
+list(list("george"));
+`[["george", null]];`
