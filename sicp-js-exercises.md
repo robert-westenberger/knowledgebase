@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-08-23T03:52:48.750Z
+date: 2020-08-23T03:55:06.206Z
 tags: 
 editor: markdown
 ---
@@ -82,3 +82,5 @@ list("a", "b", "c");
 `["a", ["b", ["c"]]];`
 list(list("george"));
 `[["george", null]];`
+tail(list(list("x1", "x2"), list("y1", "y2")));
+`[["y1", ["y2", null]], null]`
