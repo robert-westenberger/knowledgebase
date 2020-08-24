@@ -2,7 +2,7 @@
 title: 2.3.2 Example: Symbolic Differentiation
 description: 
 published: true
-date: 2020-08-24T03:16:18.300Z
+date: 2020-08-24T03:32:07.884Z
 tags: 
 editor: markdown
 ---
@@ -55,23 +55,30 @@ function multiplicand(s) {
 const error = (msg) => {
     console.error(msg);
 }
-function deriv(exp, variable) {
-    return is_number(exp)
-        ? 0
-        : is_variable(exp)
-            ? (is_same_variable(exp, variable)) ? 1 : 0
-            : is_sum(exp)
-                ? make_sum(deriv(addend(exp), variable),
-                    deriv(augend(exp), variable))
-                : is_product(exp)
-                    ? make_sum(make_product(multiplier(exp),
-                        deriv(multiplicand(exp),
-                            variable)),
-                        make_product(deriv(multiplier(exp),
-                            variable),
-                            multiplicand(exp)))
-                    : error(exp,
-                        "unknown expression type in deriv");
+const deriv = (exp, variable) => {
+    if (is_number(exp)) {
+        return 0;
+    }
+    if (is_variable(exp)) {
+        if (is_same_variable(exp, variable)) {
+            return 1;
+        }
+        return 0;
+    }
+    if (is_sum(exp)) {
+        return make_sum(deriv(addend(exp), variable),
+            deriv(augend(exp), variable));
+    }
+    if (is_product(exp)) {
+        return make_sum(make_product(multiplier(exp),
+            deriv(multiplicand(exp),
+                variable)),
+            make_product(deriv(multiplier(exp),
+                variable),
+                multiplicand(exp)));
+    }
+    return error(exp,
+        "unknown expression type in deriv");
 }
 ```
 
