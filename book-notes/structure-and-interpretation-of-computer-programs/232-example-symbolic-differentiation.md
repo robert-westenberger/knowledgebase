@@ -2,10 +2,13 @@
 title: 2.3.2 Example: Symbolic Differentiation
 description: 
 published: true
-date: 2020-08-23T05:30:30.235Z
+date: 2020-08-24T01:32:28.696Z
 tags: 
 editor: markdown
 ---
 
 # Example: Symbolic Differentiation
-Your content here
+
+
+
+### Derivation function and representation of algebraic expressions
