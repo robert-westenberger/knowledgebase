@@ -2,7 +2,7 @@
 title: 2.3.2 Example: Symbolic Differentiation
 description: 
 published: true
-date: 2020-08-24T03:10:31.189Z
+date: 2020-08-24T03:16:18.300Z
 tags: 
 editor: markdown
 ---
@@ -12,7 +12,8 @@ editor: markdown
 
 
 ### Derivation function and representation of algebraic expressions
-
+Here is a simple symbolic differentiation program that handles expressions that are built up using only the operations of addition and multiplication with two arguments. Differentiation of any such expression can be carried out by applying the following reduction rules:
+![reduction_rules_01.png](/reduction_rules_01.png)
 ```
 function is_same_variable(v1, v2) {
     return is_variable(v1) &&
