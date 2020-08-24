@@ -2,7 +2,7 @@
 title: 2.3.2 Example: Symbolic Differentiation
 description: 
 published: true
-date: 2020-08-24T01:36:11.530Z
+date: 2020-08-24T02:57:10.081Z
 tags: 
 editor: markdown
 ---
@@ -73,3 +73,5 @@ function deriv(exp, variable) {
                         "unknown expression type in deriv");
 }
 ```
+
+`ax+b` can be written as `list("+", list("*", "a", "x"), "b")`
