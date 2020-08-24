@@ -2,7 +2,7 @@
 title: 2.3.2 Example: Symbolic Differentiation
 description: 
 published: true
-date: 2020-08-24T03:32:07.884Z
+date: 2020-08-24T03:58:50.713Z
 tags: 
 editor: markdown
 ---
