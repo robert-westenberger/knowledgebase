@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-08-23T05:14:30.929Z
+date: 2020-08-28T02:07:51.078Z
 tags: 
 editor: markdown
 ---
@@ -131,3 +131,17 @@ function equal(xs, ys) {
           (is_function(ys) && xs === ys);
 }
 ```
+
+#### Exercise 2.57
+
+```
+function multiplier(s) {
+    return head(tail(s));
+}
+
+function multiplicand(s) {
+    return accumulate(make_product, 1, tail(tail(s)));
+}
+```
+#### Exercise 2.58 
+Skipped for now
