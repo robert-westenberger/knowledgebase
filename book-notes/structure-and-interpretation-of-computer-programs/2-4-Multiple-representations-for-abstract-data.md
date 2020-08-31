@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-08-31T02:16:36.595Z
+date: 2020-08-31T03:26:28.036Z
 tags: book-notes
 editor: markdown
 ---
@@ -24,6 +24,11 @@ Above program uses data tags to tag the different representations. When the diff
 
 ![complex_number_operation_table.png](/complex_number_operation_table.png)
 The current operations table for the complex number program.
+Following helper functions..
+`put(op, type, item)`
+installs the item in the table, indexed by the op and the type.
+`get(op, type)`
+looks up the op, type entry in the table and returns the item found there. If no item is found, get returns a unique primitive value that is referred to by the name undefined
 
 
 
