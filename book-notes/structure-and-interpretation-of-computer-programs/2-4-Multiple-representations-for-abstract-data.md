@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-08-31T02:08:14.158Z
+date: 2020-08-31T02:15:12.901Z
 tags: book-notes
 editor: markdown
 ---
@@ -20,7 +20,9 @@ Both representations can be used in the same system. The only thing that is need
 
 Above program uses data tags to tag the different representations. When the different representations are processed, data tags are added or stripped when they are interfacing with higher or lower level parts of the system. 
 
-Data-directed programming can be used to modularize the system even further. 
+**Data-directed programming** can be used to modularize the system even further. Whenever we deal with a set of generic operations that are common to a set of different types we are, in effect, dealing with a two dimensional table that contains the possible operations on one axis and the possible types on the other axis. The entries in the table are the functions that implement each operation for each type of argument presented. 
+
+
 
 
 
