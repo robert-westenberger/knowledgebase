@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-08-31T01:54:40.049Z
+date: 2020-08-31T02:06:11.962Z
 tags: book-notes
 editor: markdown
 ---
@@ -19,6 +19,8 @@ Both representations can be used in the same system. The only thing that is need
 ![complex_numbers_program.png](/complex_numbers_program.png)
 
 Above program uses data tags to tag the different representations. When the different representations are processed, data tags are added or stripped when they are interfacing with higher or lower level parts of the system. 
+
+
 
 
 
