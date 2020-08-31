@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-08-31T02:15:12.901Z
+date: 2020-08-31T02:16:36.595Z
 tags: book-notes
 editor: markdown
 ---
@@ -22,7 +22,8 @@ Above program uses data tags to tag the different representations. When the diff
 
 **Data-directed programming** can be used to modularize the system even further. Whenever we deal with a set of generic operations that are common to a set of different types we are, in effect, dealing with a two dimensional table that contains the possible operations on one axis and the possible types on the other axis. The entries in the table are the functions that implement each operation for each type of argument presented. 
 
-
+![complex_number_operation_table.png](/complex_number_operation_table.png)
+The current operations table for the complex number program.
 
 
 
