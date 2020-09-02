@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-09-02T02:42:39.911Z
+date: 2020-09-02T18:24:33.462Z
 tags: 
 editor: markdown
 ---
@@ -147,5 +147,5 @@ function multiplicand(s) {
 Skipped for now
 
 #### Exercise 2.73
-a. The deriv function was refactored to use data-directed programming. The operator of the expression makes
+a. The deriv function was refactored to use data-directed programming. The operator of the expression is the "type" key passed to *get*. Is_number and is_variable cannot be assimilated because there is no type key associated with them.
 
