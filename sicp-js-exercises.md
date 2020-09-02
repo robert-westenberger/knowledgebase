@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-08-28T02:07:51.078Z
+date: 2020-09-02T02:42:39.911Z
 tags: 
 editor: markdown
 ---
@@ -145,3 +145,7 @@ function multiplicand(s) {
 ```
 #### Exercise 2.58 
 Skipped for now
+
+#### Exercise 2.73
+a. The deriv function was refactored to use data-directed programming. The operator of the expression makes
+
