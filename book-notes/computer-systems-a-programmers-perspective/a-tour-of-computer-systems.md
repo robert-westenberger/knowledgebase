@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-04T22:49:46.106Z
+date: 2020-09-04T23:12:40.217Z
 tags: book-notes
 editor: markdown
 ---
@@ -13,4 +13,23 @@ editor: markdown
 ### Information is bits + context
 All information in a system is represented as a bunch of bits. A source file (hello.c) for a particular program ia a sequence of boolean bits organized in 8-bit chunks called bytes. The bytes of text characters are represented on most systems as ASCII. 
 
-hello.c
+`hello.c`
+```
+#include <stdio.h>
+
+int main ()
+{
+  printf("Hello, world\n");
+  return 0;
+}
+```
+
+On a unix system the above source file will go through multiple transformations. 
+
+1. Directives (#include statement) will be inserted into the program text. 
+
+2. This program will be transformed into an assembly-language program. Assembly language is useful because it provides a common output language for different compilers for different high-level languages. For example, C compilers and Fortran compilers both generate output in the same assembly language.
+
+3. The assember will translate the assembly code into machine language instructions, packages it in a form known as a relocatable object program. At this point it is a binary file. 
+
+4. The linker will link called functions that are part of the standard C library. The result is a hello file, which is an executable object file that is ready to be loaded into memory and executed by the system. 
