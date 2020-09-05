@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-05T05:16:25.141Z
+date: 2020-09-05T05:27:41.370Z
 tags: book-notes
 editor: markdown
 ---
@@ -58,3 +58,6 @@ The operating system has some abstractions of its own.
 * A process can consist of multiple execution units called threads, each running in the context of the process and sharing the same code and global data. 
 * Virtual memory is an abstraction that provides each process with the illusion that it has exclusive use of the main memory. 
 * A file is a sequence of bytes. It is an abstraction to represent many i/o device, abstracting away specific i/o technology. 
+
+### Important themes
+* Amdahl's law - The main idea is that when we speed up one part of a system, the effect on the overall system performance depends on both how significant the part was and how much it was sped up. 
