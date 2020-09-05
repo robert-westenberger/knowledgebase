@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-05T03:30:54.838Z
+date: 2020-09-05T05:16:25.141Z
 tags: book-notes
 editor: markdown
 ---
@@ -54,3 +54,7 @@ At the top of the hierarchy are smaller, faster, and costlier per byte storage d
 2. To provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices. 
 
 The operating system has some abstractions of its own. 
+* A process is the operating system's abstraction for a running program. A single core CPU can appear to run multiple processes concurrently by interleaving processes with a mechanism known as context switching. 
+* A process can consist of multiple execution units called threads, each running in the context of the process and sharing the same code and global data. 
+* Virtual memory is an abstraction that provides each process with the illusion that it has exclusive use of the main memory. 
+* A file is a sequence of bytes. It is an abstraction to represent many i/o device, abstracting away specific i/o technology. 
