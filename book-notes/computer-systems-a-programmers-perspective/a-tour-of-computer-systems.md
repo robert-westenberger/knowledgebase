@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-05T03:18:17.278Z
+date: 2020-09-05T03:21:50.756Z
 tags: book-notes
 editor: markdown
 ---
@@ -40,4 +40,11 @@ On a unix system the above source file will go through multiple transformations.
 Buses transfer fixed-size chunks of bytes known as words (8 bytes, 64 bits on a x86-64 system. I/O devices (mouses, hard disk, display) are connected to the I/O bus through controllers or adapters. Main memory is a temporary storage device that holds both a program and the data it manipulates while the processor is e xecuting the program. The CPU executres / interprets the instructions stored in main memory. 
 
 ### Memory is a hierarchy
+
+At the top of the hierarchy are smaller, faster, and costlier per byte storage devices. At the bottom are larger, slower, and cheaper. From top to bottom
+1. CPU registers that hold individual words retrieved from cache memory
+2. A series of L1 -> LN memory caches
+3. Main memory
+4. Local secondary storage (SSD/ HDD)
+5. Remote secondary storage (distributed file systems, networks, web servers)
 
