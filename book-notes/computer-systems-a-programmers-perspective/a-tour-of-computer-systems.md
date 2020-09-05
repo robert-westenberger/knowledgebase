@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-05T03:29:49.638Z
+date: 2020-09-05T03:30:54.838Z
 tags: book-notes
 editor: markdown
 ---
