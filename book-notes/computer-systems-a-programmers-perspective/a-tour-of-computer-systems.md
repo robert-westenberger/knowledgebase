@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-04T23:12:40.217Z
+date: 2020-09-05T02:36:50.628Z
 tags: book-notes
 editor: markdown
 ---
@@ -33,3 +33,9 @@ On a unix system the above source file will go through multiple transformations.
 3. The assember will translate the assembly code into machine language instructions, packages it in a form known as a relocatable object program. At this point it is a binary file. 
 
 4. The linker will link called functions that are part of the standard C library. The result is a hello file, which is an executable object file that is ready to be loaded into memory and executed by the system. 
+
+
+### Hardware organization of a System
+
+Buses transfer fixed-size chunks of bytes known as words (8 bytes, 64 bits on a x86-64 system. I/O devices (mouses, hard disk, display) are connected to the I/O bus through controllers or adapters. Main memory is a temporary storage device that holds both a program and the data it manipulates while the processor is e xecuting the program. The CPU executres / interprets the instructions stored in main memory. 
+
