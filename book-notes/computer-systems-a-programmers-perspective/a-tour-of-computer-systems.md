@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-05T05:27:41.370Z
+date: 2020-09-05T05:42:49.632Z
 tags: book-notes
 editor: markdown
 ---
@@ -61,3 +61,5 @@ The operating system has some abstractions of its own.
 
 ### Important themes
 * Amdahl's law - The main idea is that when we speed up one part of a system, the effect on the overall system performance depends on both how significant the part was and how much it was sped up. 
+* Concurrency - the general concept of a system with multiple, simultaneous activities
+* Parallelism - the use of concurrency to make a system run faster. 
