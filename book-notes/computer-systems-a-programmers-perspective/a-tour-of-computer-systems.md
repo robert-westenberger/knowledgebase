@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-05T03:21:50.756Z
+date: 2020-09-05T03:29:49.638Z
 tags: book-notes
 editor: markdown
 ---
@@ -48,3 +48,9 @@ At the top of the hierarchy are smaller, faster, and costlier per byte storage d
 4. Local secondary storage (SSD/ HDD)
 5. Remote secondary storage (distributed file systems, networks, web servers)
 
+### The operating system manages the hardware
+* The operating system can be thought of as a layer of software interposed between the application program and the hardware. The OS has two primary purposes: 
+1. To protect the hardware form misuse by runaway applications
+2. To provide applications with simple and uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices. 
+
+The operating system has some abstractions of its own. 
