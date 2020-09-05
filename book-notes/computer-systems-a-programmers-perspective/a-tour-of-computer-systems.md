@@ -2,7 +2,7 @@
 title: Chapter 1: A Tour of Computer Systems
 description: 
 published: true
-date: 2020-09-05T02:36:50.628Z
+date: 2020-09-05T03:18:17.278Z
 tags: book-notes
 editor: markdown
 ---
@@ -38,4 +38,6 @@ On a unix system the above source file will go through multiple transformations.
 ### Hardware organization of a System
 
 Buses transfer fixed-size chunks of bytes known as words (8 bytes, 64 bits on a x86-64 system. I/O devices (mouses, hard disk, display) are connected to the I/O bus through controllers or adapters. Main memory is a temporary storage device that holds both a program and the data it manipulates while the processor is e xecuting the program. The CPU executres / interprets the instructions stored in main memory. 
+
+### Memory is a hierarchy
 
