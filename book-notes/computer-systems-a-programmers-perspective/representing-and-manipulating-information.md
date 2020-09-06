@@ -2,7 +2,7 @@
 title: Chapter 2: Representing and Manipulating Information
 description: 
 published: true
-date: 2020-09-06T03:51:50.548Z
+date: 2020-09-06T04:06:23.953Z
 tags: book-notes
 editor: markdown
 ---
@@ -57,9 +57,12 @@ int main() {
 }
 ```
 
-Program output... (64 bit linux) 
+Program output... (64 bit linux) . its little endian. Note the 8-byte / 64 bit memory address. 
 ```
  39 30 00 00
  00 e4 40 46
  f8 a4 03 ed fe 7f 00 00
  ```
+ 
+ 
+ 
