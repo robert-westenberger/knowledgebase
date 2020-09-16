@@ -2,7 +2,7 @@
 title: Chapter 2: Representing and Manipulating Information
 description: 
 published: true
-date: 2020-09-06T04:06:23.953Z
+date: 2020-09-16T03:29:15.573Z
 tags: book-notes
 editor: markdown
 ---
