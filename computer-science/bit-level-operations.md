@@ -2,7 +2,7 @@
 title: Bit Level Operations
 description: 
 published: true
-date: 2020-09-18T03:29:39.113Z
+date: 2020-09-18T03:35:15.934Z
 tags: 
 editor: markdown
 ---
@@ -17,4 +17,6 @@ editor: markdown
 * Or - Binary operation, taking two equal-length bit patterns and performs inclusive OR. Returns 0 iff both bits are 0, else return 1.
 * XOR - Binary operation, taking two equal-length bit patterns and performs logical exclusive OR. If both bits compared are 0 or 1, it will return 1. Any other combination returns 0.
 #### Bit masking
-* Above operations can be used to implement masking operations. A mask is a bit pattern that indicates a selected set of bits within a word.
+* Above operations can be used to implement masking operations. 
+* A mask is a bit pattern that indicates a selected set of bits within a word.
+
