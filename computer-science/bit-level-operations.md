@@ -2,7 +2,7 @@
 title: Bit Level Operations
 description: 
 published: true
-date: 2020-09-18T05:23:50.808Z
+date: 2020-09-23T03:12:43.447Z
 tags: 
 editor: markdown
 ---
@@ -22,3 +22,5 @@ editor: markdown
 
 #### Bit vectors / arrays / maps
 * Strings of bits of fixed length w.  
+
+#### Bit vector implementation of set operations
