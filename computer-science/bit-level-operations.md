@@ -2,7 +2,7 @@
 title: Bit Level Operations
 description: 
 published: true
-date: 2020-09-23T03:22:32.059Z
+date: 2020-09-23T03:30:47.977Z
 tags: 
 editor: markdown
 ---
@@ -24,4 +24,9 @@ editor: markdown
 * Strings of bits of fixed length w.  
 
 #### Bit vector implementation of set operations
-* Sets are represented with a single integer in which bit~i~ x is 1 iff x is in the set. Bit vector a=[01101001] encodes the set { 0, 3, 5, 6}. (Bits written a~w-1~ on the left and a~0~ on the right ([a~w-1~, a~w-2~, ..., a~0~]))
+* Sets are represented with a single integer in which bit~i~ x is 1 iff x is in the set. Bit vector a=[01101001] encodes the set {0, 3, 5, 6}. (Remember Bits written a~w-1~ on the left and a~0~ on the right ([a~w-1~, a~w-2~, ..., a~0~]))
+* With above representation, intersection of two sets is written with binary AND(&).
+* Union of two sets is binary OR(|)
+* Set difference is a binary AND NOT (x & ~y)
+* Symmetric set difference is binary XOR
+
