@@ -2,7 +2,7 @@
 title: Chapter 2: Representing and Manipulating Information
 description: 
 published: true
-date: 2020-09-16T03:45:49.706Z
+date: 2020-09-23T03:36:36.642Z
 tags: book-notes
 editor: markdown
 ---
@@ -63,6 +63,8 @@ Program output... (64 bit linux) . its little endian. Note the 8-byte / 64 bit m
  00 e4 40 46
  f8 a4 03 ed fe 7f 00 00
  ```
+ 
+ [bit-level-operations](/computer-science/bit-level-operations)
  
  
  
