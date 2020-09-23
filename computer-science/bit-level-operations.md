@@ -2,7 +2,7 @@
 title: Bit Level Operations
 description: 
 published: true
-date: 2020-09-23T03:30:47.977Z
+date: 2020-09-23T03:33:38.210Z
 tags: 
 editor: markdown
 ---
@@ -19,6 +19,7 @@ editor: markdown
 #### Bit masking
 * Above operations can be used to implement masking operations. 
 * A mask is a bit pattern that indicates a selected set of bits within a word.
+* For example, the bit-level operation x & 0xFF yields a value consisting of the least significant byte of x, but with all other bytes set to 0. 
 
 #### Bit vectors / arrays / maps
 * Strings of bits of fixed length w.  
