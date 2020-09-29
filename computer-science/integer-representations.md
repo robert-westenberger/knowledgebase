@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-29T01:28:33.270Z
+date: 2020-09-29T01:36:14.102Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -15,4 +15,5 @@ editor: markdown
 #### Unsigned Encodings
 * Unsigned encodings
 	* An integer can be encoded as a bit vector. 
+  $\sum_{i=1}^\infty\frac{1}{n^2}=\frac{\pi^2}{6}$
   
