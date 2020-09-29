@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-29T01:40:45.109Z
+date: 2020-09-29T01:55:38.884Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -15,5 +15,5 @@ editor: markdown
 #### Unsigned Encodings
 * Unsigned encodings
 	* An integer can be encoded as a bit vector. 
-  $$B2U_{w}\sum_{i=1}^\infty\frac{1}{n^2}=\frac{\pi^2}{6}$$
+  $$B2U_{w}(\overrightarrow{x})\doteq\sum_{i=0}^{w-1}x_12^i$$
   
