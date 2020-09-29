@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-29T02:04:30.834Z
+date: 2020-09-29T02:27:35.964Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -13,12 +13,20 @@ editor: markdown
 * C integral data types ( char, short, int, long, signed and unsigned) have different minimum and maximum allocatable bytes (dependent on whether its compiled on 32 or 64 bit machines). 
 
 #### Unsigned Encodings
-* Unsigned encodings
+* Binary unsigned encodings
 	* An integer can be encoded as a bit vector. The below equation (binary to unsigned) maps strings of zeros and ones of length *w* to nonnegative integers..
   $$B2U_{w}(\overrightarrow{x})\doteq\sum_{i=0}^{w-1}x_12^i$$
 
 For example...
 
   $B2U_{4}([0101])$ = 0 * 2^3^ + 1 * 2^2^ + 0 * 2^1^ + 1 * 2^0^ =  5
+  
+  * The smallest possible value of *w* bits would be all 0s and the greatest would be all 1s. (denoted as $UMax_w$). Using a 4-bit representation as an example
+  $$UMax_4=B2U_{4}([1111])=2^4-1=15$$
+  
+ 
+
+
+  
   
   
