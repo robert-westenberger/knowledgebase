@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-29T02:01:39.820Z
+date: 2020-09-29T02:03:01.585Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -19,6 +19,6 @@ editor: markdown
 
 For example...
 
-  $$B2U_{4}([0001])$$
+  $$B2U_{4}([0101])$$ = 
   
   
