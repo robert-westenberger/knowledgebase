@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-29T02:37:35.624Z
+date: 2020-09-29T02:38:52.412Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -27,5 +27,5 @@ For example...
 ##### Two's-Complement Encodings
 * The most common representation of signed numbers. It is defined as interpreting the most significant bit of a particular word to have negative weight. 
 * The definition of two's-complement encoding for a particular bit vector 
-$$B2T_w(\overrightarrow{x})\doteq-x_{w-1}2^{w-1}+$$
+$$B2T_w(\overrightarrow{x})\doteq-x_{w-1}2^{w-1}+\sum_{i=0}^{w-2}x_i2^i$$
   
