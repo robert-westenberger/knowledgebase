@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-29T01:55:38.884Z
+date: 2020-09-29T02:01:39.820Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -14,6 +14,11 @@ editor: markdown
 
 #### Unsigned Encodings
 * Unsigned encodings
-	* An integer can be encoded as a bit vector. 
+	* An integer can be encoded as a bit vector. The below equation (binary to unsigned) maps strings of zeros and ones of length *w* to nonnegative integers..
   $$B2U_{w}(\overrightarrow{x})\doteq\sum_{i=0}^{w-1}x_12^i$$
+
+For example...
+
+  $$B2U_{4}([0001])$$
+  
   
