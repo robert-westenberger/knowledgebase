@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-29T02:03:01.585Z
+date: 2020-09-29T02:04:30.834Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -19,6 +19,6 @@ editor: markdown
 
 For example...
 
-  $$B2U_{4}([0101])$$ = 
+  $B2U_{4}([0101])$ = 0 * 2^3^ + 1 * 2^2^ + 0 * 2^1^ + 1 * 2^0^ =  5
   
   
