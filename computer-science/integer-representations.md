@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-30T03:01:22.450Z
+date: 2020-09-30T03:05:35.308Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -31,5 +31,7 @@ For example...
 
 $$ B2T_w(\overrightarrow{x})\doteq-x_{w-1}2^{w-1}+\sum_{i=0}^{w-2}x_i2^i $$
 
-
-The most significant bit $x_{w-1}$ is the *sign bit*. When the sign bit is 1, the represented value is negative, and when it is 0 the represented value is positive. 
+* The most significant bit $x_{w-1}$ is the *sign bit*. When the sign bit is 1, the represented value is negative, and when it is 0 the represented value is positive. 
+* Examples (also using a 4 bit representation)
+$B2T_{4}([0101])$ = -0 * 2^3^ + 1 * 2^2^ + 0 * 2^1^ + 1 * 2^0^ =  5
+$B2T_{4}([1111])$ = -1 * 2^3^ + 1 * 2^2^ + 1 * 2^1^ + 1 * 2^0^ =  -1
