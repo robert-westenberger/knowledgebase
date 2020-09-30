@@ -2,7 +2,7 @@
 title: Integer Representations
 description: 
 published: true
-date: 2020-09-30T03:11:10.908Z
+date: 2020-09-30T03:12:21.509Z
 tags: computer-science, computer
 editor: markdown
 ---
@@ -35,3 +35,4 @@ $$ B2T_w(\overrightarrow{x})\doteq-x_{w-1}2^{w-1}+\sum_{i=0}^{w-2}x_i2^i $$
 * Examples (also using a 4 bit representation)
 $B2T_{4}([0101])$ = -0 * 2^3^ + 1 * 2^2^ + 0 * 2^1^ + 1 * 2^0^ =  5
 $B2T_{4}([1111])$ = -1 * 2^3^ + 1 * 2^2^ + 1 * 2^1^ + 1 * 2^0^ =  -1
+* The range of a 4 bit representation would be -8 to 7.
