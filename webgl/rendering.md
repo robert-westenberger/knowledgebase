@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-03T05:45:55.377Z
+date: 2020-10-03T05:51:46.912Z
 tags: 
 editor: markdown
 ---
@@ -17,3 +17,4 @@ editor: markdown
 * Camera - Canvas element is the viewport into the 3D scene containing objects and lights. Different matrix operations are performed to produce a different perspective. 
 
 #### WebGL Rendering Pipeline
+* WebGL uses a **vertex shader** and **fragment shader** which runs on the GPU. The vertex shader computes values that can be used to rasterize geometric primitives (points, lines, triangles). The fragment shader computes a color for each pixel of the primitive being drawn. 
