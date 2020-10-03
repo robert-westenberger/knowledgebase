@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-03T05:54:20.239Z
+date: 2020-10-03T05:58:55.706Z
 tags: 
 editor: markdown
 ---
@@ -18,3 +18,6 @@ editor: markdown
 
 #### WebGL Rendering Pipeline
 * WebGL uses a **vertex shader** and **fragment shader** which runs on the GPU. The vertex shader computes values that can be used to rasterize geometric primitives (points, lines, triangles). The fragment shader computes a color for each pixel of the primitive being drawn. 
+
+* **Vertex Buffer Objects** (VBOs) - contain vertex coordinates that is used to describe the geometry to be rendered in 3D space. 
+* **Index Buffer Objects** (IBOs) - contain info about the relationship of vertices as rendering pipeline constructs the primitives.
