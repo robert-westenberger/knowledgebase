@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-03T05:58:55.706Z
+date: 2020-10-03T06:11:39.627Z
 tags: 
 editor: markdown
 ---
@@ -21,3 +21,5 @@ editor: markdown
 
 * **Vertex Buffer Objects** (VBOs) - contain vertex coordinates that is used to describe the geometry to be rendered in 3D space. 
 * **Index Buffer Objects** (IBOs) - contain info about the relationship of vertices as rendering pipeline constructs the primitives.
+* **Vertex shader** called on each VBO, manipulating coordinates, colors, texture coords.
+* **Fragment Shader** 
