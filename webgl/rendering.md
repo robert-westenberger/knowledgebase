@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-03T04:29:34.374Z
+date: 2020-10-03T05:45:47.144Z
 tags: 
 editor: markdown
 ---
@@ -15,3 +15,5 @@ editor: markdown
 * Objects - 3D elements that make of the scene, rendered by WebGL using **buffers**.
 * Lights - WebGL uses **shaders** to model lights in the scene. 
 * Camera - Canvas element is the viewport into the 3D scene containing objects and lights. Different matrix operations are performed to produce a different perspective. 
+
+#### WebGL Rendering Pipeline
