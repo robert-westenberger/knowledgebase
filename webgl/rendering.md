@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T02:15:59.243Z
+date: 2020-10-04T02:21:52.669Z
 tags: 
 editor: markdown
 ---
@@ -79,3 +79,8 @@ function initBuffers() {
   gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, null);
 }
 ```
+* For every buffer, we want to..
+  * Create a new buffer
+  * Bind it to make it the current buffer
+  * Pass the buffer data using one of the typed arrays
+  * Unbind the buffer
