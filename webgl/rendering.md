@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T04:41:22.114Z
+date: 2020-10-04T05:25:25.733Z
 tags: 
 editor: markdown
 ---
@@ -92,3 +92,11 @@ function initBuffers() {
 3. Enable the attribute
 4. Unbind.
 ![pointing_attribute_to_currently_bound_vbo.png](/pointing_attribute_to_currently_bound_vbo.png)
+
+## Rendering
+Once VBOs have been defined and mapped to corresponding vertex shader attributes, we are ready to render. WebGL provides *drawArrays* sor *drawElements*, both writing to the framebuffer. Both will only use enabled arrays.
+* drawarrays - uses vertex data in the order in which its defined in the buffer to create the geometry.
+* drawelements - uses indices to access vertex data buffers to create the geometry. 
+
+### Using drawArrays
+
