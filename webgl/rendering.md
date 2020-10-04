@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T03:27:31.712Z
+date: 2020-10-04T03:29:57.061Z
 tags: 
 editor: markdown
 ---
@@ -91,3 +91,4 @@ function initBuffers() {
 2. Point an attribute to the currently-bound VBO
 3. Enable the attribute
 4. Unbind.
+
