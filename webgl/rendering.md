@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T02:50:38.550Z
+date: 2020-10-04T03:00:17.944Z
 tags: 
 editor: markdown
 ---
@@ -84,3 +84,11 @@ function initBuffers() {
   * Bind it to make it the current buffer
   * Pass the buffer data using one of the typed arrays
   * Unbind the buffer
+  
+#### Associating Attributes to VBOs 
+![associating_attributes_to_vbos.png](/associating_attributes_to_vbos.png)
+1. Bind a VBO
+`gl.bindBuffer(gl.ARRAY_BUFFER, myBuffer);`
+2. Point an attribute to the currently-bound VBO
+3. Enable the attribute
+4. Unbind.
