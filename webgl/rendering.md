@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T05:25:25.733Z
+date: 2020-10-04T06:28:01.505Z
 tags: 
 editor: markdown
 ---
@@ -99,4 +99,4 @@ Once VBOs have been defined and mapped to corresponding vertex shader attributes
 * drawelements - uses indices to access vertex data buffers to create the geometry. 
 
 ### Using drawArrays
-
+drawArrays is used when the geometry is simple enough that defining indices is overkill.![drawarrays.png](/drawarrays.png)
