@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T01:37:28.069Z
+date: 2020-10-04T02:14:53.099Z
 tags: 
 editor: markdown
 ---
@@ -33,3 +33,6 @@ editor: markdown
 * **Vertices** - floating point X,Y,Z coordinates of the points that define corners of 3D objects. WebGL requires vertices to be written in a JS array, which can be used to construct a WebGL buffer. 
 * **Indices** - numeric labels for vertices in a given 3D scene.
 ![defining_geometry_webgl.png](/defining_geometry_webgl.png)
+
+* WebGL uses Javascript Typed Arrays (Int16Array for IBOs since they are always integers, Float32Array for VBOs since vertexes can be floats) for buffer data.
+* U 
