@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-03T06:11:39.627Z
+date: 2020-10-04T01:37:28.069Z
 tags: 
 editor: markdown
 ---
@@ -21,5 +21,15 @@ editor: markdown
 
 * **Vertex Buffer Objects** (VBOs) - contain vertex coordinates that is used to describe the geometry to be rendered in 3D space. 
 * **Index Buffer Objects** (IBOs) - contain info about the relationship of vertices as rendering pipeline constructs the primitives.
-* **Vertex shader** called on each VBO, manipulating coordinates, colors, texture coords.
-* **Fragment Shader** 
+* **Vertex shader** -  called on each VBO, manipulating coordinates, colors, texture coords.
+* **Fragment Shader** - calculates the colors of individual pixels.
+* **Framebuffer** - contains fragments that have been processed by the fragment shader.
+* **Attributes** - Vertex attributes are used to communicate from "outside" to the vertex shader. Values are provided per vertex.
+* **Uniforms** - Constants available to both the vertex and fragment shader during a rendering cycle. The position of a light is often modeled as a uniform.
+* **Textures** - Arrays of data accessible by the shader program. 
+* **Varyings** - Used to pass data from vertex to fragment shader.
+
+#### Creating a simple geometric object in 3D space
+* **Vertices** - floating point X,Y,Z coordinates of the points that define corners of 3D objects. WebGL requires vertices to be written in a JS array, which can be used to construct a WebGL buffer. 
+* **Indices** - numeric labels for vertices in a given 3D scene.
+![defining_geometry_webgl.png](/defining_geometry_webgl.png)
