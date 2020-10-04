@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T02:21:52.669Z
+date: 2020-10-04T02:21:58.560Z
 tags: 
 editor: markdown
 ---
