@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T03:05:25.385Z
+date: 2020-10-04T03:07:36.642Z
 tags: 
 editor: markdown
 ---
@@ -88,9 +88,6 @@ function initBuffers() {
 #### Associating Attributes to VBOs 
 ![associating_attributes_to_vbos.png](/associating_attributes_to_vbos.png)
 1. Bind a VBO
-`gl.bindBuffer(gl.ARRAY_BUFFER, myBuffer);` 
 2. Point an attribute to the currently-bound VBO
-`gl.vertexAttribPointer(index, size, type, normalize, stride, offset);`
 3. Enable the attribute
-`gl.enableVertexAttribArray(positionAttributeLocation);.`
 4. Unbind.
