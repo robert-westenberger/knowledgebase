@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-04T02:14:53.099Z
+date: 2020-10-04T02:15:59.243Z
 tags: 
 editor: markdown
 ---
@@ -35,4 +35,47 @@ editor: markdown
 ![defining_geometry_webgl.png](/defining_geometry_webgl.png)
 
 * WebGL uses Javascript Typed Arrays (Int16Array for IBOs since they are always integers, Float32Array for VBOs since vertexes can be floats) for buffer data.
-* U 
+* Definitions of VBOs and IBOs for a square.
+```
+// Set up the buffers for the square
+function initBuffers() {
+  /*
+    V0                    V3
+    (-0.5, 0.5, 0)        (0.5, 0.5, 0)
+    X---------------------X
+    |                     |
+    |                     |
+    |       (0, 0)        |
+    |                     |
+    |                     |
+    X---------------------X
+    V1                    V2
+    (-0.5, -0.5, 0)       (0.5, -0.5, 0)
+  */
+  const vertices = [
+    -0.5, 0.5, 0,
+    -0.5, -0.5, 0,
+    0.5, -0.5, 0,
+    0.5, 0.5, 0
+  ];
+
+  // Indices defined in counter-clockwise order
+  indices = [0, 1, 2, 0, 2, 3];
+
+  // Setting up the VBO
+  squareVertexBuffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, squareVertexBuffer);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), 
+   gl.STATIC_DRAW);
+
+  // Setting up the IBO
+  squareIndexBuffer = gl.createBuffer();
+  gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, squareIndexBuffer);
+  gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices), 
+   gl.STATIC_DRAW);
+
+  // Clean
+  gl.bindBuffer(gl.ARRAY_BUFFER, null);
+  gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, null);
+}
+```
