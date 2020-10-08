@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-07T03:39:58.161Z
+date: 2020-10-08T02:07:35.850Z
 tags: 
 editor: markdown
 ---
@@ -104,4 +104,5 @@ drawArrays is used when the geometry is simple enough that defining indices is o
 drawElements can use the IndexBufferObject to tell WebGL how to render the geometry. drawElements uses indices.. vertices are only processed once, and can be used as many times as they are defined in the IBO. This reduces memory and processing required on the GPU.
 
 #### Vertex Array Objects
-* Allow vertex/index binding information (state of attributes, which buffers to use for each attribute, how to pull data out) for a set of buffers in a single, 
+* Allow vertex/index binding information (state of attributes, which buffers to use for each attribute, how to pull data out) for a set of buffers in a single manageable object.
+* The VAO can store attributes data at initialization. 
