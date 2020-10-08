@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-08T04:04:50.087Z
+date: 2020-10-08T04:06:18.417Z
 tags: 
 editor: markdown
 ---
@@ -107,5 +107,4 @@ drawElements can use the IndexBufferObject to tell WebGL how to render the geome
 * Allow vertex/index binding information (state of attributes, which buffers to use for each attribute, how to pull data out) for a set of buffers in a single manageable object.
 * The VAO can store attributes data at initialization. 
 
-#### WebGL as a State Machine: Buffer manipulation
-* 
+#### Advanced Geometry-Loading Techniques
