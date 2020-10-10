@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-10T04:01:34.347Z
+date: 2020-10-10T04:02:50.690Z
 tags: 
 editor: markdown
 ---
@@ -110,5 +110,5 @@ drawElements can use the IndexBufferObject to tell WebGL how to render the geome
 #### Summary
 
 - The WebGL API itself is just a rasterizer and, conceptually, is fairly simple.
-- WebGL's rendering pipeline describes how the WebGL buffers are used and passed in the form of attributes to be processed by the vertex shader. The vertex shader parallelizes vertex processing in the GPU. Vertices define the surface of the geometry that is going to be rendered. Every element on this surface is known as a fragment. These fragments are processed by the fragment shader (also occurs in parallel in the GPU).
-- 
+- WebGL's rendering pipeline describes how the WebGL buffers are used and passed in the form of attributes to be processed by the vertex shader. The vertex shader parallelizes vertex processing in the GPU. Vertices define the surface of the geometry that is going to be rendered. Every element on this surface is known as a fragment. These fragments are processed by the fragment shader (also occurs in parallel in the GPU). When all fragments have been processed, the framebuffer ( a two-dimensional array ) contains the image that is then displayed to the screen.
+ 
