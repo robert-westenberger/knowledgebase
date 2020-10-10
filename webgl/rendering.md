@@ -2,7 +2,7 @@
 title: Rendering
 description: 
 published: true
-date: 2020-10-08T04:06:18.417Z
+date: 2020-10-10T04:01:34.347Z
 tags: 
 editor: markdown
 ---
@@ -107,4 +107,8 @@ drawElements can use the IndexBufferObject to tell WebGL how to render the geome
 * Allow vertex/index binding information (state of attributes, which buffers to use for each attribute, how to pull data out) for a set of buffers in a single manageable object.
 * The VAO can store attributes data at initialization. 
 
-#### Advanced Geometry-Loading Techniques
+#### Summary
+
+- The WebGL API itself is just a rasterizer and, conceptually, is fairly simple.
+- WebGL's rendering pipeline describes how the WebGL buffers are used and passed in the form of attributes to be processed by the vertex shader. The vertex shader parallelizes vertex processing in the GPU. Vertices define the surface of the geometry that is going to be rendered. Every element on this surface is known as a fragment. These fragments are processed by the fragment shader (also occurs in parallel in the GPU).
+- 
