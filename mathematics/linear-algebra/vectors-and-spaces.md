@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-10-10T07:33:37.885Z
+date: 2020-10-10T07:36:44.402Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
