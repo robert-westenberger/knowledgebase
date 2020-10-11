@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-10-11T03:34:48.336Z
+date: 2020-10-11T03:59:36.065Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -28,3 +28,4 @@ $$ cv + dw = c\begin{bmatrix}
 c + 2d \\
 c + 3d 
 \end{bmatrix}$$
+
