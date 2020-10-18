@@ -2,7 +2,7 @@
 title: Zero Vector
 description: 
 published: true
-date: 2020-10-18T07:26:04.165Z
+date: 2020-10-18T07:26:21.197Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
