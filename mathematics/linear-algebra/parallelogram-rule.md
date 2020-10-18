@@ -2,7 +2,7 @@
 title: Parallelogram Rule
 description: 
 published: true
-date: 2020-10-18T06:48:49.427Z
+date: 2020-10-18T07:00:16.568Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
