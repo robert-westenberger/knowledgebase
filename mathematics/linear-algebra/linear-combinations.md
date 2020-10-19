@@ -2,7 +2,7 @@
 title: Linear Combinations
 description: 
 published: true
-date: 2020-10-19T17:54:34.724Z
+date: 2020-10-19T17:59:10.785Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -31,4 +31,15 @@ $$x_1\begin{bmatrix}
 1 \\ -4
 \end{bmatrix} = \begin{bmatrix}
 9\\6
+\end{bmatrix}$$
+Can be written as a system of linear equations..
+$$ x_1 + x_2 = 9$$
+$$ 2x_1 + 4x_2 = 6$$
+Solving gives us
+$$\begin{bmatrix}
+9\\ 6 
+\end{bmatrix} + 7\begin{bmatrix}
+1 \\ 2
+\end{bmatrix} = 2\begin{bmatrix}
+1\\-4
 \end{bmatrix}$$
