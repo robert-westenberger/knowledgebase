@@ -2,7 +2,7 @@
 title: Linear Combinations
 description: 
 published: true
-date: 2020-10-19T17:11:37.406Z
+date: 2020-10-19T17:18:30.148Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -13,3 +13,12 @@ $$\textit{a}\textbf{v}+\textit{b}\textbf{w}$$
 where a and b are scalars. 
 
 #### Examples
+The vector (6, 8, 10) is a linear combination of vectors (1, 1, 1) and (1, 2, 3) since
+
+$$\begin{bmatrix}
+6 \\ 8 \\ 10
+\end{bmatrix} =4 \begin{bmatrix}
+1 \\ 1 \\ 1
+\end{bmatrix} + 2 \begin{bmatrix}
+1\\ 2 \\ 3
+\end{bmatrix}$$
