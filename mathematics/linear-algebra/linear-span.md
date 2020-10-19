@@ -2,7 +2,7 @@
 title: Linear Spans
 description: 
 published: true
-date: 2020-10-19T04:05:32.277Z
+date: 2020-10-19T04:16:45.514Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -28,4 +28,5 @@ $$s \begin{bmatrix}
 which simplifies to 
 $$\begin{bmatrix}
 s\\t\\t
-\end{bmatrix} $$
+\end{bmatrix} $$ 
+The span of vectors (1, 0, 0) and (0, 1, 1) is the set of all vectors in $\Reals^3$ whose second and third entries are the same.
