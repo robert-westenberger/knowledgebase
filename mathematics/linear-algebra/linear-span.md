@@ -2,7 +2,7 @@
 title: Linear Spans
 description: 
 published: true
-date: 2020-10-19T04:00:50.623Z
+date: 2020-10-19T04:03:56.061Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -25,4 +25,7 @@ $$s \begin{bmatrix}
 \end{bmatrix} + t \begin{bmatrix}
 0\\ 1 \\ 1
 \end{bmatrix}$$
-which simplifies 
+which simplifies to 
+$$\begin{bmatrix}
+s\\t\\t
+\end{bmatrix} $$
