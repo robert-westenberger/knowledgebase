@@ -2,7 +2,7 @@
 title: Linear Combinations
 description: 
 published: true
-date: 2020-10-19T17:47:01.057Z
+date: 2020-10-19T17:54:34.724Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -23,4 +23,12 @@ $$\begin{bmatrix}
 1\\ 2 \\ 3
 \end{bmatrix}$$
 
-* The vector (9, 6) can be written as a linear combination of the vectors (1, 2) and (1, -4).
+* The vector (9, 6) can be written as a linear combination of the vectors (1, 2) and (1, -4). We are looking for scalars x~1~ and x~2~ so that 
+
+$$x_1\begin{bmatrix}
+1\\ 2 
+\end{bmatrix} + x_2\begin{bmatrix}
+1 \\ -4
+\end{bmatrix} = \begin{bmatrix}
+9\\6
+\end{bmatrix}$$
