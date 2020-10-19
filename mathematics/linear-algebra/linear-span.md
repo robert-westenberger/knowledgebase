@@ -2,7 +2,7 @@
 title: Linear Spans
 description: 
 published: true
-date: 2020-10-19T04:03:56.061Z
+date: 2020-10-19T04:05:32.277Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
