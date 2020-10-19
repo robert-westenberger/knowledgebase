@@ -2,7 +2,7 @@
 title: Linear Spans
 description: 
 published: true
-date: 2020-10-19T18:06:41.521Z
+date: 2020-10-19T18:23:24.989Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -31,4 +31,3 @@ s\\t\\t
 \end{bmatrix} $$ 
 The span of vectors (1, 0, 0) and (0, 1, 1) is the set of all vectors in $\Reals^3$ whose second and third entries are the same.
 
-* The span of vector (1, 4) 
