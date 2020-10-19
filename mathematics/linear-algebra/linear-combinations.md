@@ -2,7 +2,7 @@
 title: Linear Combinations
 description: 
 published: true
-date: 2020-10-19T17:18:30.148Z
+date: 2020-10-19T17:20:22.126Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
