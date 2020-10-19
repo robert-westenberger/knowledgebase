@@ -2,7 +2,7 @@
 title: Linear Combinations
 description: 
 published: true
-date: 2020-10-19T17:26:12.166Z
+date: 2020-10-19T17:47:01.057Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -22,3 +22,5 @@ $$\begin{bmatrix}
 \end{bmatrix} + 2 \begin{bmatrix}
 1\\ 2 \\ 3
 \end{bmatrix}$$
+
+* The vector (9, 6) can be written as a linear combination of the vectors (1, 2) and (1, -4).
