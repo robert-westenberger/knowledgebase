@@ -2,10 +2,9 @@
 title: Trigonometry
 description: 
 published: true
-date: 2020-10-25T05:34:06.750Z
+date: 2020-10-25T05:39:13.606Z
 tags: 
 editor: markdown
 ---
 
-# Header
-Your content here
+# Trigonometry
