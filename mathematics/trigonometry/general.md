@@ -2,7 +2,7 @@
 title: Trigonometry
 description: 
 published: true
-date: 2020-10-28T17:45:59.213Z
+date: 2020-10-28T17:47:18.382Z
 tags: 
 editor: markdown
 ---
@@ -27,4 +27,6 @@ $$
 \frac{\sin \alpha}{a} = \frac{\sin \beta}{b} =\frac{\sin \gamma}{c} 
 $$
 
+The law of cosines
+$$c^2 = a^2 + b^2 - 2ab\cos\gamma$$
 
