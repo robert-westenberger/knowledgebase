@@ -2,7 +2,7 @@
 title: Trigonometry
 description: 
 published: true
-date: 2020-10-28T17:42:39.262Z
+date: 2020-10-28T17:45:59.213Z
 tags: 
 editor: markdown
 ---
@@ -22,6 +22,9 @@ $$
 
 ![triangle_fig.png](/triangle_fig.png)
 
-
+The law of sines
+$$
+\frac{\sin \alpha}{a} = \frac{\sin \beta}{b} =\frac{\sin \gamma}{c} 
+$$
 
 
