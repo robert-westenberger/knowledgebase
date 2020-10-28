@@ -2,7 +2,7 @@
 title: Trigonometry
 description: 
 published: true
-date: 2020-10-28T17:48:37.060Z
+date: 2020-10-28T17:51:16.466Z
 tags: 
 editor: markdown
 ---
