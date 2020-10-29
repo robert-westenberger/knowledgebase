@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-10-11T03:59:36.065Z
+date: 2020-10-29T01:33:01.840Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -15,7 +15,9 @@ editor: markdown
 * Velocity is a vector for example. It has a speed and a direction. 
 
 #### Linear combinations
-* Vectors are added with *v+w*. We multiply them by numbers c and d to get *cv* and *dw*.
+* Vectors are added with *v+w*. 
+The sum, **u + v**, of two vectors, **u** and **v**, is constructed by placing **u**, at some arbitrary location, and then placing **v** such that **v**'s tail point coincides with **u**'s tip point, and **u + v** is the vector that start's at **u**'s tail point, and ends at **v**'s tip point.
+* We multiply them by numbers c and d to get *cv* and *dw*.
 $$ cv + dw = c\begin{bmatrix}
 1 \\
 1 
