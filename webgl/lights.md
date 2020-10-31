@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-10-30T02:11:39.784Z
+date: 2020-10-31T00:17:17.004Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -16,3 +16,5 @@ Light sources can be positional or directional. Directional lighting is simpler 
 * **Directional** - Will illuminate all objects in a scene, regardless of distance from the source. The sun is an example of a directional light source. A directional light is modeled with a normalized vector that indicates its direction. 
 
 ### Normals
+**Normals** are [vectors](/mathematics/linear-algebra/vectors-and-spaces) that are perpendicular to the surface we want to illuminate.They represent the orientation of the surface and are therefore critical to modeling the interaction between a light source and the object. 
+
