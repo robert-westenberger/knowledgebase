@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-01T04:41:21.063Z
+date: 2020-11-01T04:43:01.758Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -24,6 +24,9 @@ Light sources can be positional or directional. Directional lighting is simpler 
 ### Parallelism and the Difference Between Attributes and Uniforms
 When a draw call is invoked (*drawArrays* or *drawElements*), the GPU will launch several copies of the vertex shader in parallel. Each copy receives a different set of attributes  but the same uniforms. 
 
-### Shading Methods and Light-Reflection Models
+## Shading Methods and Light-Reflection Models
+##### Shading
 **Shading** is the interpolation that is performed to obtain final color for fragments in a scene. Type of shading determines where the final color is calculated - in the vertex shader or in the fragment shader.
+
+
 **Lighting** algorithms using physical principles of light reflection, lighting models are also referred to as reflection models. 
