@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-01T04:58:13.623Z
+date: 2020-11-01T04:59:09.274Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -26,12 +26,14 @@ When a draw call is invoked (*drawArrays* or *drawElements*), the GPU will launc
 
 ## Shading Methods and Light-Reflection Models
 ### Shading
-**Shading** is the interpolation that is performed to obtain final color for fragments in a scene. 
+**Shading** is the interpolation that is performed to obtain final color for fragments in a scene. Shading models  determine where the final color is calculated ( fragment vs vertex shader). 
 The **Goraud** interpolation calculates the final color in the *vertex* shader, using vertex normals to perform the calculation. Leverages the built-in rendering pipeline's interpolation. Much faster since the performed calculations are computed per vertex.
 
 The **Phong** interpolation calculates the final color in the *fragment* shader, using vertex normals to perform the calculation. Slower but much more accurate / realistic interpolation.  
 
 ![shading_interpolation_methods.png](/shading_interpolation_methods.png)
 
+
+###
 **Lighting** algorithms using physical principles of light reflection, lighting models are also referred to as reflection models. 
 
