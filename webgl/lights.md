@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-01T04:56:43.568Z
+date: 2020-11-01T04:58:13.623Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Light sources can be positional or directional. Directional lighting is simpler 
 When a draw call is invoked (*drawArrays* or *drawElements*), the GPU will launch several copies of the vertex shader in parallel. Each copy receives a different set of attributes  but the same uniforms. 
 
 ## Shading Methods and Light-Reflection Models
-##### Shading
+### Shading
 **Shading** is the interpolation that is performed to obtain final color for fragments in a scene. 
 The **Goraud** interpolation calculates the final color in the *vertex* shader, using vertex normals to perform the calculation. Leverages the built-in rendering pipeline's interpolation. Much faster since the performed calculations are computed per vertex.
 
@@ -34,3 +34,4 @@ The **Phong** interpolation calculates the final color in the *fragment* shader,
 ![shading_interpolation_methods.png](/shading_interpolation_methods.png)
 
 **Lighting** algorithms using physical principles of light reflection, lighting models are also referred to as reflection models. 
+
