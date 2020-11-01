@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-01T05:00:59.010Z
+date: 2020-11-01T05:28:11.697Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -34,6 +34,6 @@ The **Phong** interpolation calculates the final color in the *fragment* shader,
 ![shading_interpolation_methods.png](/shading_interpolation_methods.png)
 
 
-###
+### Lighting
 **Lighting** algorithms using physical principles of light reflection, lighting models are also referred to as reflection models. 
 
