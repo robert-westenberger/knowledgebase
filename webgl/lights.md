@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-01T04:23:54.550Z
+date: 2020-11-01T04:26:04.901Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -21,3 +21,5 @@ Light sources can be positional or directional. Directional lighting is simpler 
 ### Material
 **Materials** control how an object appears on the screen. It can be modeled by several params, including its color and texture. 
 
+### Parallelism and the Difference Between Attributes and Uniforms
+When a draw call is invoked (*drawArrays* or *drawElements*), the GPU will launch several copies of the vertex shader in parallel. Each copy receives a different set of attributes  but the same uniforms. 
