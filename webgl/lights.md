@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-10-31T00:17:17.004Z
+date: 2020-11-01T04:23:54.550Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -17,4 +17,7 @@ Light sources can be positional or directional. Directional lighting is simpler 
 
 ### Normals
 **Normals** are [vectors](/mathematics/linear-algebra/vectors-and-spaces) that are perpendicular to the surface we want to illuminate.They represent the orientation of the surface and are therefore critical to modeling the interaction between a light source and the object. 
+
+### Material
+**Materials** control how an object appears on the screen. It can be modeled by several params, including its color and texture. 
 
