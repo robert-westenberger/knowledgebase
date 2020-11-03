@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-03T01:37:42.610Z
+date: 2020-11-03T01:38:14.948Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -39,5 +39,5 @@ The **Phong** interpolation calculates the final color in the *fragment* shader,
 **Lambertian reflections** are commonly used as a model for *diffuse reflections* ![reflections.png](/reflections.png)
 
 > **Light-Direction Vector** 
-> A vector that starts on the surface and ends on the light source position of a particular piece of geometry.
+> A vector that starts on the surface and ends on the light source position, mapping the light's position to the surface of the geometry.
 
