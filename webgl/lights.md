@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-03T01:39:18.164Z
+date: 2020-11-03T01:46:02.158Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -43,3 +43,13 @@ The **Phong** interpolation calculates the final color in the *fragment* shader,
 
 ![reflections_2.png](/reflections_2.png)
 
+Where 
+$$F=C_lC_m(-L\bullet N)$$
+ * F - final diffuse color
+ * C~l~ - light diffuse color
+ * C~m~ - material diffuse color
+ 
+The final diffuse color would be derived with..
+
+$$-L\bullet N= | -L||N|\cos \varnothing$$ 
+ 
