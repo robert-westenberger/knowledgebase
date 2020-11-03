@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-03T01:38:14.948Z
+date: 2020-11-03T01:39:18.164Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -40,4 +40,6 @@ The **Phong** interpolation calculates the final color in the *fragment* shader,
 
 > **Light-Direction Vector** 
 > A vector that starts on the surface and ends on the light source position, mapping the light's position to the surface of the geometry.
+
+![reflections_2.png](/reflections_2.png)
 
