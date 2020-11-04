@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:30:40.123Z
+date: 2020-11-04T03:30:51.889Z
 tags: webgl, web-technologies
 editor: markdown
 ---
