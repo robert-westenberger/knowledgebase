@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:08:10.988Z
+date: 2020-11-04T03:18:30.084Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -55,4 +55,8 @@ $$-L\bullet N= | -L||N|\cos \varnothing$$
 
 If L and N are normalized, then:
 
-$$-L\bullet N= \cos \varnothing$$
+$$
+-L\bullet N= \cos \varnothing
+\\
+F = C_1C_m\cos \varnothing 
+$$
