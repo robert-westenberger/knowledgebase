@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-03T01:46:02.158Z
+date: 2020-11-04T03:04:24.972Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -52,4 +52,7 @@ $$F=C_lC_m(-L\bullet N)$$
 The final diffuse color would be derived with..
 
 $$-L\bullet N= | -L||N|\cos \varnothing$$ 
+
+If L and N are normalized, then:
+
  
