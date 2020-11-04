@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:31:54.836Z
+date: 2020-11-04T03:36:49.486Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -65,5 +65,8 @@ F = C_lC_m\cos \varnothing
 $$
 
 #### Phong Reflection Model
-* Describes the way a surface reflects light as the sum of three types of reflection.
+Describes the way a surface reflects light as the sum of three types of reflection.
+1. Ambient - amount of light present everywhere in a scene, independent from any light source.
+2. Diffuse ( modeled by Lambertian reflectance)
+3. Specular - Mirrorlike reflection. Direction of the incoming light and direction of reflected light makes the same anglewith respect to the surface normal.
 
