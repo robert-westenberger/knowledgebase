@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:18:30.084Z
+date: 2020-11-04T03:18:35.280Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -58,5 +58,5 @@ If L and N are normalized, then:
 $$
 -L\bullet N= \cos \varnothing
 \\
-F = C_1C_m\cos \varnothing 
+F = C_lC_m\cos \varnothing 
 $$
