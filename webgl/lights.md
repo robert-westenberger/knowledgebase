@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:23:24.136Z
+date: 2020-11-04T03:23:55.009Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -62,4 +62,5 @@ $$
 F = C_lC_m\cos \varnothing 
 $$
 
+#### Lambertian Reflection Model
 
