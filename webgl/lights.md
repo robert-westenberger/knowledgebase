@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:23:55.009Z
+date: 2020-11-04T03:30:40.123Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -37,7 +37,9 @@ The **Phong** interpolation calculates the final color in the *fragment* shader,
 ### Lighting
 **Lighting** algorithms using physical principles of light reflection, lighting models are also referred to as reflection models. 
 #### Lambertian Reflection Model
-**Lambertian reflections** are commonly used as a model for *diffuse reflections* ![reflections.png](/reflections.png)
+**Lambertian reflections** are commonly used as a model for *diffuse reflections* (kinds of reflections where an incident light ray is scattered at many angles) ![reflections.png](/reflections.png)
+
+It is usually calculated as the dot product between the surface normal (vertex or fragment normal, depending on the interpolation method used) and the negative of the light-direction vector. Then, the number is multiplied by the material and light source colors.
 
 > **Light-Direction Vector** 
 > A vector that starts on the surface and ends on the light source position, mapping the light's position to the surface of the geometry.
@@ -62,5 +64,7 @@ $$
 F = C_lC_m\cos \varnothing 
 $$
 
-#### Lambertian Reflection Model
+#### Phong Reflection Model
+* 
+
 
