@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T04:04:38.519Z
+date: 2020-11-04T04:09:27.978Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -76,5 +76,14 @@ $$
 
 $
 \textbf{F}_{\textbf{s}}   
-$ is 
+$ is final specular color. 
+$
+\textit{C}_{\textbf{l}}   
+$ is the light specular color, 
+$
+\textit{C}_{\textbf{m}}   
+$ is the material specular color
+$
+\textit{n}    
+$ is the shininess factor.
 
