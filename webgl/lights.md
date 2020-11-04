@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:52:51.067Z
+date: 2020-11-04T04:04:10.560Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -73,3 +73,8 @@ Where
 $$
 F_s = C_lC_m(R\bullet E)^n
 $$
+
+$
+\textbf{F}_{\textbf{s}}   
+$ is 
+
