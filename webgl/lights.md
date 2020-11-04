@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:30:51.889Z
+date: 2020-11-04T03:31:32.061Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -65,6 +65,5 @@ F = C_lC_m\cos \varnothing
 $$
 
 #### Phong Reflection Model
-* 
-
+* Describes the way a surface reflects light as the sum of three types of reflection
 
