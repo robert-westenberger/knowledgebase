@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T03:04:24.972Z
+date: 2020-11-04T03:08:10.988Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -55,4 +55,4 @@ $$-L\bullet N= | -L||N|\cos \varnothing$$
 
 If L and N are normalized, then:
 
- 
+$$-L\bullet N= \cos \varnothing$$
