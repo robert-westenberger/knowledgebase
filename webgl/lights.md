@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-04T04:09:27.978Z
+date: 2020-11-06T01:19:58.855Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -69,6 +69,9 @@ Describes the way a surface reflects light as the sum of three types of reflecti
 1. Ambient - amount of light present everywhere in a scene, independent from any light source.
 2. Diffuse ( modeled by Lambertian reflectance)
 3. Specular - Mirrorlike reflection. Direction of the incoming light and direction of reflected light makes the same anglewith respect to the surface normal.
+
+![specular_reflection.png](/specular_reflection.png)
+
 Where
 $$
 F_s = C_lC_m(R\bullet E)^n
