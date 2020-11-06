@@ -2,7 +2,7 @@
 title: Lights
 description: 
 published: true
-date: 2020-11-06T01:19:58.855Z
+date: 2020-11-06T01:22:21.786Z
 tags: webgl, web-technologies
 editor: markdown
 ---
@@ -89,4 +89,16 @@ $ is the material specular color
 $
 \textit{n}    
 $ is the shininess factor.
+
+The final specular color would be derived with..
+
+$$R\bullet E= | R||E|\cos \varnothing$$ 
+
+If R and E are normalized, then:
+
+$$
+R\bullet E= \cos \varnothing
+\\
+F = C_lC_m\cos^n \varnothing 
+$$
 
