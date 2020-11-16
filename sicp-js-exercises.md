@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-09-02T18:24:33.462Z
+date: 2020-11-16T18:50:56.108Z
 tags: 
 editor: markdown
 ---
@@ -148,4 +148,13 @@ Skipped for now
 
 #### Exercise 2.73
 a. The deriv function was refactored to use data-directed programming. The operator of the expression is the "type" key passed to *get*. Is_number and is_variable cannot be assimilated because there is no type key associated with them.
-
+d. If the functions were indexed the opposite way, the keys used to install the derivative system need to be switched. So we need to go from 
+to
+```
+put("deriv", "*", mult);
+put("deriv", "+", add);
+```
+```
+put("*", "deriv", mult);
+put("+", "deriv", add);
+```
