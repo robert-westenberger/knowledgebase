@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-11-16T01:37:58.165Z
+date: 2020-11-16T22:53:42.688Z
 tags: book-notes
 editor: markdown
 ---
@@ -31,6 +31,9 @@ installs the item in the table, indexed by the op and the type.
 looks up the op, type entry in the table and returns the item found there. If no item is found, get returns a unique primitive value that is referred to by the name undefined
 
 With this, internal functions ( a particular representation of the complex number and its companion operations ) can be loaded into the table, and there is no clutter of the global namespace.
+
+#### Message passing
+
 
 
 
