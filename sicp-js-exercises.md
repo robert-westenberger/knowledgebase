@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T18:58:41.913Z
+date: 2020-11-17T19:02:04.120Z
 tags: 
 editor: markdown
 ---
@@ -191,7 +191,7 @@ function angle(z) {
              : error(z, "Unknown type -- angle");
 }
 ```
-* Data-directed style - Operation name and type ( for example, real_part and rectangular in a complex number system ) are used to lookup operation in a 2D table and call it. We don't need to know about how operations are represented internally. **This would be the best choice to add in new types.**
+* Data-directed style - Operation name and type ( for example, real_part and rectangular in a complex number system ) are used to lookup operation in a 2D table and call it. We don't need to know about how operations are represented internally. **This would be the best choice to add in new types.**.. once  a new type is added one procedure for each operation must be written and installed in the 2D operations table. Once a new operation is added, it needs a representation for each type.
 ```
 function install_rectangular_package() {
     // internal functions
@@ -252,7 +252,7 @@ function install_polar_package() {
     return "done";
 }
 ```
-* Message-passing - Data objects receive messages that contain name of operation to be performed on the data.
+* Message-passing - Data objects receive messages that contain name of operation to be performed on the data. New data types need a new dispatch procedure that implements all of the operations. When a new operation is added each data type must alter its own dispatch procedure to dispatch on and perform the new operation.
 ```
 function make_from_real_imag(x, y) {
     function dispatch(op) {
