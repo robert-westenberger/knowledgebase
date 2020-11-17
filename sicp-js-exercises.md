@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T18:42:39.871Z
+date: 2020-11-17T18:43:23.413Z
 tags: 
 editor: markdown
 ---
@@ -175,5 +175,19 @@ function imag_part(z) {
            : is_polar(z)
              ? imag_part_polar(contents(z))
              : error(z, "Unknown type -- imag_part");
+}
+function magnitude(z) {
+    return is_rectangular(z)
+           ? magnitude_rectangular(contents(z))
+           : is_polar(z)
+             ? magnitude_polar(contents(z))
+             : error(z, "Unknown type -- magnitude");
+}
+function angle(z) {
+    return is_rectangular(z)
+           ? angle_rectangular(contents(z))
+           : is_polar(z)
+             ? angle_polar(contents(z))
+             : error(z, "Unknown type -- angle");
 }
 ```
