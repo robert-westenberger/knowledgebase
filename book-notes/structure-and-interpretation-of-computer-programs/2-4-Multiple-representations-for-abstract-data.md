@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-11-17T17:49:00.745Z
+date: 2020-11-17T17:50:50.808Z
 tags: book-notes
 editor: markdown
 ---
@@ -36,7 +36,7 @@ With this, internal functions ( a particular representation of the complex numbe
 In data-directed programming, using tagged data and generic operations ( in a 2D operation-and-type table) are used to encapsulate logic and integrate separately developed data-type modules.
 
 
-In the below example, the data-directed make_from_real_imag, dispatches "make_from_real_imag" and "rectangular" to get the correct operation.
+In the below example, the data-directed make_from_real_imag, dispatches "make_from_real_imag" and "rectangular" to get the make_from_real_imag function. 
 `data-directed-make-from-real-imag.js`
 ```
 function make_from_real_imag(x, y) {
