@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T18:53:00.849Z
+date: 2020-11-17T18:58:41.913Z
 tags: 
 editor: markdown
 ---
@@ -160,7 +160,7 @@ put("+", "deriv", add);
 ```
 
 #### Exercise 2.76 
-* Generic operations with explicit dispatch - Each generic selector is implemented as a function that checks the tag of its argument and calls the appropriate function for handling data of that type. 
+* Generic operations with explicit dispatch - Each generic selector is implemented as a function that checks the tag of its argument and calls the appropriate function for handling data of that type. Whenever a new type is added, all existing generic functions need to be modified to include dispatch on new type.
 ```
 function real_part(z) {
     return is_rectangular(z)
@@ -191,7 +191,7 @@ function angle(z) {
              : error(z, "Unknown type -- angle");
 }
 ```
-* Data-directed style - Operation name and type ( for example, real_part and rectangular in a complex number system ) are used to lookup operation in a 2D table and call it. We don't need to know about how operations are represented internally.
+* Data-directed style - Operation name and type ( for example, real_part and rectangular in a complex number system ) are used to lookup operation in a 2D table and call it. We don't need to know about how operations are represented internally. **This would be the best choice to add in new types.**
 ```
 function install_rectangular_package() {
     // internal functions
