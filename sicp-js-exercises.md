@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T19:02:04.120Z
+date: 2020-11-17T19:03:03.881Z
 tags: 
 editor: markdown
 ---
@@ -191,7 +191,7 @@ function angle(z) {
              : error(z, "Unknown type -- angle");
 }
 ```
-* Data-directed style - Operation name and type ( for example, real_part and rectangular in a complex number system ) are used to lookup operation in a 2D table and call it. We don't need to know about how operations are represented internally. **This would be the best choice to add in new types.**.. once  a new type is added one procedure for each operation must be written and installed in the 2D operations table. Once a new operation is added, it needs a representation for each type.
+* Data-directed style - Operation name and type ( for example, real_part and rectangular in a complex number system ) are used to lookup operation in a 2D table and call it. We don't need to know about how operations are represented internally. **This would be the best choice to add in new operations.**.. once  a new type is added one procedure for each operation must be written and installed in the 2D operations table. Once a new operation is added, it needs a representation for each type.
 ```
 function install_rectangular_package() {
     // internal functions
