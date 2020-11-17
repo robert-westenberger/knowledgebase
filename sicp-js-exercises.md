@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T18:30:06.135Z
+date: 2020-11-17T18:42:39.871Z
 tags: 
 editor: markdown
 ---
@@ -160,3 +160,20 @@ put("+", "deriv", add);
 ```
 
 #### Exercise 2.76 
+* Generic operations with explicit dispatch - Each generic selector is implemented as a function that checks the tag of its argument and calls the appropriate function for handling data of that type. 
+```
+function real_part(z) {
+    return is_rectangular(z)
+           ? real_part_rectangular(contents(z))
+           : is_polar(z)
+             ? real_part_polar(contents(z))
+             : error(z, "Unknown type -- real_part");
+}
+function imag_part(z) {
+    return is_rectangular(z)
+           ? imag_part_rectangular(contents(z))
+           : is_polar(z)
+             ? imag_part_polar(contents(z))
+             : error(z, "Unknown type -- imag_part");
+}
+```
