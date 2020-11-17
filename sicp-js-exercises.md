@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T18:43:23.413Z
+date: 2020-11-17T18:44:07.831Z
 tags: 
 editor: markdown
 ---
@@ -191,3 +191,5 @@ function angle(z) {
              : error(z, "Unknown type -- angle");
 }
 ```
+* Data-directed - 
+* Message-passing -
