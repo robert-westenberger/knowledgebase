@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-11-17T18:17:01.307Z
+date: 2020-11-17T18:18:22.857Z
 tags: book-notes
 editor: markdown
 ---
