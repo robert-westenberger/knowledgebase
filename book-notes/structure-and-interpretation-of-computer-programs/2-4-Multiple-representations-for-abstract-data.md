@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-11-17T01:45:19.138Z
+date: 2020-11-17T17:45:37.440Z
 tags: book-notes
 editor: markdown
 ---
@@ -33,7 +33,33 @@ looks up the op, type entry in the table and returns the item found there. If no
 With this, internal functions ( a particular representation of the complex number and its companion operations ) can be loaded into the table, and there is no clutter of the global namespace.
 
 #### Message passing
+In data-directed programming, using tagged data and generic operations ( in a 2D operation-and-type table) are used to encapsulate logic and integrate separately developed data-type modules.
 
 
+In the below example, the data-directed make_from_real_imag
+`data-directed-make-from-real-imag.js`
+```
+function make_from_real_imag(x, y) {
+   return get("make_from_real_imag", "rectangular")(x, y);
+}
+```
 
+`message-passing-make-from-real-imag.js`
+```
+function make_from_real_imag(x, y) {
+    function dispatch(op) {
+        return op === "real_part"
+            ? x
+            : op === "imag_part"
+              ? y
+              : op === "magnitude"
+                ? math_sqrt(square(x) + square(y))
+                : op === "angle"
+                  ? math_atan(y, x)
+                  : error(op,
+                          "Unknown op -- make_from_real_imag");
+    }
+    return dispatch;
+}
+```
 
