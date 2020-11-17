@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-11-17T18:21:31.103Z
+date: 2020-11-17T18:51:51.435Z
 tags: book-notes
 editor: markdown
 ---
@@ -35,7 +35,7 @@ With this, internal functions ( a particular representation of the complex numbe
 #### Message passing
 In **data-directed programming**, using tagged data and generic operations ( in a 2D operation-and-type table) are used to encapsulate logic and integrate separately developed data-type modules.
 
-In **message passing**, data objects can be thought of entities that receive "messages" that contain operations on that data that are being requested. 
+In **message passing**, data objects can be thought of entities that receive "messages" that contain name of operations on that data that are being requested. 
 
 In the below example, the data-directed make_from_real_imag, dispatches "make_from_real_imag" and "rectangular" to get the make_from_real_imag function from the operation-type table (make_from_real_imag is rectangular only, but a function for getting the real part of a number in rectangular or polar form could be obtained by passing the appropriate data tag.
 `data-directed-make-from-real-imag.js`
