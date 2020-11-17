@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T18:48:51.098Z
+date: 2020-11-17T18:49:36.394Z
 tags: 
 editor: markdown
 ---
@@ -192,4 +192,64 @@ function angle(z) {
 }
 ```
 * Data-directed style - Operation name and type ( for example, real_part and rectangular in a complex number system ) are used to lookup operation in a 2D table and call it. We don't need to know about how operations are represented internally.
+```
+function install_rectangular_package() {
+    // internal functions
+    function real_part(z) { return head(z); }
+    function imag_part(z) { return tail(z); }
+    function make_from_real_imag(x, y) { return pair(x, y); }
+    function magnitude(z) {
+        return math_sqrt(square(real_part(z)) +
+                         square(imag_part(z)));
+    }
+    function angle(z) {
+        return math_atan(imag_part(z), real_part(z));
+    }
+    function make_from_mag_ang(r, a) {
+        return pair(r * math_cos(a), r * math_sin(a));
+    }
+
+    // interface to the rest of the system
+    function tag(x) {
+        return attach_tag("rectangular", x);
+    }
+    put("real_part", list("rectangular"), real_part);
+    put("imag_part", list("rectangular"), imag_part);
+    put("magnitude", list("rectangular"), magnitude);
+    put("angle", list("rectangular"), angle);
+    put("make_from_real_imag", "rectangular",
+        (x, y) => tag(make_from_real_imag(x, y)));
+    put("make_from_mag_ang", "rectangular",
+        (r, a) => tag(make_from_mag_ang(r, a)));
+    return "done";
+}
+function install_polar_package() {
+    // internal functions
+    function magnitude(z) { return head(z); }
+    function angle(z) { return tail(z); }
+    function make_from_mag_ang(r, a) { return pair(r, a); }
+    function real_part(z) {
+       return magnitude(z) * math_cos(angle(z));
+    }
+    function imag_part(z) {
+       return magnitude(z) * math_sin(angle(z));
+    }
+    function make_from_real_imag(x, y) {
+       return pair(math_sqrt(square(x) + square(y)),
+                   math_atan(y, x));
+    }
+
+    // interface to the rest of the system
+    function tag(x) { return attach_tag("polar", x); }
+    put("real_part", list("polar"), real_part);
+    put("imag_part", list("polar"), imag_part);
+    put("magnitude", list("polar"), magnitude);
+    put("angle", list("polar"), angle);
+    put("make_from_real_imag", "polar", 
+        (x, y) => tag(make_from_real_imag(x, y)));
+    put("make_from_mag_ang", "polar",
+        (r, a) => tag(make_from_mag_ang(r, a)));
+    return "done";
+}
+```
 * Message-passing -
