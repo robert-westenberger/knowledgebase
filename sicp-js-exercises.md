@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T18:49:36.394Z
+date: 2020-11-17T18:53:00.849Z
 tags: 
 editor: markdown
 ---
@@ -252,4 +252,21 @@ function install_polar_package() {
     return "done";
 }
 ```
-* Message-passing -
+* Message-passing - Data objects receive messages that contain name of operation to be performed on the data.
+```
+function make_from_real_imag(x, y) {
+    function dispatch(op) {
+        return op === "real_part"
+            ? x
+            : op === "imag_part"
+              ? y
+              : op === "magnitude"
+                ? math_sqrt(square(x) + square(y))
+                : op === "angle"
+                  ? math_atan(y, x)
+                  : error(op,
+                          "Unknown op -- make_from_real_imag");
+    }
+    return dispatch;
+}
+```
