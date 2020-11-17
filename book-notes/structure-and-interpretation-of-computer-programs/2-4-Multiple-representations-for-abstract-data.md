@@ -2,7 +2,7 @@
 title: Section 2.4 Multiple Representations for Abstract Data
 description: 
 published: true
-date: 2020-11-17T17:57:53.007Z
+date: 2020-11-17T18:11:55.561Z
 tags: book-notes
 editor: markdown
 ---
@@ -43,7 +43,7 @@ function make_from_real_imag(x, y) {
    return get("make_from_real_imag", "rectangular")(x, y);
 }
 ```
-In the message passing example, 
+In the message passing example, make_from_real_imag is a function that,
 `message-passing-make-from-real-imag.js`
 ```
 function make_from_real_imag(x, y) {
