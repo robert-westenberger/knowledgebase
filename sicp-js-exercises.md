@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-18T18:57:22.746Z
+date: 2020-11-18T18:59:59.302Z
 tags: 
 editor: markdown
 ---
@@ -275,4 +275,4 @@ When executing magnitude(z), the outermost tag is "complex" (since it is a compl
 ```
 put("magnitude", list("complex"), magnitude);
 ```
-The first apply_generic 
+After the first call to magnitude strips off "complex", the second call to magnitude uses the "rectangular" tag to call the magnitude function inside the rectangular package.
