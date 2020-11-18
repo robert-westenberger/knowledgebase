@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-17T19:04:09.127Z
+date: 2020-11-18T18:51:42.137Z
 tags: 
 editor: markdown
 ---
@@ -269,4 +269,9 @@ function make_from_real_imag(x, y) {
     }
     return dispatch;
 }
+```
+##### Exercise 2.77
+When executing magnitude(z), the outermost tag is "complex" (since it is a complex number operation), so we have to add an operation to the operation table like so
+```
+put("magnitude", list("complex"), magnitude);
 ```
