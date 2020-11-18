@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-18T18:51:42.137Z
+date: 2020-11-18T18:57:22.746Z
 tags: 
 editor: markdown
 ---
@@ -275,3 +275,4 @@ When executing magnitude(z), the outermost tag is "complex" (since it is a compl
 ```
 put("magnitude", list("complex"), magnitude);
 ```
+The first apply_generic 
