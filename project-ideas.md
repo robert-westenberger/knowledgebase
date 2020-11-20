@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2020-11-20T02:53:02.589Z
+date: 2020-11-20T02:53:58.982Z
 tags: 
 editor: markdown
 ---
@@ -47,3 +47,5 @@ File systems (e.g., FAT)
 ### Database
 Write a database. Depending on what angle you take, it can look like a compiler (SQL parsing, predicate evaluation, optimizing for index usage), OS (file systems for in-place updates of complex data structures, and scheduling with lock dependencies), distributed systems (consistency and availability tradeoffs across machines, with possible partitions).
 And then there's the whole mental model of relational algebra and stream processing of queries.
+
+### 3D renderer
