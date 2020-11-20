@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-11-20T19:57:09.864Z
+date: 2020-11-20T19:58:29.348Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -22,7 +22,7 @@ editor: markdown
 * You can add functions, and get other functions. You can multiply functions by a number and get other functions.. so that means they are vectors (satisfies the two properties).
 * Polynomials are a **vector subspace** of the space of functions. 
 
-#### Polynomials / functions
+#### $\Reals^n$
 
 
 ## Linear combinations
