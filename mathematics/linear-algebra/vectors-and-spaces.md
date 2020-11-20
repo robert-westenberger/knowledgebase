@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-11-20T19:43:13.928Z
+date: 2020-11-20T19:46:30.880Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -15,7 +15,8 @@ editor: markdown
 * Velocity is a vector for example. It has a speed and a direction. 
 * They can be added together and multiplied by numbers to produce another vector of the same kind. Any object that can satisfy these two properties can be considered a vector.
 * There are a few different kinds of vectors...
-    * 
+#### Geometric vectors
+* Frequently represented as a ray (line segment with definite direction) 
 
 ## Linear combinations
 * Vectors are added with *v+w*. 
