@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-11-20T20:02:09.327Z
+date: 2020-11-20T20:28:13.017Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -23,7 +23,7 @@ editor: markdown
 * Polynomials are a **vector subspace** of the space of functions. 
 
 #### $\Reals^n$
-* Sets of real numbers of the same size / length can can be added together and multiplied. 
+* Sets of real numbers of the same size / length can can be added together and multiplied. So vectorspace of $\Reals^n$
 
 ## Linear combinations
 * Vectors are added with *v+w*. 
