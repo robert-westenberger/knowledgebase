@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2020-11-20T03:02:13.538Z
+date: 2020-11-20T03:03:37.526Z
 tags: 
 editor: markdown
 ---
@@ -10,7 +10,7 @@ editor: markdown
 # Project Ideas
 ## Learning Experiences
 
-
+### Renderer
 ### TTF renderer
 ### GIF or JPEG en/decoder
 ### Video decoder (start with H.261)
