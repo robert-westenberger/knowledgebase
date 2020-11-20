@@ -2,13 +2,14 @@
 title: Vectors and Vector Spaces
 description: 
 published: true
-date: 2020-11-20T19:02:37.615Z
+date: 2020-11-20T19:05:01.959Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
 
 # Vectors and Vector Spaces
-Definition: A vector space consists of a set V (elements of V are called vectors), a field F (elements of F are called scalars), and two operations
+
+A vector space consists of a set V (elements of V are called vectors), a field F (elements of F are called scalars), and two operations
 • An operation called vector addition that takes two vectors v, w ∈ V ,
 and produces a third vector, written v + w ∈ V .
 • An operation called scalar multiplication that takes a scalar c ∈ F and
