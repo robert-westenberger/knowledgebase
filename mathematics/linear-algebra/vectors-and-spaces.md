@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-10-29T02:05:59.639Z
+date: 2020-11-20T19:40:19.347Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -13,6 +13,7 @@ editor: markdown
 ## Vectors
 * A **vector** is something that has both **magnitude** and **direction**. 
 * Velocity is a vector for example. It has a speed and a direction. 
+* They can be added together and multiplied by numbers to produce another vector of the same kind. Any object that can satisfy these two properties can be considered a vector.
 
 #### Linear combinations
 * Vectors are added with *v+w*. 
