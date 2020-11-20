@@ -2,7 +2,7 @@
 title: Vectors and Spaces
 description: 
 published: true
-date: 2020-11-20T19:48:39.343Z
+date: 2020-11-20T19:53:58.030Z
 tags: mathematics, linear-algebra
 editor: markdown
 ---
@@ -19,6 +19,7 @@ editor: markdown
 * Frequently represented as a ray (line segment with definite direction).  
 
 #### Polynomials / functions
+* You can add functions, and get other functions. You can multiply functions by a number and get other functions.. so that means they are vectors (satisfies the two properties).
 
 ## Linear combinations
 * Vectors are added with *v+w*. 
