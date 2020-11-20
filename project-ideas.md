@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2020-11-20T02:53:58.982Z
+date: 2020-11-20T02:55:09.596Z
 tags: 
 editor: markdown
 ---
@@ -49,3 +49,9 @@ Write a database. Depending on what angle you take, it can look like a compiler 
 And then there's the whole mental model of relational algebra and stream processing of queries.
 
 ### 3D renderer
+
+### Shell
+
+### Git
+
+### Virtual Machine / Game emulator
