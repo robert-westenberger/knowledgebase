@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2020-11-20T02:51:15.330Z
+date: 2020-11-20T02:52:53.150Z
 tags: 
 editor: markdown
 ---
@@ -33,3 +33,13 @@ Semantic analysis
 Optimization passes
 Code generation
 
+### Mini Operating System
+Things to learn:
+
+Cross compiling
+Bootloading
+BIOS interrupts
+x86 modes
+Memory management and paging
+Scheduling (e.g., round robin)
+File systems (e.g., FAT)
