@@ -2,7 +2,7 @@
 title: Section 2.5 Systems with Generic Operations
 description: 
 published: true
-date: 2020-11-24T18:40:34.037Z
+date: 2020-11-24T18:47:04.134Z
 tags: book-notes
 editor: markdown
 ---
@@ -23,7 +23,9 @@ Conversely...
 * Real numbers are the **supertype** of rational numbers
 * Rational numbers are the **supertype** of integers.
 
-Types are coerced as they go up or down the tree. An integer doesn't need to be able to convert to a rational number, it just needs to be able to convert itself up the hierarchy tree. A type "inherits" all operations defined on its supertype. 
+Types are coerced as they go up or down the tree. An integer doesn't need to be able to convert to a rational number, it just needs to be able to convert itself up the hierarchy tree. A type "inherits" all operations defined on its supertype.
+
+Some systems of types can't be represented cleanly as a hierarchy. In a system where a type would have multiple supertypes, and a type can have multiple subtypes. 
 
 
 
