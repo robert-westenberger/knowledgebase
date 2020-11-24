@@ -2,7 +2,7 @@
 title: Section 2.5 Systems with Generic Operations
 description: 
 published: true
-date: 2020-11-24T18:29:13.586Z
+date: 2020-11-24T18:31:15.020Z
 tags: book-notes
 editor: markdown
 ---
@@ -22,6 +22,8 @@ Conversely...
 * a complex number is the **supertype** of real numbers
 * Real numbers are the **supertype** of rational numbers
 * Rational numbers are the **supertype** of integers.
+
+Types are coerced as they go up or down the tree.
 
 
 
