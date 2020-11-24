@@ -2,7 +2,7 @@
 title: Section 2.5 Systems with Generic Operations
 description: 
 published: true
-date: 2020-11-24T18:25:59.708Z
+date: 2020-11-24T18:29:13.586Z
 tags: book-notes
 editor: markdown
 ---
