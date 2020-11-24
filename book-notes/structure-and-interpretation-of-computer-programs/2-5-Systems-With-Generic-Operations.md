@@ -2,7 +2,7 @@
 title: Section 2.5 Systems with Generic Operations
 description: 
 published: true
-date: 2020-11-24T18:14:16.177Z
+date: 2020-11-24T18:20:53.119Z
 tags: book-notes
 editor: markdown
 ---
@@ -17,4 +17,11 @@ Types are usually in a hierarchy (**hierarchy of types**). In an arithmetic prog
 * integer is a type of rational number
 * a rational number is a type of real number
 * a real number is a type of complex number
+
+Conversely...
+* a complex number is the **supertype** of real numbers
+* Real numbers are the **supertype** of rational numbers
+* Rational numbers are the **supertype** of integers.
+
+
 
