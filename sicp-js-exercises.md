@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-18T19:29:38.446Z
+date: 2020-11-25T21:22:47.218Z
 tags: 
 editor: markdown
 ---
@@ -276,3 +276,7 @@ When executing magnitude(z), the outermost tag is "complex" (since it is a compl
 put("magnitude", list("complex"), magnitude);
 ```
 After the first call to magnitude strips off "complex", the second call to magnitude uses the "rectangular" tag to call the magnitude function inside the rectangular package.
+
+#### Exercise 2.81
+a. They are called in an infinite loop since apply_generic just keeps converting the types back and forth and calling apply_generic again (nothing changes).
+b. apply_generic has to check if two args have the same type so as to not coerce them.
