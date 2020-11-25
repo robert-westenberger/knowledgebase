@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-25T21:22:47.218Z
+date: 2020-11-25T21:31:39.157Z
 tags: 
 editor: markdown
 ---
@@ -279,4 +279,4 @@ After the first call to magnitude strips off "complex", the second call to magni
 
 #### Exercise 2.81
 a. They are called in an infinite loop since apply_generic just keeps converting the types back and forth and calling apply_generic again (nothing changes).
-b. apply_generic has to check if two args have the same type so as to not coerce them.
+b. coercions for the same type don't really need to be added to the coercion table. If attempting to coerce two args of the same type, it will return "No method" since the relevant function for the two types wasn't found anyway.
