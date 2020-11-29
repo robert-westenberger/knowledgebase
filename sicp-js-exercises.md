@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-29T01:50:11.658Z
+date: 2020-11-29T01:51:07.459Z
 tags: 
 editor: markdown
 ---
@@ -337,3 +337,4 @@ function apply_generic(op, args) {
     }, null, newArgs);
 }
 ```
+This of course wouldn't work with arguments that can't be cast to eachother. 
