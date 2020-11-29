@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-25T21:31:39.157Z
+date: 2020-11-29T01:48:38.466Z
 tags: 
 editor: markdown
 ---
@@ -277,6 +277,63 @@ put("magnitude", list("complex"), magnitude);
 ```
 After the first call to magnitude strips off "complex", the second call to magnitude uses the "rectangular" tag to call the magnitude function inside the rectangular package.
 
-#### Exercise 2.81
+> #### Exercise 2.81
 a. They are called in an infinite loop since apply_generic just keeps converting the types back and forth and calling apply_generic again (nothing changes).
 b. coercions for the same type don't really need to be added to the coercion table. If attempting to coerce two args of the same type, it will return "No method" since the relevant function for the two types wasn't found anyway.
+
+#### Exercise 2.82
+
+> Show how to generalize apply_generic to handle coercion in the general case of multiple arguments. One strategy is to attempt to coerce all the arguments to the type of the first argument, then to the type of the second argument, and so on. Give an example of a situation where this strategy (and likewise the two-argument version given above) is not sufficiently general. (Hint: Consider the case where there are some suitable mixed-type operations present in the table that will not be tried.)
+
+```
+function apply_generic(op, args) {
+    const type_tags = map(type_tag, args);
+    const fun = get(op, type_tags);
+    if (!is_undefined(fun)) {
+        return apply(fun, map(contents, args));
+    }
+
+    const coercionData = accumulate((currentItem, currentValue) => {
+
+        if (is_null(currentValue)) {
+            return pair(type_tag(currentItem)); // type
+        }
+
+        const currentItemType = type_tag(currentItem);
+        const currentValueType = type_tag(currentValue);
+
+        if (currentValueType === currentItemType) {
+            return currentValue;
+        }
+
+        const t1_to_t2 = get_coercion(currentValueType, currentItemType);
+        const t2_to_t1 = get_coercion(currentItemType, currentValueType);
+
+        if (t1_to_t2) {
+            return pair(currentItemType, t1_to_t2);
+        }
+        if (t2_to_t1) {
+            return pair(currentValueType, t2_to_t1);
+        }
+
+        return currentValue;
+    }, null, args);
+
+    const coerceTo = type_tag(coercionData);
+    const coerceFunction = contents(coercionData);
+
+    const newArgs = map((arg) => {
+        const type = type_tag(arg);
+        if (type === coerceTo) {
+            return arg;
+        }
+        return coerceFunction(arg);
+    }, args);
+    return accumulate((currentItem, currentValue) => {
+        if (is_null(currentValue)) {
+            return currentItem;
+        }
+        return apply_generic(op, list(currentValue, currentItem));
+    }, null, newArgs);
+}
+```
