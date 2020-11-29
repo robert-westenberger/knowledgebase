@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-29T02:05:39.063Z
+date: 2020-11-29T02:06:11.607Z
 tags: 
 editor: markdown
 ---
@@ -337,4 +337,4 @@ function apply_generic(op, args) {
     }, null, newArgs);
 }
 ```
-The above can only handle two different types ever. Also, it will only coerce to a type that is already contained in the argument list. For example, if there are three types that can be cast to the same type... and only one of those types implement a particular operation (
+The above can only handle two different types ever. Also, it will only coerce to a type that is already contained in the argument list. For example, if there are three types that can be cast to the same type... and only one of those types implement a particular operation (`add()`), then the above implementation of apply_generic will fail because it isn't aware there is a third type to cast to. 
