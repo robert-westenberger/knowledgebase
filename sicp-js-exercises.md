@@ -2,7 +2,7 @@
 title: sicp-js-exercises
 description: SICP js exercises that don't have anywhere else to live right now
 published: true
-date: 2020-11-29T02:07:14.542Z
+date: 2020-11-29T07:01:08.193Z
 tags: 
 editor: markdown
 ---
