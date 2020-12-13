@@ -2,7 +2,7 @@
 title: Section 2.5 Systems with Generic Operations
 description: 
 published: true
-date: 2020-11-24T18:50:12.262Z
+date: 2020-12-13T02:34:30.165Z
 tags: book-notes
 editor: markdown
 ---
@@ -27,5 +27,5 @@ Types are coerced as they go up or down the tree. An integer doesn't need to be 
 
 Some systems of types can't be represented cleanly as a hierarchy. In a system where a type would have multiple supertypes, and a type can have multiple subtypes; it may be impossible to determine the correct way to coerce a type up and down the tree.
 
-
+## Example: Symbolic Algebra
 
