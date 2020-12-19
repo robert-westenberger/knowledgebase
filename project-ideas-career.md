@@ -2,7 +2,7 @@
 title: Project Ideas / Career
 description: 
 published: true
-date: 2020-12-19T00:49:35.454Z
+date: 2020-12-19T00:50:31.936Z
 tags: 
 editor: markdown
 ---
@@ -58,3 +58,13 @@ And then there's the whole mental model of relational algebra and stream process
 
 
 # Career
+
+### On learning deeply
+1. Pick a data structure (such as a hash table or LSM-Tree) then read all the literature there is to read, every single paper that's great, following the best conferences year after year, and implement a 10x faster or more scalable version for the std lib of your favorite language.
+
+2. Pick a fault model (such as storage faults, network faults, cryptography faults) then read all the literature there is to read, every single paper that's great, following the best conferences year after year, and write a fault injection or fuzzing harness to break some of the most respected storage/network/cryptography systems (for examples, see the work done by Remzi and Andrea Arpaci-Dusseau on storage faults, Kyle Kingsbury on Jepsen, and Guido Vranken on Cryptofuzz: https://github.com/guidovranken/cryptofuzz).
+
+3. Pick a software field (such as web applications, mobile applications, native applications, file formats such as Office Open XML, or protocols such as SMTP, MIME, HTTP, QUIC) then read as many CVE reports and bug bounty reports as you can find, and then start participating in bug bounty programs within this field. Pick a target and give yourself a goal, e.g. DoS, RCE or read/write access, and do the work to make it happen. Chain as many steps as you can. Automate and enumerate. You'll find a way in if you keep at it. There's nothing like crafting an exploit to change the way you think about programming.
+
+As you gain experience in data structures, storage/networking/cryptography, and security, you'll find this translates well to most software engineering work. You'll gain a speed/safety/security way of thinking, you'll have fun being curious and learning along the way (and hopefully you'll earn a bounty or two and get some CVEs under your name).
+
