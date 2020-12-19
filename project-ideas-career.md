@@ -2,7 +2,7 @@
 title: Project Ideas / Career
 description: 
 published: true
-date: 2020-12-19T00:58:43.136Z
+date: 2020-12-19T01:00:08.221Z
 tags: 
 editor: markdown
 ---
@@ -87,3 +87,23 @@ As you gain experience in data structures, storage/networking/cryptography, and 
 
 8. Lecture notes from Stanford or MIT or another university can also be a great way to get a big picture of the evolution of techniques for a given data structure or problem. For example, these lecture notes are just brilliant for getting started with stuff around memory hierarchies: https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/lecture/parallel_d...
 
+
+
+---
+
+1. Learning (fundamental) stuff deeply is the way to become great.
+
+2. But knowing how stuff works fundamentally at an abstract level (e.g. being able to write your own toy OS) is not directly economically useful (and/or very time consuming to get to that stage). So it won't get you a job.
+
+3. So for starters learn just one thing that people actually use (say git) deeply at a concrete level. That is economically useful, because most devs will only have fairly superficial git skills, so you becoming the go-to person for git will provide economic value to the company.
+
+4. At the same time, this is an effective way to bootstrap a more abstract deep understanding. E.g. if you really master git, you will also learn a fair amount of abstract concepts that go beyond the concrete tool (deep understanding of git implies the ability to implement at least a toy version yourself, which will teach you useful stuff; in particular if you can implement your own version of git you are probably already better than 90% of programmers).
+
+5. Be mindful that you will be blinkered at this stage (because you only know a single thing and thus lack a basis for comparison), so don't become opinionated yet.
+
+
+
+
+
+
+### 
