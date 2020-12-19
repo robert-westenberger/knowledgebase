@@ -2,7 +2,7 @@
 title: Book List
 description: List of books, technical or not, I'd like to read.
 published: true
-date: 2020-12-19T01:10:02.993Z
+date: 2020-12-19T01:11:12.211Z
 tags: 
 editor: markdown
 ---
@@ -16,7 +16,7 @@ with Julie Sussman )
 
 - The Elements of Computing Systems: Building a Modern Computer from First Principles (Nisan & Schocken)
 
-
+- Introduction to Algorithms, 3rd Edition (Cormen)
 
 ## Technology Specific
 - Real-Time 3D Graphics with WebGL 2 - Second Edition
