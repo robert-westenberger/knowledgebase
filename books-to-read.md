@@ -2,7 +2,7 @@
 title: Book List
 description: List of books, technical or not, I'd like to read.
 published: true
-date: 2020-12-19T01:15:22.694Z
+date: 2020-12-19T01:17:19.892Z
 tags: 
 editor: markdown
 ---
@@ -19,5 +19,10 @@ with Julie Sussman )
 - Introduction to Algorithms, 3rd Edition (Cormen)
 
 ## Technology Specific
+
+### WebGL
 - Real-Time 3D Graphics with WebGL 2 - Second Edition
 By Farhad Ghayour and Diego Cantor
+
+### Git 
+- Write yourself a git (https://wyag.thb.lt/)
