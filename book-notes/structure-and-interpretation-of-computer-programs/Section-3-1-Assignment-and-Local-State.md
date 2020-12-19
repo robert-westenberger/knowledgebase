@@ -2,7 +2,7 @@
 title: Section 3.1 Assignment and Local State
 description: 
 published: true
-date: 2020-12-19T01:34:23.864Z
+date: 2020-12-19T23:36:41.318Z
 tags: book-notes
 editor: markdown
 ---
@@ -11,3 +11,4 @@ editor: markdown
 
 ## Benefits of Introducing Assignment
 
+Assignment can improve the modularity of systems. 
