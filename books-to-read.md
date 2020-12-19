@@ -2,7 +2,7 @@
 title: Book List
 description: List of books, technical or not, I'd like to read.
 published: true
-date: 2020-12-19T01:17:19.892Z
+date: 2020-12-19T01:18:13.022Z
 tags: 
 editor: markdown
 ---
