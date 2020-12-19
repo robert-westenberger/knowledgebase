@@ -2,7 +2,7 @@
 title: Book List
 description: List of books, technical or not, I'd like to read.
 published: true
-date: 2020-12-19T01:18:13.022Z
+date: 2020-12-19T01:19:21.690Z
 tags: 
 editor: markdown
 ---
@@ -26,3 +26,7 @@ By Farhad Ghayour and Diego Cantor
 
 ### Git 
 - Write yourself a git (https://wyag.thb.lt/)
+
+
+## Mathematics
+- Introduction to Linear Algebra, 5th Edition (Strang)
