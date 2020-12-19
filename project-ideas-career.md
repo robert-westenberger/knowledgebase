@@ -2,7 +2,7 @@
 title: Project Ideas / Career
 description: 
 published: true
-date: 2020-12-19T00:50:31.936Z
+date: 2020-12-19T00:51:21.620Z
 tags: 
 editor: markdown
 ---
@@ -67,4 +67,23 @@ And then there's the whole mental model of relational algebra and stream process
 3. Pick a software field (such as web applications, mobile applications, native applications, file formats such as Office Open XML, or protocols such as SMTP, MIME, HTTP, QUIC) then read as many CVE reports and bug bounty reports as you can find, and then start participating in bug bounty programs within this field. Pick a target and give yourself a goal, e.g. DoS, RCE or read/write access, and do the work to make it happen. Chain as many steps as you can. Automate and enumerate. You'll find a way in if you keep at it. There's nothing like crafting an exploit to change the way you think about programming.
 
 As you gain experience in data structures, storage/networking/cryptography, and security, you'll find this translates well to most software engineering work. You'll gain a speed/safety/security way of thinking, you'll have fun being curious and learning along the way (and hopefully you'll earn a bounty or two and get some CVEs under your name).
+
+
+> Let’s say I’ve picked a data structure. How would you suggest identifying the great papers and best conferences related to it?
+
+1. Add "abstract" to your search query to surface papers.
+
+2. Search for "... reading list". For example, Heidi Howard maintains https://github.com/heidihoward/distributed-consensus-reading...
+
+3. Read blogs like "The Morning Paper" (https://blog.acolyer.org) but skip fields that are outside your scope. You don't have time to follow more than one or two (or three) major fields.
+
+4. Use Google Scholar to find the most cited papers, or to find papers that build on papers you think are good.
+
+5. Keep an eye out for the conferences where these papers were presented. Then read the other papers that were also presented.
+
+6. When you come across an amazing paper, read other papers by the same authors or supervisors.
+
+7. If you're lucky you might also find good "survey" papers that cover and reference the state of the art.
+
+8. Lecture notes from Stanford or MIT or another university can also be a great way to get a big picture of the evolution of techniques for a given data structure or problem. For example, these lecture notes are just brilliant for getting started with stuff around memory hierarchies: https://www.eidos.ic.i.u-tokyo.ac.jp/~tau/lecture/parallel_d...
 
