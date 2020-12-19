@@ -1,13 +1,13 @@
 ---
-title: Project Ideas
+title: Project Ideas / Career
 description: 
 published: true
-date: 2020-11-20T03:05:38.039Z
+date: 2020-12-19T00:45:30.203Z
 tags: 
 editor: markdown
 ---
 
-# Project Ideas
+# Project Ideas / Career
 ## Learning Experiences
 
 
