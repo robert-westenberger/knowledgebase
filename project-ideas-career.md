@@ -2,7 +2,7 @@
 title: Project Ideas / Career
 description: 
 published: true
-date: 2020-12-19T01:00:08.221Z
+date: 2020-12-19T01:01:18.628Z
 tags: 
 editor: markdown
 ---
