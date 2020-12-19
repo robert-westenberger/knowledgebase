@@ -2,12 +2,12 @@
 title: Project Ideas / Career
 description: 
 published: true
-date: 2020-12-19T00:48:31.751Z
+date: 2020-12-19T00:49:35.454Z
 tags: 
 editor: markdown
 ---
 
-# Project Ideas / Career
+# Projects
 ## Learning Experiences
 
 
@@ -55,3 +55,6 @@ And then there's the whole mental model of relational algebra and stream process
 ### Git
 
 ### Virtual Machine / Game emulator
+
+
+# Career
