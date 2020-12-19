@@ -2,8 +2,8 @@
 title: Currying
 description: 
 published: true
-date: 2020-07-27T03:55:15.097Z
-tags: 
+date: 2020-12-19T01:21:01.637Z
+tags: computer-science
 editor: markdown
 ---
 
