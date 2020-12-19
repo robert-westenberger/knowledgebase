@@ -2,14 +2,22 @@
 title: Book List
 description: List of books, technical or not, I'd like to read.
 published: true
-date: 2020-12-19T01:06:50.195Z
+date: 2020-12-19T01:10:02.993Z
 tags: 
 editor: markdown
 ---
 
 # Books
+
+## Software / Computer engineering
 - Structure and Interpretation of Computer Programs (Harold Abelson and Gerald Jay Sussman
 with Julie Sussman )
 - Computer Systems: A Programmer's Perspective (Randal E. Bryant and David R. O'Hallaron,)
 
-	
+- The Elements of Computing Systems: Building a Modern Computer from First Principles (Nisan & Schocken)
+
+
+
+## Technology Specific
+- Real-Time 3D Graphics with WebGL 2 - Second Edition
+By Farhad Ghayour and Diego Cantor
