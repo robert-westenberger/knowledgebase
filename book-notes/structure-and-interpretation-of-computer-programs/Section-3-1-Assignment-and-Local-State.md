@@ -2,7 +2,7 @@
 title: Section 3.1 Assignment and Local State
 description: 
 published: true
-date: 2020-12-20T04:11:52.803Z
+date: 2020-12-20T04:16:47.326Z
 tags: book-notes
 editor: markdown
 ---
