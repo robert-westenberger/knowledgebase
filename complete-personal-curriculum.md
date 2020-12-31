@@ -2,10 +2,12 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2020-12-31T04:44:25.792Z
+date: 2020-12-31T04:46:14.781Z
 tags: 
 editor: markdown
 ---
 
-# Header
-Your content here
+# Personal Curriculum
+
+## Programming
+
