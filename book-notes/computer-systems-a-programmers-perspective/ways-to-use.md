@@ -2,7 +2,7 @@
 title: Using Computer Systems: A Programmer's Perspective
 description: 
 published: true
-date: 2020-12-31T04:11:29.071Z
+date: 2020-12-31T04:35:20.538Z
 tags: book-notes
 editor: markdown
 ---
