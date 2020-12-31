@@ -2,7 +2,7 @@
 title: Using Computer Systems: A Programmer's Perspective
 description: 
 published: true
-date: 2020-12-31T03:47:16.765Z
+date: 2020-12-31T03:49:28.898Z
 tags: book-notes
 editor: markdown
 ---
@@ -17,7 +17,7 @@ A computer organization course with traditional topics covered in an untradition
 additional emphasis on the impact of hardware
 on the performance of application programs. Compared to ORG, students
 learn more about code optimization and about improving the memory performance of their C programs.
-#### ICS+
+#### ICS
 The baseline ICS course, designed to produce enlightened programmers who
 understand the impact of the hardware, operating system, and compilation
 system on the performance and correctness of their application programs.
@@ -26,3 +26,7 @@ is not covered. Instead, programmers work with a higher-level model of a
 modern out-of-order processor. The ICS course fits nicely into a 10-week
 quarter, and can also be stretched to a 15-week semester if covered at a
 more leisurely pace.
+#### ICS+
+The baseline ICS course with additional coverage of systems programming
+topics such as system-level I/O, network programming, and concurrent programming. This is the semester-long Carnegie Mellon course, which covers
+every chapter in CS:APP except low-level processor architecture.
