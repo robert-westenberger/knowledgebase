@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T00:48:44.429Z
+date: 2021-01-01T00:52:01.429Z
 tags: 
 editor: markdown
 ---
@@ -20,4 +20,5 @@ Computer Systems: A Programmer's Perspective
 The Algorithm Design Manual
 
 ## Mathematics 
-Math for CS
+### Calculus 
+### Discrete Mathematics
