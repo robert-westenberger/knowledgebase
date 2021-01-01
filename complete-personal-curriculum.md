@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T03:31:07.251Z
+date: 2021-01-01T03:36:37.318Z
 tags: 
 editor: markdown
 ---
@@ -21,6 +21,8 @@ The Algorithm Design Manual
 
 ## Mathematics 
 Discrete Mathematics. (L. Lovász and K. Vesztergombi)
+
+
 
 
 
