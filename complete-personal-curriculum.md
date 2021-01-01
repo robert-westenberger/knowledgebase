@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T04:05:03.759Z
+date: 2021-01-01T04:05:36.967Z
 tags: 
 editor: markdown
 ---
@@ -11,7 +11,8 @@ editor: markdown
 
 ## Programming
 
-Structure and interpretation of computer programs
+
+[Structure and interpretation of computer programs](/book-notes/structure-and-interpretation-of-computer-programs/complete-personal-curriculum)
 
 ## Computer Architecture
 Computer Systems: A Programmer's Perspective
