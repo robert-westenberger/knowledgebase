@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T03:10:23.291Z
+date: 2021-01-01T03:11:07.494Z
 tags: 
 editor: markdown
 ---
@@ -20,6 +20,6 @@ Computer Systems: A Programmer's Perspective
 The Algorithm Design Manual
 
 ## Mathematics 
-Discrete Mathematics. 
+Discrete Mathematics. (L. Lovász and K. Vesztergombi)
 ### Calculus 
 ### Discrete Mathematics
