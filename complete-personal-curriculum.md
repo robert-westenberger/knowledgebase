@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T00:52:01.429Z
+date: 2021-01-01T00:54:38.221Z
 tags: 
 editor: markdown
 ---
