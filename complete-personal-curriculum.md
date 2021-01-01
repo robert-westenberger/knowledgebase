@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T04:07:13.101Z
+date: 2021-01-01T04:07:28.574Z
 tags: 
 editor: markdown
 ---
@@ -15,8 +15,7 @@ editor: markdown
 [Structure and interpretation of computer programs](/book-notes/structure-and-interpretation-of-computer-programs/complete-personal-curriculum)
 
 ## Computer Architecture
-Computer Systems: A Programmer's Perspective
-[complete-personal-curriculum](/book-notes/computer-systems-a-programmers-perspective/complete-personal-curriculum)
+[Computer Systems: A Programmer's Perspective](/book-notes/computer-systems-a-programmers-perspective/complete-personal-curriculum)
 
 ## Algorithms and Data Structures
 The Algorithm Design Manual
