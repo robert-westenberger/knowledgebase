@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T03:36:37.318Z
+date: 2021-01-01T03:38:47.522Z
 tags: 
 editor: markdown
 ---
@@ -22,8 +22,7 @@ The Algorithm Design Manual
 ## Mathematics 
 Discrete Mathematics. (L. Lovász and K. Vesztergombi)
 
-
-
+[random-notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
 
 
 ### Calculus 
