@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T04:21:59.289Z
+date: 2021-01-01T04:22:26.130Z
 tags: 
 editor: markdown
 ---
@@ -17,6 +17,7 @@ editor: markdown
 ## Computer Architecture
 [Computer Systems: A Programmer's Perspective](/book-notes/computer-systems-a-programmers-perspective/complete-personal-curriculum)
 
+Nand2Tetris 
 ## Algorithms and Data Structures
 The Algorithm Design Manual
 
