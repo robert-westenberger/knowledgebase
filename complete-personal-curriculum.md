@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T03:44:26.307Z
+date: 2021-01-01T03:46:00.453Z
 tags: 
 editor: markdown
 ---
@@ -19,7 +19,10 @@ Computer Systems: A Programmer's Perspective
 ## Algorithms and Data Structures
 The Algorithm Design Manual
 
-## Mathematics 
+## Mathematics
+
+[Mathematics for Computer Science MIT 6.042J / 18.062J ](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
+
 Discrete Mathematics. (L. Lovász and K. Vesztergombi)
 
 [Mathematics for Computer Science MIT 6.042J / 18.062J ](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
