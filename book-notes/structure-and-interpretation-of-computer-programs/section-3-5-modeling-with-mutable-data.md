@@ -2,7 +2,7 @@
 title: Section 3.3 Modeling with Mutable Data
 description: 
 published: true
-date: 2021-01-10T03:07:09.503Z
+date: 2021-01-10T03:10:16.459Z
 tags: book-notes
 editor: markdown
 ---
@@ -20,5 +20,6 @@ Sharing is undetectable if data objects are not mutated. However if two differen
 We could represent a queue as a regular list, but this would require us to scan the entire list to find the end of the queue (since a list only providers a pointer to the beginning of the list and we have to tail our way down to the end of the list).
 
 To avoid this drawback we can represent the queue as a list, together with an additional pointer that indicates the final pair in the list.
+
 
 
