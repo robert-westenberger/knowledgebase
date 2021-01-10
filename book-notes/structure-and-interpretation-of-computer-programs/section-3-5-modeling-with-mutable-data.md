@@ -2,7 +2,7 @@
 title: Section 3.3 Modeling with Mutable Data
 description: 
 published: true
-date: 2020-12-24T07:34:44.832Z
+date: 2021-01-10T02:28:55.097Z
 tags: book-notes
 editor: markdown
 ---
@@ -14,3 +14,5 @@ In order to model compound objects with changing state, we will design data abst
 ### Sharing and identity
 Sharing is undetectable if data objects are not mutated. However if two different data objects contain members that point to the same piece of data in memory; mutating data for one object that points to a common object can cause unanticipated results. 
 
+
+### 
