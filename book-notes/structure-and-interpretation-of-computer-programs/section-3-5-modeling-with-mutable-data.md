@@ -2,7 +2,7 @@
 title: Section 3.3 Modeling with Mutable Data
 description: 
 published: true
-date: 2021-01-10T02:29:13.492Z
+date: 2021-01-10T02:35:32.170Z
 tags: book-notes
 editor: markdown
 ---
@@ -16,4 +16,4 @@ Sharing is undetectable if data objects are not mutated. However if two differen
 
 
 ### Queues
-
+[Queues](/computer-science/Queues)
