@@ -2,10 +2,9 @@
 title: Queues
 description: 
 published: true
-date: 2021-01-10T02:30:45.620Z
+date: 2021-01-10T02:31:06.268Z
 tags: computer-science
 editor: markdown
 ---
 
-# Header
-Your content here
+# Queues
