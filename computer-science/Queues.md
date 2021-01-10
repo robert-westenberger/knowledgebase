@@ -2,9 +2,11 @@
 title: Queues
 description: 
 published: true
-date: 2021-01-10T02:31:06.268Z
+date: 2021-01-10T02:35:22.094Z
 tags: computer-science
 editor: markdown
 ---
 
 # Queues
+
+A queue is a sequence in which items are inserted at one end (called the rear of the queue) and deleted from the other end (the front). 
