@@ -2,7 +2,7 @@
 title: Section 3.3 Modeling with Mutable Data
 description: 
 published: true
-date: 2021-01-10T03:10:16.459Z
+date: 2021-01-10T03:13:36.887Z
 tags: book-notes
 editor: markdown
 ---
@@ -21,5 +21,6 @@ We could represent a queue as a regular list, but this would require us to scan 
 
 To avoid this drawback we can represent the queue as a list, together with an additional pointer that indicates the final pair in the list.
 
-
+A queue then is represented as a pair whose head is the front of the queue and the tail is 
+![queue_representation.png](/queue_representation.png)
 
