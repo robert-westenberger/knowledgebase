@@ -2,7 +2,7 @@
 title: Section 3.3 Modeling with Mutable Data
 description: 
 published: true
-date: 2021-01-11T00:09:51.074Z
+date: 2021-01-11T00:31:44.138Z
 tags: book-notes
 editor: markdown
 ---
