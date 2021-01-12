@@ -2,7 +2,7 @@
 title: 2.3.3 Example: Representing Sets
 description: 
 published: true
-date: 2021-01-12T17:20:57.391Z
+date: 2021-01-12T17:22:28.366Z
 tags: book-notes
 editor: markdown
 ---
