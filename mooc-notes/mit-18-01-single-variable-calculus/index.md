@@ -2,7 +2,7 @@
 title: MIT 18.01 Single Variable Calculus
 description: 
 published: true
-date: 2021-01-13T05:29:00.335Z
+date: 2021-01-13T05:30:43.741Z
 tags: mathematics, massively open online courses
 editor: markdown
 ---
@@ -42,3 +42,13 @@ Lecture 25: Exam 3 revi ew
 Lecture 26: Trigonometric integrals and substitution 
 Lecture 27: Exam 3 covering lecs 18-24
 Lecture 28: Integration by inverse substitution; completing the square
+Lecture 29: Partial fractions
+Lecture 30: Integration by parts, reduction formulae
+Lecture 31: Parametric equations, arclength, surface area
+Lecture 32: Polar coordinates; area in polar coors; exam 4 review
+Lecture 33: Exam 4 covering lecs 26-32
+Lecture 34: Indeterminate forms - L'Hôspital's rule
+Lecture 35: Improper integrals
+Lecture 36: Infinite series and convergence tests
+Lecture 37: Taylor's series
+Lecture 38: Final Review
