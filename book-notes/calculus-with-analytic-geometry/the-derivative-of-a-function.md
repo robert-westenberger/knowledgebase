@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-13T18:39:01.856Z
+date: 2021-01-13T18:39:49.257Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -17,4 +17,5 @@ Calculus is divided into two main parts.
 ![tangent_to_a_curve.png](/tangent_to_a_curve.png)
 Above, the graph of a function (black), and a tangent line to that function (red). The slope of the tangent line is equal to the derivative of the function at the marked point.
 
+The **derivative** of a function of a real variable measures the sensitivity to change of the function value (output value) with respect to a change in its argument (input value).
 
