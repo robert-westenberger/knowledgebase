@@ -2,7 +2,7 @@
 title: Recitation: graphing
 description: 
 published: true
-date: 2021-01-13T17:11:43.614Z
+date: 2021-01-13T17:33:03.372Z
 tags: mathematics, massively open online courses
 editor: markdown
 ---
