@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-13T18:42:17.572Z
+date: 2021-01-13T19:13:58.656Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -22,3 +22,9 @@ Above, the graph of a function (black), and a tangent line to that function (red
 The **derivative** of a function of a real variable measures the sensitivity to change of the function value (output value) with respect to a change in its argument (input value).
 
 ## 2.2 How to calculate the slope of the tangent
+
+![parabola1.png](/parabola1.png)
+Above, we want to calculate the slope of the tangent to this parabola at the given point P.
+
+1) Choose a second nearby point Q = (x1, y1) on the curve.
+2) Draw the secant line PQ. The slope of the secant 
