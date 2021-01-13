@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-13T19:14:40.867Z
+date: 2021-01-13T19:21:41.684Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -28,3 +28,6 @@ Above, we want to calculate the slope of the tangent to this parabola at the giv
 
 1) Choose a second nearby point Q = (x1, y1) on the curve.
 2) Draw the secant line PQ. The slope of the secant is 
+
+$m_{sec}=$ slope of PQ $= \frac{y1-y0}{x1-x0}$
+a
