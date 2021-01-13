@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-13T19:21:41.684Z
+date: 2021-01-13T19:23:01.451Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -30,4 +30,4 @@ Above, we want to calculate the slope of the tangent to this parabola at the giv
 2) Draw the secant line PQ. The slope of the secant is 
 
 $m_{sec}=$ slope of PQ $= \frac{y1-y0}{x1-x0}$
-a
+3) We let x1 approach x0, so that the variable point Q approaches the fixed point P by sliding along the curve. As this happens, the secant changes direction and visibly approaches the tangent at P as its limiting position.
