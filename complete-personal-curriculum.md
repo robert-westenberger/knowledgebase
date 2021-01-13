@@ -2,7 +2,7 @@
 title: Personal Curriculum
 description: 
 published: true
-date: 2021-01-01T09:51:17.050Z
+date: 2021-01-13T00:18:55.026Z
 tags: 
 editor: markdown
 ---
@@ -24,7 +24,7 @@ The Algorithm Design Manual
 ## Mathematics
 
 ### Calculus 
-[Single Variable Calculus MIT 18.01 ](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/)
+[Single Variable Calculus MIT 18.01 ](https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/) (Prerequisite for Mathematics for Computer Science MIT 6.042J / 18.062J)
 
 ### Discrete Mathematics
 
