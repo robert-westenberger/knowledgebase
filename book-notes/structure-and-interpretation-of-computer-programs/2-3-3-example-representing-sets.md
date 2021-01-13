@@ -2,7 +2,7 @@
 title: 2.3.3 Example: Representing Sets
 description: 
 published: true
-date: 2021-01-13T02:34:06.066Z
+date: 2021-01-13T02:36:11.742Z
 tags: book-notes
 editor: markdown
 ---
@@ -14,4 +14,4 @@ A set is a collection of distinct objects. Operations involving sets include
 * union_set - computes the set containing each element that appears in either argument.
 * intersection_set - computes the set containing each element that appear in both arguments.
 
-If a set is represented as an **ordered list**
+If a set is represented as an **ordered list**, we no longer have to scan the entire list.. if we reach an element that is larger than the element we are searching for then we know it's not in the list.
