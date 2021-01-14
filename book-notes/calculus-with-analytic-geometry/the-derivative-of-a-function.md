@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-14T18:30:01.179Z
+date: 2021-01-14T18:35:36.802Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -42,4 +42,8 @@ $$ m_{sec}=\frac{y_1 - y_0}{x_1 - x_0}=\frac{{x_1}^2 - {x_0}^2}{x_1-x_0}$$
 If we factor the binomials and cancel the common factors we obtain
 
 $$m=\underset{x_1\rarr x_0}{lim}\frac{y_1 - y_0}{x_1 - x_0}=\underset{x_1\rarr x_0}{lim}(x_1 + x_0)$$
+
+We can now see that as $x_1$ gets closer to $x_0$, $x^1$ + $x^0$ becomes more and more nearly equal to $x_0 + x_0 = {2_x}_0$ . Accordingly, 
+$$ m= {2_x}_0 $$ 
+is the slope of the tangent to the curve $y=x^2$ at the point $(x_0, y_0)$
 
