@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-14T18:16:45.045Z
+date: 2021-01-14T18:22:25.990Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -37,4 +37,4 @@ $$ m=\underset{Q\rarr P}{lim} \hspace{1mm} m_{sec}=\underset{x_1\rarr x_2}{lim}\
 
 4) We use the equation of the curve to calculate the slope of the secant. Since P and Q both lie on the curve, we have $y_0={x_0}^2$ $y_1={x_1}^2$ so
 
-$$ m=\underset{Q\rarr P}{lim} \hspace{1mm} m_{sec}=\underset{x_1\rarr x_2}{lim}\frac{y_1 - y_0}{x_1 - x_0}$$   
+$$ m_{sec}=\frac{y_1 - y_0}{x_1 - x_0}=\frac{{x_1}^2 - {x_0}^2}{x_1-x_0}$$   
