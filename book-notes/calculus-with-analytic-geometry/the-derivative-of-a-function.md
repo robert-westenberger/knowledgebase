@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-14T17:59:40.226Z
+date: 2021-01-14T18:01:46.023Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -24,7 +24,7 @@ The **derivative** of a function of a real variable measures the sensitivity to 
 ## 2.2 How to calculate the slope of the tangent
 
 ![parabola1.png](/parabola1.png)
-Above, we want to calculate the slope of the tangent to this parabola at the given point P.
+Above, we want to calculate the slope of the tangent to this parabola $y=x^2$ at the given point P.
 
 1) Choose a second nearby point Q = (x1, y1) on the curve.
 2) Draw the secant line PQ. The slope of the secant is 
@@ -35,6 +35,6 @@ $$m_{sec}= slope \hspace{1mm} of \hspace{1mm} PQ = \frac{y1-y0}{x1-x0}$$
 
 $$ m=\underset{Q\rarr P}{lim} \hspace{1mm} m_{sec}=\underset{x_1\rarr x_2}{lim}\frac{y_1 - y_0}{x_1 - x_0}$$   
 
-4) We use the equation of the curve to calculate the slope of the secant. Since 
+4) We use the equation of the curve to calculate the slope of the secant. Since P and Q both lie on the curve 
 
 test 
