@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-14T17:48:03.571Z
+date: 2021-01-14T17:50:38.993Z
 tags: mathematics, book-notes
 editor: markdown
 ---
