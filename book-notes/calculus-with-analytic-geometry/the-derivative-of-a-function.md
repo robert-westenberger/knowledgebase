@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-14T17:52:15.537Z
+date: 2021-01-14T17:59:40.226Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -35,6 +35,6 @@ $$m_{sec}= slope \hspace{1mm} of \hspace{1mm} PQ = \frac{y1-y0}{x1-x0}$$
 
 $$ m=\underset{Q\rarr P}{lim} \hspace{1mm} m_{sec}=\underset{x_1\rarr x_2}{lim}\frac{y_1 - y_0}{x_1 - x_0}$$   
 
-We must think of x_1 as coming very close to x_0 but remaining distinct from it. 
+4) We use the equation of the curve to calculate the slope of the secant. Since 
 
 test 
