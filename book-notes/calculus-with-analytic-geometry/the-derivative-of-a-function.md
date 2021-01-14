@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-14T17:27:20.689Z
+date: 2021-01-14T17:47:14.145Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -33,4 +33,6 @@ $$m_{sec}= slope \hspace{1mm} of \hspace{1mm} PQ = \frac{y1-y0}{x1-x0}$$
 
 3) We let x1 approach x0, so that the variable point Q approaches the fixed point P by sliding along the curve. As this happens, the secant changes direction and visibly approaches the tangent at P as its limiting position. The slope *m* of the tangent is the limiting value approached by the slope $m_{sec}$ of the secant.
 
-$$ m=$$    
+$$ m=\underset{Q\rarr P}{lim} \hspace{1mm} m_{sec}=\underset{x_1\rarr x_2}{lim}\frac{y_1 - y_0}{x_1 - x_0}$$   
+
+test 
