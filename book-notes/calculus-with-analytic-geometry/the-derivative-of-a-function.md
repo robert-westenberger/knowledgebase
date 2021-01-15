@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T18:54:07.065Z
+date: 2021-01-15T18:59:26.870Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -59,3 +59,5 @@ $$m_{sec}=2x_0+\Delta x$$
 $$m=\underset{\Delta x \rarr 0}{lim}({2}x_0 + \Delta x)={2}x_0$$
 
 As $\Delta x$ gets closer to 0, ${2}x_0+\Delta x$ becomes more and more nearly equal to ${2}x_0$
+
+The following generalized formulas can be used to calculate the slope of the secant through any two points P and Q corresponding to $x_0$ and $x_0 + \Delta x$
