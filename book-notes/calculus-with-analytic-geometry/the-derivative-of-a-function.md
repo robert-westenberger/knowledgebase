@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T18:21:42.107Z
+date: 2021-01-15T18:23:04.750Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -57,3 +57,5 @@ Delta can be used to simplify the formula for calculating the slope of a secant 
 
 $$m_{sec}=2x_0+\Delta x$$
 $$m=\underset{\Delta x \rarr 0}{lim}({2}x_0 + \Delta x)={2}x_0$$
+
+(above being read as
