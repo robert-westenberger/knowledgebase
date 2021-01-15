@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T18:18:15.632Z
+date: 2021-01-15T18:18:45.993Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -53,4 +53,4 @@ $$ \Delta x=x_1-x_0$$
 Alternatively, 
 $$x_1 = x_0 + \Delta x$$
 
-Delta can be used to simplify the formula for calculating 
+Delta can be used to simplify the formula for calculating the slope of a secant and ultimately the slope of the tangent.
