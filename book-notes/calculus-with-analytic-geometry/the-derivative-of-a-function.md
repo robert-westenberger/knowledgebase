@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T18:14:01.982Z
+date: 2021-01-15T18:15:51.758Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -53,3 +53,4 @@ $$ \Delta x=x_1-x_0$$
 Alternatively, 
 $$x_1 = x_0 + \Delta x$$
 
+Delta can be used 
