@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T17:53:08.413Z
+date: 2021-01-15T17:58:38.653Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -47,3 +47,6 @@ We can now see that as $x_1$ gets closer to $x_0$, $x^1$ + $x^0$ becomes more an
 $$ m= {2_x}_0 $$ 
 is the slope of the tangent to the curve $y=x^2$ at the point $(x_0, y_0)$
 
+### Delta notation
+
+$$ \Delta x=x_1-x_0$$
