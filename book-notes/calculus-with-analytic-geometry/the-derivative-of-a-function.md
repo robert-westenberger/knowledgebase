@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T19:05:11.104Z
+date: 2021-01-15T19:06:01.470Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -72,4 +72,6 @@ $$m=\underset{\Delta x \rarr 0}{lim}\frac{f(x_0 +\Delta x) - f(x_0)}{\Delta x}$$
 Value of this limit is ually denoted by the symbol $f'(x_0)$ read "$f$ prime of $x_0$ in order to emphasize its dependence on both the point $x_0$ and the function $f(x)$ .
 Thus we have 
 
-$$f'(x_0)=\underset{\Delta x \rarr 0}{lim}\frac{f(x_0 +\Delta x) - f(x_0)}{\Delta x}$$
+$$f'(x_0)=\underset{\Delta x \rarr 0}{lim}\frac{f(x_0 +\Delta x) - f(x_0)}{\Delta x}$$ 
+
+If $f(x)=x^2$, then $f'(x_0) = {2}x_0$ 
