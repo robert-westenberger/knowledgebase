@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T19:02:48.370Z
+date: 2021-01-15T19:04:20.622Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -68,3 +68,5 @@ $$ m_{sec} = \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}$$
 We then calculate the limit of $m_{sec}$ as $\Delta x$ approaches 0, obtaining a number m that we interpret geometrically as the slope of the tangent to the curve at the point P.
 
 $$m=\underset{\Delta x \rarr 0}{lim}\frac{f(x_0 +\Delta x) - f(x_0)}{\Delta x}$$
+
+Value of this limit is ually denoted by the symbol $f'(x_0)$ read "$f$ prime of $x_0$ in order to emphasize its dependence on both the point $x_0$ and the function $f(x)$
