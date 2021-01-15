@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T18:18:45.993Z
+date: 2021-01-15T18:19:13.707Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -54,3 +54,5 @@ Alternatively,
 $$x_1 = x_0 + \Delta x$$
 
 Delta can be used to simplify the formula for calculating the slope of a secant and ultimately the slope of the tangent.
+
+$$m_{sec}=2x_0+\Delta x$$
