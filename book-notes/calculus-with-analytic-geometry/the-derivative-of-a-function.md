@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T18:07:34.577Z
+date: 2021-01-15T18:14:01.982Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -52,3 +52,4 @@ Delta notation is the notation of change (the delta of a value).
 $$ \Delta x=x_1-x_0$$
 Alternatively, 
 $$x_1 = x_0 + \Delta x$$
+
