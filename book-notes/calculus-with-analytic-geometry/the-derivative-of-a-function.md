@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-15T17:58:38.653Z
+date: 2021-01-15T18:00:09.009Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -48,5 +48,7 @@ $$ m= {2_x}_0 $$
 is the slope of the tangent to the curve $y=x^2$ at the point $(x_0, y_0)$
 
 ### Delta notation
-
+Delta notation is the notation of change (the delta of a value).
 $$ \Delta x=x_1-x_0$$
+Alternatively, 
+$$x_1 = x_0 + \Delta x$$
