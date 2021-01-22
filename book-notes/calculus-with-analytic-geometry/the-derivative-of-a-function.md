@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-18T18:56:15.525Z
+date: 2021-01-22T18:26:33.616Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -75,3 +75,7 @@ Thus we have
 $$f'(x_0)=\underset{\Delta x \rarr 0}{lim}\frac{f(x_0 +\Delta x) - f(x_0)}{\Delta x}$$ 
 
 If $f(x)=x^2$, then $f'(x_0) = {2}x_0$ 
+
+
+### Calculating tangent line to a function at a point
+1) 
