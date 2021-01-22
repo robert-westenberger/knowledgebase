@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-22T18:33:16.702Z
+date: 2021-01-22T18:33:58.063Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -79,3 +79,4 @@ If $f(x)=x^2$, then $f'(x_0) = {2}x_0$
 
 ### Calculating tangent line to a function at a point
 1) Calculate the derivative of f(x). One possible way is using the limit definition of a derivative given above. 
+2) 
