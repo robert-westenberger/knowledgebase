@@ -2,10 +2,10 @@
 title: Limits
 description: 
 published: true
-date: 2021-01-22T17:35:01.730Z
+date: 2021-01-22T17:35:08.725Z
 tags: mathematics, calculus
 editor: markdown
 ---
 
-# Header
+# Limits
 Your content here
