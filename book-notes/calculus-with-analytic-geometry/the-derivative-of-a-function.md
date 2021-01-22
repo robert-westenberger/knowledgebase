@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-22T19:00:32.702Z
+date: 2021-01-22T19:01:02.271Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -85,3 +85,5 @@ $f(x)=15-2x^2$ at $x=1$
 2) Calculate the slope of the tangent line by substituting x, which is 1, into the derivative of f(x). The slope is -4.
 3) Calculate the y value of the point of tangency by popping the value of x in the original given function.
 4) Calculate the equation of the tangent line by putting our values into slope intercept form.
+
+## 2.3 The Definition of the Derivative
