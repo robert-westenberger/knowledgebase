@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-22T19:06:26.261Z
+date: 2021-01-25T17:23:02.828Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -87,3 +87,8 @@ $f(x)=15-2x^2$ at $x=1$
 4) Calculate the equation of the tangent line by putting our values into slope intercept form.
 
 ## 2.3 The Definition of the Derivative
+
+#### Finding points on a curve at which tangent is horizontal
+1) Calculate the derivative of the function. 
+2) Set the derivative equal to 0 to obtain the x coordinates of the points where the tangent lines are horizontal ( lines that are horizontal have a slope of 0). 
+3) 
