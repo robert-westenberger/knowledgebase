@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-25T19:55:19.188Z
+date: 2021-01-25T20:12:42.367Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -100,3 +100,4 @@ This section introduces two important topics in calculus: velocity ( rate of cha
 Using functions we can simulate rate of change, velocity. We can simulate problems about objects falling or being launched vertically, and when they reach their maximum height (when their velocity is 0 before the object makes its descent). From this we can calculate the height an object reaches.
 
 ## 2.5 The Concept of a Limit. Two Trigonometric Limits
+
