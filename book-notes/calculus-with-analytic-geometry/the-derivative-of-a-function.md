@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-25T18:52:45.815Z
+date: 2021-01-25T19:00:19.324Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -96,3 +96,4 @@ $f(x)=15-2x^2$ at $x=1$
 ## 2.4 Velocity and Rates of Change
 
 This section introduces two important topics in calculus: velocity ( rate of change of the position of a moving object), and rates of change in general, including acceleration, which is the rate of change of... a rate of change ( the rate of change of velocity).
+
