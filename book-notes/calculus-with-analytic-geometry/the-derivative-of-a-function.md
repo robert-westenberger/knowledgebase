@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-25T19:00:19.324Z
+date: 2021-01-25T19:12:21.894Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -97,3 +97,4 @@ $f(x)=15-2x^2$ at $x=1$
 
 This section introduces two important topics in calculus: velocity ( rate of change of the position of a moving object), and rates of change in general, including acceleration, which is the rate of change of... a rate of change ( the rate of change of velocity).
 
+Using functions we can simulate rate of change, velocity. We can simulate problems about objects falling or being launched vertically, and when they reach their maximum height (when their velocity is 0 before the object makes its descent). From this we can calculate the height an object reaches.
