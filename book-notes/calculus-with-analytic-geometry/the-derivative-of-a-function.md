@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-25T17:52:36.663Z
+date: 2021-01-25T18:01:01.741Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -92,3 +92,5 @@ $f(x)=15-2x^2$ at $x=1$
 1) Calculate the derivative of the function. 
 2) Calculate the x coordinates of the points where the tangent is horizontal by setting the derivative equal to 0 and solving for x.
 3) Calculate the y coordinates by plugging in the x coordinates of the points using the equation of the curve.
+
+## 2.4 Velocity and Rates of Change
