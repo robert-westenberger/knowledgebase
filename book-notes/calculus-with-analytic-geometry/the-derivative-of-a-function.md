@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-25T18:01:01.741Z
+date: 2021-01-25T18:34:56.991Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -94,3 +94,5 @@ $f(x)=15-2x^2$ at $x=1$
 3) Calculate the y coordinates by plugging in the x coordinates of the points using the equation of the curve.
 
 ## 2.4 Velocity and Rates of Change
+
+This section introduces two important topics in calculus: velocity ( rate of change of the position of a moving object), and rates of change in general, including acceleration, which is the rate of change of... a rate of change ( the rate of change of velocity).
