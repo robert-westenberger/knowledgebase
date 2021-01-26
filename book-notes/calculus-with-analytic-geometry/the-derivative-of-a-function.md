@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-25T20:48:12.481Z
+date: 2021-01-26T17:23:21.314Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -103,3 +103,4 @@ Using functions we can simulate rate of change, velocity. We can simulate proble
 
 ![nonexistent_limits.png](/nonexistent_limits.png)
 
+Above functions don't have a single number 
