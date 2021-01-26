@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-26T17:44:03.167Z
+date: 2021-01-26T17:44:58.151Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -107,4 +107,4 @@ Above functions don't have a single number that they approach as x approaches 0 
 
 $\underset{x\rarr 0+}{lim}\frac{x}{|x|}=1$ and $\underset{x\rarr 0-}{lim}\frac{x}{|x|}=-1$
 
-$\underset{x\rarr 0+}{lim}\frac{1}{x}=\infin$
+$\underset{x\rarr 0+}{lim}\frac{1}{x}=\infin$, $\underset{x\rarr 0-}{lim}\frac{1}{x}=-\infin$ and $\underset{x\rarr 0}{lim}\frac{1}{x^2}=\infin$
