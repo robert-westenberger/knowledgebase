@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-26T17:35:39.818Z
+date: 2021-01-26T17:39:01.326Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -103,4 +103,6 @@ Using functions we can simulate rate of change, velocity. We can simulate proble
 
 ![nonexistent_limits.png](/nonexistent_limits.png)
 
-Above functions don't have a single number that they approach as x approaches 0 without regard to the sign. 
+Above functions don't have a single number that they approach as x approaches 0 without regard to the sign. There is some notation that can be used to denote this.
+
+$\underset{x\rarr 0}{lim}\frac{x}{|x|}=1$ and $\underset{x\rarr 0}{lim}\frac{x}{|x|}=1$
