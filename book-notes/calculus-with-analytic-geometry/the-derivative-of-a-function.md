@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-26T17:56:53.069Z
+date: 2021-01-26T18:00:05.712Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -109,3 +109,4 @@ $\underset{x\rarr 0+}{lim}\frac{x}{|x|}=1$ and $\underset{x\rarr 0-}{lim}\frac{x
 
 $\underset{x\rarr 0+}{lim}\frac{1}{x}=\infin$, $\underset{x\rarr 0-}{lim}\frac{1}{x}=-\infin$ and $\underset{x\rarr 0}{lim}\frac{1}{x^2}=\infin$
 
+The limit of a sum is the sum of the limits. Similar statements can be made about differences, quotients, products. 
