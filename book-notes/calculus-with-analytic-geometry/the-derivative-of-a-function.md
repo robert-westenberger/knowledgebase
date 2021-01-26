@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-26T18:18:18.432Z
+date: 2021-01-26T18:19:26.248Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -113,3 +113,5 @@ The limit of a sum is the sum of the limits. Similar statements can be made abou
 
 This section touches upon the importance of two limits, 
 $$\underset{\theta\rarr 0}{lim}\frac{sin \theta}{\theta}=1$$
+and 
+$$\underset{\theta\rarr 0}{lim}\frac{1 - cos\theta}{\theta}=0$$
