@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-27T19:08:56.518Z
+date: 2021-01-27T19:10:10.696Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -117,3 +117,5 @@ and
 $$\underset{\theta\rarr 0}{lim}\frac{1 - cos\theta}{\theta}=0$$
 
 // todo: more about limits of trigonometric functions
+
+## 2.6 Continuous Functions. The Mean Value Theorem and Other Theorems
