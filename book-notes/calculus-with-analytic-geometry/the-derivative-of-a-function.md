@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-27T19:08:35.342Z
+date: 2021-01-27T19:08:56.518Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -115,3 +115,5 @@ This section touches upon the importance of two limits,
 $$\underset{\theta\rarr 0}{lim}\frac{sin \theta}{\theta}=1$$
 and 
 $$\underset{\theta\rarr 0}{lim}\frac{1 - cos\theta}{\theta}=0$$
+
+// todo: more about limits of trigonometric functions
