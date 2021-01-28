@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-28T17:47:17.463Z
+date: 2021-01-28T17:47:39.493Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -120,3 +120,5 @@ $$\underset{\theta\rarr 0}{lim}\frac{1 - cos\theta}{\theta}=0$$
 
 ## 2.6 Continuous Functions. The Mean Value Theorem and Other Theorems
 A function $y=f(x)$ is **continuous** when a small change in $x$ produces a similarly small change in the value $f(x)$ without any abrupt changes in the value, known as discontinuities. If f(x) is undefined at a point for example, then it would not be continuous. A point in a function also could not have an existing limit. (the graph would have holes in it). 
+
+A function which is differentiable at a point is continuous at that point.
