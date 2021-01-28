@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-28T17:56:22.190Z
+date: 2021-01-28T17:57:14.458Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -129,3 +129,4 @@ and left sided (x comes from the left, $x<a$)
 $$ \underset{x \rarr a-}{lim}f(x)$$
 
 A two-sided limit exists iff both one-sided limits exist and are equal.
+
