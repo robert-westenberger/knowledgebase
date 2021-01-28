@@ -2,7 +2,7 @@
 title: Chapter 2: The Derivative of a Function
 description: 
 published: true
-date: 2021-01-28T17:58:23.166Z
+date: 2021-01-28T18:00:10.553Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -129,4 +129,6 @@ and left sided (x comes from the left, $x<a$)
 $$ \underset{x \rarr a-}{lim}f(x)$$
 
 A two-sided limit exists iff both one-sided limits exist and are equal.
+
+![types_of_discontinuity.png](/types_of_discontinuity.png)
 
