@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-28T19:18:01.212Z
+date: 2021-01-28T19:21:28.258Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -17,6 +17,9 @@ The derivative of $x^n$ is obtained by bringing the exponent n down in front as 
 3) If $c$ is a constant and $u = f(x)$ is a differentiable function of $x$, then
 $$\frac{d}{dx}(cu)=c\frac{du}{dx}$$
 The derivative of a constant times a function equals the constant times the derivative of the function.
+
+Combining rules two and three, we see that 
+$$\frac{d}{dx}cx^n=cnx^{n-1}$$
 ## 3.2
 ## 3.3 Skip me
 ## 3.4
