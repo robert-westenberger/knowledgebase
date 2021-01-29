@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-29T17:49:50.563Z
+date: 2021-01-29T17:53:10.947Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -22,7 +22,8 @@ $$\frac{d}{dx}(u+v)=\frac{du}{dx}+\frac{dv}{dx}$$
 Combining rules two and three, we see that 
 $$\frac{d}{dx}cx^n=cnx^{n-1}$$
 
-4) If $u = f(x)$ and $v=g(x)$  
+4) If $u = f(x)$ and $v=g(x)$ are functions of x, then
+$$\frac{d}{dx}(u+v)=\frac{du}{dx}+\frac{dv}{dx}$$
 ## 3.2
 ## 3.3 Skip me
 ## 3.4
