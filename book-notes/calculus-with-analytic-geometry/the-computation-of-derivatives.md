@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-29T17:17:25.012Z
+date: 2021-01-29T17:32:32.021Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -21,6 +21,8 @@ The derivative of a constant times a function equals the constant times the deri
 $$\frac{d}{dx}(u+v)=\frac{du}{dx}+\frac{dv}{dx}$$
 Combining rules two and three, we see that 
 $$\frac{d}{dx}cx^n=cnx^{n-1}$$
+
+4) If $u = f(x)$ and $v=g(x)$  
 ## 3.2
 ## 3.3 Skip me
 ## 3.4
