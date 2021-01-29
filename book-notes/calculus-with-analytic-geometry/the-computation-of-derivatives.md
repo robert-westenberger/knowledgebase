@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-29T18:20:58.395Z
+date: 2021-01-29T18:21:54.710Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -30,7 +30,7 @@ The derivative of the sum of two functions equals the sum of the individual deri
 In essentially the same way, the derivative of a difference equals the difference of the derivatives
 
 $$\frac{d}{dx}(u-v)=\frac{du}{dx}-\frac{dv}{dx}$$
-
+These results can be extended without difficulty to any finite number of terms.
 $$\frac{d}{dx}(u-v+w)=\frac{du}{dx}-\frac{dv}{dx}+\frac{dw}{dx}$$
 
 ## 3.2
