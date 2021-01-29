@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-29T18:02:08.135Z
+date: 2021-01-29T18:03:56.434Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -24,6 +24,8 @@ $$\frac{d}{dx}cx^n=cnx^{n-1}$$
 
 4) If $u = f(x)$ and $v=g(x)$ are functions of x, then
 $$\frac{d}{dx}(u+v)=\frac{du}{dx}+\frac{dv}{dx}$$
+
+The derivative 
 ## 3.2
 ## 3.3 Skip me
 ## 3.4
