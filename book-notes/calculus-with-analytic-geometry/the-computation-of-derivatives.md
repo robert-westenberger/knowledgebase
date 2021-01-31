@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-31T01:25:43.817Z
+date: 2021-01-31T01:27:18.291Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -39,6 +39,8 @@ Derive $y=(3x-2)^4$
 2) The expanded polynomial is $81x^4-216x^3+216x^2-96x+16$
 3) Using above rules, we can calculate
 $\frac{dy}{dx}=324x^3-648x^2+432x-96$
+
+
 
 ## 3.2
 ## 3.3 Skip me
