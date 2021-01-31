@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-31T01:05:48.531Z
+date: 2021-01-31T01:06:33.718Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -35,7 +35,7 @@ $$\frac{d}{dx}(u-v+w)=\frac{du}{dx}-\frac{dv}{dx}+\frac{dw}{dx}$$
 
 ### Examples
 Derive $y=(3x-2)^4$
-1) It is a polynomial but not in standard polynomial form. Later on in the book we'll have a formula that can be used here. **So we have to expand by the binomial theorem.**
+1) It is a polynomial but not in standard polynomial form. Later on in the book we'll have a formula that can be used here. **So we have to expand by the binomial theorem / binomial expan.**
 ## 3.2
 ## 3.3 Skip me
 ## 3.4
