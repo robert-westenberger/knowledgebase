@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-31T01:35:55.024Z
+date: 2021-01-31T02:41:56.844Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -46,6 +46,9 @@ $$s = t^3 +5t^2-8t$$
 
 The velocity $v$ is $v\frac{ds}{dt}$ and acceleration a is $a=\frac{dv}{dt}$.
 In this example $v=3t^2+10t-8$ and $a=6t+10$
+
+---
+
 ## 3.2
 ## 3.3 Skip me
 ## 3.4
