@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-31T01:29:44.836Z
+date: 2021-01-31T01:32:16.647Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -44,7 +44,8 @@ $\frac{dy}{dx}=324x^3-648x^2+432x-96$
 An object moves on a straight line in such a way that it's position $s$ at time $t$ is given by 
 $$s = t^3 +5t^2-8t$$
 
-
+The velocity $v$ is $v\frac{ds}{dt}$ and acceleration a is $a=\frac{dv}{dt}$.
+In this example $v=3t^2+10t-8$ and $a=6t+10$
 ## 3.2
 ## 3.3 Skip me
 ## 3.4
