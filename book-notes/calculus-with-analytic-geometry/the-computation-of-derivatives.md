@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-31T01:27:18.291Z
+date: 2021-01-31T01:29:25.981Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -40,6 +40,9 @@ Derive $y=(3x-2)^4$
 3) Using above rules, we can calculate
 $\frac{dy}{dx}=324x^3-648x^2+432x-96$
 
+---
+An object moves on a straight line in such a way that it's position $s$ at time $t$ is given by 
+$$s = t^3 +5t^2-8t$$
 
 
 ## 3.2
