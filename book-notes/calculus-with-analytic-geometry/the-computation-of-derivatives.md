@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-01-31T03:56:25.069Z
+date: 2021-01-31T08:14:18.477Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -50,5 +50,6 @@ In this example $v=3t^2+10t-8$ and $a=6t+10$
 ---
 
 ## 3.2 The Product and Quotient Rules
+
 ## 3.3 Skip me
 ## 3.4
