@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-01T18:49:02.009Z
+date: 2021-02-01T18:52:47.791Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -51,6 +51,8 @@ In this example $v=3t^2+10t-8$ and $a=6t+10$
 
 ## 3.2 The Product and Quotient Rules
 
+#### Product rule
+$$\frac{d}{dx}(uv)=u\frac{dv}{dx}+v\frac{du}{dx}$$
 
 
 
