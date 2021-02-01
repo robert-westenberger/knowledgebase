@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-01T18:53:21.010Z
+date: 2021-02-01T18:56:02.204Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -53,7 +53,7 @@ In this example $v=3t^2+10t-8$ and $a=6t+10$
 
 #### Product rule
 $$\frac{d}{dx}(uv)=u\frac{dv}{dx}+v\frac{du}{dx}$$
-
+The derivative of the product of two functions is the first times the derivative of 
 
 
 ## 3.3 Skip me
