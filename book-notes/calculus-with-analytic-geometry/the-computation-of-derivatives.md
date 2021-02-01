@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-01T19:12:51.108Z
+date: 2021-02-01T19:15:24.576Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -54,7 +54,7 @@ In this example $v=3t^2+10t-8$ and $a=6t+10$
 #### Product rule
 $$\frac{d}{dx}(uv)=u\frac{dv}{dx}+v\frac{du}{dx}$$
 The derivative of the product of two functions is the first times the derivative of the second plus the second times the derivative of the first. 
-
-
+#### Quotient rule
+$$\frac{d}{dx}(\frac{u}{v})=\frac{v \medspace du/dx -u \medspace dv/dx}{v^2}$$
 ## 3.3 Skip me
 ## 3.4
