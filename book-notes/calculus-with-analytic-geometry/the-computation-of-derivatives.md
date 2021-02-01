@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-01T20:11:25.474Z
+date: 2021-02-01T20:11:53.576Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -62,5 +62,5 @@ The derivative of a quotient is the denominator times the derivative of the nume
 
 The quotient rule can be used to extend the power rule to work for negative exponents (since a negative exponent can be rewritten as as a fraction). For example, $x^{-4}=\frac{1}{x^4}$
 
-## 3.3 Skip me
+## 3.3 Composite Functions and the Chain Rule (Syllabus says to skip)
 ## 3.4
