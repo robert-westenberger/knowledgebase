@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-01T19:53:22.558Z
+date: 2021-02-01T20:10:13.498Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -60,6 +60,7 @@ at all values of $x$ where $v \neq 0$.
 
 The derivative of a quotient is the denominator times the derivative of the numerator minus the numerator times the derivative of the denominator, all divided by the denominator squared.
 
-The quotient rule can be used to extend the power rule. Since 
+The quotient rule can be used to extend the power rule to work for negative exponents (since a negative exponent can be rewritten as as a fraction). For example, $x^{-4}=\frac{1}{x^4}$
+
 ## 3.3 Skip me
 ## 3.4
