@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-01T19:17:25.856Z
+date: 2021-02-01T19:18:08.809Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -56,6 +56,8 @@ $$\frac{d}{dx}(uv)=u\frac{dv}{dx}+v\frac{du}{dx}$$
 The derivative of the product of two functions is the first times the derivative of the second plus the second times the derivative of the first. 
 #### Quotient rule
 $$\frac{d}{dx}(\frac{u}{v})=\frac{v \medspace du/dx -u \medspace dv/dx}{v^2}$$
-at all values of $x$ where $v \neq 0$
+at all values of $x$ where $v \neq 0$.
+
+The derivative of a quotient is the denominator times the derivative of the numerator minus the numerator times the derivative of the denominator, all divided by the denominator squared.
 ## 3.3 Skip me
 ## 3.4
