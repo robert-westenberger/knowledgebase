@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-02T18:01:00.441Z
+date: 2021-02-02T18:46:54.291Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -61,6 +61,8 @@ at all values of $x$ where $v \neq 0$.
 The derivative of a quotient is the denominator times the derivative of the numerator minus the numerator times the derivative of the denominator, all divided by the denominator squared.
 
 The quotient rule can be used to extend the power rule to work for negative exponents (since a negative exponent can be rewritten as as a fraction). For example, $x^{-4}=\frac{1}{x^4}$
-
+#### Examples
+Derive $\frac{1}{x-1}-\frac{1}{x+1}$.
+1) We don't "know" about the chain rule yet.. so we simplify the fraction to $\frac{2}{x^2-1}$ and use the quotient rule to calculate.
 ## 3.3 Composite Functions and the Chain Rule 
 ## 3.4 Some Trigonometric Derivatives
