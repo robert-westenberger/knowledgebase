@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-03T17:57:06.243Z
+date: 2021-02-03T17:57:37.942Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -67,6 +67,6 @@ Derive $\frac{1}{x-1}-\frac{1}{x+1}$.
 ## 3.3 Composite Functions and the Chain Rule 
 A function like $y=(x^3+2)^5$ can be decomposed into smaller auxillary functions 
 $y=u^5$ and $u=x^3+2$. $y$ can now be described as a function of $u$, and $u$ can be described as a function of $x$.
-So we have $y=f(u)$ and $u=g(x)$.
+So we have $y=f(u)$ and $u=g(x)$. Building these pieces back together we have the composite function $y=f(g(x))$
 
 ## 3.4 Some Trigonometric Derivatives
