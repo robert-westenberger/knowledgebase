@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-03T17:52:24.233Z
+date: 2021-02-03T17:55:13.308Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -65,6 +65,7 @@ The quotient rule can be used to extend the power rule to work for negative expo
 Derive $\frac{1}{x-1}-\frac{1}{x+1}$.
 1) We don't "know" about the chain rule yet.. so we simplify the fraction to $\frac{2}{x^2-1}$ and use the quotient rule to calculate.
 ## 3.3 Composite Functions and the Chain Rule 
-A function like $y=(x^3+2)^5$ can be decomposed into 
+A function like $y=(x^3+2)^5$ can be decomposed into smaller auxillary functions 
+$y=u^5$ and $u=x^3+2$.
 
 ## 3.4 Some Trigonometric Derivatives
