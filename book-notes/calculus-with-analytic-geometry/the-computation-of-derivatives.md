@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-03T18:01:34.965Z
+date: 2021-02-03T18:02:03.115Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -76,6 +76,6 @@ So we have $y=f(u)$ and $u=g(x)$. Building these pieces back together we have th
 $$y=f(g(x))$$
 
 The derivative of the composed function can be calculated above as
-$$\frac{dy}{dx}=\frac{dy}{du}*\frac{du}{dx}$$
+$$\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$$
 
 ## 3.4 Some Trigonometric Derivatives
