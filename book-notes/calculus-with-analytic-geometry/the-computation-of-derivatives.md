@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-03T19:42:52.662Z
+date: 2021-02-03T19:52:14.203Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -81,4 +81,7 @@ The derivative of the composed function can be calculated above as
 $$\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$$
 #### Power Rule
 $$\frac{d}{dx}u^n=nu^{n-1}\frac{du}{dx}$$
+
+##### Examples
+
 ## 3.4 Some Trigonometric Derivatives
