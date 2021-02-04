@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-04T19:26:33.755Z
+date: 2021-02-04T19:55:45.229Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -81,7 +81,7 @@ The derivative of the composed function can be calculated above as
 $$\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$$ 
 
 In other words, the derivative of a composite function is ..
-$$F'(x)=\underbrace{f'}_{\text{derivative of outside function}}\enspace\underbrace{g(x))}_{\text{inside function left alone}}\enspace \underbrace{g'(x))}_{\text{multiplioed by derivative of inside function}}$$
+$$F'(x)=\underbrace{f'}_{\text{derivative of outside function}}\enspace\underbrace{g(x))}_{\text{inside function left alone}}\enspace \underbrace{g'(x))}_{\text{multiplied by derivative of inside function}}$$
 #### Power Rule
 $$\frac{d}{dx}u^n=nu^{n-1}\frac{du}{dx}$$
 
