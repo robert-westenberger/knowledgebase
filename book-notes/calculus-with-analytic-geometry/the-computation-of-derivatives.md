@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-04T17:34:06.502Z
+date: 2021-02-04T17:35:45.728Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -85,5 +85,5 @@ $$\frac{d}{dx}u^n=nu^{n-1}\frac{du}{dx}$$
 ##### Examples
 Derive 
 $$y=\frac{1}{(2-5x)^2}$$ 
-Using the chain rule $\frac{d}{dx}y=\frac{dy(u)}{du}\frac{du}{dx}$ ("the derivative of y with respect to x is 
+Using the chain rule $\frac{d}{dx}y=\frac{dy(u)}{du}\frac{du}{dx}$ ("the derivative of y with respect to x is the derivative of y with respect to u multiplied by the derivative of u with respect to x.
 ## 3.4 Some Trigonometric Derivatives
