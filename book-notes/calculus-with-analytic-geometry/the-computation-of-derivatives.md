@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-04T19:19:26.159Z
+date: 2021-02-04T19:20:36.063Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -88,7 +88,7 @@ $$y=\frac{1}{(2-5x)^2}$$
 
 This is a composite function so we can use the chain rule. We break out the inner function into a new function 
 $$u=2-5x$$
-$$u'=5$$
+$$u'=-5$$
 The original function can now be represented as 
 $$y= \frac{1}{u^2} $$
 $$y'=-\frac{2}{u^3}$$
@@ -98,5 +98,6 @@ $$y'=-\frac{2}{u^3}$$
 Using the chain rule $\frac{d}{dx}y=\frac{dy(u)}{du}\frac{du}{dx}$ ("the derivative of y with respect to x is the derivative of y with respect to u multiplied by the derivative of u with respect to x.
 
 Pop the inner function u into the derivative of the outer function and multiply the whole thing by the derivative of the outside function..
-$$y'=-\frac{2}{(2-5x)^3}$$
+$$y'=-\frac{2}{(2-5x)^3} * 5$$
+$$y'=-\frac{10}{(2-5x)^3}$$
 ## 3.4 Some Trigonometric Derivatives
