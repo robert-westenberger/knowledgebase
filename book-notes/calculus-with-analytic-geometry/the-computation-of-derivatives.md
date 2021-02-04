@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-04T17:06:31.683Z
+date: 2021-02-04T17:16:36.460Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -83,5 +83,7 @@ $$\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$$
 $$\frac{d}{dx}u^n=nu^{n-1}\frac{du}{dx}$$
 
 ##### Examples
+Derive 
+$$y=\frac{1}{(2-5x)^2}$$ 
 
 ## 3.4 Some Trigonometric Derivatives
