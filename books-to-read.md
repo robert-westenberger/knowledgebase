@@ -2,7 +2,7 @@
 title: Book List
 description: List of books, technical or not, I'd like to read.
 published: true
-date: 2020-12-19T01:33:45.091Z
+date: 2021-02-05T17:57:35.109Z
 tags: 
 editor: markdown
 ---
@@ -14,7 +14,8 @@ editor: markdown
 with Julie Sussman )
 - Computer Systems: A Programmer's Perspective (Randal E. Bryant and David R. O'Hallaron,)
 
-- The Elements of Computing Systems: Building a Modern Computer from First Principles (Nisan & Schocken)
+- The Elements of Computing Systems: Building a Modern Computer from First Principles (Nisan & Schocken) (second edition https://mitpress.mit.edu/books/elements-computing-systems-second-edition)
+
 
 - Introduction to Algorithms, 3rd Edition (Cormen)
 
