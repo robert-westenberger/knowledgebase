@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-08T18:49:24.958Z
+date: 2021-02-08T18:50:52.121Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -109,7 +109,7 @@ $$y'=-\frac{10}{(2-5x)^3}$$
 Derive $y=(5x + 3)^4(4x-3)^7$ with respect to x. 
 
 Using the product rule we get
-$$y'(x) = 3+5x^4\Big(\frac{d}{dx}((-3+4x)^7)\Big)+(-3+4x)^7\Big(\frac{d}{dx}((3+5x^4)\Big)$$
+$$y'(x) = 3+5x^4\Big(\frac{d}{dx}((4x - 3)^7)\Big)+(4x-3)^7\Big(\frac{d}{dx}((5x+3)^4\Big)$$
 
 Use the chain rule to find the derivatives of 
 ## 3.4 Some Trigonometric Derivatives
