@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-08T19:16:08.717Z
+date: 2021-02-08T19:19:25.750Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -113,7 +113,8 @@ $$y'(x) = (5x + 3)^4\Big(\frac{d}{dx}((4x - 3)^7)\Big)+(4x-3)^7\Big(\frac{d}{dx}
 
 Use the chain rule to find the derivatives of $\Big(\frac{d}{dx}((4x - 3)^7)\Big)$ and $\Big(\frac{d}{dx}((5x+3)^4)\Big)$...
 
-$7(4x-3)^6 * 4$ or $28(4x-3)^6$
+$7(4x-3)^6 * 4$ or $28(4x-3)^6$ and $4(5x+3)^3 * 5$ or $20(5x+3)^3$
 
+Putting everything into place...
 $$y'(x) = 3+5x^4\Big(\frac{d}{dx}((4x - 3)^7)\Big)+(4x-3)^7\Big(\frac{d}{dx}((5x+3)^4)\Big)$$
 ## 3.4 Some Trigonometric Derivatives
