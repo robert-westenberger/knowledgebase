@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-08T19:21:59.087Z
+date: 2021-02-08T19:23:34.572Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -117,5 +117,8 @@ $7(4x-3)^6 * 4$ or $28(4x-3)^6$ and $4(5x+3)^3 * 5$ or $20(5x+3)^3$
 
 Putting everything into place...
 $$y'(x)=(5x+3)^428(4x-3)^6+20(5x+3)^3(4x-3)^7$$ 
+
+(the same above but reordered)
+$$y'(x)=28(4x-3)^6(5x+3)^4+20(4x-3)^7(5x+3)^3$$ 
 
 ## 3.4 Some Trigonometric Derivatives
