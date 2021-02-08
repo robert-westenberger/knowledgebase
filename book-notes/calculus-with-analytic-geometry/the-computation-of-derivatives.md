@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-08T18:38:45.439Z
+date: 2021-02-08T18:43:31.803Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -107,4 +107,6 @@ $$y'=-\frac{10}{(2-5x)^3}$$
 
 ---
 Derive $y=(5x + 3)^4(4x-3)^7$ with respect to x. 
+
+
 ## 3.4 Some Trigonometric Derivatives
