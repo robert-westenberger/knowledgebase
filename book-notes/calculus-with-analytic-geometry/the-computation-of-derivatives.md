@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-08T18:56:16.349Z
+date: 2021-02-08T18:58:46.071Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -112,4 +112,5 @@ Using the product rule we get
 $$y'(x) = 3+5x^4\Big(\frac{d}{dx}((4x - 3)^7)\Big)+(4x-3)^7\Big(\frac{d}{dx}((5x+3)^4)\Big)$$
 
 Use the chain rule to find the derivatives of $\Big(\frac{d}{dx}((4x - 3)^7)\Big)$ and $\Big(\frac{d}{dx}((5x+3)^4)\Big)$. 
+$$y'(x) = 3+5x^4\Big(\frac{d}{dx}((4x - 3)^7)\Big)+(4x-3)^7\Big(\frac{d}{dx}((5x+3)^4)\Big)$$
 ## 3.4 Some Trigonometric Derivatives
