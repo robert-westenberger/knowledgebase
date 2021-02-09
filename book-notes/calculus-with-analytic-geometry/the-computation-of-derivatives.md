@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-09T18:12:03.829Z
+date: 2021-02-09T18:17:35.570Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -123,4 +123,5 @@ $$y'(x)=20(4x-3)^7(5x+3)^3+28(4x-3)^6(5x+3)^4$$
 
 ## 3.4 Some Trigonometric Derivatives
 
-
+$$\frac{d}{dx}sinx=cosx$$
+$$\frac{d}{dx}cosx=-sinx$$
