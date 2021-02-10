@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-10T17:47:58.224Z
+date: 2021-02-10T17:49:50.830Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
