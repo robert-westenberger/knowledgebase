@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-10T17:49:50.830Z
+date: 2021-02-10T19:04:26.096Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -128,4 +128,9 @@ $$\frac{d}{dx}cosx=-sinx$$
 
 
 $$\frac{d}{dx}tanx=sec^2x$$ 
+
+### Examples
+Derive $y=(1 + tan^2x^2)^2$
+
+
 ## 3.5 Implicit Functions and Fractional Exponents
