@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-10T17:33:05.157Z
+date: 2021-02-10T17:33:36.459Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -125,4 +125,6 @@ $$y'(x)=20(4x-3)^7(5x+3)^3+28(4x-3)^6(5x+3)^4$$
 
 $$\frac{d}{dx}sinx=cosx$$
 $$\frac{d}{dx}cosx=-sinx$$
+
+
 $$\frac{d}{dx}tanx=sec^2x$$ 
