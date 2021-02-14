@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T04:21:27.047Z
+date: 2021-02-14T04:23:03.813Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -158,3 +158,6 @@ We introduce $y$ as a dependent variable
 $$y=x^{p/q}$$
 Raising both sides to the $qth$ power yields
 $$y^q=x^p$$
+
+By differentiating implicity with respect to x and using the known validity of the power rule for integral exponents, we obtain
+$$qy^{q-1}\frac{dy}{dx}=px^{p-1}$$
