@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T04:18:27.943Z
+date: 2021-02-14T04:20:07.093Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -152,4 +152,7 @@ The relationship between x and y in these examples are entangled with one anothe
 
 We can use implicit differentiation to show that the power rule 
 $$\frac{d}{dx}x^n=nx^{n-1}$$
-is valid for all fractional exponents $n=p/q$
+is valid for all fractional exponents $n=p/q$.
+
+
+$$y=x^{p/q}$$
