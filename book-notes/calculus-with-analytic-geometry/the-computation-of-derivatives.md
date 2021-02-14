@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T04:23:03.813Z
+date: 2021-02-14T04:26:12.331Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -161,3 +161,8 @@ $$y^q=x^p$$
 
 By differentiating implicity with respect to x and using the known validity of the power rule for integral exponents, we obtain
 $$qy^{q-1}\frac{dy}{dx}=px^{p-1}$$
+or 
+$$\frac{dy}{dx}=\frac{p}{q}\frac{x^{p-1}}{y^{q-1}}$$
+
+$y^{q-1}=y^q/y=x^P/x^{p/q}$ so
+$$\frac{dy}{dx}=\frac{p}{q}\frac{x^{p-1}}{y^{q-1}}$$
