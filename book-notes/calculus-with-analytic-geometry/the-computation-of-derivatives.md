@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T02:15:44.513Z
+date: 2021-02-14T02:17:02.401Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -146,4 +146,4 @@ $$x^2 + y^2 = r^2$$
 $$\frac{x}{y^3}=1$$
 $$2x^2-2xy=5-y^2$$
 
-They 
+The relationship between x and y in these examples are entangled with one another.
