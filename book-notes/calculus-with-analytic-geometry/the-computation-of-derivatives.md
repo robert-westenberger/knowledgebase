@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T04:35:22.295Z
+date: 2021-02-14T04:36:05.361Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -165,4 +165,4 @@ or
 $$\frac{dy}{dx}=\frac{p}{q}\frac{x^{p-1}}{y^{q-1}}$$
 
 $y^{q-1}=y^q/y=x^P/x^{p/q}$ so
-$$\frac{dy}{dx}=\frac{p}{q}\frac{x^{p-1}}{y^{q-1}}=\frac{p}{q}\frac{x^{p-1}}{x^p}$$
+$$\frac{dy}{dx}=\frac{p}{q}\frac{x^{p-1}}{y^{q-1}}=\frac{p}{q}\frac{x^{p-1}}{x^p}\cdot x^{p/q}=\frac{p}{q}x^{p/q-1}$$
