@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T00:44:25.223Z
+date: 2021-02-14T00:49:45.009Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -131,7 +131,7 @@ Above can be combined with the chain rule. For example, if $u$ is a function..
 
 $$\frac{d}{dx}sin \thinspace u=cos \thinspace u\frac{du}{dx}$$
 
-$$\frac{d}{dx}sin \thinspace u=cos \thinspace u\frac{du}{dx}$$
+$$\frac{d}{dx}cos \thinspace u=-sin \thinspace u\frac{du}{dx}$$
 
 ### Examples
 Derive $y=(1 + tan^2x^2)^2$
