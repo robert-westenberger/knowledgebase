@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T00:50:21.215Z
+date: 2021-02-14T02:11:08.640Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -138,3 +138,7 @@ Derive $y=(1 + tan^2x^2)^2$
 
 
 ## 3.5 Implicit Functions and Fractional Exponents
+
+$$F(x, y) = 0$$
+$$x^2 + y^2 = r^2$$
+$$\frac{x}{y^3}=1$$
