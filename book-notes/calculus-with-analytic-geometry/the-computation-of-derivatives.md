@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T04:20:07.093Z
+date: 2021-02-14T04:21:27.047Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -154,5 +154,7 @@ We can use implicit differentiation to show that the power rule
 $$\frac{d}{dx}x^n=nx^{n-1}$$
 is valid for all fractional exponents $n=p/q$.
 
-
+We introduce $y$ as a dependent variable 
 $$y=x^{p/q}$$
+Raising both sides to the $qth$ power yields
+$$y^q=x^p$$
