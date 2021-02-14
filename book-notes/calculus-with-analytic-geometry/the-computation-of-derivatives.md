@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-14T02:11:48.441Z
+date: 2021-02-14T02:15:44.513Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -138,9 +138,12 @@ Derive $y=(1 + tan^2x^2)^2$
 
 
 ## 3.5 Implicit Functions and Fractional Exponents
+All functions previously have been explicit functions. The y value is expressed directly in terms of x, for example $y=x^2$ or $y=sin^2(x)$
 
+Below are implicit functions of x.
 $$F(x, y) = 0$$
 $$x^2 + y^2 = r^2$$
 $$\frac{x}{y^3}=1$$
+$$2x^2-2xy=5-y^2$$
 
-Above are implicit functions of x.
+They 
