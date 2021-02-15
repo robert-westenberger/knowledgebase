@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T05:21:50.531Z
+date: 2021-02-15T05:36:30.809Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -175,4 +175,5 @@ $$u=\frac{x^3+8}{x^2}$$
 $$u^{3/4}$$
 
 
-$$\frac{d}{du}\lparen u^{3/4}\rparen =$$
+$$\frac{d}{du}\lparen u^{3/4}\rparen =\frac{3}{4}u^{-1/4}=\frac{3}{4\sqrt[4]u}$$
+a
