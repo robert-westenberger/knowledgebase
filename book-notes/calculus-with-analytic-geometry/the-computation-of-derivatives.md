@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T19:29:08.133Z
+date: 2021-02-15T20:46:54.606Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -183,3 +183,12 @@ $$\frac{d}{du}\lparen u^{3/4}\rparen =\frac{3}{4}u^{-1/4}=\frac{3}{4\sqrt[4]u}$$
 
 
 $$\frac{d}{dx}=\frac{3}{4\sqrt[4]{\frac{8+x^3}{x^2}}} \cdot \lparen 1-\frac{16}{x^3} \rparen$$
+
+The above is equivalent to 
+
+$$\frac{d}{dx}=\frac{3}{4\sqrt[4]{\frac{8+x^3}{x^2}}} \cdot \lparen \frac{x^3 - 16}{x^3} \rparen$$ 
+
+when multiplied..
+$$
+\frac{3(x^3 - 16)}{4x^3\sqrt[4]{\frac{8}{x^2}+x}}
+$$
