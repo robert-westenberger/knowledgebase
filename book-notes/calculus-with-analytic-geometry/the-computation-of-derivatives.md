@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T20:55:18.539Z
+date: 2021-02-15T22:17:47.215Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -192,3 +192,5 @@ when multiplied..
 $$
 \frac{3(x^3 - 16)}{4x^3\sqrt[4]{\frac{8}{x^2}+x}}
 $$
+
+##
