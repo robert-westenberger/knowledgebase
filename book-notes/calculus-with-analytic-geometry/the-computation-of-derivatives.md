@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T05:05:28.973Z
+date: 2021-02-15T05:19:44.338Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -172,4 +172,7 @@ Derive $\lparen\frac{x^3+8}{x^2}\rparen^{3/4}$.
 
 1) Use the chain rule to decompose the composite function. 
 $$u=\frac{x^3+8}{x^2}$$
+$$u^{3/4}$$
 
+
+$$\frac{d}{du}\lparen u^{3/4}\rparen =$$
