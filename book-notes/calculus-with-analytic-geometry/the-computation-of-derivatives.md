@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T22:32:55.574Z
+date: 2021-02-15T22:34:00.768Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -201,4 +201,6 @@ $$
 \text{First derivative} \quad f'(x) \quad y' \quad \frac{dy}{dx} \quad \frac{d}{dx}f(x) 
 \\[1.5em]
 \text{Second derivative} \quad f''(x) \quad y'' \quad \frac{d^2y}{dx^2} \quad \frac{d^2}{dx^2}f(x)
+\\[1.5em]
+\text{nth derivative} \quad f^{(n)}(x) \quad y^{(n)} \quad \frac{d^ny}{dx^n} \quad \frac{d^n}{dx^n}f(x)
 $$
