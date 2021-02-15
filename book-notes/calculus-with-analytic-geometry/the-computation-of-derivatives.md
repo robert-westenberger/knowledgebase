@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T22:17:47.215Z
+date: 2021-02-15T22:24:23.649Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -193,4 +193,10 @@ $$
 \frac{3(x^3 - 16)}{4x^3\sqrt[4]{\frac{8}{x^2}+x}}
 $$
 
-##
+## Derivatives of Higher Order
+
+A derivative of a derivative is the second derivative. A derivative of that derivative is the third, and of that the nth..
+
+$$
+\text{First derivative} \quad f'(x) \quad y' \quad \frac{dy}{dx} \quad \frac{d}{dx}f(x)
+$$
