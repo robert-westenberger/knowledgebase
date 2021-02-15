@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T04:40:38.192Z
+date: 2021-02-15T05:05:28.973Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -170,4 +170,6 @@ $$\frac{dy}{dx}=\frac{p}{q}\frac{x^{p-1}}{y^{q-1}}=\frac{p}{q}\frac{x^{p-1}}{x^p
 ### Examples
 Derive $\lparen\frac{x^3+8}{x^2}\rparen^{3/4}$. 
 
+1) Use the chain rule to decompose the composite function. 
+$$u=\frac{x^3+8}{x^2}$$
 
