@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T22:24:23.649Z
+date: 2021-02-15T22:26:43.859Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -198,5 +198,7 @@ $$
 A derivative of a derivative is the second derivative. A derivative of that derivative is the third, and of that the nth..
 
 $$
+\text{First derivative} \quad f'(x) \quad y' \quad \frac{dy}{dx} \quad \frac{d}{dx}f(x) 
+
 \text{First derivative} \quad f'(x) \quad y' \quad \frac{dy}{dx} \quad \frac{d}{dx}f(x)
 $$
