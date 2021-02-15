@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T22:31:14.236Z
+date: 2021-02-15T22:32:55.574Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -200,5 +200,5 @@ A derivative of a derivative is the second derivative. A derivative of that deri
 $$
 \text{First derivative} \quad f'(x) \quad y' \quad \frac{dy}{dx} \quad \frac{d}{dx}f(x) 
 \\[1.5em]
-\text{First derivative} \quad f'(x) \quad y' \quad \frac{dy}{dx} \quad \frac{d}{dx}f(x)
+\text{Second derivative} \quad f''(x) \quad y'' \quad \frac{d^2y}{dx^2} \quad \frac{d^2}{dx^2}f(x)
 $$
