@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-15T23:16:55.744Z
+date: 2021-02-16T01:35:28.821Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -209,3 +209,6 @@ Formula for calculating the $nth$ derivative of $y=1/x=x^{-1}$ :
 $$
 y^{(n)} = (-1)^nn!x^{-(n+1)}
 $$
+
+### Examples
+Find a general formula for $y=\frac{1}{1-x}$.
