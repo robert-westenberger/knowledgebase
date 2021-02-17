@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-17T05:40:38.113Z
+date: 2021-02-17T05:47:12.093Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -213,4 +213,5 @@ $$
 ### Examples
 Find a general formula for $y''$ on the circle $x^2 + y^2 = a^2$
 
+$$y'=-\frac xy$$
 
