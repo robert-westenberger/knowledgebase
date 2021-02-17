@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-17T05:51:45.978Z
+date: 2021-02-17T19:57:53.503Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -221,5 +221,6 @@ Substituting $y'$ into $y''$ we get
 
 $$y''=-\frac{y-x(-x/y)}{y^2}=-\frac{y^2+x^2}{y^3}=-\frac{a^2}{y^3}$$
 
-
+---
+If $s$ is the position of a moving body at time $t$, find the time, position, and velocity at each moment when the acceleration is 0. 
 
