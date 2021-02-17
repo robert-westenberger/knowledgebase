@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-16T01:35:28.821Z
+date: 2021-02-17T05:39:34.352Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -211,4 +211,5 @@ y^{(n)} = (-1)^nn!x^{-(n+1)}
 $$
 
 ### Examples
-Find a general formula for $y=\frac{1}{1-x}$.
+Find a general formula for $y''$
+
