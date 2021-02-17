@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-17T05:39:34.352Z
+date: 2021-02-17T05:40:38.113Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -211,5 +211,6 @@ y^{(n)} = (-1)^nn!x^{-(n+1)}
 $$
 
 ### Examples
-Find a general formula for $y''$
+Find a general formula for $y''$ on the circle $x^2 + y^2 = a^2$
+
 
