@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-17T05:50:57.516Z
+date: 2021-02-17T05:51:45.978Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -220,4 +220,6 @@ $$y''=\frac{xy'-y}{y^2}$$
 Substituting $y'$ into $y''$ we get
 
 $$y''=-\frac{y-x(-x/y)}{y^2}=-\frac{y^2+x^2}{y^3}=-\frac{a^2}{y^3}$$
+
+
 
