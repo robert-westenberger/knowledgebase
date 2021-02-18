@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-18T17:58:41.604Z
+date: 2021-02-18T18:01:31.601Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -228,4 +228,7 @@ If $s = f(t)$, $f'(t)$ is velocity and $f''(t)$ is acceleration.
 $s = 8t^2 - \frac{1}{t}(t>0)$
 $$s' \text{(velocity)}=16t + \frac{1}{t^2}$$
 $$s''\text{(acceleration)}=16-\frac{2}{t^3}$$
-Plugging in 
+Into the second derivative function we can plug in $\frac{1}{2}$ for time, so 
+$$
+16 - \frac{2}{\frac{1}{2}^3} = 0
+$$
