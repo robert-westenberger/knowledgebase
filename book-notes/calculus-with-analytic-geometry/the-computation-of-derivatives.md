@@ -2,7 +2,7 @@
 title: Chapter 3: The Computation of Derivatives
 description: 
 published: true
-date: 2021-02-18T18:01:31.601Z
+date: 2021-02-18T18:02:25.870Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -232,3 +232,4 @@ Into the second derivative function we can plug in $\frac{1}{2}$ for time, so
 $$
 16 - \frac{2}{\frac{1}{2}^3} = 0
 $$
+Our time is $\frac{1}{2}$. Plugging that into the first derivative for velocity we get $12$. Plugging in time for our original function we get a position of 0. 
