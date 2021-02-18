@@ -2,7 +2,7 @@
 title: Chapter 9: Trigonometric Functions
 description: 
 published: true
-date: 2021-02-18T19:30:55.501Z
+date: 2021-02-18T19:37:23.685Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -19,3 +19,10 @@ Our function $f(x)$ multiplies $x$ by 3 and subtracts 4 from the result. The inv
 
 Just like there are 6 trig functions, there are 6 inverse trig functions. 
 
+$$
+\begin{aligned}
+\frac{d}{d x}\left(\sin ^{-1} x\right) &=\frac{1}{\sqrt{1-x^{2}}} & \frac{d}{d x}\left(\cos ^{-1} x\right) &=-\frac{1}{\sqrt{1-x^{2}}} \\
+\frac{d}{d x}\left(\tan ^{-1} x\right) &=\frac{1}{1+x^{2}} & \frac{d}{d x}\left(\cot ^{-1} x\right) &=-\frac{1}{1+x^{2}} \\
+\frac{d}{d x}\left(\sec ^{-1} x\right) &=\frac{1}{|x| \sqrt{x^{2}-1}} & \frac{d}{d x}\left(\csc ^{-1} x\right) &=-\frac{1}{|x| \sqrt{x^{2}-1}}
+\end{aligned}
+$$
