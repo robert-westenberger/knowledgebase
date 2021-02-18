@@ -2,7 +2,7 @@
 title: Chapter 9: Trigonometric Functions
 description: 
 published: true
-date: 2021-02-18T19:37:46.411Z
+date: 2021-02-18T19:39:20.201Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
