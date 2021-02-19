@@ -2,7 +2,7 @@
 title: Chapter 9: Trigonometric Functions
 description: 
 published: true
-date: 2021-02-18T19:46:43.289Z
+date: 2021-02-19T02:54:14.438Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -26,3 +26,6 @@ $$
 \frac{d}{d x}\left(\sec ^{-1} x\right) &=\frac{1}{|x| \sqrt{x^{2}-1}} & \frac{d}{d x}\left(\csc ^{-1} x\right) &=-\frac{1}{|x| \sqrt{x^{2}-1}}
 \end{aligned}
 $$
+
+### Inverse sin
+
