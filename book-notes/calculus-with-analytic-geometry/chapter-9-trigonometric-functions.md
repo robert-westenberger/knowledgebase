@@ -2,7 +2,7 @@
 title: Chapter 9: Trigonometric Functions
 description: 
 published: true
-date: 2021-02-19T02:54:14.438Z
+date: 2021-02-19T02:54:33.057Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -27,5 +27,5 @@ $$
 \end{aligned}
 $$
 
-### Inverse sin
+### Inverse sine
 
