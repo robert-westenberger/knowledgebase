@@ -2,7 +2,7 @@
 title: Chapter 9: Trigonometric Functions
 description: 
 published: true
-date: 2021-02-19T03:06:58.972Z
+date: 2021-02-19T03:09:24.366Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -32,5 +32,5 @@ $$
 y=\sin ^{-1} x \quad \Leftrightarrow \quad \sin y=x \quad \text { for } \quad-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}
 $$
 
-Evaluating an inverse trig function is the same as asking what angle ($y$) did we plug into the sine function to get $x$. 
+Evaluating an inverse trig function is the same as asking what angle ($y$) did we plug into the regular trig function to get $x$. 
 
