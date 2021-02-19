@@ -2,7 +2,7 @@
 title: Chapter 9: Trigonometric Functions
 description: 
 published: true
-date: 2021-02-19T02:54:33.057Z
+date: 2021-02-19T03:03:41.893Z
 tags: mathematics, book-notes, calculus
 editor: markdown
 ---
@@ -28,4 +28,9 @@ $$
 $$
 
 ### Inverse sine
+$$
+y=\sin ^{-1} x \quad \Leftrightarrow \quad \sin y=x \quad \text { for } \quad-\frac{\pi}{2} \leq y \leq \frac{\pi}{2}
+$$
+
+
 
