@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:43:49.821Z
+date: 2021-02-21T01:44:33.326Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -62,3 +62,4 @@ Each step in a proof should be clear and "logical"; in particular, one should st
 A proof can be any sequence of logical deductions. Many proofs follow one of a handful of standard templates. Each proof has it own details, of course, but these templates at least provide you with an outline to fill in.
 
 ## Proving an Implication
+Propositions of the form "If $P$, then $Q$" are called implications.
