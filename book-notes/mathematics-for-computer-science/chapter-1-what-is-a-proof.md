@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:31:11.486Z
+date: 2021-02-21T01:32:18.338Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -38,3 +38,5 @@ A **predicate** can be understood as a proposition whose truth depeonds on the v
 
 ## Our Axioms
 
+### Logical Deductions
+Logical deductions, or inference rules, are used to proce new propositions by using previously proved ones. 
