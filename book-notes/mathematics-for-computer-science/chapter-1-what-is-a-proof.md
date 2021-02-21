@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:10:05.177Z
+date: 2021-02-21T03:15:53.166Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -105,3 +105,4 @@ $$r = \frac{m^2}{n^2}$$
 Since $m^2$ and $n^2$ are integers, r is also rational. $\blacksquare$
 
 ## Proving an "If and Only If"
+Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
