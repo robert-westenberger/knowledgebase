@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:52:46.655Z
+date: 2021-02-21T01:53:14.873Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -68,7 +68,8 @@ Its often rephrased as $P \text { IMPLIES } Q$
 
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
-
+### Method #1 
+In order to prove 
 
 
 
