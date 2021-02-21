@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:07:13.840Z
+date: 2021-02-21T03:10:05.177Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
