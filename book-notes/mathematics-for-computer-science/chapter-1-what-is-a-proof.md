@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:04:48.566Z
+date: 2021-02-21T03:05:10.305Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -97,7 +97,7 @@ An implication $P \text { IMPLIES } Q$ is logically equivalent to its contraposi
 
 #### Example of Method #2
 **Theorem:** $\text{If r is irrational, then} \medspace \sqrt r \medspace \text{is also irrational}$.
-**Scratchwork:** A number is irrational when there is no quotient of integers to which it is equal. We must show that if r is jnot a ratio of integers, then $sqrt r$ is also not a ratio of integers. We can eliminate both not's and simplify the proof by using the contrapositive instead.
+**Scratchwork:** A number is irrational when there is no quotient of integers to which it is equal. We must show that if r is not a ratio of integers, then $sqrt r$ is also not a ratio of integers. We can eliminate both not's and simplify the proof by using the contrapositive instead.
 **Proof:** We prove the contrapositive: if $\sqrt r$ is rational, then $r$ is rational. Assume that $sqrt r$ is rational. Then there exists integers $m$ and $n$ such that:
 $$\sqrt r = \frac m n$$
 Squaring both sides gives: 
