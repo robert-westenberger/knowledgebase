@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:06:26.811Z
+date: 2021-02-21T03:07:13.840Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -103,3 +103,5 @@ $$\sqrt r = \frac m n$$
 Squaring both sides gives: 
 $$r = \frac{m^2}{n^2}$$
 Since $m^2$ and $n^2$ are integers, r is also rational. $\blacksquare$
+
+## Proving an "If and Only If"
