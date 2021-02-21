@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:23:36.431Z
+date: 2021-02-21T01:24:31.216Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -27,3 +27,5 @@ It reads: "For all n in the set of nonnegative integers, p(n) is prime.
 
 ## Predicates
 A predicate can be understood as a proposition whose truth depeonds on the value of one or more variables. "n is a perfect square" is a predicate, since you don't know its true or false until a value for n is provided.
+
+## The Axiomatic Method
