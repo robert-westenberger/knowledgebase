@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T00:39:49.149Z
+date: 2021-02-21T00:42:24.085Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -18,4 +18,6 @@ We can check $n=0$ to $n=39$ and the claim holds true. However, for $n=40$ we ge
 
 There is a special notation for propositions about all numbers or all items of a certain kind: 
 
-$$\forall n \in \natnums .p(n) \text{is prime.}$$
+$$\forall n \in \natnums .p(n) \medspace \text{is prime.}$$
+
+It reads: "For all n in the set of nonnegative integers, p(n) is prime. 
