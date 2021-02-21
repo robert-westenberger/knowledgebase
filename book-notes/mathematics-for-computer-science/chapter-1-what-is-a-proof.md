@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:38:52.203Z
+date: 2021-02-21T04:39:34.176Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -147,6 +147,8 @@ Squares of real numbers are always nonnegative, so every term on the left hand s
 But a term $\left(x_{i}-\mu\right)^{2}$ is zero iff $x_{i}=\mu$, so the preceding statement is true iff every $x_i$ equals the mean. $\blacksquare$
 
 ## Proof by Cases
-Otherwise known as proof by exhaustion. It can be used to prove that an integer is a perfect cube, then it must either be a multiple of 9, 1 more than a multiple of 9, or 1 less than a multiple of 9.
+Otherwise known as proof by exhaustion. 
+
+**Theorem:** If an integer is a perfect cube, then it must be either a multiple of 9, 1 more than a multiple of 9, or 1 less than a multiple of 9.
 
 
