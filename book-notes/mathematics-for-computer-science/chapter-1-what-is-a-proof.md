@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:45:27.029Z
+date: 2021-02-21T01:45:54.450Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -65,3 +65,10 @@ A proof can be any sequence of logical deductions. Many proofs follow one of a h
 Propositions of the form "If $P$, then $Q$" are called implications. 
 
 Its often rephrased as $P \text { IMPLIES } Q$
+
+
+
+
+
+
+
