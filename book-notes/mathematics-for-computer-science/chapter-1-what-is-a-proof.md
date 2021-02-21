@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:24:31.216Z
+date: 2021-02-21T01:29:38.089Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -26,6 +26,12 @@ $$\forall n \in \natnums .p(n) \medspace \text{is prime.}$$
 It reads: "For all n in the set of nonnegative integers, p(n) is prime.
 
 ## Predicates
-A predicate can be understood as a proposition whose truth depeonds on the value of one or more variables. "n is a perfect square" is a predicate, since you don't know its true or false until a value for n is provided.
+A **predicate** can be understood as a proposition whose truth depeonds on the value of one or more variables. "n is a perfect square" is a predicate, since you don't know its true or false until a value for n is provided.
 
 ## The Axiomatic Method
+
+**Axioms** are statements or propositions taken to be true. Using these axioms, proofs can be developed. A **proof** is a sequence of logical deductions from axioms and previously proved statements that conludes with the proposition in question. 
+
+* Important true propositons are called theorems. 
+* A lemma is a preliminary proposition useful for proving later propositions. 
+* A crollary is a proposition that folows in just a few logical steps from a theorem.
