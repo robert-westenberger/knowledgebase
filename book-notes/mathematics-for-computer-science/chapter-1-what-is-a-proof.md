@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:44:58.701Z
+date: 2021-02-21T04:47:34.115Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -159,3 +159,7 @@ $\blacksquare$
 
 ## Proof by Contradiction
 Otherwise known as an **indirect proof**, you show that if a proposition were false, then some false fact would be true. Since a false fact by definition can't be true, then the proposition must be true.
+
+### Method
+1. Write "We use proof by contradiction."
+2. Write, "Suppose P is false."
