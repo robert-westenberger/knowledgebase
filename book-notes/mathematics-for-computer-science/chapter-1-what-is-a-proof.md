@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:23:50.343Z
+date: 2021-02-21T04:24:11.817Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -126,3 +126,6 @@ $$
 \sqrt{\frac{\left(x_{1}-\mu\right)^{2}+\left(x_{2}-\mu\right)^{2}+\cdots+\left(x_{n}-\mu\right)^{2}}{n}}
 $$
 where $\mu$ is the average/mean of the values.
+$$
+\mu::=\frac{x_{1}+x_{2}+\cdots+x_{n}}{n}
+$$
