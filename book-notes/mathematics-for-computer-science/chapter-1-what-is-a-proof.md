@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:32:08.098Z
+date: 2021-02-21T04:34:03.637Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -147,3 +147,6 @@ Squares of real numbers are always nonnegative, so every term on the left hand s
 But a term $\left(x_{i}-\mu\right)^{2}$ is zero iff $x_{i}=\mu$, so the preceding statement is true iff every $x_i$ equals the mean. $\blacksquare$
 
 ## Proof by Cases
+Given any two people, either they have met or they have not. If every pair of people in a group has met, we call that a *club*. If every pair of people has not met, that is a group of *strangers*. 
+
+
