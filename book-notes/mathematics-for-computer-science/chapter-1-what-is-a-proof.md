@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:41:47.710Z
+date: 2021-02-21T04:42:47.399Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -153,7 +153,7 @@ Otherwise known as proof by exhaustion.
 
 **Proof:** The proof is by case analysis. Each perfect cube is the cube of some integer n, where n is either a multiple of 3, 1 more than a multiple of 3, or 1 less than a multiple of 3. So these three cases are exhaustive:
 *  Case 1: If $n=3p$, then $n^3 = 27p^3$, which is a multipole of 9.
-* Case 2: If n = 3p + 1, then n3 = 27p3 + 27p2 + 9p + 1, which is 1 more than a multiple of 9. For instance, if n = 4 then n3 = 64 = 9×7 + 1.
+* Case 2: If $n = 3p + 1$, then $n^3 = 27p^3 + 27p^2 + 9p + 1$, which is 1 more than a multiple of 9. For instance, if $n = 4$ then $n^3 = 64 = 9×7 + 1$.
 * Case 3: If n = 3p − 1, then n3 = 27p3 − 27p2 + 9p − 1, which is 1 less than a multiple of 9. For instance, if n = 5 then n3 = 125 = 9×14 − 1. 
 $\blacksquare$
 
