@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T02:56:47.450Z
+date: 2021-02-21T02:57:33.221Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -97,3 +97,4 @@ An implication $P \text { IMPLIES } Q$ is logically equivalent to its contraposi
 
 #### Example of Method #2
 **Theorem:** $\text{If r is irrational, then} \medspace \sqrt r \medspace \text{is also irrational}$.
+**Scratchwork:** A number is irrational when there is no quotient of integers to which it is equal. 
