@@ -2,12 +2,12 @@
 title: Problem Set 1
 description: 
 published: true
-date: 2021-02-21T06:35:01.925Z
+date: 2021-02-21T06:35:38.483Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
 
-# Problem Set 1
+# Problem Set 1 (MIT OCW 6.042J Fall '05): Mathematics for Computer Science
 
 ## Problem 1
 A real number r is called sensible if there exist positive integers a and b such
