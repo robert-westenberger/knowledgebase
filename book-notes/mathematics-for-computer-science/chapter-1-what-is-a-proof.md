@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:22:12.320Z
+date: 2021-02-21T01:22:37.747Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -26,3 +26,4 @@ $$\forall n \in \natnums .p(n) \medspace \text{is prime.}$$
 It reads: "For all n in the set of nonnegative integers, p(n) is prime.
 
 ## Predicates
+A predicate can be understood as a proposition whose truth depeonds on the value of one or more variables.
