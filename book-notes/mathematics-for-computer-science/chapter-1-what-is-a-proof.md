@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:19:03.832Z
+date: 2021-02-21T03:19:37.062Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -114,3 +114,6 @@ The statement $P \text { IFF } Q$ is equivalent to the two statements $P \text {
 1) Write, "We prove P imoplies Q and vice-versa"
 2) Write, “First, we show P implies Q.” . 
 3) Write, “Now, we show Q implies P.”
+
+### Method #2: Construct a Chain of Iffs
+
