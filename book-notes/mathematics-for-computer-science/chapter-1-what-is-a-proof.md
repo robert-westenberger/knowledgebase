@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:19:37.062Z
+date: 2021-02-21T04:21:21.661Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -116,4 +116,5 @@ The statement $P \text { IFF } Q$ is equivalent to the two statements $P \text {
 3) Write, “Now, we show Q implies P.”
 
 ### Method #2: Construct a Chain of Iffs
-
+1. Write, “We construct a chain of if-and-only-if implications.” 
+2. Prove P is equivalent to a second statement which is equivalent to a third statement and so forth until you reach Q.
