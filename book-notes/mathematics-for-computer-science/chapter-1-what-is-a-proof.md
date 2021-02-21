@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:43:35.813Z
+date: 2021-02-21T01:43:49.821Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -60,3 +60,5 @@ Each step in a proof should be clear and "logical"; in particular, one should st
 ### Patterns of Proof
 
 A proof can be any sequence of logical deductions. Many proofs follow one of a handful of standard templates. Each proof has it own details, of course, but these templates at least provide you with an outline to fill in.
+
+## Proving an Implication
