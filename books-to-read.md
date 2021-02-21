@@ -2,7 +2,7 @@
 title: Book List
 description: List of books, technical or not, I'd like to read.
 published: true
-date: 2021-02-05T17:57:35.109Z
+date: 2021-02-21T00:26:15.014Z
 tags: 
 editor: markdown
 ---
@@ -31,3 +31,5 @@ By Farhad Ghayour and Diego Cantor
 
 ## Mathematics
 - Introduction to Linear Algebra, 5th Edition (Strang)
+- Calculus with Analytic Geometry, 2nd Edition (Simmons)
+
