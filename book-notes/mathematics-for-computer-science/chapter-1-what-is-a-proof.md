@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:35:18.247Z
+date: 2021-02-21T01:35:44.800Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -45,4 +45,4 @@ Logical deductions, or inference rules, are used to proce new propositions by us
 $$
 \frac{P, \quad P \text { IMPLIES } Q}{Q}
 $$
-A proof of $P$ together with a proof $P \text{IMPLIES} Q$ is a proof of $Q$.
+A proof of $P$ together with a proof $P \medspace \text{IMPLIES} \medspace Q$ is a proof of $Q$.
