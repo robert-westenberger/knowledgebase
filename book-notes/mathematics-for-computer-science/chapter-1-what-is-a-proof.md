@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:34:03.637Z
+date: 2021-02-21T04:36:01.041Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -148,5 +148,8 @@ But a term $\left(x_{i}-\mu\right)^{2}$ is zero iff $x_{i}=\mu$, so the precedin
 
 ## Proof by Cases
 Given any two people, either they have met or they have not. If every pair of people in a group has met, we call that a *club*. If every pair of people has not met, that is a group of *strangers*. 
+
+**Theorem:** 
+
 
 
