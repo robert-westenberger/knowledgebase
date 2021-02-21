@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:55:04.320Z
+date: 2021-02-21T01:58:22.773Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -75,6 +75,7 @@ In order to prove $P \text { IMPLIES } Q$:
 
 #### Example of Method #1
 
+**Theorem: **$\text { If } 0 \leq x \leq 2 \text { , then }-x^{3}+4 x+1>0$
 
 
 
