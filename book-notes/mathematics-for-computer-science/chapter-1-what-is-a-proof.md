@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T02:43:22.621Z
+date: 2021-02-21T02:44:32.565Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -68,7 +68,7 @@ Its often rephrased as $P \text { IMPLIES } Q$
 
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
-### Method #1 (implication elimination, affirming the antecedent, modus ponens)
+### Method #1 - implication elimination, affirming the antecedent, modus ponens
 In order to prove $P \text { IMPLIES } Q$: 
 1) Write, "Assume P".
 2) Show that Q logically follows. 
@@ -89,7 +89,7 @@ as claimed. $\blacksquare$
 
 Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
 
-### Method 2
+### Method #2 - Prove the Contrapositive
 
 
 
