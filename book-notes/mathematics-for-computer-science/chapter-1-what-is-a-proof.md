@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:17:47.955Z
+date: 2021-02-21T03:19:03.832Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -110,4 +110,7 @@ Many theorems assert that two statements are logically equivalent; that is one h
 Example: Two triangles have the same side lengths if and only if two side lengths and the angle between those sides are the same.
 
 ### Method #1: Prove Each Statement Implies the Other
-The statement $P \text { IFF } Q$ is equivalent to the two statements $P \text { IMPLIES } Q$ and $Q \text { IMPLIES } P$
+The statement $P \text { IFF } Q$ is equivalent to the two statements $P \text { IMPLIES } Q$ and $Q \text { IMPLIES } P$. You can prove "iff" by proving two implications.
+1) Write, "We prove P imoplies Q and vice-versa"
+2) Write, “First, we show P implies Q.” . 
+3) Write, “Now, we show Q implies P.”
