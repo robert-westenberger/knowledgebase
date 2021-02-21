@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:23:09.341Z
+date: 2021-02-21T04:23:50.343Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -125,4 +125,4 @@ The standard deviation of a sequence of values $x_{1}, x_{2}, \ldots, x_{n}$ is 
 $$
 \sqrt{\frac{\left(x_{1}-\mu\right)^{2}+\left(x_{2}-\mu\right)^{2}+\cdots+\left(x_{n}-\mu\right)^{2}}{n}}
 $$
-
+where $\mu$ is the average/mean of the values.
