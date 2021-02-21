@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:53:37.618Z
+date: 2021-02-21T01:55:04.320Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -66,12 +66,16 @@ Propositions of the form "If $P$, then $Q$" are called implications.
 
 Its often rephrased as $P \text { IMPLIES } Q$
 
-* Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
+* Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
 ### Method #1 
 In order to prove $P \text { IMPLIES } Q$: 
 1) Write, "Assume P".
 2) Show that Q logically follows. 
+
+#### Example of Method #1
+
+
 
 
 
