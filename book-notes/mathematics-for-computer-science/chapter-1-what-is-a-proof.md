@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:37:52.307Z
+date: 2021-02-21T01:41:17.188Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -47,3 +47,11 @@ $$
 A proof of $P$ together with a proof $P \medspace \text{IMPLIES} \medspace Q$ is a proof of $Q$.
 
 When the statements are above the line, called the **antecedents**, are proved, we can consider the statement below the line, the **conclusion** or **consequent**, to be true.
+
+$$
+\frac{P \text { IMPLIES } Q, \quad Q \text { IMPLIES } R}{P \text { IMPLIES } R}
+$$
+$$
+\frac{\text { NOT }(P) \text { IMPLIES } \operatorname{NOT}(Q)}{Q \text { IMPLIES } P}
+$$
+
