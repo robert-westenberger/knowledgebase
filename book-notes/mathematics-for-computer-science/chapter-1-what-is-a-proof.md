@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:25:25.402Z
+date: 2021-02-21T04:26:36.969Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -132,3 +132,6 @@ $$
 **Theorem:** The standard deviation of a sequence of values $x_{1}, x_{2}, \ldots, x_{n}$ is zero iff all the values are equal to the mean.
 
 For example, the standard deviation of class scores is 0 iff everyone scored exactly the class average.
+
+**Proof:** We construct a chain of "iff" implications, starting with the statement that the standard deviation is zero.
+
