@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T05:47:10.456Z
+date: 2021-02-21T05:47:51.062Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -178,3 +178,4 @@ Squaring both sides gives us $2 = n^2/d^2$ so 2d^2 = n^2. This implies that n is
 So, the numerator and the denominator have 2 as a common factor, which contradicts that fact that $n/d$ is in lowest terms. Thus, $\sqrt 2$ must be irrational. $\blacksquare$
 
 ## Good Proofs in Practice
+A good proof must be clear and correct. 
