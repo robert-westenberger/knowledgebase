@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:47:34.115Z
+date: 2021-02-21T04:49:53.061Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -163,3 +163,5 @@ Otherwise known as an **indirect proof**, you show that if a proposition were fa
 ### Method
 1. Write "We use proof by contradiction."
 2. Write, "Suppose P is false."
+3. Deduce something known to be false (a logical contradiction). 
+4. Write, "This is a contradiction. Therefore, P must be true."
