@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:21:29.972Z
+date: 2021-02-21T04:23:09.341Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -118,3 +118,11 @@ The statement $P \text { IFF } Q$ is equivalent to the two statements $P \text {
 ### Method #2: Construct a Chain of Iffs
 1. Write, “We construct a chain of if-and-only-if implications.” 
 2. Prove P is equivalent to a second statement which is equivalent to a third statement and so forth until you reach $Q$.
+
+
+#### Example of Method #2
+The standard deviation of a sequence of values $x_{1}, x_{2}, \ldots, x_{n}$ is defined to be:
+$$
+\sqrt{\frac{\left(x_{1}-\mu\right)^{2}+\left(x_{2}-\mu\right)^{2}+\cdots+\left(x_{n}-\mu\right)^{2}}{n}}
+$$
+
