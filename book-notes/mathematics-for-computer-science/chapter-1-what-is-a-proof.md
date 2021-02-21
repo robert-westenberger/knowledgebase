@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:29:57.028Z
+date: 2021-02-21T01:31:11.486Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -37,3 +37,4 @@ A **predicate** can be understood as a proposition whose truth depeonds on the v
 * A crollary is a proposition that folows in just a few logical steps from a theorem.
 
 ## Our Axioms
+
