@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T02:37:02.636Z
+date: 2021-02-21T02:37:50.938Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -84,7 +84,8 @@ $$x(2-x)(2+x)+1>0$$
 Multiplying out on the left side proves that 
 $$
 -x^{3}+4 x+1>0
-$$
+$$ 
+as claimed.
 
 
 
