@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T05:32:49.166Z
+date: 2021-02-21T05:34:18.907Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -170,4 +170,5 @@ Otherwise known as an **indirect proof**, you show that if a proposition were fa
 #### Example 
 **Theorem:** $\sqrt 2$ is irrational.
 
-**Proof:**
+**Proof:** We use proof by contradiciton. Suppose that the claim is false and 
+$\sqrt 2$ is rational. We can write $\sqrt 2$ as a fraction $n/d$ in lowest terms.
