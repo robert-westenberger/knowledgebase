@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T02:54:54.158Z
+date: 2021-02-21T02:55:28.660Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -95,4 +95,5 @@ An implication $P \text { IMPLIES } Q$ is logically equivalent to its contraposi
 1) Write, "We prove the contrapositive:" and then tstate the contrapositive.
 2) Proceed as in Method #1. 
 
+#### Example of Method #2
 
