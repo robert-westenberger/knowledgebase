@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:26:36.969Z
+date: 2021-02-21T04:31:20.416Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -134,4 +134,15 @@ $$
 For example, the standard deviation of class scores is 0 iff everyone scored exactly the class average.
 
 **Proof:** We construct a chain of "iff" implications, starting with the statement that the standard deviation is zero.
+$$
+\sqrt{\frac{\left(x_{1}-\mu\right)^{2}+\left(x_{2}-\mu\right)^{2}+\cdots+\left(x_{n}-\mu\right)^{2}}{n}}=0
+$$
+
+Now since zero is the only number whose root is 0, the above equation holds iff 
+$$
+\left(x_{1}-\mu\right)^{2}+\left(x_{2}-\mu\right)^{2}+\cdots+\left(x_{n}-\mu\right)^{2}=0
+$$
+Squares of real numbers are always nonnegative, so every term on the left hand side is nonnegative. This means that the above equation holds iff 
+*Every term on the left-hand side is zero.*
+But a term $\left(x_{i}-\mu\right)^{2}$ is zero iff $x_{i}=\mu$, so the preceding statement is true iff every $x_i$ equals the mean.
 
