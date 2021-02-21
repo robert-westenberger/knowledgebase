@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:35:44.800Z
+date: 2021-02-21T01:36:41.998Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -46,3 +46,5 @@ $$
 \frac{P, \quad P \text { IMPLIES } Q}{Q}
 $$
 A proof of $P$ together with a proof $P \medspace \text{IMPLIES} \medspace Q$ is a proof of $Q$.
+
+When the statements are above the line, called the **antecedents**, are proved, we can consider the statement below the line, the **conclusion** or **consequent**, to be true.
