@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:24:11.817Z
+date: 2021-02-21T04:24:52.118Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -129,3 +129,4 @@ where $\mu$ is the average/mean of the values.
 $$
 \mu::=\frac{x_{1}+x_{2}+\cdots+x_{n}}{n}
 $$
+**Theorem:** The standard deviation of a sequence of values $x_{1}, x_{2}, \ldots, x_{n}$ is zero iff all the values are equal to the mean.
