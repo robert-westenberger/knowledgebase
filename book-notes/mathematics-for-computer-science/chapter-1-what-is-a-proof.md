@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T03:16:32.864Z
+date: 2021-02-21T03:17:04.249Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -108,3 +108,6 @@ Since $m^2$ and $n^2$ are integers, r is also rational. $\blacksquare$
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
 Example: Two triangles have the same side lengths if and only if two side lengths and the angle between those sides are the same.
+
+### Method #1: Prove Each Statement Implies the Other
+
