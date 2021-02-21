@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T05:34:18.907Z
+date: 2021-02-21T05:36:41.021Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -172,3 +172,7 @@ Otherwise known as an **indirect proof**, you show that if a proposition were fa
 
 **Proof:** We use proof by contradiciton. Suppose that the claim is false and 
 $\sqrt 2$ is rational. We can write $\sqrt 2$ as a fraction $n/d$ in lowest terms.
+
+Squaring both sides gives us $2 = n^2/d^2$ so 2d^2 = n^2. This implies that n is a multiple of 2. Therefore $n^2$ must be a multiple of 4. But since $2d^2 = n^2$, we know $2d^2$ is a multiple of 4 and so $d^2$ is a multiple of 2. That implies d is a multiple of 2.
+
+So, the numerator and the denominator have 2 as a common factor, which contradicts that fact that $n/d$ is in lowest terms. Thus, $\sqrt 2$ must be irrational. $\blacksquare$
