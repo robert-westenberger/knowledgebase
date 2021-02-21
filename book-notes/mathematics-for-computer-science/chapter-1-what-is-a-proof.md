@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:41:17.188Z
+date: 2021-02-21T01:42:05.036Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -55,3 +55,4 @@ $$
 \frac{\text { NOT }(P) \text { IMPLIES } \operatorname{NOT}(Q)}{Q \text { IMPLIES } P}
 $$
 
+Each step in a proof should be clear and "logical"; in particular, one should state what previously proved facts are used to derive each new conclusion.
