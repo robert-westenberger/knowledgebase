@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T01:45:54.450Z
+date: 2021-02-21T01:52:46.655Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -66,7 +66,7 @@ Propositions of the form "If $P$, then $Q$" are called implications.
 
 Its often rephrased as $P \text { IMPLIES } Q$
 
-
+* Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
 
 
