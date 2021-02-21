@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T02:37:50.938Z
+date: 2021-02-21T02:39:28.805Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -85,8 +85,9 @@ Multiplying out on the left side proves that
 $$
 -x^{3}+4 x+1>0
 $$ 
-as claimed.
+as claimed. $\blacksquare$
 
+Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
 
 
 
