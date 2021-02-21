@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-21T04:43:21.795Z
+date: 2021-02-21T04:44:58.701Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -157,3 +157,5 @@ Otherwise known as proof by exhaustion.
 * Case 3: If $n = 3p − 1$, then $n3 = 27p^3 − 27p^2 + 9p − 1$, which is 1 less than a multiple of 9. For instance, if $n = 5$ then $n3 = 125 = 9×14 − 1$. 
 $\blacksquare$
 
+## Proof by Contradiction
+Otherwise known as an **indirect proof**, you show that if a proposition were false, then some false fact would be true. Since a false fact by definition can't be true, then the proposition must be true.
