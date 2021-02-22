@@ -2,7 +2,7 @@
 title: Problem Set 1
 description: 
 published: true
-date: 2021-02-22T18:58:02.627Z
+date: 2021-02-22T18:59:09.008Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -25,4 +25,5 @@ $$(2n)^3 = 2b^3$$
 $$8n^3 = 2b^3$$
 $$4n^3 = b^3$$
 
+We see that b is also even (its a multiple of 4). Since a and b are both even, they are not coprime numbers, which is a contradiction.
 ## Problem 2
