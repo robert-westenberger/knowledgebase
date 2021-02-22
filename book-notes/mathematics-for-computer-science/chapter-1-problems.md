@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-22T19:21:11.050Z
+date: 2021-02-22T19:24:10.085Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -34,4 +34,6 @@ The Pythagorean Theorem says that if a and b are the lengths of the sides of a r
 $$a^2 + b^2 = c^2$$
 In this problem we'll examine a  particularly simple “proof without words” of the theorem.
 
-Suppose you are given four different colored copies of a right triangle with sides of lengths a, b and c, along with a suitably sized square, shown below.
+Suppose you are given four different colored copies of a right triangle with sides of lengths a, b and c, along with a suitably sized square, shown below.![pythagorean_theorem_problem.png](/pythagorean_theorem_problem.png)
+
+**(a)** You will first arrange the square and four triangles so they form a $c \medspace x \medspace c$ square. From this arrangement you will see that the square is $(b - a) \medspace x \medspace (b-a)$
