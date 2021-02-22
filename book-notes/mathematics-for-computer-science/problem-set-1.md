@@ -2,7 +2,7 @@
 title: Problem Set 1
 description: 
 published: true
-date: 2021-02-22T19:00:09.942Z
+date: 2021-02-22T19:04:59.023Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -29,3 +29,6 @@ We see that b is also even (its a multiple of 4). Since a and b are both even, t
 
 Since we have a contradiction, we must assume that $\sqrt[3] 2$ is irrational. $\blacksquare$
 ## Problem 2
+Translate the following sentence into a predicate formula:
+
+"There is a student who has e-mailed exactly two other people in the class, besides possibly herself."
