@@ -2,7 +2,7 @@
 title: Chapter 1: Sentential Logic
 description: 
 published: true
-date: 2021-02-22T03:16:11.761Z
+date: 2021-02-22T17:10:17.645Z
 tags: mathematics, book-notes
 editor: markdown
 ---
@@ -21,3 +21,5 @@ $$
 \neg & \text { not }
 \end{array}
 $$
+
+## Truth Tables
