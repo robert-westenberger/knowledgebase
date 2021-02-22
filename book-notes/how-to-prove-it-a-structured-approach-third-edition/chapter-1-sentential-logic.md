@@ -2,7 +2,7 @@
 title: Chapter 1: Sentential Logic
 description: 
 published: true
-date: 2021-02-22T03:14:50.138Z
+date: 2021-02-22T03:16:11.761Z
 tags: mathematics, book-notes
 editor: markdown
 ---
