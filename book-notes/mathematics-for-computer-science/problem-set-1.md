@@ -2,7 +2,7 @@
 title: Problem Set 1
 description: 
 published: true
-date: 2021-02-22T19:05:49.098Z
+date: 2021-02-22T19:16:17.696Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -34,5 +34,5 @@ Translate the following sentence into a predicate formula:
 "There is a student who has e-mailed exactly two other people in the class, besides possibly herself."
 
 ### Solution
-
+P(x) = 
 
