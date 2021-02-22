@@ -2,7 +2,7 @@
 title: Problem Set 1
 description: 
 published: true
-date: 2021-02-22T18:53:48.734Z
+date: 2021-02-22T18:58:02.627Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -20,5 +20,9 @@ We cube both sides to get $2 = \frac{a^3}{b^3}$.
 
 We divide both sides to get $2b^3 = a^3$. This implies a is an even integer. If $a^3$ is an even integer, that means that $a$ is an even integer as well.
 
-We can rewrite $a$ as $a=2n$ for some unknown integer $n$.
+We can rewrite $a$ as $a=2n$ for some unknown integer $n$. Therefore,
+$$(2n)^3 = 2b^3$$
+$$8n^3 = 2b^3$$
+$$4n^3 = b^3$$
+
 ## Problem 2
