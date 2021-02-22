@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-22T19:27:58.215Z
+date: 2021-02-22T19:28:08.503Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -43,3 +43,5 @@ You know that he area of an $s \medspace x \medspace s$ square is $s^2$. Appeali
 One concern is that there might be something special about the shape of these particular triangles and squares that makes the rearranging possible - for exmaple, suppose $a=b$. 
 **(c)** How would you respond to this concern?
 **(d)** Another concern is that a number of facts about right triangles, squares and lines are being implicitly assumed in justifying the rearrangements into squares. Enumerate some of these assumed facts.
+
+### Solution
