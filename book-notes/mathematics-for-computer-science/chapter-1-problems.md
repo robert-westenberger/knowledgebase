@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-22T19:17:39.823Z
+date: 2021-02-22T19:19:20.803Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -29,3 +29,4 @@ We see that b is also even (its a multiple of 4). Since a and b are both even, t
 
 Since we have a contradiction, we must assume that $\sqrt[3] 2$ is irrational. $\blacksquare$
 
+## Problem 1 (From In-Class Problems MIT OCW 6.042J Spring '15
