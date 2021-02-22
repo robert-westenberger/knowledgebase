@@ -1,8 +1,8 @@
 ---
-title: Problem Set 1
+title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-22T19:16:17.696Z
+date: 2021-02-22T19:17:08.845Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
