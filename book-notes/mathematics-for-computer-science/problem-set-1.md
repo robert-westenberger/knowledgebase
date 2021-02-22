@@ -2,7 +2,7 @@
 title: Problem Set 1
 description: 
 published: true
-date: 2021-02-22T19:04:59.023Z
+date: 2021-02-22T19:05:49.098Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -32,3 +32,7 @@ Since we have a contradiction, we must assume that $\sqrt[3] 2$ is irrational. $
 Translate the following sentence into a predicate formula:
 
 "There is a student who has e-mailed exactly two other people in the class, besides possibly herself."
+
+### Solution
+
+
