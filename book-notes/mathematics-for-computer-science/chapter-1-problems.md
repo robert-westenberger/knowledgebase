@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-22T19:17:33.668Z
+date: 2021-02-22T19:17:39.823Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -28,11 +28,4 @@ $$4n^3 = b^3$$
 We see that b is also even (its a multiple of 4). Since a and b are both even, they are not coprime numbers, which is a contradiction.
 
 Since we have a contradiction, we must assume that $\sqrt[3] 2$ is irrational. $\blacksquare$
-## Problem 2
-Translate the following sentence into a predicate formula:
-
-"There is a student who has e-mailed exactly two other people in the class, besides possibly herself."
-
-### Solution
-P(x) = 
 
