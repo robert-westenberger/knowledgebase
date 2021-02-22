@@ -2,14 +2,14 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-22T19:17:08.845Z
+date: 2021-02-22T19:17:33.668Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
 
-# Problem Set 1 (MIT OCW 6.042J Fall '05): Mathematics for Computer Science
+# Problem: Mathematics for Computer Science
 
-## Problem 1
+## Problem 1  (From Problem Set 1 MIT OCW 6.042J Fall '05)
 A real number r is called sensible if there exist positive integers $a$ and $b$ such
 that $\sqrt{a/b} = r$. For example, setting $a = 2$ and $b = 1$ shows that $\sqrt 2$ is sensible. Prove that $\sqrt[3]2$ is not sensible. (Consider only positive real roots in this problem).
 
