@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-22T19:19:20.803Z
+date: 2021-02-22T19:21:11.050Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -30,3 +30,8 @@ We see that b is also even (its a multiple of 4). Since a and b are both even, t
 Since we have a contradiction, we must assume that $\sqrt[3] 2$ is irrational. $\blacksquare$
 
 ## Problem 1 (From In-Class Problems MIT OCW 6.042J Spring '15
+The Pythagorean Theorem says that if a and b are the lengths of the sides of a right triangle, and c is the length of its hypotenuse, then
+$$a^2 + b^2 = c^2$$
+In this problem we'll examine a  particularly simple “proof without words” of the theorem.
+
+Suppose you are given four different colored copies of a right triangle with sides of lengths a, b and c, along with a suitably sized square, shown below.
