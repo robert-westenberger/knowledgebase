@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-23T18:44:50.016Z
+date: 2021-02-23T19:06:29.001Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -52,3 +52,4 @@ $$a=3 \quad b=4 \quad c=5$$
 We see that that the square is $(b-a) \medspace x \medspace (b-a)$.
 
 **b)**
+![pytthag_b.png](/pytthag_b.png)
