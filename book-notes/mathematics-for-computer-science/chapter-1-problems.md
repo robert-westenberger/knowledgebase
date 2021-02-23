@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-23T18:40:47.322Z
+date: 2021-02-23T18:43:04.910Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -45,5 +45,7 @@ One concern is that there might be something special about the shape of these pa
 **(d)** Another concern is that a number of facts about right triangles, squares and lines are being implicitly assumed in justifying the rearrangements into squares. Enumerate some of these assumed facts.
 
 ### Solution
+
+$$a=3 \quad b=4 \quad c=5$$
 
 **a)** ![pythag_a.png](/pythag_a.png)
