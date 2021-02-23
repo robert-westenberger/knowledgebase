@@ -2,7 +2,7 @@
 title: Chapter 1: Problems
 description: 
 published: true
-date: 2021-02-23T19:06:29.001Z
+date: 2021-02-23T19:08:48.780Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -53,3 +53,4 @@ We see that that the square is $(b-a) \medspace x \medspace (b-a)$.
 
 **b)**
 ![pytthag_b.png](/pytthag_b.png)
+Triangles rearranged to form bxb square and a cxc square.
