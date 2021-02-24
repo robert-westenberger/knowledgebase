@@ -2,7 +2,7 @@
 title: Chapter 1: Fundamentals of Mathematical Logic
 description: 
 published: true
-date: 2021-02-24T17:27:03.167Z
+date: 2021-02-24T17:33:34.593Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -10,3 +10,8 @@ editor: markdown
 # Chapter 1: Fundamentals of Mathematical Logic
 
 **Propositional Logic** - Proposition is a statement that has a value that is either true or false. A proposition is a statement that is either true or false.
+
+**Compound Proposition** - Built out of atomic propositions using logical operations and brackets. 
+
+**Compound Operation** - 
+
