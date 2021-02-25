@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:30:26.245Z
+date: 2021-02-25T17:31:16.062Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -34,3 +34,5 @@ $P \wedge Q$ is read "P and Q"
 $P \rarr Q$ is read "if P then Q"
 $P \leftrightarrow Q$ is read "P if and only if Q"
 $\neg P$ is read "not P"
+
+## Truth Conditions for Connectives
