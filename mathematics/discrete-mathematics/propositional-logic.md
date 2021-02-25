@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-24T18:38:24.038Z
+date: 2021-02-25T17:28:49.059Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -23,6 +23,10 @@ $$
 \text { Symbol } & \text { Meaning } \\
 \hline \vee & \text { or } \\
 \wedge & \text { and } \\
+\rarr & \text { implication (or conditional) } \\
+\leftrightarrow & \text { biconditional } \\
 \neg & \text { not }
 \end{array}
 $$
+
+$P \wedge Q$ is read "P or Q"
