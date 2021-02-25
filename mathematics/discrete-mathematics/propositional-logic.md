@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T18:48:38.721Z
+date: 2021-02-25T18:54:20.301Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -63,7 +63,8 @@ There can be implications that's converse is also true. For example, the pythago
 The **contrapositive** of an implication $P \rarr Q$ is the statement $\neg Q \rarr \neg P$. An implication and its contrapositive are logically equivalent. The contrapositive can be helpful in deciding whether an implication is true: often it is easier to analyze the contrapositive.
 
 If an implication and its converse are true, we say that P and Q are equivalent and write $P \leftrightarrow Q$ ( the biconditional).
-
+### If and only if
+$P \leftrightarrow Q$ is logically equivalent to $(P \rarr Q) \wedge (Q \rarr P)$.
 #### Proof Method #1 
 In order to prove $P \text { IMPLIES } Q$: 
 1) Write, "Assume P".
