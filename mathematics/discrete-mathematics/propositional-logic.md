@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:37:25.459Z
+date: 2021-02-25T17:37:58.656Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -43,3 +43,5 @@ $P \wedge Q$ is true when both P and Q are true
 $P \rarr Q$ is true when P is false or Q is true or both
 $P \leftrightarrow Q$ is true when P and Q are both true, or both false.
 $\neg P$ is true when P is false.
+
+## Truth Conditions for Connectives
