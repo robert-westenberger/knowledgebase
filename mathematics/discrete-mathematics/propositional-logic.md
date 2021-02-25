@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:37:58.656Z
+date: 2021-02-25T17:40:55.553Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -44,4 +44,28 @@ $P \rarr Q$ is true when P is false or Q is true or both
 $P \leftrightarrow Q$ is true when P and Q are both true, or both false.
 $\neg P$ is true when P is false.
 
-## Truth Conditions for Connectives
+## Implications
+$P \rarr Q$  "if P then Q". Often rephrased as $P \text { IMPLIES } Q$.
+
+* Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
+
+### Method #1 
+In order to prove $P \text { IMPLIES } Q$: 
+1) Write, "Assume P".
+2) Show that Q logically follows. 
+
+#### Example of Method #1
+
+**Theorem:** $\text { If } 0 \leq x \leq 2 \text { , then }-x^{3}+4 x+1>0$
+
+**Scratchwork:** We can factor $-x^3 + 4x$ to get $-x^3 + 4x = x(2-x)(2+x)$ .For $x$ between 0 and 2, all the terms on the right side are nonnegative. We can organize our observations into a formal proof.
+
+**Proof:** Assume $0 \leq x \leq 2$. Then, $x$, $2-x$, and $2+x$ are all nonnegative. Therefore, the product of these terms is also nonnegative. Adding 1 to this product gives a positive number, so:
+$$x(2-x)(2+x)+1>0$$
+Multiplying out on the left side proves that 
+$$
+-x^{3}+4 x+1>0
+$$ 
+as claimed. $\blacksquare$
+
+Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
