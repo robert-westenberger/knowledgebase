@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:41:29.922Z
+date: 2021-02-25T17:41:55.395Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -49,6 +49,8 @@ $P \rarr Q$  "if P then Q". Often rephrased as $P \text { IMPLIES } Q$.
 
 P is the **hypothesis** (or **antecedent**)
 Q is the **conclusion** (or **consequent**)
+
+An implication is true provided P is false or Q is true (or both), and false otherwise. In particular, the only way for P → Q to be false is for P to be true and Q to be false.
 
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
