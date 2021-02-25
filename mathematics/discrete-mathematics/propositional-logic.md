@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:41:55.395Z
+date: 2021-02-25T18:06:46.832Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -59,7 +59,7 @@ In order to prove $P \text { IMPLIES } Q$:
 1) Write, "Assume P".
 2) Show that Q logically follows. 
 
-#### Example of Method #1
+#### Example 1 of Method #1
 
 **Theorem:** $\text { If } 0 \leq x \leq 2 \text { , then }-x^{3}+4 x+1>0$
 
@@ -74,3 +74,7 @@ $$
 as claimed. $\blacksquare$
 
 Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
+#### Example 2 of Method #1
+**Theorem:** If two numbers $a$ and $b$ are even, then their sum $a + b$ is even.
+**Proof:** Suppose the numbers $a$ and $b$ are even. This means that $a = 2k$ and $b=2j$ for some integers $j$ and $k$. The sum is then $a+b=2k+2j=2(k+j)$. Since $k+j$ is an integer, this means that $a+b$ is even. $\blacksquare$
+
