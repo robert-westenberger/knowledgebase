@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T18:07:48.201Z
+date: 2021-02-25T18:08:26.666Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -77,4 +77,6 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 #### Example 2 of Method #1
 **Theorem:** If two numbers $a$ and $b$ are even, then their sum $a + b$ is even.
 **Proof:** Assume the numbers $a$ and $b$ are even. This means that $a = 2k$ and $b=2j$ for some integers $j$ and $k$. The sum is then $a+b=2k+2j=2(k+j)$. Since $k+j$ is an integer, this means that $a+b$ is even. $\blacksquare$
+
+Notice we just assume P is true and repeatedly ask and answer the question, "What does that mean?". Eventually we conclude that it means the conclusion.
 
