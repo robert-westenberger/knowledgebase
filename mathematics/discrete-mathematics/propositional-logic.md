@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T20:04:05.060Z
+date: 2021-02-25T20:05:09.992Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -120,4 +120,6 @@ $$
 $\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
 
 $\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
+
+(Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type).
 
