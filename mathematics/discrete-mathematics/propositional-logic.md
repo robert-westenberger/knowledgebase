@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T20:02:02.485Z
+date: 2021-02-25T20:04:05.060Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -116,4 +116,8 @@ The following asserts that every number is greater than or equal to 0.
 $$
 \forall x(x \geq 0)
 $$
+
+$\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
+
+$\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
 
