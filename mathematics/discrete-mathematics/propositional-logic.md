@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T19:58:58.168Z
+date: 2021-02-25T20:00:31.322Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -101,6 +101,7 @@ $$
 \begin{array}{cc}
 \text { Symbol } & \text { Meaning } \\
 \hline 
-\wedge & \text { and } \\
+\exists & \text { exists, there exists, there is } \\
+\forall & \text { for all, every } \\
 \end{array}
 $$
