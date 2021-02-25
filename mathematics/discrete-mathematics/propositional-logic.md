@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:35:43.529Z
+date: 2021-02-25T17:37:25.459Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -37,3 +37,9 @@ $\neg P$ is read "not P"
 
 Note that the OR is the **inclusive or** and that $P \vee Q$ is true when both P and Q are true.
 ## Truth Conditions for Connectives
+
+$P \vee Q$ is true when P or Q or both are true
+$P \wedge Q$ is true when both P and Q are true
+$P \rarr Q$ is true when P is false or Q is true or both
+$P \leftrightarrow Q$ is true when P and Q are both true, or both false.
+$\neg P$ is true when P is false.
