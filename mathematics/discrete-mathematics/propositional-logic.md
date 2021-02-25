@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:31:16.062Z
+date: 2021-02-25T17:35:43.529Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -35,4 +35,5 @@ $P \rarr Q$ is read "if P then Q"
 $P \leftrightarrow Q$ is read "P if and only if Q"
 $\neg P$ is read "not P"
 
+Note that the OR is the **inclusive or** and that $P \vee Q$ is true when both P and Q are true.
 ## Truth Conditions for Connectives
