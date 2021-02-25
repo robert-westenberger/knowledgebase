@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T20:00:31.322Z
+date: 2021-02-25T20:02:02.485Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -105,3 +105,15 @@ $$
 \forall & \text { for all, every } \\
 \end{array}
 $$
+
+The following asserts that there is a number less than 0.
+$$
+\exists x(x<0)
+$$
+
+The following asserts that every number is greater than or equal to 0.
+
+$$
+\forall x(x \geq 0)
+$$
+
