@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T18:11:53.484Z
+date: 2021-02-25T18:19:56.150Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -55,7 +55,8 @@ An implication is true provided P is false or Q is true (or both), and false oth
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
 ### Converse and Contrapositive
-
+The **converse** of an implication $P \rarr Q$ is the implication $Q \rarr P$
+An implication $P \text { IMPLIES } Q$ is logically equivalent to its contrapositive $\operatorname{NOT}(Q)$ IMPLIES $\operatorname{NOT}(P)$.
 
 
 #### Proof Method #1 
