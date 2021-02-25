@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T19:56:21.237Z
+date: 2021-02-25T19:57:15.892Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -95,3 +95,4 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 Notice we just assume P is true and repeatedly ask and answer the question, "What does that mean?". Eventually we conclude that it means the conclusion.
 
 ## Predicates and Quantifiers
+A **predicate** can be understood as a proposition whose truth depeonds on the value of one or more variables. "n is a perfect square" is a predicate, since you don't know its true or false until a value for n is provided.
