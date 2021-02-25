@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-25T18:01:37.951Z
+date: 2021-02-25T18:03:07.014Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -73,7 +73,7 @@ In order to prove $P \text { IMPLIES } Q$:
 1) Write, "Assume P".
 2) Show that Q logically follows. 
 
-#### Example 1 of Method #1
+#### Example of Method #1
 
 **Theorem:** $\text { If } 0 \leq x \leq 2 \text { , then }-x^{3}+4 x+1>0$
 
@@ -88,9 +88,6 @@ $$
 as claimed. $\blacksquare$
 
 Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
-
-#### Example 2 of Method #1
-
 
 ### Method #2 - Prove the Contrapositive
 An implication $P \text { IMPLIES } Q$ is logically equivalent to its contrapositive $\operatorname{NOT}(Q)$ IMPLIES $\operatorname{NOT}(P)$.
