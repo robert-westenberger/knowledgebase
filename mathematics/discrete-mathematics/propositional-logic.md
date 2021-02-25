@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T17:40:55.553Z
+date: 2021-02-25T17:41:29.922Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -46,6 +46,9 @@ $\neg P$ is true when P is false.
 
 ## Implications
 $P \rarr Q$  "if P then Q". Often rephrased as $P \text { IMPLIES } Q$.
+
+P is the **hypothesis** (or **antecedent**)
+Q is the **conclusion** (or **consequent**)
 
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
