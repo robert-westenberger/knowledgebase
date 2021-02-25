@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T18:10:49.678Z
+date: 2021-02-25T18:11:53.484Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -54,12 +54,16 @@ An implication is true provided P is false or Q is true (or both), and false oth
 
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
-### Method #1 
+### Converse and Contrapositive
+
+
+
+#### Proof Method #1 
 In order to prove $P \text { IMPLIES } Q$: 
 1) Write, "Assume P".
 2) Show that Q logically follows. 
 
-#### Example 1 of Method #1
+##### Example 1 of Proof Method #1
 
 **Theorem:** $\text { If } 0 \leq x \leq 2 \text { , then }-x^{3}+4 x+1>0$
 
@@ -74,10 +78,9 @@ $$
 as claimed. $\blacksquare$
 
 Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
-#### Example 2 of Method #1
+##### Example 2 of Method #1
 **Theorem:** If two numbers $a$ and $b$ are even, then their sum $a + b$ is even.
 **Proof:** Assume the numbers $a$ and $b$ are even. This means that $a = 2k$ and $b=2j$ for some integers $j$ and $k$. The sum is then $a+b=2k+2j=2(k+j)$. Since $k+j$ is an integer, this means that $a+b$ is even. $\blacksquare$
 
 Notice we just assume P is true and repeatedly ask and answer the question, "What does that mean?". Eventually we conclude that it means the conclusion.
 
-## Converse and Contrapositive
