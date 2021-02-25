@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T18:08:26.666Z
+date: 2021-02-25T18:10:49.678Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -80,3 +80,4 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 
 Notice we just assume P is true and repeatedly ask and answer the question, "What does that mean?". Eventually we conclude that it means the conclusion.
 
+## Converse and Contrapositive
