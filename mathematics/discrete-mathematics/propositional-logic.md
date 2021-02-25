@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T18:22:32.706Z
+date: 2021-02-25T18:24:31.606Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -55,7 +55,7 @@ An implication is true provided P is false or Q is true (or both), and false oth
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
 ### Converse and Contrapositive
-The **converse** of an implication $P \rarr Q$ is the implication $Q \rarr P$.
+The **converse** of an implication $P \rarr Q$ is the implication $Q \rarr P$. An example of a true implication and a false converse woul be, "If a shape is a square, then it is a rectangle". Or, "If a number greater than 2 is prime, then that number is odd" (Just because a number is odd does not mean it is prime). 
 The **contrapositive** of an implication $P \rarr Q$ is the statement $\neg Q \rarr \neg P$. An implication and its contrapositive are logically equivalent.
 
 
