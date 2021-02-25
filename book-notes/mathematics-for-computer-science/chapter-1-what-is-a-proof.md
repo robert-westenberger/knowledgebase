@@ -2,7 +2,7 @@
 title: Chapter 1: What is a Proof?
 description: 
 published: true
-date: 2021-02-25T18:01:17.509Z
+date: 2021-02-25T18:01:37.951Z
 tags: computer-science, mathematics, book-notes, discrete-mathematics
 editor: markdown
 ---
@@ -89,7 +89,8 @@ as claimed. $\blacksquare$
 
 Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
 
-#### Example 1 of Method #1
+#### Example 2 of Method #1
+
 
 ### Method #2 - Prove the Contrapositive
 An implication $P \text { IMPLIES } Q$ is logically equivalent to its contrapositive $\operatorname{NOT}(Q)$ IMPLIES $\operatorname{NOT}(P)$.
