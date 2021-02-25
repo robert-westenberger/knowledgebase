@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T18:54:20.301Z
+date: 2021-02-25T18:55:15.922Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -65,6 +65,9 @@ The **contrapositive** of an implication $P \rarr Q$ is the statement $\neg Q \r
 If an implication and its converse are true, we say that P and Q are equivalent and write $P \leftrightarrow Q$ ( the biconditional).
 ### If and only if
 $P \leftrightarrow Q$ is logically equivalent to $(P \rarr Q) \wedge (Q \rarr P)$.
+
+Example: Given an integer $n$, it is true that $n$ is even if and only if $n^2$ is even. That is, if $n$ is even, then $n^2$ is even, as well as the converse: if $n^2$ is even, then $n$ is even.
+
 #### Proof Method #1 
 In order to prove $P \text { IMPLIES } Q$: 
 1) Write, "Assume P".
