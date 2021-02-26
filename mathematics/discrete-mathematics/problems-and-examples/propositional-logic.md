@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-26T18:59:48.152Z
+date: 2021-02-26T19:04:57.051Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -65,11 +65,13 @@ The domain of discourse should be the set of students in the class; in addition,
 #### Solution
 
 $$
-\begin{array}{l}
-\exists x \exists y \exists z . E(x, y) \wedge E(x, z) \wedge \\
-x \neq y \wedge x \neq z \wedge y \neq z \wedge \\
-\forall s, E(x, s) \longrightarrow s=x \vee s=y \vee s=z
-\end{array}  
+\begin{aligned}
+&\exists x \exists y \exists z . E(x, y) \wedge E(x, z) \wedge\\
+&x \neq y \wedge x \neq z \wedge y \neq z \wedge\\
+&\forall s, E(x, s) \longrightarrow s=x \vee s=y \vee s=z
+\end{aligned} \\
+
+\hspace 15.5em \blacksquare
 $$
 
 The above is translated to: "There exists students $x$, $y$, and $z$ where $x$ send an email to $y$ AND $x$ sent an email to $z$ AND $x$ is not the same as $y$ AND $x$ is not the same as $z$ and $y$ is not the same as $z$ AND for all students $s$, x sent an email to a student s where the student s is x OR the student s is y OR the student s is z.
