@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-26T19:14:05.668Z
+date: 2021-02-26T19:14:33.859Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -96,9 +96,11 @@ $$
 
 Note that we’ve used “$w \ne 0$” in this formula, even though it’s technically not allowed. But since “$w \ne 0$” is equivalent to the allowed formula “$¬(w + w = w)$,” we can use “$w \ne 0$” with the understanding that it abbreviates the real thing. And now that we’ve shown how to express “$x > y$”, it’s ok to use it too.
 
-(b) $x > 1$.
-(c) $n$ is a prime number. 
-(d) $n$ is a product of two distinct primes. 
-(e) There is no largest prime number. 
-(f) (Goldbach Conjecture) Every even natural number $n > 2$ can be expressed as the sum of two primes. 
-(g) (Bertrand’s Postulate) If $n > 1$, then there is always at least one prime $p$ such that $n < p < 2n$.
+**(b)** $x > 1$.
+**(c)** $n$ is a prime number. 
+**(d)** $n$ is a product of two distinct primes. 
+**(e)** There is no largest prime number. 
+**(f)** (Goldbach Conjecture) Every even natural number $n > 2$ can be expressed as the sum of two primes. 
+**(g)** (Bertrand’s Postulate) If $n > 1$, then there is always at least one prime $p$ such that $n < p < 2n$.
+
+#### Solution
