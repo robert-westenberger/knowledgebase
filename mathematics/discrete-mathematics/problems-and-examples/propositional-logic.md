@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-26T19:04:57.051Z
+date: 2021-02-26T19:07:50.170Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -75,3 +75,6 @@ $$
 $$
 
 The above is translated to: "There exists students $x$, $y$, and $z$ where $x$ send an email to $y$ AND $x$ sent an email to $z$ AND $x$ is not the same as $y$ AND $x$ is not the same as $z$ and $y$ is not the same as $z$ AND for all students $s$, x sent an email to a student s where the student s is x OR the student s is y OR the student s is z.
+
+### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 3
+Express each of the following predicates and propositions in formal logic notation. The domain of discourse is the nonnegative integers,$\natnums$
