@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-26T18:30:33.395Z
+date: 2021-02-26T18:47:28.239Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -57,5 +57,19 @@ We see that that the square is $(b-a) \medspace x \medspace (b-a)$.
 ![pytthag_b.png](/pytthag_b.png)
 Triangles rearranged to form bxb square and a cxc square.
 ### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 2
-Translate the following sentence into a predicate formula: There is a student who has emailed exactly two other people in the class, besides possibly herself. The domain of discourse should be the set of students in the class; in addition, the only predicates that you may use are equality and E(x, y), meaning that “x has sent email to y.”
+Translate the following sentence into a predicate formula: 
+
+*There is a student who has emailed exactly two other people in the class, besides possibly herself.*
+
+The domain of discourse should be the set of students in the class; in addition, the only predicates that you may use are equality and E(x, y), meaning that “x has sent email to y.”
 #### Solution
+
+$$
+\begin{array}{l}
+\exists x \exists y \exists z . E(x, y) \wedge E(x, z) \wedge \\
+x \neq y \wedge x \neq z \wedge y \neq z \wedge \\
+\forall s, E(x, s) \longrightarrow s=x \vee s=y \vee s=z
+\end{array}
+$$
+
+The above is 
