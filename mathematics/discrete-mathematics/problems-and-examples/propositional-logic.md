@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-26T19:08:04.890Z
+date: 2021-02-26T19:12:40.684Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -78,3 +78,20 @@ The above is translated to: "There exists students $x$, $y$, and $z$ where $x$ s
 
 ### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 3
 Express each of the following predicates and propositions in formal logic notation. The domain of discourse is the nonnegative integers, $\natnums$
+
+In addition to the propositional operators, variables and quantifiers, you may define predicates using addition, multiplication, and equality symbols, but no constants (like 0, 1, . . .). For example, the proposition “n is an even number” could be written
+$$
+\exists m .(m+m=n)
+$$
+
+(a) n is the sum of three perfect squares.
+
+Since the constant 0 is not allowed to appear explicitly, the predicate “$x = 0$” can’t be written directly, but note that it could be expressed in a simple way as:
+$$x + x = x$$
+
+Then the predicate $x>y$ could be expressed 
+$$
+\exists w. \medspace (y+w=x) \wedge(w \neq 0)
+$$
+
+Note that we’ve used “$w \ne 0$” in this formula, even though it’s technically not allowed. But since “$w \ne 0$” is equivalent to the allowed formula “$¬(w + w = w)$,” we can use “$w \ne 0$” with the understanding that it abbreviates the real thing. And now that we’ve shown how to express “$x > y$”, it’s ok to use it too.
