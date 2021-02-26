@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-26T18:47:28.239Z
+date: 2021-02-26T18:54:46.970Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -72,4 +72,4 @@ x \neq y \wedge x \neq z \wedge y \neq z \wedge \\
 \end{array}
 $$
 
-The above is 
+The above is translated to: "There exists students $x$, $y$, and $z$ where $x$ send an email to $y$ AND $x$ sent an email to $z$ AND $x$ is not the same as $y$ AND $x$ is not the same as $z$ and $y$ is not the same as $z$ AND for all students $s$, x sent an email to a student s where the student s is x OR the student s is y OR the student s is z.
