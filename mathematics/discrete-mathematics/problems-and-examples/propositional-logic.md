@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-27T22:26:34.876Z
+date: 2021-02-27T22:30:56.663Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -108,6 +108,6 @@ a) $\exists m=(m \cdot m=d)\wedge (d+d+d=n)$
 b) A unique property of one is that multiplying one by itself is idempotent. Adding one to itself is not. Also, squaring one equals itself. Any number greater than one, when we square it, will be greater than the value we squared.
 $$\exists x .(x \ne 0) \wedge (x^x - x \ne 0)$$
 c) If a number $n$ is prime, it is greater than 0 and there are no numbers $y$ and $z$ that add to it.
-$$\exists n = (n \ne 0) \wedge \neg(y + z =n)$$
-The statement "There exists a number c which is the sum of two other numbers": $\exists c. (y+z=c)$
+$$\exists n.(n \ne 0) \wedge \neg(y + z =n)$$
+d) $\exists n.(n \ne 0) \wedge \neg(y + z =v)$
 
