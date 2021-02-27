@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-27T22:15:42.039Z
+date: 2021-02-27T22:19:42.195Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -106,4 +106,4 @@ Note that we’ve used “$w \ne 0$” in this formula, even though it’s techn
 #### Solution
 a) $\exists m=(m \cdot m=d)\wedge (d+d+d=n)$
 b) A unique property of one is that multiplying one by itself is idempotent. Adding one to itself is not. Also, squaring one equals itself. Any number greater than one, when we square it, will be greater than the value we squared.
-$$\exists .(n \ne 0) \wedge (n^n > n)$$
+$$\exists x .(x \ne 0) \wedge (x^x - x \ne 0)$$
