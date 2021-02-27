@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-26T19:14:33.859Z
+date: 2021-02-27T22:13:47.650Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -104,3 +104,5 @@ Note that we’ve used “$w \ne 0$” in this formula, even though it’s techn
 **(g)** (Bertrand’s Postulate) If $n > 1$, then there is always at least one prime $p$ such that $n < p < 2n$.
 
 #### Solution
+a) $\exists m=(m \cdot m=d)\wedge (d+d+d=n)$
+b) A unique property of one is that multiplying one by itself is idempotent. Adding one to itself is not. Also, squaring one equals itself. Any number greater than one, when we square it, will be greater than the value we squared.
