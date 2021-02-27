@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-02-24T17:55:38.643Z
+date: 2021-02-27T23:18:46.021Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -14,3 +14,5 @@ Resources used
 * The Discrete Math Workbook  A Companion Manual for Practical Study  (Kurgalin, Borzunov)
 * Discrete Mathematics An Open Introduction - 3rd Edition (Levin)
 * Mathematics for Computer Science (Lehman, Leighton, Meyer)
+
+[Propositional Logic](/mathematics/discrete-mathematics/propositional-logic)
