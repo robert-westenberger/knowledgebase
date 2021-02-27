@@ -2,7 +2,7 @@
 title: Propositional Logic Problems and Examples
 description: 
 published: true
-date: 2021-02-27T22:30:56.663Z
+date: 2021-02-27T22:56:11.260Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -103,11 +103,12 @@ Note that we’ve used “$w \ne 0$” in this formula, even though it’s techn
 **(f)** (Goldbach Conjecture) Every even natural number $n > 2$ can be expressed as the sum of two primes. 
 **(g)** (Bertrand’s Postulate) If $n > 1$, then there is always at least one prime $p$ such that $n < p < 2n$.
 
-#### Solution
+#### Solution (My own answers probably wrong, loop back to this)
 a) $\exists m=(m \cdot m=d)\wedge (d+d+d=n)$
 b) A unique property of one is that multiplying one by itself is idempotent. Adding one to itself is not. Also, squaring one equals itself. Any number greater than one, when we square it, will be greater than the value we squared.
 $$\exists x .(x \ne 0) \wedge (x^x - x \ne 0)$$
 c) If a number $n$ is prime, it is greater than 0 and there are no numbers $y$ and $z$ that add to it.
 $$\exists n.(n \ne 0) \wedge \neg(y + z =n)$$
-d) $\exists n.(n \ne 0) \wedge \neg(y + z =v)$
+d) n is a product of two numbers, which themselves are numbers for which there does not exist two numbers that add up to them. 
+$$\exists n. (m * z = n)$$
 
