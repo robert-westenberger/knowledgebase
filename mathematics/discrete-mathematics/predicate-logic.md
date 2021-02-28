@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T04:26:29.526Z
+date: 2021-02-28T04:58:27.763Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -104,4 +104,4 @@ n=p+q
 $$
 ### Variables Over One Domain
 When all the variables in a formula are understood to take values from the same nonempty set $D$ it's conventional to omit mention of $D$.
-For example instead of 
+For example instead of $\forall x \in D \exists y \in D . Q(x, y)$ we would write $\forall x \exists y . Q(x, y)$. The unnamed empty set that x and y range over is called the domain.
