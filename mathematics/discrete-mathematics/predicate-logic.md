@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T03:48:38.907Z
+date: 2021-02-28T03:53:24.191Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -80,10 +80,25 @@ $$
 \underbrace{\forall n \in \text { Ev }}_{\begin{array}{c}
 \text { for every even } \\
 \text { integer } n \geq 2
-\end{array}} \underbrace{\exists p \in \text { Primes } \exists q \in \text { Primes. }}_{\begin{array}{c}
+\end{array}} 
+\underbrace{\exists p \in \text { Primes } \exists q \in \text { Primes. }}_{\begin{array}{c}
 \text { there exist primes } \\
 p \text { and } q \text { such that }
-\end{array}} n=p+q
+\end{array}} 
+n=p+q
 $$
 
 ### Reordering Quantifiers
+Swapping quantifiers in Goldbach's Conjecture creates a false statement that every even number $\ge 2$ is the sum of the same two primes:
+$$
+
+\underbrace{\exists p \in \text { Primes } \exists q \in \text { Primes. }}_{\begin{array}{c}
+\text { there exist primes } \\
+p \text { and } q \text { such that }
+\end{array}} 
+\underbrace{\forall n \in \text { Ev }}_{\begin{array}{c}
+\text { for every even } \\
+\text { integer } n \geq 2
+\end{array}} 
+n=p+q
+$$
