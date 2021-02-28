@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-02-28T00:57:29.393Z
+date: 2021-02-28T01:05:58.748Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -25,7 +25,10 @@ Well ordering Principle
 Sets
 Sequences
 Functions
+Recursive Data Types
 Deduction
 Induction
 
-
+## Structures
+Number theory
+Graphs
