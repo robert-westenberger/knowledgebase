@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-02-28T00:50:41.970Z
+date: 2021-02-28T00:57:29.393Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -18,10 +18,14 @@ Resources used
 
 ## Proofs
 [Propositional Logic](/mathematics/discrete-mathematics/propositional-logic)
-Kinds of Proofs
-Well ordering Principle
+Logical Formulas
 Truth tables
+Types of Proofs
+Well ordering Principle
+Sets
+Sequences
+Functions
 Deduction
 Induction
-Logical Formulas
+
 
