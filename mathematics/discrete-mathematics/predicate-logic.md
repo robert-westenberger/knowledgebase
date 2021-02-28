@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T01:54:24.852Z
+date: 2021-02-28T01:55:52.695Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -37,6 +37,7 @@ $$
 \forall x(x \geq 0)
 $$
 
+Quantified predicates are themselves propositions and can be combined with logical connectives just like any other proposition.
 $\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
 
 $\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
