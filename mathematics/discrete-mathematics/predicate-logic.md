@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T05:24:25.939Z
+date: 2021-02-28T05:25:33.889Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -118,3 +118,6 @@ We can express the equivalence in logic notation in this way:
 $$
 (\neg \exists x . Q(x)) \longleftrightarrow \forall x . \neg Q(x)
 $$
+
+
+### Validity for Predicate Formulas
