@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-02-28T00:44:20.299Z
+date: 2021-02-28T00:50:41.970Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -16,7 +16,12 @@ Resources used
 * Mathematics for Computer Science (Lehman, Leighton, Meyer)
 
 
-
+## Proofs
 [Propositional Logic](/mathematics/discrete-mathematics/propositional-logic)
-
+Kinds of Proofs
+Well ordering Principle
+Truth tables
+Deduction
+Induction
+Logical Formulas
 
