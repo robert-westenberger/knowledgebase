@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T01:51:08.538Z
+date: 2021-02-28T01:51:24.804Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -14,6 +14,7 @@ Like other propositions, a predicate is often named with a letter. Furthermore, 
 $$
 P(n)=" n \text { is a perfect square" }
 $$
+P(4) would be true and P(5) is false.
 ## Predicates and Quantifiers
 
 $$
