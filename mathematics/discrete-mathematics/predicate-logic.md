@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T05:17:20.472Z
+date: 2021-02-28T05:18:22.078Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,16 +50,6 @@ $$
 $$
 
 This expression would be read as, "There exists an $x$ in $D$ such that $P(x)$ is true.
-
-
-Quantified predicates are themselves propositions and can be combined with logical connectives just like any other proposition.
-
-
-$\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
-
-$\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
-
-(Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type).
 
 ### Mixing Quantifiers
 
@@ -112,3 +102,11 @@ $$
 $$
 
 ### Negating Quantifiers
+Quantified predicates are themselves propositions and can be combined with logical connectives just like any other proposition.
+
+
+$\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
+
+$\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
+
+(Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type).
