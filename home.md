@@ -2,10 +2,10 @@
 title: Home
 description: 
 published: true
-date: 2020-10-18T08:20:21.124Z
+date: 2021-02-28T01:29:21.360Z
 tags: 
 editor: markdown
 ---
 
 # Home
-Your content here
+[Discrete Math Index](/mathematics/discrete-mathematics/index)
