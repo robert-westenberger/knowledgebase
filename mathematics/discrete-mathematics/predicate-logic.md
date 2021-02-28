@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T03:58:04.791Z
+date: 2021-02-28T04:26:29.526Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -103,3 +103,5 @@ p \text { and } q \text { such that }
 n=p+q
 $$
 ### Variables Over One Domain
+When all the variables in a formula are understood to take values from the same nonempty set $D$ it's conventional to omit mention of $D$.
+For example instead of 
