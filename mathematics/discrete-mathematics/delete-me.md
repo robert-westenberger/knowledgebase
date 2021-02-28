@@ -2,7 +2,7 @@
 title: DELETE ME
 description: 
 published: true
-date: 2021-02-27T23:26:38.541Z
+date: 2021-02-28T00:23:04.289Z
 tags: 
 editor: markdown
 ---
@@ -47,4 +47,6 @@ random walks
 recurrences
 
 
-## MCS 2005
+## MCS 2005 (Course itself not book)
+Proofs, Propositions and Proofs
+Proofs by contradiction and cases(exhaustion) Predicates and Sets, sets and functions
