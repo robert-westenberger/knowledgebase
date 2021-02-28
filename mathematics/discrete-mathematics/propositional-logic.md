@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-25T20:05:09.992Z
+date: 2021-02-28T01:38:38.191Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -14,8 +14,6 @@ A statement that is either true or false.
 
 A proposition is **atomic** if it cannot be broken down into smaller statements / propositions. Otherwise, it is called **molecular**. 
 
-## Predicates
-A proposition whose truth depeonds on the value of one or more variables. "n is a perfect square" is a predicate, since you don't know its true or false until a value for n is provided.
 
 ## Logical Connectives
 $$
