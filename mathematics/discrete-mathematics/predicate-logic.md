@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T05:15:34.754Z
+date: 2021-02-28T05:17:20.472Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -110,3 +110,5 @@ Goldbach's Conjecture could be expressed with all variables ranging over the dom
 $$
 \forall n . \medspace n \in \mathrm{Ev} \longrightarrow(\exists p \exists q .  \medspace p \in \text { Primes } \wedge q \in \text { primes } \wedge n=p+q)
 $$
+
+### Negating Quantifiers
