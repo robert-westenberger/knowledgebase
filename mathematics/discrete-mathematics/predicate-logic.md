@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T02:00:11.937Z
+date: 2021-02-28T02:01:40.682Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -49,6 +49,7 @@ $$
 \exists x \in D . \medspace P(x)
 $$
 
+This expression would be read as, "There exists an $x$ in $D$ such that $P(x)$ is true.
 Quantified predicates are themselves propositions and can be combined with logical connectives just like any other proposition.
 $\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
 
