@@ -2,7 +2,7 @@
 title: DELETE ME
 description: 
 published: true
-date: 2021-02-28T00:31:47.000Z
+date: 2021-02-28T00:42:58.838Z
 tags: 
 editor: markdown
 ---
@@ -37,18 +37,41 @@ editor: markdown
 1. random walks
 1. recurrences
 ## MCS 2005 (Course itself not book)
-Proofs, Propositions and Proofs
-Proofs by contradiction and cases(exhaustion) + Predicate logic + sets and functions
-Induction
-Binary relations
-Graph
-Number theory
-State machines invariants fallacies / derived vars stable marriage problem
-sums, products, asymptotics / series
-Counting, asymptotics
-Generating Functions
-Intro to probability
-random vars, distributions and expectations
-linearity of expectatiopns, variance, sampling and confidence
-random walks, law of large numbers
-
+1. Proofs, Propositions and Proofs
+1. Proofs by contradiction and cases(exhaustion) + Predicate logic + sets and functions
+1. Induction
+1. Binary relations
+1. Graph
+1. Number theory
+1. State machines invariants fallacies / derived vars stable marriage problem
+1. sums, products, asymptotics / series
+1. Counting, asymptotics
+1. Generating Functions
+1. Intro to probability
+1. random vars, distributions and expectations
+1. linearity of expectatiopns, variance, sampling and confidence
+1. random walks, law of large numbers
+## Discrete Math Workbook 3rd Edition (2021)
+#### Intro and preliminaries
+1. Mathematical Statements / atomic and molecular statements, imppliocations, predicates and qualifiers
+2. Sets, notation, relationships operations operations on sets, venn diagrams
+3. functions.. describing funcs, surjections, injections, bijections, image and inverse image
+#### counting
+4. adding and multiplicative principles, counting with sets, principles of inclusion / exclusion
+5. bionomial coefficients, subsets, bit strings, lattice paths, bionomial coefficieints, pascals trioangle
+6. combinations and permutations
+7. combinatorial proofs, patternsi n pascals triangle, stars and bars, advanced counting using PIE, counting derangements, counting functions
+#### Sequences
+8. Describing seuqnecs, arithmetic and geometric sequences and their sums, polynomial fitting, solving recurrence relations
+9. induction, stamps, formalizing proofs, strong induction
+#### Symbolic logic and proofs
+10. Propositional logic, truith tables, logical equivalence, deduction, beyond propositions
+11. proofs, direct proof, proof by contrapositive, proof by contradiction, proof by counter example, proof by cases/ exhaqustion
+#### Graph theory
+12. Trees
+13. planar and nonplanar graphs, polyghedra
+14. Coloring, coloring edges
+15. euler paths and circuits, hamilton paths
+#### Additional topics
+16. Generating funcs, buildind generating funcs, multiplication and partial sums
+17. intro to number theory, divisilibty, remainder classes, solving congruences
