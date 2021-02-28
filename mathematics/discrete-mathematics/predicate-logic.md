@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T03:28:57.150Z
+date: 2021-02-28T03:30:06.877Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -64,3 +64,11 @@ $\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
 ### Mixing Quantifiers
 
 Many mathematical statements involve several quantifiers. Goldbach's Conjecture states:
+$$
+\text { "Every even integer greater than } 2 \text { is the sum of two primes." }
+$$
+
+Rewritten to make the use of quantification clearer: 
+$$
+\text { For every even integer } n \text { greater than } 2, \text { there exist primes } p \text { and } q \text { such that } \\  n=p+q
+$$
