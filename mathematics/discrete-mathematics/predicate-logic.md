@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T03:53:24.191Z
+date: 2021-02-28T03:58:04.791Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -102,3 +102,4 @@ p \text { and } q \text { such that }
 \end{array}} 
 n=p+q
 $$
+### Variables Over One Domain
