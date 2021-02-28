@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T03:39:22.571Z
+date: 2021-02-28T03:39:41.021Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
