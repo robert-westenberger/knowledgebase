@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T01:53:52.657Z
+date: 2021-02-28T01:54:24.852Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -16,7 +16,7 @@ P(n)=" n \text { is a perfect square" }
 $$
 $P(4)$ would be true and $P(5)$ is false.
 ## Predicates and Quantifiers
-We can assert that a predicate is **sometimes true** or **always true**.
+We can assert that a predicate is **sometimes true**(existential qualification) or **always true** (universal quantificiation).
 $$
 \begin{array}{cc}
 \text { Symbol } & \text { Meaning } \\
