@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T01:50:59.786Z
+date: 2021-02-28T01:51:08.538Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -11,11 +11,11 @@ editor: markdown
 A proposition whose truth depeonds on the value of one or more variables (called a **free variable**). "n is a perfect square" is a predicate, since you don't know its true or false until a value for n is provided.
 
 Like other propositions, a predicate is often named with a letter. Furthermore, a function-like notation is used to denote a predicate supplied with specific variable vlaues. For example... 
-$$$$ 
-## Predicates and Quantifiers
 $$
 P(n)=" n \text { is a perfect square" }
 $$
+## Predicates and Quantifiers
+
 $$
 \begin{array}{cc}
 \text { Symbol } & \text { Meaning } \\
