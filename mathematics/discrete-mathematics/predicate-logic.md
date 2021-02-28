@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T01:58:49.827Z
+date: 2021-02-28T02:00:11.937Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -42,10 +42,11 @@ The following asserts that a predicate $P(n)$ is true for all values of $x$ in s
 $$
 \forall x \in D . \medspace P(n)
 $$
+The whole thing is read as, "for all $x$ in $D$, $P(x)$ is true".
 
 To say that a predicate $P(x)$ is true for at least one value of $x$ in $D$ one writes: 
 $$
-\exists x \in D . P(x)
+\exists x \in D . \medspace P(x)
 $$
 
 Quantified predicates are themselves propositions and can be combined with logical connectives just like any other proposition.
