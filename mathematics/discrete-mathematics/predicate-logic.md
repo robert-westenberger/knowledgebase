@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T03:30:06.877Z
+date: 2021-02-28T03:39:22.571Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -71,4 +71,17 @@ $$
 Rewritten to make the use of quantification clearer: 
 $$
 \text { For every even integer } n \text { greater than } 2, \text { there exist primes } p \text { and } q \text { such that } \\  n=p+q
+$$
+
+Let Ev be the set of even integers greater than 2, and let Primes be the set of primes. Then we can write Goldbach’s Conjecture in logic notation as follows:
+
+
+$$
+\underbrace{\forall n \in \text { Ev }}_{\begin{array}{c}
+\text { for every even } \\
+\text { integer } n \geq 2
+\end{array}} \underbrace{\exists p \in \text { Primes } \exists q \in \text { Primes. }}_{\begin{array}{c}
+\text { there exist primes } \\
+p \text { and } q \text { such that }
+\end{array}} n=p+q
 $$
