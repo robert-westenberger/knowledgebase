@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T02:06:44.623Z
+date: 2021-02-28T02:08:37.224Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -60,3 +60,5 @@ $\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
 $\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
 
 (Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type).
+
+### Mixing Quantifiers
