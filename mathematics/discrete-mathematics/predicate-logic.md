@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T03:39:41.021Z
+date: 2021-02-28T03:48:38.907Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -85,3 +85,5 @@ $$
 p \text { and } q \text { such that }
 \end{array}} n=p+q
 $$
+
+### Reordering Quantifiers
