@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T04:58:27.763Z
+date: 2021-02-28T05:10:02.015Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -105,3 +105,8 @@ $$
 ### Variables Over One Domain
 When all the variables in a formula are understood to take values from the same nonempty set $D$ it's conventional to omit mention of $D$.
 For example instead of $\forall x \in D \exists y \in D . Q(x, y)$ we would write $\forall x \exists y . Q(x, y)$. The unnamed empty set that x and y range over is called the domain.
+
+Goldbach's Conjecture could be expressed with all variables ranging over the domain $\natnums$ as 
+$$
+\forall n . \medspace n \in \mathrm{Ev} \longrightarrow(\exists p \exists q .  \medspace p \in \text { Primes } \wedge q \in \text { primes } \wedge n=p+q)
+$$
