@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T02:08:37.224Z
+date: 2021-02-28T03:28:57.150Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -62,3 +62,5 @@ $\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
 (Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type).
 
 ### Mixing Quantifiers
+
+Many mathematical statements involve several quantifiers. Goldbach's Conjecture states:
