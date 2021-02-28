@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T01:55:52.695Z
+date: 2021-02-28T01:58:49.827Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -35,6 +35,17 @@ The following asserts that every number is greater than or equal to 0.
 
 $$
 \forall x(x \geq 0)
+$$
+
+The following asserts that a predicate $P(n)$ is true for all values of $x$ in some set $D$, one would write
+
+$$
+\forall x \in D . \medspace P(n)
+$$
+
+To say that a predicate $P(x)$ is true for at least one value of $x$ in $D$ one writes: 
+$$
+\exists x \in D . P(x)
 $$
 
 Quantified predicates are themselves propositions and can be combined with logical connectives just like any other proposition.
