@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T05:18:22.078Z
+date: 2021-02-28T05:24:25.939Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -110,3 +110,11 @@ $\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
 $\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
 
 (Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type).
+
+These two sentences mean the same thing:
+$$\text{There does not exist anyone who likes skiing over magma.} \\ \text{ Everyone dislikes skiing over magma.}$$
+
+We can express the equivalence in logic notation in this way:
+$$
+(\neg \exists x . Q(x)) \longleftrightarrow \forall x . \neg Q(x)
+$$
