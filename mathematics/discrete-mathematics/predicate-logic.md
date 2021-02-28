@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T05:10:02.015Z
+date: 2021-02-28T05:15:34.754Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -37,7 +37,7 @@ $$
 \forall x(x \geq 0)
 $$
 
-The following asserts that a predicate $P(n)$ is true for all values of $x$ in some set $D$, one would write
+The following asserts that a predicate $P(n)$ is true for all values of $x$ in some set $D$
 
 $$
 \forall x \in D . \medspace P(n)
