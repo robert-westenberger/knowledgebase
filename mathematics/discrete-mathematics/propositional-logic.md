@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-02-28T01:38:38.191Z
+date: 2021-02-28T01:40:20.795Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -92,32 +92,5 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 
 Notice we just assume P is true and repeatedly ask and answer the question, "What does that mean?". Eventually we conclude that it means the conclusion.
 
-## Predicates and Quantifiers
-A **predicate** can be understood as a proposition whose truth depends on the value of one or more variables (called a **free variable**). "n is a perfect square" is a predicate, since you don't know its true or false until a value for n is provided.
 
-$$
-\begin{array}{cc}
-\text { Symbol } & \text { Meaning } \\
-\hline 
-\exists & \text { exists, there exists, there is } \\
-\forall & \text { for all, every } \\
-\end{array}
-$$
-
-The following asserts that there is a number less than 0.
-$$
-\exists x(x<0)
-$$
-
-The following asserts that every number is greater than or equal to 0.
-
-$$
-\forall x(x \geq 0)
-$$
-
-$\neg \forall x P(x)$ is equivalent to $\exists x \neg P(x)$
-
-$\neg \exists x P(x)$ is equivalent to $\forall x \neg P(x)$
-
-(Essentially, we can pass the negation symbol over a quantifier, but that causes the quantifier to switch type).
 
