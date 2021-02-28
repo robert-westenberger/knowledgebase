@@ -2,7 +2,7 @@
 title: DELETE ME
 description: 
 published: true
-date: 2021-02-28T00:25:50.690Z
+date: 2021-02-28T00:31:47.000Z
 tags: 
 editor: markdown
 ---
@@ -26,22 +26,29 @@ editor: markdown
 1. planar graphs
 1. infinite sets
 #### counting
-sums and asymptotcs
-
-cardinality rules
-
-generating funcs
-
+1. sums and asymptotcs
+1. cardinality rules
+1. generating funcs
 #### Probability
-evts / prob spaces
-conditional prob
-random bariables
-ddeviation from mean
-random walks
-recurrences
-
-
+1. evts / prob spaces
+1. conditional prob
+1. random bariables
+1. ddeviation from mean
+1. random walks
+1. recurrences
 ## MCS 2005 (Course itself not book)
 Proofs, Propositions and Proofs
-Proofs by contradiction and cases(exhaustion) Predicates and Sets, sets and functions
+Proofs by contradiction and cases(exhaustion) + Predicate logic + sets and functions
 Induction
+Binary relations
+Graph
+Number theory
+State machines invariants fallacies / derived vars stable marriage problem
+sums, products, asymptotics / series
+Counting, asymptotics
+Generating Functions
+Intro to probability
+random vars, distributions and expectations
+linearity of expectatiopns, variance, sampling and confidence
+random walks, law of large numbers
+
