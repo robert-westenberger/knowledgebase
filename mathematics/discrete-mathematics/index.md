@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-02-28T01:15:51.116Z
+date: 2021-02-28T01:16:51.809Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -28,7 +28,7 @@ Functions
 Recursive Data Types
 Deduction
 Induction
-
+State machines
 ## Structures
 Number theory
 Graphs
