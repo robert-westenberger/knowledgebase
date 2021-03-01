@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-01T01:32:25.690Z
+date: 2021-03-01T01:35:20.060Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -128,6 +128,6 @@ $$
 \exists x \forall y . P(x, y) \longrightarrow \forall y \exists x . P(x, y)
 $$
 Lefthand side reads: There is an $x$ for which $P(x,y)$ is true for every $y$ 
-Righthand side reads For every $x$, there is a $y$ for which $P(x,y)$ is true.
+Righthand side reads For every $y$, there is a $x$ for which $P(x,y)$ is true.
 
-There is an $x$ for which $P(x,y)$ is true for every $y$ IMPLIES For every $x$, there is a $y$ for which $P(x,y)$ is true.
+There is an $x$ for which $P(x,y)$ is true for every $y$ IMPLIES For every $y$, there is a $x$ for which $P(x,y)$ is true.
