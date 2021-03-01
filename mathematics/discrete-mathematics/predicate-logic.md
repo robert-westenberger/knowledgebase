@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-01T01:40:04.345Z
+date: 2021-03-01T01:40:29.961Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -132,4 +132,6 @@ Lefthand side reads: There is an $x$ for which $P(x,y)$ is true for every $y$
 Righthand side reads For every $y$, there is a $x$ for which $P(x,y)$ is true.
 
 There is an $x$ for which $P(x,y)$ is true for every $y$ IMPLIES For every $y$, there is a $x$ for which $P(x,y)$ is true.
+
+**Proof:**
 
