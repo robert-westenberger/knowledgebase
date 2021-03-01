@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T02:35:48.130Z
+date: 2021-03-01T02:37:03.306Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -40,3 +40,4 @@ $$
 $$
 
 A superscript + or - restricts a set to positive or negative elements.
+
