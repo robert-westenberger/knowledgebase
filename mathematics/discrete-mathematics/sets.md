@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T06:04:12.101Z
+date: 2021-03-01T17:55:21.369Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -118,6 +118,6 @@ Note: above read as "The intersection of set A with the union of set B and set C
 
 **Proof:** The equality is equivalent to the assertion that 
 $$
-z \in A \cap(B \cup C) \iff z \in(A \cap B) \cup(A \cap C)
+x \in A \cap(B \cup C) \iff x \in(A \cap B) \cup(A \cap C)
 $$
-for all z. We prove the above assertion by using a chain of iff's. 
+for all x. We prove the above assertion by using a chain of iff's. 
