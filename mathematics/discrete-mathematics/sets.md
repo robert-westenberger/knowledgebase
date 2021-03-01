@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T02:46:35.670Z
+date: 2021-03-01T02:49:01.717Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -47,3 +47,10 @@ A superscript + or - restricts a set to positive or negative elements.
 $S \subseteq T$ indicates that S is a subset of T (every element of S is an element of T).
 
 $S \subset T$ indicates that S is a subset of T, but the two are not equal.
+
+#### Union 
+$X \cup Y$ The union of sets $X$ and $Y$ contains all elements appearing in $X$ or $Y$.
+#### Intersection
+$X \cap Y$ The intersection of sets $X$ and $Y$ consists of all elements that appear in both $X$ and $Y$.
+#### Difference
+$X-Y$ of The difference sets $X$ and $Y$ contain all elements that are in $X$, but not in $Y$.
