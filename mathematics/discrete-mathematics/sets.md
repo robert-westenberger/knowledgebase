@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T04:06:24.039Z
+date: 2021-03-01T04:38:03.795Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -107,4 +107,4 @@ a^{2}+2 b^{2} \leq 1
 $$
 
 ## Proving Set Equalities
-Two sets are equal if they have exactly the same elements. 
+Two sets are equal if they have exactly the same elements. $X=Y$ means that $z \in X$ if and only if $z \in Y$, for all elements $z$.
