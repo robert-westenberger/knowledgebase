@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T18:08:16.626Z
+date: 2021-03-01T18:35:37.653Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -122,6 +122,18 @@ x \in A \cap(B \cup C) \iff x \in(A \cap B) \cup(A \cap C)
 $$
 for all x. We prove the above assertion by using a chain of iff's. 
 
+1. Definition of intersection:
 $$
-x \in A \cap(B \cup C)
+x \in A \cap(B \cup C) \iff (x \in A) \wedge (x \in B \cup C)
+$$
+2. Definition of union:
+$$
+(x \in A) \wedge (x \in B \cup C) \iff (x \in A) \wedge (x \in B \vee x \in C)
+$$
+3. AND distributivity:
+$$
+(x \in A) \wedge (x \in B \vee x \in C) \iff (x \in A \wedge x \in B) \vee (x \in A \wedge x \in C)
+$$
+4. Definition of intersection
+$$
 $$
