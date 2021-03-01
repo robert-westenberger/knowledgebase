@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T04:38:03.795Z
+date: 2021-03-01T05:57:34.503Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -107,4 +107,16 @@ a^{2}+2 b^{2} \leq 1
 $$
 
 ## Proving Set Equalities
-Two sets are equal if they have exactly the same elements. $X=Y$ means that $z \in X$ if and only if $z \in Y$, for all elements $z$.
+Two sets are equal if they have exactly the same elements. $X=Y$ means that $z \in X$ if and only if $z \in Y$, for all elements $z$. Set equalities can be formulated and proved as "iff" theorems.
+
+### Example: Proof of Distribute Law for Sets 
+**Theorem:** Let $A$, $B$, and $C$ be sets, then 
+$$
+A \cap(B \cup C)=(A \cap B) \cup(A \cap C)
+$$
+Note: above read as "The intersection of set A with the union of set B and set C is equivalent to the union of the intersections of sets A and B and sets A and C"
+
+**Proof:** The equality is equivalent to the assertion that 
+$$
+z \in A \cap(B \cup C) \text { iff } z \in(A \cap B) \cup(A \cap C)
+$$
