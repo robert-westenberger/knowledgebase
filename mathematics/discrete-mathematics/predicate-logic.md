@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-02-28T05:25:33.889Z
+date: 2021-03-01T01:32:25.690Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -121,3 +121,13 @@ $$
 
 
 ### Validity for Predicate Formulas
+For a predicate formula to be valid, a formula must evaluate to true no matter what the domain of discourse may be, no matter what values its variables may take over the domain, and no matter what interpreta- tions its predicate variables may be given. 
+
+A useful example of a valid assertion:
+$$
+\exists x \forall y . P(x, y) \longrightarrow \forall y \exists x . P(x, y)
+$$
+Lefthand side reads: There is an $x$ for which $P(x,y)$ is true for every $y$ 
+Righthand side reads For every $x$, there is a $y$ for which $P(x,y)$ is true.
+
+There is an $x$ for which $P(x,y)$ is true for every $y$ IMPLIES For every $x$, there is a $y$ for which $P(x,y)$ is true.
