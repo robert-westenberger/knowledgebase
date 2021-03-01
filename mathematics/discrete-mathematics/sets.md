@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T02:31:23.346Z
+date: 2021-03-01T02:33:49.941Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -19,3 +19,8 @@ P &=\{\{a, b\},\{a, c\},\{b, c\}\} & & \text {a set of sets}
 \end{aligned}
 $$
 
+The order of elements in a set don't matter. 
+
+Any object only appears in a set once (it's either in the set or not).
+
+The expression $e \in S$ asserts that $e$ is an element of set $S$.
