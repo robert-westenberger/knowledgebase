@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T03:48:14.248Z
+date: 2021-03-01T03:53:29.250Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -70,4 +70,23 @@ $$
 ## Set Builder Notation
 Used to describe sets that cannot be listed by elements or taking unions, intersections, etc. 
 
-The idea is to define a set using a **predicate**
+The idea is to define a set using a **predicate**. The set consists of all values that make the predicate true. 
+
+### Examples
+$$
+\begin{aligned}
+&A=\{n \in \mathbb{N} \mid n \text { is a prime and } n=4 k+1 \text { for some integer } k \text { \} }\\
+&B=\left\{x \in \mathbb{R} \mid x^{3}-3 x+1>0\right\}\\
+&C=\left\{a+b i \in \mathbb{C} \mid a^{2}+2 b^{2} \leq 1\right\}
+\end{aligned}
+$$
+
+The set $A$ conists of all natural numbers $n$ for which the predicate 
+$$
+" n \text { is a prime and } n=4 k+1 \text { for some integer } k^{\prime \prime}
+$$
+is true. The smallest elements of $A$ are:
+
+$$
+5,13,17,29,37,41,53,57,61,73, \ldots
+$$
