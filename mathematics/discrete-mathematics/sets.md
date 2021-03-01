@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T03:44:25.641Z
+date: 2021-03-01T03:48:14.248Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -68,3 +68,6 @@ B \in \operatorname{pow}(A) \quad \text { IFF } \quad B \subseteq A
 $$
 
 ## Set Builder Notation
+Used to describe sets that cannot be listed by elements or taking unions, intersections, etc. 
+
+The idea is to define a set using a **predicate**
