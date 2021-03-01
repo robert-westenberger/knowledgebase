@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T03:59:51.674Z
+date: 2021-03-01T04:05:42.764Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
