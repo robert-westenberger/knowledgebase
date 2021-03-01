@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T02:29:30.911Z
+date: 2021-03-01T02:29:50.519Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -14,9 +14,9 @@ $P=\{\{a, b\},\{a, c\},\{b, c\}\}$ set of sets
 
 $$
 \begin{aligned}
-\mathbb{N} &=\{0,1,2,3, \ldots\} & & \text { the natural numbers } \\
-C &=\{\text { red, blue, yellow }\} & & \text { primary colors } \\
-D &=\{\text { Teddy, Sheba, Bella }\} & & \text { dead pets } \\ 
+\mathbb{N} &=\{0,1,2,3, \ldots\} & & \text {the natural numbers } \\
+C &=\{\text { red, blue, yellow }\} & & \text {primary colors } \\
+D &=\{\text { Teddy, Sheba, Bella }\} & & \text {dead pets } \\ 
 P &=\{\{a, b\},\{a, c\},\{b, c\}\} & & \text {a set of sets}
 \end{aligned}
 $$
