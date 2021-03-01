@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-03-01T02:15:08.590Z
+date: 2021-03-01T18:51:01.839Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -29,7 +29,7 @@ State machines
 
 
 ## Mathematical Data Types
-Sets
+[Sets](/mathematics/discrete-mathematics/sets)
 Sequences
 Functions
 Recursive Data Types
