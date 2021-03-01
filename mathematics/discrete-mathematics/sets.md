@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T02:44:21.720Z
+date: 2021-03-01T02:46:35.670Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -44,3 +44,6 @@ A superscript + or - restricts a set to positive or negative elements.
 ### Comparing and Combining Sets
 
 #### Subset 
+$S \subseteq T$ indicates that S is a subset of T (every element of S is an element of T).
+
+$S \subset T$ indicates that S is a subset of T, but the two are not equal.
