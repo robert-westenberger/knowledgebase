@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-02-28T01:40:57.659Z
+date: 2021-03-01T02:15:08.590Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -23,17 +23,20 @@ Logical Formulas
 Truth tables
 Types of Proofs
 Well ordering Principle
-Sets (also in structures.. same file or split, idk)
-Sequences
-Functions
-Recursive Data Types
 Deduction
 Induction
 State machines
+
+
+## Mathematical Data Types
+Sets
+Sequences
+Functions
+Recursive Data Types
+
 ## Structures
 Number theory
 Graphs
-Sets (also in structures.. same file or split, idk)
 
 ## Counting / Combinatorics
 sums, products, asymptotic series
