@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T03:43:42.434Z
+date: 2021-03-01T03:44:25.641Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -66,3 +66,5 @@ The collection of all subsets of a set. If $A$ has $n$ elements, there are $2^n$
 $$
 B \in \operatorname{pow}(A) \quad \text { IFF } \quad B \subseteq A
 $$
+
+## Set Builder Notation
