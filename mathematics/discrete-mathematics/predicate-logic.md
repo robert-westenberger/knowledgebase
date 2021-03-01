@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-01T02:05:33.440Z
+date: 2021-03-01T02:06:13.940Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -51,6 +51,7 @@ $$
 
 This expression would be read as, "There exists an $x$ in $D$ such that $P(x)$ is true.
 
+![quantifier_table.png](/quantifier_table.png)
 ### Mixing Quantifiers
 
 Many mathematical statements involve several quantifiers. Goldbach's Conjecture states:
