@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T17:55:21.369Z
+date: 2021-03-01T18:08:16.626Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -121,3 +121,7 @@ $$
 x \in A \cap(B \cup C) \iff x \in(A \cap B) \cup(A \cap C)
 $$
 for all x. We prove the above assertion by using a chain of iff's. 
+
+$$
+x \in A \cap(B \cup C)
+$$
