@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T02:34:24.165Z
+date: 2021-03-01T02:35:48.130Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -29,7 +29,7 @@ The expression $e \in S$ asserts that $e$ is an element of set $S$.
 
 $$
 \begin{array}{lll}
-\text { symbol } & \text { set } & \text { elements } \\
+\textbf { symbol } & \textbf { set } & \textbf { elements } \\
 \emptyset & \text { the empty set } & \text { none } \\
 \mathbb{N} & \text { nonnegative integers } & \{0,1,2,3, \ldots\} \\
 \mathbb{Z} & \text { integers } & \{\ldots,-3,-2,-1,0,1,2,3, \ldots\} \\
@@ -38,3 +38,5 @@ $$
 \mathbb{C} & \text { complex numbers } & i, \frac{19}{2}, \sqrt{2}-2 i, \text { etc. }
 \end{array}
 $$
+
+A superscript + or - restricts a set to positive or negative elements.
