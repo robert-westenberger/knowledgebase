@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-01T01:40:29.961Z
+date: 2021-03-01T02:05:33.440Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -133,5 +133,9 @@ Righthand side reads For every $y$, there is a $x$ for which $P(x,y)$ is true.
 
 There is an $x$ for which $P(x,y)$ is true for every $y$ IMPLIES For every $y$, there is a $x$ for which $P(x,y)$ is true.
 
-**Proof:**
+**Proof:** Let $D$ be the domain for the variables and $P_0$ be some binary predicate on $D$. We need to show that if $\exists x \forall y . P(x, y)$ holds under this interpretation, then so does $\forall y \exists x . P(x, y)$.
+
+Suppose $\exists x \forall y . P(x, y)$. Some element $x_{0} \in D$ has the property that $P_{0}\left(x_{0}, y\right)$ is true for all $y \in D$. So for every $y \in D$, there is some $x \in D$, namely $x_0$, such that $P_{0}(x, y)$ is true. That is, $\forall y \exists x . P(x, y)$ holds under this interpretation. $\blacksquare$
+
+
 
