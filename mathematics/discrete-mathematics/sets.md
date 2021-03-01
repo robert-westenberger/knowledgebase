@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T03:39:16.417Z
+date: 2021-03-01T03:43:42.434Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -61,4 +61,8 @@ For example, the complement of positive real numbers is the set of negative real
 $$
 \overline{\mathbb{\LARGE R}^{\large +}}=\mathbb{R}^{-} \cup\{0\}
 $$
-
+#### Power Set
+The collection of all subsets of a set. If $A$ has $n$ elements, there are $2^n$ sets in $pow(A)$.
+$$
+B \in \operatorname{pow}(A) \quad \text { IFF } \quad B \subseteq A
+$$
