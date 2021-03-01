@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T03:35:45.568Z
+date: 2021-03-01T03:39:16.417Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -59,5 +59,6 @@ Often all the sets being considered are subsets of a known domain of discourse $
 
 For example, the complement of positive real numbers is the set of negative real numbers together with zero when the domain is all real numbers.
 $$
-\overline{\mathbb{R}^{+}}=\mathbb{R}^{-} \cup\{0\}
+\overline{\mathbb{\LARGE R}^{\large +}}=\mathbb{R}^{-} \cup\{0\}
 $$
+
