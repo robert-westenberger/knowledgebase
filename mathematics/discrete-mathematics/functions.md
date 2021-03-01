@@ -2,10 +2,9 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-01T18:51:53.394Z
+date: 2021-03-01T18:58:50.976Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
 
-# Header
-Your content here
+A **function** assigns an element of one set, the **domain**, to elements of another set called the **codomain**.
