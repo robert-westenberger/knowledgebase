@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T18:35:37.653Z
+date: 2021-03-01T18:39:54.471Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -136,4 +136,10 @@ $$
 $$
 4. Definition of intersection
 $$
+(x \in A \wedge x \in B) \vee (x \in A \wedge x \in C) \iff (x \in A \cap B) \vee (x \in A \cap C)
 $$
+5. Definition of union
+$$
+(x \in A \cap B) \vee (x \in A \cap C) \iff x \in(A \cap B) \cup(A \cap C)
+$$
+$$\blacksquare$$
