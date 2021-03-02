@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-01T19:21:22.339Z
+date: 2021-03-02T17:13:47.561Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -21,4 +21,6 @@ f(a)=b
 $$
 indicates that $f$ assigns the element $b \in B$ to $a$. Here $b$ would be called the $value$ of $f$ at argument $a$.
 
-Functions are often defined by formulas, for example $f_{1}(x)::=\frac{1}{x^{2}}$.
+Functions are often defined by formulas, for example $f_{1}(x)::=\frac{1}{x^{2}}$. Notice how this won't assign a value for every element in the domain (0 will be undefined).
+
+A function with a finite domain could be represented with a with a truth table to show the value of the function at each element of the domain. 
