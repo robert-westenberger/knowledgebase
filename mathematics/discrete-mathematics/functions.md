@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-02T17:50:56.578Z
+date: 2021-03-02T18:47:44.605Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -40,3 +40,6 @@ $$
 \hline
 \end{array}
 $$
+
+## Image and Inverse Image
+Given a function $f: A \rightarrow B$, the **image** of a function is the set of all output values it may produce. The **image** of set $A$ is the $range$ of $f$, which is the set of all possible images that $f$ can assume.
