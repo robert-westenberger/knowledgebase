@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T17:42:32.558Z
+date: 2021-03-03T17:51:09.651Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -72,3 +72,13 @@ Let the function $g: \mathbb{Z} \rightarrow \mathbb{Z}$ be defined by:
 $$g(n)=n+3$$
 
 we find the range of $g$ is $\mathbb Z$, and $g(\mathbb{N})=\{4,5,6, \ldots\}$. The function $g$ is both one-to-one and onto. 
+
+
+## Function Composition
+Composing functions $f$ and $f$ means that $f$ is applied to some argument, $x$, to produce $f(x)$, and then $g$ is applied to that result to produce $g(f(x))$. 
+
+For functions $f: A \rightarrow B$ and $g: B \rightarrow C$, the **composition** $g \circ f$, of $g$ with $f$ is defined to be the function from $A$ to $C$ defined by the rule: 
+$$
+(g \circ f)(x)::=g(f(x))
+$$
+for all $x \in A$.
