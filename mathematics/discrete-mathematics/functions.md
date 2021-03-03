@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T17:56:59.077Z
+date: 2021-03-03T18:09:23.671Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -82,4 +82,12 @@ $$
 (g \circ f)(x)::=g(f(x))
 $$
 for all $x \in A$.
+
 ## Binary Relations
+A **binary relation**, $R$, consists of a set, $A$, called the **domain** of $R$, a set, $B$, called the **codomain** of $R$, and a subset of $A \times B$ called the **graph** of $R$. 
+
+A relation whose domain is $A$ and codomain is $B$ is said to be "between $A$ and $B$", or "from $A$ to $B$." 
+
+When the domain and codomain are the same set, $A$, we simply say the relation is "on A." 
+
+
