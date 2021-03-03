@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T18:35:12.938Z
+date: 2021-03-03T19:25:05.272Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -93,3 +93,13 @@ When the domain and codomain are the same set, $A$, we simply say the relation i
 It is common to use "$a \medspace R \medspace b$" to mean the pair $(a, b)$ is in the graph of $R$.
 
 ## Types Binary Relations
+We say a function $f: A \rightarrow B$ is:
+
+### Total and Partial
+**Total** if every element of $A$ is assigned to some element of $B$, otherwise $f$ is called a **partial** function.
+### Surjective
+If every element of $B$ is mapped at least once.
+### Injective
+If every element of $B$ is mapped to at most once.
+### Bijective
+If $f$ is total, surjective, and injective. In particular, each element of $B$ is mapped to exactly once.
