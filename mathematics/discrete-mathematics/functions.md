@@ -2,12 +2,12 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T17:40:32.382Z
+date: 2021-03-03T17:42:32.558Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
 
-A **function** assigns an element of one set, the **domain**, to elements of another set called the **codomain** or **range**.
+A **function** assigns an element of one set, the **domain**, to elements of another set called the **codomain**.
 
 The notation 
 $$
