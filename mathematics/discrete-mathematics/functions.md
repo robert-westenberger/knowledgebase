@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T18:12:55.410Z
+date: 2021-03-03T18:35:12.938Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -92,3 +92,4 @@ When the domain and codomain are the same set, $A$, we simply say the relation i
 
 It is common to use "$a \medspace R \medspace b$" to mean the pair $(a, b)$ is in the graph of $R$.
 
+## Types Binary Relations
