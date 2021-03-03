@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T17:35:50.102Z
+date: 2021-03-03T17:40:32.382Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -59,9 +59,16 @@ Things to remember
 5. Perhaps, the most important thing to remember is:
 If $y \in f(C)$, then $y \in B$, and then there exists an $x \in C$ such that $f(x) = y$.
 
-### Example
+### Examples
+#### Example 1
 Let the function $f: \mathbb{R} \rightarrow \mathbb{R}$ be defined by 
 $$
 f(x)=x^{2}
 $$
-We find the range of $F$ is $\lbrack 0, \infty)$
+We find the range of $F$ is $\lbrack 0, \infty)$ We also have, for example, $f(\lbrack 2, \infty))=\lbrack 4, \infty)$. It is clear that $f$ is neither one-to-one nor onto.
+#### Example 2
+Let the function $g: \mathbb{Z} \rightarrow \mathbb{Z}$ be defined by:
+
+$$g(n)=n+3$$
+
+we find the range of $g$ is $\mathbb Z$, and $g(\mathbb{N})=\{4,5,6, \ldots\}$. The function $g$ is both one-to-one and onto. 
