@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T18:09:23.671Z
+date: 2021-03-03T18:12:55.410Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -90,4 +90,5 @@ A relation whose domain is $A$ and codomain is $B$ is said to be "between $A$ an
 
 When the domain and codomain are the same set, $A$, we simply say the relation is "on A." 
 
+It is common to use "$a \medspace R \medspace b$" to mean the pair $(a, b)$ is in the graph of $R$.
 
