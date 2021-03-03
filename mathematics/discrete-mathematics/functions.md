@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T17:28:02.062Z
+date: 2021-03-03T17:35:50.102Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -57,3 +57,11 @@ Things to remember
 3. Better yet: include the notation  𝑓(𝑥)  or  𝑓(𝐶)  in the discussion.
 4. While  𝑓(𝑥)  is an element in the codomain,  𝑓(𝐶)  is a subset of the codomain.
 5. Perhaps, the most important thing to remember is:
+If $y \in f(C)$, then $y \in B$, and then there exists an $x \in C$ such that $f(x) = y$.
+
+### Example
+Let the function $f: \mathbb{R} \rightarrow \mathbb{R}$ be defined by 
+$$
+f(x)=x^{2}
+$$
+We find the range of $F$ is $\lbrack 0, \infty)$
