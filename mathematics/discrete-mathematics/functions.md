@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-02T19:18:35.687Z
+date: 2021-03-03T17:28:02.062Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -43,3 +43,17 @@ $$
 
 ## Image and Inverse Image
 Given a function $f: A \rightarrow B$, the **image** of a function is the set of all output values it may produce. The **image** of set $A$ is the $range$ of $f$, which is the set of all possible images that $f$ can assume.
+
+More formally, given a function $f: A \rightarrow B$, and $C \subseteq A$, the **image of** $c$ **under** $f$ is defined as 
+$$
+f(C)=\{f(x) \mid x \in C\}
+$$
+In other words, $f(C)$ is the set of all the images of the elements of $C$.
+
+Things to remember
+
+1. It is about the image of a subset  𝐶  of the domain of  𝐴 . Do not confuse it with the image of an element  𝑥  from  𝐴 
+2. Therefore, do not merely say “the image.” Be specific: the image of an element, or the image of a subset.
+3. Better yet: include the notation  𝑓(𝑥)  or  𝑓(𝐶)  in the discussion.
+4. While  𝑓(𝑥)  is an element in the codomain,  𝑓(𝐶)  is a subset of the codomain.
+5. Perhaps, the most important thing to remember is:
