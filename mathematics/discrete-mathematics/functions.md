@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T17:52:52.059Z
+date: 2021-03-03T17:56:59.077Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
