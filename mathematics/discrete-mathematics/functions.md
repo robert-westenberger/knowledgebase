@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T17:51:09.651Z
+date: 2021-03-03T17:52:52.059Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -82,3 +82,4 @@ $$
 (g \circ f)(x)::=g(f(x))
 $$
 for all $x \in A$.
+## Binary Relations
