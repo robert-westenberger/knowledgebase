@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T17:31:34.408Z
+date: 2021-03-04T17:41:50.755Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -99,6 +99,9 @@ We say a function $f: A \rightarrow B$ is:
 **Total** if every element of $A$ is assigned to some element of $B$, otherwise $f$ is called a **partial** function.
 ### Surjective
 If every element of $B$ is mapped at least once. Also known as **onto**.
+
+For every element $b \in B$, there exists an element $a \in A$ such that
+$$f(a) = b$$
 ### Injective
 If every element of $B$ is mapped to at most once. Also known as **one-to-one**.
 
