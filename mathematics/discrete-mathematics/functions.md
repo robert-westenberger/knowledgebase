@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T19:29:39.103Z
+date: 2021-03-04T19:42:45.273Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -13,7 +13,7 @@ The notation
 $$
 f: A \rightarrow B
 $$
-indicates that $f$ is a function domain $A$ and codomain $B$.
+indicates that $f$ is a function with domain $A$ and codomain $B$.
 
 The notation 
 $$
@@ -83,7 +83,7 @@ $$
 $$
 for all $x \in A$.
 
-## Binary Relations
+# Binary Relations
 A **binary relation**, $R$, consists of a set, $A$, called the **domain** of $R$, a set, $B$, called the **codomain** of $R$, and a subset of $A \times B$ called the **graph** of $R$. 
 
 A relation whose domain is $A$ and codomain is $B$ is said to be "between $A$ and $B$", or "from $A$ to $B$." 
