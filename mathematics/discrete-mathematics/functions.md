@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T18:38:33.054Z
+date: 2021-03-04T18:43:16.861Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -93,7 +93,7 @@ When the domain and codomain are the same set, $A$, we simply say the relation i
 It is common to use "$a \medspace R \medspace b$" to mean the pair $(a, b)$ is in the graph of $R$.
 
 ## Types Binary Relations
-(Diagrams of two example functions)
+(Diagrams of two example functions)![diagrams_of_two_functions.png](/diagrams_of_two_functions.png)
 We say a function $f: A \rightarrow B$ is:
 
 ### Total and Partial
