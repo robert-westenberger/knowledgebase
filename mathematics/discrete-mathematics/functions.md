@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T17:44:22.301Z
+date: 2021-03-04T17:51:56.141Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -102,8 +102,11 @@ If every element of $B$ is mapped at least once. Also known as **onto**.
 This is a property of the codomain.
 For every element $b \in B$, there exists an element $a \in A$ such that
 $$f(a) = b$$
+
+If $A$ is a finite set, we let $|A|$ be the number of elements in $A$. If $f : A \rarr B$ is surjective, then $|A| \geq|B|$.
 ### Injective
 If every element of $B$ is mapped to at most once. Also known as **one-to-one**. This is a property of the domain of a function. 
+If $A$ is a finite set, we let $|A|$ be the number of elements in $A$. If $f : A \rarr B$ is total and injective, then $|A| \leq|B|$.
 
 $$
 f\left(x_{1}\right)=f\left(x_{2}\right) \Rightarrow x_{1}=x_{2}
@@ -111,3 +114,5 @@ $$
 for all elements $x_{1}, x_{2} \in A$
 ### Bijective
 If $f$ is total, surjective, and injective. In particular, each element of $B$ is mapped to exactly once.
+
+If $A$ is a finite set, we let $|A|$ be the number of elements in $A$. If $f : A \rarr B$ is bijective, then $|A| =|B|$.
