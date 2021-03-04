@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T17:41:50.755Z
+date: 2021-03-04T17:44:22.301Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -99,11 +99,11 @@ We say a function $f: A \rightarrow B$ is:
 **Total** if every element of $A$ is assigned to some element of $B$, otherwise $f$ is called a **partial** function.
 ### Surjective
 If every element of $B$ is mapped at least once. Also known as **onto**.
-
+This is a property of the codomain.
 For every element $b \in B$, there exists an element $a \in A$ such that
 $$f(a) = b$$
 ### Injective
-If every element of $B$ is mapped to at most once. Also known as **one-to-one**.
+If every element of $B$ is mapped to at most once. Also known as **one-to-one**. This is a property of the domain of a function. 
 
 $$
 f\left(x_{1}\right)=f\left(x_{2}\right) \Rightarrow x_{1}=x_{2}
