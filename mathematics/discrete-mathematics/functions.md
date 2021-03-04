@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-03T19:25:05.272Z
+date: 2021-03-04T17:31:34.408Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -98,8 +98,13 @@ We say a function $f: A \rightarrow B$ is:
 ### Total and Partial
 **Total** if every element of $A$ is assigned to some element of $B$, otherwise $f$ is called a **partial** function.
 ### Surjective
-If every element of $B$ is mapped at least once.
+If every element of $B$ is mapped at least once. Also known as **onto**.
 ### Injective
-If every element of $B$ is mapped to at most once.
+If every element of $B$ is mapped to at most once. Also known as **one-to-one**.
+
+$$
+f\left(x_{1}\right)=f\left(x_{2}\right) \Rightarrow x_{1}=x_{2}
+$$
+for all elements $x_{1}, x_{2} \in A$
 ### Bijective
 If $f$ is total, surjective, and injective. In particular, each element of $B$ is mapped to exactly once.
