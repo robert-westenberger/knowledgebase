@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T19:24:24.378Z
+date: 2021-03-04T19:29:39.103Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -131,3 +131,6 @@ If $f$ is total, surjective, and injective. In particular, each element of $B$ i
 
 "$f$ is bijective" means that every point in the $A$ column has exactly one arrow out of it, and every point in the $B$ column has exactly one arrow into it.
 If $A$ is a finite set, we let $|A|$ be the number of elements in $A$. If $f : A \rarr B$ is bijective, then $|A| =|B|$.
+
+
+## Relational Images
