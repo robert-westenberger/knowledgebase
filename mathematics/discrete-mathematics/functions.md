@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T19:22:58.843Z
+date: 2021-03-04T19:24:24.378Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -95,6 +95,8 @@ It is common to use "$a \medspace R \medspace b$" to mean the pair $(a, b)$ is i
 ## Types Binary Relations
 (Diagrams of two example functions)![diagrams_of_two_functions.png](/diagrams_of_two_functions.png)
 
+(Left is total and surjective, but not injective)
+(Right is total and injective but not surjective)
 (If $f$ is a function, it means that every point in the domain column, $A$, has at most one arrow out of it. (If more than one arrow comes out of the first column, then it would be a relation not a function). 
 
 
