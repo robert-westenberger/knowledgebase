@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T18:48:48.012Z
+date: 2021-03-05T18:58:42.342Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -18,4 +18,6 @@ $$
 $$
 note how it only applies to sets with nonnegative integers.
 
+
+## WOP to prove $\sqrt 2$ is irrational
 # Well Ordering Proofs
