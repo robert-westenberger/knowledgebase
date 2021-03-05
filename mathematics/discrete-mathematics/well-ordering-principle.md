@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T19:31:49.066Z
+date: 2021-03-05T19:34:47.463Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -55,7 +55,7 @@ Standard way to prove that $P(n)$ holds for every nonnegative integer $n$ ( "$P(
 * Define the set $C$ of counterexamples to $P$ being true. Specifically, define
 
 $$
-C:=\{n \in \mathbb{N} \mid \operatorname{NOT}(P(n)) \text { is true }\}
+C\Coloneqq\{n \in \mathbb{N} \mid \operatorname{NOT}(P(n)) \text { is true }\}
 $$
-
+(The notation $\{n \mid Q(n)\}$ means that "the set if all elements $n$ for which $Q(n)$ is true.")
 
