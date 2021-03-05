@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T19:34:47.463Z
+date: 2021-03-05T19:36:14.485Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -59,3 +59,10 @@ C\Coloneqq\{n \in \mathbb{N} \mid \operatorname{NOT}(P(n)) \text { is true }\}
 $$
 (The notation $\{n \mid Q(n)\}$ means that "the set if all elements $n$ for which $Q(n)$ is true.")
 
+* Assume for proof by contradiction that $C$ is nonempty.
+
+* By WOP, there will be a smallest element $n$ in $C$. 
+
+* Reach a contradiction somehow - often by showing that $P(n)$ is actually true or by showing that there is another member of $C$ that is smaller than $n$. This is the open ended part of the proof task.
+
+* Conclude that $C$ must be empty, that is, no counterexamples exist.
