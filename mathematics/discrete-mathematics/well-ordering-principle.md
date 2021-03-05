@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T19:13:13.429Z
+date: 2021-03-05T19:15:28.377Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -40,4 +40,11 @@ This means that $m_0$ and $n_0$ must have a common prime factor, $p \gt 1$, but
 $$
 \frac{m_{0} / p}{n_{0} / p}=\frac{m_{0}}{n_{0}}
 $$
+
+so any way of expressing the left-hand fraction in lowest terms would also work for $m_{0} / n_{0}$, which implies
+$$
+\text { the fraction } \frac{m_{0} / p}{n_{0} / p} \text { cannot be in written in lowest terms either. }
+$$
+
+So by definition of $C$, the numerator $m_{0} / p$ is in $C$. But 
 # Well Ordering Proofs
