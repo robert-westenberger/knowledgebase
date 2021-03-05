@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-03-02T17:01:12.192Z
+date: 2021-03-05T17:58:33.745Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -22,7 +22,7 @@ Resources used
 Logical Formulas
 Truth tables
 Types of Proofs
-Well ordering Principle
+[Well Ordering Principle](/mathematics/discrete-mathematics/well-ordering-principle)
 Deduction
 Induction
 State machines
