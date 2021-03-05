@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T18:58:42.342Z
+date: 2021-03-05T19:09:29.512Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -19,5 +19,10 @@ $$
 note how it only applies to sets with nonnegative integers.
 
 
-## WOP to prove $\sqrt 2$ is irrational
+## Using WOP to prove $\sqrt 2$ is irrational
+By the WOP, we can assume that for any positive integers $m$ and $n$,  the fraction $m/n$ can be written in lowest terms.. in the form $m^{\prime} / n^{\prime}$ where $m^{\prime}$ and $n^{\prime}$ are positive integers with no common prime factors. How do we know this is possible?
+
+Suppose to the contrary that there are positive integers $m$ and $n$ such that the fraction $m/n$ cannot be written in lowest terms. 
+
+Let $C = \{ \text{positive integers that are numerators of such fractions} \}$.
 # Well Ordering Proofs
