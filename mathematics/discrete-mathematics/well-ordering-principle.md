@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T19:15:28.377Z
+date: 2021-03-05T19:16:01.096Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -46,5 +46,5 @@ $$
 \text { the fraction } \frac{m_{0} / p}{n_{0} / p} \text { cannot be in written in lowest terms either. }
 $$
 
-So by definition of $C$, the numerator $m_{0} / p$ is in $C$. But 
+So by definition of $C$, the numerator $m_{0} / p$ is in $C$. But $m_{0} / p<m_{0}$m which contradicts the fact that $m_0$ is the smallest element of $C$.
 # Well Ordering Proofs
