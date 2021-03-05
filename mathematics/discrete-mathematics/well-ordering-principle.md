@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T19:25:08.723Z
+date: 2021-03-05T19:30:03.659Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,3 +50,5 @@ So by definition of $C$, the numerator $m_{0} / p$ is in $C$. But $m_{0} / p<m_{
 
 Since the assumption that $C$ is nonempty leads to a contradiction, it follows that $C$ must be empty. That is, there are no numerators of fractions that can't be written in lowest terms, and hence there are no such fractions at all.
 # Template Well Ordering Proofs
+Standard way to prove that $P(n)$ holds for every nonnegative integer $n$.
+
