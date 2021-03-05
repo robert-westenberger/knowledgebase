@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-03-05T17:58:33.745Z
+date: 2021-03-05T17:58:58.812Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -21,7 +21,7 @@ Resources used
 [Predicate Logic](/mathematics/discrete-mathematics/predicate-logic)
 Logical Formulas
 Truth tables
-Types of Proofs
+[Types of Proofs](/mathematics/discrete-mathematics/types-of-proofs)
 [Well Ordering Principle](/mathematics/discrete-mathematics/well-ordering-principle)
 Deduction
 Induction
