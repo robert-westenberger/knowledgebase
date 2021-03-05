@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-05T17:33:30.380Z
+date: 2021-03-05T17:57:33.212Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -58,6 +58,7 @@ Things to remember
 4. While  𝑓(𝑥)  is an element in the codomain,  𝑓(𝐶)  is a subset of the codomain.
 5. Perhaps, the most important thing to remember is:
 If $y \in f(C)$, then $y \in B$, and then there exists an $x \in C$ such that $f(x) = y$.
+
 
 ### Examples
 #### Example 1
