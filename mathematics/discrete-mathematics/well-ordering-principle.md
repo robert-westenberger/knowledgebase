@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T19:09:29.512Z
+date: 2021-03-05T19:13:13.429Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -25,4 +25,19 @@ By the WOP, we can assume that for any positive integers $m$ and $n$,  the fract
 Suppose to the contrary that there are positive integers $m$ and $n$ such that the fraction $m/n$ cannot be written in lowest terms. 
 
 Let $C = \{ \text{positive integers that are numerators of such fractions} \}$.
+
+Then $m \in C$ so $C$ is nonempty.
+
+By WOP, there must be a smallest integer $m_0 \in C$.
+
+By definition of $C$, there is an integer $n_0 \gt 0$ such that 
+$$
+\text { the fraction } \frac{m_{0}}{n_{0}} \text { cannot be written in lowest terms. }
+$$
+
+This means that $m_0$ and $n_0$ must have a common prime factor, $p \gt 1$, but
+
+$$
+\frac{m_{0} / p}{n_{0} / p}=\frac{m_{0}}{n_{0}}
+$$
 # Well Ordering Proofs
