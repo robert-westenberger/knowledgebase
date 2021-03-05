@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-03-04T19:42:45.273Z
+date: 2021-03-05T17:33:30.380Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -73,7 +73,21 @@ $$g(n)=n+3$$
 
 we find the range of $g$ is $\mathbb Z$, and $g(\mathbb{N})=\{4,5,6, \ldots\}$. The function $g$ is both one-to-one and onto. 
 
+#### Example 3
+Consider the function $f:\{1,2,3,4,5,6\} \rightarrow\{a, b, c, d\}$ given by
 
+$$
+f=\left(\begin{array}{llllll}
+1 & 2 & 3 & 4 & 5 & 6 \\
+a & a & b & b & b & c
+\end{array}\right)
+$$
+Find $f(\{1,2,3\}), f^{-1}(\{a, b\})$ and $f^{-1}(d)$
+
+##### Solution
+$f(\{1,2,3\})=\{a, b\}$ since $a$ and $b$ are the elements in the codomain to which $f$ sends 1 and 2.
+$f^{-1}(\{a, b\})=\{1,2,3,4,5\}$ since these are exactly the elements that $f$ sends to $a$ and $b$.
+$f^{-1}(d)=\emptyset$ since $d$ is not in the range of $f$.
 ## Function Composition
 Composing functions $f$ and $f$ means that $f$ is applied to some argument, $x$, to produce $f(x)$, and then $g$ is applied to that result to produce $g(f(x))$. 
 
