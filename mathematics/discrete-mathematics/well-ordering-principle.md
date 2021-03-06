@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-06T23:46:06.723Z
+date: 2021-03-06T23:59:27.978Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -91,13 +91,13 @@ By WOP, $C$ has a minimum element which is the smallest counterexample, $c$.
 
 Since $c$ is the smallest counterexample, we know that our theorem is false for $n=c$ but true for all nonegative integers $n \lt c$. But our theorem is true for $n=0$, so $c \gt 0$. This means that $c-1$ is a nonnegative integer, and since it it less than $c$, our theorem is true for $c-1$. That is, 
 $$
-1+2+3+\cdots+(c-1)=\frac{(c-1) c}{2}
+1+2+3+\cdots+(c-1)=\frac{c(c-1)}{2}
 $$
 
 Adding $c$ to both sides, we get 
 
 $$
-1+2+3+\cdots+(c-1)+c=\frac{(c-1) c}{2}+c=\frac{c^{2}-c+2 c}{2}=\frac{c(c+1)}{2}
+1+2+3+\cdots+(c-1)+c=\frac{c(c-1)}{2}+c=\frac{c^{2}-c+2 c}{2}=\frac{c(c+1)}{2}
 $$
 
 which means that our theorem does hold for $c$ afer all. This is a contradiction, and we are done. 
