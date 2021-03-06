@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-05T19:36:14.485Z
+date: 2021-03-06T23:34:13.786Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -66,3 +66,19 @@ $$
 * Reach a contradiction somehow - often by showing that $P(n)$ is actually true or by showing that there is another member of $C$ that is smaller than $n$. This is the open ended part of the proof task.
 
 * Conclude that $C$ must be empty, that is, no counterexamples exist.
+
+
+## WOP Proofs Examples
+### Example
+**Theorem:**
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)} 2
+$$
+for all nonnegative integers $n$.
+
+**Proof:**
+By contradiction. Assume the theorem is false. Then, some nonnegative integers serve as counterexamples ot it. Collected in a set:
+
+$$
+C::=\left\{n \in \mathbb{N} \mid 1+2+3+\cdots+n \neq \frac{n(n+1)}{2}\right\}
+$$
