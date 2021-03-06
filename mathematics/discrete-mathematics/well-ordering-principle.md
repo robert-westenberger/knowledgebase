@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-06T23:34:13.786Z
+date: 2021-03-06T23:40:40.452Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -82,3 +82,10 @@ By contradiction. Assume the theorem is false. Then, some nonnegative integers s
 $$
 C::=\left\{n \in \mathbb{N} \mid 1+2+3+\cdots+n \neq \frac{n(n+1)}{2}\right\}
 $$
+
+(set C is defined as the set of natural numbers $n$ that when added up don't equal $\frac{n(n+1)} 2$. 
+
+Assuming there are counter examples, $C$ is a nonempty set of nonnegative integers. 
+
+By WOP, $C$ has a minimum element which is the smallest counterexample, $c$. 
+
