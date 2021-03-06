@@ -2,7 +2,7 @@
 title: Sigma Notation
 description: 
 published: true
-date: 2021-03-06T23:18:55.481Z
+date: 2021-03-06T23:21:06.272Z
 tags: mathematics
 editor: markdown
 ---
@@ -22,3 +22,9 @@ $$
 * The index, $i$, is incremented by one for each successive term, stopping whne $i=n$.
 
 The above summation is read, "sum to $a_i$, from $i=m$ to $n$".
+
+Depending on the context, the upper and lower bounds may be excluded. This applies particularly when the index runs from $1$ to $n$.
+
+$$
+\sum a_{i}^{2}=\sum_{i=1}^{n} a_{i}^{2}
+$$
