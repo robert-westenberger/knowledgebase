@@ -2,7 +2,7 @@
 title: Sigma Notation
 description: 
 published: true
-date: 2021-03-06T23:21:06.272Z
+date: 2021-03-06T23:25:37.190Z
 tags: mathematics
 editor: markdown
 ---
@@ -28,3 +28,11 @@ Depending on the context, the upper and lower bounds may be excluded. This appli
 $$
 \sum a_{i}^{2}=\sum_{i=1}^{n} a_{i}^{2}
 $$
+
+
+Both below are equal (both sum integers from 1 to n)
+
+$$
+\sum_{i=1}^{n} i \quad \text { or } \quad \sum_{1 \leq i \leq n} i
+$$
+
