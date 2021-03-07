@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T00:14:36.921Z
+date: 2021-03-07T00:19:07.377Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -80,6 +80,8 @@ Every integer greater than one has a unique^1^ expression as a product of prime 
 **Proof:** This proof is by WOP.
 
 Let $C$ be the set of all integers greater than one that can't be factored as a product of primes. We assume $C$ is not empty and derive a contradiction.
+
+If $C$ is not empty, there is a least element $n \in C$ by WOP.
 ## Other WOP Proofs Examples
 ### Example
 **Theorem:**
