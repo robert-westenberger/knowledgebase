@@ -2,12 +2,12 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-07T02:50:35.061Z
+date: 2021-03-07T02:50:47.933Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
 
-# Propositional Logic Problems and Examples
+# Problems 1
 
 
 ### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 1
