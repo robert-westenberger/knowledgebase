@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:15:40.791Z
+date: 2021-03-07T02:18:16.940Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -124,7 +124,14 @@ $$\hspace{32em} \blacksquare$$
 **Theorem:** Any nonempty set of integers with an upper bound has a maximum
 element.
 **Proof:**
-Suppose a set of $S$ integers has an upper bound $b \in \reals$.
+Suppose a set of $S$ integers has an upper bound $b \in \reals$. 
+
+Multiply each element of $S$ by $-1$; lets call this new set of elements $-S$. 
+
+$-b$ is a lower bound of $-S$.
+
+So $-S$ has a minimum element $-m$ by corollary 1. Then it is easy to see that $m$ is the maximum element of $S$.
+$$\hspace{32em} \blacksquare$$
 ### Example
 **Theorem:**
 $$
