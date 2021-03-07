@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:18:51.829Z
+date: 2021-03-07T02:20:26.786Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -135,6 +135,11 @@ Multiply each element of $S$ by $-1$; lets call this new set of elements $-S$.
 $-b$ is a lower bound of $-S$.
 
 So $-S$ has a minimum element $-m$ by corollary 1. Then it is easy to see that $m$ is the maximum element of $S$.
+$$\hspace{32em} \blacksquare$$
+### Example (Lemma 1)
+**Theorem:** Every nonempty finite set of real numbers is well ordered.
+**Proof:**
+
 $$\hspace{32em} \blacksquare$$
 ### Example
 **Theorem:**
