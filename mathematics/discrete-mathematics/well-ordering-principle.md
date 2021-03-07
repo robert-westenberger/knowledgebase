@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:01:44.702Z
+date: 2021-03-07T02:05:11.099Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -98,7 +98,10 @@ Notice that a set may have a minimum element but not be well ordered. The set of
 
 The following theorem is a generalization of the WOP: "For any nonnegative integer $n$ the set of integers greater than or equal to $-n$ is well ordered." (Proven in example section below)
 
+The definition of well ordering states that every subset of a well ordered set is well ordered, and this yields two convenient corollaries to the generalized theorem above: 
 
+1)	A lower bound for a set $S$ of real numbers is a number $b$ such that $b \leq s$ for every $s \in S$.
+	A upper bound for a set $S$ of real numbers is a number $b$ such that $b \geq s$ for every $s \in S$.
 
 ## Other WOP Proofs Examples
 ### Example (Tiny generalization of WOP)
