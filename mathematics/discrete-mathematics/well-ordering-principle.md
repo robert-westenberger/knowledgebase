@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T01:58:06.848Z
+date: 2021-03-07T02:01:44.702Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -95,6 +95,11 @@ $$\hspace{32em} \blacksquare$$
 Well ordering cokmmonly comes up in computer science as a method for proving that computations won't run forever. The idea is to assign a value to each successive step of a computation so that the values get smaller at every step. If the values are all from a well ordered set, then the computation can't run forever, because if it did, the values assigned to its successive steps would define a subset with no minimum element.
 
 Notice that a set may have a minimum element but not be well ordered. The set of nonnegative rational numbers is an example: is has a minimum element zero, but it also has nonempty subsets that don't have minimum elements - the positive rationals, for example. 
+
+The following theorem is a generalization of the WOP: "For any nonnegative integer $n$ the set of integers greater than or equal to $-n$ is well ordered." (Proven in example section below)
+
+
+
 ## Other WOP Proofs Examples
 ### Example (Tiny generalization of WOP)
 **Theorem:**
