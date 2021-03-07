@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T01:21:56.756Z
+date: 2021-03-07T01:29:58.648Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -83,7 +83,14 @@ Let $C$ be the set of all integers greater than one that can't be factored as a 
 
 If $C$ is not empty, there is a least element $n \in C$ by WOP. This $n$ can't be prime, because a prime by itself is considered a product of primes, and no such products are in $C$.
 
-So $n$ must be a product of two integers $a$ and $b$ where $a \gt 1$ and $b \lt n$
+So $n$ must be a product of two integers $a$ and $b$ where $a \gt 1$ and $b \lt n$. 
+
+Since $a$ and $b$ are smaller than the smallest element in $C$, we know that $a,b \notin C$. 
+
+In other words, $a$ can be written as a product of primes $p_{1} p_{2} \cdots p_{k}$ and $b$ as a product of primes $q_{1} \cdots q_{l}$. 
+
+Therefore, $n=p_{1} \cdots p_{k} q_{1} \cdots q_{l}$ can be written as a product of primes, contradicting the claim that $n \in C$. Our assumption that $C$ is not empty must therefore be false.
+$$\hspace{32em} \blacksquare$$
 ## Other WOP Proofs Examples
 ### Example
 **Theorem:**
