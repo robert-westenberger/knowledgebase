@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T00:01:48.895Z
+date: 2021-03-07T00:03:04.951Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -70,7 +70,7 @@ $$
 ## Factoring into Primes
 
 
-## WOP Proofs Examples
+## Other WOP Proofs Examples
 ### Example
 **Theorem:**
 $$
