@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-06T23:59:27.978Z
+date: 2021-03-07T00:01:48.895Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -66,6 +66,8 @@ $$
 * Reach a contradiction somehow - often by showing that $P(n)$ is actually true or by showing that there is another member of $C$ that is smaller than $n$. This is the open ended part of the proof task.
 
 * Conclude that $C$ must be empty, that is, no counterexamples exist.
+
+## Factoring into Primes
 
 
 ## WOP Proofs Examples
