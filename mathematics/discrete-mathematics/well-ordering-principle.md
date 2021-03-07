@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T01:45:49.297Z
+date: 2021-03-07T01:48:16.168Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -96,6 +96,10 @@ Well ordering cokmmonly comes up in computer science as a method for proving tha
 
 Notice that a set may have a minimum element but not be well ordered. The set of nonnegative rational numbers is an example: is has a minimum element zero, but it also has nonempty subsets that don't have minimum elements - the positive rationals, for example. 
 ## Other WOP Proofs Examples
+### Example (Tiny generalization of WOP)
+**Theorem:**
+For any nonnegative integer n the set of integers greater than or equal to 􏰌n is well ordered.
+**Proof:**
 ### Example
 **Theorem:**
 $$
