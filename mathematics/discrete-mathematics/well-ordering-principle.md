@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:07:21.515Z
+date: 2021-03-07T02:12:23.798Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -114,6 +114,17 @@ For any nonnegative integer $n$ the set of integers greater than or equal to $-n
 **Proof:**
 Let $S$ be any nonempty set of integers $\ge -n$. Now add $n$ to each of the elements in $S$; lets call this new set $S + n$. Now $S + n$ is a nonempty set of nonnegative integers, and so by WOP, it has a minimum element $m$. Then it is easy to see $m-n$ is the minimum element of $S$.
 $$\hspace{32em} \blacksquare$$
+
+### Example (Corollary 1)
+**Theorem:** Any set of integers with a lower bound is well ordered.
+**Proof:** 
+A set of integers with a lower bound $b \in \reals$ will also have an integer $n=\lfloor b\rfloor$ as a lower bound, where $\lfloor b\rfloor$, called the floor of $b$, is gotten by rounded down $b$ to the nearest integer. So the theorem "For any nonnegative integer $n$ the set of integers greater than or equal to $-n$ is well ordered." implies the set is well ordered.
+$$\hspace{32em} \blacksquare$$
+### Example (Corollary 2)
+**Theorem:** Any nonempty set of integers with an upper bound has a maximum
+element.
+**Proof:**
+
 ### Example
 **Theorem:**
 $$
