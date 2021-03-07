@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:20:26.786Z
+date: 2021-03-07T02:22:13.932Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -139,7 +139,7 @@ $$\hspace{32em} \blacksquare$$
 ### Example (Lemma 1)
 **Theorem:** Every nonempty finite set of real numbers is well ordered.
 **Proof:**
-
+Since 
 $$\hspace{32em} \blacksquare$$
 ### Example
 **Theorem:**
