@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T01:48:16.168Z
+date: 2021-03-07T01:56:16.812Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -98,8 +98,9 @@ Notice that a set may have a minimum element but not be well ordered. The set of
 ## Other WOP Proofs Examples
 ### Example (Tiny generalization of WOP)
 **Theorem:**
-For any nonnegative integer n the set of integers greater than or equal to 􏰌n is well ordered.
+For any nonnegative integer $n$ the set of integers greater than or equal to $-n$ is well ordered.
 **Proof:**
+Let $S$ be any nonempty set of integers $\ge -n$. Now add $n$ to each s
 ### Example
 **Theorem:**
 $$
