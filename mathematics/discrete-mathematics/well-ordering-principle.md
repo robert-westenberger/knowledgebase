@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T01:39:23.511Z
+date: 2021-03-07T01:42:35.318Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -91,7 +91,8 @@ In other words, $a$ can be written as a product of primes $p_{1} p_{2} \cdots p_
 
 Therefore, $n=p_{1} \cdots p_{k} q_{1} \cdots q_{l}$ can be written as a product of primes, contradicting the claim that $n \in C$. Our assumption that $C$ is not empty must therefore be false.
 $$\hspace{32em} \blacksquare$$
-
+## Well Ordered Sets
+Well ordering cokmmonly comes up in computer science as a method for proving that computations won't run forever. The idea is to assign a value to each successive step of a computation so that the values get smaller at every step.
 ## Other WOP Proofs Examples
 ### Example
 **Theorem:**
