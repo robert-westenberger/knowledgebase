@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:06:40.908Z
+date: 2021-03-07T02:07:21.515Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -105,7 +105,8 @@ A lower bound for a set $S$ of real numbers is a number $b$ such that $b \leq s$
 A upper bound for a set $S$ of real numbers is a number $b$ such that $b \geq s$ for every $s \in S$.
 (Note that a lower or upper bound of set $S$ is not required to be in the set)
 
-**Corollary 1:**
+**Corollary 1:** Any set of integers with a lower bound is well ordered.
+**Corollary 2:** Any nonempty set of integers with an upper bound has a maximum element.
 ## Other WOP Proofs Examples
 ### Example (Tiny generalization of WOP)
 **Theorem:**
