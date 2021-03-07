@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T00:07:35.806Z
+date: 2021-03-07T00:13:33.966Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -77,7 +77,9 @@ Every integer greater than one has a unique^1^ expression as a product of prime 
 #### Proof of Prime Factorization Theorem
 **Theorem:** Every positive integer greater than one can be factored as a product of primes. 
 
-**Proof:** 
+**Proof:** This proof is by WOP.
+
+
 ## Other WOP Proofs Examples
 ### Example
 **Theorem:**
