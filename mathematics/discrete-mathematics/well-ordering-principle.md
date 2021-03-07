@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T00:04:57.470Z
+date: 2021-03-07T00:07:35.806Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -69,8 +69,15 @@ $$
 
 ## Factoring into Primes
 ### Prime Factorization Theorem / Unique Factorization Theorem / Fundamental Theorem of Arithmetic
-### 
+Every integer greater than one has a unique^1^ expression as a product of prime numbers.
 
+^1^ - Unique up to the order in which the prime factors appear.
+
+
+#### Proof of Prime Factorization Theorem
+**Theorem:** Every positive integer greater than one can be factored as a product of primes. 
+
+**Proof:** 
 ## Other WOP Proofs Examples
 ### Example
 **Theorem:**
