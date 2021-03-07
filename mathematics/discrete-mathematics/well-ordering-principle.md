@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:32:27.039Z
+date: 2021-03-07T02:39:44.488Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -144,6 +144,12 @@ Since subsets of finite sets are finite, it is sufficient to prove that every fi
 We prove this using the WOP on the size of finite sets. 
 
 Let $C$ be the set of positive integers $n$ such that some set of size $n$ has no minimum element. Assume for the sake of contradiction that $C$ is nonempty. By WOP, there is a minimum integer $m \in C$. 
+
+Every set if size one obviously has a minimum element, so $m \geq 2$. 
+
+Let $F$ be a set of $m$ real numbers. We will reach a contradiction by showing that $F$ has a minimum element. 
+
+Let $r_0$ be an element of $F$. Since $m \geq 2$, removing $r_0$ from $F$ leaves a nonempty set $F^{\prime}$ smaller than $m$. Since $m$ is the smallest element of $C$, we know that $F^{\prime}$ has a minimum element of $r_1$. But tghat means the smaller of $r_0$ and $r_1$ is the minimum element of $F$. 
 $$\hspace{32em} \blacksquare$$
 ### Example
 **Theorem:**
