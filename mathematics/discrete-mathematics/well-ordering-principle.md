@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:22:13.932Z
+date: 2021-03-07T02:32:27.039Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -139,7 +139,11 @@ $$\hspace{32em} \blacksquare$$
 ### Example (Lemma 1)
 **Theorem:** Every nonempty finite set of real numbers is well ordered.
 **Proof:**
-Since 
+Since subsets of finite sets are finite, it is sufficient to prove that every finite set has a minimum element.
+
+We prove this using the WOP on the size of finite sets. 
+
+Let $C$ be the set of positive integers $n$ such that some set of size $n$ has no minimum element. Assume for the sake of contradiction that $C$ is nonempty. By WOP, there is a minimum integer $m \in C$. 
 $$\hspace{32em} \blacksquare$$
 ### Example
 **Theorem:**
