@@ -1,8 +1,8 @@
 ---
-title: Propositional Logic Problems and Examples
+title: Problems 1
 description: 
 published: true
-date: 2021-02-27T23:00:55.354Z
+date: 2021-03-07T02:50:35.061Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
