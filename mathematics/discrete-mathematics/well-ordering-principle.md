@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T02:12:23.798Z
+date: 2021-03-07T02:15:40.791Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -124,7 +124,7 @@ $$\hspace{32em} \blacksquare$$
 **Theorem:** Any nonempty set of integers with an upper bound has a maximum
 element.
 **Proof:**
-
+Suppose a set of $S$ integers has an upper bound $b \in \reals$.
 ### Example
 **Theorem:**
 $$
