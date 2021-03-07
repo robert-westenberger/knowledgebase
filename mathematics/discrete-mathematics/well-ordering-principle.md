@@ -2,7 +2,7 @@
 title: Well Ordering Principle
 description: 
 published: true
-date: 2021-03-07T01:56:16.812Z
+date: 2021-03-07T01:58:06.848Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -100,7 +100,8 @@ Notice that a set may have a minimum element but not be well ordered. The set of
 **Theorem:**
 For any nonnegative integer $n$ the set of integers greater than or equal to $-n$ is well ordered.
 **Proof:**
-Let $S$ be any nonempty set of integers $\ge -n$. Now add $n$ to each s
+Let $S$ be any nonempty set of integers $\ge -n$. Now add $n$ to each of the elements in $S$; lets call this new set $S + n$. Now $S + n$ is a nonempty set of nonnegative integers, and so by WOP, it has a minimum element $m$. Then it is easy to see $m-n$ is the minimum element of $S$.
+$$\hspace{32em} \blacksquare$$
 ### Example
 **Theorem:**
 $$
