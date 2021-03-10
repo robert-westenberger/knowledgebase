@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:59:47.139Z
+date: 2021-03-10T02:04:49.340Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -147,3 +147,8 @@ $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$ We can define $n \
 $$
 \forall n .((n>2 \wedge \exists k . n=2 k) \longrightarrow \exists p \exists q . \text { IS-PRIME }(p) \wedge \text { IS-PRIME }(q) \wedge(n=p+q)))
 $$
+
+
+g) (Bertrand’s Postulate) If $n > 1$, then there is always at least one prime $p$ such that $n < p < 2n$.
+
+$$\forall n. \medspace n \gt 1 \longrightarrow \exists p. \medspace n \lt p \lt 2n$$
