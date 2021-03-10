@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:31:21.416Z
+date: 2021-03-10T01:48:50.617Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -123,10 +123,12 @@ e) There is no largest prime number.
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$  $\neg(\exists p .$ IS-PRIME $(p) \wedge(\forall q .$ IS-PRIME $(q) \longrightarrow p \geq q))$
 "There does not exist a prime number $p$ and for all numbers $q$, if $q$ is prime then p is greater than $q$."
 
-f) We can express $n > 2$
+f) (Goldbach Conjecture) Every even natural number $n>2$  can be expressed as the sum of two primes.
 
-$$
-\text {Is-Greater-Than-Two}(n)::= (n \ne 0) \wedge 
-$$
+Define a proposition Is-Two(n) using the fact that two is the only number that Is-Prime and Is-Even (we can use this proposition since its in the question description)
 
-$$n\forall n$$
+$$\text {Is-Two}(n)::= \text {Is-Prime}(n) \wedge \text {Is-Even}(n) $$
+
+Using the n > 1 and Is-Two estalished above...
+
+$$\text {Is-Greater-Than-Two}(n)::= (n > 1) \medspace \wedge \medspace \neg (\text {Is-Two}(n))$$
