@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:52:27.746Z
+date: 2021-03-10T01:53:01.852Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -133,6 +133,6 @@ Using the n > 1 and Is-Two estalished above...
 
 $$\text {Is-Greater-Than-Two}(n)::= (n > 1) \medspace \wedge \medspace \neg (\text {Is-Two}(n))$$
 
-$$\text {Is-Sum-of-Primes}(n)::= \exists x \exists y. \medspace \text{IS-PRIME}(x) \wedge  \text{IS-PRIME}(y) \wedge x \not = y \medspace \wedge x \cdot y = n  $$
+$$\text {Is-Sum-of-Primes}(n)::= \exists x \exists y. \medspace \text{IS-PRIME}(x) \wedge  \text{IS-PRIME}(y) \wedge x \not = y \medspace \wedge x + y = n $$
 
 $$\forall n. \medspace \text {Is-Greater-Than-Two}(n) \wedge $$
