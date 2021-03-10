@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T03:12:08.543Z
+date: 2021-03-10T06:31:46.661Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -158,4 +158,9 @@ $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$$\forall n .((n>1) 
 ### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 4
 If a set, $A$, is finite, then $|A|<2^{|A|}=|\mathcal{P}(A)|$, and so there is no surjection from set $A$ to its powerset. Show that this is still true if $A$ is infinite. Hint: Remember Russel's paradox and consider $\{x \in A \mid x \notin f(x)\}$ where $f$ is such a surjection.
 
-#### Solution 
+#### Solution
+**Scratch:** Proving by contradiction. 
+
+Suppose there was a surjective function $f$ that maps a set $A$ to its powerset $P(A)$.
+
+Let $W$ be the set of $x$ in $A$ that are not mapped with the function $f$. 
