@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T00:59:01.295Z
+date: 2021-03-10T01:04:02.084Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -107,10 +107,13 @@ Note that we’ve used “$w \ne 0$” in this formula, even though it’s techn
 a) $\exists m=(m \cdot m=d)\wedge (d+d+d=n)$
 b) A unique property of one is that multiplying one by itself is idempotent. Adding one to itself is not. Also, squaring one equals itself. Any number greater than one, when we square it, will be greater than the value we squared.
 $$\exists x .(x \ne 0) \wedge (x^x - x \ne 0)$$
+$\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$ We define $x=1$ as $\forall y . \medspace x y=y$ and then express $x \gt 1$ as $\exists y \cdot(y=1) \wedge(x>y)$
+
 c) If a number $n$ is prime, it is greater than 0 and there are no numbers $y$ and $z$ that add to it.
+$$\exists n.(n \ne 0) \wedge \neg(y + z =n)$$
 
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$ IS-PRIME $(n)::=(n>1) \wedge \neg(\exists x \exists y .(x>1) \wedge(y>1) \wedge(x \cdot y=n))$
-$$\exists n.(n \ne 0) \wedge \neg(y + z =n)$$
+
 d) n is a product of two numbers, which themselves are numbers for which there does not exist two numbers that add up to them. 
 $$\exists n. (m * z = n) \wedge \forall $$
 
