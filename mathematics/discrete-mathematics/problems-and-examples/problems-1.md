@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:07:44.609Z
+date: 2021-03-10T01:12:19.584Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -116,5 +116,5 @@ $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$ IS-PRIME $(n)::=(n
 
 d) n is a product of two numbers, which themselves are numbers for which there does not exist two numbers that add up to them. 
 
-$$\text {Is-Product-of-Primes}(n)::=(n>1) \wedge \neg(\exists x \exists y .(x>1) \wedge(y>1) \wedge(x \cdot y=n))$$
+$$\text {Is-Product-of-Primes}(n)::= \exists x \exists y. \medspace \text{IS-PRIME}(x) \wedge  \text{IS-PRIME}(y) \wedge x \not = y \medspace \wedge x \cdot y = n  $$
 
