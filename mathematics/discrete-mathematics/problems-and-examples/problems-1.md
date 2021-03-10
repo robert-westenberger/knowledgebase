@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:18:39.087Z
+date: 2021-03-10T01:20:10.311Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -122,3 +122,19 @@ e) There is no largest prime number.
 
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$  $\neg(\exists p .$ IS-PRIME $(p) \wedge(\forall q .$ IS-PRIME $(q) \longrightarrow p \geq q))$
 "There does not exist a prime number $p$ and for all numbers $q$, if $q$ is prime then p is greater than $q$."
+
+f) 
+Let Ev be the set of even integers greater than 2, and let Primes be the set of primes. Then we can write Goldbach’s Conjecture in logic notation as follows:
+
+
+$$
+\underbrace{\forall n \in \text { Ev }}_{\begin{array}{c}
+\text { for every even } \\
+\text { integer } n \geq 2
+\end{array}} 
+\underbrace{\exists p \in \text { Primes } \exists q \in \text { Primes. }}_{\begin{array}{c}
+\text { there exist primes } \\
+p \text { and } q \text { such that }
+\end{array}} 
+n=p+q
+$$
