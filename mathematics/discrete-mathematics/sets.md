@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-01T18:41:21.737Z
+date: 2021-03-10T03:32:42.256Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -67,6 +67,7 @@ $$
 B \in \operatorname{pow}(A) \quad \text { IFF } \quad B \subseteq A
 $$
 
+If $A$ and $B$ are sets, and $f:A \rarr B$ is a function, and $B$ is equal to $P(A)$, this means that $f$ is simply a function that each element of $A$ to some subset of $A$.
 ## Set Builder Notation
 Used to describe sets that cannot be listed by elements or taking unions, intersections, etc. 
 
