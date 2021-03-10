@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T02:07:25.085Z
+date: 2021-03-10T02:09:35.294Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -156,3 +156,4 @@ $$\forall n. \medspace n \gt 1 \longrightarrow \exists p. \text { IS-PRIME }(p) 
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$$\forall n .((n>1) \longrightarrow(\exists p .$ IS-PRIME $(p) \wedge(n<p) \wedge(p<2 n)))$
 
 ### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 4
+If a set, $A$, is finite, then $|A|<2^{|A|}=|\mathcal{P}(A)|$, and so there is no surjection from set $A$ to its powerset. Show that this is still true if $A$ is infinite. Hint: REmember Russel's paradox and consider $\{x \in A \mid x \notin f(x)\}$ where $f$ is such a surjection.
