@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:20:10.311Z
+date: 2021-03-10T01:31:21.416Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -107,7 +107,7 @@ Note that we’ve used “$w \ne 0$” in this formula, even though it’s techn
 a) $\exists m=(m \cdot m=d)\wedge (d+d+d=n)$
 b) A unique property of one is that multiplying one by itself is idempotent. Adding one to itself is not. Also, squaring one equals itself. Any number greater than one, when we square it, will be greater than the value we squared.
 $$\exists x .(x \ne 0) \wedge (x^x - x \ne 0)$$
-$\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$ We define $x=1$ as $\forall y . \medspace x y=y$ and then express $x \gt 1$ as $\exists y \cdot(y=1) \wedge(x>y)$
+$\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$ We define $x=1$ as $\forall y . \medspace x y=y$ and then express $x \gt 1$ as $\exists y . \medspace (y=1) \wedge(x>y)$
 
 c) If a number $n$ is prime, it is greater than 0 and there are no numbers $y$ and $z$ that add to it.
 $$\exists n.(n \ne 0) \wedge \neg(y + z =n)$$
@@ -123,18 +123,10 @@ e) There is no largest prime number.
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$  $\neg(\exists p .$ IS-PRIME $(p) \wedge(\forall q .$ IS-PRIME $(q) \longrightarrow p \geq q))$
 "There does not exist a prime number $p$ and for all numbers $q$, if $q$ is prime then p is greater than $q$."
 
-f) 
-Let Ev be the set of even integers greater than 2, and let Primes be the set of primes. Then we can write Goldbach’s Conjecture in logic notation as follows:
-
+f) We can express $n > 2$
 
 $$
-\underbrace{\forall n \in \text { Ev }}_{\begin{array}{c}
-\text { for every even } \\
-\text { integer } n \geq 2
-\end{array}} 
-\underbrace{\exists p \in \text { Primes } \exists q \in \text { Primes. }}_{\begin{array}{c}
-\text { there exist primes } \\
-p \text { and } q \text { such that }
-\end{array}} 
-n=p+q
+\text {Is-Greater-Than-Two}(n)::= (n \ne 0) \wedge 
 $$
+
+$$n\forall n$$
