@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T02:04:49.340Z
+date: 2021-03-10T02:06:52.731Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -151,4 +151,6 @@ $$
 
 g) (Bertrand’s Postulate) If $n > 1$, then there is always at least one prime $p$ such that $n < p < 2n$.
 
-$$\forall n. \medspace n \gt 1 \longrightarrow \exists p. \medspace n \lt p \lt 2n$$
+$$\forall n. \medspace n \gt 1 \longrightarrow \exists p. \text { IS-PRIME }(p) \wedge \medspace n \lt p \lt 2n$$
+
+$\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$$\forall n .((n>1) \longrightarrow(\exists p .$ IS-PRIME $(p) \wedge(n<p) \wedge(p<2 n)))$
