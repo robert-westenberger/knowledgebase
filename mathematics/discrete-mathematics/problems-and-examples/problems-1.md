@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:12:19.584Z
+date: 2021-03-10T01:18:39.087Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -118,3 +118,7 @@ d) n is a product of two numbers, which themselves are numbers for which there d
 
 $$\text {Is-Product-of-Primes}(n)::= \exists x \exists y. \medspace \text{IS-PRIME}(x) \wedge  \text{IS-PRIME}(y) \wedge x \not = y \medspace \wedge x \cdot y = n  $$
 
+e) There is no largest prime number.
+
+$\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$  $\neg(\exists p .$ IS-PRIME $(p) \wedge(\forall q .$ IS-PRIME $(q) \longrightarrow p \geq q))$
+"There does not exist a prime number $p$ and for all numbers $q$, if $q$ is prime then p is greater than $q$."
