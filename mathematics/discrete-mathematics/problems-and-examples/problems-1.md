@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T02:06:52.731Z
+date: 2021-03-10T02:07:25.085Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -154,3 +154,5 @@ g) (Bertrand’s Postulate) If $n > 1$, then there is always at least one prime 
 $$\forall n. \medspace n \gt 1 \longrightarrow \exists p. \text { IS-PRIME }(p) \wedge \medspace n \lt p \lt 2n$$
 
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$$\forall n .((n>1) \longrightarrow(\exists p .$ IS-PRIME $(p) \wedge(n<p) \wedge(p<2 n)))$
+
+### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 4
