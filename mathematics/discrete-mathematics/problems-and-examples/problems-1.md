@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T06:31:46.661Z
+date: 2021-03-10T07:33:52.165Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -163,4 +163,19 @@ If a set, $A$, is finite, then $|A|<2^{|A|}=|\mathcal{P}(A)|$, and so there is n
 
 Suppose there was a surjective function $f$ that maps a set $A$ to its powerset $P(A)$.
 
-Let $W$ be the set of $x$ in $A$ that are not mapped with the function $f$. 
+Let $W$ be the set of $x$ in $A$ that are not in the image of $f$. 
+
+So by definition we get the following biconditional for all $x$ in $A$.. if $x$ is in $W$ that means that $x$ isn't in the image of $f$ and if $x$ isn't in the image of $f$ that means its in $W$.
+
+We know that every element of $W$ is in $A$ by the definition of the subset of a set.
+
+This means that $W$ is also a member of $P(A)$ by the definition of a powerset (the powerset contains all subsets of its set, $W$ is a subset of $A$ so obviously it will be in the powerset as well).
+
+Since $f$ is a surjection from $A$ to $P(A)$, there exists some $a$ in $A$ whose image is $W$.
+
+So by our earlier biconditional we can replace $W$ with $f(a)$ and get 
+$$
+(x \in f(a)) \longleftrightarrow(x \notin f(x))
+$$
+Substituting $a$ for $x$ yields a contradiction, proving there cannot be such an $f$.
+
