@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T01:56:29.127Z
+date: 2021-03-10T01:59:47.139Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -137,6 +137,11 @@ $$\text {Is-Sum-of-Primes}(n)::= \exists x \exists y. \medspace \text{IS-PRIME}(
 
 $$\forall n. \medspace \text {Is-Greater-Than-Two}(n) \wedge \text {Is-Sum-of-Primes}(n)$$
 
+My answer is missing the actual implication part...
+
+$$
+\forall n \medspace \text {Is-Greater-Than-Two}(n) \longrightarrow  \text {Is-Sum-of-Primes}(n)
+$$
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$ We can define $n \gt 2$ with the formula $\exists y \cdot(y=1) \wedge(x>y+y)$. $n = 2k$ can be expressed as $n=k+k$. The conjecture can be expressed as:
 
 $$
