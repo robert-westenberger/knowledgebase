@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T20:31:29.797Z
+date: 2021-03-11T20:34:35.030Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -191,10 +191,3 @@ $$
 for all $x \in A$. Substituting $a$ for $x$ in $(2)$ yields a contradiction, proving there cannot be such an $f$.
 $$\hspace{32em} \blacksquare$$
 
-**Outline of a second proof:**
-Proving there is no surjection from a set to its powerset for infinite sets, if we know there is no surjection for sets to powersets for finite sets.
-(Assume a set $A$ with its powerset $P(A)$).
-
-Suppose another set $D$ exists which is made up of all the members of set $A$ that aren't mapped to the codomain ( a surjection ). This set $D$ is a member of the powerset, since its a subset of $A$. We can show that there exists no $a \in A$ that is equal to $D$. 
-
-If $a \in D$ then by definition of $D$, $a$ can't be in $f(a)$, since the element $a$ belongs to $D$ but not $f(a)$.
