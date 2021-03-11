@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T19:46:12.812Z
+date: 2021-03-11T20:01:00.670Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -179,4 +179,17 @@ $$
 $$
 Substituting $a$ for $x$ yields a contradiction, proving there cannot be such an $f$.
 
-Outline of proof:
+**Proof:** 
+Proof by contradiction. Suppose there was a surjection $f: A \rightarrow \mathcal{P}(A)$ for some set $A$. Let $W::=\{x \in A \mid x \notin f(x)\}$. So by definition
+$$
+(x \in W) \longleftrightarrow(x \notin f(x)) \hspace{6em} \text{(1)}
+$$
+for all $x \in A$. But $W \subseteq A$ by definition and hence is a member of $P(A$). This means that $W = f(a)$ for some $a \in A$, since $f$ is a surjection to $P(A)$. So we have from $(1)$ 
+$$
+(x \in f(a)) \longleftrightarrow(x \notin f(x))  \hspace{6em} \text{(2)}
+$$
+for all $x \in A$. Substituting $a$ for $x$ in $(2)$ yields a contradiction, proving there cannot be such an $f$.
+$$\hspace{32em} \blacksquare$$
+
+**Outline:**
+Proving there is no surjection for a set with an infinite amount of elements
