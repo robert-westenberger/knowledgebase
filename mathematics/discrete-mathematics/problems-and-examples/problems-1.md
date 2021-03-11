@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:19:47.213Z
+date: 2021-03-11T21:26:15.115Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -204,9 +204,10 @@ The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$
 
 Let $D$ be the domain for the variables and $P_0$, and $Q_0$ be some unary predicates on $D$.
 
+
 We need to show that if $\exists z . \lbrack P(z) \wedge Q(z)]$ holds, then so does $\lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)]$.
 
 So suppose $\exists z . \lbrack P(z) \wedge Q(z)]$. So some element $z_0 \in D$ has the property that $P_0 (z) \wedge Q_0 (z)$ is true. 
 
 
-
+Suppose $\lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)]$. There exists some $x_0 \in D$ that has the property $P_0(x)$ is true and there exists some $y_0 \in D$ that $Q_0(y)$ is true.
