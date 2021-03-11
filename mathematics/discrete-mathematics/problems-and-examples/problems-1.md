@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T20:48:53.495Z
+date: 2021-03-11T20:59:11.858Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -200,3 +200,6 @@ is valid.
 **(b)**  Prove that the converse of $(1)$ is not valid by describing a coutner model as in Week 2 Notes.
 #### Solution
 ##### Scratch 
+The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
+
+We need to show that if $\exists z . \lbrack P(z) \wedge Q(z)]$
