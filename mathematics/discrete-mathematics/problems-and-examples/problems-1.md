@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:36:23.159Z
+date: 2021-03-11T21:38:45.232Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -199,6 +199,7 @@ $$
 is valid. 
 **(b)**  Prove that the converse of $(1)$ is not valid by describing a counter model as in Week 2 Notes.
 #### Solution (From book)
+**(a)**
 Assume 
 $$
 \exists z . \medspace \lbrack P(z) \wedge Q(z)] \hspace{6em} \text{(2)}
@@ -211,6 +212,7 @@ $$
 \exists x . P(x) \wedge \exists y . Q(y) \hspace{6em} \text{(3)}
 $$
 holds. This shows that $(3)$ holds in any interpretation in which $(2)$ holds. Therefore, $(2)$ implies $(3)$ in all interpretations, that $(1)$ is valid. $\hspace{12em} \blacksquare$
+**(b)**
 ##### Scratch 
 The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
 
