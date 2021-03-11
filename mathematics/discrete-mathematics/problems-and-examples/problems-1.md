@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:29:22.401Z
+date: 2021-03-11T21:30:52.117Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -205,7 +205,7 @@ $$
 $$
 That is, $P(z) \wedge Q(z)$ holds for some element $z$ of the domain. Let $c$ be this element, that is, we have $P(c) \wedge Q(c)$.
 
-In particular, $P(c) holds by itself.
+In particular, $P(c)$ holds by itself. So we conclude (By Existential Generalization) $\exists x \medspace P(x)$. We conclude $\exists y \medspace Q(y)$ similarly.
 ##### Scratch 
 The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
 
