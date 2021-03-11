@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:26:15.115Z
+date: 2021-03-11T21:29:22.401Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -198,7 +198,14 @@ $$
 $$
 is valid. 
 **(b)**  Prove that the converse of $(1)$ is not valid by describing a counter model as in Week 2 Notes.
-#### Solution
+#### Solution (From book)
+Assume 
+$$
+\exists z . \medspace \lbrack P(z) \wedge Q(z)]
+$$
+That is, $P(z) \wedge Q(z)$ holds for some element $z$ of the domain. Let $c$ be this element, that is, we have $P(c) \wedge Q(c)$.
+
+In particular, $P(c) holds by itself.
 ##### Scratch 
 The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
 
