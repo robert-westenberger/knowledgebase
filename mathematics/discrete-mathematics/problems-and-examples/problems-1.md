@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T22:09:22.447Z
+date: 2021-03-11T22:14:52.107Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -245,19 +245,14 @@ Then $L=R$.
 
 **Bogus proof:** Since $L$ and $R$ are both sets of pairs, its sufficient to prove that $(x, y) \in L \longleftrightarrow (x, y) \in R$ for all $x,y$. 
 
-The proof will be a chain of iff implications.
-$$
-\begin{aligned}
-(x, y) \in L && \text{iff} \\
-x \in A \cup C \medspace \text{or} \medspace x \in C, \medspace \text{and either} \medspace y \in B \medspace \text {or} \medspace y \in D && \text{iff} \\
-(x, y) \in L && \text{iff} \\
-(x, y) \in L && \text{iff} \\
-(x, y) \in L && \text{iff} \\
-\end{aligned}
-$$
-$(x, y) \in L \hspace 6em$
-$x \in A \cup C$ and $y \in B \cup D$,
-either $x \in A$ or $x \in C,$ and either $y \in B$ or $y \in D$, 
-$(x \in A$ and $y \in B)$ or else $(x \in C$ and $y \in D)$
-$(x, y) \in A \times B,$ or $(x, y) \in C \times D$
+The proof will be a chain of iff implications. (ignore crappy alignment)
+
+$(x, y) \in L \hspace 2em \text{iff}$ 
+$x \in A \cup C$ and $y \in B \cup D \hspace 2em \text{iff}$,
+either $x \in A$ or $x \in C,$ and either $y \in B$ or $y \in D \hspace 2em \text{iff}$, 
+$(x \in A$ and $y \in B)$ or else $(x \in C$ and $y \in D) \hspace 2em \text{iff}$
+$(x, y) \in A \times B,$ or $(x, y) \in C \times D \hspace 2em \text{iff}$
 $(x, y) \in(A \times B) \cup(C \times D)=R$
+
+**(c)** Fix the proof to show that $R \subseteq L$.
+#### Solution
