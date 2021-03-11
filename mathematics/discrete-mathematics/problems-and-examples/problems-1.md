@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:42:08.051Z
+date: 2021-03-11T21:47:58.269Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -215,7 +215,10 @@ holds. This shows that $(3)$ holds in any interpretation in which $(2)$ holds. T
 **(b)**
 We describe a counter model in which $(3)$ is true and $(2)$ is false. 
 
-Let the domain be 
+Let the domain $D$ be $\{\pi, e\}$, $P(x)$ mean "$x=\pi$", and $Q(y)$ mean "$y=e$". Then, $\exists x. P(x)$ is true (let $x$ be $\pi$) and likewise $\exists y. Q(y)$ is true (let $y$ be $e$), so $(3)$ holds.
+
+On the other hand, $Q(\pi)$ is not true, so $P(\pi) \wedge Q(\pi)$ is not true. Likewise, $P(e) \wedge Q(e)$ is not true. Since these are the only elements of $D$, it is not true that there is an element, $z$, of $D$, such that $P(z) \wedge Q(z)$. That is, $(2)$ is not true.
+$$\hspace 32em \blacksquare$$
 ##### Scratch 
 The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
 
