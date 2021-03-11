@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T20:59:11.858Z
+date: 2021-03-11T21:00:07.945Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -202,4 +202,4 @@ is valid.
 ##### Scratch 
 The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
 
-We need to show that if $\exists z . \lbrack P(z) \wedge Q(z)]$
+We need to show that if $\exists z . \lbrack P(z) \wedge Q(z)]$ holds, then so does 
