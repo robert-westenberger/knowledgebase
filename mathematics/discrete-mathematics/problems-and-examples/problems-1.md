@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:58:40.436Z
+date: 2021-03-11T22:04:08.212Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -246,3 +246,10 @@ Then $L=R$.
 **Bogus proof:** Since $L$ and $R$ are both sets of pairs, its sufficient to prove that $(x, y) \in L \longleftrightarrow (x, y) \in R$ for all $x,y$. 
 
 The proof will be a chain of iff implications.
+
+$(x, y) \in L \hspace 6em$
+$x \in A \cup C$ and $y \in B \cup D$,
+either $x \in A$ or $x \in C,$ and either $y \in B$ or $y \in D$, 
+$(x \in A$ and $y \in B)$ or else $(x \in C$ and $y \in D)$
+$(x, y) \in A \times B,$ or $(x, y) \in C \times D$
+$(x, y) \in(A \times B) \cup(C \times D)=R$
