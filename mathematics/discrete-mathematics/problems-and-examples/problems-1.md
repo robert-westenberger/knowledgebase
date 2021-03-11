@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:10:02.825Z
+date: 2021-03-11T21:19:47.213Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -197,7 +197,7 @@ $$
 \exists z. \medspace \lbrack P(z) \wedge Q(z)] \longrightarrow \lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)] \hspace{6em} \text{(1)}
 $$
 is valid. 
-**(b)**  Prove that the converse of $(1)$ is not valid by describing a coutner model as in Week 2 Notes.
+**(b)**  Prove that the converse of $(1)$ is not valid by describing a counter model as in Week 2 Notes.
 #### Solution
 ##### Scratch 
 The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
@@ -206,6 +206,7 @@ Let $D$ be the domain for the variables and $P_0$, and $Q_0$ be some unary predi
 
 We need to show that if $\exists z . \lbrack P(z) \wedge Q(z)]$ holds, then so does $\lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)]$.
 
-So suppose $\exists z . \lbrack P(z) \wedge Q(z)]$. So some element $z_0 \in D$ has the property that $P_0 (z) \wedge Q_0 (z)$
+So suppose $\exists z . \lbrack P(z) \wedge Q(z)]$. So some element $z_0 \in D$ has the property that $P_0 (z) \wedge Q_0 (z)$ is true. 
+
 
 
