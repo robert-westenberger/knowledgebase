@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T20:01:00.670Z
+date: 2021-03-11T20:14:02.768Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -192,4 +192,6 @@ for all $x \in A$. Substituting $a$ for $x$ in $(2)$ yields a contradiction, pro
 $$\hspace{32em} \blacksquare$$
 
 **Outline:**
-Proving there is no surjection for a set with an infinite amount of elements
+Proving there is no surjection from a set to its powerset for infinite sets, if we know there is no surjection for sets to powersets for finite sets.
+
+Prove by contradiction. We assume there is a surjection
