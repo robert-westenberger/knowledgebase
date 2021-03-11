@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T22:36:22.301Z
+date: 2021-03-11T22:41:28.433Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -257,10 +257,15 @@ $(x, y) \in(A \times B) \cup(C \times D)=R$
 **(c)** Fix the proof to show that $R \subseteq L$.
 #### Solution
 **Scratch:** 
-$A \cup C = \{x \in \mathcal{U} \mid x \in A \vee x \in C\}$
+$A \cup C = \{x \in \mathcal{U} \mid x \in A \vee x \in C\} =U_1$
+$B \cup D = \{x \in \mathcal{U} \mid x \in B \vee x \in D\} =U_2$
+$A \times B=\{(a, b) \mid a \in A \wedge b \in B\} = CP_1$
+$C \times D=\{(c, d) \mid c \in C \wedge d \in D\} = CP_2$
 $L$ and $R$ are sets of ordered pairs. 
 
 $L$ is the cartesian product of the unions of sets $A$ and $C$ and $B$ and $D$.
+$$L ::= \{x \in \mathcal{U} \mid x \in A \vee x \in C\} \times \{x \in \mathcal{U} \mid x \in B \vee x \in D\}$$
+
 
 $R$ is the union of the cartesian product of $A$ and $B$ and the cartesian product of $C$ and $D$.
 
