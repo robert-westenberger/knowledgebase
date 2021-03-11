@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-10T07:33:52.165Z
+date: 2021-03-11T19:46:12.812Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -179,3 +179,4 @@ $$
 $$
 Substituting $a$ for $x$ yields a contradiction, proving there cannot be such an $f$.
 
+Outline of proof:
