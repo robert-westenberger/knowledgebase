@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T20:34:35.030Z
+date: 2021-03-11T20:48:53.495Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -191,3 +191,12 @@ $$
 for all $x \in A$. Substituting $a$ for $x$ in $(2)$ yields a contradiction, proving there cannot be such an $f$.
 $$\hspace{32em} \blacksquare$$
 
+### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 5
+**(a)** Prove that 
+$$
+\exists z. \medspace \lbrack P(z) \wedge Q(z)] \longrightarrow \lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)] \hspace{6em} \text{(1)}
+$$
+is valid. 
+**(b)**  Prove that the converse of $(1)$ is not valid by describing a coutner model as in Week 2 Notes.
+#### Solution
+##### Scratch 
