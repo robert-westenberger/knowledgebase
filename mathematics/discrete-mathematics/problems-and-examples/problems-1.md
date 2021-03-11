@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T22:14:52.107Z
+date: 2021-03-11T22:22:52.655Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -256,3 +256,8 @@ $(x, y) \in(A \times B) \cup(C \times D)=R$
 
 **(c)** Fix the proof to show that $R \subseteq L$.
 #### Solution
+**Scratch:** $L$ and $R$ are sets of ordered pairs. 
+
+$L$ is the cartesian product of the unions of sets $A$ and $C$ and $B$ and $D$.
+
+$R$ is the union of the cartesian product of $A$ and $B$ and the cartesian product of $C$ and $D$.
