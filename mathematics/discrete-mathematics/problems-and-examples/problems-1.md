@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:47:58.269Z
+date: 2021-03-11T21:58:40.436Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -231,3 +231,18 @@ So suppose $\exists z . \lbrack P(z) \wedge Q(z)]$. So some element $z_0 \in D$ 
 
 
 Suppose $\lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)]$. There exists some $x_0 \in D$ that has the property $P_0(x)$ is true and there exists some $y_0 \in D$ that $Q_0(y)$ is true.
+### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 6
+**(a)** Give an exmaple where the following result fails: 
+**False Theorem:** For sets $A$, $B$, $C$, and $D$, let 
+$$
+\begin{aligned}
+L &:=(A \cup C) \times(B \cup D) \\
+R &:=(A \times B) \cup(C \times D)
+\end{aligned}
+$$
+Then $L=R$.
+**(b)** Identify the mistake in the following proof of the False Theorem.
+
+**Bogus proof:** Since $L$ and $R$ are both sets of pairs, its sufficient to prove that $(x, y) \in L \longleftrightarrow (x, y) \in R$ for all $x,y$. 
+
+The proof will be a chain of iff implications.
