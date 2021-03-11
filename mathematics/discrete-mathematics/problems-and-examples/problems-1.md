@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T21:40:23.521Z
+date: 2021-03-11T21:42:08.051Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -213,7 +213,9 @@ $$
 $$
 holds. This shows that $(3)$ holds in any interpretation in which $(2)$ holds. Therefore, $(2)$ implies $(3)$ in all interpretations, that $(1)$ is valid. $\hspace{12em} \blacksquare$
 **(b)**
-We describe a counter model in which $(8)$ is true and $(7)$ is false. 
+We describe a counter model in which $(3)$ is true and $(2)$ is false. 
+
+Let the domain be 
 ##### Scratch 
 The proposition states that if there exists some $z$ for which $P(z)$ and $Q(z)$ are true then there exists some $x$ for which $P(x)$ is true and there exists some y for which $Q(y)$ is true.
 
