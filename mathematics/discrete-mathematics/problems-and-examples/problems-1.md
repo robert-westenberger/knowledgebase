@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T22:41:28.433Z
+date: 2021-03-11T22:48:27.370Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -265,7 +265,14 @@ $L$ and $R$ are sets of ordered pairs.
 
 $L$ is the cartesian product of the unions of sets $A$ and $C$ and $B$ and $D$.
 $$L ::= \{x \in \mathcal{U} \mid x \in A \vee x \in C\} \times \{x \in \mathcal{U} \mid x \in B \vee x \in D\}$$
-
+or 
+$$L::= U_1 \times U_2=\{(u_1, u_2) \mid u_1 \in U_1 \wedge u_2 \in U_2 \}$$
 
 $R$ is the union of the cartesian product of $A$ and $B$ and the cartesian product of $C$ and $D$.
-
+$$
+R ::= \{(a, b) \mid a \in A \wedge b \in B\} \medspace \cup \medspace \{(c, d) \mid c \in C \wedge d \in D\}
+$$
+or 
+$$
+R ::= CP_1 \cup CP_2 = \{x \in \mathcal{U} \mid x \in CP_1 \vee x \in CP_2\}
+$$
