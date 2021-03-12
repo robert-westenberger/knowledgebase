@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T22:13:55.402Z
+date: 2021-03-12T23:07:15.441Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -343,3 +343,6 @@ Both $a$ and $b$ are divisible by $3$, so they are not coprime integers and they
 2. For all integers $n$, if $n$ is a multiple of $3$, then $n$ can be written as the sum of consecutive integers. 
 3. For all integers $a$ and $b$, if $a^2 + b^2$ is odd, then $a$ or $b$ is odd.
 #### Solution
+1. Proof by contradiction. Assume there are integers $x$ and $y$ where $x$ is a prime greater than $5$ and $x=6y+3$. This implies $x$ is a divisible by 3, since $y$ is an integer that is multiplied by a multiple of 3 and has 3 added to it. Since $x$ is divisible by a number besides 1 and itself, this is a contradiction to our initial assumption. Therefore $x$ and $y$ do not exist. $\blacksquare$
+
+2. 
