@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T20:35:16.598Z
+date: 2021-03-12T20:43:34.242Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -112,7 +112,15 @@ Our contrapositive statement is then: "If $a$ and $b$ are even, then $a+b$ is ev
 2. Let $a$ and $b$ be two arbitrary even integers
 (Fix $a$ and $b$ to two arbitrary even values of our domain)
 
-3.
+3. $a=2x$ and $b=2y$ for some integers $x$ and $y$.
+(Definition of an even number)
+
+4. Now $a+b = 2x + 2y = 2(x+y)$
+(Substituting in our representations for $a$ and $b$)
+
+5. Since $x+y$ is an integer, we see that $a+b$ is even.
+($x+y$ is an integer since the set of integers is closed under addition. We see that $a+b$ now also takes on the general form of an even number, completing the proof. )
+$\hspace 26em \blacksquare$
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
