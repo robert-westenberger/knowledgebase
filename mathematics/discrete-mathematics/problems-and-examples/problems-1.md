@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T01:54:12.028Z
+date: 2021-03-12T03:42:18.314Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -305,3 +305,16 @@ either $x \in A$ or $x \in C,$ and either $y \in B$ or $y \in D \hspace 2em \tex
 $(x \in A$ and $y \in B)$ or else $(x \in C$ and $y \in D) \hspace 2em \text{iff}$
 $(x, y) \in A \times B,$ or $(x, y) \in C \times D \hspace 2em \text{iff}$
 $(x, y) \in(A \times B) \cup(C \times D)=R$
+
+
+### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2015 Set 1 Problem 1
+Prove that $\log_{4} 6$ is irrational
+#### Solution
+**Proof by Contradiction:**
+Assume to the contrary that $\log_{4} 6$ is rational, so there are two integers $a$ and $b$ where $\log_{4} 6 = a/b$.
+
+This can be rewritten as 
+$$ 4^{a/b} = 6$$
+$$ 2^{a/b} = 3$$
+$$ 2^a = 3^b$$
+We get an even number raised to an exponent equal to an odd number raised to an exponent. This is a contradiction, so $\log_{4} 6$ must be irrational.
