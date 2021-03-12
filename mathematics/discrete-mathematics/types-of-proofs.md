@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T20:58:03.752Z
+date: 2021-03-12T21:11:44.415Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -234,3 +234,12 @@ $N$ is certainly larger than $p$ and not divisible by any number less than or eq
 8. This is a contradiction (from line 2 and 7; the largest prime is $p$ and there is a prime larger than $p$). 
 9. Therefore there are infinitely many primes (from line 1 and lien 8: our only premise lead to a contradiction, so the premise is false).
 
+#### Example 3
+**Theorem:** There are no integers $x$ and $y$ such that $x^2 = 4y + 2$.
+**Proof:**
+1. We use proof by contradiction.
+2. Suppose there are integers $x$ and $y$ such that $x^2 = 4y + 2 = 2(2y+1)$.
+3. This means that $x^2$ is even, so there must be some integer $k$ where $x=2k$. Then $x^2 = 4k^2$.
+4. Plugging into the equation for line 2 we get $4k^2 = 2(2y+1)$.
+5. Divide both sides to get $2k^2 = 2y+1$.
+6. $2k^2$ is even and $2y+1$ is odd, a contradiction. So there must not be any integers $x$ and $y$ such that $x^2 = 4y + 2$. $\blacksquare$
