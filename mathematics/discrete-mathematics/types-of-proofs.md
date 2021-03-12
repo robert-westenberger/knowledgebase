@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T07:39:28.432Z
+date: 2021-03-12T07:42:03.131Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -94,6 +94,8 @@ Since $m^2$ and $n^2$ are integers, r is also rational. $\blacksquare$
 ( $2k^2 + 2k$ is an integer we can set to $r$. $n^2 = 2r + 1$, which is also in the general form of an odd number, thus proving the contrapositive).
 
 $\blacksquare$
+#### Example #3 of Method #2
+**Theorem:** For all integers $a$ and $b$, if $a + b$ is odd, then $a$ is odd or $b$ is odd.
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
