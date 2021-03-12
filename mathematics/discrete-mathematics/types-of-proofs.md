@@ -2,14 +2,13 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T05:23:27.651Z
+date: 2021-03-12T05:49:16.976Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
 
 # Types of Proofs
 
-## Direct Proofs
 
 ## Proving an Implication
 Propositions of the form "If $P$, then $Q$" are called implications. 
@@ -38,7 +37,24 @@ $$
 as claimed. $\blacksquare$
 
 Note: Proofs typically begin with the word "Proof" and end with some sort of delimiter like $\square$, $\blacksquare$, or "QED".
+### Example 2 of Method #1
+**Theorem:** For all integers $a$, $b$, and $c$, if $a/b$ and $b/c$, then $a/c$.
+**Scratch:** We have to explain the meaning of $a/b$ and $b/c$, and why this gives us the conclusion $a/c$. Another way of saying $a/b$ is to say $b = ka$ for some integer $k$ (in other words, $b$ is a multiple of $a$. We are going for the fact that $c = la$ for some integer $l$ (because we want $c$ to be a multiple of $a$).
+**Proof:** 
 
+Let $a$, $b$, and $c$ be integers. 
+
+Assume that $a/b$ and $b/c$.
+
+In other words, $b$ is a multiple of $a$ and $c$ is a multiple of $b$.
+
+So there are integers $k$ and $j$ such that $b=ka$ and $c=jb$.
+
+Combining these(through substitution) we get that $c = jka$. 
+
+But $jk$ is an integer, so this says that $c$ is a multiple of $a$. 
+
+Therefore $a/c$. $\blacksquare$
 ### Method #2 - Prove the Contrapositive
 An implication $P \text { IMPLIES } Q$ is logically equivalent to its contrapositive $\operatorname{NOT}(Q)$ IMPLIES $\operatorname{NOT}(P)$.
 
