@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T03:42:47.484Z
+date: 2021-03-12T04:19:57.265Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -318,3 +318,22 @@ $$ 4^{a/b} = 6$$
 $$ 2^{a/b} = 3$$
 $$ 2^a = 3^b$$
 We get an even number raised to an exponent equal to an odd number raised to an exponent. This is a contradiction, so $\log_{4} 6$ must be irrational. $\blacksquare$
+
+### Discrete Math Workbook 3rd Edition Chapter 3 Question 6
+Prove $\sqrt 3$ is irrational.
+#### Answer
+**Proof:**
+Proof by contradiction. Assume $\sqrt 3$ is rational, so there exists $a/b$ where $\sqrt 3 = a/b$.
+
+Square both sides
+$3 = (a/b)^2$
+$3 = (a^2/b^2)$
+$3b^2 = a^2$
+
+It is obvious that $a^2$ must be a multiple of 3, so must $a$ as well.  So for some $k$, $a = 3k$. Plug into our above equation..
+
+$$3b^2 = (3k)^2$$
+$$3b^2 = 9k^2$$
+$$b^2 = 3k^2$$
+
+Both $a$ and $b$ are divisible by $3$, so they are not coprime integers and they must not be in most reduced form, which is a contradiction. Therefore $\sqrt 3$ must be irrational.
