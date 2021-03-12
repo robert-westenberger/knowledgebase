@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-11T23:55:54.017Z
+date: 2021-03-12T00:01:05.432Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -277,7 +277,7 @@ $$
 R ::= CP_1 \cup CP_2 = \{x \in \mathcal{U} \mid x \in CP_1 \vee x \in CP_2\}
 $$
 
-Example (where it fails?):
+Example where it fails:
 set a: a, b, c,d
 set b: c, d, e , f
 set c: 1, 2, 3, 4
