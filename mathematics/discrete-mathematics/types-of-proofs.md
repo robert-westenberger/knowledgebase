@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T20:44:24.261Z
+date: 2021-03-12T20:58:03.752Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -122,6 +122,22 @@ Our contrapositive statement is then: "If $a$ and $b$ are even, then $a+b$ is ev
 ($x+y$ is an integer since the set of integers is closed under addition. We see that $a+b$ now also takes on the general form of an even number, completing the proof. )
 
 $\blacksquare$
+#### Example #4 of Proof by Contrapositive
+**Theorem:** For every prime number $p$, if $p \ne 2$, then $p$ is odd.
+**Proof:**
+1. We prove the contrapositive: for every prime number $p$, if $p$ is even then $p = 2$.
+(Our converse statement)
+2. Let $p$ be an arbitrary prime number in our domain and assume it is not odd. 
+
+3. $p$ is divisible by $2$.
+(Definition of an even number)
+
+4. Since $p$ is prime, it must have only two divisors. We know that $2$ is a divisor, so $p$ must be divisible by $1$ and $2$.
+(Definition of prime number)
+
+5. Therefore, $p=2$, completing the proof.
+$\blacksquare$
+
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
