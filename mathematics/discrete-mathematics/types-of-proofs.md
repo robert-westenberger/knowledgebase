@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T05:49:16.976Z
+date: 2021-03-12T06:10:13.145Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -42,12 +42,11 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 **Scratch:** We have to explain the meaning of $a/b$ and $b/c$, and why this gives us the conclusion $a/c$. Another way of saying $a/b$ is to say $b = ka$ for some integer $k$ (in other words, $b$ is a multiple of $a$. We are going for the fact that $c = la$ for some integer $l$ (because we want $c$ to be a multiple of $a$).
 **Proof:** 
 
-Let $a$, $b$, and $c$ be integers. 
-
-Assume that $a/b$ and $b/c$.
+Let $a$, $b$, and $c$ be integers. Assume that $a/b$ and $b/c$.
+(Our assumption)
 
 In other words, $b$ is a multiple of $a$ and $c$ is a multiple of $b$.
-
+(Division is the inverse of multiplication. $a/b$ is defined to be the unique solution to the equation $b \cdot x = a$)
 So there are integers $k$ and $j$ such that $b=ka$ and $c=jb$.
 
 Combining these(through substitution) we get that $c = jka$. 
