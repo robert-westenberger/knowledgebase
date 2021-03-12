@@ -2,13 +2,14 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-02-28T01:28:13.226Z
+date: 2021-03-12T05:00:04.159Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
 
 # Types of Proofs
 
+## Direct Proofs
 
 ## Proving an Implication
 Propositions of the form "If $P$, then $Q$" are called implications. 
@@ -41,7 +42,7 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 ### Method #2 - Prove the Contrapositive
 An implication $P \text { IMPLIES } Q$ is logically equivalent to its contrapositive $\operatorname{NOT}(Q)$ IMPLIES $\operatorname{NOT}(P)$.
 
-1) Write, "We prove the contrapositive:" and then tstate the contrapositive.
+1) Write, "We prove the contrapositive:" and then state the contrapositive.
 2) Proceed as in Method #1. 
 
 #### Example of Method #2
