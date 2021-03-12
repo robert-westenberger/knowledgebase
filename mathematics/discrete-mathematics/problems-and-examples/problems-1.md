@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T00:16:57.174Z
+date: 2021-03-12T00:44:51.380Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -294,3 +294,5 @@ cp2 = {{1,4},{1, 5},{1, 6},{ 2,4},{ 2, 5},{ 2, 6},{ 3,4},{ 3, 5},{ 3, 6}}
 
 r = cp1 u cp2 {{a,d},{a, e},{a, f},{ b,d},{ b, e},{ b, f},{ c,d},{ c, e},{ c, f},{ d,d},{ d, e},{ d, f},  {1,4},{1, 5},{1, 6},{ 2,4},{ 2, 5},{ 2, 6},{ 3,4},{ 3, 5},{ 3, 6}}
 **a:** If $A$ = $D$ = $\emptyset$ and $B$ and $C$ are both nonempty, then $L=C \times B \neq \emptyset$, but $R = \emptyset$. 
+
+**b:** It does not necessarily follow that $(x, y) \in (A \times B) \cup (C \times D)$. $(x,y)$ may be in $A \times D$ instead.
