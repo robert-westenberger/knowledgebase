@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T20:44:04.828Z
+date: 2021-03-12T20:44:24.261Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -120,7 +120,8 @@ Our contrapositive statement is then: "If $a$ and $b$ are even, then $a+b$ is ev
 
 5. Since $x+y$ is an integer, we see that $a+b$ is even.
 ($x+y$ is an integer since the set of integers is closed under addition. We see that $a+b$ now also takes on the general form of an even number, completing the proof. )
-$\hspace 32em \blacksquare$
+
+$\blacksquare$
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
