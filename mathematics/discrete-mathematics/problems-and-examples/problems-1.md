@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T00:14:46.809Z
+date: 2021-03-12T00:16:57.174Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -293,3 +293,4 @@ cp1 = {{a,d},{a, e},{a, f},{ b,d},{ b, e},{ b, f},{ c,d},{ c, e},{ c, f},{ d,d},
 cp2 = {{1,4},{1, 5},{1, 6},{ 2,4},{ 2, 5},{ 2, 6},{ 3,4},{ 3, 5},{ 3, 6}}
 
 r = cp1 u cp2 {{a,d},{a, e},{a, f},{ b,d},{ b, e},{ b, f},{ c,d},{ c, e},{ c, f},{ d,d},{ d, e},{ d, f},  {1,4},{1, 5},{1, 6},{ 2,4},{ 2, 5},{ 2, 6},{ 3,4},{ 3, 5},{ 3, 6}}
+**a:** If $A$ = $D$ = $\emptyset$ and $B$ and $C$ are both nonempty, then $L=C \times B \neq \emptyset$, but $R = \emptyset$. 
