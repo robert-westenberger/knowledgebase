@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T01:46:21.684Z
+date: 2021-03-12T01:51:46.874Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -300,6 +300,10 @@ r = cp1 u cp2 {{a,d},{a, e},{a, f},{ b,d},{ b, e},{ b, f},{ c,d},{ c, e},{ c, f}
 **d:**
 **Proof:**
 Suppose $(x, y) \in L$
-$x \in A \cup C$ and $y \in B \cup D$
-either $x \in A$ or $x \in C$, and either $y \in B$ or $y \in D$.
-($x \in A$ and $y \in B$) or ($x \in A$ and $y \in D$) or ($x \in C$ and $y \in B$) or else ($x \in C$ and $y \in D$)
+$x \in A \cup C$ and $y \in B \cup D$ iff
+
+either $x \in A$ or $x \in C$, and either $y \in B$ or $y \in D$ iff
+
+($x \in A$ and $y \in B$) or ($x \in A$ and $y \in D$) or ($x \in C$ and $y \in B$) or else ($x \in C$ and $y \in D$) iff
+
+$(x, y) \in A \times B$ or $(x, y) \in C \times D$ or $(x, y) \in A \times D$ or $(x, y) \in C \times B$ iff
