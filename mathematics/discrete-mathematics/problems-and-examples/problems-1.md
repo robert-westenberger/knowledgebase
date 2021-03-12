@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T04:19:57.265Z
+date: 2021-03-12T22:13:55.402Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -319,7 +319,7 @@ $$ 2^{a/b} = 3$$
 $$ 2^a = 3^b$$
 We get an even number raised to an exponent equal to an odd number raised to an exponent. This is a contradiction, so $\log_{4} 6$ must be irrational. $\blacksquare$
 
-### Discrete Math Workbook 3rd Edition Chapter 3 Question 6
+### Discrete Math Workbook 3rd Edition Section 3.2 Question 6
 Prove $\sqrt 3$ is irrational.
 #### Answer
 **Proof:**
@@ -337,3 +337,9 @@ $$3b^2 = 9k^2$$
 $$b^2 = 3k^2$$
 
 Both $a$ and $b$ are divisible by $3$, so they are not coprime integers and they must not be in most reduced form, which is a contradiction. Therefore $\sqrt 3$ must be irrational.
+### Discrete Math Workbook 3rd Edition Section 3.2 Question 2
+ For each of the statements below, say what method of proof you should use to prove them. Then say how the proof starts and how it ends. Bonus points for filling in the middle.
+1. There are no integers $x$ and $y$ such that $x$ is a prime greater than $5$ and $x=6y+3$.
+2. For all integers $n$, if $n$ is a multiple of $3$, then $n$ can be written as the sum of consecutive integers. 
+3. For all integers $a$ and $b$, if $a^2 + b^2$ is odd, then $a$ or $b$ is odd.
+#### Solution
