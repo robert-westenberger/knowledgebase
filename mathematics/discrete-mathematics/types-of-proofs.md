@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T05:00:04.159Z
+date: 2021-03-12T05:23:27.651Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -126,3 +126,27 @@ $\sqrt 2$ is rational. We can write $\sqrt 2$ as a fraction $n/d$ in lowest term
 Squaring both sides gives us $2 = n^2/d^2$ so 2d^2 = n^2. This implies that n is a multiple of 2. Therefore $n^2$ must be a multiple of 4. But since $2d^2 = n^2$, we know $2d^2$ is a multiple of 4 and so $d^2$ is a multiple of 2. That implies d is a multiple of 2.
 
 So, the numerator and the denominator have 2 as a common factor, which contradicts that fact that $n/d$ is in lowest terms. Thus, $\sqrt 2$ must be irrational. $\blacksquare$
+
+#### Example 2
+**Theorem:** There are infinitely many primes.
+**Proof:** 
+We use proof by contradiction. Suppose the theorem is false, that there are actualy a finite number of primes. Then there must be a last, largest prime $p$. 
+
+Consider the number 
+$$
+N=p !+1=(p \cdot(p-1) \cdots 3 \cdot 2 \cdot 1)+1
+$$
+$N$ is certainly larger than $p$ and not divisible by any number less than or equal to $p$, since every number less than or equal to $p$ divides $p!$. Thus, the prime factorization of $N$ contains prime numbers (possibly just $N$ itself) all greater than $p$. So $p$ is not the largest prime, a contradiction. Therefore there are infinitely many primes. $\blacksquare$
+
+
+##### Example 2, line by line
+1. Suppose there are only finitely many primes. (this is a premise. Note the use of “suppose.”)
+2. There must be a largest prime, call it $p$. (follows from line 1, by the definition of “finitely many.”)
+3. Let $N = p! + 1$ (The key insight of the proof.)
+4. $N$ is larger than $p$ (be definition of $p!$
+5. $N$ is not divisible by any number less than or equal to $p$ (by definiton, $p!$ is divisible by each number $\le$ p, so $p!+1$ is not.
+6. The prime factorization of $N$ contains prime numbers greater than $p$. (since $N$ is divisible by each prime number in the prime factorization of $N$, and by line 5).
+7. Therefore $p$ is not the largest prime (by line 6, $N$ is divisible by a prime larger than $p$).
+8. This is a contradiction (from line 2 and 7; the largest prime is $p$ and there is a prime larger than $p$). 
+9. Therefore there are infinitely many primes (from line 1 and lien 8: our only premise lead to a contradiction, so the premise is false).
+
