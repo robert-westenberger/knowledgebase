@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T01:51:46.874Z
+date: 2021-03-12T01:54:12.028Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -298,12 +298,10 @@ r = cp1 u cp2 {{a,d},{a, e},{a, f},{ b,d},{ b, e},{ b, f},{ c,d},{ c, e},{ c, f}
 **b:** It does not necessarily follow that $(x, y) \in (A \times B) \cup (C \times D)$. $(x,y)$ may be in $A \times D$  or $B \times C$ instead.
 
 **d:**
-**Proof:**
-Suppose $(x, y) \in L$
-$x \in A \cup C$ and $y \in B \cup D$ iff
-
-either $x \in A$ or $x \in C$, and either $y \in B$ or $y \in D$ iff
-
-($x \in A$ and $y \in B$) or ($x \in A$ and $y \in D$) or ($x \in C$ and $y \in B$) or else ($x \in C$ and $y \in D$) iff
-
-$(x, y) \in A \times B$ or $(x, y) \in C \times D$ or $(x, y) \in A \times D$ or $(x, y) \in C \times B$ iff
+**Proof:** (ignore crappy alignment)
+$(x, y) \in L \hspace 2em \text{iff}$ 
+$x \in A \cup C$ and $y \in B \cup D \hspace 2em \text{iff}$,
+either $x \in A$ or $x \in C,$ and either $y \in B$ or $y \in D \hspace 2em \text{which will be true when}$, 
+$(x \in A$ and $y \in B)$ or else $(x \in C$ and $y \in D) \hspace 2em \text{iff}$
+$(x, y) \in A \times B,$ or $(x, y) \in C \times D \hspace 2em \text{iff}$
+$(x, y) \in(A \times B) \cup(C \times D)=R$
