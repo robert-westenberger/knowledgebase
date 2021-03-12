@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T06:10:13.145Z
+date: 2021-03-12T06:11:21.645Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -46,7 +46,8 @@ Let $a$, $b$, and $c$ be integers. Assume that $a/b$ and $b/c$.
 (Our assumption)
 
 In other words, $b$ is a multiple of $a$ and $c$ is a multiple of $b$.
-(Division is the inverse of multiplication. $a/b$ is defined to be the unique solution to the equation $b \cdot x = a$)
+(Division is the inverse of multiplication. $a/b$ is defined to be the unique solution to the equation $bx = a$)
+
 So there are integers $k$ and $j$ such that $b=ka$ and $c=jb$.
 
 Combining these(through substitution) we get that $c = jka$. 
