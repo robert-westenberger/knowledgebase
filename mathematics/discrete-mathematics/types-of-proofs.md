@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T06:13:30.250Z
+date: 2021-03-12T06:14:56.624Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -52,7 +52,7 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 (Follows from line 2)
 
 4. Combining these(through substitution) we get that $c = jka$. 
-(Just combining
+(Just some straightforward algebra here)
 
 5. But $jk$ is an integer, so this says that $c$ is a multiple of $a$. 
 
