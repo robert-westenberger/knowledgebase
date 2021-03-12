@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T00:49:08.812Z
+date: 2021-03-12T01:46:21.684Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -298,3 +298,8 @@ r = cp1 u cp2 {{a,d},{a, e},{a, f},{ b,d},{ b, e},{ b, f},{ c,d},{ c, e},{ c, f}
 **b:** It does not necessarily follow that $(x, y) \in (A \times B) \cup (C \times D)$. $(x,y)$ may be in $A \times D$  or $B \times C$ instead.
 
 **d:**
+**Proof:**
+Suppose $(x, y) \in L$
+$x \in A \cup C$ and $y \in B \cup D$
+either $x \in A$ or $x \in C$, and either $y \in B$ or $y \in D$.
+($x \in A$ and $y \in B$) or ($x \in A$ and $y \in D$) or ($x \in C$ and $y \in B$) or else ($x \in C$ and $y \in D$)
