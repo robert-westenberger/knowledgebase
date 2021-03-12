@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T06:25:23.815Z
+date: 2021-03-12T07:24:52.936Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -74,6 +74,8 @@ $$\sqrt r = \frac m n$$
 Squaring both sides gives: 
 $$r = \frac{m^2}{n^2}$$
 Since $m^2$ and $n^2$ are integers, r is also rational. $\blacksquare$
+
+#### Example #2 of Method #2
 
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
