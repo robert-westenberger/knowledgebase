@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T07:42:03.131Z
+date: 2021-03-12T20:35:16.598Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -96,6 +96,23 @@ Since $m^2$ and $n^2$ are integers, r is also rational. $\blacksquare$
 $\blacksquare$
 #### Example #3 of Method #2
 **Theorem:** For all integers $a$ and $b$, if $a + b$ is odd, then $a$ is odd or $b$ is odd.
+**Scratch:** 
+The statement is in the form of $P \longrightarrow (Q \vee R)$.
+
+The contrapositive of our statement is $\neg (Q \vee R) \longrightarrow \neg P$
+
+Using DeMorgans law for NOT OR we get
+$(\neg Q \wedge \neg R) \longrightarrow \neg P$
+
+Our contrapositive statement is then: "If $a$ and $b$ are even, then $a+b$ is even.
+**Proof**:
+1. We prove the contrapositive: for all integers $a$ and $b$, if $a$ and $b$ are even, then $a +b$ is even.
+(Our converse statement)
+
+2. Let $a$ and $b$ be two arbitrary even integers
+(Fix $a$ and $b$ to two arbitrary even values of our domain)
+
+3.
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
