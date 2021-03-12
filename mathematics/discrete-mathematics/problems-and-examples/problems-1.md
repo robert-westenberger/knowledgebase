@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T03:42:18.314Z
+date: 2021-03-12T03:42:47.484Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -317,4 +317,4 @@ This can be rewritten as
 $$ 4^{a/b} = 6$$
 $$ 2^{a/b} = 3$$
 $$ 2^a = 3^b$$
-We get an even number raised to an exponent equal to an odd number raised to an exponent. This is a contradiction, so $\log_{4} 6$ must be irrational.
+We get an even number raised to an exponent equal to an odd number raised to an exponent. This is a contradiction, so $\log_{4} 6$ must be irrational. $\blacksquare$
