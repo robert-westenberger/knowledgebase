@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T21:11:44.415Z
+date: 2021-03-12T21:22:09.220Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -243,3 +243,11 @@ $N$ is certainly larger than $p$ and not divisible by any number less than or eq
 4. Plugging into the equation for line 2 we get $4k^2 = 2(2y+1)$.
 5. Divide both sides to get $2k^2 = 2y+1$.
 6. $2k^2$ is even and $2y+1$ is odd, a contradiction. So there must not be any integers $x$ and $y$ such that $x^2 = 4y + 2$. $\blacksquare$
+#### Example 4
+**Theorem:** If more than $n$ pigeons fly into $n$ pigeon holes, then at least one pigeon hole will contain at least two pigeons.
+**Proof:**
+1. We use proof by contradiction.
+2. Suppose that if $n$ pigeons fly into $n$ pigeon holes, there will be no pigeon holes that contain greater than 1 pigeons.
+3. If there is no more than 1 pigeon to a hole, there must be $n$ pigeons at the most.
+4. We assumed there will be more than $n$ pigeons flying into pigeon holes, so this is a contradiction.
+5. There must be a pigeonhole with more than 1 pigeon. $\blacksquare$
