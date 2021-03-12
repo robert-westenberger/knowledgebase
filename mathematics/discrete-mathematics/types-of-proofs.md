@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T06:14:56.624Z
+date: 2021-03-12T06:24:38.104Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -55,8 +55,10 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 (Just some straightforward algebra here)
 
 5. But $jk$ is an integer, so this says that $c$ is a multiple of $a$. 
+(Integers under multiplication are a closed operation, so an integer times an integer is always an integer )
 
 6. Therefore $a/c$. $\blacksquare$
+(Since $c$ is a multiple of $a$, $a$ is divisible by $c$) 
 ### Method #2 - Prove the Contrapositive
 An implication $P \text { IMPLIES } Q$ is logically equivalent to its contrapositive $\operatorname{NOT}(Q)$ IMPLIES $\operatorname{NOT}(P)$.
 
