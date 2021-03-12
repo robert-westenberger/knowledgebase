@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T07:24:52.936Z
+date: 2021-03-12T07:39:28.432Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -76,7 +76,24 @@ $$r = \frac{m^2}{n^2}$$
 Since $m^2$ and $n^2$ are integers, r is also rational. $\blacksquare$
 
 #### Example #2 of Method #2
+**Theorem:** For all integers, if $n^2$ is even, then $n$ is even
+**Proof:** 
+1. We prove the contrapositive: for all integers $n$, if $n^2$ is odd, then $n$ is odd.
+(Our converse statement)
 
+2. Let $n$ be an arbitrary integer.
+(Fix $n$ to an arbitrary value in the domain of all integers)
+
+3. Suppose that $n$ is not even, and thus odd.
+(Follows from line 1)
+4. Then $n=2k+1$ for some integer $k$. 
+(General form of an odd number)
+5. Now $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k)+ 1$. 
+(algebra)
+6. Since $2k^2 + 2k$ is an integer, we see that $n^2$ is odd and therefore not even. 
+( $2k^2 + 2k$ is an integer we can set to $r$. $n^2 = 2r + 1$, which is also in the general form of an odd number, thus proving the contrapositive).
+
+$\blacksquare$
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
