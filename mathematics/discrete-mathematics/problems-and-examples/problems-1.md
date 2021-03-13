@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T05:38:13.045Z
+date: 2021-03-13T05:47:29.217Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -420,4 +420,4 @@ Add $a$ to both sides to get $a^5 \gt a$ $\blacksquare$
 Suppose $A \backslash B \subseteq C \cap D$ and $x \in A$. Prove that if $x \notin D$ then $x \in B$.
 
 #### Solution
-**Scratch:**
+**Scratch:** We must show that 
