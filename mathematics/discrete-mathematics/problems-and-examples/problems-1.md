@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T04:30:40.223Z
+date: 2021-03-13T05:10:25.016Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -401,3 +401,16 @@ Suppose $a$ and $b$ are real numbers. Prove that if $0 \lt a \lt b$ then $1/b \l
 ### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 7
 Suppose that $a$ is a real number. Prove that if $a^{3}>a$ then $a^{5}>a$. (Hint: One approach is to start by completing the following equation $a^{5}-a=\left.\left(a^{3}-a\right) \cdot \underline{?} .\right)$
 #### Solution
+Assume $a^3 \gt a$. Subtracting $a$ from both sides we get
+$$
+a^3 - a \gt 0 
+$$
+Multiply both sides by $a^2 + 1$
+
+$$
+=\left(a^{3}-a\right)\left(a^{2}+1\right)>0 \\
+\begin{array}{l}
+=a^{5}-a^{3}+a^{3}-a>0 \\
+=a^{5}-a>0
+\end{array}
+$$
