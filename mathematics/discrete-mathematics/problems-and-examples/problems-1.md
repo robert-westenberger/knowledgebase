@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T00:02:24.775Z
+date: 2021-03-13T00:03:06.025Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -347,7 +347,7 @@ Both $a$ and $b$ are divisible by $3$, so they are not coprime integers and they
 
 2. Direct Proof. Assume $n$ is a multiple of $3$ and there are some consecutive integers $x$, $x+1$, and $x+2$ that sum to n. So we have 
 $$
-3n = x + x+1 + x+2 = 3x + 3 = 3(x+1)
+n = x + x+1 + x+2 = 3x + 3 = 3(x+1)
 $$
 $$
 n = 3(x+1)
