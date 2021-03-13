@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T00:01:26.712Z
+date: 2021-03-13T00:02:24.775Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -352,4 +352,4 @@ $$
 $$
 n = 3(x+1)
 $$
-We see that $n$ is equal to the sum of three consecutive integers. That sum can be represented as an integer $x+1$ which itself is a multiple of $3$, so $n$ must be a multiple of $33.
+We see that $n$ is equal to the sum of three consecutive integers. That sum can be represented as an integer $x+1$ which itself is a multiple of $3$, so $n$ must be a multiple of $3$. $\blacksquare$
