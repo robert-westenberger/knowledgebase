@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T01:04:50.668Z
+date: 2021-03-13T02:01:35.864Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -367,7 +367,13 @@ b. Is the converse true? Prove or disprove.
 #### Solution
 a. Using a direct proof, assume $n$ is even. So there exists some integer $k$ that $2k=n$. We get $8(2k) = 2(8k)$, therefore $8n$ is even.
 b. The converse of this statement is false. It fails when $n=1$, or $n=3$.
+
 ### Discrete Math Workbook 3rd Edition Section 3.2 Question 4
 The game TENZI comes with $40$ six-sided dice (each numbered $1$ to $6$). Suppose you roll all $40$ dice.
 a. Prove that there will be at least seven dice that land on the same number.
 b. How many dice would you have to roll before you were guaranteed that some four of them would all match or all be different? Prove your answer.
+
+#### Solution
+
+a. Proof by contradiction. Suppose we roll $40$ $6$ sided dice, no more than $6$ dice will land on the same number. That means that we have rolled, at the most, $36$ dice. This is a contradiction, proving our claim that there will be at least $7$ dice with the same result. 
+b. 
