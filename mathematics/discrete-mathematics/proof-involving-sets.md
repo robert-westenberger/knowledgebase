@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T22:53:36.837Z
+date: 2021-03-13T23:01:47.010Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -70,3 +70,16 @@ Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \s
 (Prove the intersection between the set of all integers divisibly by $2$ and integers divisible by $9$ is the subset of all integers divisible by $6$)
 **Proof:** 
 1. Suppose $a \in\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\}$
+	(Suppose $a$ is in the intersection between two sets.. ints divis by $2$ and ints divis by $9$)
+  
+2. By definition of intersection, this means $a \in\{x \in \mathbb{Z}: 2 \mid x\}$ and $a \in\{x \in \mathbb{Z}: 9 \mid x\}$.
+
+3. Since $a \in\{x \in \mathbb{Z}: 2 \mid x\}$ we know $2 \vert a$, so $a=2c$ for some $c \in \Z$. Thus $a$ is even.
+
+4. Since $a \in\{x \in \mathbb{Z}: 9 \mid x\}$ we know $9 \vert a$, so $a=9d$ for some $d \in \Z$.
+
+5. As $a$ is even, $a=9d$ implies $d$ is even.
+
+6. Then $d=2e$ for some integer $e$, and we have $a=9 d=9(2 e)=6(3 e)$.
+
+7. From $a=6(3 e)$, we conclude $6 \vert a$, and this means $a \in\{x \in \mathbb{Z}: 6 \mid x\}$.
