@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:35:17.906Z
+date: 2021-03-13T23:46:20.894Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -91,3 +91,11 @@ Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \s
 ### Example 3
 Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \subseteq\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$
 (Prove the set of ordered pairs that have the same remainder for modulo $6$ is the subset of ordered pairs that have the same remainder for modulo $3$)
+
+**Proof:** 
+1. Suppose $(a, b) \in\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\}$
+2. This means that $(a, b) \in \mathbb{Z} \times \mathbb{Z}$ and $a \equiv b(\bmod 6)$.
+3. Consequently $6 \mid(a-b)$, so $a-b=6c$ for some integer $c$.
+4. It follows that $a-b=3(2c)$, and this means that $3 \vert (a-b)$, so $a \equiv b(\text{mod} 3)$.
+5. Thus $(a, b) \in\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$.
+6. We've now seen that $(a, b) \in\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\}$ implies $(a, b) \in \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$, so it follows that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \subseteq \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$
