@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:46:20.894Z
+date: 2021-03-13T23:53:52.691Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -47,6 +47,10 @@ This can be proved directly, assuming $a \in A$ and deducing $a \in B$.
 
 The contrapositive approach is another option: Assume $a \notin B$ and deduce $a \notin A$.
 
+
+If $A$ and $B$ are sets,
+
+
 ## Examples
 ### Example 1
 Prove that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$
@@ -64,7 +68,7 @@ Prove that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid 
 
 5. Therefore $a$ is one of the integers that $6$ divides, so $a \in\{x \in \mathbb{Z}: 6 \mid x\}$.
 
-6. We've shown $a \in\{x \in \mathbb{Z}: 18 \mid x\}$ implies $a \in\{x \in \mathbb{Z}: 6 \mid x\}$, so it follows that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$.
+6. We've shown $a \in\{x \in \mathbb{Z}: 18 \mid x\}$ implies $a \in\{x \in \mathbb{Z}: 6 \mid x\}$, so it follows that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$. $\blacksquare$
 ### Example 2
 Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$
 (Prove the intersection between the set of all integers divisibly by $2$ and integers divisible by $9$ is the subset of all integers divisible by $6$)
@@ -87,7 +91,7 @@ Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \s
 
 7. From $a=6(3 e)$, we conclude $6 \vert a$, and this means $a \in\{x \in \mathbb{Z}: 6 \mid x\}$.
 	( Since $a$ is divisible by $6$ it must also by in the set of all ints divis by $6$ )
-8. We have shown that $a \in\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\}$ implies $a \in\{x \in \mathbb{Z}: 6 \mid x\}$, so it follows that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$.
+8. We have shown that $a \in\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\}$ implies $a \in\{x \in \mathbb{Z}: 6 \mid x\}$, so it follows that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$. $\blacksquare$
 ### Example 3
 Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \subseteq\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$
 (Prove the set of ordered pairs that have the same remainder for modulo $6$ is the subset of ordered pairs that have the same remainder for modulo $3$)
@@ -98,4 +102,4 @@ Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \su
 3. Consequently $6 \mid(a-b)$, so $a-b=6c$ for some integer $c$.
 4. It follows that $a-b=3(2c)$, and this means that $3 \vert (a-b)$, so $a \equiv b(\text{mod} 3)$.
 5. Thus $(a, b) \in\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$.
-6. We've now seen that $(a, b) \in\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\}$ implies $(a, b) \in \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$, so it follows that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \subseteq \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$
+6. We've now seen that $(a, b) \in\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\}$ implies $(a, b) \in \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$, so it follows that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \subseteq \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$ $\blacksquare$
