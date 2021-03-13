@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:24:11.342Z
+date: 2021-03-13T23:35:17.906Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -88,3 +88,6 @@ Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \s
 7. From $a=6(3 e)$, we conclude $6 \vert a$, and this means $a \in\{x \in \mathbb{Z}: 6 \mid x\}$.
 	( Since $a$ is divisible by $6$ it must also by in the set of all ints divis by $6$ )
 8. We have shown that $a \in\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\}$ implies $a \in\{x \in \mathbb{Z}: 6 \mid x\}$, so it follows that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$.
+### Example 3
+Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \subseteq\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$
+(Prove the set of ordered pairs that have the same remainder for modulo $6$ is the subset of ordered pairs that have the same remainder for modulo $3$)
