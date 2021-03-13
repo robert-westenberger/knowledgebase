@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T22:41:44.265Z
+date: 2021-03-13T22:45:46.801Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -56,3 +56,12 @@ Prove that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid 
 	(Our supposition)
   
 2. This means that $a \in \Z$ and $18 \vert a$.
+	(Subsitute in $a$ for $x$ in the notation for the set).
+
+3. By definition of divisibility, there is an integer $c$ for which $a = 18c$.
+
+4. Consequently, $a=6(3c)$, and from this we deduce $6 \vert a$.
+
+5. Therefore $a$ is one of the integers that $6$ divides, so $a \in\{x \in \mathbb{Z}: 6 \mid x\}$.
+
+6. We've shown $a \in\{x \in \mathbb{Z}: 18 \mid x\}$ implies $a \in\{x \in \mathbb{Z}: 6 \mid x\}$, so it follows that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$.
