@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T00:14:29.113Z
+date: 2021-03-13T00:16:59.141Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -357,3 +357,4 @@ We see that $n$ is equal to the sum of three consecutive integers. That sum can 
 $$
 a^2 + b^2 = (2x)^2 + (2y)^2 = 4x^2 + 4y^2 = 4(x^2 + y^2)
 $$
+Since $x^2 + y^2$ is an integer, that is a multiple of 4, so it is even. Therefore, $a^2 + b^2$ is even.
