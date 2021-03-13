@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:15:13.458Z
+date: 2021-03-13T21:19:49.983Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -31,3 +31,4 @@ However, $\{1,2,3,4\} \notin A$ because $|\{1,2,3,4\}| \neq 3$
 $B=\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod \medspace 5)\}$
 
 $(8,23)\in B$ because $(8,23) \in \mathbb{Z} \times \mathbb{Z}$ and $8 \equiv 23(\bmod \medspace 5)$.
+Likewise, $(100, 75) \in B$, $(102, 77) \in B$ etc., but $(6, 10) \notin B$
