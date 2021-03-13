@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T22:49:53.021Z
+date: 2021-03-13T22:53:36.837Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -67,5 +67,6 @@ Prove that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid 
 6. We've shown $a \in\{x \in \mathbb{Z}: 18 \mid x\}$ implies $a \in\{x \in \mathbb{Z}: 6 \mid x\}$, so it follows that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$.
 ### Example 2
 Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$
-
-**Proof:** Suppose 
+(Prove the intersection between the set of all integers divisibly by $2$ and integers divisible by $9$ is the subset of all integers divisible by $6$)
+**Proof:** 
+1. Suppose $a \in\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\}$
