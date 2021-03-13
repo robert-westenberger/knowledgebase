@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:12:09.031Z
+date: 2021-03-13T21:15:13.458Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -28,3 +28,6 @@ We know that $\{4,13,45\}\in A$ because $\{4,13,45\} \in \mathscr{P}(\mathbb{N})
 However, $\{1,2,3,4\} \notin A$ because $|\{1,2,3,4\}| \neq 3$
 
 ### Example 3
+$B=\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod \medspace 5)\}$
+
+$(8,23)\in B$ because $(8,23) \in \mathbb{Z} \times \mathbb{Z}$ and $8 \equiv 23(\bmod \medspace 5)$.
