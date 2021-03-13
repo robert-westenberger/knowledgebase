@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-12T23:07:15.441Z
+date: 2021-03-13T00:01:26.712Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -345,4 +345,11 @@ Both $a$ and $b$ are divisible by $3$, so they are not coprime integers and they
 #### Solution
 1. Proof by contradiction. Assume there are integers $x$ and $y$ where $x$ is a prime greater than $5$ and $x=6y+3$. This implies $x$ is a divisible by 3, since $y$ is an integer that is multiplied by a multiple of 3 and has 3 added to it. Since $x$ is divisible by a number besides 1 and itself, this is a contradiction to our initial assumption. Therefore $x$ and $y$ do not exist. $\blacksquare$
 
-2. 
+2. Direct Proof. Assume $n$ is a multiple of $3$ and there are some consecutive integers $x$, $x+1$, and $x+2$ that sum to n. So we have 
+$$
+3n = x + x+1 + x+2 = 3x + 3 = 3(x+1)
+$$
+$$
+n = 3(x+1)
+$$
+We see that $n$ is equal to the sum of three consecutive integers. That sum can be represented as an integer $x+1$ which itself is a multiple of $3$, so $n$ must be a multiple of $33.
