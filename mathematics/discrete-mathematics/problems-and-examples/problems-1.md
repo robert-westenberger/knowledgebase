@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T02:17:21.522Z
+date: 2021-03-13T02:21:41.617Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -391,3 +391,4 @@ $$
 ab = (2x)(3y) = 6(xy)
 $$
 $x$ and $y$ are an integer that is a multiple of $6$. $\blacksquare$
+**b)** The converse is, "If $ab$ is a multiple of $6$, then $a$ is even and $b$ is a multiple of $3$". The converse is false. Consider the case $a=1$ and $b=6$. $ab=6$ which is a multiple of $6$ and $b$ is a multiple of $3$, but $a$ is odd.
