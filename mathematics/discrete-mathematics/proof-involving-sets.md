@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:09:52.431Z
+date: 2021-03-13T23:17:08.708Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -83,7 +83,7 @@ Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \s
 	(More logical insights about $a$)
   
 6. Then $d=2e$ for some integer $e$, and we have $a=9 d=9(2 e)=6(3 e)$.
-	()
+	(Use insights from previous steps to establish $a$ is also a multiple of $6$)
 
 7. From $a=6(3 e)$, we conclude $6 \vert a$, and this means $a \in\{x \in \mathbb{Z}: 6 \mid x\}$.
 
