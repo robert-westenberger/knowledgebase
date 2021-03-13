@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:44:13.119Z
+date: 2021-03-13T21:54:50.370Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -41,5 +41,6 @@ $C=\left\{3 x^{3}+2: x \in \mathbb{Z}\right\}$
 Elements of this set consist of all the values $3x^3 + 2$ where $x$ is an integer. Thus $-22 \in C$ because $-22=3(-2)^{3}+2$. You can confirm $-1 \in C$ and $5 \in C$. $0 \notin C$ and $\frac 12 \notin C$ etc.
 
 # How to Prove $A \subseteq B$
-
-a
+To prove $A \subseteq B$, we need to prove
+$$a \in A \longrightarrow a \in B$$
+This can be proved directly, assuming $a \in A$ and deducing $a \in B$.
