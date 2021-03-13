@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:53:52.691Z
+date: 2021-03-13T23:56:42.651Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -48,7 +48,7 @@ This can be proved directly, assuming $a \in A$ and deducing $a \in B$.
 The contrapositive approach is another option: Assume $a \notin B$ and deduce $a \notin A$.
 
 
-If $A$ and $B$ are sets,
+If $A$ and $B$ are sets, then $\mathscr{P}(A) \cup \mathscr{P}(B) \subseteq \mathscr{P}(A \cup B)$. 
 
 
 ## Examples
