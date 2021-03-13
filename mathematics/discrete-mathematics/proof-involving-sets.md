@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:25:14.837Z
+date: 2021-03-13T21:29:41.545Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -36,3 +36,6 @@ Likewise, $(100, 75) \in B$, $(102, 77) \in B$ etc., but $(6, 10) \notin B$
 Suppose $n \in \mathbb{Z}$ and consider the ordered pair $(4 n+3,9 n-2)$. Does this ordered pair belong in $B$? To answer this, we observe that $(4 n+3,9 n-2) \in \mathbb{Z} \times \mathbb{Z}$. Next, we observe $(4 n+3)-(9 n-2)=-5 n+5=5(1-n)$, so $5 \mid((4 n+3)-(9 n-2))$, which means $(4 n+3) \equiv(9 n-2)(\bmod 5)$. Therefore we have established that $(4 n+3,9 n-2)$ meets the requirements for belonging to $B$, so $(4 n+3,9 n-2) \in B$ for every $n \in \mathbb{Z}$.
 
 ### Example 4
+$C=\left\{3 x^{3}+2: x \in \mathbb{Z}\right\}$
+
+Elements of this set consist of all the values $3x^3 + 2$ where $x$ is an integer. Thus $-22 \in C$ because $-22=3(-2)^{3}+2$. You can confirm $-1 \in C$ and $5 \in C$. $0 \notin C$ and $\frac 12 \notin C$ etc. 
