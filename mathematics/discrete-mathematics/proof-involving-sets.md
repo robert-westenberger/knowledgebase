@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:54:50.370Z
+date: 2021-03-13T21:57:37.789Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -44,3 +44,5 @@ Elements of this set consist of all the values $3x^3 + 2$ where $x$ is an intege
 To prove $A \subseteq B$, we need to prove
 $$a \in A \longrightarrow a \in B$$
 This can be proved directly, assuming $a \in A$ and deducing $a \in B$.
+
+The contrapositive approach is another option: Assume $a \notin B$ and deduce $a \notin A$.
