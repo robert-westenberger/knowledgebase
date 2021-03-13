@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:03:20.493Z
+date: 2021-03-13T23:04:27.434Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -73,7 +73,7 @@ Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \s
 	(Suppose $a$ is in the intersection between two sets.. ints divis by $2$ and ints divis by $9$)
   
 2. By definition of intersection, this means $a \in\{x \in \mathbb{Z}: 2 \mid x\}$ and $a \in\{x \in \mathbb{Z}: 9 \mid x\}$.
-
+	(Use definition of intersection to establish $a$ is in both sets of integers)
 3. Since $a \in\{x \in \mathbb{Z}: 2 \mid x\}$ we know $2 \vert a$, so $a=2c$ for some $c \in \Z$. Thus $a$ is even.
 
 4. Since $a \in\{x \in \mathbb{Z}: 9 \mid x\}$ we know $9 \vert a$, so $a=9d$ for some $d \in \Z$.
