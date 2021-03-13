@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:11:40.308Z
+date: 2021-03-13T21:12:09.031Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -26,3 +26,5 @@ This set has form $A = \{x:P(x)\}$ where $P(x)$ is the open sentence $(x \in \ma
 $A=\{X \in \mathscr{P}(\mathbb{N}):|X|=3\}$
 We know that $\{4,13,45\}\in A$ because $\{4,13,45\} \in \mathscr{P}(\mathbb{N})$ and $|\{4,13,45\}|=3$.
 However, $\{1,2,3,4\} \notin A$ because $|\{1,2,3,4\}| \neq 3$
+
+### Example 3
