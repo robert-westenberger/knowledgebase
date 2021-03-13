@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T00:03:06.025Z
+date: 2021-03-13T00:14:29.113Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -353,3 +353,7 @@ $$
 n = 3(x+1)
 $$
 We see that $n$ is equal to the sum of three consecutive integers. That sum can be represented as an integer $x+1$ which itself is a multiple of $3$, so $n$ must be a multiple of $3$. $\blacksquare$
+3. Proof by contrapositive. If $a$ and $b$ are even, then $a^2 + b^2$ is even. There are some numbers $x$ and $y$ such that $2x=a$ and $2y=b$. So we get 
+$$
+a^2 + b^2 = (2x)^2 + (2y)^2 = 4x^2 + 4y^2 = 4(x^2 + y^2)
+$$
