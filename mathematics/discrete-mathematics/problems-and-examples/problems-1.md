@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T05:12:17.584Z
+date: 2021-03-13T05:16:58.555Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -415,3 +415,6 @@ $$
 \end{array} \\
 $$
 Add $a$ to both sides to get $a^5 \gt a$ $\blacksquare$ 
+
+### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 9 
+Suppose $A \backslash B \subseteq C \cap D$ and $x \in A$. Prove that if 
