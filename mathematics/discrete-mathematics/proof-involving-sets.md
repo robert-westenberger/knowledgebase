@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T22:28:52.882Z
+date: 2021-03-13T22:38:36.750Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,5 +50,6 @@ The contrapositive approach is another option: Assume $a \notin B$ and deduce $a
 ## Examples
 ### Example 1
 Prove that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$
+(Prove the set of integers that are divisible by 18 is a subset of the set of integers that are divisible by 6) 
 **Proof:** Suppose  $a \in\{x \in \mathbb{Z}: 18 \mid x\}$.
-This means that $a \in \Z$
+This means that $a \in \Z$ and $18 \vert a$.
