@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T00:31:20.103Z
+date: 2021-03-13T00:32:31.621Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -365,3 +365,4 @@ a. Prove the statement. What sort of proof are you using?
 b. Is the converse true? Prove or disprove.
 
 #### Solution
+
