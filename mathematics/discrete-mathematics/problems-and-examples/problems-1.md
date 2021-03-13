@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T05:10:25.016Z
+date: 2021-03-13T05:12:17.584Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -412,5 +412,6 @@ $$
 \begin{array}{l}
 =a^{5}-a^{3}+a^{3}-a>0 \\
 =a^{5}-a>0
-\end{array}
+\end{array} \\
 $$
+Add $a$ to both sides to get $a^5 \gt a$ $\blacksquare$ 
