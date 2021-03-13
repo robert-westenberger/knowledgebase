@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T03:46:16.814Z
+date: 2021-03-13T04:26:34.894Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -396,4 +396,4 @@ $x$ and $y$ are an integer that is a multiple of $6$. $\blacksquare$
 ### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 6
 Suppose $a$ and $b$ are real numbers. Prove that if $0 \lt a \lt b$ then $1/b \lt 1/a$.
 #### Solution
-**Scratch:**
+**Proof:** We can multiply both sides of the inequality by the positive number $\frac{1}{ab}$, resulting in $\frac{a}{ab} \lt \frac{b}{ab}$. This can be reduced to $\frac{1}{b}<\frac{1}{a}$. $\blacksquare$
