@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:29:41.545Z
+date: 2021-03-13T21:44:13.119Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -38,4 +38,8 @@ Suppose $n \in \mathbb{Z}$ and consider the ordered pair $(4 n+3,9 n-2)$. Does t
 ### Example 4
 $C=\left\{3 x^{3}+2: x \in \mathbb{Z}\right\}$
 
-Elements of this set consist of all the values $3x^3 + 2$ where $x$ is an integer. Thus $-22 \in C$ because $-22=3(-2)^{3}+2$. You can confirm $-1 \in C$ and $5 \in C$. $0 \notin C$ and $\frac 12 \notin C$ etc. 
+Elements of this set consist of all the values $3x^3 + 2$ where $x$ is an integer. Thus $-22 \in C$ because $-22=3(-2)^{3}+2$. You can confirm $-1 \in C$ and $5 \in C$. $0 \notin C$ and $\frac 12 \notin C$ etc.
+
+# How to Prove $A \subseteq B$
+
+a
