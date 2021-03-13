@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-03-13T06:42:19.686Z
+date: 2021-03-13T06:42:56.678Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -22,7 +22,7 @@ Resources used
 Logical Formulas
 Truth tables
 [Types of Proofs](/mathematics/discrete-mathematics/types-of-proofs)
-[proof-involving-sets](/mathematics/discrete-mathematics/proof-involving-sets)
+[Proofs Involving Sets](/mathematics/discrete-mathematics/proof-involving-sets)
 [Well Ordering Principle](/mathematics/discrete-mathematics/well-ordering-principle)
 
 Deduction
