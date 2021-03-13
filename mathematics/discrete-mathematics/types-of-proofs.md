@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-12T21:22:09.220Z
+date: 2021-03-13T02:44:44.659Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -137,6 +137,13 @@ $\blacksquare$
 
 5. Therefore, $p=2$, completing the proof.
 $\blacksquare$
+
+#### Example #5 of Proof by Contrapositive
+**Theorem:** Suppose $a$, $b$, and $c$ are real numbers $a \gt b$. If $ac \le bc$ then $c \le 0$.
+**Proof:**
+1. We prove the contrapositive: Suppose $c \gt 0$.
+(Our converse statement)
+2. We can multiply both sides of the given inequality by $a \gt b$, getting $ac \gt bc$.Therefore, if $ac \le bc$ then $c \le 0$. $\blacksquare$ 
 
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
