@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T03:30:33.639Z
+date: 2021-03-13T03:46:16.814Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -393,5 +393,7 @@ $$
 $x$ and $y$ are an integer that is a multiple of $6$. $\blacksquare$
 **b)** The converse is, "If $ab$ is a multiple of $6$, then $a$ is even and $b$ is a multiple of $3$". The converse is false. Consider the case $a=1$ and $b=6$. $ab=6$ which is a multiple of $6$ and $b$ is a multiple of $3$, but $a$ is odd.
 
-### How to Prove it A Structured Approach: Second Edition
+### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 6
+Suppose $a$ and $b$ are real numbers. Prove that if $0 \lt a \lt b$ then $1/b \lt 1/a$.
 #### Solution
+**Scratch:**
