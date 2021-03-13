@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T02:11:56.084Z
+date: 2021-03-13T02:17:21.522Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -378,3 +378,16 @@ b. How many dice would you have to roll before you were guaranteed that some fou
 a. Proof by contradiction. Suppose we roll $40$ $6$ sided dice, no more than $6$ dice will land on the same number. That means that we have rolled, at the most, $36$ dice. This is a contradiction, proving our claim that there will be at least $7$ dice with the same result. $\blacksquare$
 b. Proof by contradiction. Suppose you roll $10$ dice, but that there are no more than $4$ rolls that match or are all different. That means at most, there are $3$ of any given value. If we had just $3$ different values, that would be only $9$ dice, so there must be $4$ different values, giving $4$ dice that are all different. $\blacksquare$
 
+### Discrete Math Workbook 3rd Edition Section 3.2 Question 7
+#### Solution
+Consider the statement: for all integers $a$ and $b$ , if $a$ is even and $b$ is a multiple of $3$, then $ab$ is a multiple of $6$. 
+**a)** Prove the statement. What sort of proof are you using? 
+**b)** State the converse. Is it true? Prove or disprove.
+
+
+#### Solution
+**a)** Direct Proof. $a=2x$ for some integer $x$. $b=3y$ for some integer $y$. From that we get 
+$$
+ab = (2x)(3y) = 6(xy)
+$$
+$x$ and $y$ are an integer that is a multiple of $6$. $\blacksquare$
