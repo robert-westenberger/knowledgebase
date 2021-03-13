@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:05:56.257Z
+date: 2021-03-13T23:09:52.431Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -77,10 +77,13 @@ Prove that $\{x \in \mathbb{Z}: 2 \mid x\} \cap\{x \in \mathbb{Z}: 9 \mid x\} \s
 3. Since $a \in\{x \in \mathbb{Z}: 2 \mid x\}$ we know $2 \vert a$, so $a=2c$ for some $c \in \Z$. Thus $a$ is even.
 	(Use $a$'s membership to this particular set to establish some more information about $a$)
 4. Since $a \in\{x \in \mathbb{Z}: 9 \mid x\}$ we know $9 \vert a$, so $a=9d$ for some $d \in \Z$.
+	(Same as 3, more information about $a$)
 
 5. As $a$ is even, $a=9d$ implies $d$ is even.
-
+	(More logical insights about $a$)
+  
 6. Then $d=2e$ for some integer $e$, and we have $a=9 d=9(2 e)=6(3 e)$.
+	()
 
 7. From $a=6(3 e)$, we conclude $6 \vert a$, and this means $a \in\{x \in \mathbb{Z}: 6 \mid x\}$.
 
