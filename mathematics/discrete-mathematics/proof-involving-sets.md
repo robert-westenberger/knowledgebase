@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:57:37.789Z
+date: 2021-03-13T21:58:16.475Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -46,3 +46,7 @@ $$a \in A \longrightarrow a \in B$$
 This can be proved directly, assuming $a \in A$ and deducing $a \in B$.
 
 The contrapositive approach is another option: Assume $a \notin B$ and deduce $a \notin A$.
+
+## Examples
+### Example 1
+Prove that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$
