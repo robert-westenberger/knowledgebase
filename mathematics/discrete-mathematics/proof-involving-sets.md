@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T21:24:25.873Z
+date: 2021-03-13T21:24:31.358Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -33,4 +33,4 @@ $B=\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod \medspace 5)\}$
 $(8,23)\in B$ because $(8,23) \in \mathbb{Z} \times \mathbb{Z}$ and $8 \equiv 23(\bmod \medspace 5)$.
 Likewise, $(100, 75) \in B$, $(102, 77) \in B$ etc., but $(6, 10) \notin B$
 
-Suppose $n \in \mathbb{Z}$ and consider the ordered pair $(4 n+3,9 n-2)$. Does this ordered pair belong in $B$? To answer this, we observe that $(4 n+3,9 n-2) \in \mathbb{Z} \times \mathbb{Z}$. Next, we observe $(4 n+3)-(9 n-2)=-5 n+5=5(1-n)$, so $5 \mid((4 n+3)-(9 n-2))$, which means $(4 n+3) \equiv(9 n-2)(\bmod 5)$. Therefore we have established that $(4 n+3,9 n-2)$ meets the requirements for belonging to $B$, so $(4 n+3,9 n-2) \in B$ for every $n \in \mathbb{Z}$
+Suppose $n \in \mathbb{Z}$ and consider the ordered pair $(4 n+3,9 n-2)$. Does this ordered pair belong in $B$? To answer this, we observe that $(4 n+3,9 n-2) \in \mathbb{Z} \times \mathbb{Z}$. Next, we observe $(4 n+3)-(9 n-2)=-5 n+5=5(1-n)$, so $5 \mid((4 n+3)-(9 n-2))$, which means $(4 n+3) \equiv(9 n-2)(\bmod 5)$. Therefore we have established that $(4 n+3,9 n-2)$ meets the requirements for belonging to $B$, so $(4 n+3,9 n-2) \in B$ for every $n \in \mathbb{Z}$.
