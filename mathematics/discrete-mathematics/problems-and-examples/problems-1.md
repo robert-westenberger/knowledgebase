@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T04:26:34.894Z
+date: 2021-03-13T04:30:40.223Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -397,3 +397,7 @@ $x$ and $y$ are an integer that is a multiple of $6$. $\blacksquare$
 Suppose $a$ and $b$ are real numbers. Prove that if $0 \lt a \lt b$ then $1/b \lt 1/a$.
 #### Solution
 **Proof:** We can multiply both sides of the inequality by the positive number $\frac{1}{ab}$, resulting in $\frac{a}{ab} \lt \frac{b}{ab}$. This can be reduced to $\frac{1}{b}<\frac{1}{a}$. $\blacksquare$
+
+### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 7
+Suppose that $a$ is a real number. Prove that if $a^{3}>a$ then $a^{5}>a$. (Hint: One approach is to start by completing the following equation $a^{5}-a=\left.\left(a^{3}-a\right) \cdot \underline{?} .\right)$
+#### Solution
