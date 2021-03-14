@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T00:35:46.621Z
+date: 2021-03-14T00:39:02.774Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -116,5 +116,13 @@ Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \su
 **Theorem:** If $A$ and $B$ are sets, then $\mathscr{P}(A) \cup \mathscr{P}(B) \subseteq \mathscr{P}(A \cup B)$
 **Proof:** 
 1. Suppose $X \in \mathscr{P}(A) \cup \mathscr{P}(B)$.
+
 2. By definition of union, this means $X \in \mathscr{P}(A)$ or $X \in \mathscr{P}(B)$.
+
 3. Therefore $X \subseteq A$ or $X \subseteq B$ (by definition of power sets). We consider cases.
+
+4. **Case 1:** Suppose $X \subseteq A$. Then $X \subseteq A \cup B$, and this means $X \in \mathscr{P}(A \cup B)$. 
+
+5. **Case 2:** Suppose $X \subseteq B$. Then $X \subseteq A \cup B$, and this means $X \in \mathscr{P}(A \cup B)$. 
+
+6. (We do not need to consider the case where $X \subseteq A$ **and** $X \subseteq B$ because that is taken care of by either of our cases). The above cases show $X \in \mathscr{P}(A \cup B)$.
