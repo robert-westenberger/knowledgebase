@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:35:45.323Z
+date: 2021-03-14T02:46:19.026Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -216,4 +216,14 @@ This example shows another way set operations are similar to operations on numbe
 6. Now we have $(a, b) \in A \times B$ and $(a, b) \in A \times C$, so $(a, b) \in(A \times B) \cap(A \times C)$
 7. We've shown that $(a, b) \in A \times(B \cap C)$ implies $(a, b) \in(A \times B) \cap(A \times C)$, so we have $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
 
-9. 
+**Part 2:** Show that $(A \times B) \cap(A \times C) \subseteq A \times(B \cap C)$
+
+8. Suppose $(a, b) \in(A \times B) \cap(A \times C)$
+9. This means $(a, b) \in A \times B$ and $(a, b) \in A \times C$
+	(Definition of Intersection)
+10. $(a, b) \in A \times B$ means $a \in A$ and $b \in B$ 
+	(Definition of Cartesian Product)
+11. $(a, b) \in A \times C$ means $a \in A$ and $b \in C$ 
+	(Definitiion of Cartesian Product)
+12. We now have $b \in B$ and $b \in C$, so $b \in B \cap C$
+	(By definition of intersection)
