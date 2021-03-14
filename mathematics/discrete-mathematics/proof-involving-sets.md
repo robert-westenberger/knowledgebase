@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:46:19.026Z
+date: 2021-03-14T02:47:27.129Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -227,3 +227,4 @@ This example shows another way set operations are similar to operations on numbe
 	(Definitiion of Cartesian Product)
 12. We now have $b \in B$ and $b \in C$, so $b \in B \cap C$
 	(By definition of intersection)
+13. Thus we've deduced that $a \in A$ and $b \in B \cap C$, so 
