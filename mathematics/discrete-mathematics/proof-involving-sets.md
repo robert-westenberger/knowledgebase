@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T00:02:58.537Z
+date: 2021-03-14T00:31:26.795Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -113,3 +113,4 @@ Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \su
 6. We've now seen that $(a, b) \in\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\}$ implies $(a, b) \in \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$, so it follows that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \subseteq \{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 3)\}$ $\blacksquare$
 
 ### Example 4: Prove that if $A$ and $B$ are sets, then $\mathscr{P}(A) \cup \mathscr{P}(B) \subseteq \mathscr{P}(A \cup B)$
+
