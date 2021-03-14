@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:45:11.379Z
+date: 2021-03-14T01:49:36.947Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -170,9 +170,13 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 **Proof:** 
 1. Suppose $A \times C=B \times C$. We must show that $A=B$
 2. First we will show $A \subseteq B$
+	(**first major half of proof**)
 3. Suppose $a \in A$
 4. Since $C \ne \emptyset$, there exists an element $c \in C$.
 5. Thus, since $a \in A$ and $c \in C$, we have $(a, c) \in A \times C$ by definition of the Cartesian Product.
 6. Since $A \times C=B \times C$, it follows that $(a, c) \in B \times C$. 
 7. But $(a, c) \in B \times C$ means $a \in B$, by definition of the Cartesian product. 
 8. We have shown that $a \in A$ implies $a \in B$, so $a \subseteq B$.
+
+9. Next we will show $B \subseteq A$.
+	(**first major half of proof**. It is just the previous lines 3-8)
