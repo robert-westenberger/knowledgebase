@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:30:08.617Z
+date: 2021-03-14T01:34:14.885Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -166,3 +166,4 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 14. At this point we've shown that $\{n \in \mathbb{Z}: 35 \mid n\} \subseteq\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$ and $\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\} \subseteq\{n \in \mathbb{Z}: 35 \mid n\}$, so we've proved $\{n \in \mathbb{Z}: 35 \mid n\}= \{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$. $\blacksquare$
 
 ### Example 2
+**Theorem:** For sets $A$, $B$, and $C$, $C \ne \emptyset$, $A \times C=B \times C \longrightarrow A=B$ 
