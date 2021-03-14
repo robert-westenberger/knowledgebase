@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-13T23:56:42.651Z
+date: 2021-03-14T00:00:36.247Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,7 +50,15 @@ The contrapositive approach is another option: Assume $a \notin B$ and deduce $a
 
 If $A$ and $B$ are sets, then $\mathscr{P}(A) \cup \mathscr{P}(B) \subseteq \mathscr{P}(A \cup B)$. 
 
+A small example of this...
+$$
+\begin{aligned}
+\mathscr{P}(A) \cup \mathscr{P}(B) &=\{\varnothing,\{1\},\{2\},\{1,2\}\} \cup\{\varnothing,\{2\},\{3\},\{2,3\}\} \\
+&=\{\varnothing,\{1\},\{2\},\{3\},\{1,2\},\{2,3\}\} .
+\end{aligned}
+$$
 
+Also, $\mathscr{P}(A \cup B)=\mathscr{P}(\{1,2,3\})=\{\varnothing,\{1\},\{2\},\{3\},\{1,2\},\{2,3\},\{1,3\},\{1,2,3\}\}$
 ## Examples
 ### Example 1
 Prove that $\{x \in \mathbb{Z}: 18 \mid x\} \subseteq\{x \in \mathbb{Z}: 6 \mid x\}$
