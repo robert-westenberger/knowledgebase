@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:29:17.463Z
+date: 2021-03-14T01:30:08.617Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -164,3 +164,5 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 12. Then $a$ has both $5$ and $7$ as prime factors, so the prime factorization of $a$ must include factors of $5$ and $7$. Hence $5 \cdot 7 =35$ divides $a$, so $a \in\{n \in \mathbb{Z}: 35 \mid n\}$.
 13. We've now shown that $\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\} \subseteq\{n \in \mathbb{Z}: 35 \mid n\}$.
 14. At this point we've shown that $\{n \in \mathbb{Z}: 35 \mid n\} \subseteq\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$ and $\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\} \subseteq\{n \in \mathbb{Z}: 35 \mid n\}$, so we've proved $\{n \in \mathbb{Z}: 35 \mid n\}= \{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$. $\blacksquare$
+
+### Example 2
