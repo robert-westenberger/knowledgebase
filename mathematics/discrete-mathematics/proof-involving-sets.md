@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:58:56.769Z
+date: 2021-03-14T02:00:00.877Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -192,5 +192,5 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 12. Thus, since $a \in B$ and $c \in C$, we have $(a, c) \in B \times C$ by definition of the Cartesian Product.
 13. Since $B \times C=A \times C$, we have $(a, c) \in A \times C$
 14. It follows that $a \in A$
-
+15. We have shown $a \in B$ implies $a \in A$, so $B \subseteq A$.
 
