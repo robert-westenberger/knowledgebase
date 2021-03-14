@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:00:00.877Z
+date: 2021-03-14T02:01:38.624Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -194,3 +194,6 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 14. It follows that $a \in A$
 15. We have shown $a \in B$ implies $a \in A$, so $B \subseteq A$.
 
+(**Conclusion of Proof**)
+
+16. We have shown $A \subseteq B$ and $B \subseteq A$, so $A=B$. In summary, we have shown that if $A \times C=B \times C$, then $A=B$. This completes the proof. $\blacksquare$
