@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T00:32:00.184Z
+date: 2021-03-14T00:32:39.726Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
