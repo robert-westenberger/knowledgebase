@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:15:57.047Z
+date: 2021-03-14T01:16:33.709Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -147,4 +147,5 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 ## Examples
 
 ### Example 1
-Prove that $\{n \in \mathbb{Z}: 35 \mid n\}=\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$
+**Theorem:** $\{n \in \mathbb{Z}: 35 \mid n\}=\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$
+
