@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:03:04.538Z
+date: 2021-03-14T01:15:57.047Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -141,3 +141,10 @@ Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \su
 6. This means that $\{a\} \subseteq B$, hence $a \in B$.
 7. We've shown that $a \in A$ implies $a \in B$, so therefore $A \subseteq B$. $\blacksquare$
 
+# How to Prove $A = B$
+Prove that both $A \subseteq B$ **and** $B \subseteq A$.
+
+## Examples
+
+### Example 1
+Prove that $\{n \in \mathbb{Z}: 35 \mid n\}=\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$
