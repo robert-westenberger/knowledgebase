@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T00:39:02.774Z
+date: 2021-03-14T00:40:32.040Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -126,3 +126,6 @@ Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \su
 5. **Case 2:** Suppose $X \subseteq B$. Then $X \subseteq A \cup B$, and this means $X \in \mathscr{P}(A \cup B)$. 
 
 6. (We do not need to consider the case where $X \subseteq A$ **and** $X \subseteq B$ because that is taken care of by either of our cases). The above cases show $X \in \mathscr{P}(A \cup B)$.
+
+7. Thus we've shown that $X \in \mathscr{P}(A) \cup \mathscr{P}(B)$ implies $X \in \mathscr{P}(A \cup B)$, and this completes the proof that $\mathscr{P}(A) \cup \mathscr{P}(B) \subseteq \mathscr{P}(A \cup B)$ $\blacksquare$
+
