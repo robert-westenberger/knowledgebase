@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:15:10.547Z
+date: 2021-03-14T02:18:35.953Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -203,3 +203,5 @@ This example shows that, similar to algebra, if $c \ne 0$ and $ac=bc$, then $a=b
 This example shows another way set operations are similar to operations on numbers. The distributive property $a \cdot(b+c)=a \cdot b+a \cdot c$ works with sets. Just replace variables with sets. Replace $\cdot$ with $\times$ (Cartesian Product) and $+$ with $\cup$ (union).
 **Theorem:** $A \times(B \cap C)=(A \times B) \cap(A \times C)$ for all sets $A$, $B$, and $C$
 **Proof:**
+1. First we will show that $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
+2. Suppose  $(a, b) \in A \times(B \cap C)$
