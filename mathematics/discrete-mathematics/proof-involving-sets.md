@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:01:38.624Z
+date: 2021-03-14T02:03:28.112Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -166,6 +166,7 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 14. At this point we've shown that $\{n \in \mathbb{Z}: 35 \mid n\} \subseteq\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$ and $\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\} \subseteq\{n \in \mathbb{Z}: 35 \mid n\}$, so we've proved $\{n \in \mathbb{Z}: 35 \mid n\}= \{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$. $\blacksquare$
 
 ### Example 2
+This example shows that, similar to algebra, if $c \ne 0$ and $ac=bc$, then $a=b$. This holds for sets, if $C \ne \emptyset$.
 **Theorem:** For sets $A$, $B$, and $C$, $C \ne \emptyset$; If $A \times C=B \times C$, then $A=B$
 **Proof:** 
 1. Suppose $A \times C=B \times C$. We must show that $A=B$
