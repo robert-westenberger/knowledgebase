@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:30:12.180Z
+date: 2021-03-14T02:35:45.323Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -203,16 +203,17 @@ This example shows that, similar to algebra, if $c \ne 0$ and $ac=bc$, then $a=b
 This example shows another way set operations are similar to operations on numbers. The distributive property $a \cdot(b+c)=a \cdot b+a \cdot c$ works with sets. Just replace variables with sets. Replace $\cdot$ with $\times$ (Cartesian Product) and $+$ with $\cup$ (intersection).
 **Theorem:** $A \times(B \cap C)=(A \times B) \cap(A \times C)$ for all sets $A$, $B$, and $C$
 **Proof:**
-1. First we will show that $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
-2. Suppose  $(a, b) \in A \times(B \cap C)$
-3. $a \in A$ and $b \in B \cap C$
+**Part 1:** Show that $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
+1. Suppose  $(a, b) \in A \times(B \cap C)$
+2. $a \in A$ and $b \in B \cap C$
 	(Definition of Cartesian Product)
-4. It follows that $b \in B$ and $b \in C$
+3. It follows that $b \in B$ and $b \in C$
 	(Definition of intersection)
-5. Since $a \in A$ and $b \in B$, it follows that $(a, b) \in A \times B$
+4. Since $a \in A$ and $b \in B$, it follows that $(a, b) \in A \times B$
 	(Definition of Cartesian Product)
-6. Also since $a \in A$ and $b \in C$, it follows that $(a, b) \in A \times C$
+5. Also since $a \in A$ and $b \in C$, it follows that $(a, b) \in A \times C$
 	(Definition of Cartesian Product)
-7. Now we have $(a, b) \in A \times B$ and $(a, b) \in A \times C$, so $(a, b) \in(A \times B) \cap(A \times C)$
-8. We've shown that $(a, b) \in A \times(B \cap C)$ implies $(a, b) \in(A \times B) \cap(A \times C)$, so we have $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
+6. Now we have $(a, b) \in A \times B$ and $(a, b) \in A \times C$, so $(a, b) \in(A \times B) \cap(A \times C)$
+7. We've shown that $(a, b) \in A \times(B \cap C)$ implies $(a, b) \in(A \times B) \cap(A \times C)$, so we have $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
 
+9. 
