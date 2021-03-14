@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:03:28.112Z
+date: 2021-03-14T02:12:23.107Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -198,3 +198,7 @@ This example shows that, similar to algebra, if $c \ne 0$ and $ac=bc$, then $a=b
 (**Conclusion of Proof**)
 
 16. We have shown $A \subseteq B$ and $B \subseteq A$, so $A=B$. In summary, we have shown that if $A \times C=B \times C$, then $A=B$. This completes the proof. $\blacksquare$
+
+### Example 3
+This example shows another way set operations are similar to operations on numbers. The distributive property $a \cdot(b+c)=a \cdot b+a \cdot c$ works with sets. Just replace variables with sets. Replace $\cdot$ with $\times$ (Cartesian Product) and $+$ with $\cup$ (union).
+**Theorem:** $A \times(B \cap C)=(A \times B) \cap(A \times C)$ for all sets $A$, $B$, and $C$
