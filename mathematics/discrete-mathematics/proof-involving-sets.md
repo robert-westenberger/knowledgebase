@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:50:33.626Z
+date: 2021-03-14T02:52:24.265Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -233,3 +233,5 @@ This example shows another way set operations are similar to operations on numbe
 
 14. In summary, we've shown that $(a, b) \in(A \times B) \cap(A \times C)$ implies $(a, b) \in A \times(B \cap C)$ so we have $(A \times B) \cap(A \times C) \subseteq A \times(B \cap C)$.
 
+15. We have shown that $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$ and $(A \times B) \cap(A \times C) \subseteq A \times(B \cap C)$, so it follows that $(A \times B) \cap(A \times C)=A \times(B \cap C)$
+$\blacksquare$
