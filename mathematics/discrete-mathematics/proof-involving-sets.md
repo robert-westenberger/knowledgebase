@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:22:26.691Z
+date: 2021-03-14T02:28:07.604Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -211,4 +211,8 @@ This example shows another way set operations are similar to operations on numbe
 	(Definition of intersection)
 5. Since $a \in A$ and $b \in B$, it follows that $(a, b) \in A \times B$
 	(Definition of Cartesian Product)
-6. 
+6. Also since $a \in A$ and $b \in C$, it follows that $(a, b) \in A \times C$
+	(Definition of Cartesian Product)
+7. Now we have $(a, b) \in A \times B$ and $(a, b) \in A \times C$, so $(a, b) \in(A \times B) \cap(A \times C)$
+8. We've shown that $(a, b) \in A \times(B \cap C)$ implies $(a, b) \in(A \times B) \cap(A \times C)$, so we have $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
+
