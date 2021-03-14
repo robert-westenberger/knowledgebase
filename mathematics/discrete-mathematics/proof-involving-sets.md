@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:20:55.038Z
+date: 2021-03-14T02:22:26.691Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -209,3 +209,6 @@ This example shows another way set operations are similar to operations on numbe
 	(Definition of Cartesian Product)
 4. It follows that $b \in B$ and $b \in C$
 	(Definition of intersection)
+5. Since $a \in A$ and $b \in B$, it follows that $(a, b) \in A \times B$
+	(Definition of Cartesian Product)
+6. 
