@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T02:18:35.953Z
+date: 2021-03-14T02:20:55.038Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -200,8 +200,12 @@ This example shows that, similar to algebra, if $c \ne 0$ and $ac=bc$, then $a=b
 16. We have shown $A \subseteq B$ and $B \subseteq A$, so $A=B$. In summary, we have shown that if $A \times C=B \times C$, then $A=B$. This completes the proof. $\blacksquare$
 
 ### Example 3
-This example shows another way set operations are similar to operations on numbers. The distributive property $a \cdot(b+c)=a \cdot b+a \cdot c$ works with sets. Just replace variables with sets. Replace $\cdot$ with $\times$ (Cartesian Product) and $+$ with $\cup$ (union).
+This example shows another way set operations are similar to operations on numbers. The distributive property $a \cdot(b+c)=a \cdot b+a \cdot c$ works with sets. Just replace variables with sets. Replace $\cdot$ with $\times$ (Cartesian Product) and $+$ with $\cup$ (intersection).
 **Theorem:** $A \times(B \cap C)=(A \times B) \cap(A \times C)$ for all sets $A$, $B$, and $C$
 **Proof:**
 1. First we will show that $A \times(B \cap C) \subseteq(A \times B) \cap(A \times C)$
 2. Suppose  $(a, b) \in A \times(B \cap C)$
+3. $a \in A$ and $b \in B \cap C$
+	(Definition of Cartesian Product)
+4. It follows that $b \in B$ and $b \in C$
+	(Definition of intersection)
