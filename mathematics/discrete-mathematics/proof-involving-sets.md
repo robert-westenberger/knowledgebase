@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:16:33.709Z
+date: 2021-03-14T01:29:04.947Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -149,3 +149,18 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 ### Example 1
 **Theorem:** $\{n \in \mathbb{Z}: 35 \mid n\}=\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$
 
+**Proof:** 
+1. First we show $\{n \in \mathbb{Z}: 35 \mid n\} \subseteq\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$.
+2. Suppose $a \in\{n \in \mathbb{Z}: 35 \mid n\}$.
+3. This means that $35 \vert a$, so $a=35c$ for some $c \in Z$. Thus $a=5(7c)$ and $a=7(5c)$.
+4. From $a=5(7c)$ it follows that $5 \vert a$, so $a \in\{n \in \mathbb{Z}: 5 \mid n\}$. 
+5. From $a=7(5c)$ it follows that $7 \vert a$, so $a \in\{n \in \mathbb{Z}: 7 \mid n\}$.
+6. As $a$ belongs to both $\{n \in \mathbb{Z}: 5 \mid n\}$ and $\{n \in \mathbb{Z}: 7 \mid n\}$, we get $a \in\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$. Thus we've shown that $\{n \in \mathbb{Z}: 35 \mid n\} \subseteq\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$. 
+7. Next we show $\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\} \subseteq\{n \in \mathbb{Z}: 35 \mid n\}$
+8. Suppose $a \in\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$.
+9. By definition of intersection, this means that $a \in\{n \in \mathbb{Z}: 5 \mid n\}$ and $a \in\{n \in \mathbb{Z}: 7 \mid n\}$
+10. Therefore it follows that $5 \vert a$ and $7 \vert a$.
+11. By definition of divisibility, there are integers $c$ and $d$ where $a=5c$ and $a=7d$. 
+12. Then $a$ has both $5$ and $7$ as prime factors, so the prime factorization of $a$ must include factors of $5$ and $7$. Hence $5 \cdot 7 =35$ divides $a$, so $a \in\{n \in \mathbb{Z}: 35 \mid n\}$.
+13. We've now shown that $\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\} \subseteq\{n \in \mathbb{Z}: 35 \mid n\}$.
+14. At this point we've shown that $\{n \in \mathbb{Z}: 35 \mid n\} \subseteq\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$ and $\{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\} \subseteq\{n \in \mathbb{Z}: 35 \mid n\}$, so we've proved $\{n \in \mathbb{Z}: 35 \mid n\}= \{n \in \mathbb{Z}: 5 \mid n\} \cap\{n \in \mathbb{Z}: 7 \mid n\}$.
