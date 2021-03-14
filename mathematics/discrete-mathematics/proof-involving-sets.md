@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T00:49:44.014Z
+date: 2021-03-14T01:03:04.538Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -137,3 +137,7 @@ Prove that $\{(x, y) \in \mathbb{Z} \times \mathbb{Z}: x \equiv y(\bmod 6)\} \su
 2. Based on this assumption, we must now show $A \subseteq B$.
 3. To show $A \subseteq B$, suppose that $a \in A$.
 4. Then the one-element set $\{a\}$ is a subset of $A$, so $\{a\} \in \mathscr{P}(A)$
+5. But then, since $\mathscr{P}(A) \subseteq \mathscr{P}(B)$, it follows that $\{a\} \in \mathscr{P}(B)$.
+6. This means that $\{a\} \subseteq B$, hence $a \in B$.
+7. We've shown that $a \in A$ implies $a \in B$, so therefore $A \subseteq B$. $\blacksquare$
+
