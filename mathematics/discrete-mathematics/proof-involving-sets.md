@@ -2,7 +2,7 @@
 title: Proofs Involving Sets
 description: 
 published: true
-date: 2021-03-14T01:53:43.105Z
+date: 2021-03-14T01:58:56.769Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -169,8 +169,12 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 **Theorem:** For sets $A$, $B$, and $C$, $C \ne \emptyset$; If $A \times C=B \times C$, then $A=B$
 **Proof:** 
 1. Suppose $A \times C=B \times C$. We must show that $A=B$
+
+(**First major half of proof**)
+
+
 2. First we will show $A \subseteq B$
-	(**first major half of proof**)
+
 3. Suppose $a \in A$
 4. Since $C \ne \emptyset$, there exists an element $c \in C$.
 5. Thus, since $a \in A$ and $c \in C$, we have $(a, c) \in A \times C$ by definition of the Cartesian Product.
@@ -178,11 +182,15 @@ Prove that both $A \subseteq B$ **and** $B \subseteq A$.
 7. But $(a, c) \in B \times C$ means $a \in B$, by definition of the Cartesian product. 
 8. We have shown that $a \in A$ implies $a \in B$, so $a \subseteq B$.
 
+
+(**Second major half of proof**. It is just the previous lines 3-8 with the roles of $A$ and $B$ reversed.)
+  
 9. Next we will show $B \subseteq A$.
-	(**first major half of proof**. It is just the previous lines 3-8 with the roles of $A$ and $B$ reversed.)
+
 10. Suppose $a \in B$
 11. Since $C \ne \emptyset$, there exists an element $c \in C$.
 12. Thus, since $a \in B$ and $c \in C$, we have $(a, c) \in B \times C$ by definition of the Cartesian Product.
-13. Since $A \times C=B \times C$, it follows that $(a, c) \in B \times C$. 
-14. But $(a, c) \in B \times C$ means $a \in B$, by definition of the Cartesian product. 
-15. We have shown that $a \in A$ implies $a \in B$, so $a \subseteq B$.  
+13. Since $B \times C=A \times C$, we have $(a, c) \in A \times C$
+14. It follows that $a \in A$
+
+
