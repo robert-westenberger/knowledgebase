@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-13T05:47:29.217Z
+date: 2021-03-15T18:24:22.807Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -416,7 +416,7 @@ $$
 $$
 Add $a$ to both sides to get $a^5 \gt a$ $\blacksquare$ 
 
-### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 9 
+### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 8
 Suppose $A \backslash B \subseteq C \cap D$ and $x \in A$. Prove that if $x \notin D$ then $x \in B$.
 
 #### Solution
