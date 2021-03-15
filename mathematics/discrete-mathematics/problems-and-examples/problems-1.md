@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-15T18:24:22.807Z
+date: 2021-03-15T19:27:26.347Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -421,3 +421,4 @@ Suppose $A \backslash B \subseteq C \cap D$ and $x \in A$. Prove that if $x \not
 
 #### Solution
 **Scratch:** We must show that 
+**Proof:** 
