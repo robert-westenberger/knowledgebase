@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-15T18:52:29.378Z
+date: 2021-03-15T19:05:13.640Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -52,15 +52,27 @@ $S \subset T$ indicates that S is a subset of T, but the two are not equal.
 $X \cup Y$ The union of sets $X$ and $Y$ contains all elements appearing in $X$ or $Y$.
 
 $$x \in X \cup Y \leftrightarrow x \in X \medspace \vee \medspace x \in Y$$
+$$
+X \cup Y=\{x \mid x \in X \text { or } x \in Y\}
+$$
+
 ![union.png](/union.png)
 #### Intersection
 $X \cap Y$ The intersection of sets $X$ and $Y$ consists of all elements that appear in both $X$ and $Y$.
 $$x \in X \cap Y \leftrightarrow x \in X \medspace \wedge \medspace x \in Y$$
+$$
+X \cap Y=\{x \mid x \in X \text { and } x \in Y\}
+$$
 ![intersection.png](/intersection.png)
 #### Difference
 $X-Y$ or $X\backslash Y$ of The difference sets $X$ and $Y$ contain all elements that are in $X$, but not in $Y$.
 
 $$x \in X - Y \leftrightarrow x \in X \medspace \wedge \medspace x \notin Y$$
+
+$$
+X-Y=\{x \mid x \in X \text { and } x \notin Y\}
+$$
+
 ![difference.png](/difference.png)
 #### Complement 
 Often all the sets being considered are subsets of a known domain of discourse $D$. For any subset $A$ of $D$, we define $\bar{A}$ to be the set of all elements of $D$ *not* in $A$. That is, $\bar{A}::=D-A$. The set $\bar{A}$ is the complement of $A$.
