@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-15T18:30:05.940Z
+date: 2021-03-15T18:32:26.197Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -54,8 +54,11 @@ $X \cup Y$ The union of sets $X$ and $Y$ contains all elements appearing in $X$ 
 $$x \in X \cup Y \leftrightarrow x \in X \medspace \vee \medspace x \in Y$$
 #### Intersection
 $X \cap Y$ The intersection of sets $X$ and $Y$ consists of all elements that appear in both $X$ and $Y$.
+$$x \in X \cap Y \leftrightarrow x \in X \medspace \wedge \medspace x \in Y$$
 #### Difference
 $X-Y$ or $X\backslash Y$ of The difference sets $X$ and $Y$ contain all elements that are in $X$, but not in $Y$.
+
+$$x \in X - Y \leftrightarrow x \in X \medspace \wedge \medspace x \notin Y$$
 #### Complement 
 Often all the sets being considered are subsets of a known domain of discourse $D$. For any subset $A$ of $D$, we define $\bar{A}$ to be the set of all elements of $D$ *not* in $A$. That is, $\bar{A}::=D-A$. The set $\bar{A}$ is the complement of $A$.
 
