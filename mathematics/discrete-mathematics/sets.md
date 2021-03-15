@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-13T05:41:35.934Z
+date: 2021-03-15T18:30:05.940Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,6 +50,8 @@ $S \subset T$ indicates that S is a subset of T, but the two are not equal.
 
 #### Union 
 $X \cup Y$ The union of sets $X$ and $Y$ contains all elements appearing in $X$ or $Y$.
+
+$$x \in X \cup Y \leftrightarrow x \in X \medspace \vee \medspace x \in Y$$
 #### Intersection
 $X \cap Y$ The intersection of sets $X$ and $Y$ consists of all elements that appear in both $X$ and $Y$.
 #### Difference
