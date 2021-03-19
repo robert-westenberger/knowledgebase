@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T19:16:11.415Z
+date: 2021-03-19T19:18:39.260Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -460,6 +460,8 @@ $$\{12 n: n \in \mathbb{Z}\} \subseteq\{2 n: n \in \mathbb{Z}\} \cap\{3 n: n \in
 ### Book of Proof Chapter 8 Exercise 3
 If $k \in \Z$, then $\{n \in \mathbb{Z}: n \mid k\} \subseteq \left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
 
+#### Solution
+**Scratch:** 
 (Prove that $k \in \{n \in \mathbb{Z}: n \mid k\} \longrightarrow k \in \left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
 
 **Proof:** 
