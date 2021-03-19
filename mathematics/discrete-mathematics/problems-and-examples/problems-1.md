@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T19:18:39.260Z
+date: 2021-03-19T19:23:55.589Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -464,6 +464,7 @@ If $k \in \Z$, then $\{n \in \mathbb{Z}: n \mid k\} \subseteq \left\{n \in \math
 **Scratch:** 
 (Prove that $k \in \{n \in \mathbb{Z}: n \mid k\} \longrightarrow k \in \left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
 
+Note that every integer can be written as multiplication of prime numbers, and if we raise this integer to the power of two we will get multiples of each prime. 
 **Proof:** 
 1. Suppose $a \in\{n \in \mathbb{Z}: n \mid k\}$. 
 
