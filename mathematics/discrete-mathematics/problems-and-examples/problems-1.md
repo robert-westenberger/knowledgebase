@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T18:43:58.778Z
+date: 2021-03-19T19:02:18.934Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -457,3 +457,10 @@ $$a \in\{2 n: n \in \mathbb{Z}\} \medspace \cap \medspace \{3 n: n \in \mathbb{Z
 
 7. Thus 
 $$\{12 n: n \in \mathbb{Z}\} \subseteq\{2 n: n \in \mathbb{Z}\} \cap\{3 n: n \in \mathbb{Z}\}$$
+### Book of Proof Chapter 8 Exercise 3
+If $k \in \Z$, then $\{n \in \mathbb{Z}: n \mid k\} \subseteq \left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
+
+(Prove that $k \in \{n \in \mathbb{Z}: n \mid k\} \longrightarrow k \in \left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
+
+**Proof:** 
+1. Suppose $a \in\{n \in \mathbb{Z}: n \mid k\}$
