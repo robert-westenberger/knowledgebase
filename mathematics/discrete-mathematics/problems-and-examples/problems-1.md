@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T17:40:45.955Z
+date: 2021-03-19T18:00:59.665Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -422,6 +422,10 @@ Suppose $A \backslash B \subseteq C \cap D$ and $x \in A$. Prove that if $x \not
 #### Solution
 **Theorem:** If $A - B \subseteq C \cap D$, $x \in A$, and $x \notin D$, then $x \in B$
 **Scratch:**
-$\forall y (y \in A \wedge y \notin B) \longrightarrow (y \in C \wedge y \in D)$
-
+1. Convert given into definitions for (difference, subset, intersection) 
+$$\forall y (y \in A \wedge y \notin B) \longrightarrow (y \in C \wedge y \in D)$$
+2. For $y=x$ we have
+$$
+x \in A \wedge x \notin B \longrightarrow (x \in C \wedge x \in D)
+$$
 **Proof:** Suppose $x \in A$. 
