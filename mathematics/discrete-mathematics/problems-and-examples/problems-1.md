@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T17:20:26.174Z
+date: 2021-03-19T17:39:39.395Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -421,5 +421,7 @@ Suppose $A \backslash B \subseteq C \cap D$ and $x \in A$. Prove that if $x \not
 
 #### Solution
 **Theorem:** If $A - B \subseteq C \cap D$, $x \in A$, and $x \notin D$, then $x \in B$
-**Scratch:** $x \in A$, but don't know if $x \in A - B$. If $x \in B$, then it won't be in $C \cap D$
+**Scratch:**
+$\forall y (y \in A \wedge y \notin B) \longrightarrow $
+
 **Proof:** Suppose $x \in A$. 
