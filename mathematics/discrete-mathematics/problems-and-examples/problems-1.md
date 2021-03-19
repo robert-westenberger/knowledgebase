@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T18:35:42.195Z
+date: 2021-03-19T18:43:58.778Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -443,9 +443,17 @@ Here we have to prove that the set of integers that are multiples of 12 are a su
 
 1. Suppose $a \in \{12 n: n \in \mathbb{Z}\}$
 
-2. By definition of subset, this means 
-$$
-\forall a (a \in \{12 n: n \in \mathbb{Z}\} ) \longrightarrow a \in \{2 n: n \in \mathbb{Z}\} \cap\{3 n: n \in \mathbb{Z}\}
-$$
-2. By definition of intersection this means that $a \in \{2 n: n \in \mathbb{Z}\}$ and $a \in \{3 n: n \in \mathbb{Z}\}$
+2. This means that $a = 12n$ for some $n$ in $\Z$. 
 
+3. Therefore, $a = 2(6n)$ and $a = 3(4n$).
+
+4. From $a=2(6n)$ it follows that $a$ is a multiple of $2$, so $a \in\{2 n: n \in \mathbb{Z}\}$. 
+
+5. From $a=3(4n)$ it follows that $a$ is a multiple of $3$, so $a \in\{3 n: n \in \mathbb{Z} \}$
+
+6. By the definition of intersection of two sets we have 
+
+$$a \in\{2 n: n \in \mathbb{Z}\} \medspace \cap \medspace \{3 n: n \in \mathbb{Z}\}$$
+
+7. Thus 
+$$\{12 n: n \in \mathbb{Z}\} \subseteq\{2 n: n \in \mathbb{Z}\} \cap\{3 n: n \in \mathbb{Z}\}$$
