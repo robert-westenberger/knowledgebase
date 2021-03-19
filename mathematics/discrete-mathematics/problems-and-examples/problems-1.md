@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T18:34:19.063Z
+date: 2021-03-19T18:35:42.195Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -447,8 +447,5 @@ Here we have to prove that the set of integers that are multiples of 12 are a su
 $$
 \forall a (a \in \{12 n: n \in \mathbb{Z}\} ) \longrightarrow a \in \{2 n: n \in \mathbb{Z}\} \cap\{3 n: n \in \mathbb{Z}\}
 $$
-2. By definition of intersection
-$$
-\forall a (a \in \{12 n: n \in \mathbb{Z}\} ) \longrightarrow (a \in \{2 n: n \in \mathbb{Z}\} \wedge a \in \{3 n: n \in \mathbb{Z}\})
-$$
-3. 
+2. By definition of intersection this means that $a \in \{2 n: n \in \mathbb{Z}\}$ and $a \in \{3 n: n \in \mathbb{Z}\}$
+
