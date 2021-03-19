@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T17:12:31.991Z
+date: 2021-03-19T17:18:24.583Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -416,10 +416,10 @@ $$
 $$
 Add $a$ to both sides to get $a^5 \gt a$ $\blacksquare$ 
 
-### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 8
+### How to Prove it A Structured Approach: Second Edition Section 3.1 Question 8
 Suppose $A \backslash B \subseteq C \cap D$ and $x \in A$. Prove that if $x \notin D$ then $x \in B$.
 
 #### Solution
 **Theorem:** If $A - B \subseteq C \cap D$, $x \in A$, and $x \notin D$, then $x \in B$
-**Scratch:** If 
+**Scratch:** $x \in A$, but don't know if $x \in A - B$. If $x \in B$, then it won't be in $C \cap D$
 **Proof:** Suppose $x \in A$. 
