@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T19:02:18.934Z
+date: 2021-03-19T19:07:03.721Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -463,4 +463,10 @@ If $k \in \Z$, then $\{n \in \mathbb{Z}: n \mid k\} \subseteq \left\{n \in \math
 (Prove that $k \in \{n \in \mathbb{Z}: n \mid k\} \longrightarrow k \in \left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
 
 **Proof:** 
-1. Suppose $a \in\{n \in \mathbb{Z}: n \mid k\}$
+1. Suppose $a \in\{n \in \mathbb{Z}: n \mid k\}$. 
+
+2. This means that $a \in \Z$ and $a \vert k$.
+
+3. By definition of divisibility, there is an integer $b$ for which $k = ab$.
+
+4. 
