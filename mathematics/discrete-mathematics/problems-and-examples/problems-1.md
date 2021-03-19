@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T17:18:24.583Z
+date: 2021-03-19T17:20:26.174Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -393,12 +393,12 @@ $$
 $x$ and $y$ are an integer that is a multiple of $6$. $\blacksquare$
 **b)** The converse is, "If $ab$ is a multiple of $6$, then $a$ is even and $b$ is a multiple of $3$". The converse is false. Consider the case $a=1$ and $b=6$. $ab=6$ which is a multiple of $6$ and $b$ is a multiple of $3$, but $a$ is odd.
 
-### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 6
+### How to Prove it A Structured Approach: Second Edition Section 3.1 Question 6
 Suppose $a$ and $b$ are real numbers. Prove that if $0 \lt a \lt b$ then $1/b \lt 1/a$.
 #### Solution
 **Proof:** We can multiply both sides of the inequality by the positive number $\frac{1}{ab}$, resulting in $\frac{a}{ab} \lt \frac{b}{ab}$. This can be reduced to $\frac{1}{b}<\frac{1}{a}$. $\blacksquare$
 
-### How to Prove it A Structured Approach: Second Edition Section 3.2 Question 7
+### How to Prove it A Structured Approach: Second Edition Section 3.1 Question 7
 Suppose that $a$ is a real number. Prove that if $a^{3}>a$ then $a^{5}>a$. (Hint: One approach is to start by completing the following equation $a^{5}-a=\left.\left(a^{3}-a\right) \cdot \underline{?} .\right)$
 #### Solution
 Assume $a^3 \gt a$. Subtracting $a$ from both sides we get
