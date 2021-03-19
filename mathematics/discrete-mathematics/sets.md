@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-15T19:05:13.640Z
+date: 2021-03-19T17:43:47.626Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -44,9 +44,9 @@ A superscript + or - restricts a set to positive or negative elements.
 ### Comparing and Combining Sets
 
 #### Subset 
-$S \subseteq T$ indicates that S is a subset of T (every element of S is an element of T).
+$X \subseteq Y$ indicates that $X$ is a subset of $T$ (every element of $S$ is an element of $T$).
 
-$S \subset T$ indicates that S is a subset of T, but the two are not equal.
+$X \subset Y$ indicates that $X$ is a subset of $Y$, but the two are not equal.
 
 #### Union 
 $X \cup Y$ The union of sets $X$ and $Y$ contains all elements appearing in $X$ or $Y$.
