@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-19T17:52:22.790Z
+date: 2021-03-19T18:33:29.827Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -48,7 +48,7 @@ $X \subseteq Y$ indicates that $X$ is a subset of $T$ (every element of $S$ is a
 
 $X \subset Y$ indicates that $X$ is a subset of $Y$, but the two are not equal.
 
-$X \subseteq Y \leftrightarrow (x \in A \longrightarrow x \in B)$ 
+$X \subseteq Y \leftrightarrow (x \in X \longrightarrow x \in Y)$ 
 #### Union 
 $X \cup Y$ The union of sets $X$ and $Y$ contains all elements appearing in $X$ or $Y$.
 
