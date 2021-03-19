@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T18:08:43.385Z
+date: 2021-03-19T18:31:46.207Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -435,3 +435,16 @@ $$
 
 5. Conc?
 **Proof:** We prove the contrapositive. Suppose $x \notin B$. Then from $A - B \subseteq C \cap D$ we can conclude $x \in D$.
+
+### Book of Proof Chapter 8 Exercise 1
+Prove that $\{12 n: n \in \mathbb{Z}\} \subseteq\{2 n: n \in \mathbb{Z}\} \cap\{3 n: n \in \mathbb{Z}\}$
+#### Solution
+Here we have to prove that the set of integers that are multiples of 12 are a subset of integers that are both multiples of 2 and 3
+
+1. Suppose $a \in \{12 n: n \in \mathbb{Z}\}$
+
+2. By definition of subset, intersection
+$$
+\forall a (a \in \{12 n: n \in \mathbb{Z}\} ) \longrightarrow (a \in \{2 n: n \in \mathbb{Z}\} \wedge a \in \{3 n: n \in \mathbb{Z}\})
+$$
+3. 
