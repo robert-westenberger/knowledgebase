@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T19:07:03.721Z
+date: 2021-03-19T19:16:11.415Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -469,4 +469,6 @@ If $k \in \Z$, then $\{n \in \mathbb{Z}: n \mid k\} \subseteq \left\{n \in \math
 
 3. By definition of divisibility, there is an integer $b$ for which $k = ab$.
 
-4. 
+4. Then $k^2 = a^2b^2$
+
+5. 
