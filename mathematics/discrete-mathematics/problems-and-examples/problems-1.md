@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T04:37:38.750Z
+date: 2021-03-21T04:47:49.393Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -540,6 +540,14 @@ $$
 &= \{x: x \in U \medspace \wedge \medspace x \notin A \cup B \} \\
 &= \{x: x \in U \medspace \wedge \medspace x \notin A \medspace \wedge \medspace x \notin B \} \\
 
+&= \{x: x \in U \medspace \wedge \medspace x \notin A \medspace \wedge \medspace x \in U \medspace \wedge \medspace x \notin B \} \\
+
+&= \{x: x \in U \medspace \wedge \medspace x \notin A \medspace \cap \medspace x \in U \medspace \wedge \medspace x \notin B \} \\
 &=\bar{A} \cap \bar{B}
 \end{aligned}
 $$
+
+1) Definition of complement
+2) Definition of union
+3) ??
+Last) ?? Conclusion
