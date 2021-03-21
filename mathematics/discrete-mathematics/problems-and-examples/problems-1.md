@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T23:46:44.783Z
+date: 2021-03-21T23:52:32.613Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -324,6 +324,7 @@ We get an even number raised to an exponent equal to an odd number raised to an 
 Use the Well Ordering Principle to prove that 
 $$\hspace{6em} n \leq 3^{n / 3} \hspace{6em} (1)$$
 
+for every nonnegative integer $n$.
 
 Hint: Verify $(1)$ for $n \le 4$ by explicit calculation. 
 $0 \le 1$
@@ -332,7 +333,7 @@ $2 \le 2.08$
 $3 \le 3$
 $4 \le 4.32$
 #### Solution
-
+Suppose to the contrary that there are 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 3
 **a:** Verify by truth table that 
 
