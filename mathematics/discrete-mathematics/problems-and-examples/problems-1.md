@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T03:01:07.281Z
+date: 2021-03-21T04:20:37.924Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -528,3 +528,8 @@ Line 2: union
 Line 3: Distributive law
 Line 4: intersection
 Line 5 union
+
+
+### Book of Proof Chapter 8 Exercise 11
+If $A$. and $B$ are sets in a universal set $U$, then $\overline{A \cup B}=\bar{A} \cap \bar{B}$,
+#### Solution
