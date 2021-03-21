@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T01:03:01.592Z
+date: 2021-03-21T01:04:38.720Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -494,3 +494,8 @@ If $p$ and $q$ are positive integers, then $\{p n: n \in \mathbb{N}\} \cap\{q n:
 1. Suppose $p$ and $q$ are integers. Consider the integer $pq$. 
 2. Observe that $p q \in\{p n: n \in \mathbb{N}\}$ and $p q \in\{q n: n \in \mathbb{N}\}$, so $p q \in\{p n: n \in \mathbb{N}\} \cap\{q n: n \in \mathbb{N}\}$.
 3. Therefore $\{p n: n \in \mathbb{N}\} \cap\{q n: n \in \mathbb{N}\} \neq \varnothing$
+
+### Book of Proof Chapter 8 Exercise 7
+Suppose $A$, $B$, and $C$ are sets. If $B \subseteq C$, then $A \times B \subseteq A \times C$
+#### Solution
+**Proof:**
