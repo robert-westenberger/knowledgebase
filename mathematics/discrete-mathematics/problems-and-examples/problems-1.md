@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T01:53:51.695Z
+date: 2021-03-21T02:02:57.172Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -498,5 +498,9 @@ If $p$ and $q$ are positive integers, then $\{p n: n \in \mathbb{N}\} \cap\{q n:
 ### Book of Proof Chapter 8 Exercise 7
 Suppose $A$, $B$, and $C$ are sets. If $B \subseteq C$, then $A \times B \subseteq A \times C$
 #### Solution
-**Scratch:** We need to prove $x \in A \times B \longrightarrow x \in A \times C$
+**Scratch:** We need to prove  $(a, b) \in A \times B \longrightarrow (a,b) \in A \times C$ if $B \subseteq C$. 
 **Proof:**
+1. Suppose $(a, b) \in A \times B$. 
+2. This means that $a \in A$ and $b \in B$.
+3. Suppose $B \subseteq C$
+4. This means that $b \in B \longrightarrow b \in C$
