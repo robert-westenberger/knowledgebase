@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T00:31:36.523Z
+date: 2021-03-21T00:34:33.915Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -484,3 +484,8 @@ $$
 6. We have shown that $\{n \in \mathbb{Z}: n \mid k\} \subseteq\left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
 
 $\hspace{32em} \blacksquare$
+### Book of Proof Chapter 8 Exercise 5
+If $p$ and $q$ are positive integers, then $\{p n: n \in \mathbb{N}\} \cap\{q n: n \in \mathbb{N}\} \neq \varnothing$
+
+
+#### Solution
