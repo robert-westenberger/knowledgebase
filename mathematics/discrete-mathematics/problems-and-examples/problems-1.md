@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T00:16:29.100Z
+date: 2021-03-21T00:21:10.350Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -474,10 +474,9 @@ If $k \in \Z$, then $\{n \in \mathbb{Z}: n \mid k\} \subseteq \left\{n \in \math
 
 4. Squaring both sides we get 
 $$
-k^2 = a^2b^2
-$$
-$$
+k^2 = a^2b^2 \\[1em]
 k^2 = a(ab^2)
 $$
+
 
 5. We see by $k^2$ is divisible by $a$
