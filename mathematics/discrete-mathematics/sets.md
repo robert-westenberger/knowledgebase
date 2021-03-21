@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-19T18:33:29.827Z
+date: 2021-03-21T04:46:22.286Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -82,6 +82,9 @@ For example, the complement of positive real numbers is the set of negative real
 $$
 \overline{\mathbb{\LARGE R}^{\large +}}=\mathbb{R}^{-} \cup\{0\}
 $$
+
+If $A$ is in a universal set $U$, the complement of $A$ is 
+$$\bar{A}=\{x \in U \mid x \notin A\}$$
 #### Power Set
 The collection of all subsets of a set. If $A$ has $n$ elements, there are $2^n$ sets in $pow(A)$.
 $$
