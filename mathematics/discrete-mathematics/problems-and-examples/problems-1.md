@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T02:26:36.150Z
+date: 2021-03-21T02:57:02.006Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -506,3 +506,9 @@ Suppose $A$, $B$, and $C$ are sets. If $B \subseteq C$, then $A \times B \subset
 4. This means that $b \in B \longrightarrow b \in C$
 5. Since $a \in A$ and $b \in C$, we have $(a, c) \in A \times C$
 6. We've shown $(a, b) \in A \times B \longrightarrow (a, b) \in A \times C$, so $A \times B \subseteq A \times C$
+
+### Book of Proof Chapter 8 Exercise 9
+If $A$, $B$ and $C$ are sets, then $A \cap(B \cup C)=(A \cap B) \cup(A \cap C)$
+
+#### Solution
+**Scratch:**
