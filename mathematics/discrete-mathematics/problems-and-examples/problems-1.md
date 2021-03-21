@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T02:02:57.172Z
+date: 2021-03-21T02:14:21.725Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -504,3 +504,5 @@ Suppose $A$, $B$, and $C$ are sets. If $B \subseteq C$, then $A \times B \subset
 2. This means that $a \in A$ and $b \in B$.
 3. Suppose $B \subseteq C$
 4. This means that $b \in B \longrightarrow b \in C$
+5. Since $a \in A$ and $b \in C$, we have $(a, c) \in A \times C$
+6. We've shown $(a, b) \in A \times B \longrightarrow (a, b) \in A \times C$, so $A \times B \subseteq A \times C$
