@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T04:20:37.924Z
+date: 2021-03-21T04:33:48.013Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -533,3 +533,11 @@ Line 5 union
 ### Book of Proof Chapter 8 Exercise 11
 If $A$. and $B$ are sets in a universal set $U$, then $\overline{A \cup B}=\bar{A} \cap \bar{B}$,
 #### Solution
+**scratch:**
+$$
+\begin{aligned}
+\overline{A \cup B}
+&= \{x: x \in U \medspace \vert \medspace x \notin A \cup B \} \\
+&= \{x: x \in U \medspace \vert \medspace x \notin A \cup B \} \\
+\end{aligned}
+$$
