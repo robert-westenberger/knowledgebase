@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T04:58:55.722Z
+date: 2021-03-21T05:05:29.294Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -583,3 +583,5 @@ Line 8: regroup
 Line 9: Definition of intersection
 Line 10: Definition of set difference
 Line 11: Definition of compliment
+
+### Book of Proof Chapter 8 Exercise 13
