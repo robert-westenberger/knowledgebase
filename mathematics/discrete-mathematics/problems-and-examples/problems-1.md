@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T02:57:02.006Z
+date: 2021-03-21T03:01:07.281Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -511,4 +511,20 @@ Suppose $A$, $B$, and $C$ are sets. If $B \subseteq C$, then $A \times B \subset
 If $A$, $B$ and $C$ are sets, then $A \cap(B \cup C)=(A \cap B) \cup(A \cap C)$
 
 #### Solution
-**Scratch:**
+Note: Distributive law $P \wedge(Q \vee R)=(P \wedge Q) \vee(P \wedge R)$
+**Proof:** 
+$$
+\begin{aligned}
+A \cap(B \cup C) &=\{x: x \in A \wedge x \in B \cup C\} \\
+&=\{x: x \in A \wedge(x \in B \vee x \in C)\} \\
+&=\{x:(x \in A \wedge x \in B) \vee(x \in A \wedge x \in C)\} \\
+&=\{x:(x \in A \cap B) \vee(x \in A \cap C)\} \\
+&=(A \cap B) \cup(A \cap C)
+\end{aligned}
+$$
+
+Line 1: intersection
+Line 2: union
+Line 3: Distributive law
+Line 4: intersection
+Line 5 union
