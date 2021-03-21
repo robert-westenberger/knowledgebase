@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T01:02:00.923Z
+date: 2021-03-21T01:03:01.592Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -492,4 +492,5 @@ If $p$ and $q$ are positive integers, then $\{p n: n \in \mathbb{N}\} \cap\{q n:
 **Scratch:** Need to prove the intersection of multiples of $p$ and multiples of $q$ is nonempty.
 **Proof:**
 1. Suppose $p$ and $q$ are integers. Consider the integer $pq$. 
-2. Observe that $p q \in\{p n: n \in \mathbb{N}\}$ and $p q \in\{q n: n \in \mathbb{N}\}$, so 
+2. Observe that $p q \in\{p n: n \in \mathbb{N}\}$ and $p q \in\{q n: n \in \mathbb{N}\}$, so $p q \in\{p n: n \in \mathbb{N}\} \cap\{q n: n \in \mathbb{N}\}$.
+3. Therefore $\{p n: n \in \mathbb{N}\} \cap\{q n: n \in \mathbb{N}\} \neq \varnothing$
