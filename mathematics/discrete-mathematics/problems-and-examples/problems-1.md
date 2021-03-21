@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T07:48:06.557Z
+date: 2021-03-21T23:46:44.783Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -326,7 +326,11 @@ $$\hspace{6em} n \leq 3^{n / 3} \hspace{6em} (1)$$
 
 
 Hint: Verify $(1)$ for $n \le 4$ by explicit calculation. 
-
+$0 \le 1$
+$1 \le 1.44$
+$2 \le 2.08$
+$3 \le 3$
+$4 \le 4.32$
 #### Solution
 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 3
