@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T00:29:38.991Z
+date: 2021-03-21T00:31:36.523Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -482,3 +482,5 @@ $$
 5. We see by $k^2$ is divisible by $a$. This means that $a \in\{n \in \mathbb{Z}: n \mid k^2\}$
 
 6. We have shown that $\{n \in \mathbb{Z}: n \mid k\} \subseteq\left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
+
+$\hspace{32em} \blacksquare$
