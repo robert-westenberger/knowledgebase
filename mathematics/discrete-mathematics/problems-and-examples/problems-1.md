@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T00:34:50.203Z
+date: 2021-03-21T00:46:50.495Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -489,3 +489,6 @@ If $p$ and $q$ are positive integers, then $\{p n: n \in \mathbb{N}\} \cap\{q n:
 
 
 #### Solution
+**Scratch:** The intersection of multiples of $p$ and multiples of $q$ is nonempty.
+**Proof:**
+1. Suppose 
