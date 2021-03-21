@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T07:46:20.795Z
+date: 2021-03-21T07:48:06.557Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -329,7 +329,8 @@ Hint: Verify $(1)$ for $n \le 4$ by explicit calculation.
 
 #### Solution
 
-
+### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 3
+**a:** Verify by truth table that 
 
 ### Discrete Math Workbook 3rd Edition Section 3.2 Question 6
 Prove $\sqrt 3$ is irrational.
