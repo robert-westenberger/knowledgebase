@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T07:35:13.843Z
+date: 2021-03-21T07:46:20.795Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -318,6 +318,18 @@ $$ 4^{a/b} = 6$$
 $$ 2^{a/b} = 3$$
 $$ 2^a = 3^b$$
 We get an even number raised to an exponent equal to an odd number raised to an exponent. This is a contradiction, so $\log_{4} 6$ must be irrational. $\blacksquare$
+
+
+### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 2
+Use the Well Ordering Principle to prove that 
+$$\hspace{6em} n \leq 3^{n / 3} \hspace{6em} (1)$$
+
+
+Hint: Verify $(1)$ for $n \le 4$ by explicit calculation. 
+
+#### Solution
+
+
 
 ### Discrete Math Workbook 3rd Edition Section 3.2 Question 6
 Prove $\sqrt 3$ is irrational.
