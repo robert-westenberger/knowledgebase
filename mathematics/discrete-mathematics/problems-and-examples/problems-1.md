@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T05:05:29.294Z
+date: 2021-03-21T07:32:01.319Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -584,4 +584,14 @@ Line 9: Definition of intersection
 Line 10: Definition of set difference
 Line 11: Definition of compliment
 
-### Book of Proof Chapter 8 Exercise 13
+### Book of Proof Chapter 8 Exercise 19
+Prove that $\left\{9^{n}: n \in \mathbb{Z}\right\} \subseteq\left\{3^{n}: n \in \mathbb{Z}\right\}$ but $\left\{9^{n}: n \in \mathbb{Z}\right\} \neq\left\{3^{n}: n \in \mathbb{Z}\right\}$
+
+#### Solution
+**Proof:**
+
+### Book of Proof Chapter 8 Exercise 21
+Suppose $A$ and $B$ are sets. Prove $A \subseteq B \leftrightarrow A -B=\emptyset$
+
+
+
