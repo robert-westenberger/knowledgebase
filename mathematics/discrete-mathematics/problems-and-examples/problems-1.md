@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T04:33:48.013Z
+date: 2021-03-21T04:37:38.750Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -537,7 +537,9 @@ If $A$. and $B$ are sets in a universal set $U$, then $\overline{A \cup B}=\bar{
 $$
 \begin{aligned}
 \overline{A \cup B}
-&= \{x: x \in U \medspace \vert \medspace x \notin A \cup B \} \\
-&= \{x: x \in U \medspace \vert \medspace x \notin A \cup B \} \\
+&= \{x: x \in U \medspace \wedge \medspace x \notin A \cup B \} \\
+&= \{x: x \in U \medspace \wedge \medspace x \notin A \medspace \wedge \medspace x \notin B \} \\
+
+&=\bar{A} \cap \bar{B}
 \end{aligned}
 $$
