@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T07:32:01.319Z
+date: 2021-03-21T07:35:13.843Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -307,7 +307,7 @@ $(x, y) \in A \times B,$ or $(x, y) \in C \times D \hspace 2em \text{iff}$
 $(x, y) \in(A \times B) \cup(C \times D)=R$
 
 
-### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2015 Set 1 Problem 1
+### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
 **Proof by Contradiction:**
