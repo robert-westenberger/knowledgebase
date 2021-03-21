@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T04:47:49.393Z
+date: 2021-03-21T04:58:55.722Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -551,3 +551,35 @@ $$
 2) Definition of union
 3) ??
 Last) ?? Conclusion
+
+#### Solution (from book)
+
+**Proof:** Observe the following sequence of equalities
+
+$$
+\begin{aligned}
+\overline{A \cup B} &=U-(A \cup B) \\
+&=\{x:(x \in U) \wedge(x \notin A \cup B)\} \\
+&=\{x:(x \in U) \wedge \sim(x \in A \cup B)\} \\
+&=\{x:(x \in U) \wedge \sim((x \in A) \vee(x \in B))\} \\
+&=\{x:(x \in U) \wedge(\sim(x \in A) \wedge \sim(x \in B))\} \\
+&=\{x:(x \in U) \wedge(x \notin A) \wedge(x \notin B)\} \\
+&=\{x:(x \in U) \wedge(x \in U) \wedge(x \notin A) \wedge(x \notin B)\} \\
+&=\{x:((x \in U) \wedge(x \notin A)) \wedge((x \in U) \wedge(x \notin B))\} \\
+&=\{x:(x \in U) \wedge(x \notin A)\} \cap\{x:(x \in U) \wedge(x \notin B)\} \\
+&=(U-A) \cap(U-B) \\
+&=\bar{A} \cap \bar{B}
+\end{aligned}
+$$
+
+Line 1: def of complement
+Line 2: Definition of set difference 
+Line 3: Rewrite to logical equivalence
+Line 4: Definition of union
+Line 5: DeMorgans Law
+Line 6: Rewrite to logical equivalence
+Line 7: $(x \in U)=(x \in U) \wedge(x \in U)$
+Line 8: regroup
+Line 9: Definition of intersection
+Line 10: Definition of set difference
+Line 11: Definition of compliment
