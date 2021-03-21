@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-19T19:23:55.589Z
+date: 2021-03-21T00:16:29.100Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -464,7 +464,7 @@ If $k \in \Z$, then $\{n \in \mathbb{Z}: n \mid k\} \subseteq \left\{n \in \math
 **Scratch:** 
 (Prove that $k \in \{n \in \mathbb{Z}: n \mid k\} \longrightarrow k \in \left\{n \in \mathbb{Z}: n \mid k^{2}\right\}$
 
-Note that every integer can be written as multiplication of prime numbers, and if we raise this integer to the power of two we will get multiples of each prime. 
+
 **Proof:** 
 1. Suppose $a \in\{n \in \mathbb{Z}: n \mid k\}$. 
 
@@ -472,6 +472,12 @@ Note that every integer can be written as multiplication of prime numbers, and i
 
 3. By definition of divisibility, there is an integer $b$ for which $k = ab$.
 
-4. Then $k^2 = a^2b^2$
+4. Squaring both sides we get 
+$$
+k^2 = a^2b^2
+$$
+$$
+k^2 = a(ab^2)
+$$
 
-5. 
+5. We see by $k^2$ is divisible by $a$
