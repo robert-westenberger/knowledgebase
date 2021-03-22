@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-21T23:52:32.613Z
+date: 2021-03-22T00:03:15.927Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -333,7 +333,14 @@ $2 \le 2.08$
 $3 \le 3$
 $4 \le 4.32$
 #### Solution
-Suppose to the contrary that there are 
+Suppose to the contrary that there are positive integers $n$ such that $n \ge 3^{n / 3}$ 
+Let $C = \{ n \in \N \vert n \ge 3^{n/3} \}$
+Then $n \in C$ so $C$ is nonempty.
+By WOP, there must be a smallest element $n$ in $C$.
+
+**Open Ended Part of Proof..** Reach contradiction somehow.. by showing that $P(n)$ is true or by showing there is another member of $C$ that is smaller than $n$. 
+
+Conclude that C must be empty, that is, no counterexamples exist.
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 3
 **a:** Verify by truth table that 
 
