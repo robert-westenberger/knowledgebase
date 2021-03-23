@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-22T02:02:32.980Z
+date: 2021-03-23T16:58:21.867Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -333,6 +333,12 @@ $2 \le 2.08$
 $3 \le 3$
 $4 \le 4.32$
 #### Solution
+**Proof:** 
+$$
+
+$$
+
+
 $n^3 \le 3^n$
 Suppose to the contrary that there are positive integers $n$ such that $n \ge 3^{n / 3}$ 
 Let $C = \{ n \in \N \medspace \vert \medspace n \ge 3^{n/3} \}$
