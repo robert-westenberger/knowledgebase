@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-23T17:36:11.158Z
+date: 2021-03-23T18:16:48.081Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -343,9 +343,8 @@ Let $c$ be the least element $\in C$.
 $n^3 \le 3^n$
 
 
-We know that the theorem is false for $n=c$ but true for all nonnegative integers $n \lt c$.
+We know that the theorem is false for $n=c$ but true for all nonnegative integers $n \lt c$. We can verify directly that $n^{3} \leq 3^{n}$ for $n \in\{0,1,2,3\}$, so we must have $c \ge 4$.
 
-Our theorem is true for $n \le 4$, so $c-1$ must be an integer $\ge 4$ and $P(c-1)$ must be true.
 
 $$
 \begin{aligned}
@@ -357,27 +356,7 @@ P(c) &::=c^3 \le 3^c \\
 $$
 
 
---- 
 
-Suppose to the contrary that there are positive integers $n$ such that $n \ge 3^{n / 3}$ 
-Let $C = \{ n \in \N \medspace \vert \medspace n \ge 3^{n/3} \}$
-Then $n \in C$ so $C$ is nonempty.
-By WOP, there must be a smallest element $c \in C$.
-That is, there exists $c$ where $c \le 3^{n/3}$.
-
-We know that the theorem is false for $n=c$ but true for all nonnegative integers $n \lt c$. 
-
-Our theorem is true for $n=0$, so $c \gt 0$. 
-
-This means that $c-1$ is a nonnegative integer, and since it is less than $c$, our theorem is true for $c-1$. That is,
-$$
-c - 1 \ge 3^{(c-1)/3} \\[2em]
-(c-1)^3 \le 3^{(c-1)}
-$$
-
-**Open Ended Part of Proof..** Reach contradiction somehow.. by showing that $P(n)$ is true or by showing there is another member of $C$ that is smaller than $n$. 
-
-Conclude that C must be empty, that is, no counterexamples exist.
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 3
 **a:** Verify by truth table that 
 
