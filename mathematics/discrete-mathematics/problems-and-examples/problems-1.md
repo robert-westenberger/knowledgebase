@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-23T17:05:24.942Z
+date: 2021-03-23T17:06:51.103Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -339,7 +339,7 @@ P(n)::=n \le 3^{n/3} \\[2em]
 C ::= \{ \text{non-negative integers for which P(n) is false} \}
 $$
 
-
+Let $c$ be the least element $\in C$.
 $n^3 \le 3^n$
 Suppose to the contrary that there are positive integers $n$ such that $n \ge 3^{n / 3}$ 
 Let $C = \{ n \in \N \medspace \vert \medspace n \ge 3^{n/3} \}$
