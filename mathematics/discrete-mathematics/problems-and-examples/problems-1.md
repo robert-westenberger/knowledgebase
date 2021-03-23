@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-23T18:16:48.081Z
+date: 2021-03-23T18:19:30.076Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -345,14 +345,18 @@ $n^3 \le 3^n$
 
 We know that the theorem is false for $n=c$ but true for all nonnegative integers $n \lt c$. We can verify directly that $n^{3} \leq 3^{n}$ for $n \in\{0,1,2,3\}$, so we must have $c \ge 4$.
 
-
+$P(c-1)$ must be true...
 $$
 \begin{aligned}
 P(c-1) &::= (c-1)^3 \le 3^{c-1} \\
 &::= 3(c-1)^3 \le 3^c \\
-P(c) &::=c^3 \le 3^c \\
-
 \end{aligned}
+$$
+
+$P(c)$ must be false. its the smallest $c \in C$ for which the proposition is false.
+
+$$
+P(c) ::=c^3 \le 3^c \\
 $$
 
 
