@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-23T17:06:51.103Z
+date: 2021-03-23T17:10:16.725Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -341,6 +341,14 @@ $$
 
 Let $c$ be the least element $\in C$.
 $n^3 \le 3^n$
+
+
+We know that the theorem is false for $n=c$ but true for all nonnegative integers $n \lt c$.
+
+Our theorem is true for $n \le 4$, so $c-1$ must be an integer $\ge 4$ and $P(c-1)$ must be true.
+
+--- 
+
 Suppose to the contrary that there are positive integers $n$ such that $n \ge 3^{n / 3}$ 
 Let $C = \{ n \in \N \medspace \vert \medspace n \ge 3^{n/3} \}$
 Then $n \in C$ so $C$ is nonempty.
