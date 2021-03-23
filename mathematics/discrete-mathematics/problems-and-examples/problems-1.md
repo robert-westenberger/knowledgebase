@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-23T17:10:16.725Z
+date: 2021-03-23T17:14:03.401Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
