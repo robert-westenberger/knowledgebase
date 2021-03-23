@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-23T16:58:21.867Z
+date: 2021-03-23T17:05:24.942Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -335,7 +335,8 @@ $4 \le 4.32$
 #### Solution
 **Proof:** 
 $$
-
+P(n)::=n \le 3^{n/3} \\[2em]
+C ::= \{ \text{non-negative integers for which P(n) is false} \}
 $$
 
 
