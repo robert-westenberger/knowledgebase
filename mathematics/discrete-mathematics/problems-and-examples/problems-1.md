@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T16:56:53.880Z
+date: 2021-03-24T17:02:57.606Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -310,8 +310,17 @@ $(x, y) \in(A \times B) \cup(C \times D)=R$
 ### MIT OCW 6.042J Mathematics for Computer Science  Fall 2005 In-Class Problems Week 1 Problem 1
 
 Identify exactly where the bugs are in each of the following bogus proofs.
-
-
+**(a)** $1/8 \gt 1/4$
+Bogus Proof 
+$$
+\begin{aligned}
+3 &>2 \\
+3 \log _{10}(1 / 2) &>2 \log _{10}(1 / 2) \\
+\log _{10}(1 / 2)^{3} &>\log _{10}(1 / 2)^{2} \\
+(1 / 2)^{3} &>(1 / 2)^{2}
+\end{aligned}
+$$
+and the claim now follows by the rules for multiplying fractions. $\blacksquare$
 
 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
