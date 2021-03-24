@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T18:13:41.515Z
+date: 2021-03-24T18:20:23.833Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -369,7 +369,7 @@ We prove by contradiction that for any $n \ge 1$, $\sqrt[n]{2}$ is irrational.
 
 Assume for the prupose of contradiction that $\sqrt[n]{2}$ is rational.
 
-Then we can write $\sqrt[n]{2}$ 
+Then we can write $\sqrt[n]{2} = a/b$ where $a$ and $b$ are integers and the fraction is in lowest terms. 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
