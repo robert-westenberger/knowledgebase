@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T18:20:23.833Z
+date: 2021-03-24T18:24:17.757Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -370,6 +370,12 @@ We prove by contradiction that for any $n \ge 1$, $\sqrt[n]{2}$ is irrational.
 Assume for the prupose of contradiction that $\sqrt[n]{2}$ is rational.
 
 Then we can write $\sqrt[n]{2} = a/b$ where $a$ and $b$ are integers and the fraction is in lowest terms. 
+
+Raising both sides by $n$ gives 
+$$
+2=a^n/b^n
+$$
+so $2a^n=b^n$. This implies that $b^n$ is even, and hence $b$ is even and also a multiple of $2$.But that means $m^2$ is actually a multiple of $4$, say $m^2=4k$.
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
