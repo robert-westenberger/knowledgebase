@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T18:10:21.745Z
+date: 2021-03-24T18:13:41.515Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -366,6 +366,10 @@ Now we have $2n^2=m^2=4k$, so $n^2=2k$. So $n^2$ is even, and hence $n$ is even.
 
 #### Solution
 We prove by contradiction that for any $n \ge 1$, $\sqrt[n]{2}$ is irrational.
+
+Assume for the prupose of contradiction that $\sqrt[n]{2}$ is rational.
+
+Then we can write $\sqrt[n]{2}$ 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
