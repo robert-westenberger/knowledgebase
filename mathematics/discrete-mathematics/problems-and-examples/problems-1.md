@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T17:56:23.490Z
+date: 2021-03-24T18:02:03.500Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -353,7 +353,10 @@ The proof doesn't prove that the Arithmetic-Geometric Mean Inequality claim. It 
 The big problem here with the bogus proof as it is written, is that it reasons backwards, beginning with the proposition in question and reasoning to a true conclusion. 
 
 
+### MIT OCW 6.042J Mathematics for Computer Science  Fall 2005 In-Class Problems Week 3 Problem 1
+Generalize the proof that $\sqrt 2$ is irrational to extend to, for example, cube roots of $2$. Remember that an irrational number is a number that cannot be expressed as a ratio of two integers. 
 
+**Theorem:**
 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
