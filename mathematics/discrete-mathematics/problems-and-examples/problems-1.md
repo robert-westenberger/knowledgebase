@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T17:26:39.697Z
+date: 2021-03-24T17:43:33.411Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -346,6 +346,9 @@ a^{2}-2 a b+b^{2} & \geq 0 \\
 $$
 
 The last statement is true because $a-b$ is a real number, and the square ofa real number is never negative. This proves the claim $\blacksquare$
+
+#### Solution
+The proof doesn't prove that the Arithmetic-Geometric Mean Inequality claim. It just proves $(a+b) / 2 \geq \sqrt{a b} \longrightarrow (a-b)^2 \ge 0$ which is not very interesting since we already know the square of any nonnegative number is nonnegative. 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
