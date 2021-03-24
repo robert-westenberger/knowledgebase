@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T18:24:17.757Z
+date: 2021-03-24T18:29:51.885Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -375,7 +375,9 @@ Raising both sides by $n$ gives
 $$
 2=a^n/b^n
 $$
-so $2a^n=b^n$. This implies that $b^n$ is even, and hence $b$ is even and also a multiple of $2$.But that means $m^2$ is actually a multiple of $4$, say $m^2=4k$.
+so $2a^n=b^n$. This implies that $b^n$ is even, and hence $b$ is even and also a multiple of $2$.But that means $b^n$ is actually a multiple of $4$, say $b^n=4k$.
+
+Now we have $2a^n=b^n=4k$, so $a^n=2k$. So $a^n$ is even, and hence $a$ is even. But since $a$ and $b$ are both even, the fraction $a/b$ is not in lowest terms, a contradiction.
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
