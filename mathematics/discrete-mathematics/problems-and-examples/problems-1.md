@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T17:02:57.606Z
+date: 2021-03-24T17:14:58.125Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -321,8 +321,9 @@ $$
 \end{aligned}
 $$
 and the claim now follows by the rules for multiplying fractions. $\blacksquare$
-
-
+**(b)** $1¢=\$0.01 = (\$0.1)^2=(10¢)^2=100¢=\$1$
+#### Solution
+**(a)** The $\gt$ symbol on the second line should be switched to $\lt$ because $\log _{10}(1 / 2)$ is negative.
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
