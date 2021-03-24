@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T17:19:12.485Z
+date: 2021-03-24T17:26:02.068Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -325,6 +325,26 @@ and the claim now follows by the rules for multiplying fractions. $\blacksquare$
 #### Solution
 **(a)** The $\gt$ symbol on the second line should be switched to $\lt$ because $\log _{10}(1 / 2)$ is negative.
 **(b)** There is mismatching going on between $\$$ and $\$^2$
+
+
+### MIT OCW 6.042J Mathematics for Computer Science  Fall 2005 In-Class Problems Week 1 Problem 2
+**Proposition**: (Arithmetic-Geometric Mean Inequality) For all nonnegative real numbers $a$ and $b$
+$$
+\frac{a+b}{2} \geq \sqrt{a b}
+$$
+What is wrong with the following proof of this proposition?
+
+Bogus Proof
+$$
+\begin{aligned}
+\frac{a+b}{2} & \geq \sqrt{a b} \\
+a +b & \ge 2 \sqrt{a b} \\
+a^{2}+2 a b+b^{2} & \geq 4 a b \\
+a^{2}-2 a b+b^{2} & \geq 0 \\
+(a-b)^{2} & \geq 0
+\end{aligned}
+$$
+
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
