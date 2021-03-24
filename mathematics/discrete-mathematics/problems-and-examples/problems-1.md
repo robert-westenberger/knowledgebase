@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T18:02:03.500Z
+date: 2021-03-24T18:08:54.858Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -356,7 +356,15 @@ The big problem here with the bogus proof as it is written, is that it reasons b
 ### MIT OCW 6.042J Mathematics for Computer Science  Fall 2005 In-Class Problems Week 3 Problem 1
 Generalize the proof that $\sqrt 2$ is irrational to extend to, for example, cube roots of $2$. Remember that an irrational number is a number that cannot be expressed as a ratio of two integers. 
 
-**Theorem:**
+**Theorem:** $\sqrt 2$ is an irrational number.
+**Proof:** The prof is by contradiction. Assume for purpose of contradiction that $\sqrt 2$ is rational.
+
+Then we can write $\sqrt 2 = m/n$ where $m$ and $n$ are integers and the fraction is in lowest terms. Squaring both sides gives $2=m^2/n^2$, so $2n^2=m^2$. This implies that $m^2$ is even, and hence that $m$ is even; that is, $m$ is a multiple of $2$. That means $m^2$ is actually a multiple of $4$, say $m^2=4k$.
+
+Now we have $2n^2=m^2=4k$, so $n^2=2k$. So $n^2$ is even, and hence $n$ is even. But since $m$ and $n$ are both even, the fraction $m/n$ is not in lowest terms, a contradiction. $\blacksquare$.
+
+
+#### Solution
 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
