@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T16:52:04.961Z
+date: 2021-03-24T16:56:53.880Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -56,7 +56,7 @@ We see that that the square is $(b-a) \medspace x \medspace (b-a)$.
 **b)**
 ![pytthag_b.png](/pytthag_b.png)
 Triangles rearranged to form bxb square and a cxc square.
-### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 2
+### MIT OCW 6.042J Mathematics for Computer Science Fall 2005 Problem Set 1 Problem 2
 Translate the following sentence into a predicate formula: 
 
 *There is a student who has emailed exactly two other people in the class, besides possibly herself.*
@@ -76,7 +76,7 @@ $$
 
 The above is translated to: "There exists students $x$, $y$, and $z$ where $x$ send an email to $y$ AND $x$ sent an email to $z$ AND $x$ is not the same as $y$ AND $x$ is not the same as $z$ and $y$ is not the same as $z$ AND for all students $s$, x sent an email to a student s where the student s is x OR the student s is y OR the student s is z.
 
-### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 3
+### MIT OCW 6.042J Mathematics for Computer Science  Fall 2005 Problem Set 1 Problem 3
 Express each of the following predicates and propositions in formal logic notation. The domain of discourse is the nonnegative integers, $\natnums$
 
 In addition to the propositional operators, variables and quantifiers, you may define predicates using addition, multiplication, and equality symbols, but no constants (like 0, 1, . . .). For example, the proposition “n is an even number” could be written
@@ -155,7 +155,7 @@ $$\forall n. \medspace n \gt 1 \longrightarrow \exists p. \text { IS-PRIME }(p) 
 
 $\textcolor{blue}{Book} \medspace \textcolor{blue} {Answer:}$$\forall n .((n>1) \longrightarrow(\exists p .$ IS-PRIME $(p) \wedge(n<p) \wedge(p<2 n)))$
 
-### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 4
+### MIT OCW 6.042J Mathematics for Computer Science Fall 2005 Problem Set 1 Problem 4
 If a set, $A$, is finite, then $|A|<2^{|A|}=|\mathcal{P}(A)|$, and so there is no surjection from set $A$ to its powerset. Show that this is still true if $A$ is infinite. Hint: Remember Russel's paradox and consider $\{x \in A \mid x \notin f(x)\}$ where $f$ is such a surjection.
 
 #### Solution
@@ -191,7 +191,7 @@ $$
 for all $x \in A$. Substituting $a$ for $x$ in $(2)$ yields a contradiction, proving there cannot be such an $f$.
 $$\hspace{32em} \blacksquare$$
 
-### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 5
+### MIT OCW 6.042J Mathematics for Computer Science Fall 2005 Problem Set 1 Problem 5
 **(a)** Prove that 
 $$
 \exists z. \medspace \lbrack P(z) \wedge Q(z)] \longrightarrow \lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)] \hspace{6em} \text{(1)}
@@ -231,7 +231,7 @@ So suppose $\exists z . \lbrack P(z) \wedge Q(z)]$. So some element $z_0 \in D$ 
 
 
 Suppose $\lbrack \exists x . \medspace P(x) \wedge \exists y . \medspace Q(y)]$. There exists some $x_0 \in D$ that has the property $P_0(x)$ is true and there exists some $y_0 \in D$ that $Q_0(y)$ is true.
-### MIT OCW 6.042J Mathematics for Computer Science Problem Fall 2005 Set 1 Problem 6
+### MIT OCW 6.042J Mathematics for Computer Science  Fall 2005 Problem Set 1 Problem 6
 **(a)** Give an exmaple where the following result fails: 
 **False Theorem:** For sets $A$, $B$, $C$, and $D$, let 
 $$
@@ -305,6 +305,13 @@ either $x \in A$ or $x \in C,$ and either $y \in B$ or $y \in D \hspace 2em \tex
 $(x \in A$ and $y \in B)$ or else $(x \in C$ and $y \in D) \hspace 2em \text{iff}$
 $(x, y) \in A \times B,$ or $(x, y) \in C \times D \hspace 2em \text{iff}$
 $(x, y) \in(A \times B) \cup(C \times D)=R$
+
+
+### MIT OCW 6.042J Mathematics for Computer Science  Fall 2005 In-Class Problems Week 1 Problem 1
+
+Identify exactly where the bugs are in each of the following bogus proofs.
+
+
 
 
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
