@@ -2,7 +2,7 @@
 title: Problems 1
 description: 
 published: true
-date: 2021-03-24T17:26:02.068Z
+date: 2021-03-24T17:26:39.697Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -345,6 +345,7 @@ a^{2}-2 a b+b^{2} & \geq 0 \\
 \end{aligned}
 $$
 
+The last statement is true because $a-b$ is a real number, and the square ofa real number is never negative. This proves the claim $\blacksquare$
 ### MIT OCW 6.042J Mathematics for Computer Science Fall 2015  Problem Set 1 Problem 1
 Prove that $\log_{4} 6$ is irrational
 #### Solution
