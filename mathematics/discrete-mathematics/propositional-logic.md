@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T19:14:22.796Z
+date: 2021-03-25T19:20:51.083Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -157,3 +157,11 @@ $$
 \end{array}
 $$
 
+## Constructing New Logical Equivalences
+$$
+\begin{aligned}
+\neg(p \rightarrow q) & \equiv \neg(\neg p \vee q) & \text {conditional-disjunction equivalence} \\
+& \equiv \neg(\neg p) \wedge \neg q & \text {De Morgan law} \\
+& \equiv p \wedge \neg q
+\end{aligned}
+$$
