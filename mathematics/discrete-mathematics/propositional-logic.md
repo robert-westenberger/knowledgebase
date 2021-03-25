@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T18:00:25.371Z
+date: 2021-03-25T18:06:50.024Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -103,6 +103,18 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 Notice we just assume P is true and repeatedly ask and answer the question, "What does that mean?". Eventually we conclude that it means the conclusion.
 
 ### Logic and Bit Operations
+Computer **bit operations** correspond to the logical connectives. 
+Below is a table for the bit operators OR ($\vee$)
+$$
+\begin{array}{c|c|c|c|c}
+ &  & OR & AND & XOR \\
+\boldsymbol{x} & \boldsymbol{y} & \boldsymbol{x} \vee \boldsymbol{y} & \boldsymbol{x} \wedge \boldsymbol{y} & \boldsymbol{x} \oplus \boldsymbol{y} \\
+\hline 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 & 1 \\
+1 & 1 & 1 & 1 & 0
+\end{array}
+$$
 # Applications of Propositional
 Propositional logic and its rules can be used to design computer circuits, to construct computer programs, to verify the correctness of those programs, and to solve many familiar puzzles. Software systems based on the rules of logic have been developed for constructing some, but not all, types of proofs automatically
 
