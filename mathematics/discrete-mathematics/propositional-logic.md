@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T17:57:53.473Z
+date: 2021-03-25T18:00:25.371Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -102,7 +102,7 @@ Note: Proofs typically begin with the word "Proof" and end with some sort of del
 
 Notice we just assume P is true and repeatedly ask and answer the question, "What does that mean?". Eventually we conclude that it means the conclusion.
 
-
+### Logic and Bit Operations
 # Applications of Propositional
 Propositional logic and its rules can be used to design computer circuits, to construct computer programs, to verify the correctness of those programs, and to solve many familiar puzzles. Software systems based on the rules of logic have been developed for constructing some, but not all, types of proofs automatically
 
