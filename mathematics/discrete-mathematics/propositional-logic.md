@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T18:24:58.688Z
+date: 2021-03-25T18:25:14.467Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -128,3 +128,4 @@ $s$ "You are older than 16 years old"
 $$
 (r \wedge \neg s) \rightarrow \neg q
 $$
+(There are other ways to represent this sentence)
