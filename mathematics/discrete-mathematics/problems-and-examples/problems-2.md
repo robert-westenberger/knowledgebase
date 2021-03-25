@@ -1,8 +1,8 @@
 ---
-title: Problems 2
+title: Discrete Mathematics 8th Edition Section 1.1 Problems
 description: 
 published: true
-date: 2021-03-25T03:02:06.719Z
+date: 2021-03-25T03:06:14.818Z
 tags: discrete-mathematics
 editor: markdown
 ---
