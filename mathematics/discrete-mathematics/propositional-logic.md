@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T18:36:35.109Z
+date: 2021-03-25T19:06:23.334Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -135,3 +135,11 @@ $$
 
 # Propositional Equivalences
 A compound proposition that is always true, no matter the truth values of the propositional variables that occur in it, is a **tautology**. A compound proposition that is always false is a **contradiction**.
+
+## De Morgans Laws
+$$
+\begin{array}{l}
+\neg(p \wedge q) \equiv \neg p \vee \neg q \\
+\neg(p \vee q) \equiv \neg p \wedge \neg q
+\end{array}
+$$
