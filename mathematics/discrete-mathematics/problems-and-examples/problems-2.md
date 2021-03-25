@@ -2,7 +2,7 @@
 title: Problems 2
 description: 
 published: true
-date: 2021-03-25T02:46:21.321Z
+date: 2021-03-25T02:46:35.903Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -27,3 +27,6 @@ What is the negation of each of these propositions?
 **b)** Mei makes more money than Isabella.
 **c)** Moshe is taller than Monica.
 **d)** Abby is richer than Ricardo.
+
+### Solution
+
