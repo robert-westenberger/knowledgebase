@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T19:08:20.024Z
+date: 2021-03-25T19:14:22.796Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -144,6 +144,7 @@ $$
 \end{array}
 $$
 
+De Morgan's laws for negating conjunctions and disjunctions.
 ## Conditional-Disjunction Equivalence
 $p \rarr q$ and $\neg p \vee q$ are logically equivalent.
 $$
