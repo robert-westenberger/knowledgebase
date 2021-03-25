@@ -2,7 +2,7 @@
 title: Problems 2
 description: 
 published: true
-date: 2021-03-25T02:57:06.015Z
+date: 2021-03-25T02:58:47.325Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -159,3 +159,7 @@ Construct a truth table for each of these compound propositions.
 **d)** (p ↔ q) ⊕ (¬p ↔ q)
 **e)** (p ↔ q) ⊕ (¬p ↔ ¬r)
 **f)** (p ⊕ q) → (p ⊕ ¬q)
+
+### Solution
+## Chapter 1 Exercise 41
+Construct a truth table for (p ↔ q) ↔ (r ↔ s).
