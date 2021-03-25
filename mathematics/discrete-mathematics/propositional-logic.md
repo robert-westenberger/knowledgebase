@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T17:54:20.529Z
+date: 2021-03-25T17:54:28.354Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -47,7 +47,7 @@ Note that the notation for negation isn't standardized. $\neg p$ and $\bar{p}$ a
 
 The negation of the English sentence "Bob’s smartphone has at least 32 GB of memory” is “Bob’s smartphone does not have at least 32 GB of memory”. This could be rewritten more simply as "Bob's cellphone has less than 32 GB of memory."
 
-Note how in this specific case, "greater than or equal to 32 GB" becomes "less than 32GB" so we go from $\gte$ to $\lt$
+Note how in this specific case, "greater than or equal to 32 GB" becomes "less than 32GB" so we go from $\ge$ to $\lt$
 
 
 ## Implications
