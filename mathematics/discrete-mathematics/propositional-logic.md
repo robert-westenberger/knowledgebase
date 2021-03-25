@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T18:34:36.784Z
+date: 2021-03-25T18:34:53.075Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -132,3 +132,5 @@ $$
 ## Boolean Searches
 ## Logic Puzzles
 ## Logic Circuits
+
+# Propositional Equivalences
