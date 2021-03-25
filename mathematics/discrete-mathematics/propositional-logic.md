@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T17:54:28.354Z
+date: 2021-03-25T17:56:20.863Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
