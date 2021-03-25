@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T19:06:23.334Z
+date: 2021-03-25T19:08:20.024Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -143,3 +143,16 @@ $$
 \neg(p \vee q) \equiv \neg p \wedge \neg q
 \end{array}
 $$
+
+## Conditional-Disjunction Equivalence
+$p \rarr q$ and $\neg p \vee q$ are logically equivalent.
+$$
+\begin{array}{cc|c|c|c}
+\boldsymbol{p} & \boldsymbol{q} & \neg \boldsymbol{p} & \neg \boldsymbol{p} \vee \boldsymbol{q} & \boldsymbol{p} \rightarrow \boldsymbol{q} \\
+\hline \mathrm{T} & \mathrm{T} & \mathrm{F} & \mathrm{T} & \mathrm{T} \\
+\mathrm{T} & \mathrm{F} & \mathrm{F} & \mathrm{F} & \mathrm{F} \\
+\mathrm{F} & \mathrm{T} & \mathrm{T} & \mathrm{T} & \mathrm{T} \\
+\mathrm{F} & \mathrm{F} & \mathrm{T} & \mathrm{T} & \mathrm{T}
+\end{array}
+$$
+
