@@ -2,15 +2,15 @@
 title: Discrete Mathematics 8th Edition Section 1.1 Problems
 description: 
 published: true
-date: 2021-03-25T03:06:14.818Z
+date: 2021-03-25T03:07:16.835Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
-# Rosen Discrete Mathematics 8th Edition
-## Section 1.1 Propositional Logic
+# 1.1 Propositional Logic
 
-### Section 1.1 Exercise 1
+
+## Section 1.1 Exercise 1
 Which of these sentences are propositions? What are the
 truth values of those that are propositions?
 **a)** Boston is the capital of Massachusetts.
@@ -20,27 +20,27 @@ truth values of those that are propositions?
 **e)** x + 2 = 11.
 **f)** Answer this question.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 3
+## Section 1.1 Exercise 3
 What is the negation of each of these propositions?
 **a)** Linda is younger than Sanjay.
 **b)** Mei makes more money than Isabella.
 **c)** Moshe is taller than Monica.
 **d)** Abby is richer than Ricardo.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 5
+## Section 1.1 Exercise 5
 What is the negation of each of these propositions?
 **a)** Mei has an MP3 player.
 **b)** There is no pollution in New Jersey.
 **c)** 2 + 1 = 3.
 **d)** The summer in Maine is hot and sunny.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 9
+## Section 1.1 Exercise 9
 Suppose that during the most recent fiscal year, the annual
 revenue of Acme Computer was 138 billion dollars
 and its net profit was 8 billion dollars, the annual revenue
@@ -60,9 +60,9 @@ Acme Computer had the largest annual revenue.
 **e)** Nadir Software had the smallest net profit if and only
 if Acme Computer had the largest annual revenue.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 11
+## Section 1.1 Exercise 11
 Let $p$ and $q$ be the propositions “Swimming at the New
 Jersey shore is allowed” and “Sharks have been spotted
 near the shore,” respectively. Express each of these compound
@@ -76,9 +76,9 @@ propositions as an English sentence.
 **g)** p ↔ ¬q 
 **h)** ¬p ∧ (p∨ ¬q)
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 13
+## Section 1.1 Exercise 13
 Let p and q be the propositions
 p: It is below freezing.
 q: It is snowing.
@@ -94,9 +94,9 @@ not snowing if it is below freezing.
 **g)** That it is below freezing is necessary and sufficient
 for it to be snowing.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 19
+## Section 1.1 Exercise 19
 Determine whether each of these conditional statements
 is true or false.
 **a)** If 1 + 1 = 2, then 2 + 2 = 5.
@@ -104,9 +104,9 @@ is true or false.
 **c)** If 1 + 1 = 3, then 2 + 2 = 5.
 **d)** If monkeys can fly, then 1 + 1 = 3.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 21
+## Section 1.1 Exercise 21
 For each of these sentences, determine whether an inclusive
 or, or an exclusive or, is intended. Explain your
 answer.
@@ -117,9 +117,9 @@ least eight characters long.
 theory or a course in cryptography.
 **d)** You can pay using U.S. dollars or euros.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 23
+## Section 1.1 Exercise 23
 
 For each of these sentences, state what the sentence
 means if the logical connective or is an inclusive or (that
@@ -134,25 +134,25 @@ three items from column B.
 **d)** School is closed if more than two feet of snow falls or
 if the wind chill is below −100 ${ }^{\circ} \mathrm{F}$.
 
-#### Solution
+### Solution
 
-### Section 1.1 Exercise 31
+## Section 1.1 Exercise 31
 How many rows appear in a truth table for each of these
 compound propositions?
 **a)** p → ¬p
 **b)** (p ∨ ¬r) ∧ (q ∨ ¬s)
 **c)** q ∨ p ∨ ¬s ∨ ¬r ∨ ¬t ∨ u
 **d)** (p ∧ r ∧ t) ↔ (q ∧ t)
-#### Solution
-### Section 1.1 Exercise 33
+### Solution
+## Section 1.1 Exercise 33
 **a)** p ∧ ¬p 
 **b)** p ∨ ¬p
 **c)** (p ∨ ¬q) → q 
 **d)** (p ∨ q) → (p ∧ q)
 **e)** (p → q) ↔ (¬q → ¬p)
 **f)** (p → q) → (q → p)
-#### Solution
-### Section 1.1 Exercise 35
+### Solution
+## Section 1.1 Exercise 35
 Construct a truth table for each of these compound propositions.
 **a)** (p ∨ q) → (p ⊕ q) 
 **b)** (p ⊕ q) → (p ∧ q)
@@ -161,6 +161,6 @@ Construct a truth table for each of these compound propositions.
 **e)** (p ↔ q) ⊕ (¬p ↔ ¬r)
 **f)** (p ⊕ q) → (p ⊕ ¬q)
 
-#### Solution
-### Section 1.1 Exercise 41
+### Solution
+## Section 1.1 Exercise 41
 Construct a truth table for (p ↔ q) ↔ (r ↔ s).
