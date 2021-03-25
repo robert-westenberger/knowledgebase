@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T18:06:50.024Z
+date: 2021-03-25T18:24:58.688Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -119,5 +119,12 @@ $$
 Propositional logic and its rules can be used to design computer circuits, to construct computer programs, to verify the correctness of those programs, and to solve many familiar puzzles. Software systems based on the rules of logic have been developed for constructing some, but not all, types of proofs automatically
 
 ## Translating English Sentences
+“You cannot ride the roller coaster if you are under 4 feet tall unless you are older than 16 years old., where 
 
+$q$ "You can ride the roller coaster"
+$r$ "You are under 4 feet tall"
+$s$ "You are older than 16 years old"
 
+$$
+(r \wedge \neg s) \rightarrow \neg q
+$$
