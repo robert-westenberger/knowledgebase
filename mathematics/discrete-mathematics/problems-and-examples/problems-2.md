@@ -2,7 +2,7 @@
 title: Problems 2
 description: 
 published: true
-date: 2021-03-25T02:46:35.903Z
+date: 2021-03-25T02:48:01.193Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -30,3 +30,9 @@ What is the negation of each of these propositions?
 
 ### Solution
 
+## Chapter 1 Exercise 5
+What is the negation of each of these propositions?
+**a)** Mei has an MP3 player.
+**b)** There is no pollution in New Jersey.
+**c)** 2 + 1 = 3.
+**d)** The summer in Maine is hot and sunny.
