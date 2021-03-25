@@ -2,14 +2,14 @@
 title: Problems 2
 description: 
 published: true
-date: 2021-03-25T02:58:47.325Z
+date: 2021-03-25T03:01:28.255Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
 # Rosen Discrete Mathematics 8th Edition
-
-## Chapter 1 Exercise 1
+## Section 1.1 Propositional Logic
+### Section 1.1 Exercise 1
 Which of these sentences are propositions? What are the
 truth values of those that are propositions?
 **a)** Boston is the capital of Massachusetts.
@@ -21,7 +21,7 @@ truth values of those that are propositions?
 
 ### Solution
 
-## Chapter 1 Exercise 3
+### Section 1.1 Exercise 3
 What is the negation of each of these propositions?
 **a)** Linda is younger than Sanjay.
 **b)** Mei makes more money than Isabella.
@@ -30,7 +30,7 @@ What is the negation of each of these propositions?
 
 ### Solution
 
-## Chapter 1 Exercise 5
+### Section 1.1 Exercise 5
 What is the negation of each of these propositions?
 **a)** Mei has an MP3 player.
 **b)** There is no pollution in New Jersey.
@@ -39,7 +39,7 @@ What is the negation of each of these propositions?
 
 ### Solution
 
-## Chapter 1 Exercise 9
+### Section 1.1 Exercise 9
 Suppose that during the most recent fiscal year, the annual
 revenue of Acme Computer was 138 billion dollars
 and its net profit was 8 billion dollars, the annual revenue
@@ -61,7 +61,7 @@ if Acme Computer had the largest annual revenue.
 
 ### Solution
 
-## Chapter 1 Exercise 11
+### Section 1.1 Exercise 11
 Let $p$ and $q$ be the propositions “Swimming at the New
 Jersey shore is allowed” and “Sharks have been spotted
 near the shore,” respectively. Express each of these compound
@@ -77,7 +77,7 @@ propositions as an English sentence.
 
 ### Solution
 
-## Chapter 1 Exercise 13
+### Section 1.1 Exercise 13
 Let p and q be the propositions
 p: It is below freezing.
 q: It is snowing.
@@ -95,7 +95,7 @@ for it to be snowing.
 
 ### Solution
 
-## Chapter 1 Exercise 19
+### Section 1.1 Exercise 19
 Determine whether each of these conditional statements
 is true or false.
 **a)** If 1 + 1 = 2, then 2 + 2 = 5.
@@ -103,9 +103,9 @@ is true or false.
 **c)** If 1 + 1 = 3, then 2 + 2 = 5.
 **d)** If monkeys can fly, then 1 + 1 = 3.
 
-### Solution
+#### Solution
 
-## Chapter 1 Exercise 21
+### Section 1.1 Exercise 21
 For each of these sentences, determine whether an inclusive
 or, or an exclusive or, is intended. Explain your
 answer.
@@ -116,9 +116,9 @@ least eight characters long.
 theory or a course in cryptography.
 **d)** You can pay using U.S. dollars or euros.
 
-### Solution
+#### Solution
 
-## Chapter 1 Exercise 23
+### Section 1.1 Exercise 23
 
 For each of these sentences, state what the sentence
 means if the logical connective or is an inclusive or (that
@@ -133,25 +133,25 @@ three items from column B.
 **d)** School is closed if more than two feet of snow falls or
 if the wind chill is below −100 ${ }^{\circ} \mathrm{F}$.
 
-### Solution
+#### Solution
 
-## Chapter 1 Exercise 31
+### Section 1.1 Exercise 31
 How many rows appear in a truth table for each of these
 compound propositions?
 **a)** p → ¬p
 **b)** (p ∨ ¬r) ∧ (q ∨ ¬s)
 **c)** q ∨ p ∨ ¬s ∨ ¬r ∨ ¬t ∨ u
 **d)** (p ∧ r ∧ t) ↔ (q ∧ t)
-### Solution
-## Chapter 1 Exercise 33
+#### Solution
+### Section 1.1 Exercise 33
 **a)** p ∧ ¬p 
 **b)** p ∨ ¬p
 **c)** (p ∨ ¬q) → q 
 **d)** (p ∨ q) → (p ∧ q)
 **e)** (p → q) ↔ (¬q → ¬p)
 **f)** (p → q) → (q → p)
-### Solution
-## Chapter 1 Exercise 35
+#### Solution
+### Section 1.1 Exercise 35
 Construct a truth table for each of these compound propositions.
 **a)** (p ∨ q) → (p ⊕ q) 
 **b)** (p ⊕ q) → (p ∧ q)
@@ -160,6 +160,6 @@ Construct a truth table for each of these compound propositions.
 **e)** (p ↔ q) ⊕ (¬p ↔ ¬r)
 **f)** (p ⊕ q) → (p ⊕ ¬q)
 
-### Solution
-## Chapter 1 Exercise 41
+#### Solution
+### Section 1.1 Exercise 41
 Construct a truth table for (p ↔ q) ↔ (r ↔ s).
