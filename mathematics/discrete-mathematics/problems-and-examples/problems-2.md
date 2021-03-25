@@ -2,7 +2,7 @@
 title: Problems 2
 description: 
 published: true
-date: 2021-03-25T02:45:54.390Z
+date: 2021-03-25T02:46:21.321Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -20,3 +20,10 @@ truth values of those that are propositions?
 **f)** Answer this question.
 
 ### Solution
+
+## Chapter 1 Exercise 3
+What is the negation of each of these propositions?
+**a)** Linda is younger than Sanjay.
+**b)** Mei makes more money than Isabella.
+**c)** Moshe is taller than Monica.
+**d)** Abby is richer than Ricardo.
