@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T19:20:51.083Z
+date: 2021-03-25T19:21:16.038Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -162,6 +162,6 @@ $$
 \begin{aligned}
 \neg(p \rightarrow q) & \equiv \neg(\neg p \vee q) & \text {conditional-disjunction equivalence} \\
 & \equiv \neg(\neg p) \wedge \neg q & \text {De Morgan law} \\
-& \equiv p \wedge \neg q
+& \equiv p \wedge \neg q & \text {double negation law}
 \end{aligned}
 $$
