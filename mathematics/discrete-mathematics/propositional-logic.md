@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T17:56:20.863Z
+date: 2021-03-25T17:57:53.473Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -60,7 +60,7 @@ An implication is true provided P is false or Q is true (or both), and false oth
 
 * Quadratic Formula - If $ax^2 + bx + c = 0 \medspace \text{and} \medspace a \not = \text{, then} \medspace x=\left(-b \pm \sqrt{b^{2}-4 a c}\right) / 2 a$.
 
-### Converse and Contrapositive
+### Converse Inverse, and Contrapositive
 The **converse** of an implication $P \rarr Q$ is the implication $Q \rarr P$. An example of a true implication and a false converse woul be, "If a shape is a square, then it is a rectangle". Or, "If a number greater than 2 is prime, then that number is odd" (Just because a number is odd does not mean it is prime). 
 
 There can be implications that's converse is also true. For example, the pythagorean theorem has a true converse. Is $a^2 + b^2 = c^2$, then the triangle with sides a, b, and c is a right triangle.
@@ -69,6 +69,8 @@ There can be implications that's converse is also true. For example, the pythago
 The **contrapositive** of an implication $P \rarr Q$ is the statement $\neg Q \rarr \neg P$. An implication and its contrapositive are logically equivalent. The contrapositive can be helpful in deciding whether an implication is true: often it is easier to analyze the contrapositive.
 
 If an implication and its converse are true, we say that P and Q are equivalent and write $P \leftrightarrow Q$ ( the biconditional).
+
+The **inverse** of a proposition $P \rarr Q$ is $\neg P \rarr \neg Q$
 ### If and only if
 $P \leftrightarrow Q$ is logically equivalent to $(P \rarr Q) \wedge (Q \rarr P)$.
 
