@@ -2,13 +2,14 @@
 title: Problems 2
 description: 
 published: true
-date: 2021-03-25T03:01:28.255Z
+date: 2021-03-25T03:02:06.719Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
 # Rosen Discrete Mathematics 8th Edition
 ## Section 1.1 Propositional Logic
+
 ### Section 1.1 Exercise 1
 Which of these sentences are propositions? What are the
 truth values of those that are propositions?
@@ -19,7 +20,7 @@ truth values of those that are propositions?
 **e)** x + 2 = 11.
 **f)** Answer this question.
 
-### Solution
+#### Solution
 
 ### Section 1.1 Exercise 3
 What is the negation of each of these propositions?
@@ -28,7 +29,7 @@ What is the negation of each of these propositions?
 **c)** Moshe is taller than Monica.
 **d)** Abby is richer than Ricardo.
 
-### Solution
+#### Solution
 
 ### Section 1.1 Exercise 5
 What is the negation of each of these propositions?
@@ -37,7 +38,7 @@ What is the negation of each of these propositions?
 **c)** 2 + 1 = 3.
 **d)** The summer in Maine is hot and sunny.
 
-### Solution
+#### Solution
 
 ### Section 1.1 Exercise 9
 Suppose that during the most recent fiscal year, the annual
@@ -59,7 +60,7 @@ Acme Computer had the largest annual revenue.
 **e)** Nadir Software had the smallest net profit if and only
 if Acme Computer had the largest annual revenue.
 
-### Solution
+#### Solution
 
 ### Section 1.1 Exercise 11
 Let $p$ and $q$ be the propositions “Swimming at the New
@@ -75,7 +76,7 @@ propositions as an English sentence.
 **g)** p ↔ ¬q 
 **h)** ¬p ∧ (p∨ ¬q)
 
-### Solution
+#### Solution
 
 ### Section 1.1 Exercise 13
 Let p and q be the propositions
@@ -93,7 +94,7 @@ not snowing if it is below freezing.
 **g)** That it is below freezing is necessary and sufficient
 for it to be snowing.
 
-### Solution
+#### Solution
 
 ### Section 1.1 Exercise 19
 Determine whether each of these conditional statements
