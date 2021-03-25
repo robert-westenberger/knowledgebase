@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T17:41:48.120Z
+date: 2021-03-25T17:42:04.458Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -95,5 +95,7 @@ Notice we just assume P is true and repeatedly ask and answer the question, "Wha
 
 # Applications of Propositional
 Propositional logic and its rules can be used to design computer circuits, to construct computer programs, to verify the correctness of those programs, and to solve many familiar puzzles. Software systems based on the rules of logic have been developed for constructing some, but not all, types of proofs automatically
+
+## Translating English Sentences
 
 
