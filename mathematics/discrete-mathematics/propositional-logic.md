@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T17:50:37.944Z
+date: 2021-03-25T17:50:49.988Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -43,7 +43,7 @@ $P \leftrightarrow Q$ is true when P and Q are both true, or both false.
 $\neg P$ is true when P is false.
 
 ## Negation
-Note that the notation for negation isn't standardized. $\neg p$ and $\bar{p}$ are the most common, you might also see $\sim p$, $-p$, $p^{\prime}$, $Np$
+Note that the notation for negation isn't standardized. $\neg p$ and $\bar{p}$ are the most common, you might also see $\sim p$, $-p$, $p^{\prime}$, $Np$, and $!p$
 ## Implications
 $P \rarr Q$  "if P then Q". Often rephrased as $P \text { IMPLIES } Q$.
 
