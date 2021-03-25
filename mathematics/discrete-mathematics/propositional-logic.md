@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T18:25:14.467Z
+date: 2021-03-25T18:34:36.784Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -129,3 +129,6 @@ $$
 (r \wedge \neg s) \rightarrow \neg q
 $$
 (There are other ways to represent this sentence)
+## Boolean Searches
+## Logic Puzzles
+## Logic Circuits
