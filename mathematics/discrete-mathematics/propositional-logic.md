@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T17:50:49.988Z
+date: 2021-03-25T17:53:09.168Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -44,6 +44,10 @@ $\neg P$ is true when P is false.
 
 ## Negation
 Note that the notation for negation isn't standardized. $\neg p$ and $\bar{p}$ are the most common, you might also see $\sim p$, $-p$, $p^{\prime}$, $Np$, and $!p$
+
+The negation of the English sentence "Bob’s smartphone has at least 32 GB of memory” is “Bob’s smartphone does not have at least 32 GB of memory”. 
+
+
 ## Implications
 $P \rarr Q$  "if P then Q". Often rephrased as $P \text { IMPLIES } Q$.
 
