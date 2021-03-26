@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T00:09:25.168Z
+date: 2021-03-26T00:36:19.732Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -166,3 +166,6 @@ $$
 & \equiv p \wedge \neg q & \text {double negation law}
 \end{aligned}
 $$
+
+Another example, we show that $\neg(p \vee(\neg p \wedge q))$ and $\neg p \wedge \neg q$ are logically equivalent by developing a series of logical equivalences.
+
