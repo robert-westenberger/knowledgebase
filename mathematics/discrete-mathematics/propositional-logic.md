@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T02:14:25.521Z
+date: 2021-03-26T17:45:28.488Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -180,3 +180,18 @@ $$
 \end{aligned}
 $$
 ## Satisfiability
+A compound proposition is **satisfiable** if there exists an assignment of truth values to its variables that makes it true (when its a tautology or contingency). 
+
+When a compound proposition is false for all assignments of truth values to its variables, it is **unsatisfiable**.
+
+
+$(p \vee \neg q) \wedge(q \vee \neg r) \wedge(r \vee \neg p) \wedge(p \vee q \vee r) \wedge(\neg p \vee \neg q \vee \neg r)$ is an example of unsatisfiable. For it to be true, both $(p \vee \neg q) \wedge(q \vee \neg r) \wedge(r \vee \neg p)$ and $(p \vee q \vee r) \wedge(\neg p \vee \neg q \vee \neg r)$ must both be true. But for the former, all three variables must have the same truth variable and for the latter at least one must be true and one must be false. This is a contradiction, so we can conclude that there does not exist an assignment of truth variables that makes the compound proposition true.
+
+### Applications of Satisfiability
+Many problems in diverse areas such as robotics, software testing, artificial intelligence planning, computer-aided design, machine vision, integrated circuit design, scheduling, computer networking, and genetics, can be modeled in terms of propositional satisfiability. 
+
+### Examples of Applications of Satisfiability
+
+#### n Queens Problem 
+
+The $n$ queens problem asks for a placement of $n$ queens on an $n \times n$ chessboard so that no queen can attack another queen. This means that no two queens can be placed in the same row, column, or diagonal to one another.
