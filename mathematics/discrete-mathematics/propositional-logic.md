@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T19:13:44.139Z
+date: 2021-03-26T19:35:45.832Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -260,7 +260,14 @@ Q_1 = \bigwedge_{i=1}^4{\bigvee_{j=1}^n{p(i,j)}} & = \bigwedge_{i=1}^4{\bigl[ p(
 $$
 $$
 \begin{aligned}
-Q_2 = \bigwedge_{i=1}^{n} \bigwedge_{j=1}^{n-1} \bigwedge_{k=j+1}^{n} & =
+Q_2 = \bigwedge_{i=1}^{4} \bigwedge_{j=1}^{3} \bigwedge_{k=j+1}^{4} (\neg p(i, j) \vee \neg p(k, j)) &=
+\bigwedge_{i=1}^{4} \bigwedge_{j=1}^{3}
+
+\begin{aligned}
+& \hspace{1em} [[\neg p(i, j) \vee \neg p(2, j)] \\
+& \wedge [(\neg p(i, j) \vee \neg p(3, j)] \\
+& \wedge [(\neg p(i, j) \vee \neg p(4, j)]]
+\end{aligned}
 \end{aligned}
 $$
 
