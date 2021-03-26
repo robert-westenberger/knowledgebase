@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T00:36:19.732Z
+date: 2021-03-26T00:44:59.377Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -168,4 +168,14 @@ $$
 $$
 
 Another example, we show that $\neg(p \vee(\neg p \wedge q))$ and $\neg p \wedge \neg q$ are logically equivalent by developing a series of logical equivalences.
-
+$$
+\begin{aligned}
+\neg(p \vee(\neg p \wedge q)) & \equiv \neg p \wedge \neg(\neg p \wedge q) & \text {second De Morgan law} \\
+& \equiv \neg p \wedge[\neg(\neg p) \vee \neg q] & \text {first De Morgan law} \\
+& \equiv \neg p \wedge(p \vee \neg q) & \text {double negation law} \\
+& \equiv (\neg p \wedge p) \vee(\neg p \wedge \neg q) & \text {second distributive law} \\
+& \equiv \mathbf{F} \vee(\neg p \wedge \neg q) & \text {because} \neg p \wedge p \equiv \mathbf{F} \\
+& \equiv (\neg p \wedge \neg q) \vee \mathbf{F} & \text {by the commutative law for disjunction} \\
+& \equiv \neg p \wedge \neg q & \text {by the identity law for } \mathbf{F} \\
+\end{aligned}
+$$
