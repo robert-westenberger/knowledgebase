@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T17:59:14.016Z
+date: 2021-03-26T18:01:02.890Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -205,3 +205,9 @@ To model this as a satisfiability problem, we introduce $n^2$ variables $p(i, j)
 Note that squares $(i, j)$ and $\left(i^{\prime}, j^{\prime}\right)$ are on the same diagonal if either $i+i^{\prime}=j+j^{\prime}$ or $i-i^{\prime}=j-j^{\prime}$. Note in the picture above of our chessboard, $p(6, 2)$ and $p(2,1)$ are true, and $p(3, 4)$ and $p(5, 4)$ are false. 
 
 For no two of the $n$ queens to be in the same row, there must be one queen in each row. We can show that there is one queen in each row by verifying that every row contains at least one queen and that every row contains at most one queen.
+
+We note that $\bigvee_{j=1}^{n} p(i, j)$ asserts that row $i$ contains at least one queen, and 
+$$
+Q_{1}=\bigwedge_{i=1}^{n} \bigvee_{j=1}^{n} p(i, j)
+$$
+asserts that every row contains at least one queen. 
