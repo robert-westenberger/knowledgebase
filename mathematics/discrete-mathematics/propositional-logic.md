@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T18:19:09.568Z
+date: 2021-03-26T18:25:02.989Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -212,3 +212,4 @@ Q_{1}=\bigwedge_{i=1}^{n} \bigvee_{j=1}^{n} p(i, j)
 $$
 asserts that every row contains at least one queen. 
 
+For every row to include at most one queen, it must be the case that $p(i, j)$ and $p(k, j)$ are not both true for integers $j$ and $k$ with $1 \leq j<k \leq n$. Observe that $\neg p(i, j) \vee \neg p(i, k)$ asserts that at least one of $\neg p(i, j)$ and $\neg p(i, k)$ is true, which means that at least one of $p(i, j)$ and $p(i, k)$ is false. 
