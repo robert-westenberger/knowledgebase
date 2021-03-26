@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T19:56:50.942Z
+date: 2021-03-26T20:01:51.267Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -246,53 +246,4 @@ $$
 
 true.  
 
-
-So for $n=4$, we have 
-
-$$
-\begin{aligned}
-Q_1 = \bigwedge_{i=1}^4{\bigvee_{j=1}^n{p(i,j)}} & = \bigwedge_{i=1}^4{\bigl[ p(i,1) \vee p(i,2) \vee p(i,3) \vee p(i,4)\bigr]} \\
-& = \bigl[ p(1,1) \vee p(1,2) \vee p(1,3) \vee p(1,4)\bigr] \\
-& ~\quad \wedge \bigl[ p(2,1) \vee p(2,2) \vee p(2,3) \vee p(2,4)\bigr] \\
-& ~\quad \wedge \bigl[ p(3,1) \vee p(3,2) \vee p(3,3) \vee p(3,4)\bigr] \\
-& ~\quad \wedge \bigl[ p(4,1) \vee p(4,2) \vee p(4,3) \vee p(4,4)\bigr].
-\end{aligned}
-$$
-
-$Q_2$ has three nesting summations so its a little unweildy. 
-
-$$
-\begin{aligned}
-
-Q_2 = \bigwedge_{i=1}^{4} \bigwedge_{j=1}^{3} \bigwedge_{k=j+1}^{4} (\neg p(i, j) \vee \neg p(k, j)) &=
-\bigwedge_{i=1}^{4} \bigwedge_{j=1}^{3}
-
-\begin{aligned}
-& \hspace{1em} [[\neg p(i, j) \vee \neg p(2, j)] \\
-& \wedge [(\neg p(i, j) \vee \neg p(3, j)] \\
-& \wedge [(\neg p(i, j) \vee \neg p(4, j)]]
-\end{aligned} \\ 
-&= \bigwedge_{i=1}^{4}
-\begin{aligned}
-& \hspace{1em} [[[\neg p(i, 1) \vee \neg p(2, 1)] \\
-& \wedge [(\neg p(i, 1) \vee \neg p(3, 1)] \\
-& \wedge [(\neg p(i, 1) \vee \neg p(4, 1)]]
-\end{aligned} 
-
-\wedge 
-
-\begin{aligned}
-& \hspace{1em} [[\neg p(i, 2) \vee \neg p(2, 2)] \\
-& \wedge [(\neg p(i, 2) \vee \neg p(3, 2)] \\
-& \wedge [(\neg p(i, 2) \vee \neg p(4, 2)]]
-\end{aligned} 
-
-\wedge 
-\begin{aligned}
-& \hspace{1em} [[\neg p(i, 3) \vee \neg p(2, 3)] \\
-& \wedge [(\neg p(i, 3) \vee \neg p(3, 3)] \\
-& \wedge [(\neg p(i, 3) \vee \neg p(4, 3)]]]
-\end{aligned} 
-\end{aligned}
-$$
 
