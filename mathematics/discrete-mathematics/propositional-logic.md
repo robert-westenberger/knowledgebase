@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T17:55:19.847Z
+date: 2021-03-26T17:57:06.051Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -196,7 +196,9 @@ Many problems in diverse areas such as robotics, software testing, artificial in
 
 The $n$ queens problem asks for a placement of $n$ queens on an $n \times n$ chessboard so that no queen can attack another queen. This means that no two queens can be placed in the same row, column, or diagonal to one another.
 
+
 ![n_queens.png](/n_queens.png)
+
 To model this as a satisfiability problem, we introduce $n^2$ variables $p(i, j)$ for $i=1,2, \ldots, n$  and $j=1,2, \ldots, n$. For a given placement of a queens on the chessboard, $P(i, j)$ is true when there is a queen on the square in the $ith$ row and $jth$ column, and is false otherwise.
 
 Note that squares $(i, j)$ and $\left(i^{\prime}, j^{\prime}\right)$ are on the same diagonal if either $i+i^{\prime}=j+j^{\prime}$ or $i-i^{\prime}=j-j^{\prime}$. Note in the picture above of our chessboard, $p(6, 2)$ and $p(2,1)$ are true, and $p(3, 4)$ and $p(5, 4)$ are false. 
