@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T00:44:59.377Z
+date: 2021-03-26T02:14:25.521Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -179,3 +179,4 @@ $$
 & \equiv \neg p \wedge \neg q & \text {by the identity law for } \mathbf{F} \\
 \end{aligned}
 $$
+## Satisfiability
