@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T18:30:37.542Z
+date: 2021-03-26T19:11:18.276Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -245,3 +245,26 @@ Q=Q_{1} \wedge Q_{2} \wedge Q_{3} \wedge Q_{4} \wedge Q_{5}
 $$
 
 true.  
+
+
+So for $n=4$, we have 
+
+$$
+\begin{aligned}
+Q_1 = \bigwedge_{i=1}^4{\bigvee_{j=1}^n{p(i,j)}} & = \bigwedge_{i=1}^4{\bigl[ p(i,1) \vee p(i,2) \vee p(i,3) \vee p(i,4)\bigr]} \\
+& = \bigl[ p(1,1) \vee p(1,2) \vee p(1,3) \vee p(1,4)\bigr] \\
+& ~\quad \wedge \bigl[ p(2,1) \vee p(2,2) \vee p(2,3) \vee p(2,4)\bigr] \\
+& ~\quad \wedge \bigl[ p(3,1) \vee p(3,2) \vee p(3,3) \vee p(3,4)\bigr] \\
+& ~\quad \wedge \bigl[ p(4,1) \vee p(4,2) \vee p(4,3) \vee p(4,4)\bigr].
+\end{aligned}
+$$
+$$
+\begin{aligned}
+Q_2 = \bigwedge_{i=1}^4{\bigvee_{j=1}^n{p(i,j)}} & = \bigwedge_{i=1}^4{\bigl[ p(i,1) \vee p(i,2) \vee p(i,3) \vee p(i,4)\bigr]} \\
+& = \bigl[ p(1,1) \vee p(1,2) \vee p(1,3) \vee p(1,4)\bigr] \\
+& ~\quad \wedge \bigl[ p(2,1) \vee p(2,2) \vee p(2,3) \vee p(2,4)\bigr] \\
+& ~\quad \wedge \bigl[ p(3,1) \vee p(3,2) \vee p(3,3) \vee p(3,4)\bigr] \\
+& ~\quad \wedge \bigl[ p(4,1) \vee p(4,2) \vee p(4,3) \vee p(4,4)\bigr].
+\end{aligned}
+$$
+
