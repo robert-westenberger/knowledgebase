@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T18:01:02.890Z
+date: 2021-03-26T18:19:09.568Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -211,3 +211,4 @@ $$
 Q_{1}=\bigwedge_{i=1}^{n} \bigvee_{j=1}^{n} p(i, j)
 $$
 asserts that every row contains at least one queen. 
+
