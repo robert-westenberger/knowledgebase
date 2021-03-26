@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T18:28:32.110Z
+date: 2021-03-26T18:30:37.542Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -236,4 +236,12 @@ $$
 Q_{5}=\bigwedge_{i=1}^{n-1} \bigwedge_{j=1}^{n-1} \bigwedge_{k=1}^{\min (n-i, n-j)}(\neg p(i, j) \vee \neg p(i+k, j+k))
 $$
 
-The innermost conjunction in $Q_4$ and in $Q_5$ for a pair $(i, j)$ runs through the positions on a diagonal that begin at $(i, j)$ and runs rightward along this diagonal. 
+The innermost conjunction in $Q_4$ and in $Q_5$ for a pair $(i, j)$ runs through the positions on a diagonal that begin at $(i, j)$ and runs rightward along this diagonal. The upper limits on these innermost conjunctions identify the last cell in the board on each diagonal. 
+
+Putting this all together, the solution to the $n$ queens problem are the assignments of truth values to the variables $p(i, j)$ for $i=1,2, \ldots, n$  and $j=1,2, \ldots, n$ that make 
+
+$$
+Q=Q_{1} \wedge Q_{2} \wedge Q_{3} \wedge Q_{4} \wedge Q_{5}
+$$
+
+true.  
