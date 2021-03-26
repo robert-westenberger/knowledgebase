@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T18:25:02.989Z
+date: 2021-03-26T18:28:32.110Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -212,4 +212,28 @@ Q_{1}=\bigwedge_{i=1}^{n} \bigvee_{j=1}^{n} p(i, j)
 $$
 asserts that every row contains at least one queen. 
 
-For every row to include at most one queen, it must be the case that $p(i, j)$ and $p(k, j)$ are not both true for integers $j$ and $k$ with $1 \leq j<k \leq n$. Observe that $\neg p(i, j) \vee \neg p(i, k)$ asserts that at least one of $\neg p(i, j)$ and $\neg p(i, k)$ is true, which means that at least one of $p(i, j)$ and $p(i, k)$ is false. 
+For every row to include at most one queen, it must be the case that $p(i, j)$ and $p(k, j)$ are not both true for integers $j$ and $k$ with $1 \leq j<k \leq n$. Observe that $\neg p(i, j) \vee \neg p(i, k)$ asserts that at least one of $\neg p(i, j)$ and $\neg p(i, k)$ is true, which means that at least one of $p(i, j)$ and $p(i, k)$ is false. So to check that there is at most one queen in each row, we assert 
+
+$$
+Q_{2}=\bigwedge_{i=1}^{n} \bigwedge_{j=1}^{n-1} \bigwedge_{k=j+1}^{n}(\neg p(i, j) \vee \neg p(k, j))
+$$
+
+To assert that no column contains more than one queen, we assert that 
+
+$$
+Q_{3}=\bigwedge_{j=1}^{n} \bigwedge_{i=1}^{n-1} \bigwedge_{k=i+1}^{n}(\neg p(i, j) \vee \neg p(k, j))
+$$
+(This assertion, together with the previous assertion that every row contains a queen, implies that every column contains a queen.)
+
+To assert that no diagonal contains two queens, we assert
+$$
+Q_{4}=\bigwedge_{i=2}^{n} \bigwedge_{j=1}^{n-1} \bigwedge_{k=1}^{\min (i-1, n-j)}(\neg p(i, j) \vee \neg p(i-k, k+j))
+$$
+
+and 
+
+$$
+Q_{5}=\bigwedge_{i=1}^{n-1} \bigwedge_{j=1}^{n-1} \bigwedge_{k=1}^{\min (n-i, n-j)}(\neg p(i, j) \vee \neg p(i+k, j+k))
+$$
+
+The innermost conjunction in $Q_4$ and in $Q_5$ for a pair $(i, j)$ runs through the positions on a diagonal that begin at $(i, j)$ and runs rightward along this diagonal. 
