@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-26T17:58:14.818Z
+date: 2021-03-26T17:59:14.016Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -203,3 +203,5 @@ The $n$ queens problem asks for a placement of $n$ queens on an $n \times n$ che
 To model this as a satisfiability problem, we introduce $n^2$ variables $p(i, j)$ for $i=1,2, \ldots, n$  and $j=1,2, \ldots, n$. For a given placement of a queens on the chessboard, $P(i, j)$ is true when there is a queen on the square in the $ith$ row and $jth$ column, and is false otherwise. 
 
 Note that squares $(i, j)$ and $\left(i^{\prime}, j^{\prime}\right)$ are on the same diagonal if either $i+i^{\prime}=j+j^{\prime}$ or $i-i^{\prime}=j-j^{\prime}$. Note in the picture above of our chessboard, $p(6, 2)$ and $p(2,1)$ are true, and $p(3, 4)$ and $p(5, 4)$ are false. 
+
+For no two of the $n$ queens to be in the same row, there must be one queen in each row. We can show that there is one queen in each row by verifying that every row contains at least one queen and that every row contains at most one queen.
