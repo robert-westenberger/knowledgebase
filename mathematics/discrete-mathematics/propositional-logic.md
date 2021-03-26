@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-25T19:21:16.038Z
+date: 2021-03-26T00:09:25.168Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -158,6 +158,7 @@ $$
 $$
 
 ## Constructing New Logical Equivalences
+Below, we show that $\neg(p \rightarrow q)$ and $p \wedge \neg q$ are logically equivalent. 
 $$
 \begin{aligned}
 \neg(p \rightarrow q) & \equiv \neg(\neg p \vee q) & \text {conditional-disjunction equivalence} \\
