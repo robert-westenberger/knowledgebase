@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-27T02:46:10.519Z
+date: 2021-03-27T03:08:23.822Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -248,4 +248,7 @@ true.
 
 So to recap: 
 $Q_1$ is a conjunction of disjunctions which require for every row there is at least one queen.
+
+The rest of the constraints are forbidding pairs of queens from being placed at certain locations. 
+$Q_2$ is forbidding placing two queens in the same row. That is, we for forbid $p(i, j) \wedge p(i, k)$
 
