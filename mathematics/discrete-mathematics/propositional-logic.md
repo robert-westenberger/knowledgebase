@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-27T02:42:19.190Z
+date: 2021-03-27T02:46:10.519Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -246,4 +246,6 @@ $$
 
 true.  
 
+So to recap: 
+$Q_1$ is a conjunction of disjunctions which require for every row there is at least one queen.
 
