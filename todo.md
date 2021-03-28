@@ -2,7 +2,7 @@
 title: Todo
 description: 
 published: true
-date: 2021-03-25T20:19:38.514Z
+date: 2021-03-28T23:55:08.678Z
 tags: 
 editor: markdown
 ---
@@ -14,5 +14,5 @@ Go back to "Boolean Searches", "Logic Puzzles", "Logic Circuits" in sec 1.2 rose
 Continue from P 33(ROSEN)
 ## Smaller Tasks
 * Make Propositional Equivalences Cheat sheet page (start from 29 rosen)
-# Problem Set
-Make Problem set for "Unit 1" of discrete maths (
+# projects?
+* n queen constraint satisfaction visualizer
