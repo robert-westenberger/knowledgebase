@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-29T00:34:06.605Z
+date: 2021-03-29T00:48:25.292Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -286,4 +286,11 @@ $$
 The puzzle is solved by finding an assigment of truth values for each of the proposition $p(i, j, n)$ that make the conjunction of our compound propositions true. 
 
 For $n=3$ for example (a $9 \times 9$ grid, the most common sudoku configuration), there are $729$ such propositions.
+
+
+To construct the assertion that every row contains every number:
+1) Assert that row $i$ contains the number $n$
+$$
+\bigvee _{j=1}^9 p(i, j, n)
+$$
 ### Solving Satisfiability Problems
