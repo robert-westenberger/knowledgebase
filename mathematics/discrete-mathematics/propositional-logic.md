@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-29T00:29:03.150Z
+date: 2021-03-29T00:34:06.605Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -264,9 +264,24 @@ To encode sudoku as a constraint satisfaction problem, we let $p(i, j, n)$ denot
 
 Then we construct the following compound propositions:
 * Every row contains every number
+
+$$
+\bigwedge_{i=1}^{9} \bigwedge_{n=1}^{9} \bigvee_{j=1}^{9} p(i, j, n)
+$$
+
 * Every column contains every number
+
+$$
+\bigwedge_{j=1}^{9} \bigwedge_{n=1}^{9} \bigvee_{i=1}^{9} p(i, j, n)
+$$
+
 * Every $n \times n$ block contains every number
+$$
+\bigwedge_{r=0}^{2} \bigwedge_{s=0}^{2} \bigwedge_{n=1}^{9} \bigvee_{i=1}^{3} \bigvee_{j=1}^{3} p(3 r+i, 3 s+j, n)
+$$
+
 * Each cell contains no more than 1 number
+	(We take the conjunction over all valeus of $n$, $n^\prime$, $i$, and $j$, where each variable ranges from $1$ to $n^2$ and $n \ne n^ \prime$ of  $p(i, j, n) \rightarrow \neg p\left(i, j, n^{\prime}\right)$
 
 The puzzle is solved by finding an assigment of truth values for each of the proposition $p(i, j, n)$ that make the conjunction of our compound propositions true. 
 
