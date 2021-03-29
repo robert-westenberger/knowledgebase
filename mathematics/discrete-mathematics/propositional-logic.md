@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-29T00:48:25.292Z
+date: 2021-03-29T00:50:25.642Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -293,4 +293,6 @@ To construct the assertion that every row contains every number:
 $$
 \bigvee _{j=1}^9 p(i, j, n)
 $$
+
+2) Assert row $i$ contains all $n$ numbers, we form the conjunction of the preceding
 ### Solving Satisfiability Problems
