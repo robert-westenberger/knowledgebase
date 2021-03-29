@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-28T23:54:25.728Z
+date: 2021-03-29T00:29:03.150Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -256,3 +256,19 @@ $Q_3$ is to forbid placing two queens in the same column. This condition $p(i, j
 
 $Q_4$ and $Q_5$ are to forbid placing two queens in the same forward and backward diagonal respectively. 
 
+#### Sudoku 
+Sudoku is a number puzzle that consists of a $n^2 \times n^2$ grid for any positive integer $n$, with the $n^2 \times n^2$ grid made up of $n^2$ $n \times n$ subgrids. Some of the cells in the grid are assigned one of the numbers $1, 2, 3,  ..., n^2$
+and all the other cells are blank. The puzzle is solved by assigning a number to each blank cell so that every row, column, and $n \times n$ subgrids contains each of the $n^2$ numbers.
+
+To encode sudoku as a constraint satisfaction problem, we let $p(i, j, n)$ denote the proposition that is true when number $n$ is in the $i$th row and $j$th column. 
+
+Then we construct the following compound propositions:
+* Every row contains every number
+* Every column contains every number
+* Every $n \times n$ block contains every number
+* Each cell contains no more than 1 number
+
+The puzzle is solved by finding an assigment of truth values for each of the proposition $p(i, j, n)$ that make the conjunction of our compound propositions true. 
+
+For $n=3$ for example (a $9 \times 9$ grid, the most common sudoku configuration), there are $729$ such propositions.
+### Solving Satisfiability Problems
