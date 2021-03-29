@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-03-29T00:50:25.642Z
+date: 2021-03-29T00:57:06.931Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -288,11 +288,21 @@ The puzzle is solved by finding an assigment of truth values for each of the pro
 For $n=3$ for example (a $9 \times 9$ grid, the most common sudoku configuration), there are $729$ such propositions.
 
 
-To construct the assertion that every row contains every number:
-1) Assert that row $i$ contains the number $n$
+To construct the assertion that every row contains every number (in this case, $n=3$):
+1) Assert that row $i$ contains the number $k$
 $$
-\bigvee _{j=1}^9 p(i, j, n)
+\bigvee _{j=1}^9 p(i, j, k)
 $$
 
-2) Assert row $i$ contains all $n$ numbers, we form the conjunction of the preceding
+2) Assert row $i$ contains all $n$ numbers, we form the conjunction of the above disjunctions over all possible values of $k$.
+$$
+\bigwedge_{k=1}^{9} \bigvee_{j=1}^{9} p(i, j, k)
+$$
+
+3) Finally, to assert every row contains every number, we take the conjunction of $\bigwedge_{k=1}^{9} \bigvee_{j=1}^{9} p(i, j, k)$ over all nine rows. This gives us 
+
+$$
+\bigwedge_{i=1}^{9} \bigwedge_{k=1}^{9} \bigvee_{j=1}^{9} p(i, j, k)
+$$
+
 ### Solving Satisfiability Problems
