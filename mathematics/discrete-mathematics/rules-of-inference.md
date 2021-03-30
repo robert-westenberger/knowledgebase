@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-03-30T18:25:45.310Z
+date: 2021-03-30T18:29:25.428Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -26,3 +26,5 @@ $$
 \hline \therefore q 
 \end{aligned}
 $$
+
+Modus ponens tells us that if a conditional statement and the hypothesis of this conditional statement are both true, then the conclusion must also be true. 
