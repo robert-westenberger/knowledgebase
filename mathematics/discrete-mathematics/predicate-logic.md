@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-30T17:40:31.603Z
+date: 2021-03-30T17:48:15.915Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -156,3 +156,8 @@ $\forall x \forall y(x+y=y+x)$ says that $x+y=y+x$ for all real numbers $x$ and 
 $\forall x \exists y(x+y=0)$ says that for every real number $x$ there is a real number $y$ such that $x+y=0$. This states that every real number has an additive inverse.
 
 $\forall x \forall y \forall z(x+(y+z)=(x+y)+z)$ is the associative law for addition of real numbers.
+
+#### Thinking of Quantification as Loops
+This is a helpful way of thinking about nested quantifiers. For example, to see whether $\forall x \forall y P(x, y)$ is true, we loop through the values for $x$, and for each $x$ we loop through the values for $y$. If we find that $P(x, y)$ is true for all values for $x$ and $y$, we have determined that $\forall x \forall y P(x, y)$ is true. If we ever hit a value $x$ for which we hit a value $y$ which makes $P(x, y)$ false, we have shown $\forall x \forall y P(x, y)$ is false. 
+
+A similar procedure is done for $\forall x \exists y P(x, y)$, although this time we don't have to loop through all $y$... just until we find one that satisfies the proposition.
