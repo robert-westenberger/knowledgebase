@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-30T17:17:41.938Z
+date: 2021-03-30T17:20:28.220Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -55,6 +55,8 @@ This expression would be read as, "There exists an $x$ in $D$ such that $P(x)$ i
 
 ### Binding Variables
 When a quantifier is used on the variable $x$, we say this occurence of the variable is **bound**. An occurence of a variable that is not obund by a quantifier or set equal to a particular value is said to be **free**.
+
+In the statement $\exists x(x+y=1)$, $x$ is bound and $y$ is free.
 ### Mixing Quantifiers
 
 Many mathematical statements involve several quantifiers. Goldbach's Conjecture states:
