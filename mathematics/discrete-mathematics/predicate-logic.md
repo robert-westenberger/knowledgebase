@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-30T17:36:13.523Z
+date: 2021-03-30T17:40:31.603Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -151,4 +151,8 @@ $$
 is the same thing as $\forall x Q(x)$m where $Q(x)$ is $\exists y P(x, y)$, where $P(x,y)$ is $x+y=0$. 
 
 ### Understanding Statements Involving Nested Quantifiers
+$\forall x \forall y(x+y=y+x)$ says that $x+y=y+x$ for all real numbers $x$ and $y$. This is the commutative law of addition for real numbers.
 
+$\forall x \exists y(x+y=0)$ says that for every real number $x$ there is a real number $y$ such that $x+y=0$. This states that every real number has an additive inverse.
+
+$\forall x \forall y \forall z(x+(y+z)=(x+y)+z)$ is the associative law for addition of real numbers.
