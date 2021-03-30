@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-30T17:30:21.863Z
+date: 2021-03-30T17:36:13.523Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -143,4 +143,12 @@ There is an $x$ for which $P(x,y)$ is true for every $y$ IMPLIES For every $y$, 
 
 Suppose $\exists x \forall y . P(x, y)$. Some element $x_{0} \in D$ has the property that $P_{0}\left(x_{0}, y\right)$ is true for all $y \in D$. So for every $y \in D$, there is some $x \in D$, namely $x_0$, such that $P_{0}(x, y)$ is true. That is, $\forall y \exists x . P(x, y)$ holds under this interpretation. $\blacksquare$
 
+## Nested Quantifiers
+Note that everything within the scope of a quantifier can be thought of as a propositional function. For example, 
+$$
+\forall x \exists y(x+y=0)
+$$
+is the same thing as $\forall x Q(x)$m where $Q(x)$ is $\exists y P(x, y)$, where $P(x,y)$ is $x+y=0$. 
+
+### Understanding Statements Involving Nested Quantifiers
 
