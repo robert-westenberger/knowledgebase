@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-30T17:48:15.915Z
+date: 2021-03-30T17:58:53.169Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -157,6 +157,13 @@ $\forall x \exists y(x+y=0)$ says that for every real number $x$ there is a real
 
 $\forall x \forall y \forall z(x+(y+z)=(x+y)+z)$ is the associative law for addition of real numbers.
 
+The statement “The sum of two positive integers is always positive” can be turned into the following logical expression
+
+$$
+\forall x \forall y((x>0) \wedge(y>0) \rightarrow(x+y>0))
+$$
+
+where the domain for both variables consists of all integers.
 #### Thinking of Quantification as Loops
 This is a helpful way of thinking about nested quantifiers. For example, to see whether $\forall x \forall y P(x, y)$ is true, we loop through the values for $x$, and for each $x$ we loop through the values for $y$. If we find that $P(x, y)$ is true for all values for $x$ and $y$, we have determined that $\forall x \forall y P(x, y)$ is true. If we ever hit a value $x$ for which we hit a value $y$ which makes $P(x, y)$ false, we have shown $\forall x \forall y P(x, y)$ is false. 
 
