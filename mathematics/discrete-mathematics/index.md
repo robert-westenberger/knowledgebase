@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-03-29T03:21:20.637Z
+date: 2021-03-30T18:14:47.345Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -19,6 +19,7 @@ Resources used
 ## Proofs
 [Propositional Logic](/mathematics/discrete-mathematics/propositional-logic)
 [Predicate Logic](/mathematics/discrete-mathematics/predicate-logic)
+[Rules of Inference](/mathematics/discrete-mathematics/rules-of-inference)
 Logical Formulas
 Truth tables
 [Types of Proofs](/mathematics/discrete-mathematics/types-of-proofs)
