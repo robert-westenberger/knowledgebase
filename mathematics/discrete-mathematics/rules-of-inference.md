@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-03-31T17:25:30.974Z
+date: 2021-03-31T17:40:11.707Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -29,11 +29,69 @@ $$
 
 Modus ponens tells us that if a conditional statement and the hypothesis of this conditional statement are both true, then the conclusion must also be true. 
 ### Modus Tollens
+The tautology $(\neg q \wedge(p \rightarrow q)) \rightarrow \neg p$
+$$
+\begin{aligned}
+& \neg q \\
+& p \rightarrow q \\
+\hline \therefore \neg p 
+\end{aligned}
+$$
 ### Hypothetical Syllogism
+$((p \rightarrow q) \wedge(q \rightarrow r)) \rightarrow(p \rightarrow r)$
+$$
+\begin{aligned}
+& p \rightarrow q \\
+& q \rightarrow r \\
+\hline \therefore \medspace
+& p \rightarrow r
+\end{aligned}
+$$
 ### Disjunctive Syllogism
+$
+((p \vee q) \wedge \neg p) \rightarrow q
+$
+$$
+\begin{array}{l}
+p \vee q \\
+\neg p \\
+\hline \therefore q
+\end{array}
+$$
 ### Addition
+$$
+p \rightarrow(p \vee q)
+$$
+$$
+\frac{p}{\therefore p \vee q}
+$$
 ### Simplification
+$$
+(p \wedge q) \rightarrow p
+$$
+$$
+\frac{p \wedge q}{\therefore p}
+$$
 ### Conjunction
+$$
+((p) \wedge(q)) \rightarrow(p \wedge q)
+$$
+$$
+\begin{array}{l}
+p \\
+q \\
+\hline \therefore p \wedge q
+\end{array}
+$$
 ### Resolution
-
+$$
+((p \vee q) \wedge(\neg p \vee r)) \rightarrow(q \vee r)
+$$
+$$
+\begin{array}{l}
+p \vee q \\
+\neg p \vee r \\
+\hline \therefore q \vee r
+\end{array}
+$$
 ## Using Rules of Inference to Build Arguments
