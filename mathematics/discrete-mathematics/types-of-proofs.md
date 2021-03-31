@@ -2,13 +2,13 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-13T02:44:44.659Z
+date: 2021-03-31T18:31:17.401Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
 
 # Types of Proofs
-
+A **theorem** is a statement that can be shown to be true. 
 
 ## Proving an Implication
 Propositions of the form "If $P$, then $Q$" are called implications. 
