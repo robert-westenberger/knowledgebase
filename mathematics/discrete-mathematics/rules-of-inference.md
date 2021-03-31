@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-03-31T17:22:48.039Z
+date: 2021-03-31T17:25:30.974Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -30,3 +30,10 @@ $$
 Modus ponens tells us that if a conditional statement and the hypothesis of this conditional statement are both true, then the conclusion must also be true. 
 ### Modus Tollens
 ### Hypothetical Syllogism
+### Disjunctive Syllogism
+### Addition
+### Simplification
+### Conjunction
+### Resolution
+
+## Using Rules of Inference to Build Arguments
