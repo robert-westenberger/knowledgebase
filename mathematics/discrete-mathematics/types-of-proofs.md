@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-31T18:32:23.361Z
+date: 2021-03-31T18:35:40.036Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -10,6 +10,8 @@ editor: markdown
 # Types of Proofs
 A **theorem** is a statement that can be shown to be true. A theorem is demonstrated to be true with a **proof**. 
 
+## Direct Proof
+A **direct proof** of a conditional statement $p \rarr q$ is constructed when the first step is the assumption $p$ is true and subsequent steps are constructed using rules of inference, with the final step showing that $q$ must also be true. 
 ## Proving an Implication
 Propositions of the form "If $P$, then $Q$" are called implications. 
 
