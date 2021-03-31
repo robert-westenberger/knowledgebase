@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-31T18:35:40.036Z
+date: 2021-03-31T18:44:53.399Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
