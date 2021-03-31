@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-03-31T17:40:11.707Z
+date: 2021-03-31T17:48:05.979Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -95,3 +95,4 @@ p \vee q \\
 \end{array}
 $$
 ## Using Rules of Inference to Build Arguments
+Rules of inference can be used to transform 
