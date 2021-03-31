@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-03-31T18:01:32.100Z
+date: 2021-03-31T18:10:36.210Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -96,3 +96,16 @@ p \vee q \\
 $$
 ## Using Rules of Inference to Build Arguments
 Rules of inference can be used to deduce new statements from the statements whose truth that we already know. 
+Below is an example of showing the premises "It is not sunny this afternoon and it is colder than yesterday." "We will go swimming only if it is sunny" "If we do not go swimming, then we will take a canoe trip" "If we take a canoe trip, then we will be home by sunset" leads to the conclusion "We will be home by sunset".
+
+Let $p$ be the proposition “It is sunny this afternoon,” $q$ the proposition “It is colder Extra Examples than yesterday,” $r$ the proposition “We will go swimming,” $s$ the proposition “We will take a canoe trip,” and $t$ the proposition “We will be home by sunset.”
+
+Step
+1. $\neg p \wedge q$ (Premise)
+2. $\neg p$ (Simplification using 1)
+3. $r \rightarrow p$ (Premise)
+4. $\neg r$ (Modus tollens using (2) and (3))
+5. $\neg r \rightarrow s$ (Premise)
+6. $s$ (Modus ponens using (4) and (5))
+7. $s \rightarrow t$ (Premise)
+8. $t$ (Modus ponens using (6) and (7))
