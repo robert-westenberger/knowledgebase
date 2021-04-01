@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:19:39.163Z
+date: 2021-04-01T17:20:20.501Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -288,5 +288,5 @@ A **trivial proof** of the conditional statement $p \rarr q$ is a proof showing 
 
 Let $P(n)$ be "If $a$ and $b$ are positive integers with $a \ge b$, then $a^n \ge b^n$", where the domain consists of all nonnegative integers. Show that $P(0)$ is true. 
 
-The proposition $P(0)$ is “If $a \ge b, then a^0 \ge b^0$.” Because $a^0 = b^0 = 1$, the conclusion
+The proposition $P(0)$ is “If $a \ge b$, then $a^0 \ge b^0$.” Because $a^0 = b^0 = 1$, the conclusion
 of the conditional statement “If $a \ge b$, then $a^0 ≥ b^0$” is true. Hence, this conditional statement, which is $P(0)$, is true. This is an example of a trivial proof. Note that the hypothesis, which is the statement “$a \ge b$,” was not needed in this proof.
