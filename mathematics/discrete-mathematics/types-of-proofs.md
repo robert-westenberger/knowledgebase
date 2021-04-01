@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:06:12.547Z
+date: 2021-04-01T17:12:16.762Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -270,3 +270,10 @@ $N$ is certainly larger than $p$ and not divisible by any number less than or eq
 4. We assumed there will be more than $n$ pigeons flying into pigeon holes, so this is a contradiction.
 5. There must be a pigeonhole with more than 1 pigeon. $\blacksquare$
 
+## Vacuous Proofs
+A **vacuous proof** of the conditional statement $p \rarr q$ is a proof showing that $p$ is false. Remember that $p \rarr q$ is true if $p$ is false.
+
+#### Example
+Show that $P(0)$ is true, where $P(n)$ is "If $n \gt 1$, then $n^2 \gt n$" and the domain consists of all integers.
+
+Note that $P(0)$ is "If $0 \gt 1$, then $0^2 \gt 0$". We can show $P(0)$ using a vacuous proof. The hypothesis $0 \gt 1$ is false. This tells us that $P(0)$ is automatically true.
