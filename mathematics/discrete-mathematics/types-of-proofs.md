@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:12:16.762Z
+date: 2021-04-01T17:16:06.583Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -277,3 +277,11 @@ A **vacuous proof** of the conditional statement $p \rarr q$ is a proof showing 
 Show that $P(0)$ is true, where $P(n)$ is "If $n \gt 1$, then $n^2 \gt n$" and the domain consists of all integers.
 
 Note that $P(0)$ is "If $0 \gt 1$, then $0^2 \gt 0$". We can show $P(0)$ using a vacuous proof. The hypothesis $0 \gt 1$ is false. This tells us that $P(0)$ is automatically true.
+#### Example 2
+Prove that if $n$ is an integer with $10 \le n \le 15$ which is a perfect square, then $n$ is also a perfect cube.
+
+Note that there are no perfect squares $n$ with $10 \le n \le 15$, because $3^2 = 9$ and $4^2 = 16$. Hence, the statement that n is an integer with $10 \le n \le 15$ which is a perfect square is false for all integers $n$. Consequently, the statement to be proved is true for all integers $n$.
+## Trivial Proofs
+A **trivial proof** of the conditional statement $p \rarr q$ is a proof showing that $q$ is true. Remember that $p \rarr q$ is true if $q$ is true.
+
+#### Example
