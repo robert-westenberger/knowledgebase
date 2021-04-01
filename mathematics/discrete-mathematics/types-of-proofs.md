@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:16:06.583Z
+date: 2021-04-01T17:17:44.335Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -285,3 +285,5 @@ Note that there are no perfect squares $n$ with $10 \le n \le 15$, because $3^2 
 A **trivial proof** of the conditional statement $p \rarr q$ is a proof showing that $q$ is true. Remember that $p \rarr q$ is true if $q$ is true.
 
 #### Example
+
+Let $P(n)$ be "If $a$ and $b$ are positive integers with $a \ge b$, then $a^n \ge b^n$", where the domain consists of all nonnegative integers. Show that $P(0)$ is true. 
