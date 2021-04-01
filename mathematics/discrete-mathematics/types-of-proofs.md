@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:36:27.491Z
+date: 2021-04-01T17:46:57.612Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -158,8 +158,9 @@ We can multiply these inequalities together (using the fact that if $0 \lt s \lt
 Because the negation of the conclusion of the conditional statement implies that the hypothesis is false, the original conditional statement is true. Our proof by contraposition succeeded; we have proved that if $n=ab$, where $a$ and $b$ are positive integers, then $a \leq \sqrt{n}$ or $b \leq \sqrt{n}$. $\blacksquare$
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
+That is, to prove a statement of the form $p \leftrightarrow q$, we show that $p \rightarrow q$ and $q \rightarrow p$ are both true.
 
-Example: Two triangles have the same side lengths if and only if two side lengths and the angle between those sides are the same.
+
 
 ### Method #1: Prove Each Statement Implies the Other
 The statement $P \text { IFF } Q$ is equivalent to the two statements $P \text { IMPLIES } Q$ and $Q \text { IMPLIES } P$. You can prove "iff" by proving two implications.
