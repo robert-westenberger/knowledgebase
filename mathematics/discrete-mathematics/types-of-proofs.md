@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:46:57.612Z
+date: 2021-04-01T17:47:12.121Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -159,6 +159,7 @@ Because the negation of the conclusion of the conditional statement implies that
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 That is, to prove a statement of the form $p \leftrightarrow q$, we show that $p \rightarrow q$ and $q \rightarrow p$ are both true.
+
 
 
 
