@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T16:50:10.046Z
+date: 2021-04-01T17:02:08.541Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -149,7 +149,13 @@ $\blacksquare$
 
 #### Example #6 of Proof by Contrapositive
 **Theorem:** If $n=ab$ where $a$ and $b$ are positive integers, then $a \leq \sqrt{n}$ or $b \leq \sqrt{n}$.
-**Proof:**
+**Proof:** 
+
+We prove the contrapositive: suppose $a>\sqrt{n}$ and $b>\sqrt{n}$.
+
+We can multiply these inequalities together (using the fact that if $0 \lt s \lt t$ and $0 \lt u \lt v$ then $su \lt tv$) to obtain $a b>\sqrt{n} \cdot \sqrt{n}=n$. This shows that $ab \ne n$, which contradicts the statement $n = ab$. 
+
+Because the negation of the conclusion of the conditional statement implies that the hypothesis is false, the original conditional statement is true. Our proof by contraposition succeeded; we have proved that if $n=ab$, where $a$ and $b$ are positive integers, then $a \leq \sqrt{n}$ or $b \leq \sqrt{n}$. $\blacksquare$
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
