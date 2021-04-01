@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:02:08.541Z
+date: 2021-04-01T17:06:12.547Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -269,3 +269,4 @@ $N$ is certainly larger than $p$ and not divisible by any number less than or eq
 3. If there is no more than 1 pigeon to a hole, there must be $n$ pigeons at the most.
 4. We assumed there will be more than $n$ pigeons flying into pigeon holes, so this is a contradiction.
 5. There must be a pigeonhole with more than 1 pigeon. $\blacksquare$
+
