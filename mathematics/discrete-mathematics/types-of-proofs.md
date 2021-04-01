@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-03-31T18:44:53.399Z
+date: 2021-04-01T16:50:10.046Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -147,6 +147,9 @@ $\blacksquare$
 (Our converse statement)
 2. We can multiply both sides of the given inequality by $a \gt b$, getting $ac \gt bc$.Therefore, if $ac \le bc$ then $c \le 0$. $\blacksquare$ 
 
+#### Example #6 of Proof by Contrapositive
+**Theorem:** If $n=ab$ where $a$ and $b$ are positive integers, then $a \leq \sqrt{n}$ or $b \leq \sqrt{n}$.
+**Proof:**
 ## Proving an "If and Only If"
 Many theorems assert that two statements are logically equivalent; that is one holds if and only if (iff) the other does. 
 
