@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:20:20.501Z
+date: 2021-04-01T17:36:27.491Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -210,7 +210,7 @@ Otherwise known as proof by exhaustion.
 $\blacksquare$
 
 ## Proof by Contradiction
-Otherwise known as an **indirect proof**, you show that if a proposition were false, then some false fact would be true. Since a false fact by definition can't be true, then the proposition must be true.
+Another type of **indirect proof**. You show that if a proposition were false, then some false fact would be true. Since a false fact by definition can't be true, then the proposition must be true.
 
 ### Method
 1. Write "We use proof by contradiction."
