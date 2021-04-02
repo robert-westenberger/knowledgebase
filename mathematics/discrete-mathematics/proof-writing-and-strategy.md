@@ -2,7 +2,7 @@
 title: Proof Writing and Strategy
 description: 
 published: true
-date: 2021-04-02T17:51:41.737Z
+date: 2021-04-02T17:56:45.264Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -31,13 +31,4 @@ $$
 Because $(x-y)^{2}>0$ when $x \ne y$, it follows that the final inequality is true. Because all the inequalities are equivalent, it follows that $(x+y) / 2>\sqrt{x y}$ when $x \ne y$. Once we have carried out this backward reasoning, we can build a proof based on reversing the steps (into forward reasoning) (Note that the steps of our backward reasoning will
 not be part of the final proof. These steps serve as our guide for putting this proof together.)
 
-**Proof**: Suppose that x and y are distinct positive real numbers. Then (x − y)2 > 0 because
-the square of a nonzero real number is positive (see Appendix 1). Because (x − y)2 =
-x2 − 2xy + y2, this implies that x2 − 2xy + y2 > 0. Adding 4xy to both sides, we obtain x2 +
-2xy + y2 > 4xy. Because x2 + 2xy + y2 = (x + y)2, this means that (x + y)2 ≥ 4xy. Dividing both
-sides of this equation by 4, we see that (x + y)2∕4 > xy. Finally, taking square roots of both sides
-(which preserves the inequality because both sides are positive) yields (x + y)∕2 >
-√xy. We
-conclude that if x and y are distinct positive real numbers, then their arithmetic mean (x + y)∕2
-is greater than their geometric mean
-√xy.
+**Proof**: Suppose that x and y are distinct positive real numbers. Then $(x − y)^2 \gt 0$ because the square of a nonzero real number is positive (see Appendix 1). Because $(x − y)^2 = x^2 − 2xy + y^2$, this implies that $x^2 − 2xy + y^2 \gt 0$. Adding $4xy$ to both sides, we obtain $x^2 + 2xy + y^2 \gt 4xy$. Because $x^2 + 2xy + y^2 = (x + y)^2$, this means that $(x + y)^2 \ge 4xy$. Dividing both sides of this equation by $4$, we see that $(x + y)^2∕4 \gt xy$. Finally, taking square roots of both sides (which preserves the inequality because both sides are positive) yields $(x + y)∕2 > \sqrt{xy}$. We conclude that if x and y are distinct positive real numbers, then their arithmetic mean $(x + y)∕2$ is greater than their geometric mean $\sqrt{xy}$.
