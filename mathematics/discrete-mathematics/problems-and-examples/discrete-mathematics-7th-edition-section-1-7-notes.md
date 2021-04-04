@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-04T02:07:46.343Z
+date: 2021-04-04T02:10:40.920Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -18,6 +18,10 @@ Adding those two together, we get
 $$
 \begin{aligned}
 m+n+n+p&=2a+2b \\
-m + 2n + p &= 2a+2b
+m + 2n + p &= 2a+2b \\
+m + p &= 2a + 2b -2n \\ 
+m+p &= 2(a+b+n)
 \end{aligned}
 $$
+
+We see $m+p$ written as $2$ times an integer ($a+b+n$)
