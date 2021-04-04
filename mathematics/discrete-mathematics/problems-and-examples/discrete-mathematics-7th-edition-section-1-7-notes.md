@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-04T02:10:55.533Z
+date: 2021-04-04T02:32:14.955Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -25,3 +25,19 @@ m+p &= 2(a+b+n)
 $$
 
 We see $m+p$ written as $2$ times an integer ($a+b+n$), we conclude $m+p$ is even $\blacksquare$
+
+
+## Exercise 7
+Use a direct proof to show that every odd integer is the difference of two squares.
+### Solution (Work in progress)
+Consider the difference of two consecutive squares $a$ and $b$.
+$$
+\begin{aligned}
+a^2 - b^2 &= 2k+1 \\
+(k+1)^2 - k^2 &= 2k+1 \\
+(k+1)(k+1)-k^2 &= 2k+1 \\
+k^2  + k + k + 1 - k^2 &= 2k + 1 \\
+2k + 1 &= 2k + 1
+\end{aligned}
+$$
+a
