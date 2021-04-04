@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-04T02:10:40.920Z
+date: 2021-04-04T02:10:55.533Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -24,4 +24,4 @@ m+p &= 2(a+b+n)
 \end{aligned}
 $$
 
-We see $m+p$ written as $2$ times an integer ($a+b+n$)
+We see $m+p$ written as $2$ times an integer ($a+b+n$), we conclude $m+p$ is even $\blacksquare$
