@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-05T19:13:50.939Z
+date: 2021-04-05T19:17:46.273Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -33,3 +33,9 @@ d) $\exists y \forall x Q(x, y)$
 e) $\forall y \exists x Q(x, y)$
 f) $\forall x \forall y Q(x, y)$
 ### Solution
+a) There exists a student x who has emailed another student y
+b) There exists a student x who has emailed every other student
+c) All students have emailed at least one student in class.
+d) There exists a student y who has received an email from everybody
+e) Every student has received an email from student X
+f) All students have sent and received an email from eachother
