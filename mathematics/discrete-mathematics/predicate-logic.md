@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-03-30T17:58:53.169Z
+date: 2021-04-05T01:39:17.442Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -127,7 +127,7 @@ $$
 
 
 ### Validity for Predicate Formulas
-For a predicate formula to be valid, a formula must evaluate to true no matter what the domain of discourse may be, no matter what values its variables may take over the domain, and no matter what interpreta- tions its predicate variables may be given. 
+For a predicate formula to be valid, a formula must evaluate to true no matter what the domain of discourse may be, no matter what values its variables may take over the domain, and no matter what interpretations its predicate variables may be given. 
 
 #### Example and Proof
 A useful example of a valid assertion:
