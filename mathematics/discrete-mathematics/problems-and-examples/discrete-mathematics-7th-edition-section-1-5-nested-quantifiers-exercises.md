@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-05T19:36:18.585Z
+date: 2021-04-05T20:49:08.952Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -52,6 +52,7 @@ or equal to the square of their sum.
 **d)** The absolute value of the product of two integers is
 the product of their absolute values.
 ### Solution
+**a)**
 ## 21
 Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that every positive integer is the sum of the squares of four integers.
 ### Solution
