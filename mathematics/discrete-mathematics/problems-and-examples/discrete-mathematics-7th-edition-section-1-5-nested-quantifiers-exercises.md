@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-05T19:27:52.925Z
+date: 2021-04-05T19:32:52.823Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -40,5 +40,17 @@ d) There exists a student y who has received an email from everybody
 e) Every student has received an email from student X
 f) All students have sent and received an email from eachother
 
+## 19
+Express each of these statements using mathematical and
+logical operators, predicates, and quantifiers, where the
+domain consists of all integers.
+**a)** The sum of two negative integers is negative.
+**b)** The difference of two positive integers is not necessarily
+positive.
+**c)** The sum of the squares of two integers is greater than
+or equal to the square of their sum.
+**d)** The absolute value of the product of two integers is
+the product of their absolute values.
 ## 21
 Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that every positive integer is the sum of the squares of four integers.
+### Solution
