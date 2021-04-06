@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:30:16.109Z
+date: 2021-04-06T02:33:41.345Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -96,4 +96,4 @@ We must have two existentially quantified variables to represent the two square 
 $$
 \forall x \exists a \exists b\left(a \neq b \wedge \forall c\left(c^{2}=\right.\right. x \leftrightarrow(c=a \vee c=b)))
 $$
-("")
+("For all $x$ there exists an $a$ and a $b$ where $a$ and $b$ are different and for all $c$, $c^2$ is $x$ if and only iff $c=a$ and $c=b$")
