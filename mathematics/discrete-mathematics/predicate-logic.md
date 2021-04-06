@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-04-06T17:52:47.882Z
+date: 2021-04-06T17:56:14.297Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -139,7 +139,7 @@ $$
 (\neg \exists x . Q(x)) \longleftrightarrow \forall x . \neg Q(x)
 $$
 
-
+### Negating Nested Quantifiers
 ### Validity for Predicate Formulas
 For a predicate formula to be valid, a formula must evaluate to true no matter what the domain of discourse may be, no matter what values its variables may take over the domain, and no matter what interpretations its predicate variables may be given. 
 
