@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-04-06T18:56:40.374Z
+date: 2021-04-06T19:00:27.395Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -97,7 +97,11 @@ $$
 
 ## Rules of Inference for Quantified Statements
 ### Universal Instantiation
+$$\therefore \frac{\forall x P(x)}{P(c)}$$
 ### Universal Generalization
+$$
+\therefore \frac{P(c) \text { for an arbitrary } c}{\forall x P(x)}
+$$
 ### Existential Instantiation
 ### Existential Generalization
 
