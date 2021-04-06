@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:11:12.154Z
+date: 2021-04-06T02:16:17.601Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -81,3 +81,8 @@ Express each of these mathematical statements using predicates, quantifiers, log
 roots.
 **d)** A negative real number does not have a square root
 that is a real number.
+### Solution
+**a)**
+$$
+\forall
+$$
