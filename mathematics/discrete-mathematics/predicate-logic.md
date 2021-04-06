@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-04-05T01:39:17.442Z
+date: 2021-04-06T17:30:40.489Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -148,7 +148,7 @@ Note that everything within the scope of a quantifier can be thought of as a pro
 $$
 \forall x \exists y(x+y=0)
 $$
-is the same thing as $\forall x Q(x)$m where $Q(x)$ is $\exists y P(x, y)$, where $P(x,y)$ is $x+y=0$. 
+is the same thing as $\forall x Q(x)$ where $Q(x)$ is $\exists y P(x, y)$, where $P(x,y)$ is $x+y=0$. 
 
 ### Understanding Statements Involving Nested Quantifiers
 $\forall x \forall y(x+y=y+x)$ says that $x+y=y+x$ for all real numbers $x$ and $y$. This is the commutative law of addition for real numbers.
