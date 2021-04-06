@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:20:31.508Z
+date: 2021-04-06T02:21:36.234Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -90,3 +90,4 @@ $$
 $$
 \forall x (x-x = 0)
 $$
+**c)**
