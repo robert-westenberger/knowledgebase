@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-04-06T17:56:14.297Z
+date: 2021-04-06T18:05:47.385Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -140,6 +140,13 @@ $$
 $$
 
 ### Negating Nested Quantifiers
+Nested quantifiers are negated by successively applying the rules for negating statements involving a single quantifier. 
+
+For example to negate $\forall x \exists y(x y=1)$  and to move the negation inside all of the quantifiers we repeatedly apply De Morgan's law for quantifiers.
+1. $\neg \forall x \exists y(x y=1)$
+2. $\exists x \neg \exists y(x y=1)$ (De Morgan's Law)
+3. $\exists x \forall y \neg(x y=1)$ (De Morgan's Law)
+4. $\exists x \forall y(x y \neq 1)$ (Simplify) 
 ### Validity for Predicate Formulas
 For a predicate formula to be valid, a formula must evaluate to true no matter what the domain of discourse may be, no matter what values its variables may take over the domain, and no matter what interpretations its predicate variables may be given. 
 
