@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:02:59.422Z
+date: 2021-04-06T02:04:07.394Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -62,6 +62,8 @@ $$
 $$
 Book answer is 
 $$\neg \forall x \forall y((x>0) \wedge(y>0) \rightarrow(x-y>0))$$
+**c)** $\forall x \forall y\left(x^{2}+y^{2} \geq(x+y)^{2}\right)$
+**d)** $\forall x \forall y(|x y|=|x||y|)$
 ## 21
 Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that every positive integer is the sum of the squares of four integers.
 ### Solution
