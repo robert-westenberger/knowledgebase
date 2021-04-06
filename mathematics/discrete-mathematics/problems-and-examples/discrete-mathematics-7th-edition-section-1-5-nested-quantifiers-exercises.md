@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:07:17.448Z
+date: 2021-04-06T02:08:11.203Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -69,4 +69,6 @@ Use predicates, quantifiers, logical connectives, and mathematical operators to 
 $$
 \forall a \exists b \exists c \exists d \exists e (a \ge 0) \wedge (a = b^2 + c^2 + d^2 + e ^ 2)
 $$
+Book answer
+$$\forall x \exists a \exists b \exists c \exists d\left((x>0) \rightarrow x=a^{2}+b^{2}+c^{2}+d^{2}\right)$$
 ### Solution
