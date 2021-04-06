@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-04-06T19:00:27.395Z
+date: 2021-04-06T19:02:41.026Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -97,14 +97,19 @@ $$
 
 ## Rules of Inference for Quantified Statements
 ### Universal Instantiation
-$$\therefore \frac{\forall x P(x)}{P(c)}$$
+$$\frac{\forall x P(x)}{\therefore P(c)}$$
 ### Universal Generalization
 $$
-\therefore \frac{P(c) \text { for an arbitrary } c}{\forall x P(x)}
+\frac{P(c) \text { for an arbitrary } c}{\therefore \forall x P(x)}
 $$
 ### Existential Instantiation
+$$
+\frac{\exists x P(x)}{\therefore P(c) \text { for some element } c}
+$$
 ### Existential Generalization
-
+$$
+\frac{P(c) \text { for some element } c}{\therefore \exists x P(x)}
+$$
 ## Using Rules of Inference to Build Arguments
 Rules of inference can be used to deduce new statements from the statements whose truth that we already know. 
 Below is an example of showing the premises "It is not sunny this afternoon and it is colder than yesterday." "We will go swimming only if it is sunny" "If we do not go swimming, then we will take a canoe trip" "If we take a canoe trip, then we will be home by sunset" leads to the conclusion "We will be home by sunset".
