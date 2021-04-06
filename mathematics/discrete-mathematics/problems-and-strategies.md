@@ -2,7 +2,7 @@
 title: Problems and Strategies
 description: 
 published: true
-date: 2021-04-05T19:45:05.847Z
+date: 2021-04-06T18:14:55.510Z
 tags: discrete-mathematics
 editor: markdown
 ---
