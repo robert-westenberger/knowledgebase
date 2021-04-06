@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-04-06T17:30:40.489Z
+date: 2021-04-06T17:52:13.371Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -54,7 +54,7 @@ This expression would be read as, "There exists an $x$ in $D$ such that $P(x)$ i
 ![quantifier_table.png](/quantifier_table.png)
 
 ### Binding Variables
-When a quantifier is used on the variable $x$, we say this occurence of the variable is **bound**. An occurence of a variable that is not obund by a quantifier or set equal to a particular value is said to be **free**.
+When a quantifier is used on the variable $x$, we say this occurence of the variable is **bound**. An occurence of a variable that is not bound by a quantifier or set equal to a particular value is said to be **free**.
 
 In the statement $\exists x(x+y=1)$, $x$ is bound and $y$ is free.
 ### Mixing Quantifiers
@@ -98,6 +98,16 @@ p \text { and } q \text { such that }
 \end{array}} 
 n=p+q
 $$
+
+### Note differences between order
+$\exists y \forall x P(x, y)$
+
+* True iff there is a $y$ that makes $P(x,y)$ true for every $x$.
+* $y$ is a constant independent of $x$.
+
+$\forall x \exists y P(x, y)$
+* True iff for every value of $x$ there is a value of $y$ for which $P(x,y)$ is true.
+* It is possible that $y$ can depend on $x$
 ### Variables Over One Domain
 When all the variables in a formula are understood to take values from the same nonempty set $D$ it's conventional to omit mention of $D$.
 For example instead of $\forall x \in D \exists y \in D . Q(x, y)$ we would write $\forall x \exists y . Q(x, y)$. The unnamed empty set that x and y range over is called the domain.
@@ -164,6 +174,8 @@ $$
 $$
 
 where the domain for both variables consists of all integers.
+
+
 #### Thinking of Quantification as Loops
 This is a helpful way of thinking about nested quantifiers. For example, to see whether $\forall x \forall y P(x, y)$ is true, we loop through the values for $x$, and for each $x$ we loop through the values for $y$. If we find that $P(x, y)$ is true for all values for $x$ and $y$, we have determined that $\forall x \forall y P(x, y)$ is true. If we ever hit a value $x$ for which we hit a value $y$ which makes $P(x, y)$ false, we have shown $\forall x \forall y P(x, y)$ is false. 
 
