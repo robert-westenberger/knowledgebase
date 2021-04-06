@@ -2,7 +2,7 @@
 title: Rules of Inference
 description: 
 published: true
-date: 2021-03-31T18:19:42.749Z
+date: 2021-04-06T18:56:40.374Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -95,6 +95,11 @@ p \vee q \\
 \end{array}
 $$
 
+## Rules of Inference for Quantified Statements
+### Universal Instantiation
+### Universal Generalization
+### Existential Instantiation
+### Existential Generalization
 
 ## Using Rules of Inference to Build Arguments
 Rules of inference can be used to deduce new statements from the statements whose truth that we already know. 
