@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:16:17.601Z
+date: 2021-04-06T02:20:31.508Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -84,5 +84,9 @@ that is a real number.
 ### Solution
 **a)**
 $$
-\forall
+\forall x \forall y (x \lt 0 \wedge y \lt 0) \rarr xy \gt 0
+$$
+**b)**
+$$
+\forall x (x-x = 0)
 $$
