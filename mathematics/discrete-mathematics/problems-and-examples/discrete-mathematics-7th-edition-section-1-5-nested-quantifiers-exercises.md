@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:04:07.394Z
+date: 2021-04-06T02:07:17.448Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -66,4 +66,7 @@ $$\neg \forall x \forall y((x>0) \wedge(y>0) \rightarrow(x-y>0))$$
 **d)** $\forall x \forall y(|x y|=|x||y|)$
 ## 21
 Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that every positive integer is the sum of the squares of four integers.
+$$
+\forall a \exists b \exists c \exists d \exists e (a \ge 0) \wedge (a = b^2 + c^2 + d^2 + e ^ 2)
+$$
 ### Solution
