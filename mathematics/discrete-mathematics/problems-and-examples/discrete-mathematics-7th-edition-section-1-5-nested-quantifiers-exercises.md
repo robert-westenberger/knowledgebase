@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T01:43:51.435Z
+date: 2021-04-06T02:02:59.422Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -56,6 +56,12 @@ the product of their absolute values.
 $$
 \forall x \forall y ((x \lt 0 \wedge y \lt 0) \rarr (x+y \lt 0))
 $$
+**b)**
+$$
+\forall x \forall y \exists z((x \lt 0 \wedge y \lt 0) \wedge (z \lt 0 \vee z \gt 0 \vee z = 0) \rarr (x-y = z))
+$$
+Book answer is 
+$$\neg \forall x \forall y((x>0) \wedge(y>0) \rightarrow(x-y>0))$$
 ## 21
 Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that every positive integer is the sum of the squares of four integers.
 ### Solution
