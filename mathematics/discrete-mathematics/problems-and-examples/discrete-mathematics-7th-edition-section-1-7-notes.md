@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-06T19:35:08.234Z
+date: 2021-04-06T19:42:43.625Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -50,3 +50,5 @@ $$x = \frac{1}{\frac{1}{x}}=\frac{1}{\frac{p}{q}}=\frac qp$$
 We see $x$ can be written as the quotient of two integers with the denominator nonzero. Thus by definition, $x$ is rational.
 ## Exercise 23
 Show that at least ten of any $64$ days chosen must fall on the same day of the week.
+### Solution
+Proof by contradiction. Suppose we pick $64$ days and no more than $9$ fall on the same day. This means that we have chosen at most $7 \times 9=63$ days, which is a contradiction. 
