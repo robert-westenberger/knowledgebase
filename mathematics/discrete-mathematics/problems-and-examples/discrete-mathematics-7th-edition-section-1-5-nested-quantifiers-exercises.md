@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:08:11.203Z
+date: 2021-04-06T02:11:12.154Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -66,9 +66,18 @@ $$\neg \forall x \forall y((x>0) \wedge(y>0) \rightarrow(x-y>0))$$
 **d)** $\forall x \forall y(|x y|=|x||y|)$
 ## 21
 Use predicates, quantifiers, logical connectives, and mathematical operators to express the statement that every positive integer is the sum of the squares of four integers.
+### Solution
 $$
 \forall a \exists b \exists c \exists d \exists e (a \ge 0) \wedge (a = b^2 + c^2 + d^2 + e ^ 2)
 $$
 Book answer
 $$\forall x \exists a \exists b \exists c \exists d\left((x>0) \rightarrow x=a^{2}+b^{2}+c^{2}+d^{2}\right)$$
-### Solution
+
+## 23
+Express each of these mathematical statements using predicates, quantifiers, logical connectives, and mathematical operators.
+**a)** The product of two negative real numbers is positive.
+**b)** The difference of a real number and itself is zero.
+**c)** Every positive real number has exactly two square
+roots.
+**d)** A negative real number does not have a square root
+that is a real number.
