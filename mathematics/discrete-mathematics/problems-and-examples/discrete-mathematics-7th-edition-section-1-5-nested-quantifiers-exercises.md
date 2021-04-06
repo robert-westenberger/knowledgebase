@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.5 Exercises
 description: 
 published: true
-date: 2021-04-06T02:24:40.322Z
+date: 2021-04-06T02:28:48.885Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -91,6 +91,8 @@ $$
 \forall x (x-x = 0)
 $$
 **c)** 
+We must have two existentially quantified variables to represent the two square roots. We must specify that the two objects are different. We must say that an object meets the conditions iff it is one of those two.
+
 $$
-\forall x \exists y (y \cdot y=x \wedge -y \cdot -y = x)
+\forall x \exists a \exists b\left(a \neq b \wedge \forall c\left(c^{2}=\right.\right. x \leftrightarrow(c=a \vee c=b)))
 $$
