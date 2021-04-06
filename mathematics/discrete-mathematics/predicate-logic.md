@@ -2,7 +2,7 @@
 title: Predicate Logic
 description: 
 published: true
-date: 2021-04-06T17:52:13.371Z
+date: 2021-04-06T17:52:47.882Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -57,6 +57,18 @@ This expression would be read as, "There exists an $x$ in $D$ such that $P(x)$ i
 When a quantifier is used on the variable $x$, we say this occurence of the variable is **bound**. An occurence of a variable that is not bound by a quantifier or set equal to a particular value is said to be **free**.
 
 In the statement $\exists x(x+y=1)$, $x$ is bound and $y$ is free.
+
+#### Note differences between order
+$\exists y \forall x P(x, y)$
+
+* True iff there is a $y$ that makes $P(x,y)$ true for every $x$.
+* $y$ is a constant independent of $x$.
+
+$\forall x \exists y P(x, y)$
+* True iff for every value of $x$ there is a value of $y$ for which $P(x,y)$ is true.
+* It is possible that $y$ can depend on $x$
+
+
 ### Mixing Quantifiers
 
 Many mathematical statements involve several quantifiers. Goldbach's Conjecture states:
@@ -99,15 +111,7 @@ p \text { and } q \text { such that }
 n=p+q
 $$
 
-### Note differences between order
-$\exists y \forall x P(x, y)$
 
-* True iff there is a $y$ that makes $P(x,y)$ true for every $x$.
-* $y$ is a constant independent of $x$.
-
-$\forall x \exists y P(x, y)$
-* True iff for every value of $x$ there is a value of $y$ for which $P(x,y)$ is true.
-* It is possible that $y$ can depend on $x$
 ### Variables Over One Domain
 When all the variables in a formula are understood to take values from the same nonempty set $D$ it's conventional to omit mention of $D$.
 For example instead of $\forall x \in D \exists y \in D . Q(x, y)$ we would write $\forall x \exists y . Q(x, y)$. The unnamed empty set that x and y range over is called the domain.
