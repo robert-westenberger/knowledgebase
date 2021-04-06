@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-04T02:32:14.955Z
+date: 2021-04-06T19:10:20.886Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -41,3 +41,5 @@ k^2  + k + k + 1 - k^2 &= 2k + 1 \\
 \end{aligned}
 $$
 a
+## Exercise 13
+Prove that if $x$ is irrational, then $1/x$ is irrational.
