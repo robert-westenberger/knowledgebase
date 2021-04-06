@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-04-05T19:06:59.620Z
+date: 2021-04-06T19:09:07.698Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -20,3 +20,5 @@ editor: markdown
 [Section 1.3 Propositional Equivalences](/mathematics/discrete-mathematics/problems-and-examples/discrete-mathematics-7th-edition-section-1-3-problems)
 
 [Section 1.5 Nested Quantifiers](/mathematics/discrete-mathematics/problems-and-examples/discrete-mathematics-7th-edition-section-1-5-nested-quantifiers-exercises)
+
+[Section 1.7 Introduction to Proofs](/mathematics/discrete-mathematics/problems-and-examples/discrete-mathematics-7th-edition-section-1-7-notes)
