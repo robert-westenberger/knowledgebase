@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-07T03:52:34.043Z
+date: 2021-04-07T04:38:24.207Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -60,3 +60,7 @@ Proof by contradiction. Suppose $r$ is a rational number that is a root of $r^3+
 
 ## Exercise 27
 Prove that if $n$ is a positive integer, then $n$ is odd if and only if $5n + 6$ is odd.
+### Solution
+**Scratch:** Need to show $p \rarr q$ and $q \rarr p$ are true. 
+$p= \text{}$.
+
