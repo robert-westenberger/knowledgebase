@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-01T17:47:12.121Z
+date: 2021-04-07T18:38:37.649Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -292,3 +292,10 @@ Let $P(n)$ be "If $a$ and $b$ are positive integers with $a \ge b$, then $a^n \g
 
 The proposition $P(0)$ is “If $a \ge b$, then $a^0 \ge b^0$.” Because $a^0 = b^0 = 1$, the conclusion
 of the conditional statement “If $a \ge b$, then $a^0 ≥ b^0$” is true. Hence, this conditional statement, which is $P(0)$, is true. This is an example of a trivial proof. Note that the hypothesis, which is the statement “$a \ge b$,” was not needed in this proof.
+
+## Existence Proofs
+Take on the form $\exists x P(x)$ where $P$ is a predicate. 
+
+Sometimes an existence proof of $\exists x P(x)$ can be given by finding a **witness**, an element of $a$ that makes $P(a)$ true. This type of existence proof is **constructive**.
+
+A **nonconstructive** existence proof is one that proves $\exists x P(x)$ in some other way. One common method of giving a nonconstructive existence proof is to use proof by contradiction and show that the negation of the existential quantification implies a contradiction.
