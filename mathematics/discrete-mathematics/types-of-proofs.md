@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-07T18:38:37.649Z
+date: 2021-04-07T18:42:09.997Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -299,3 +299,10 @@ Take on the form $\exists x P(x)$ where $P$ is a predicate.
 Sometimes an existence proof of $\exists x P(x)$ can be given by finding a **witness**, an element of $a$ that makes $P(a)$ true. This type of existence proof is **constructive**.
 
 A **nonconstructive** existence proof is one that proves $\exists x P(x)$ in some other way. One common method of giving a nonconstructive existence proof is to use proof by contradiction and show that the negation of the existential quantification implies a contradiction.
+
+### Example of a Constructive Existence Proof
+Show that there is a positive integer that can be written as
+the sum of cubes of positive integers in two different ways.
+Using a computer, we find that $1729=10^{3}+9^{3}=12^{3}+1^{3}$.
+
+### Example of a Nonconstructive Existence Proof
