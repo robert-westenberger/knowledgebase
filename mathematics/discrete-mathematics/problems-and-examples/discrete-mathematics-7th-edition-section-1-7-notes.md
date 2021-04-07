@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-07T17:21:20.433Z
+date: 2021-04-07T17:24:02.847Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -73,4 +73,5 @@ If $n$ is odd then there is some $c$ where $n=2c + 1$. Plugging that value in to
 
 To prove that "If $5n+6$ is odd then $n$ is odd" we prove the contrapositive, which is "If $n$ is even then $5n+6$ is even". Suppose $n$ is even so there is some $c$ where $2c=n$. So we plug that in and we get $5(2c) + 6$ or $10c + 6$. That can be written in the form of an even number $2(5c +3)$. 
 
+## Exercise 39
 
