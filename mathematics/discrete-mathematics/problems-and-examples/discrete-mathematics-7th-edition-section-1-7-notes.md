@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-07T04:44:33.979Z
+date: 2021-04-07T04:45:51.949Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -66,5 +66,7 @@ For the domain of positive integers..
 
 $$p= \text{n is odd}$$
 $$q= \text{5n+6}$$
+
+Need to prove "If $n$ is odd then $5n +6$ is odd" and "If $5n + 6$ is odd then $n$ is odd".
 
 
