@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-07T04:45:51.949Z
+date: 2021-04-07T17:19:16.900Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -69,4 +69,6 @@ $$q= \text{5n+6}$$
 
 Need to prove "If $n$ is odd then $5n +6$ is odd" and "If $5n + 6$ is odd then $n$ is odd".
 
+If $n$ is odd then there is some $c$ where $n=2c + 1$. Plugging that value in to $5n+6$ we get $5(2c+1) + 6$ or $10c + 5 + 6$ or $10c + 11$ or $2(5c+5) +1$. Since $5c+5$ is an integer, we see that $5n+6$ is in the form of an odd number.
 
+To prove that "If $5n+6$ is odd then $n$ is odd" we prove the contrapositive, which is "If $n$ is even then $5n+6$ is even". Suppose $n$ is even so there is some $c$ where $2c=n$. 
