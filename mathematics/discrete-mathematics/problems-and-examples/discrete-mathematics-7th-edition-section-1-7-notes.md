@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-07T17:24:02.847Z
+date: 2021-04-07T17:48:49.391Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -74,4 +74,8 @@ If $n$ is odd then there is some $c$ where $n=2c + 1$. Plugging that value in to
 To prove that "If $5n+6$ is odd then $n$ is odd" we prove the contrapositive, which is "If $n$ is even then $5n+6$ is even". Suppose $n$ is even so there is some $c$ where $2c=n$. So we plug that in and we get $5(2c) + 6$ or $10c + 6$. That can be written in the form of an even number $2(5c +3)$. 
 
 ## Exercise 39
+Prove that at least one of the real numbers $a_{1}, a_{2}, \ldots, a_{n}$ is greater than or equal to the average of these numbers. What kind of proof did you use?
+### Solution
+Proof by contradiction. Suppose that $a_{1}, a_{2}, \ldots, a_{n}$ are less than their average, denoted by $A$. In symbols, we have $a_{\imath}<A$ for all $i$. If we add these $n$ inequalities, we see that $a_{1}+a_{2}+\cdots+a_{n}<n A$.
 
+By definition of the average, we see $A=\frac{a_{1}+a_{2}+\cdots+a_{n}}{n}$. The two formulae have a contradiction: they imply $nA \lt nA$. This is a contradiction, and we conclude that at least one of the numbers $a_i$ is greater than or equal to their average.
