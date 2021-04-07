@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-07T18:42:09.997Z
+date: 2021-04-07T18:52:26.715Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -303,6 +303,12 @@ A **nonconstructive** existence proof is one that proves $\exists x P(x)$ in som
 ### Example of a Constructive Existence Proof
 Show that there is a positive integer that can be written as
 the sum of cubes of positive integers in two different ways.
+
 Using a computer, we find that $1729=10^{3}+9^{3}=12^{3}+1^{3}$.
 
 ### Example of a Nonconstructive Existence Proof
+There exist irrational $x$, $y$ such that $x^y$ is rational.
+
+(we know $\sqrt 2$ is irrational from a previous proof) Consider $\sqrt{2}^{\sqrt{2}}$. If it is rational, then $x=y=\sqrt 2$. On the other hand, if it is not rational, then we can let $x=\sqrt {2}^{\sqrt 2}$ and $y=\sqrt 2$ so that $x^{y}=\left(\sqrt{2}^{\sqrt{2}}\right)^{\sqrt{2}}=\sqrt{2}^{(\sqrt{2} \cdot \sqrt{2})}=\sqrt{2}^{2}=2$.
+This proof is conconstructive because we have not found an explicit pair of numbers $x$ and $y$ such that $x^y$ is rational. Rather, we have shown either 
+$x=\sqrt{2}$, $y=\sqrt{2}$, or $x=\sqrt {2}^{\sqrt 2}$,  $y=\sqrt 2$ have the desired property but we don't know which of the two pairs work.
