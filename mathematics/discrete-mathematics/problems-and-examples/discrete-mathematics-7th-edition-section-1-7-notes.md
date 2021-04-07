@@ -2,7 +2,7 @@
 title: Discrete Mathematics 7th Edition Section 1.7 Exercises
 description: 
 published: true
-date: 2021-04-07T03:49:22.884Z
+date: 2021-04-07T03:52:04.968Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -57,3 +57,6 @@ Proof by contradiction. Suppose we pick $64$ days and no more than $9$ fall on t
 Use a proof by contradiction to show that there is no rational number $r$ for which $r^3+r+1=0$. (Hint: Assume that $r = a/b$ is a root, where $a$ and $b$ are integers and $a/b$ is in lowest terms. Obtain an equation involving integers by multiplying by $b^3$. Then look at whether $a$ and $b$ are each odd or even.)
 ### Solution
 Proof by contradiction. Suppose $r$ is a rational number that is a root of $r^3+r+1=0$. That means $r$ can be expressed as the ratio of two integers $a$ and $b$ and the ratio is in lowest terms. Plugging this root into the equation we get $a^{3} / b^{3}+a / b+1=0$. Multiplying by $b^3$ we get $a^{3}+a b^{2}+b^{3}=0$. Since $a$ and $b$ are in lowest terms, they both can't be even. No matter which the different possible variations of $a$ and $b$s parity, the lefthand side of the equation must be odd, and so it can't equal 0. This is a contradiction and shows no such root exists.
+
+## Exercise 25
+Prove that if $n$ is a positive integer, then $n$ is odd if and only if $5n + 6$ is odd.
