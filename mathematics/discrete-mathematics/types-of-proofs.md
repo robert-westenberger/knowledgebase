@@ -2,7 +2,7 @@
 title: Types Of Proofs
 description: 
 published: true
-date: 2021-04-07T18:52:26.715Z
+date: 2021-04-08T17:26:41.460Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -312,3 +312,18 @@ There exist irrational $x$, $y$ such that $x^y$ is rational.
 (we know $\sqrt 2$ is irrational from a previous proof) Consider $\sqrt{2}^{\sqrt{2}}$. If it is rational, then $x=y=\sqrt 2$. On the other hand, if it is not rational, then we can let $x=\sqrt {2}^{\sqrt 2}$ and $y=\sqrt 2$ so that $x^{y}=\left(\sqrt{2}^{\sqrt{2}}\right)^{\sqrt{2}}=\sqrt{2}^{(\sqrt{2} \cdot \sqrt{2})}=\sqrt{2}^{2}=2$.
 This proof is conconstructive because we have not found an explicit pair of numbers $x$ and $y$ such that $x^y$ is rational. Rather, we have shown either 
 $x=\sqrt{2}$, $y=\sqrt{2}$, or $x=\sqrt {2}^{\sqrt 2}$,  $y=\sqrt 2$ have the desired property but we don't know which of the two pairs work.
+
+
+## Uniqueness Proofs
+Proofs for theorems that assert the existence of a unique element with a particular property. We need to show
+* **Existence**: We show that an element $x$ with the desired property exists.
+* **Uniqueness**: We show that if $x$ and $y$ both have the desired property, then $x=y$
+
+Showing that there is a unique element $x$ such that $P(x)$ is the same as proving the statement $\exists x(P(x) \wedge \forall y(y \neq x \rightarrow \neg P(y)))$
+
+### Example of a Uniqueness Proof
+Show that if $a$ and $b$ are real numbers and $a \ne 0$, then there is a unique real number $r$ such that $ar+b=0$
+
+Note that the real number $r=-b/a$ is a solution of $ar+b=0$ because $a(-b / a)+b=-b+b=0$. A real number $r$ exists for which $ar+b=0$. This is the existence part of the proof.
+
+Suppose $s$ is a real number such that $as+b=0$. Then $ar+b=as+b$, where $r=-b/a$. Subtracting $b$ from both sides, we find that $ar=as$.Dividing both sides by $a$, which is nonzero, we see that $r=s$. This establishes the uniquess part of the proof.
