@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-04-08T18:45:28.061Z
+date: 2021-04-08T18:58:29.570Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -312,3 +312,13 @@ Use the different forms of logical equivalences to replace sections of a stateme
 #### Example 1
 Verify the logical equivalence $\sim(\sim p \wedge q) \wedge(p \vee q) \equiv p$
 ##### Solution
+$$
+\begin {aligned}
+\sim(\sim p \wedge q) \wedge(p \vee q) &\equiv(\sim(\sim p) \vee \sim q) \wedge(p \vee q) \quad &\text{by De Morgan's laws} \\
+&\equiv (p \vee \sim q) \wedge(p \vee q) \quad &\text{by the double negative law} \\
+&\equiv (p \vee(\sim q \wedge q) \quad &\text{by the distributive law} \\
+&\equiv p \vee(q \wedge \sim q) \quad &\text{by the commutative law for } \wedge \\
+&\equiv p \vee \mathbf{c} \quad &\text{by the negation law} \\
+&\equiv p \quad &\text{by the identity law} \\
+\end {aligned}
+$$
