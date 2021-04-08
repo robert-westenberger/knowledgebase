@@ -2,7 +2,7 @@
 title: Propositional Logic
 description: 
 published: true
-date: 2021-04-08T18:43:01.468Z
+date: 2021-04-08T18:45:28.061Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -305,4 +305,10 @@ $$
 \bigwedge_{i=1}^{9} \bigwedge_{k=1}^{9} \bigvee_{j=1}^{9} p(i, j, k)
 $$
 
-### Solving Satisfiability Problems
+## Simplifying Statement Forms
+Use the different forms of logical equivalences to replace sections of a statement. Keep making replacements until the proposition we start with is the one we want to compare equality of. 
+### Examples
+
+#### Example 1
+Verify the logical equivalence $\sim(\sim p \wedge q) \wedge(p \vee q) \equiv p$
+##### Solution
