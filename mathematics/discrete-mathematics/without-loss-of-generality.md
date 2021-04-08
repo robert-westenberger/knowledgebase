@@ -2,7 +2,7 @@
 title: Without Loss of Generality
 description: 
 published: true
-date: 2021-04-08T17:52:36.102Z
+date: 2021-04-08T17:54:36.030Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -17,4 +17,4 @@ Show that if $x$ and $y$ are integers and both $xy$ and $x+y$ are even, then bot
 #### Solution
 We will prove using contraposition, the notion of WLOG, and proof by cases. Suppose that $x$ and $y$ are not both even. That is, assume $x$ is odd or $y$ is odd or both. WLOG, we assume $x$ is odd, so that $x = 2m+1$ for some integer $m$.
 
-To complete the proof, we need to show that $xy$ is odd or $x+y$ is odd. Consider two cases: ($i$) $y$ is even, and ($ii$) $y$ is odd. In ($i$), $y=2n$ for some integer $n$, so that $x+y=(2 m+1)+2 n=2(m+n)+1$ is odd. In ($ii$), $y=2n+1$ for some integer $n$, so that $xy=(2m+1)(2n+1)=4m+2m+2n+1=2(2nm+m+n)+1$ is odd.
+To complete the proof, we need to show that $xy$ is odd or $x+y$ is odd. Consider two cases: ($i$) $y$ is even, and ($ii$) $y$ is odd. In ($i$), $y=2n$ for some integer $n$, so that $x+y=(2 m+1)+2 n=2(m+n)+1$ is odd. In ($ii$), $y=2n+1$ for some integer $n$, so that $xy=(2m+1)(2n+1)=4m+2m+2n+1=2(2nm+m+n)+1$ is odd. This completes the proof by contraposition. (Note that our use of without loss of generality within the proof is justified because the proof when $y$ is odd can be obtained by simply interchanging the roles of $x$ and $y$ in the proof we have given.)
