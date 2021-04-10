@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:48:54.040Z
+date: 2021-04-10T05:51:23.551Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -42,3 +42,11 @@ that can fly
 
 ### 5
 Determine whether each of these pairs of sets are equal.
+**a)** $\{1,3,3,3,5,5,5,5,5\},\{5,3,1\}$
+**b)** $\{\{1\}\},\{1,\{1\}\}$
+**c)** $\emptyset,\{\emptyset\}$.
+#### Solution
+**a)**
+**b)**
+**c)**
+
