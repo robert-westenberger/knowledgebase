@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:46:19.257Z
+date: 2021-04-10T05:47:47.519Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -36,6 +36,6 @@ who speak Chinese
 **c)** the set of flying squirrels, the set of living creatures
 that can fly
 #### Solution
-**a)** Every element in the second set is in the first set, so the second set is a subset of the first set.
+**a)** Every element in the second set is in the first set, so the second set is a subset of the first set. (the set of airline flights from new york to new delhi contains all nonstop flights + flights with layovers). 
 **b)** neither
 **c)** the first is a subset of the second, and not vice versa.
