@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:32:35.189Z
+date: 2021-04-10T05:33:17.120Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -16,3 +16,10 @@ List the members of these sets.
 **b)** $\{x \mid x$ is a positive integer less than 12$\}$
 **c)** $\{x \mid x$ is the square of an integer and $x<100\}$
 **d)** $\left\{x \mid x\right.$ is an integer such that $\left.x^{2}=2\right\}$
+
+#### Solution
+
+**a)**
+**b)**
+**c)**
+**d)**
