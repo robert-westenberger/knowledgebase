@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:47:47.519Z
+date: 2021-04-10T05:48:54.040Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -39,3 +39,6 @@ that can fly
 **a)** Every element in the second set is in the first set, so the second set is a subset of the first set. (the set of airline flights from new york to new delhi contains all nonstop flights + flights with layovers). 
 **b)** neither
 **c)** the first is a subset of the second, and not vice versa.
+
+### 5
+Determine whether each of these pairs of sets are equal.
