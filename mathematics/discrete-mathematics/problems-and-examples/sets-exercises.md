@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:52:45.010Z
+date: 2021-04-10T05:53:12.511Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -47,6 +47,6 @@ Determine whether each of these pairs of sets are equal.
 **c)** $\emptyset,\{\emptyset\}$.
 #### Solution
 **a)** equal (duplicates and order dont matter)
-**b)** not equal 
+**b)** not equal - first set has 1 element second has 2
 **c)** not equal
 
