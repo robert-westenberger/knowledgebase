@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:39:19.022Z
+date: 2021-04-10T05:40:55.374Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -28,7 +28,7 @@ List the members of these sets.
 For each of these pairs of sets, determine whether the first
 is a subset of the second, the second is a subset of the first,
 or neither is a subset of the other.
-**a)** the set of airline flights from NewYork to New Delhi,
+**a)** the set of airline flights from New York to New Delhi,
 the set of nonstop airline flights from New York to
 New Delhi
 **b)** the set of people who speak English, the set of people
@@ -36,6 +36,6 @@ who speak Chinese
 **c)** the set of flying squirrels, the set of living creatures
 that can fly
 #### Solution
-**a)**
+**a)** The second is a subset of the first (first set contains flights w layovers)
 **b)**
 **c)**
