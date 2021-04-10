@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:36:16.450Z
+date: 2021-04-10T05:37:54.054Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -19,8 +19,8 @@ List the members of these sets.
 
 #### Solution
 
-**a)** $\{1 \}$
+**a)** $\{-1, 1 \}$
 **b)** $\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 \}$
-**c)**
-**d)**
+**c)** $\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81 \}$
+**d)** $\emptyset$
 
