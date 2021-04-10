@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:39:08.505Z
+date: 2021-04-10T05:39:19.022Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -36,4 +36,6 @@ who speak Chinese
 **c)** the set of flying squirrels, the set of living creatures
 that can fly
 #### Solution
-
+**a)**
+**b)**
+**c)**
