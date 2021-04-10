@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:40:55.374Z
+date: 2021-04-10T05:41:17.715Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -37,5 +37,5 @@ who speak Chinese
 that can fly
 #### Solution
 **a)** The second is a subset of the first (first set contains flights w layovers)
-**b)**
-**c)**
+**b)** neither
+**c)** the first is a subset of the second
