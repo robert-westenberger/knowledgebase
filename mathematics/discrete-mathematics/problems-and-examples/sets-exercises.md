@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:41:17.715Z
+date: 2021-04-10T05:42:38.428Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -38,4 +38,4 @@ that can fly
 #### Solution
 **a)** The second is a subset of the first (first set contains flights w layovers)
 **b)** neither
-**c)** the first is a subset of the second
+**c)** the first is a subset of the second, and not vice versa.
