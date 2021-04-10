@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:51:23.551Z
+date: 2021-04-10T05:52:45.010Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -46,7 +46,7 @@ Determine whether each of these pairs of sets are equal.
 **b)** $\{\{1\}\},\{1,\{1\}\}$
 **c)** $\emptyset,\{\emptyset\}$.
 #### Solution
-**a)**
-**b)**
-**c)**
+**a)** equal (duplicates and order dont matter)
+**b)** not equal 
+**c)** not equal
 
