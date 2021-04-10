@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:37:54.054Z
+date: 2021-04-10T05:39:08.505Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -23,4 +23,17 @@ List the members of these sets.
 **b)** $\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 \}$
 **c)** $\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81 \}$
 **d)** $\emptyset$
+
+### 3 
+For each of these pairs of sets, determine whether the first
+is a subset of the second, the second is a subset of the first,
+or neither is a subset of the other.
+**a)** the set of airline flights from NewYork to New Delhi,
+the set of nonstop airline flights from New York to
+New Delhi
+**b)** the set of people who speak English, the set of people
+who speak Chinese
+**c)** the set of flying squirrels, the set of living creatures
+that can fly
+#### Solution
 
