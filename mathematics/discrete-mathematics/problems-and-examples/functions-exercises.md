@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:33:17.528Z
+date: 2021-04-12T18:34:02.924Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -54,3 +54,8 @@ Determine whether the function $f: \mathbf{Z} \times \mathbf{Z} \rightarrow \mat
 **e)** $f(m, n)=m-n$
 
 #### Solution
+**a)**
+**b)**
+**c)**
+**d)**
+**e)**
