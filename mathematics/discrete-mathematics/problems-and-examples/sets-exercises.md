@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T00:24:10.078Z
+date: 2021-04-12T00:25:01.473Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -59,6 +59,8 @@ are distinct elements.
 **c)** $\{\emptyset,\{\emptyset\}\}$
 
 #### Solution
-
+**a)**
+**b)**
+**c)**
 
 
