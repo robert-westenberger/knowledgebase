@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-04-09T18:14:41.694Z
+date: 2021-04-12T19:17:32.238Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -29,7 +29,7 @@ Truth tables
 [Well Ordering Principle](/mathematics/discrete-mathematics/well-ordering-principle)
 
 Deduction
-Induction
+[Induction](/mathematics/discrete-mathematics/mathematical-induction)
 State machines
 
 
