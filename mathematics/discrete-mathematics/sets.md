@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-04-12T01:33:44.911Z
+date: 2021-04-12T01:35:57.095Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -84,6 +84,8 @@ The notation $X^2$ is used to denote $X \times X$. $X^3$ to denote $X \times X \
 $$
 X^{n}=\left\{\left(x_{1}, x_{2}, \ldots, x_{n}\right) \mid x_{i} \in X \text { for } i=1,2, \ldots, n\right\}
 $$
+
+The cartesian product $X \times Y$ has $xy$ elements.
 #### Complement 
 Often all the sets being considered are subsets of a known domain of discourse $D$. For any subset $A$ of $D$, we define $\bar{A}$ to be the set of all elements of $D$ *not* in $A$. That is, $\bar{A}::=D-A$. The set $\bar{A}$ is the complement of $A$.
 
