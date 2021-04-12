@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:23:06.065Z
+date: 2021-04-12T18:23:32.506Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -42,4 +42,3 @@ value $0$ to a bit string consisting of all $0$s
 **b)** The domain is $\Z^+$. The base 10 representation of an integer has to have at least one digit, and at most nine digits do not appear, so the number of missing digits could be any number less than 9. Thus the range is $\{0,1,2,3,4,5,6,7,8,9\}$. 
 **c)** The domain is the set of bit strings and the range is $\N$ (set of natural numbers)
 **d)** The domain is the set of bit strings and the range is $\N$ (if the string contains no $1$s then the value is $0$ by definition, or its position could be $1,2,3, \ldots$.
-**a)** The domain is the set of ordered pairs ($\Z^+$, $\Z^+$) and the range is $\Z^+$.
