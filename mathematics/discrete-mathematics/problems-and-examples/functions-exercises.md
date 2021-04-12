@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:18:23.668Z
+date: 2021-04-12T18:19:50.178Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -39,4 +39,4 @@ position of the first $1$ in the string and that assigns the
 value $0$ to a bit string consisting of all $0$s
 #### Solution
 **a)** The domain is the set of ordered pairs ($\Z^+$, $\Z^+$) and the range is $\Z^+$.
-**b)** The domain is $\Z^+$
+**b)** The domain is $\Z^+$. The base 10 representation of an integer has to have at least one digit, and at most nine digits do not appear, so the number of missing digits could be any number less than 9. Thus the range is $\{0,1,2,3,4,5,6,7,8,9\}$. 
