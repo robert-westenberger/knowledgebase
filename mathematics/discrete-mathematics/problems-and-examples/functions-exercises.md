@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:53:29.564Z
+date: 2021-04-12T19:06:40.333Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -80,3 +80,5 @@ Determine whether each of these functions ia bijection from $\R$ to $\R$
 ## Show some function is increasing or decreasing
 ### 25
 Let $f: \mathbf{R} \rightarrow \mathbf{R}$ and let $f(x) \gt 0$ for all $x \in \R$. Show that $f(x)$ is strictly decreasing if and only if the function $g(x)=1/f(x)$ is strictly increasing. 
+#### Solution
+This proposition is biconditional so we have to prove the proposition both ways. Suppose $f$ is strictly decreasing. This means that $f(x) \gt f(y)$ whenever $x \lt y$. To show that $g$ is strictly increasing, suppose that $x \lt y$. Then $g(x)=1 / f(x)<1 / f(y)=g(y)$. Conversely, suppose that $g$ is strictly increasing. This means that $g(x) \lt g(y)$ whenever $x \lt y$. To show that $f$ is strictly decreasing, suppose that $x \lt y$. Then $f(x)=1 / g(x)>1 / g(y)=f(y)$.
