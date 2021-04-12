@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T04:12:04.449Z
+date: 2021-04-12T04:18:22.581Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -23,3 +23,14 @@ Why is $f$ not a function from $\mathbf{R}$ to $\mathbf{R}$ if
 **c)** There are multiple values in the domain that map to single values of the codomain. 
 
 ## Find domain and range of functions
+Find the domain and range of these functions.
+**a)** the function that assigns to each pair of positive integers
+the maximum of these two integers
+**b)** the function that assigns to each positive integer the
+number of the digits $0, 1, 2, 3, 4, 5, 6, 7, 8, 9$ that do
+not appear as decimal digits of the integer
+**c)** the function that assigns to a bit string the number of
+times the block $11$ appears
+**d)** the function that assigns to a bit string the numerical
+position of the first $1$ in the string and that assigns the
+value $0$ to a bit string consisting of all $0$s
