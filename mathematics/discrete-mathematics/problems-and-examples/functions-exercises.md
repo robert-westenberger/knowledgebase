@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:42:53.421Z
+date: 2021-04-12T18:44:14.452Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -62,3 +62,10 @@ Determine whether the function $f: \mathbf{Z} \times \mathbf{Z} \rightarrow \mat
 
 ## Determine whether a function is bijective
 (remember a function is bijective when each value of the domain is mapped to the codomain exactly once)
+
+### 23 
+Determine whether each of these functions ia bijection from $\R$ to $\R$
+**a)**
+**b)**
+**c)**
+**d)**
