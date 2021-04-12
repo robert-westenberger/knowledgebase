@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:48:17.697Z
+date: 2021-04-12T18:48:42.264Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -74,5 +74,5 @@ Determine whether each of these functions ia bijection from $\R$ to $\R$
 #### Solution
 **a)** yes
 **b)** no ( not injective, the codomain has no negative $\R$
-**c)** no
+**c)** this is a bijection since it has an inverse function.
 **d)**
