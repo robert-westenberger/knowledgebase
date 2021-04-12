@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:38:30.926Z
+date: 2021-04-12T18:39:29.273Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -59,3 +59,5 @@ Determine whether the function $f: \mathbf{Z} \times \mathbf{Z} \rightarrow \mat
 **c)** Yes this is onto (similar to reasoning for a)
 **d)** No, similar to reasoning for b(no neg ints)
 **e)** Yes, $f(m, 0)$ maps all integers
+
+## Determine whether a function is bijective
