@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-04-12T01:31:57.420Z
+date: 2021-04-12T01:32:58.541Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -80,7 +80,8 @@ $X \times Y$ contains all the ordered pairs in which the first elements are sele
 
 $$X \times Y=\{(x, y) \mid x \in X \wedge y \in Y\}$$
 
-S
+The notation $X^2$ is used to denote $X \times X$. $X^3$ to denote $X \times X \times X$ and so on. 
+$$A^{n}=\left\{\left(a_{1}, a_{2}, \ldots, a_{n}\right) \mid a_{i} \in A\right.$ for $\left.i=1,2, \ldots, n\right\}$$
 #### Complement 
 Often all the sets being considered are subsets of a known domain of discourse $D$. For any subset $A$ of $D$, we define $\bar{A}$ to be the set of all elements of $D$ *not* in $A$. That is, $\bar{A}::=D-A$. The set $\bar{A}$ is the complement of $A$.
 
