@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T00:42:45.424Z
+date: 2021-04-12T00:43:24.818Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -73,4 +73,4 @@ We must prove $(\mathcal{P}(A) \subseteq \mathcal{P}(B) \rarr A \subseteq B) \we
 To prove that one set is a subset of another, we need to prove that an element being a member of one set implies membership of another set. 
 
 
-**First Part: Prove**
+**First Part: Prove** $(\mathcal{P}(A) \subseteq \mathcal{P}(B) \rarr A \subseteq B)$
