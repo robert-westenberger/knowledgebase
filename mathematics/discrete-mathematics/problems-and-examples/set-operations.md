@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:23:12.878Z
+date: 2021-04-12T03:24:26.406Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -25,3 +25,4 @@ Prove the domination laws by showing
 universal set $U$)
 #### Solution
 **a)** $A \cup U=\{x \mid x \in A \vee x \in U\} =\{x \mid x \in A \vee \mathbf{T}\}=\{x \mid \mathbf{T}\}=U$.
+**b)** $A \cap \emptyset=\{x \mid x \in A \wedge x \in \emptyset\}=\{x \mid x \in A \wedge \mathbf{F}\}=\{x \mid \mathbf{F}\}=\emptyset$
