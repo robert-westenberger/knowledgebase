@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-10T05:53:12.511Z
+date: 2021-04-12T00:23:54.735Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -49,4 +49,13 @@ Determine whether each of these pairs of sets are equal.
 **a)** equal (duplicates and order dont matter)
 **b)** not equal - first set has 1 element second has 2
 **c)** not equal
+
+### 21
+Find the power set of each of these sets, where $a$ and $b$
+are distinct elements.
+
+**a)** $\{a\}$ 
+**b)** $\{a, b\}$ 
+**c)** $\{\emptyset,\{\emptyset\}\}$
+
 
