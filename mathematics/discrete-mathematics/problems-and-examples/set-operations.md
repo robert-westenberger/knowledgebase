@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:20:09.687Z
+date: 2021-04-12T03:23:12.878Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -12,7 +12,8 @@ editor: markdown
 ## Proving Set Identities
 ### 5
 Prove the complementation law by showing $\overline{\overline{\huge A}}=A$
-
+(assume that $A$ is a subset of some underlying
+universal set $U$)
 #### Solution
 $\overline{\overline{\huge A}}$ is the complement of $\overline{\huge A}$. That is, $\overline{\overline{\huge A}} = \{x \in U \mid x \notin \overline{\huge A}\}$. $x \notin \overline{\huge A}$ means $x \in A$. Represented differently, $\overline{\overline{\huge A}}=\{x \mid \neg x \in \overline{\huge A}\}=\{x \mid \neg \neg x \in A\}=\{x \mid x \in A\}=A$.
 
@@ -20,6 +21,7 @@ $\overline{\overline{\huge A}}$ is the complement of $\overline{\huge A}$. That 
 Prove the domination laws by showing 
 **a)** $A \cup U=U$
 **b)** $A \cap \emptyset=\emptyset$
-
+(assume that $A$ is a subset of some underlying
+universal set $U$)
 #### Solution
-**a)** $A \cup U=\{x \mid x \in A \vee x \in U\}$. By the definition of union we see that $x \in U$ if 
+**a)** $A \cup U=\{x \mid x \in A \vee x \in U\} =\{x \mid x \in A \vee \mathbf{T}\}=\{x \mid \mathbf{T}\}=U$.
