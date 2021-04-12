@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:43:54.989Z
+date: 2021-04-12T03:49:03.188Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -38,4 +38,4 @@ universal set $U$)
 #### Solution
 **a)** $A \cup \bar{A}= \{ x \mid x \in A \vee x \in \bar A\} = \{ x \mid x \in A \vee \neg x \in A \wedge x \in U \} = \{ T \wedge x \in U \} = \{x \in U \}= U$
 (This one uses negation and identity laws)
-**b)** $A \cap \bar{A}= \{ x \mid x \in A \wedge x \in \overline {\huge A}\} =\emptyset$
+**b)** $A \cap \bar{A}= \{ x \mid x \in A \wedge x \in \overline {\huge A}\} = \{ x \mid x \in A \wedge x \in \overline {\huge A}\} =\emptyset$
