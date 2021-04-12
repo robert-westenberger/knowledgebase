@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:27:14.856Z
+date: 2021-04-12T03:27:36.293Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -31,3 +31,6 @@ universal set $U$)
 Prove the complement laws by showing that 
 **a)** $A \cup \bar{A}=U$
 **b)** $A \cap \bar{A}=\emptyset$
+
+(assume that $A$ is a subset of some underlying
+universal set $U$)
