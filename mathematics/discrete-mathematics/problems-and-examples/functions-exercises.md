@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:34:02.924Z
+date: 2021-04-12T18:36:19.391Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -44,7 +44,7 @@ value $0$ to a bit string consisting of all $0$s
 **d)** The domain is the set of bit strings and the range is $\N$ (if the string contains no $1$s then the value is $0$ by definition, or its position could be $1,2,3, \ldots$.
 
 ## Determine whether a function is onto
-
+A function is onto when its range is the entire codomain. 
 ### 15 
 Determine whether the function $f: \mathbf{Z} \times \mathbf{Z} \rightarrow \mathbf{Z}$ is onto if 
 **a)** $f(m, n)=m+n$
@@ -54,7 +54,7 @@ Determine whether the function $f: \mathbf{Z} \times \mathbf{Z} \rightarrow \mat
 **e)** $f(m, n)=m-n$
 
 #### Solution
-**a)**
+**a)** Given any integer $n$, $f(0, n) = n$ so this is onto.
 **b)**
 **c)**
 **d)**
