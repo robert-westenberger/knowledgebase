@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:36:19.391Z
+date: 2021-04-12T18:37:10.009Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -55,7 +55,7 @@ Determine whether the function $f: \mathbf{Z} \times \mathbf{Z} \rightarrow \mat
 
 #### Solution
 **a)** Given any integer $n$, $f(0, n) = n$ so this is onto.
-**b)**
+**b)** No, the range contains no negative integers.
 **c)**
 **d)**
 **e)**
