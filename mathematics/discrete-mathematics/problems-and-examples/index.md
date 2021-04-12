@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-04-12T03:58:23.419Z
+date: 2021-04-12T18:12:24.697Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 
 [Sets](/mathematics/discrete-mathematics/problems-and-examples/sets-exercises)
 [Set Operations](/mathematics/discrete-mathematics/problems-and-examples/set-operations)
+[Functions](/mathematics/discrete-mathematics/problems-and-examples/functions-exercises)
 ## Discrete Mathematics 8th Edition - Rosen
 [Section 1.1 Propositional Logic](/mathematics/discrete-mathematics/problems-and-examples/discrete-math-8th-edition-1-1-problems)
 
