@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-04-06T19:09:07.698Z
+date: 2021-04-12T00:16:54.579Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -12,6 +12,8 @@ editor: markdown
 
 
 [Propositional and Predicate Logic, Well Ordering Principle, Sets, and Functions 1](/mathematics/discrete-mathematics/problems-and-examples/problems-1)
+
+[Sets](/mathematics/discrete-mathematics/problems-and-examples/sets-exercises)
 
 ## Discrete Mathematics 8th Edition - Rosen
 [Section 1.1 Propositional Logic](/mathematics/discrete-mathematics/problems-and-examples/discrete-math-8th-edition-1-1-problems)
