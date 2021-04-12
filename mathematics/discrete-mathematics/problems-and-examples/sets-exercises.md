@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T00:29:02.291Z
+date: 2021-04-12T00:42:45.424Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -63,4 +63,14 @@ are distinct elements.
 **b)** $\{\emptyset,\{a\},\{b\},\{a, b\}\}$
 **c)** $\{\emptyset,\{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 
+### 25
+Prove that $\mathcal{P}(A) \subseteq \mathcal{P}(B)$ if and only if $A \subseteq B$
 
+#### Solution
+We are proving an IFF so we have to show that $p \rarr q$ and $q \rarr p$.
+We must prove $(\mathcal{P}(A) \subseteq \mathcal{P}(B) \rarr A \subseteq B) \wedge (A \subseteq B \rarr \mathcal{P}(A) \subseteq \mathcal{P}(B))$.
+
+To prove that one set is a subset of another, we need to prove that an element being a member of one set implies membership of another set. 
+
+
+**First Part: Prove**
