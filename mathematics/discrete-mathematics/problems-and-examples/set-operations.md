@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:11:15.182Z
+date: 2021-04-12T03:20:09.687Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -20,3 +20,6 @@ $\overline{\overline{\huge A}}$ is the complement of $\overline{\huge A}$. That 
 Prove the domination laws by showing 
 **a)** $A \cup U=U$
 **b)** $A \cap \emptyset=\emptyset$
+
+#### Solution
+**a)** $A \cup U=\{x \mid x \in A \vee x \in U\}$. By the definition of union we see that $x \in U$ if 
