@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-03-21T04:46:22.286Z
+date: 2021-04-12T00:34:38.280Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -92,6 +92,8 @@ B \in \operatorname{pow}(A) \quad \text { IFF } \quad B \subseteq A
 $$
 
 If $A$ and $B$ are sets, and $f:A \rarr B$ is a function, and $B$ is equal to $P(A)$, this means that $f$ is simply a function that each element of $A$ to some subset of $A$.
+
+The power set of the empty set $\emptyset$ has $2^0=1$ element.
 ## Set Builder Notation
 Used to describe sets that cannot be listed by elements or taking unions, intersections, etc. 
 
