@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:27:36.293Z
+date: 2021-04-12T03:29:39.014Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -34,3 +34,5 @@ Prove the complement laws by showing that
 
 (assume that $A$ is a subset of some underlying
 universal set $U$)
+
+#### Solution
