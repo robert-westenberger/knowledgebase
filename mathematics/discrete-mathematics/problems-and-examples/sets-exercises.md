@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T01:27:42.080Z
+date: 2021-04-12T01:29:10.783Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -89,3 +89,4 @@ Suppose $A \subseteq B$. Then for any $x \in \mathcal P(A)$ we have $x \subseteq
 Let $A$ be a set. Show that $\emptyset \times A = A \times \emptyset = \emptyset$.
 
 #### Solution
+By definition, $\emptyset \times A$ consists of all pairs $(x, a)$ such that $x \in \emptyset$ and $a \in A$. Since there are no elements $x \in \emptyset$, there are no such pairs, so $\emptyset \times A = \emptyset$. Similar reasoning shows that $A \times \emptyset = \emptyset$.
