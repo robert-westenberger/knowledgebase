@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:35:41.680Z
+date: 2021-04-12T03:38:37.597Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -36,4 +36,4 @@ Prove the complement laws by showing that
 universal set $U$)
 
 #### Solution
-**a)** $A \cup \bar{A}= \{ x \mid x \in A \vee x \in \bar A\} = \{ x \mid x \in A \vee x \in \bar A\} =U$
+**a)** $A \cup \bar{A}= \{ x \mid x \in A \vee x \in \bar A\} = \{ x \mid x \in A \vee \neg x \in A \wedge x \in U   \} = U$
