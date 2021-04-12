@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T00:48:34.107Z
+date: 2021-04-12T01:01:30.117Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -50,6 +50,11 @@ Determine whether each of these pairs of sets are equal.
 **b)** not equal - first set has 1 element second has 2
 **c)** not equal
 
+### 17
+Suppose that $A$, $B$, and $C$ are sets such that $A \subseteq B$ and $B \subseteq C$. Show that $A \subseteq C$.
+
+#### Solution
+Need to show that every element of $A$ is also an element of $C$. Let $x \in A$. Since $A \subseteq B$, we can conclude that $x \in B$. Since $B \subseteq C$, the fact that $x \in B$ implies $x \in C$, which is what we want to show. 
 ### 21
 Find the power set of each of these sets, where $a$ and $b$
 are distinct elements.
@@ -75,4 +80,4 @@ To prove that one set is a subset of another, we need to prove that an element b
 
 **First Part: Prove** $(\mathcal{P}(A) \subseteq \mathcal{P}(B) \rarr A \subseteq B)$
 
-Assume $\mathcal{P}(A) \subseteq \mathcal{P}(B)$. That is, $a \in \mathcal P(A)$ implies $a \in \mathcal P(B)$. 
+Assume $\mathcal{P}(A) \subseteq \mathcal{P}(B)$. That is, $c \in \mathcal P(A)$ implies $c \in \mathcal P(B)$. 
