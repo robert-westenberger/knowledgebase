@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-04-12T01:21:54.624Z
+date: 2021-04-12T01:22:12.793Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -76,7 +76,7 @@ $$
 
 ![difference.png](/difference.png)
 #### Cartesian Product
-$X \times Y$ contains all the ordered pairs in which the first elements are selected from $X$, and the second elements are selected from $B$.
+$X \times Y$ contains all the ordered pairs in which the first elements are selected from $X$, and the second elements are selected from $Y$.
 #### Complement 
 Often all the sets being considered are subsets of a known domain of discourse $D$. For any subset $A$ of $D$, we define $\bar{A}$ to be the set of all elements of $D$ *not* in $A$. That is, $\bar{A}::=D-A$. The set $\bar{A}$ is the complement of $A$.
 
