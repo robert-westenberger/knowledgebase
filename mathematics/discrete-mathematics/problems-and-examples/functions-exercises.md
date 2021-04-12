@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:49:25.367Z
+date: 2021-04-12T18:49:36.509Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -75,4 +75,4 @@ Determine whether each of these functions ia bijection from $\R$ to $\R$
 **a)** yes
 **b)** no ( not injective, the codomain has no negative $\R$
 **c)** this is a bijection since it has an inverse function.
-**d)** No, $x$ and $-x$ have the same image, for all real numbers $x$.
+**d)** No, $x$ and $-x$ have the same image, for all $x \in \R$.
