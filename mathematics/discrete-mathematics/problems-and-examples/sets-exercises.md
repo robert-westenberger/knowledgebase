@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T01:17:58.100Z
+date: 2021-04-12T01:27:42.080Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -84,3 +84,8 @@ Suppose $\mathcal{P}(A) \subseteq \mathcal{P}(B)$. $A \subseteq A$, so $A \in \m
 
 **Second Part: Prove** $(A \subseteq B \rarr \mathcal{P}(A) \subseteq \mathcal{P}(B))$
 Suppose $A \subseteq B$. Then for any $x \in \mathcal P(A)$ we have $x \subseteq A \subseteq B$, so $x \subseteq B$, therefore $x \in \mathcal P(B)$. Thus $\mathcal{P}(A) \subseteq \mathcal{P}(B))$
+
+### 31
+Let $A$ be a set. Show that $\emptyset \times A = A \times \emptyset = \emptyset$.
+
+#### Solution
