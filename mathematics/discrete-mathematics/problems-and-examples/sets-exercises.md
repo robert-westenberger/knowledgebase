@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T01:29:10.783Z
+date: 2021-04-12T02:58:39.402Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -24,6 +24,8 @@ List the members of these sets.
 **c)** $\{0, 1, 4, 9, 16, 25, 36, 49, 64, 81 \}$
 **d)** $\emptyset$
 
+## Determine set subset relations
+
 ### 3 
 For each of these pairs of sets, determine whether the first
 is a subset of the second, the second is a subset of the first,
@@ -40,6 +42,7 @@ that can fly
 **b)** neither
 **c)** the first is a subset of the second, and not vice versa.
 
+## Determine set equality
 ### 5
 Determine whether each of these pairs of sets are equal.
 **a)** $\{1,3,3,3,5,5,5,5,5\},\{5,3,1\}$
@@ -50,6 +53,7 @@ Determine whether each of these pairs of sets are equal.
 **b)** not equal - first set has 1 element second has 2
 **c)** not equal
 
+## Show that a set is a subset of another
 ### 17
 Suppose that $A$, $B$, and $C$ are sets such that $A \subseteq B$ and $B \subseteq C$. Show that $A \subseteq C$.
 
@@ -68,6 +72,7 @@ are distinct elements.
 **b)** $\{\emptyset,\{a\},\{b\},\{a, b\}\}$
 **c)** $\{\emptyset,\{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 
+## Set Proofs
 ### 25
 Prove that $\mathcal{P}(A) \subseteq \mathcal{P}(B)$ if and only if $A \subseteq B$
 
@@ -84,6 +89,7 @@ Suppose $\mathcal{P}(A) \subseteq \mathcal{P}(B)$. $A \subseteq A$, so $A \in \m
 
 **Second Part: Prove** $(A \subseteq B \rarr \mathcal{P}(A) \subseteq \mathcal{P}(B))$
 Suppose $A \subseteq B$. Then for any $x \in \mathcal P(A)$ we have $x \subseteq A \subseteq B$, so $x \subseteq B$, therefore $x \in \mathcal P(B)$. Thus $\mathcal{P}(A) \subseteq \mathcal{P}(B))$
+
 
 ### 31
 Let $A$ be a set. Show that $\emptyset \times A = A \times \emptyset = \emptyset$.
