@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:39:29.273Z
+date: 2021-04-12T18:41:59.164Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -61,3 +61,4 @@ Determine whether the function $f: \mathbf{Z} \times \mathbf{Z} \rightarrow \mat
 **e)** Yes, $f(m, 0)$ maps all integers
 
 ## Determine whether a function is bijective
+(remember a function is bijective when each value is mapped to exactly once.
