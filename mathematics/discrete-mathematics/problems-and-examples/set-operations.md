@@ -2,13 +2,14 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:08:52.877Z
+date: 2021-04-12T03:09:59.008Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
 # Rosen Discrete Mathematics 7th Edition Section 2.2
 
+## Proving Set Identities
 ### 5
 Prove the complementation law by showing $\overline{\overline{\huge A}}=A$
 
