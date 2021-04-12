@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T04:19:40.343Z
+date: 2021-04-12T18:15:17.260Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -38,3 +38,4 @@ times the block $11$ appears
 position of the first $1$ in the string and that assigns the
 value $0$ to a bit string consisting of all $0$s
 #### Solution
+**a)** The domain is the set of ordered pairs ($\Z$, $\Z$) and the range is $\Z$.
