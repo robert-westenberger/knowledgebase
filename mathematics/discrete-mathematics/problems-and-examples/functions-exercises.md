@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T18:53:15.237Z
+date: 2021-04-12T18:53:29.564Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -79,4 +79,4 @@ Determine whether each of these functions ia bijection from $\R$ to $\R$
 
 ## Show some function is increasing or decreasing
 ### 25
-Let $f: \mathbf{R} \rightarrow \mathbf{R}$ and let $f(x) \gt 0$ for all $x \in \R$. Show that $f(x)$ is strictly increasing if and only if the function $g(x)=1/f(x)$ is strictly increasing. 
+Let $f: \mathbf{R} \rightarrow \mathbf{R}$ and let $f(x) \gt 0$ for all $x \in \R$. Show that $f(x)$ is strictly decreasing if and only if the function $g(x)=1/f(x)$ is strictly increasing. 
