@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-04-12T00:34:38.280Z
+date: 2021-04-12T01:21:54.624Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -75,6 +75,8 @@ X-Y=\{x \mid x \in X \text { and } x \notin Y\}
 $$
 
 ![difference.png](/difference.png)
+#### Cartesian Product
+$X \times Y$ contains all the ordered pairs in which the first elements are selected from $X$, and the second elements are selected from $B$.
 #### Complement 
 Often all the sets being considered are subsets of a known domain of discourse $D$. For any subset $A$ of $D$, we define $\bar{A}$ to be the set of all elements of $D$ *not* in $A$. That is, $\bar{A}::=D-A$. The set $\bar{A}$ is the complement of $A$.
 
@@ -94,6 +96,8 @@ $$
 If $A$ and $B$ are sets, and $f:A \rarr B$ is a function, and $B$ is equal to $P(A)$, this means that $f$ is simply a function that each element of $A$ to some subset of $A$.
 
 The power set of the empty set $\emptyset$ has $2^0=1$ element.
+
+
 ## Set Builder Notation
 Used to describe sets that cannot be listed by elements or taking unions, intersections, etc. 
 
