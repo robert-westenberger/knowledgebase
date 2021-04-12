@@ -2,7 +2,7 @@
 title: Functions Exercises
 description: 
 published: true
-date: 2021-04-12T04:19:10.158Z
+date: 2021-04-12T04:19:27.583Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -23,6 +23,8 @@ Why is $f$ not a function from $\mathbf{R}$ to $\mathbf{R}$ if
 **c)** There are multiple values in the domain that map to single values of the codomain. 
 
 ## Find domain and range of functions
+the domain is the set of possible inputs for which the function is defined, and the range is the
+set of all possible outputs on these inputs.
 ### 7 
 Find the domain and range of these functions.
 **a)** the function that assigns to each pair of positive integers
