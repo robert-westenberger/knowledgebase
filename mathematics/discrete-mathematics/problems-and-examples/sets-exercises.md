@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T01:14:19.582Z
+date: 2021-04-12T01:17:58.100Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -83,3 +83,4 @@ To prove that one set is a subset of another, we need to prove that an element b
 Suppose $\mathcal{P}(A) \subseteq \mathcal{P}(B)$. $A \subseteq A$, so $A \in \mathcal P(A) \subseteq \mathcal P(B)$, so $A \in \mathcal P(B)$, and hence $A \subseteq B$. 
 
 **Second Part: Prove** $(A \subseteq B \rarr \mathcal{P}(A) \subseteq \mathcal{P}(B))$
+Suppose $A \subseteq B$. Then for any $x \in \mathcal P(A)$ we have $x \subseteq A \subseteq B$, so $x \subseteq B$, therefore $x \in \mathcal P(B)$. Thus $\mathcal{P}(A) \subseteq \mathcal{P}(B))$
