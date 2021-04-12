@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-12T19:01:42.724Z
+date: 2021-04-12T19:02:18.957Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -149,4 +149,6 @@ If $A$ is a finite set, we let $|A|$ be the number of elements in $A$. If $f : A
 
 ## Increasing and Decreasing
 A function $f$ whose domain and codomain are subsets of the set of real numbers is **increasing** if $f(x) \leq f(y)$ and **strictly increasing** if $f(x) \lt f(y)$, wherever $x \lt y$ and $x$ and $y$ are in the domain of $f$. $f$ is **decreasing** if $f(x) \geq f(y)$ and **stricly decreasing** if $f(x) \gt f(y)$
+
+
 ## Relational Images
