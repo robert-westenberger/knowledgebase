@@ -2,7 +2,7 @@
 title: Set Operations
 description: 
 published: true
-date: 2021-04-12T03:04:11.147Z
+date: 2021-04-12T03:08:29.017Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -13,4 +13,4 @@ editor: markdown
 Prove the complementation law by showing $\overline{\overline{\huge A}}=A$
 
 #### Solution
-$\overline{\overline{\huge A}}$ is the complement of $\overline{\huge A}$. That is, $\overline{\overline{\huge A}} = \{x \in U \mid x \notin A\}$
+$\overline{\overline{\huge A}}$ is the complement of $\overline{\huge A}$. That is, $\overline{\overline{\huge A}} = \{x \in U \mid x \notin \overline{\huge A}\}$. $x \notin \overline{\huge A}$ means $x \in A$. Represented differently, $\overline{\bar{\huge A}}=\{x \mid \neg x \in \bar{\huge A}\}=\{x \mid \neg \neg x \in A\}=\{x \mid x \in A\}=A$.
