@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T18:09:31.020Z
+date: 2021-04-13T18:32:37.500Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -81,3 +81,16 @@ $$
 The last equation shows that $P(k+1)$ is true udner the assumption that $P(k)$ is true. This completes the inductive step. 
 
 We have completed the basis and the inductive step, so by mathematical induction we know that $P(n)$ is true for all positive integers $n$. That is, we have proven that $1+2+\cdots+n=n(n+1) / 2$ for all positive integers $n$.
+
+### Proving Inequalities
+
+#### Example 1 
+Use mathematical induction to prove the inequality 
+$$n<2^{n}$$
+for all positive integers $n$.
+
+Let $P(n)$ be the proposition that $n \lt 2^n$.
+
+**Basis Step:** $P(1)$ is true, because $1<2^{1}=2$. This completes the basis step.
+
+**Inductive Step:** We assume the inductive hypothesis $k \lt 2^k$ is true for some arbitrary integer $k$. 
