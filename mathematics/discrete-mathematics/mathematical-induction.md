@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T18:05:56.050Z
+date: 2021-04-13T18:06:58.090Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -67,3 +67,14 @@ is also true.
 We now look ahead to see how we might be able to prove that $P(k + 1)$ holds under the assumption that $P(k)$ is true.We observe that the summation in the left-hand side of $P(k + 1)$ is
 $k + 1$ more than the summation in the left-hand side of $P(k)$. Our strategy will be to add $k + 1$ to
 both sides of the equation in $P(k)$ and simplify the result algebraically to complete the inductive step.
+
+Returning to the inductive step of the proof, when we add $k+1$ to both sides of the equation $P(k)$, we obtain 
+
+$$
+\begin{aligned}
+1+2+\cdots+k+(k+1) & \stackrel{\text { IH }}{=} \frac{k(k+1)}{2}+(k+1) \\
+&=\frac{k(k+1)+2(k+1)}{2} \\
+&=\frac{(k+1)(k+2)}{2} .
+\end{aligned}
+$$
+
