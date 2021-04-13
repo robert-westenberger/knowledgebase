@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T18:36:35.357Z
+date: 2021-04-13T18:38:46.292Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -98,3 +98,7 @@ Let $P(n)$ be the proposition that $n \lt 2^n$.
 $$
 k+1<2^{k}+1 \leq 2^{k}+2^{k}=2 \cdot 2^{k}=2^{k+1}
 $$
+
+This shows that $P(k+1)$ is true, namely that $k+1<2^{k+1}$, based on the assumption that $P(k)$ is true. 
+
+Therefore, because we have completed both the basis step and the inductive step, by the principle of mathematical induction we have shown that $n \lt 2^n$ is true for all positive integers $n$.
