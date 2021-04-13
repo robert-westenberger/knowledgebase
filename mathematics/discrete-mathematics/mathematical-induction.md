@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T17:40:46.526Z
+date: 2021-04-13T17:42:06.726Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -34,3 +34,7 @@ Mathmatical induction relies on the [Well Ordering Principle](/mathematics/discr
 4. State what needs to be proved under the assumption that the inductive hypothesis is true. That is, write out what $P(k+1)$ says.
 
 5. Prove the statement $P(k+1)$ making use of the assumption $P(k)$. Be sure that your proof is valid for all integers $k$ with $k \ge b$, taking care that the proof works for small values of $k$, including $k=b$.
+
+6. Clearly identify the conclusion of the inductive step, such as by saying, "This completes the inductive step."
+
+7. After completing the basis and inductive step, state the conclusion, "By mathematical induction, $P(n)$ is true for all integers $n$ with $n \ge b$. 
