@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T18:05:45.651Z
+date: 2021-04-13T18:05:56.050Z
 tags: discrete-mathematics
 editor: markdown
 ---
