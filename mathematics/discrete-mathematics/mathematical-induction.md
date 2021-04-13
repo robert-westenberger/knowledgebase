@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T17:54:12.742Z
+date: 2021-04-13T17:57:21.467Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -40,3 +40,6 @@ Mathmatical induction relies on the [Well Ordering Principle](/mathematics/discr
 7. After completing the basis and inductive step, state the conclusion, "By mathematical induction, $P(n)$ is true for all integers $n$ with $n \ge b$. 
 
 ## Examples 
+
+### Proving Summation Formulae
+Keep in mind that induction can't be used to derive a summation formula. We must already have the formukla before we can attempt to prove it by induction.
