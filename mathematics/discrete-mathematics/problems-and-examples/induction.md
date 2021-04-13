@@ -2,10 +2,14 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-13T19:05:51.125Z
+date: 2021-04-13T19:07:02.744Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
-# Header
-Your content here
+# Rosen Discrete Mathematics 7th Edition Section 
+
+
+### 1
+
+#### Solution
