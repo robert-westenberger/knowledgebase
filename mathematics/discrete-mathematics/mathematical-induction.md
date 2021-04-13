@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T17:42:06.726Z
+date: 2021-04-13T17:54:12.742Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -38,3 +38,5 @@ Mathmatical induction relies on the [Well Ordering Principle](/mathematics/discr
 6. Clearly identify the conclusion of the inductive step, such as by saying, "This completes the inductive step."
 
 7. After completing the basis and inductive step, state the conclusion, "By mathematical induction, $P(n)$ is true for all integers $n$ with $n \ge b$. 
+
+## Examples 
