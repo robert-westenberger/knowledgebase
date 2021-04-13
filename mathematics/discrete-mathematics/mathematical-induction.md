@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T17:57:21.467Z
+date: 2021-04-13T18:05:45.651Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -43,3 +43,27 @@ Mathmatical induction relies on the [Well Ordering Principle](/mathematics/discr
 
 ### Proving Summation Formulae
 Keep in mind that induction can't be used to derive a summation formula. We must already have the formukla before we can attempt to prove it by induction.
+
+#### Example 1
+Show that if $n$ is a positive integer, then 
+$$
+1+2+\cdots+n=\frac{n(n+1)}{2}
+$$
+
+**Basis Step:** $P(1)$ is true because $1=\frac{1(1+1)}{2}$. 
+
+**Inductive Step:** For the inductive hypothesis we assume that $P(k)$ holds for an arbitrary positive integer $k$. That is, we assume
+
+$$
+1+2+\cdots+k=\frac{k(k+1)}{2}
+$$
+
+Under this assumption, it must be shown that $P(k+1)$ is true, namely, that 
+$$
+1+2+\cdots+k+(k+1)=\frac{(k+1)[(k+1)+1]}{2}=\frac{(k+1)(k+2)}{2}
+$$
+is also true.
+
+We now look ahead to see how we might be able to prove that $P(k + 1)$ holds under the assumption that $P(k)$ is true.We observe that the summation in the left-hand side of $P(k + 1)$ is
+$k + 1$ more than the summation in the left-hand side of $P(k)$. Our strategy will be to add $k + 1$ to
+both sides of the equation in $P(k)$ and simplify the result algebraically to complete the inductive step.
