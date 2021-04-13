@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T18:46:40.571Z
+date: 2021-04-13T19:03:21.384Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -106,3 +106,4 @@ Therefore, because we have completed both the basis step and the inductive step,
 
 ### Proving Divisibility Results
 ### Proving Results About Sets
+### Proving Results About Algorithms
