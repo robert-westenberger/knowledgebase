@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T18:32:37.500Z
+date: 2021-04-13T18:34:36.171Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -93,4 +93,4 @@ Let $P(n)$ be the proposition that $n \lt 2^n$.
 
 **Basis Step:** $P(1)$ is true, because $1<2^{1}=2$. This completes the basis step.
 
-**Inductive Step:** We assume the inductive hypothesis $k \lt 2^k$ is true for some arbitrary integer $k$. 
+**Inductive Step:** We assume the inductive hypothesis $k \lt 2^k$ is true for some arbitrary integer $k$. To complete the inductive step, we need to show that if $P(k)$ is true, then $P(k+1)$, which is the statement that $k+1<2^{k+1}$ is true.
