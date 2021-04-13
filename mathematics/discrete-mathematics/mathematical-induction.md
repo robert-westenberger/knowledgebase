@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T15:57:00.719Z
+date: 2021-04-13T17:40:46.526Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -21,3 +21,16 @@ Expressed as a rule of inference, induction can be stated as
 $$
 (P(1) \wedge \forall k(P(k) \rightarrow P(k+1))) \rightarrow \forall n P(n)
 $$
+
+Mathmatical induction relies on the [Well Ordering Principle](/mathematics/discrete-mathematics/well-ordering-principle).
+
+## Template for Proofs by Mathematical Induction
+1. Express the statement that is to be proved in the form "for all $n \geq b, P(n)$", for a fixed integer $b$. For statements of the form "$P(n)$ for all positive integers $n$, let $b=0$. For some statements of the form $P(n)$, such as inequalities, you may need to determine the appropriate value of $b$ by checking the truth tables of $P(n)$ for small values of $n$. 
+
+2. Write out the words "Basis Step". Then show $P(b)$ is true, taking care that the correct value of $b$ is used. 
+
+3. Write out the words "Inductive Step", and state the inductive hypothesis in the form, "Assume $P(k)$ is true for an arbitrary fixed integer $k \ge b$."
+
+4. State what needs to be proved under the assumption that the inductive hypothesis is true. That is, write out what $P(k+1)$ says.
+
+5. Prove the statement $P(k+1)$ making use of the assumption $P(k)$. Be sure that your proof is valid for all integers $k$ with $k \ge b$, taking care that the proof works for small values of $k$, including $k=b$.
