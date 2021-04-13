@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-13T18:06:58.090Z
+date: 2021-04-13T18:09:31.020Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -78,3 +78,6 @@ $$
 \end{aligned}
 $$
 
+The last equation shows that $P(k+1)$ is true udner the assumption that $P(k)$ is true. This completes the inductive step. 
+
+We have completed the basis and the inductive step, so by mathematical induction we know that $P(n)$ is true for all positive integers $n$. That is, we have proven that $1+2+\cdots+n=n(n+1) / 2$ for all positive integers $n$.
