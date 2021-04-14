@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T17:39:04.134Z
+date: 2021-04-14T17:42:27.485Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -27,4 +27,4 @@ Let $P(n)$ be the statement that $1^{2}+2^{2}+\cdots+n^{2}=n(n+\text { 1) }(2 n+
 **e)** Complete the inductive step of a proof that $P(n)$ is true for all positive integers $n$, identifying where you use the inductive hypothesis. 
 **f)** Explain why these steps show that this formula is true whenever $n$ is a positive integer.
 #### Solution
-**a)**
+**a)** $P(1)=1^2=1(1+1)(2+1) / 6 =1(2)(3)/6=1$
