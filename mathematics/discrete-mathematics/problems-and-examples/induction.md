@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T17:50:44.761Z
+date: 2021-04-14T17:53:14.571Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -31,3 +31,4 @@ Let $P(n)$ be the statement that $1^{2}+2^{2}+\cdots+n^{2}=n(n+\text { 1) }(2 n+
 **b)** $P(1)=1^2=1(1+1)(2+1) / 6 =1(2)(3)/6=1$
 **c)** That $P(k)$ is true for all arbitrary integer $k$, that is
 $$1^{2}+2^{2}+\cdots+k^{2}=k(k+\text { 1) }(2 k+1) / 6$$
+**d)** We must show that the proposition $P(k) \rarr P(k+1)$ is true for every positive integer $k$.
