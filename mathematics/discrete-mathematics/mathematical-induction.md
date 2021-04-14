@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-14T02:58:58.187Z
+date: 2021-04-14T03:02:36.625Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -83,7 +83,7 @@ The last equation shows that $P(k+1)$ is true udner the assumption that $P(k)$ i
 We have completed the basis and the inductive step, so by mathematical induction we know that $P(n)$ is true for all positive integers $n$. That is, we have proven that $1+2+\cdots+n=n(n+1) / 2$ for all positive integers $n$.
 
 #### Example 2
-
+Conjecture a formula for the sum of the first n positive odd integers. Then prove your conjecture using mathematical induction.
 ### Proving Inequalities
 
 #### Example 1 
