@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T19:04:21.779Z
+date: 2021-04-14T19:07:09.691Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -41,8 +41,7 @@ $$
 &= \frac{k(k+1)(2 k+1)+6(k+1)^{2}}{6} \\
 &= \frac{(k+1)[k(2 k+1)+6(k+1)]}{6} \\
 &= \frac{(k+1)\left(2 k^{2}+7 k+6\right)}{6} \\
-&= \frac{(k+1)(k+2)(2 k+3)}{6} \\
-&= \frac{(k+1)(k+2)(2(k+1)+1)}{6}
+&= \frac{(k+1)(k+2)(2 k+3)}{6}
 \end{aligned}
 $$
-**e)**
+**e)** The left hand side of part **d** shows $k(k+1)(2 k+1) / 6+ (k+1)^{2}$. We need to do a bit of algebraic manipulation to get it into the desired form: factor out $(k+1)/6$ and then factor the rest. 
