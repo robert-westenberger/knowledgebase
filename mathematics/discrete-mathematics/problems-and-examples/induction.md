@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T18:31:25.172Z
+date: 2021-04-14T18:42:01.770Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -33,5 +33,9 @@ Let $P(n)$ be the statement that $1^{2}+2^{2}+\cdots+n^{2}=n(n+\text { 1) }(2 n+
 $$
 1^{2}+2^{2}+\cdots+k^{2}=\frac{k(k+1)(2 k+1)}{6}
 $$
-**d)** We must show that the proposition $P(k) \rarr P(k+1)$ is true for every positive integer $k$.
+**d)** We want to show that  for each $k \ge 1$ that $P(k)$ implies $P(k+1)$.
+In other words, we want to show that assuming the inductive hypothesis (part C) that we can show 
+$$
+1^{2}+2^{2}+\cdots+k^{2}+(k+1)^{2}=\frac{(k+1)(k+2)(2 k+3)}{6}
+$$
 **e)**
