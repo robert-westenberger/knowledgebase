@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-14T03:02:36.625Z
+date: 2021-04-14T03:05:39.117Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -84,6 +84,8 @@ We have completed the basis and the inductive step, so by mathematical induction
 
 #### Example 2
 Conjecture a formula for the sum of the first n positive odd integers. Then prove your conjecture using mathematical induction.
+
+The sums of the first $n$ positive integers for $n=1,2,3,4,5$ are $1=1$, $1+3=4$, $1+3+5=9$, $1+3+5+7=16$, $1+3+5+7+9=25$
 ### Proving Inequalities
 
 #### Example 1 
