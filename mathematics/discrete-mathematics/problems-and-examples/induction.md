@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T18:42:01.770Z
+date: 2021-04-14T19:04:21.779Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -36,6 +36,13 @@ $$
 **d)** We want to show that  for each $k \ge 1$ that $P(k)$ implies $P(k+1)$.
 In other words, we want to show that assuming the inductive hypothesis (part C) that we can show 
 $$
-1^{2}+2^{2}+\cdots+k^{2}+(k+1)^{2}=\frac{(k+1)(k+2)(2 k+3)}{6}
+\begin{aligned}
+1^{2}+2^{2}+\cdots+k^{2}+(k+1)^{2} & = \frac{k(k+1)(2 k+1)}{6}+(k+1)^{2} \\
+&= \frac{k(k+1)(2 k+1)+6(k+1)^{2}}{6} \\
+&= \frac{(k+1)[k(2 k+1)+6(k+1)]}{6} \\
+&= \frac{(k+1)\left(2 k^{2}+7 k+6\right)}{6} \\
+&= \frac{(k+1)(k+2)(2 k+3)}{6} \\
+&= \frac{(k+1)(k+2)(2(k+1)+1)}{6}
+\end{aligned}
 $$
 **e)**
