@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T19:11:10.674Z
+date: 2021-04-14T19:12:31.853Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -45,8 +45,6 @@ $$
 \end{aligned}
 $$
 **e)** The left hand side of part **d** shows $k(k+1)(2 k+1) / 6+ (k+1)^{2}$. We need to do a bit of algebraic manipulation to get it into the desired form: factor out $(k+1)/6$ and then factor the rest. 
-**f)** Explain why these steps show that this formula is true whenever n is a positive integer.
-
 $$
 \begin{aligned}
 \left(1^{2}+2^{2}+\cdots+k^{2}\right)+(k+1)^{2}&=\frac{k(k+1)(2 k+1)}{6}+(k+1)^{2} \\
@@ -56,3 +54,4 @@ $$
 &=\frac{(k+1)(k+2)(2 k+3)}{6}
 \end{aligned}
 $$
+**f)** We have completed both the basis step and the inductive step, so by the principle of mathematical induction, the statement is true for every positive integer $n$.
