@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-14T03:06:05.793Z
+date: 2021-04-14T03:58:37.243Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -87,6 +87,12 @@ Conjecture a formula for the sum of the first n positive odd integers. Then prov
 
 The sums of the first $n$ positive integers for $n=1,2,3,4,5$ are $1=1$, $1+3=4$, $1+3+5=9$, $1+3+5+7=16$, $1+3+5+7+9=25$
 
+From these values its reasonable to conjecture that our formula for the sum of the first $n$ positive integers is $1+3+5+\cdots+(2 n-1)=n^{2}$. 
+
+Let $P(n)$ denote the proposition that the sum of the first $n$ odd positive integers is $n^2$. Conjecture is that $P(n)$ is true for all positive integers $n$.
+
+**Basis Step:** $P(1)= 1^2$ = 1
+**Inductive Step:**
 ### Proving Inequalities
 
 #### Example 1 
