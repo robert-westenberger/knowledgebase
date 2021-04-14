@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T17:44:16.796Z
+date: 2021-04-14T17:50:44.761Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -29,3 +29,5 @@ Let $P(n)$ be the statement that $1^{2}+2^{2}+\cdots+n^{2}=n(n+\text { 1) }(2 n+
 #### Solution
 **a)** $P(1)=1^2 =1^2=1(1+1)(2+1) / 6$
 **b)** $P(1)=1^2=1(1+1)(2+1) / 6 =1(2)(3)/6=1$
+**c)** That $P(k)$ is true for all arbitrary integer $k$, that is
+$$1^{2}+2^{2}+\cdots+k^{2}=k(k+\text { 1) }(2 k+1) / 6$$
