@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-14T03:58:37.243Z
+date: 2021-04-14T17:23:50.385Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -92,7 +92,11 @@ From these values its reasonable to conjecture that our formula for the sum of t
 Let $P(n)$ denote the proposition that the sum of the first $n$ odd positive integers is $n^2$. Conjecture is that $P(n)$ is true for all positive integers $n$.
 
 **Basis Step:** $P(1)= 1^2$ = 1
-**Inductive Step:**
+**Inductive Step:** We must show that $P(k) \rightarrow P(k+1)$ is true for every positive integer $k$. To do this, we assume the inductive hypothesis ( that $P(k)$ is true for every positive integer $k$, that is,
+$1+3+5+\cdots+(2 k-1)=k^{2}$ )
+
+
+
 ### Proving Inequalities
 
 #### Example 1 
