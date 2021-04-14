@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-14T17:23:50.385Z
+date: 2021-04-14T17:32:36.310Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -95,7 +95,26 @@ Let $P(n)$ denote the proposition that the sum of the first $n$ odd positive int
 **Inductive Step:** We must show that $P(k) \rightarrow P(k+1)$ is true for every positive integer $k$. To do this, we assume the inductive hypothesis ( that $P(k)$ is true for every positive integer $k$, that is,
 $1+3+5+\cdots+(2 k-1)=k^{2}$ )
 
+To show that $\forall k(P(k) \rightarrow P(k+1))$ is true, we must show that $P(k)$ is true, then $P(k+1)$ is true. Note that $P(k+1)$ is 
+$$
+1+3+5+\cdots+(2 k-1)+(2 k+1)=(k+1)^{2}
+$$
 
+We need to look for a way to use the inductive hypothesis to show that $P(k+1)$ is true. $1+3+5+\cdots+(2 k-1)+(2 k+1)$ is the sum of its first $k$ terms $1+3+5+\cdots+(2 k-1)$ and its last term $2k-1$. So we can use our inductive hypothesis to replace $1+3+5+\cdots+(2 k-1)$ by $k^2$.
+
+Returning to the proof, we find that 
+$$
+\begin{aligned}
+1+3+5+\cdots+(2 k-1)+(2 k+1) &=[1+3+\cdots+(2 k-1)]+(2 k+1) \\
+& \stackrel{\mathrm{IH}}{=} k^{2}+(2 k+1) \\
+&=k^{2}+2 k+1 \\
+&=(k+1)^{2}
+\end{aligned}
+$$
+
+This shows that $P(k+1)$ follows from $P(k)$. Note that we used the inductive hypothesis $P(k)$ in the second equality to replace the sum of the first $k$ odd positive integers by $k^2$.
+
+We have now completed both the basis step and the inductive step. We have shown that $P(1)$ is true and the conditional statement $P(k) \rightarrow P(k+1)$ is true for all positive integers $k$. Consequently, by the principle of mathematical induction we can conclude that $P(n)$ is true for all positive integers $n$. That is, we know that $1+3+5+\cdots+(2 n-1)=n^{2}$ for all positive integers $n$.
 
 ### Proving Inequalities
 
