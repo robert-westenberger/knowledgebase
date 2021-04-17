@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T21:58:03.292Z
+date: 2021-04-17T22:01:18.133Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -57,3 +57,13 @@ $$
 **f)** We have completed both the basis step and the inductive step, so by the principle of mathematical induction, the statement is true for every positive integer $n$.
 
 # Random / Unsourced
+## Proof by Induction
+Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
+
+Let $P(n)$ by the mathematical statement 
+$$
+11^{n}-6 \text { is divisible by } 5 \text { . }
+$$
+
+**Base Case**: $P(1)=11^1-6=5$ which is divisible by $5$ so $P(1)$ is true.
+**Induction Hypothesis:** Assume that $P(k)$ is correct for some positive integer $k$. That means $11^k − 6$ is divisible by $5$ and hence $11^k − 6 = 5m$ for some integer $m$. So $11^k = 5m + 6$.
