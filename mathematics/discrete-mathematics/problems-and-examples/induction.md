@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T22:08:28.356Z
+date: 2021-04-17T22:09:37.844Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -80,3 +80,5 @@ $$
 \end{aligned}
 $$
 As $11m + 12$ is an integer we have that $11^{k+1} − 6$ is divisible by $5$, so $P(k + 1)$ is correct. Hence by mathematical induction $P(n)$ is correct for all positive integers $n$.
+
+## Proof by Induction (Involving Inequality)
