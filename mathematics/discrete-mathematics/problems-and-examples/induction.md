@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T22:01:18.133Z
+date: 2021-04-17T22:07:51.557Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -67,3 +67,16 @@ $$
 
 **Base Case**: $P(1)=11^1-6=5$ which is divisible by $5$ so $P(1)$ is true.
 **Induction Hypothesis:** Assume that $P(k)$ is correct for some positive integer $k$. That means $11^k − 6$ is divisible by $5$ and hence $11^k − 6 = 5m$ for some integer $m$. So $11^k = 5m + 6$.
+
+**Induction Step:** We want to show that $11^{k+1} - 6$ can be expressed as a multiple of $5$, so we will start with the formula $11^{k+1} - 6$ and we will rearrange it into something involving multiples of $5$. At some point we will also want to use the assumption that $11^k=5m+6$.
+
+$$
+\begin{aligned}
+11^{k+1}-6&=\left(11 \times 11^{k}\right)-6 \quad \text {by the laws of powers} \\
+&=11(5m+6)-6 \quad \text {by the induction hypothesis} \\
+&=11(5m)+66-6 \quad \text {by expanding the bracket} \\
+&=5(11m)+60 \\ 
+&=5(11m+12) \quad \text {since both parts of the formula have a common factor of} \medspace 5
+\end{aligned}
+$$
+As 11m + 12 is an integer we have that 11k+1 − 6 is divisible by 5, so P(k + 1) is correct. Hence by mathematical induction P(n) is correct for all positive integers n.
