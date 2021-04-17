@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T22:07:51.557Z
+date: 2021-04-17T22:08:28.356Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -79,4 +79,4 @@ $$
 &=5(11m+12) \quad \text {since both parts of the formula have a common factor of} \medspace 5
 \end{aligned}
 $$
-As 11m + 12 is an integer we have that 11k+1 − 6 is divisible by 5, so P(k + 1) is correct. Hence by mathematical induction P(n) is correct for all positive integers n.
+As $11m + 12$ is an integer we have that $11^{k+1} − 6$ is divisible by $5$, so $P(k + 1)$ is correct. Hence by mathematical induction $P(n)$ is correct for all positive integers $n$.
