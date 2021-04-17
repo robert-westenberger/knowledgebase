@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T23:21:00.119Z
+date: 2021-04-17T23:45:43.250Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -90,7 +90,7 @@ Prove by induction that $2^{n} \gt 2 n$ for every positive integer $n \gt 2$
 
 $$
 \begin{aligned}
-2^{k+1}&=2 \times 2^{k}>2 \times 2 k \quad \text {by the induction hypothesis} \\
+2^{k+1}&=2^1 \times 2^{k}>2 \times 2k \quad \text {by the induction hypothesis} \\
 &=2(k+1)
 \end{aligned}
 $$
