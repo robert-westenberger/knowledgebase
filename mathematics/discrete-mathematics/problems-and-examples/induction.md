@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T22:26:33.798Z
+date: 2021-04-17T23:20:10.311Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -86,3 +86,12 @@ Prove by induction that $2^{n} \gt 2 n$ for every positive integer $n \gt 2$
 
 **Base Case**: $P(3)$ = $2^3 \gt 2(3) = 8 \gt 6$
 **Induction Hypothesis:** Assume that $P(k)$ is correct for some positive integer $k \gt 3$. That means $2^{k} \gt 2 k$.
+**Induction Step:** We want to show that $2^{k+1} \gt 2(k+1)$. 
+
+$$
+\begin{aligned}
+2^{k+1}&=2 \times 2^{k}>2 \times 2 k \quad \text {by the induction hypothesis} \\
+&=2(k+1)
+\end{aligned}
+$$
+So $P(k+1) is correct. Hence by mathematical induction $P(n)$ is correct for all positive integers $n \gt 2$.
