@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T23:20:10.311Z
+date: 2021-04-17T23:21:00.119Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -94,4 +94,4 @@ $$
 &=2(k+1)
 \end{aligned}
 $$
-So $P(k+1) is correct. Hence by mathematical induction $P(n)$ is correct for all positive integers $n \gt 2$.
+So $P(k+1)$ is correct. Hence by mathematical induction $P(n)$ is correct for all positive integers $n \gt 2$.
