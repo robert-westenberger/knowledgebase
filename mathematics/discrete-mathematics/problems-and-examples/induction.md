@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-14T19:12:31.853Z
+date: 2021-04-17T21:58:03.292Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -55,3 +55,5 @@ $$
 \end{aligned}
 $$
 **f)** We have completed both the basis step and the inductive step, so by the principle of mathematical induction, the statement is true for every positive integer $n$.
+
+# Random / Unsourced
