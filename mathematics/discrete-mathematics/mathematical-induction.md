@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-14T17:32:36.310Z
+date: 2021-04-18T00:24:48.443Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -25,7 +25,7 @@ $$
 Mathmatical induction relies on the [Well Ordering Principle](/mathematics/discrete-mathematics/well-ordering-principle).
 
 ## Template for Proofs by Mathematical Induction
-1. Express the statement that is to be proved in the form "for all $n \geq b, P(n)$", for a fixed integer $b$. For statements of the form "$P(n)$ for all positive integers $n$, let $b=0$. For some statements of the form $P(n)$, such as inequalities, you may need to determine the appropriate value of $b$ by checking the truth tables of $P(n)$ for small values of $n$. 
+1. Express the statement that is to be proved in the form "for all $n \geq b, P(n)$", for a fixed integer $b$. For statements of the form "$P(n)$ for all positive integers $n$, let $b=1$.  For statements of the form "$P(n)$ for all nonnegative integters $n$", let $b=0$. For some statements of the form $P(n)$, such as inequalities, you may need to determine the appropriate value of $b$ by checking the truth tables of $P(n)$ for small values of $n$. 
 
 2. Write out the words "Basis Step". Then show $P(b)$ is true, taking care that the correct value of $b$ is used. 
 
