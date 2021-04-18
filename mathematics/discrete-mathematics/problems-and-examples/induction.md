@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:17:15.844Z
+date: 2021-04-18T00:18:11.413Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -103,3 +103,5 @@ So $P(k+1)$ is correct. Hence by mathematical induction $P(n)$ is correct for al
 **Proof:** By mathemtical induction.
 
 **Base case:** When $n=5$ we have $2^n=32 \gt 25 = n^2$
+
+**Induction step:**
