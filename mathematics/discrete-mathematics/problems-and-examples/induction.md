@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T22:56:33.816Z
+date: 2021-04-18T22:57:20.237Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -146,7 +146,7 @@ the proof.
 true whenever n is an integer greater than 1.
 #### Solution
 **a)** $P(2)=1+\frac{1}{4}<2-\frac{1}{2}$
-**b)** $P(2)=\frac{5}{4}<\frac{6}{4}$
+**b)** $P(2)=\frac{5}{4}<\frac{6}{4}$. This is true because $\frac 5 4$ is less than $\frac 6 4$.
 **c)**
 **d)**
 **e)**
