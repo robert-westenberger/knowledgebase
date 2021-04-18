@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T06:45:33.584Z
+date: 2021-04-18T06:58:58.947Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -98,8 +98,17 @@ Proof by induction.
 **Base Case:** $P(1)= 1(2) = 2$
 **Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=2+4+6+8+...+k=k(k+1)$ and $P(k+1)=2+4+6+8+...+(k+1)=(k+1)(k+2)$.
 **Induction Step:** 
+$$
+\begin{aligned}
+2+4+6+8+...+ k + (k+1) &= k(k+1) + (k+1) \\
+&= k^2 + k + k + 1 \\
+&= k^2 + 2k + 1 + k + 1\\
+&= k^2 + 3k + 2\\
+&= (k+1)(k+2)
+\end{aligned}
+$$
 
-
+This shows that $P(k+1)$ follows from $P(k)$. 
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
