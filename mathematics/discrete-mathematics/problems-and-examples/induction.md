@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T03:01:58.144Z
+date: 2021-04-18T03:08:31.863Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -60,6 +60,17 @@ Prove that $3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{n}=3\left(5^{n+1}-1\righ
 #### Solution
 **Theorem:** For all $n \in \natnums$, $3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{n}= \frac{3\left(5^{n+1}-1\right)} 4$.
 **Proof:**
+**Base Case:** 
+$$
+\begin{aligned}
+P(0) &= \frac{3\left(5^{0+1}-1\right)} 4 \\
+&= \frac{3\left(5^1-1\right)} 4 \\
+&= \frac{3\left(5-1\right)} 4 \\
+&= \frac{3\left(4\right)} 4 \\
+&= \frac{12} 4 \\
+&= 3
+\end{aligned}
+$$
 
 # Random / Unsourced
 ## Proof by Induction
@@ -70,7 +81,7 @@ $$
 11^{n}-6 \text { is divisible by } 5 \text { . }
 $$
 
-**Base Case**: $P(1)=11^1-6=5$ which is divisible by $5$ so $P(1)$ is true.
+**Base Case:** $P(1)=11^1-6=5$ which is divisible by $5$ so $P(1)$ is true.
 **Induction Hypothesis:** Assume that $P(k)$ is correct for some positive integer $k$. That means $11^k − 6$ is divisible by $5$ and hence $11^k − 6 = 5m$ for some integer $m$. So $11^k = 5m + 6$.
 
 **Induction Step:** We want to show that $11^{k+1} - 6$ can be expressed as a multiple of $5$, so we will start with the formula $11^{k+1} - 6$ and we will rearrange it into something involving multiples of $5$. At some point we will also want to use the assumption that $11^k=5m+6$.
