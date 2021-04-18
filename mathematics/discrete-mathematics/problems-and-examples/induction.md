@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T06:38:34.617Z
+date: 2021-04-18T06:45:33.584Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -97,6 +97,7 @@ integers.
 Proof by induction. 
 **Base Case:** $P(1)= 1(2) = 2$
 **Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=2+4+6+8+...+k=k(k+1)$ and $P(k+1)=2+4+6+8+...+(k+1)=(k+1)(k+2)$.
+**Induction Step:** 
 
 
 # Random / Unsourced
