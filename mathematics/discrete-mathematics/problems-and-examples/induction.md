@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T03:40:59.757Z
+date: 2021-04-18T03:44:15.678Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -78,8 +78,8 @@ $$
 $$
 \begin{aligned}
 3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{k} + 5^{k+1} &= \frac{3\left(5^{k+1}-1\right)} 4 + 5^{k+1} \\
-&=
-
+&= ... \\
+&= \frac{3\left(5^{(k+2)}-1\right)} 4
 \end{aligned}
 $$
 # Random / Unsourced
