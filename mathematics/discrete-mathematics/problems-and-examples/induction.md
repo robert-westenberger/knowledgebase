@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:09:11.974Z
+date: 2021-04-18T00:17:15.844Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -102,4 +102,4 @@ So $P(k+1)$ is correct. Hence by mathematical induction $P(n)$ is correct for al
 **Theorem:** For every natural number $n \ge 5$, $2^n \gt n^2$. 
 **Proof:** By mathemtical induction.
 
-**Base case:** 
+**Base case:** When $n=5$ we have $2^n=32 \gt 25 = n^2$
