@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:00:10.831Z
+date: 2021-04-18T00:09:11.974Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -90,11 +90,16 @@ Prove by induction that $2^{n} \gt 2 n$ for every positive integer $n \gt 2$
 
 $$
 \begin{aligned}
-2^{k+1}&=2^1 \times 2^{k}>2 \times 2k \quad \text {by the induction hypothesis} \\
-&=2(k+1)
+2^{k}>2 k & \Longrightarrow 2^{k+1}>2 \times 2 k \\
+& \Longrightarrow 2^{k+1}>2 k+2 k \\
+& \Longrightarrow 2^{k+1}>2 k+2 \\
+& \Longrightarrow 2^{k+1}>2(k+1)
 \end{aligned}
 $$
 So $P(k+1)$ is correct. Hence by mathematical induction $P(n)$ is correct for all positive integers $n \gt 2$.
 
 ## Proof by Induction (Involving Inequality)
 **Theorem:** For every natural number $n \ge 5$, $2^n \gt n^2$. 
+**Proof:** By mathemtical induction.
+
+**Base case:** 
