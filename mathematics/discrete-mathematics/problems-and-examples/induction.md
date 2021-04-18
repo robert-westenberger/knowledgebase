@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T06:27:15.596Z
+date: 2021-04-18T06:38:34.617Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -94,6 +94,11 @@ integers.
 #### Solution
 **a)** $2+4+6+8+...+n=n(n+1)$
 **b)**
+Proof by induction. 
+**Base Case:** $P(1)= 1(2) = 2$
+**Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=2+4+6+8+...+k=k(k+1)$ and $P(k+1)=2+4+6+8+...+(k+1)=(k+1)(k+2)$.
+
+
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
