@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T06:58:58.947Z
+date: 2021-04-18T07:04:08.732Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -109,6 +109,13 @@ $$
 $$
 
 This shows that $P(k+1)$ follows from $P(k)$. 
+### 11 
+**a)** Find a formula for 
+$$
+\frac{1}{2}+\frac{1}{4}+\frac{1}{8}+\cdots+\frac{1}{2^{n}}
+$$
+by examining the values of this expression for small values of $n$.
+**b)** Prove the formula you conjectured in part (a).
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
