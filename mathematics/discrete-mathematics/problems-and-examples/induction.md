@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T01:07:18.059Z
+date: 2021-04-18T01:13:57.739Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -127,7 +127,7 @@ $$
 $$
 \begin{aligned}
 0^{3}+1^{3}+2^{3}+\cdots+k^{3} + (k+1)^3 &=\lbrack \frac{k(k+1)}{2} \rbrack^{2} + (k+1)^3 \\ 
-&=
+&= \lbrack \frac{k(k+1)}{2} \rbrack^{2} + \frac{2(k+1)^3}{2} \\
 \end{aligned}
 $$
 
