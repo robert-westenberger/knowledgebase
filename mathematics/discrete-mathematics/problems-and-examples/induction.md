@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T01:50:41.219Z
+date: 2021-04-18T01:52:17.703Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -135,4 +135,5 @@ $$
 $$
 
 ## Proof by Induction (Involving summation)
-**Theorem:** For all $n \in \natnums$, $0 \cdot 1+1 \cdot 2+2 \cdot 3+\cdots+n(n+1)=n(n+1)(n+2) / 3$.
+**Theorem:** For all $n \in \natnums$, $0 \cdot 1+1 \cdot 2+2 \cdot 3+\cdots+n(n+1)=\frac{n(n+1)(n+2)} 3$.
+**Proof:** 
