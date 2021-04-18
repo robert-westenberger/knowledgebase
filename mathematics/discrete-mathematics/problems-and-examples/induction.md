@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T06:16:58.941Z
+date: 2021-04-18T06:27:15.596Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -92,7 +92,7 @@ $$
 integers.
 **b)** Prove the formula that you conjectured in part **(a)**.
 #### Solution
-**a)** 
+**a)** $2+4+6+8+...+n=n(n+1)$
 **b)**
 # Random / Unsourced
 ## Proof by Induction
