@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T07:04:22.024Z
+date: 2021-04-18T07:06:30.596Z
 tags: discrete-mathematics
 editor: markdown
 ---
