@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T22:32:11.274Z
+date: 2021-04-18T22:37:52.686Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -137,7 +137,20 @@ Let $P(n)$ be the statement that
 $$1+\frac{1}{4}+\frac{1}{9}+\cdots+\frac{1}{n^{2}}<2-\frac{1}{n}$$
 where $n$ is an integer and greater than $1$.
 **a)** What is the statement $P(2)$?
-
+**b)** Show that $P(2)$ is true, completing the basis step of
+the proof.
+**c)** What is the inductive hypothesis?
+**d)** What do you need to prove in the inductive step?
+**e)** Complete the inductive step.
+**f)** Explain why these steps show that this inequality is
+true whenever n is an integer greater than 1.
+#### Solution
+**a)** 
+**b)**
+**c)**
+**d)**
+**e)**
+**f)**
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
