@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T22:57:20.237Z
+date: 2021-04-18T23:01:36.885Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -147,7 +147,7 @@ true whenever n is an integer greater than 1.
 #### Solution
 **a)** $P(2)=1+\frac{1}{4}<2-\frac{1}{2}$
 **b)** $P(2)=\frac{5}{4}<\frac{6}{4}$. This is true because $\frac 5 4$ is less than $\frac 6 4$.
-**c)**
+**c)** Inductive hypothesis is that $P(k) \rarr P(k+1)$ where $P(k)$ is the mathematical statement that $1+\frac{1}{4}+\frac{1}{9}+\cdots+\frac{1}{k^{2}}<2-\frac{1}{k}$ and $P(k+1)$ is for $1+\frac{1}{4}+\frac{1}{9}+\cdots+\frac{1}{(k+1)^{2}}<2-\frac{1}{(k+1)}$ $k \in \natnums$. 
 **d)**
 **e)**
 **f)**
