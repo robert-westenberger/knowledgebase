@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T02:29:17.908Z
+date: 2021-04-18T02:30:51.495Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -147,6 +147,6 @@ $$
 &= \frac{k(k+1)(k+2)} 3 + \frac{3(k+1)(k+2)} 3 \\
 &= \frac{k(k+1)(k+2) + 3(k+1)(k+2)} 3 \\
 &=... \\
-&= 
+&= \frac{(k+1)(k+2)(k+3)} 3
 \end{aligned}
 $$
