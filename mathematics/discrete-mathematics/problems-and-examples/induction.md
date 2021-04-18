@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:37:14.748Z
+date: 2021-04-18T00:43:48.380Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -117,3 +117,7 @@ $$
 & \gt k^{2}+2 k+1=(k+1)^{2}
 \end{aligned}
 $$
+
+
+## Proof by Induction (Involving summation)
+**Theorem:** 
