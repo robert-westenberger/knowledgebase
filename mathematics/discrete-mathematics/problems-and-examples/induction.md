@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T02:08:02.900Z
+date: 2021-04-18T02:09:21.992Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -141,3 +141,7 @@ $$
 **Base Case:** $P(0) = 0(0+1) = \frac{0(0+1)(0+2)} 3 = 0$.
 **Inductive Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=\frac{k(k+1)(k+2)} 3$ and $P(k+1)=\frac{(k+1)((k+1)+1)((k+1)+2)} 3 =\frac{(k+1)(k+2)(k+3)} 3$.
 **Inductive Step:**
+$$
+\begin{aligned}
+\end{aligned}
+$$
