@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T07:26:06.758Z
+date: 2021-04-18T07:28:39.601Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -119,6 +119,8 @@ by examining the values of this expression for small values of $n$.
 
 #### Solution
 **a)** $\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^{n}}=\frac{2^n - 1}{2^n}$.
+**b)** Proof by induction. 
+**Base Case:** $P(1)= \frac {1}{2}=\frac{2^1 - 1}{2^1}=\frac{1}{2}$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
