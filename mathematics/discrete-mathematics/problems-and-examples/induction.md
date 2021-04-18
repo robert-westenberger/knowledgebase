@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:25:51.398Z
+date: 2021-04-18T00:36:09.472Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -109,5 +109,12 @@ So $P(k+1)$ is correct. Hence by mathematical induction $P(n)$ is correct for al
 **Induction Step:**
 $$
 \begin{aligned}
+2^{k+1} &=2 \times 2^k \\ 
+&\gt 2 \times k^2 \\
+&=k^2 + k^2 \\
+&\ge k^2 + 5k \quad \text {(since} \medspace k \ge 5 \text{)} \\
+&=k^{2}+2 k+3 k \\
+& \gt k^{2}+2 k+1=(k+1)^{2}
+
 \end{aligned}
 $$
