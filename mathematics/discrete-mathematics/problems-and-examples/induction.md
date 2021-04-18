@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T02:41:34.958Z
+date: 2021-04-18T02:44:36.312Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -55,7 +55,8 @@ $$
 \end{aligned}
 $$
 **f)** We have completed both the basis step and the inductive step, so by the principle of mathematical induction, the statement is true for every positive integer $n$.
-
+### 7
+#### Solution
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
