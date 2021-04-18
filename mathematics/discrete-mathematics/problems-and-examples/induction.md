@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:57:03.571Z
+date: 2021-04-18T00:58:29.159Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -123,4 +123,4 @@ $$
 **Theorem:** For all $n \in \mathbb{N}, 0^{3}+1^{3}+2^{3}+\cdots+n^{3}=\lbrack n(n+1) / 2\rbrack^{2}$.
 **Base Case:** $P(0) = 0^3 = \left(0 \times \frac{0+1}{2}\right)^{2} = 0$
 **Inductive Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k+1)$ is $0^{3}+1^{3}+2^{3}+\cdots(k+1)^{3}=\lbrack (k+1)((k+1)+1) / 2\rbrack^{2}=\lbrack (k+1)((k+2) / 2\rbrack^{2}$.
-**Inductive Step:**
+**Inductive Step:** $(k+1)^3$
