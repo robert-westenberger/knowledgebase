@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T03:08:31.863Z
+date: 2021-04-18T03:11:10.860Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -71,7 +71,7 @@ P(0) &= \frac{3\left(5^{0+1}-1\right)} 4 \\
 &= 3
 \end{aligned}
 $$
-
+**Inductive Hypothesis:**
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
