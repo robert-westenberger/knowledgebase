@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T01:13:57.739Z
+date: 2021-04-18T01:47:37.834Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -126,10 +126,12 @@ $$
 **Inductive Step:** 
 $$
 \begin{aligned}
-0^{3}+1^{3}+2^{3}+\cdots+k^{3} + (k+1)^3 &=\lbrack \frac{k(k+1)}{2} \rbrack^{2} + (k+1)^3 \\ 
-&= \lbrack \frac{k(k+1)}{2} \rbrack^{2} + \frac{2(k+1)^3}{2} \\
+1^{3}+2^{3}+3^{3}+\cdots+k^{3}+(k+1)^{3} &=\frac{k^{2}(k+1)^{2}}{4}+(k+1)^{3} \\
+&=\frac{k^{2}(k+1)^{2}+4(k+1)^{3}}{4} \\
+&=\frac{(k+1)^{2}\left(k^{2}+4 k+4\right)}{4} \\
+&=\frac{(k+1)^{2}(k+2)^{2}}{4} \\
+1^{3}+2^{3}+3^{3}+\cdots+k^{3}+(k+1)^{3} &=\frac{(k+1)^{2}(k+2)^{2}}{4}
 \end{aligned}
 $$
-
 
 
