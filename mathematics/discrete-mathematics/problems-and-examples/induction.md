@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T03:13:17.062Z
+date: 2021-04-18T03:15:10.055Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -71,7 +71,7 @@ P(0) &= \frac{3\left(5^{0+1}-1\right)} 4 \\
 &= 3
 \end{aligned}
 $$
-**Inductive Hypothesis:** 
+**Induction Hypothesis:** Assume that $P(k)$ is correct for some positive integer $k$. That means $11^k − 6$ is divisible by $5$ and hence $11^k − 6 = 5m$ for some integer $m$. So $11^k = 5m + 6$.
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
