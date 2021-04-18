@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T23:32:15.527Z
+date: 2021-04-18T23:44:46.451Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -160,6 +160,9 @@ $$
 &=2-\frac{1}{k+1}-\frac{1}{k(k+1)^{2}}<2-\frac{1}{k+1}
 \end{aligned}
 $$
+Above.. 
+1) Assume inductive hypothesis. Add $\frac 1 {(k+1)^2}$ to both sides of the inequality.
+2) 
 **f)** We've completed the basis and inductive step, so by the prinicipal of mathematical induction, the statement is true for every positive integer $n \gt 1$.
 # Random / Unsourced
 ## Proof by Induction
