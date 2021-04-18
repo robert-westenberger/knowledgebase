@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T23:18:45.145Z
+date: 2021-04-18T23:32:15.527Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -153,12 +153,14 @@ true whenever n is an integer greater than 1.
 
 $$
 \begin{aligned}
-1+\frac{1}{4}+\cdots+\frac{1}{k^{2}} + \frac 1 {(k+1)^2} & \lt 2-\frac{1}{k} + \frac 1 {(k+1)^2} \\
-&= .. \\
-&= 2-\frac{1}{(k+1)}
+1+\frac{1}{4}+\cdots+\frac{1}{k^{2}}+\frac{1}{(k+1)^{2}} &<2-\frac{1}{k}+\frac{1}{(k+1)^{2}} \\
+&=2-\left(\frac{1}{k}-\frac{1}{(k+1)^{2}}\right) \\
+&=2-\left(\frac{k^{2}+2 k+1-k}{k(k+1)^{2}}\right) \\
+&=2-\frac{k^{2}+k}{k(k+1)^{2}}-\frac{1}{k(k+1)^{2}} \\
+&=2-\frac{1}{k+1}-\frac{1}{k(k+1)^{2}}<2-\frac{1}{k+1}
 \end{aligned}
 $$
-**f)**
+**f)** We've completed the basis and inductive step, so by the prinicipal of mathematical induction, the statement is true for every positive integer $n \gt 1$.
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
