@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:21:21.111Z
+date: 2021-04-18T00:25:51.398Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -107,3 +107,7 @@ So $P(k+1)$ is correct. Hence by mathematical induction $P(n)$ is correct for al
 **Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k+1)$ is $2^{k+1} \gt (k+1)^2$.
 
 **Induction Step:**
+$$
+\begin{aligned}
+\end{aligned}
+$$
