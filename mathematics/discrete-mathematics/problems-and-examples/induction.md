@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T02:09:21.992Z
+date: 2021-04-18T02:10:54.270Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -143,5 +143,6 @@ $$
 **Inductive Step:**
 $$
 \begin{aligned}
+
 \end{aligned}
 $$
