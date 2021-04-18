@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T07:37:02.947Z
+date: 2021-04-18T08:10:53.729Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -127,7 +127,7 @@ by examining the values of this expression for small values of $n$.
 $$
 \begin{aligned}
 \frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^{k}} + \frac{1}{2^{(k+1)}} &=\frac{2^k - 1}{2^k} +  \frac{1}{2^{(k+1)}} \\
-&=\\
+&=\frac{2 \cdot 2^{k}-2 \cdot 1+1}{2^{k+1}}\\
 &= \frac{2^{(k+1)} - 1}{2^{(k+1)}}
 \end{aligned}
 $$
