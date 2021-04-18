@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T22:37:52.686Z
+date: 2021-04-18T22:40:25.121Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -145,7 +145,7 @@ the proof.
 **f)** Explain why these steps show that this inequality is
 true whenever n is an integer greater than 1.
 #### Solution
-**a)** 
+**a)** $P(2)=\frac1{n^2} \lt 2 - \frac 1 n$
 **b)**
 **c)**
 **d)**
