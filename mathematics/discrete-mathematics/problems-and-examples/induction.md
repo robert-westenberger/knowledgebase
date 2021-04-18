@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T01:00:32.023Z
+date: 2021-04-18T01:02:09.618Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -124,5 +124,10 @@ $$
 **Base Case:** $P(0) = 0^3 = \left(0 \times \frac{0+1}{2}\right)^{2} = 0$
 **Inductive Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=0^{3}+1^{3}+2^{3}+\cdots+k^{3}=\lbrack k(k+1) / 2\rbrack^{2}$ and $P(k+1)$ = $0^{3}+1^{3}+2^{3}+\cdots(k+1)^{3}=\lbrack (k+1)((k+1)+1) / 2\rbrack^{2}=\lbrack (k+1)((k+2) / 2\rbrack^{2}$.
 **Inductive Step:** 
+$$
+\begin{aligned}
+\end{aligned}
+$$
+
 
 
