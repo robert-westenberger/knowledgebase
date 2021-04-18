@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T06:15:18.971Z
+date: 2021-04-18T06:16:58.941Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -92,6 +92,8 @@ $$
 integers.
 **b)** Prove the formula that you conjectured in part **(a)**.
 #### Solution
+**a)** 
+**b)**
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
