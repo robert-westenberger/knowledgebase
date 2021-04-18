@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T08:10:53.729Z
+date: 2021-04-18T22:32:11.274Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -131,6 +131,13 @@ $$
 &= \frac{2^{(k+1)} - 1}{2^{(k+1)}}
 \end{aligned}
 $$
+
+### 19
+Let $P(n)$ be the statement that 
+$$1+\frac{1}{4}+\frac{1}{9}+\cdots+\frac{1}{n^{2}}<2-\frac{1}{n}$$
+where $n$ is an integer and greater than $1$.
+**a)** What is the statement $P(2)$?
+
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
