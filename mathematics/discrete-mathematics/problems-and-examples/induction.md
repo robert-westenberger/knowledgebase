@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T02:28:49.362Z
+date: 2021-04-18T02:29:17.908Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -146,5 +146,7 @@ $$
 0 \cdot 1+1 \cdot 2+2 \cdot 3+\cdots+k(k+1) + (k+1)(k+2)&=\frac{k(k+1)(k+2)} 3 + (k+1)(k+2)\\
 &= \frac{k(k+1)(k+2)} 3 + \frac{3(k+1)(k+2)} 3 \\
 &= \frac{k(k+1)(k+2) + 3(k+1)(k+2)} 3 \\
+&=... \\
+&= 
 \end{aligned}
 $$
