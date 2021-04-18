@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T04:32:33.403Z
+date: 2021-04-18T04:38:16.901Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -77,11 +77,11 @@ $$
 **Induction Case:**
 $$
 \begin{aligned}
-3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{k} + 5^{k+1} &= \frac{3\left(5^{k+1}-1\right)} 4 + 3 \cdot 5^{k+1} \\
-&=5^{k+1}\left(\frac{3}{4}+3\right)-\frac{3}{4} \\
-&= 5^{k+1} \cdot \frac{15}{4}-\frac{3}{4} \\
-&= \frac{3\left(5^{(k+2)}-1\right)} 4 \\
-&= 5^{k+2} \cdot \frac{3}{4}-\frac{3}{4} \\
+3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{k} + 5^{k+1} &= \frac{3\left(5^{k+1}-1\right)} 4 + 3 \cdot 5^{k+1} \\[1em]
+&=5^{k+1}\left(\frac{3}{4}+3\right)-\frac{3}{4} \\[1em]
+&= 5^{k+1} \cdot \frac{15}{4}-\frac{3}{4} \\[1em]
+&= \frac{3\left(5^{(k+2)}-1\right)} 4 \\[1em]
+&= 5^{k+2} \cdot \frac{3}{4}-\frac{3}{4} \\[1em]
 &=\frac{3\left(5^{k+2}-1\right)}{4}
 \end{aligned}
 $$
