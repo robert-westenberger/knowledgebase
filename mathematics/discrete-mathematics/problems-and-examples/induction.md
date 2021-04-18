@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-17T23:45:43.250Z
+date: 2021-04-18T00:00:10.831Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -95,3 +95,6 @@ $$
 \end{aligned}
 $$
 So $P(k+1)$ is correct. Hence by mathematical induction $P(n)$ is correct for all positive integers $n \gt 2$.
+
+## Proof by Induction (Involving Inequality)
+**Theorem:** For every natural number $n \ge 5$, $2^n \gt n^2$. 
