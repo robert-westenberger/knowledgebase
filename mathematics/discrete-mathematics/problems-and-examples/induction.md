@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:36:09.472Z
+date: 2021-04-18T00:37:14.748Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -115,6 +115,5 @@ $$
 &\ge k^2 + 5k \quad \text {(since} \medspace k \ge 5 \text{)} \\
 &=k^{2}+2 k+3 k \\
 & \gt k^{2}+2 k+1=(k+1)^{2}
-
 \end{aligned}
 $$
