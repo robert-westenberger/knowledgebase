@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T03:23:48.939Z
+date: 2021-04-18T03:31:59.223Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -72,11 +72,12 @@ P(0) &= \frac{3\left(5^{0+1}-1\right)} 4 \\
 \end{aligned}
 $$
 
-**Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{n}= \frac{3\left(5^{n+1}-1\right)} 4$ and $P(k+1)=3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{(k+1)}= \frac{3\left(5^{(k+2)}-1\right)} 4$.
+**Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{k}= \frac{3\left(5^{k+1}-1\right)} 4$ and $P(k+1)=3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{(k+1)}= \frac{3\left(5^{(k+2)}-1\right)} 4$.
 
 **Induction Case:**
 $$
 \begin{aligned}
+
 \end{aligned}
 $$
 # Random / Unsourced
