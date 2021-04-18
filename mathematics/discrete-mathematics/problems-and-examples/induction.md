@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T23:06:02.894Z
+date: 2021-04-18T23:07:39.963Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -153,6 +153,7 @@ true whenever n is an integer greater than 1.
 
 $$
 \begin{aligned}
+1+\frac{1}{4}+\cdots+\frac{1}{k^{2}} + \frac 1 {(k+1)^2} \lt 2-\frac{1}{k} 
 \end{aligned}
 $$
 **f)**
