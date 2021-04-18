@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T03:01:01.895Z
+date: 2021-04-18T03:01:58.144Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -59,6 +59,7 @@ $$
 Prove that $3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{n}=3\left(5^{n+1}-1\right) / 4$ whenever $n$ is a nonnegative integer.
 #### Solution
 **Theorem:** For all $n \in \natnums$, $3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{n}= \frac{3\left(5^{n+1}-1\right)} 4$.
+**Proof:**
 
 # Random / Unsourced
 ## Proof by Induction
