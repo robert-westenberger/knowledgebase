@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T02:44:36.312Z
+date: 2021-04-18T02:45:15.721Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -56,6 +56,7 @@ $$
 $$
 **f)** We have completed both the basis step and the inductive step, so by the principle of mathematical induction, the statement is true for every positive integer $n$.
 ### 7
+Prove that $3+3 \cdot 5+3 \cdot 5^{2}+\cdots+3 \cdot 5^{n}=3\left(5^{n+1}-1\right) / 4$ whenever $n$ is a nonnegative integer.
 #### Solution
 # Random / Unsourced
 ## Proof by Induction
