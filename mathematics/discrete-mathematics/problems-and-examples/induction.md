@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T00:43:48.380Z
+date: 2021-04-18T00:45:52.347Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -120,4 +120,4 @@ $$
 
 
 ## Proof by Induction (Involving summation)
-**Theorem:** 
+**Theorem:** For all $n \in \mathbb{N}, 0^{3}+1^{3}+2^{3}+\cdots+n^{3}=\lbrack n(n+1) / 2\rbrack^{2}$.
