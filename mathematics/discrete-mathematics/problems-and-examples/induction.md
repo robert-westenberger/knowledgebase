@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T22:54:49.681Z
+date: 2021-04-18T22:56:33.816Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -145,8 +145,8 @@ the proof.
 **f)** Explain why these steps show that this inequality is
 true whenever n is an integer greater than 1.
 #### Solution
-**a)** $P(2)=\frac{5}{4}<\frac{6}{4}$
-**b)**
+**a)** $P(2)=1+\frac{1}{4}<2-\frac{1}{2}$
+**b)** $P(2)=\frac{5}{4}<\frac{6}{4}$
 **c)**
 **d)**
 **e)**
