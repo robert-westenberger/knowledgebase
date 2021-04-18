@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T07:29:37.068Z
+date: 2021-04-18T07:31:59.851Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -121,7 +121,7 @@ by examining the values of this expression for small values of $n$.
 **a)** $\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^{n}}=\frac{2^n - 1}{2^n}$.
 **b)** Proof by induction. 
 **Base Case:** $P(1)= \frac {1}{2}=\frac{2^1 - 1}{2^1}=\frac{1}{2}$.
-**Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=2+4+6+8+...+k=k(k+1)$ and $P(k+1)=2+4+6+8+...+(k+1)=(k+1)(k+2)$.
+**Induction Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^{k}}=\frac{2^k - 1}{2^k}$ and $P(k+1)=\frac{1}{2}+\frac{1}{4}+\cdots+\frac{1}{2^{(k+1)}}=\frac{2^{(k+1)} - 1}{2^{(k+1)}}$.
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
