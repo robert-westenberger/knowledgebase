@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T04:38:16.901Z
+date: 2021-04-18T06:15:18.971Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -85,6 +85,13 @@ $$
 &=\frac{3\left(5^{k+2}-1\right)}{4}
 \end{aligned}
 $$
+
+
+### 9
+**a)** Find a formula for the sum of the first $n$ even positive
+integers.
+**b)** Prove the formula that you conjectured in part **(a)**.
+#### Solution
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
