@@ -2,7 +2,7 @@
 title: Accessible Tables
 description: 
 published: true
-date: 2021-04-19T23:24:35.658Z
+date: 2021-04-19T23:35:22.671Z
 tags: accessibility, html
 editor: markdown
 ---
@@ -14,6 +14,8 @@ editor: markdown
 **Data tables** are the original intended use of table markup on the web. 
 
 A table is a data table when row headers, column headers, or both are present.
+
+Below is a simple example of a data table. 
 $$
 \begin{aligned}
 &\text { Shelly's Daughters }\\
