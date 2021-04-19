@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T01:59:42.985Z
+date: 2021-04-19T02:09:31.749Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -165,7 +165,7 @@ Above..
 1) Assume inductive hypothesis. Add $\frac 1 {(k+1)^2}$ to both sides of the inequality.
 2) Partial fraction decomposition of $-\frac{1}{k}+\frac{1}{(k+1)^2}$ from line 1.
 3) Combine $\frac{k+1}{k}-\frac{1}{k+1}$.
-4) 
+4) We note $k^{2}+k+1>k^{2}+k$ (it's greater than $1$).
 **f)** We've completed the basis and inductive step, so by the prinicipal of mathematical induction, the statement is true for every positive integer $n \gt 1$.
 
 ### 21 
