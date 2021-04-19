@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T18:16:56.367Z
+date: 2021-04-19T18:22:29.572Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -199,7 +199,13 @@ Prove that if $h>-1$, then $1+n h \leq(1+h)^{n}$ for all nonnegative integers $n
 **Inductive Hypothesis:** $P(k)=1+k h \leq(1+h)^{k}$.
 **Inductive Step:** We aim to prove $P(k) \rarr P(k+1)$. $P(k+1)$ is the statement $1+(k+1) h \leq(1+h)^{k+1}$.
 Since $h \gt -1$ it follows that $1+h \gt 0$, so we can multiply both sides of the inductive hypothesis by $1+h$ to obtain $(1+h)(1+k h) \leq(1+h)^{k+1}$. To complete the proof it is enough to show that $1+(k+1) h \leq(1+h)(1+k h)$. The right-hand side of this inequality is the same as $1+h+k h+k h^{2}=1+(k+1) h+k h^{2}$, which is greater than or equal to $1+(k+1) h$ because $kh^2 \ge 0$.
-
+### 27
+Prove that for every positive integer $n$
+$$
+1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\cdots+\frac{1}{\sqrt{n}}>2(\sqrt{n+1}-1)
+$$
+#### Solution
+**Base Case:** $P(1)=1 \gt 2(\sqrt{2}-1) \approx .8284...$.
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
