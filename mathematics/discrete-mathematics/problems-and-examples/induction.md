@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T18:09:50.221Z
+date: 2021-04-19T18:11:56.512Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -196,8 +196,8 @@ Prove that if $h>-1$, then $1+n h \leq(1+h)^{n}$ for all nonnegative integers $n
 #### Solution
 **Theorem:** $1+n h \leq(1+h)^{n}$ for all nonnegative integers $h$ and $n$.
 **Base Case:** $P(0)=1+0(0)\leq(1+0)^{0} =1 \le 1$.
-**Inductive Hypothesis:** $P(k)=1+k(h) \leq1^{k}$.
-**Inductive Step:** We aim to prove $P(k) \rarr P(k+1)$. $P(k+1)$ is the statement $1+(k+1)(h) \leq 1^{(k+1)}$.
+**Inductive Hypothesis:** $P(k)=1 \leq1^{k}$.
+**Inductive Step:** We aim to prove $P(k) \rarr P(k+1)$. $P(k+1)$ is the statement $1 \leq1^{k+1}$.
 
 
 # Random / Unsourced
