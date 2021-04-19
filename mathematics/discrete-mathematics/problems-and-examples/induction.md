@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T02:51:10.200Z
+date: 2021-04-19T03:00:40.081Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -184,7 +184,10 @@ Working from the righthand side we have $(k+1)^{2}=k^{2}+2 k+1<k^{2}+2 k+k=k^{2}
 ### 23
 For which nonnegative integers $n$ is $2n+3 \le 2^n$? Prove your answer.
 #### Solution
-$P(n) = 2 n+3 \leq 2^{n}$ $P(n)$ is true for $n \in \natnums$ and $n \gt 3$.
+$P(n) = 2 n+3 \leq 2^{n}$ $P(n)$ is true for $n \in \natnums$ and $n \gt 3$. 
+
+**Base Case:** $P(4)=11 \le 16$
+**Inductive Case: 
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
