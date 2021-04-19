@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T00:22:20.613Z
+date: 2021-04-19T00:33:44.450Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -177,7 +177,7 @@ Or inductive hypothesis is $P(k)$ which is the mathematical statement that $2^k 
 
 $$
 \begin{aligned}
-
+2^k \gt k^2
 \end{aligned}
 $$
 # Random / Unsourced
