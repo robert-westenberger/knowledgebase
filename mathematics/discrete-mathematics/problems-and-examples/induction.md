@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T18:24:43.463Z
+date: 2021-04-19T18:26:58.575Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -206,7 +206,7 @@ $$
 $$
 #### Solution
 **Base Case:** $P(1)=1 \gt 2(\sqrt{2}-1) \approx .8284...$.
-**Inductive Hypothesis:**
+**Inductive Hypothesis:** $P(k)=1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\cdots+\frac{1}{\sqrt{k}}>2(\sqrt{k+1}-1)$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
