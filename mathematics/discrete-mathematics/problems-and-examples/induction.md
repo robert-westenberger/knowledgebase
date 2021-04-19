@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T03:15:22.726Z
+date: 2021-04-19T03:25:45.436Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -190,6 +190,7 @@ $P(n) = 2 n+3 \leq 2^{n}$ $P(n)$ is true for $n \in \natnums$ and $n \gt 3$.
 **Inductive Hypothesis:** $P(k) = 2 k+3 \leq 2^{k}$
 **Inductive Step:** We aim to prove that $2 k+3 \leq 2^{k} \rarr 2 (k+1)+3 \leq 2^{(k+1)}$.
 
+Consider $2(k+1)+3 = 2k+2+3=2k+5$. By the inductive hypothesis this is less than $2^n + 2$.
 
 # Random / Unsourced
 ## Proof by Induction
