@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T00:10:45.106Z
+date: 2021-04-19T00:18:30.163Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -170,6 +170,8 @@ Prove that $2^n \gt n^2$ if $n \in \Z$ and $n \gt 4$.
 #### Solution
 Proof by induction.
 **Base Case:** $P(5) =2^5 \gt 5^2 = 32 \gt 25$
+
+Or inductive hypothesis is $P(k)$ which is the mathematical statement that $2^k \gt k^2$.
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
