@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T20:00:41.365Z
+date: 2021-04-19T20:04:57.109Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -208,7 +208,17 @@ $$
 **Base Case:** $P(1)=1 \gt 2(\sqrt{2}-1) \approx .8284...$.
 **Inductive Hypothesis:** $P(k)=1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\cdots+\frac{1}{\sqrt{k}}>2(\sqrt{k+1}-1)$
 **Inductive Step:** We aim to prove $P(k) \rarr P(k+1)$. $P(k+1)$ is the statement $1+\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{3}}+\cdots+\frac{1}{\sqrt{k+1}}>2(\sqrt{k+2}-1)$.
+By the inductive hypothesis we know that 
 
+$$
+1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{n}}+\frac{1}{\sqrt{n+1}}>2(\sqrt{n+1}-1)+\frac{1}{\sqrt{n+1}}
+$$
+we will prove the theorem if we can show that 
+
+$$
+2(\sqrt{n+1}-1)+\frac{1}{\sqrt{n+1}}>2(\sqrt{n+2}-1)
+$$
+holds....
 $$
 \begin{aligned}
 & 2(\sqrt{n+1}-1)+\frac{1}{\sqrt{n+1}}\gt2(\sqrt{n+2}-1) \\[1em]
