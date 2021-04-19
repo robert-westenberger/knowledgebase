@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T19:09:25.103Z
+date: 2021-04-19T19:39:58.811Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -211,11 +211,24 @@ $$
 
 $$
 \begin{aligned}
-1+\frac{1}{\sqrt{2}}+\cdots+\frac{1}{\sqrt{k}}+\frac{1}{\sqrt{k+1}}&\gt2(\sqrt{k+1}-1)+\frac{1}{\sqrt{k+1}} \\
-&= \\ 
-&=
+& 2(\sqrt{n+1}-1)+\frac{1}{\sqrt{n+1}}\gt2(\sqrt{n+2}-1) \\[1em]
+& 2\sqrt{n+1}-2+\frac{1}{\sqrt{n+1}}\gt2\sqrt{n+2}-2 \\[1em]
+& 2\sqrt{n+1}+\frac{1}{\sqrt{n+1}}\gt2\sqrt{n+2} \\[1em]
+& 2\sqrt{n+1} - 2\sqrt{n+2} + \frac{1}{\sqrt{n+1}} \gt 0 \\[1em]
+& 2\sqrt{n+1} - 2\sqrt{n+2}  \gt -\frac{1}{\sqrt{n+1}} \\[1em]
+& - 2\sqrt{n+2} + 2\sqrt{n+1}   \gt -\frac{1}{\sqrt{n+1}} \\[1em]
+& 2\sqrt{n+2} - 2\sqrt{n+1}   \lt \frac{1}{\sqrt{n+1}} \\[1em]
+& 2(\sqrt{n+2} - \sqrt{n+1})   \lt \frac{1}{\sqrt{n+1}} \\[1em]
 \end{aligned}
 $$
+1) Need to show this inequality holds
+2) Distribute the $2$
+3) Add $2$ to both sides to cancel out the $-2$
+4) Subtract $2\sqrt{n+2}$ from both sides
+5) Subtract $\frac{1}{\sqrt{n+1}}$ from both sides
+6) Rearrange
+7) Multiply both sides by $-1$
+8) Take out common factor of $2$ on LHS
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
