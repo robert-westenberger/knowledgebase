@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T19:39:58.811Z
+date: 2021-04-19T20:00:41.365Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -219,6 +219,8 @@ $$
 & - 2\sqrt{n+2} + 2\sqrt{n+1}   \gt -\frac{1}{\sqrt{n+1}} \\[1em]
 & 2\sqrt{n+2} - 2\sqrt{n+1}   \lt \frac{1}{\sqrt{n+1}} \\[1em]
 & 2(\sqrt{n+2} - \sqrt{n+1})   \lt \frac{1}{\sqrt{n+1}} \\[1em]
+& 2(\sqrt{n+2}-\sqrt{n+1})(\sqrt{n+2}+\sqrt{n+1})<\frac{\sqrt{n+1}}{\sqrt{n+1}}+\frac{\sqrt{n+2}}{\sqrt{n+1}} \\[1em]
+& 2<1+\frac{\sqrt{n+2}}{\sqrt{n+1}} \\[1em]
 \end{aligned}
 $$
 1) Need to show this inequality holds
@@ -229,6 +231,10 @@ $$
 6) Rearrange
 7) Multiply both sides by $-1$
 8) Take out common factor of $2$ on LHS
+9) Multiply both sides by $(\sqrt{n+2}+\sqrt{n+1})$
+10) $(\sqrt{n+2}-\sqrt{n+1})(\sqrt{n+2}+\sqrt{n+1})$ and $\frac{\sqrt{n+1}}{\sqrt{n+1}}$ are both equal to $1$
+
+The last inequality we get is true, therefore the original inequality is true. 
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
