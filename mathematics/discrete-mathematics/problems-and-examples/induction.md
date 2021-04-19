@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T00:21:11.688Z
+date: 2021-04-19T00:22:20.613Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -174,6 +174,12 @@ Proof by induction.
 Or inductive hypothesis is $P(k)$ which is the mathematical statement that $2^k \gt k^2$.
 
 **Inductive Step:** We seek to prove that $P(k) \rarr P(k+1)$ where $P(k+1)$ is the mathematical statement $2^{(k+1)} \gt (k+1)^2$. 
+
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
