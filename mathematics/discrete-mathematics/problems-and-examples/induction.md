@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T02:13:07.692Z
+date: 2021-04-19T02:16:52.364Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -166,6 +166,7 @@ Above..
 2) Partial fraction decomposition of $-\frac{1}{k}+\frac{1}{(k+1)^2}$ from line 1.
 3) Combine $\frac{k+1}{k}-\frac{1}{k+1}$.
 4) We note $k^{2}+k+1>k^{2}+k$ (it's greater than $1$). Since $\frac1{k+1}$ is being multiplied by something greater than $1$, this means that what is being subtracted from $2$ in the simplify step is larger than what is being subtracted from 2 in the final step, so the inequality holds.  
+
 **f)** We've completed the basis and inductive step, so by the prinicipal of mathematical induction, the statement is true for every positive integer $n \gt 1$.
 
 ### 21 
