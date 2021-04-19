@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-18T23:44:46.451Z
+date: 2021-04-19T00:10:45.106Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -164,6 +164,12 @@ Above..
 1) Assume inductive hypothesis. Add $\frac 1 {(k+1)^2}$ to both sides of the inequality.
 2) 
 **f)** We've completed the basis and inductive step, so by the prinicipal of mathematical induction, the statement is true for every positive integer $n \gt 1$.
+
+### 21 
+Prove that $2^n \gt n^2$ if $n \in \Z$ and $n \gt 4$.
+#### Solution
+Proof by induction.
+**Base Case:** $P(5) =2^5 \gt 5^2 = 32 \gt 25$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
