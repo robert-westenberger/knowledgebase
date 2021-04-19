@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T00:55:46.858Z
+date: 2021-04-19T01:19:59.988Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -177,6 +177,8 @@ Or inductive hypothesis is $P(k)$ which is the mathematical statement that $2^k 
 
 Working from the righthand side we have $(k+1)^{2}=k^{2}+2 k+1<k^{2}+2 k+k=k^{2}+3 k<k^{2}+k^{2}$. (Since $k \gt 3$). Thus we have $(k+1)^{2}<2 k^{2}<2 \cdot 2^{k} = 2^{k+1}$.
 
+### 23
+For which nonnegative integers $n$ is $2n+3 \le 2^n$? Prove your answer.
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
