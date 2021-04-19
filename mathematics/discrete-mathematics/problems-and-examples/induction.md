@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T00:53:32.463Z
+date: 2021-04-19T00:55:46.858Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -175,14 +175,8 @@ Or inductive hypothesis is $P(k)$ which is the mathematical statement that $2^k 
 
 **Inductive Step:** We seek to prove that $P(k) \rarr P(k+1)$ where $P(k+1)$ is the mathematical statement $2^{(k+1)} \gt (k+1)^2$. 
 
-$(k+1)^{2}=k^{2}+2 k+1<k^{2}+2 k+k=k^{2}+3 k<k^{2}+k^{2}$.
+Working from the righthand side we have $(k+1)^{2}=k^{2}+2 k+1<k^{2}+2 k+k=k^{2}+3 k<k^{2}+k^{2}$. (Since $k \gt 3$). Thus we have $(k+1)^{2}<2 k^{2}<2 \cdot 2^{k} = 2^{k+1}$.
 
-$(k+1)^{2}<2 k^{2}<2 \cdot 2^{k}$.
-$$
-\begin{aligned}
-2^k \gt k^2
-\end{aligned}
-$$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
