@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T00:18:30.163Z
+date: 2021-04-19T00:21:11.688Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -172,6 +172,8 @@ Proof by induction.
 **Base Case:** $P(5) =2^5 \gt 5^2 = 32 \gt 25$
 
 Or inductive hypothesis is $P(k)$ which is the mathematical statement that $2^k \gt k^2$.
+
+**Inductive Step:** We seek to prove that $P(k) \rarr P(k+1)$ where $P(k+1)$ is the mathematical statement $2^{(k+1)} \gt (k+1)^2$. 
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
