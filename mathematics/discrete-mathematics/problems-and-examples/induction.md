@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T01:54:20.530Z
+date: 2021-04-19T01:59:42.985Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -152,19 +152,20 @@ true whenever n is an integer greater than 1.
 **e)** Starting with the lefthand side of $P(k+1)$
 
 $$
-\begin{alignedat}
+\begin{aligned} 
 1+\frac{1}{4}+\cdots+\frac{1}{k^2}+\frac{1}{(k+1)^2}
 &\leq 2-\frac{1}{k}+\frac{1}{(k+1)^2}\quad\text{(by $P(k)$)} \\[1em]
 &= 2-\frac{1}{k+1}\left(\frac{k+1}{k}-\frac{1}{k+1}\right) \\[1em]
 &= 2-\frac{1}{k+1}\left(\frac{k^2+k+1}{k(k+1)}\right) \quad \text {(simplify)} \\[1em]
 &< 2-\frac{1}{k+1} 
-\end{alignedat}
+\end{aligned}
 $$
 
 Above.. 
 1) Assume inductive hypothesis. Add $\frac 1 {(k+1)^2}$ to both sides of the inequality.
 2) Partial fraction decomposition of $-\frac{1}{k}+\frac{1}{(k+1)^2}$ from line 1.
-3) Combine $\frac{k+1}{k}-\frac{1}{k+1}$
+3) Combine $\frac{k+1}{k}-\frac{1}{k+1}$.
+4) 
 **f)** We've completed the basis and inductive step, so by the prinicipal of mathematical induction, the statement is true for every positive integer $n \gt 1$.
 
 ### 21 
