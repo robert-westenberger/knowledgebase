@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T03:00:40.081Z
+date: 2021-04-19T03:15:22.726Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -187,7 +187,10 @@ For which nonnegative integers $n$ is $2n+3 \le 2^n$? Prove your answer.
 $P(n) = 2 n+3 \leq 2^{n}$ $P(n)$ is true for $n \in \natnums$ and $n \gt 3$. 
 
 **Base Case:** $P(4)=11 \le 16$
-**Inductive Case: 
+**Inductive Hypothesis:** $P(k) = 2 k+3 \leq 2^{k}$
+**Inductive Step:** We aim to prove that $2 k+3 \leq 2^{k} \rarr 2 (k+1)+3 \leq 2^{(k+1)}$.
+
+
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
