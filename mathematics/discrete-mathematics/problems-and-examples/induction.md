@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-20T17:33:44.476Z
+date: 2021-04-20T19:31:15.473Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -253,6 +253,24 @@ Prove that $2$ divides $n^2 + n$ whenever $n$ is a positive integer.
 **Inductive Step:** We aim to prove $P(k) \rarr P(k+1)$ where $P(k+1)=(k+1)^2 + (k+1)$ divides $2$ is true.
 
 We observe that $k(k+1)$ is divisible by $2$ by the inductive hypothesis. We must show that $(k+1)^2 + (k+1)$ is divisible by 2 $2$. We see that $(k+1)^{2}+(k+1)=k^{2}+2 k+1+k+1=\left(k^{2}+k\right)+2(k+1)$. $k^2 + k$ is divisibly by $2$ by the inductive hypothesis, and $2(k+1)$ is divisible by $2$ by definition, so the sum of two multiples of $2$ must be divisible by $2$.
+
+
+# MIT 6.042J/18.062J Fall 2005 Problem Set 2
+## 1
+Use induction to prove that the following inequality holds for all integers $n \ge 1$.
+$$
+\frac{1 \cdot 3 \cdot 5 \cdots(2 n+1)}{2 \cdot 4 \cdot 6 \cdots(2 n+2)} \geq \frac{1}{2 n+2}
+$$
+### Solution
+
+**Base Case:** $P(1)=\frac{2(1)+1}{2(1)+2} \ge \frac1{2(1)+2}$.
+
+$$
+\begin{aligned}
+P(1)=\frac{2(1)+1}{2(1)+2} &\ge \frac1{2(1)+2} \\[1em]
+P(1)=\frac{3}{4} &\ge \frac1{4} \\[1em]
+\end{aligned}
+$$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
