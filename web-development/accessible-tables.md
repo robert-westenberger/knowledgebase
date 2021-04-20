@@ -2,7 +2,7 @@
 title: Accessible Tables
 description: 
 published: true
-date: 2021-04-20T02:30:06.011Z
+date: 2021-04-20T02:33:59.382Z
 tags: accessibility, html
 editor: markdown
 ---
@@ -29,7 +29,12 @@ $$
 $$
 
 ### Treatment By Screen Readers
-It's important to use proper markup so a programmatic association can be made between table headers and cells. 
+It's important to use proper markup so a programmatic association can be made between table headers and cells. HTML provides two ways of accomplishing this:
+* Headers and id attributes
+* scope attributes
+
+
+
 ## Layout Tables
 Don't have logical headers that can be mapped to information within the table cells.
 
