@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-19T20:04:57.109Z
+date: 2021-04-20T16:54:13.025Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -245,6 +245,10 @@ $$
 10) $(\sqrt{n+2}-\sqrt{n+1})(\sqrt{n+2}+\sqrt{n+1})$ and $\frac{\sqrt{n+1}}{\sqrt{n+1}}$ are both equal to $1$
 
 The last inequality we get is true, therefore the original inequality is true. 
+### 31 Prove divisibility facts
+Prove that $2$ divides $n^2 + n$ whenever $n$ is a positive integer.
+#### Solution
+**Base Case:** $P(1)=1^2+1=2 | 2 = 0$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
