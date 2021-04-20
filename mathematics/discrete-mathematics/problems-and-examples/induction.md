@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-20T19:31:15.473Z
+date: 2021-04-20T19:35:03.104Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -270,6 +270,21 @@ $$
 P(1)=\frac{2(1)+1}{2(1)+2} &\ge \frac1{2(1)+2} \\[1em]
 P(1)=\frac{3}{4} &\ge \frac1{4} \\[1em]
 \end{aligned}
+$$
+
+**Inductive Hypothesis:** 
+$$
+\frac{1 \cdot 3 \cdot 5 \cdots(2 k+1)}{2 \cdot 4 \cdot 6 \cdots(2 k+2)} \geq \frac{1}{2 k+2}
+$$
+**Inductive Step:** In the inductive step we aim to prove $P(k) \rarr P(k+1)$ assuming $P(k)$ is true. The statement $P(k+1)$ is 
+
+$$
+\frac{1 \cdot 3 \cdot 5 \cdots(2 (k+1)+1)}{2 \cdot 4 \cdot 6 \cdots(2 (k+1)+2)} \geq \frac{1}{2 (k+1)+2}
+$$
+
+or 
+$$
+\frac{1 \cdot 3 \cdot 5 \cdots(2k+3)}{2 \cdot 4 \cdot 6 \cdots(2k+4)} \geq \frac{1}{2k+4}
 $$
 # Random / Unsourced
 ## Proof by Induction
