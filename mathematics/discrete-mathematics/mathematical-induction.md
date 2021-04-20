@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-18T00:24:48.443Z
+date: 2021-04-20T18:05:55.928Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -141,3 +141,20 @@ Therefore, because we have completed both the basis step and the inductive step,
 ### Proving Divisibility Results
 ### Proving Results About Sets
 ### Proving Results About Algorithms
+
+### Courtyard Tiling
+
+Picture a $2^n \times 2^n$ grid. 
+![2n_x_2n_grid.png](/2n_x_2n_grid.png)
+
+One of the central squares in the grid will be occupied by a statue(Let's call it Bob's statue, or **B**). In the special case $n=0$, the whole courtyard consists of a single central square; otherwise there are four central squares.
+
+A complication is that the architect of this grid courtyard insists on only special L-shaped tiles are to be used. 
+
+![l_tiles.png](/l_tiles.png)
+
+A courtyard meeting these constrains exists, at least for $n=2$. 
+
+![grid.png](/grid.png)
+
+For larger values of $n$, is there a way to tile a $2^n \times 2^n$ courtyard with L-shaped tiles and a statue in the center? Let's try to prove that this is so. 
