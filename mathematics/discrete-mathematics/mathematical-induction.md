@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:27:52.873Z
+date: 2021-04-20T18:29:45.819Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -176,3 +176,7 @@ In other words, to prove $P(n)$ is true for all positive integers $n$, where $P(
 1) **Basis Step**: We verify that the proposition $P(1)$ is true.
 
 2) **Inductive Step:** We show that the conditional statement $[P(1) \wedge P(2) \wedge \cdots \wedge P(k)] \rightarrow P(k+1)$ is true for all positive integers $k$.
+
+## Examples
+
+### Products of Primes
