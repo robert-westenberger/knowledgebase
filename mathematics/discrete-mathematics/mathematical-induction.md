@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:13:44.535Z
+date: 2021-04-20T18:16:47.965Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -166,3 +166,6 @@ For larger values of $n$, is there a way to tile a $2^n \times 2^n$ courtyard wi
 ![grid_placement_example.png](/grid_placement_example.png)
 
 Now we can tile each of the four quadrants by the induction assumption. Replacing the three temporary Bobs with a single L-shaped tile completes the job. This proves that $P(n) \rarr P(n+1)$ for all $n \ge 0$. The theorem follows as a special case. $\blacksquare$
+
+
+# Strong Induction
