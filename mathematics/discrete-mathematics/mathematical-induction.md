@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:12:34.415Z
+date: 2021-04-20T18:13:44.535Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -164,3 +164,5 @@ For larger values of $n$, is there a way to tile a $2^n \times 2^n$ courtyard wi
 **Base Case:**$P(0)$ is true because Bob fits the whole courtyard.
 **Inductive Step:** Assume that $P(n)$ is true for some $n \ge 0$; that is, for every location of Bob in a $2^n \times 2^n$ courtyard, there exists a tiling of the remainder. Divide the $2^{n+1} \times 2^{n+1}$ courtyard into four quadrants, each $2^n \times 2^n$. One quadrant contains Bob (**B** in the diagram). Place a temporary Bob (**X** in the diagram) in each of the three central squares lying outside this quadrant:
 ![grid_placement_example.png](/grid_placement_example.png)
+
+Now we can tile each of the four quadrants by the induction assumption. Replacing the three temporary Bobs with a single L-shaped tile completes the job. This proves that $P(n) \rarr P(n+1)$ for all $n \ge 0$. The theorem follows as a special case. $\blacksquare$
