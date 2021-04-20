@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-20T19:35:03.104Z
+date: 2021-04-20T19:35:35.297Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -286,6 +286,8 @@ or
 $$
 \frac{1 \cdot 3 \cdot 5 \cdots(2k+3)}{2 \cdot 4 \cdot 6 \cdots(2k+4)} \geq \frac{1}{2k+4}
 $$
+
+
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
