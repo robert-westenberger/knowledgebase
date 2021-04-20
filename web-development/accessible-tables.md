@@ -2,7 +2,7 @@
 title: Accessible Tables
 description: 
 published: true
-date: 2021-04-19T23:42:49.226Z
+date: 2021-04-20T00:01:57.898Z
 tags: accessibility, html
 editor: markdown
 ---
@@ -27,7 +27,12 @@ $$
 \end{array}
 \end{aligned}
 $$
-
+### Treatment By Screen Readers
 
 ## Layout Tables
 Don't have logical headers that can be mapped to information within the table cells.
+
+### Treatment By Screen Readers
+Screen readers will analyze table markup to determine if its a layout table. It is important that data table markup, such as \<th\>, \<caption\> etc are never used in layout tables, otherwise they will be identified as data tables.
+
+Once identified as a layout table, screen readers read the content of layout tables based on the source code order. 
