@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-20T19:35:35.297Z
+date: 2021-04-20T19:37:31.081Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -287,6 +287,11 @@ $$
 \frac{1 \cdot 3 \cdot 5 \cdots(2k+3)}{2 \cdot 4 \cdot 6 \cdots(2k+4)} \geq \frac{1}{2k+4}
 $$
 
+$$
+\begin{aligned}
+\frac{1 \cdot 3 \cdot 5 \cdots(2 k+1)}{2 \cdot 4 \cdot 6 \cdots(2 k+2)} \geq \frac{1}{2 k+2}
+\end{aligned}
+$$
 
 # Random / Unsourced
 ## Proof by Induction
