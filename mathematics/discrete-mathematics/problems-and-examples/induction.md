@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-20T17:00:28.965Z
+date: 2021-04-20T17:15:04.717Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -252,7 +252,11 @@ Prove that $2$ divides $n^2 + n$ whenever $n$ is a positive integer.
 **Inductive Hypothesis:** We assume $P(k)=k^2 + k$ divides $2$ is true.
 **Inductive Step:** We aim to prove $P(k) \rarr P(k+1)$ where $P(k+1)=(k+1)^2 + (k+1)$ divides $2$ is true.
 
+$$
+\begin{aligned}
 
+\end{aligned}
+$$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
