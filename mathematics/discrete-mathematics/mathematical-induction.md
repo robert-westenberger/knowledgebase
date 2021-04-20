@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:51:03.551Z
+date: 2021-04-20T19:19:17.953Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -166,8 +166,45 @@ We can now use the inductive hypothesis, which states that $7^{k+2}+8^{2 k+1}$ i
 By **ii** and the inductive hypothesis, we conclude that the first term in the last sum, $7\left(7^{k+2}+8^{2 k+1}\right)$, is divisible by $57$. By **ii**, the second term, $57 \cdot 8^{2 k+1}$, is divisible by $57$. By part **i**, we conclude that  $7\left(7^{k+2}+8^{2 k+1}\right)+57 \cdot 8^{2 k+1}=7^{k+3}+8^{2 k+3}$ is divisible by $57$. This completes the inductive step. 
 
 Because we have completed the base and inductive steps, by mathemtical induction we know that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$.
+
 ### Proving Results About Sets
 ### Proving Results About Algorithms
+#### Examples
+##### Proving a greedy algorithm always produces an optimal solution
+Consider an algorithm to schedule talks that have preset start and end times. The algorithm schedules as many talks as possible in a lecture hall, under the assumption that once a talk starts, it continues until it ends, and only one talk can proceed at a time. A talk can begin at the same time another one ends. 
+
+The input of the algorithm is a group of $m$ proposed talks with preset starting and end times. Suppose that talk $t_j$ begins at time $s_j$ and ends at time $e_j$.
+
+Without loss of generality, we assume that the talks are listed in order of nondecreasing ending time, so that $e_{1} \leq e_{2} \leq \cdots \leq e_{m}$. The greedy algorithm proceeds by selecting at each stage a talk with the earliest ending time among all those talks that begin no sooner than when the last talk scheduled in the main lecture hall has ended. Note that a talk with the earliest end time is always selected first by the algorithm.We will show that this greedy algorithm is optimal in the sense that it always schedules the most talks possible in the main lecture hall. To prove the optimality of this algorithm we use mathematical induction on the variable $n$, the number of talks scheduled by the algorithm. We let $P(n)$ be the proposition that if the greedy algorithm schedules $n$ talks in the main lecture hall, then it is not possible to schedule more than $n$ talks in this hall. 
+
+**Base Step:** Suppose the greedy algorithm managed to schedule just one talk, $t_1$, in the lecture hall. This means that no other talk can start at or after $e_1$, the end time of $t_1$. Otherwise, the first such talk we come to as we go through the talks in order of nondecreasing end times could be added. Hence, at time $e_1$ each of the remaining talks start before $e_1$ and end after $e_1$. It follows that no two talks can be scheduled because both need to use the same lecture hall at time $e_1$. This shows that $P(1)$ is true and completes the basis step. 
+
+**Inductive Step:** 
+The inductive hypothesis is that $P(k)$ is true, where $k$ is an arbitrary positive
+integer, that is, that the greedy algorithm always schedules the most possible talks when it selects
+$k$ talks, where $k$ is a positive integer, given any set of talks, no matter how many.We must show
+that $P(k + 1)$ follows from the assumption that $P(k)$ is true, that is, we must show that under
+the assumption of $P(k)$, the greedy algorithm always schedules the most possible talks when it
+selects $k + 1$ talks.
+Now suppose that the greedy algorithm has selected $k + 1$ talks. Our first step in completing
+the inductive step is to show there is a schedule including the most talks possible that contains
+talk $t_1$, a talk with the earliest end time. This is easy to see because a schedule that begins
+with the talk $t_i$ in the list, where $i \gt 1$, can be changed so that talk $t_1$ replaces talk $t_i$. To see
+this, note that because $e_1 \le e_i$, all talks that were scheduled to follow talk $t_i$ can still be scheduled.
+Once we included talk $t_1$, scheduling the talks so that as many as possible are scheduled
+is reduced to scheduling as many talks as possible that begin at or after time $e_1$. So, if we
+have scheduled as many talks as possible, the schedule of talks other than talk $t_1$ is an optimal schedule of the original talks that begin once talk $t_1$ has ended. Because the greedy algorithm
+schedules $k$ talks when it creates this schedule, we can apply the inductive hypothesis to conclude
+that it has scheduled the most possible talks. It follows that the greedy algorithm has scheduled
+the most possible talks, $k + 1$, when it produced a schedule with $k + 1$ talks, so $P(k + 1)$ is
+true. This completes the inductive step.
+We have completed the basis step and the inductive step. So, by mathematical induction we
+know that $P(n)$ is true for all positive integers $n$. This completes the proof of optimality. That is,
+we have proved that when the greedy algorithm schedules $n$ talks, when $n$ is a positive integer,
+then it is not possible to schedule more than $n$ talks. $\blacksquare$
+
+
+
 
 ### Courtyard Tiling
 
