@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:05:55.928Z
+date: 2021-04-20T18:10:04.893Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -158,3 +158,7 @@ A courtyard meeting these constrains exists, at least for $n=2$.
 ![grid.png](/grid.png)
 
 For larger values of $n$, is there a way to tile a $2^n \times 2^n$ courtyard with L-shaped tiles and a statue in the center? Let's try to prove that this is so. 
+
+**Theorem 1:** For all $n\ge0$ there exists a tiling of a $2^n\times2^n$ courtyard with a Bob statue in a central square.
+**Proof:** This proof is by induction. Let $P(n)$ be the proposition that for every location of Bob in a $2^n \times 2^n$ courtyard, there exists a tiling of the remainder. 
+**Base Case:**$P(0)$ is true because Bob fits the whole courtyard.
