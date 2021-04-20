@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:29:45.819Z
+date: 2021-04-20T18:36:32.529Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -180,3 +180,17 @@ In other words, to prove $P(n)$ is true for all positive integers $n$, where $P(
 ## Examples
 
 ### Products of Primes
+**Lemma 1:** Every integer greater than $1$ is a product of primes.
+**Proof:** Our induction hypothesis 
+$$P(n)=n+2 \medspace\text {is the product of primes}$$
+So our lemma will follow if we prove that $P(n)$ holds for all $n \ge 0$.
+
+**Base Case:** $P(0)$ is true because $0 + 2$ is prime, and so is a product of primes by convention.
+
+**Inductive Step:** Suppose that $n \ge 0$ and that $i+2$ is a product of primes for every natrual number $1 \lt n+1$. We must show that $P(n+1)$ holds, namely, that $n+3$ is also a product of primes. We argue by cases:
+
+If $n+3$ is itself prime, then it is a product of primes by convention, so $P(n+1)$ holds in this case. 
+
+Otherwise, $n+3$ is not prime, which means that $n+3=km$ for some natural numbers $k, m$ such that $2 \leq k, m<n+3$. So $k-2$ is a natural number less than $n+1$, which means that $(k-2) + 2$ is a product of primes by induction hypothesis. That is, $k$ is a product of primes. Likewise, $m$ is a product of primes. So $km=n+3$ is also a prioduct of primes. Therefore $P(n+1)$ holds in this case as well.
+
+So $P(n+1)$ holds in any case, which completes the proof by strong induction that $P(n)$ holds for all natural numbers $n$. $\blacksquare$
