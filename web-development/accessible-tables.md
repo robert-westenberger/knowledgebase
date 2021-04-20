@@ -2,7 +2,7 @@
 title: Accessible Tables
 description: 
 published: true
-date: 2021-04-20T02:17:01.326Z
+date: 2021-04-20T02:20:33.736Z
 tags: accessibility, html
 editor: markdown
 ---
@@ -27,7 +27,7 @@ $$
 \end{array}
 \end{aligned}
 $$
-### Treatment By Screen Readers
+
 
 ## Layout Tables
 Don't have logical headers that can be mapped to information within the table cells.
