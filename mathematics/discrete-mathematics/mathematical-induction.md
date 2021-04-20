@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:16:47.965Z
+date: 2021-04-20T18:27:52.873Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -169,3 +169,10 @@ Now we can tile each of the four quadrants by the induction assumption. Replacin
 
 
 # Strong Induction
+In a proof by strong induction, the inductive step shows that if $P(j)$ is true for all positive integers $j$ not exceeding $k$, then $P(k+1)$ is true. That is, for the inductive hypothesis we assume that $P(j)$ is true for $j=1,2, \ldots, k$.
+
+In other words, to prove $P(n)$ is true for all positive integers $n$, where $P(n)$ is a propositional function, we complete two steps:
+
+1) **Basis Step**: We verify that the proposition $P(1)$ is true.
+
+2) **Inductive Step:** We show that the conditional statement $[P(1) \wedge P(2) \wedge \cdots \wedge P(k)] \rightarrow P(k+1)$ is true for all positive integers $k$.
