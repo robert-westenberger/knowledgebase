@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-20T16:54:13.025Z
+date: 2021-04-20T16:54:33.737Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -248,7 +248,7 @@ The last inequality we get is true, therefore the original inequality is true.
 ### 31 Prove divisibility facts
 Prove that $2$ divides $n^2 + n$ whenever $n$ is a positive integer.
 #### Solution
-**Base Case:** $P(1)=1^2+1=2 | 2 = 0$
+**Base Case:** $P(1)=1^2+1=2$ is divisible by $2$.
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
