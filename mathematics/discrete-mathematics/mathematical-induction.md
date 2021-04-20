@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T18:36:32.529Z
+date: 2021-04-20T18:50:47.311Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -139,6 +139,33 @@ Therefore, because we have completed both the basis step and the inductive step,
 
 
 ### Proving Divisibility Results
+#### Example
+Use mathematical induction to prove that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$. 
+
+Let $P(n)$ denote the proposition "$7^{n+2}+8^{2 n+1}$ is divisible by $57$"
+
+**Base Case:** $P(0)=7^{0+2}+8^{2 \cdot 0+1}=7^{2}+8^{1}=57$ is divisible by $57$.
+
+**Inductive Step:** We assume $P(k)$ is true for an arbitrary nonnegative integer $k$, that is, we assume $7^{k+2}+8^{2 k+1}$ is divisible by $57$. 
+
+We aim to prove $P(k) \rarr P(k+1)$, where $P(k+1)$ is the statement that $7^{(k+1)+2}+8^{2(k+1)+1}$ is divisible by $57$. 
+
+$$
+\begin{aligned}
+7^{(k+1)+2}+8^{2(k+1)+1} &=7^{k+3}+8^{2 k+3} \\
+&=7 \cdot 7^{k+2}+8^{2} \cdot 8^{2 k+1} \\
+&=7 \cdot 7^{k+2}+64 \cdot 8^{2 k+1} \\
+&=7\left(7^{k+2}+8^{2 k+1}\right)+57 \cdot 8^{2 k+1}
+\end{aligned}
+$$
+We can now use the inductive hypothesis, which states that $7^{k+2}+8^{2 k+1}$ is divisible by $57$. We will use the following theorems for the rest of the proof: 
+
+* **(i)** if $a \mid b$ and $a \mid c$, then $a \mid(b+c)$
+* **(ii)** if $a \mid b$, then $a \mid b c$ for all integers
+
+By **ii** and the inductive hypothesis, we conclude that the first term in the last sum, $7\left(7^{k+2}+8^{2 k+1}\right)$, is divisible by $57$. By **ii**, the second term, $57 \cdot 8^{2 k+1}$, is divisible by $57$. By part **i**, we conclude that  $7\left(7^{k+2}+8^{2 k+1}\right)+57 \cdot 8^{2 k+1}=7^{k+3}+8^{2 k+3}$ is divisible by $57$. This completes the inductive step. 
+
+Because we have completed the base and inductive steps, by mathemtical induction we know that $7^{n+2}+8^{2 n+1}$ is divisible by $57$.
 ### Proving Results About Sets
 ### Proving Results About Algorithms
 
