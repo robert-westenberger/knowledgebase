@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-20T19:38:47.189Z
+date: 2021-04-21T16:46:15.990Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -293,6 +293,8 @@ $$
 &
 \end{aligned}
 $$
+
+
 
 # Random / Unsourced
 ## Proof by Induction
