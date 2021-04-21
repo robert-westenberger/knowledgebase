@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-21T18:19:46.326Z
+date: 2021-04-21T18:41:34.400Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -291,7 +291,7 @@ $$
 The first step uses our induction hypothesis, $P(k)$. The second step uses the fact that $\frac{2k+3}{2k+2} \gt 1$ for all $k \ge 1$ (Since its being multiplied by a number less than $1$, it will just become smaller and smaller and its on the smaller side of the inequality..). Therefore, b y induction the proposition $P(k)$ is true for all $k \ge 1$, and the claim is proved. $\blacksquare$
 
 
-
+# Discrete Mathematics with Applications, Fifth Edition 
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
