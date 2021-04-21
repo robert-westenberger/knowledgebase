@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-21T18:47:47.258Z
+date: 2021-04-21T18:56:11.829Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -304,6 +304,15 @@ $$
 **Inductive Step:** We seek to prove that $P(k) \rarr P(k+1)$ where $P(k+1)$ is the statement 
 $$
 1+2+2^{2}+\cdots+2^{k+1}=2^{k+2}-1
+$$
+
+Starting with $P(k)$..
+$$
+\begin{aligned}
+1+2+2^{2}+\cdots+2^{k} + 2^{k+1} &=2^{k+1}-1 + 2^{k+1} \\
+&=2^{k+1}+ 2^{k+1} -1 \\
+&=2^{k+2}-1 \\
+\end{aligned}
 $$
 # Random / Unsourced
 ## Proof by Induction
