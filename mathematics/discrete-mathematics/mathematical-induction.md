@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-20T19:19:17.953Z
+date: 2021-04-21T19:10:06.446Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -117,8 +117,36 @@ This shows that $P(k+1)$ follows from $P(k)$. Note that we used the inductive hy
 We have now completed both the basis step and the inductive step. We have shown that $P(1)$ is true and the conditional statement $P(k) \rightarrow P(k+1)$ is true for all positive integers $k$. Consequently, by the principle of mathematical induction we can conclude that $P(n)$ is true for all positive integers $n$. That is, we know that $1+3+5+\cdots+(2 n-1)=n^{2}$ for all positive integers $n$.
 
 ### Proving Inequalities
+A trick that is occasionally useful for proving inequalities is adding **unequal** quantities to both sides of an **inequality**, as long as the quantity added to the bigger side is bigger than the quantity added to the smaller side. 
 
-#### Example 1 
+#### Example using the add unequal quantities trick
+
+The inequality 
+$$
+2^{n} \leq 2^{n+1}-2^{n-1}-1
+$$
+holds for each $n \in \natnums$.
+
+**Base Case:** $P(1) = 2^{1} \leq 2^{1+1}-2^{1-1}-1$, simplifies to $2 \le 4-1-1$, which is obviously true.
+
+**Inductive Step:** 
+$P(k)=2^{k} \leq 2^{k+1}-2^{k-1}-1$
+$P(k+1)=2^{k+1} \leq 2^{(k+1)+1}-2^{(k+1)-1}-1$
+Say $k \ge 1$. We use direct proof to show that $P(k) \rarr P(k+1)$. Suppose $P(k)$. Then.. 
+
+$$
+\begin{aligned}
+2^{k} & \leq 2^{k+1}-2^{k-1}-1 \\
+2\left(2^{k}\right) & \leq 2\left(2^{k+1}-2^{k-1}-1\right) \quad \text{multiply both sides by 2}\\
+2^{k+1} & \leq 2^{k+2}-2^{k}-2 \\
+2^{k+1} & \leq 2^{k+2}-2^{k}-2+1 \quad \text{add one to the bigger side}\\
+2^{k+1} & \leq 2^{k+2}-2^{k}-1 \\
+2^{k+1} & \leq 2^{(k+1)+1}-2^{(k+1)-1}-1 .
+\end{aligned}
+$$
+It follows by induction that $2^{n} \leq 2^{n+1}-2^{n-1}-1$ for each $n \in \natnums$.
+
+#### Example 
 Use mathematical induction to prove the inequality 
 $$n<2^{n}$$
 for all positive integers $n$.
