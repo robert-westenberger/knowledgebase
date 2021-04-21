@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-21T18:15:43.923Z
+date: 2021-04-21T18:19:46.326Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -285,9 +285,10 @@ $$
 $$
 \begin{aligned}
 \frac{1 \cdot 3 \cdot 5 \cdots(2 k+1)(2k+3)}{2 \cdot 4 \cdot 6 \cdots(2 k+2)(2k+4)} &\geq \frac{1}{2 k+2} \cdot \frac{(2k+3)}{(2k+4)} \\[1em]
-&
+& \gt \frac1{2k+4}
 \end{aligned}
 $$
+The first step uses our induction hypothesis, $P(k)$. The second step uses the fact that $\frac{2k+3}{2k+2} \gt 1$ for all $k \ge 1$ (Since its being multiplied by a number less than $1$, it will just become smaller and smaller and its on the smaller side of the inequality..). Therefore, b y induction the proposition $P(k)$ is true for all $k \ge 1$, and the claim is proved. $\blacksquare$
 
 
 
