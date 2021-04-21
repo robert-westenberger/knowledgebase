@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-21T16:46:15.990Z
+date: 2021-04-21T18:15:43.923Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -263,12 +263,12 @@ $$
 $$
 ### Solution
 
-**Base Case:** $P(1)=\frac{2(1)+1}{2(1)+2} \ge \frac1{2(1)+2}$.
+**Base Case:** $P(0)=\frac{2(0)+1}{2(0)+2} \ge \frac1{2(0)+2}$.
 
 $$
 \begin{aligned}
-P(1)=\frac{2(1)+1}{2(1)+2} &\ge \frac1{2(1)+2} \\[1em]
-P(1)=\frac{3}{4} &\ge \frac1{4} \\[1em]
+P(0)=\frac{2(0)+1}{2(0)+2} &\ge \frac1{2(0)+2} \\[1em]
+P(0)=\frac12 &\ge \frac12 \\[1em]
 \end{aligned}
 $$
 
@@ -279,17 +279,12 @@ $$
 **Inductive Step:** In the inductive step we aim to prove $P(k) \rarr P(k+1)$ assuming $P(k)$ is true. The statement $P(k+1)$ is 
 
 $$
-\frac{1 \cdot 3 \cdot 5 \cdots(2 (k+1)+1)}{2 \cdot 4 \cdot 6 \cdots(2 (k+1)+2)} \geq \frac{1}{2 (k+1)+2}
-$$
-
-or 
-$$
 \frac{1 \cdot 3 \cdot 5 \cdots(2k+3)}{2 \cdot 4 \cdot 6 \cdots(2k+4)} \geq \frac{1}{2k+4}
 $$
 
 $$
 \begin{aligned}
-\frac{1 \cdot 3 \cdot 5 \cdots(2 k+1)}{2 \cdot 4 \cdot 6 \cdots(2 k+2)} + (k+1) &\geq \frac{1}{2 k+2} +(k+1)\\[1em]
+\frac{1 \cdot 3 \cdot 5 \cdots(2 k+1)(2k+3)}{2 \cdot 4 \cdot 6 \cdots(2 k+2)(2k+4)} &\geq \frac{1}{2 k+2} \cdot \frac{(2k+3)}{(2k+4)} \\[1em]
 &
 \end{aligned}
 $$
