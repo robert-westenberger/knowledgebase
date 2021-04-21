@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-21T18:46:30.507Z
+date: 2021-04-21T18:47:47.258Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -301,7 +301,10 @@ $$
 ### Solution
 **Base:** $P(0)=2^0=1=2^1-1=2-1=1$
 **Inductive hypothesis:** $P(k)=1+2+2^{2}+\cdots+2^{k}=2^{k+1}-1$
-**Inductive Step:**
+**Inductive Step:** We seek to prove that $P(k) \rarr P(k+1)$ where $P(k+1)$ is the statement 
+$$
+1+2+2^{2}+\cdots+2^{k+1}=2^{k+2}-1
+$$
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
