@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-21T18:41:34.400Z
+date: 2021-04-21T18:46:30.507Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -292,6 +292,16 @@ The first step uses our induction hypothesis, $P(k)$. The second step uses the f
 
 
 # Discrete Mathematics with Applications, Fifth Edition 
+## 8 
+Prove using mathematical induction:
+For every integer $n \ge 0$, 
+$$
+1+2+2^{2}+\cdots+2^{n}=2^{n+1}-1
+$$
+### Solution
+**Base:** $P(0)=2^0=1=2^1-1=2-1=1$
+**Inductive hypothesis:** $P(k)=1+2+2^{2}+\cdots+2^{k}=2^{k+1}-1$
+**Inductive Step:**
 # Random / Unsourced
 ## Proof by Induction
 Prove by induction that $11^n - 6$ is divisible by $5$ for every positive integer $n$. 
