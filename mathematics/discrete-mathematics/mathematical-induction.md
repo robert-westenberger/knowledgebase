@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-21T19:10:06.446Z
+date: 2021-04-23T19:59:14.898Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -196,6 +196,18 @@ By **ii** and the inductive hypothesis, we conclude that the first term in the l
 Because we have completed the base and inductive steps, by mathemtical induction we know that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$.
 
 ### Proving Results About Sets
+
+#### Example - The Number of Subsets of a Finite Set
+Use induction to show that if a set $S$ is a finite set with $n$ elements, where $n$ is a nonnegative integer, then $S$ has $2^n$ subsets. 
+
+**Solution:** Let $P(n)$ be the proposition that a set with $n$ elements has $2^n$ subsets.
+
+**Basis Step:** $P(0)$ is true, because a set with $0$ elements, the empty set, has $2^0=1$ subsets, itself.
+
+**Inductive Step:** We assume that $P(k)$ is true for an arbitrary nonnegative integer $k$, that is, we assume evry set with $k$ elements has $2^k$ subsets. We must show $P(k) \rarr $P(k+1)$, that is, every set with $k+1$ elements has $2^{k+1}$ subsets.
+
+To show this, let $T$ be a set with $k+1$ elements. Then we can write $T=S \cup\{a\}$, where $a$ is one of the elements of $T$ and $S=T-\{a\}$ (hence $|S|=k$). The subsets of $T$ can be obtained in the followingt way. For each subset $X$ of $S$ there are exactly two subsets of $T$, namely $X$ and $X \cup\{a\}$ (illustrated below).  
+
 ### Proving Results About Algorithms
 #### Examples
 ##### Proving a greedy algorithm always produces an optimal solution
