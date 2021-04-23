@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-23T19:59:14.898Z
+date: 2021-04-23T20:11:48.845Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -206,7 +206,11 @@ Use induction to show that if a set $S$ is a finite set with $n$ elements, where
 
 **Inductive Step:** We assume that $P(k)$ is true for an arbitrary nonnegative integer $k$, that is, we assume evry set with $k$ elements has $2^k$ subsets. We must show $P(k) \rarr $P(k+1)$, that is, every set with $k+1$ elements has $2^{k+1}$ subsets.
 
-To show this, let $T$ be a set with $k+1$ elements. Then we can write $T=S \cup\{a\}$, where $a$ is one of the elements of $T$ and $S=T-\{a\}$ (hence $|S|=k$). The subsets of $T$ can be obtained in the followingt way. For each subset $X$ of $S$ there are exactly two subsets of $T$, namely $X$ and $X \cup\{a\}$ (illustrated below).  
+To show this, let $T$ be a set with $k+1$ elements. Then we can write $T=S \cup\{a\}$, where $a$ is one of the elements of $T$ and $S=T-\{a\}$ (hence $|S|=k$). The subsets of $T$ can be obtained in the followingt way. For each subset $X$ of $S$ there are exactly two subsets of $T$, namely $X$ and $X \cup\{a\}$ (illustrated below). ![screen_shot_2021-04-23_at_12.59.35_pm.png](/screen_shot_2021-04-23_at_12.59.35_pm.png) 
+
+These constitute all the subsets of $T$ and are all distinct. We now use the inductive hypothesis to conclud e that $S$ has $2^k$ subsets, because it as $k$ elements. We also know there are two subsets of $T$ for each subset of $S$. Therefore, there are $2 \cdot 2^{k}=2^{k+1}$ subsets of $T$. This finishes the inductive argument. 
+
+Because we have completed the basis and inductive step, by induction it follows that $P(n)$ is truef or all nonnegative integers $n$.
 
 ### Proving Results About Algorithms
 #### Examples
