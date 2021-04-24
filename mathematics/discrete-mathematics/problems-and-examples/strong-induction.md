@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-24T23:51:22.095Z
+date: 2021-04-24T23:54:50.685Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -30,8 +30,8 @@ true, completing the basis step of the proof.
 **e)** Explain why these steps show that this statement is
 true whenever $n \ge 8$.
 ### Solution
-**a)**
-**b)**
+**a)**$P(8)=3 + 5$, $P(9)=3+3+3$, $P(10)=5+5$
+**b)** Inductive hypothesis is the statement that $P(k)$ is true, that is, a postage of $k$ cents can be formed from $3$ and $5$ cent stamps. 
 **c)**
 **d)**
 **e)**
