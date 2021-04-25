@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-25T00:02:51.740Z
+date: 2021-04-25T00:24:56.916Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -35,3 +35,12 @@ true whenever $n \ge 8$.
 **c)** In the inductive step we need to prove $P(k) \rarr P(k+1)$ assuming $P(k)$ is true for $k \ge 8$.
 **d)** We assume $P(k)$, that a postage of $k$ cents can be formed from $3$ and $5$ cent stamps. Since $k \ge 10$, we can know that $P(k-2)$ is true, that we can form $k-2$ cents of postage. Put another $3$ cent stamp on the envelope, and we have formed $k+1$ cents of postage.
 **e)** We have completed both the basis and inductive steps, so by the principal of strong induction, the statement is true for every integer $n \ge 8$.
+
+## 5
+**a)** Determine which amounts of postage can be formed using just 4-cent and 11-cent stamps. 
+**b)** Prove your answer to (a) using the principle of mathematical induction. Be sure to state explicitly your inductive hypothesis in the inductive step. 
+**c)** Prove your answer to (a) using strong induction. How does the inductive hypothesis in this proof differ from that in the inductive hypothesis for a proof using mathematical induction?
+### Solution
+**a)** Adding together by hand we can form 4, 8, 11, 12, 15, 16, 19, 20, 22, 23, 24, 26, 27, 28, 30, 31, 32, 33. For any postage $n \ge 30$, it can be formed from just $4$ and $11$ cent stamps. 
+**b)** The inductive hypothesis is $P(k)$ is true. We want to prove it for $k \ge 30$. We want to show that, assuming $P(k)$, that $P(k) \rarr P(k+1)$. We consider two cases. For the first case, if the $k$ cents includes an $11$ cent stamp, replace it with $3$ $4$ cent stamps ($4+4+4=11 + 1$).
+**c)**
