@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:48:14.705Z
+date: 2021-04-25T02:51:27.878Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -101,4 +101,4 @@ $$
 \end{aligned}
 $$
 
-We see that $a=d$, $b=y$, and $c=t$.
+We see that $a=d$, $b=y$, and $c=t$. This appears to be another solution to the original equation, so $d$, $y$, and $t$ are elements of $X$. This is a contradiction though, because $d \lt a$ and $a$ was defined as being the smallest value that makes the equation true (the smallest value in $X$). 
