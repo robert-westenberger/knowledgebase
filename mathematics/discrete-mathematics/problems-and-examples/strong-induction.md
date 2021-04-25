@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:23:18.449Z
+date: 2021-04-25T02:44:28.592Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -71,4 +71,22 @@ $P(a, b, c)$ is the statement that there is no solution to $4 a^{3}+2 b^{3}=c^{3
 $X$ is the set of counterexamples of $P$:
 $X::=\{a \in \mathbb{N} \wedge b \in \mathbb{N} \wedge c \in \mathbb{N}  \mid \neg(P(n))\}$
 
-Assume for proof by contradiction that $X$ is nonempty. That is, $X$ contains contains values that make $4 a^{3}+2 b^{3}=c^{3}$ true. By the WOP, there must be an $c \in X$ that is the smallest value that makes the equation true.
+Assume for proof by contradiction that $X$ is nonempty. That is, $X$ contains contains values that make $4 a^{3}+2 b^{3}=c^{3}$ true. By the WOP, there must be an $a \in X$ that is the smallest value that makes the equation true. We see that the left hand side of the equation is even, so $c$ must be even. So $c=2t$ for some integer $t$. Substituting that in we get..
+
+$$
+\begin{aligned}
+4 a^{3}+2 b^{3}&=(2t)^{3} \\
+4 a^{3}+2 b^{3}&=8t^{3} \\
+2 a^{3}+b^{3}&=4t^{3} \quad \text {divide both sides by 2}\\
+\end{aligned}
+$$
+
+We see $b^3$ is even, so $b$ must also be even. There must be some positive integer $y$ where $b=2y$. Substituting again we get
+
+$$
+\begin{aligned}
+2 a^{3}+(2y)^{3}&=4t^{3} \\
+2 a^{3}+8y^{3}&=4t^{3} \\
+a^{3}+4y^{3}&=2t^{3} \quad \text {divide both sides by 2}\\
+\end{aligned}
+$$
