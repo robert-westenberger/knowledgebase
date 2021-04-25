@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-25T01:19:27.042Z
+date: 2021-04-25T01:19:36.403Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -109,4 +109,4 @@ with one element, the second player picks the subset with the other two elements
 player picks a subset with two elements, the second player picks the subset whose sole member
 is the third element. Both cases produce positions equivalent to the starting position when $A$ has
 two elements, and thus leads to a win for the second player.
-Verify that when A has four elements, the second player still has a winning strategy
+Verify that when $A$ has four elements, the second player still has a winning strategy
