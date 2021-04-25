@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-25T00:24:56.916Z
+date: 2021-04-25T00:26:56.242Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -42,5 +42,5 @@ true whenever $n \ge 8$.
 **c)** Prove your answer to (a) using strong induction. How does the inductive hypothesis in this proof differ from that in the inductive hypothesis for a proof using mathematical induction?
 ### Solution
 **a)** Adding together by hand we can form 4, 8, 11, 12, 15, 16, 19, 20, 22, 23, 24, 26, 27, 28, 30, 31, 32, 33. For any postage $n \ge 30$, it can be formed from just $4$ and $11$ cent stamps. 
-**b)** The inductive hypothesis is $P(k)$ is true. We want to prove it for $k \ge 30$. We want to show that, assuming $P(k)$, that $P(k) \rarr P(k+1)$. We consider two cases. For the first case, if the $k$ cents includes an $11$ cent stamp, replace it with $3$ $4$ cent stamps ($4+4+4=11 + 1$).
+**b)** The inductive hypothesis is $P(k)$ is true. We want to prove it for $k \ge 30$. We want to show that, assuming $P(k)$, that $P(k) \rarr P(k+1)$. We consider two cases. For the first case, if the $k$ cents includes an $11$ cent stamp, replace it with $3$ $4$ cent stamps ($4+4+4=11 + 1$). Otherwise, $k$ includes no $11$ cent stamps and has been formed from just $4$ cent stamps. Because $k \ge 30$, that means that at least eight $4$ cent stamps were used. Replace those eight $4$ cent stamps with three $11$ cent stamps, and we have formed $k+1$ cents in postage ($3 \cdot 11=8\cdot4+1$).
 **c)**
