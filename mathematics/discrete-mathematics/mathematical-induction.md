@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-25T03:16:12.942Z
+date: 2021-04-25T03:17:01.373Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -177,6 +177,11 @@ Let $P(n)$ denote the proposition "$2^{2 n}-1$" is divisible by $3$.
 **Inductive Hypothesis:** $P(k)=2^{2k}-1$ is true.
 **Inductive Step:** Assuming $P(k)$ is true we need to prove $P(k) \rarr P(k+1)$ where $P(k+1)=2^{2k+2}-1$.
 
+$$
+\begin{aligned}
+7^{(k+1)+2}+8^{2(k+1)+1} &=7^{k+3}+8^{2 k+3} \\
+\end{aligned}
+$$
 #### Example
 Use mathematical induction to prove that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$. 
 
