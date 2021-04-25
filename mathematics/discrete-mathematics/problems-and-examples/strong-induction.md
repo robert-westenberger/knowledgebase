@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:46:09.685Z
+date: 2021-04-25T23:47:08.006Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -91,6 +91,8 @@ Show that strong induction is a valid method of proof by
 showing that it follows from the well-ordering property.
 ### Solution
 To show that strong induction is valid, supose that we have a proposition $\forall n P(n)$ which has been proved using it. We must show that $\forall n P(n)$ is true (to say that a principle of proof is valid means that it only proves only true propositions).
+
+Let $S$ be the set of counterexamples, $S=\{n \mid \neg P(n)\}$. We want to show that $S=\emptyset$.
 ## 41
 Show that the well-ordering property can be proved when the principle of mathematical induction is taken as an axiom.
 ### Solution
