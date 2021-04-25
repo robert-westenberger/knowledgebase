@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-25T01:03:27.963Z
+date: 2021-04-25T01:07:05.563Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -55,4 +55,8 @@ Assuming the contrary, that $\sqrt{2}=(k+1) / b$ for some $b$. Squaring both sid
 ## 13
 A jigsaw puzzle is put together by successively joining pieces that fit together into blocks. A move is made each time a piece is added to a block, or when two blocks are joined. Use strong induction to prove that no matter how the moves are carried out, exactly $n − 1$ moves are required to assemble a puzzle with $n$ pieces.
 ### Solution
-$P(n)=n-1 \medspace \text {moves are required to assemble a puzzle with} \medspace n \medspace \text {pieces}$ 
+$P(n)=n-1 \medspace \text {moves are required to assemble a puzzle with} \medspace n \medspace \text {pieces}$.
+
+**Base Case:** $P(1)$ is trivially true. 
+**Inductive Hypothesis:** $P(j)$ is true for all $j \lt n$.
+**Inductive Step:** Consider a puzzle with $n$ pieces. The final move must be the joining of two blocks $k$ and $n-k$ for some integer $k$, $1 \le k \le n-1$. By the inductive hypothesis, it required $k-1$ moves to construct the one block, and $n-k-1$ moves to construct the other. Therefore, $1+(k-1)+(n-k-1)=n-1$ moves are required in all, so $P(n)$ is true. We have proved that $P(n)$ under the assumption that $P(j)$ was true for $j \lt n$.
