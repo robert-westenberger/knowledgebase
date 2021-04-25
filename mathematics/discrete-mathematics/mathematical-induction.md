@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-25T03:26:10.487Z
+date: 2021-04-25T03:39:39.513Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -180,10 +180,14 @@ There is some $r$ where $2^{2k}-1=3r$.
 $$
 \begin{aligned}
 2^{2(k+1)}-1 &= 2^{2k + 2}-1 \\
-&= 2^2 \cdot 2^{2k + 1} - 1 \\
-&=   2^{2k + 1} \cdot 4 - 1 \\
-&=   2^{2k + 1} \cdot 3 \\
-&=   3 (2^{2k + 1}) \\
+&= 2^2 \cdot 2^{2k} - 1 \\
+&=   2^{2k} \cdot 4 - 1 \\
+&=   2^{2k} (3+1) - 1 \\
+&=   2^{2k} (3+1) - 1 \\
+&=   (2^{2k} \cdot 3)  + ( 2^{2k} \cdot 1)  - 1 \\
+&=   (2^{2k} \cdot 3)  + (2^{2k}  - 1) \\
+&=   (2^{2k} \cdot 3)  + 3r \\
+&=   3 (2^{2k}+r) \\
 \end{aligned}
 $$
 #### Example
