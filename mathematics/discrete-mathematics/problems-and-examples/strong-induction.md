@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:14:20.871Z
+date: 2021-04-25T02:20:25.413Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -68,3 +68,7 @@ $$4 a^{3}+2 b^{3}=c^{3}$$
 ### Solution
 
 $P(n)$ is the statement that there is no solution to $4 a^{3}+2 b^{3}=c^{3}$ for $n \gt 0$.
+$X$ is the set of counterexamples of $P$:
+$X::=\{n \in \mathbb{N} \mid \neg(P(n))\}$
+
+Assume for proof by contradiction that $X$ is nonempty. That is, $X$ contains contains values that make $4 a^{3}+2 b^{3}=c^{3}$ true. By the WOP, there must be an $n \in X$ that is the smallest value 
