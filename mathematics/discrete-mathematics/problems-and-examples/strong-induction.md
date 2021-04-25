@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:44:17.918Z
+date: 2021-04-25T23:46:09.685Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -90,6 +90,7 @@ The denominator contains $a^{k-1}$ (which is $a^k$, for which we have proved not
 Show that strong induction is a valid method of proof by
 showing that it follows from the well-ordering property.
 ### Solution
+To show that strong induction is valid, supose that we have a proposition $\forall n P(n)$ which has been proved using it. We must show that $\forall n P(n)$ is true (to say that a principle of proof is valid means that it only proves only true propositions).
 ## 41
 Show that the well-ordering property can be proved when the principle of mathematical induction is taken as an axiom.
 ### Solution
