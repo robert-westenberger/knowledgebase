@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:09:13.554Z
+date: 2021-04-25T02:14:20.871Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -60,3 +60,11 @@ $P(n)=n-1 \medspace \text {moves are required to assemble a puzzle with} \medspa
 **Base Case:** $P(1)$ is trivially true. 
 **Inductive Hypothesis:** $P(j)$ is true for all $j \lt n$.
 **Inductive Step:** Consider a puzzle with $n$ pieces. The final move must be the joining of two blocks $k$ and $n-k$ for some integer $k$, $1 \le k \le n-1$. By the inductive hypothesis, it required $k-1$ moves to construct the one block, and $n-k-1$ moves to construct the other. Therefore, $1+(k-1)+(n-k-1)=n-1$ moves are required in all, so $P(n)$ is true. We have proved that $P(n)$ under the assumption that $P(j)$ was true for $j \lt n$.
+
+# Unsourced
+## 1 
+Use the well ordering principle to prove that there is no solution over the positive integers to the equation
+$$4 a^{3}+2 b^{3}=c^{3}$$
+### Solution
+
+$P(n)$ is the statement that there is no solution to $4 a^{3}+2 b^{3}=c^{3}$ for $n \gt 0$.
