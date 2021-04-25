@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-25T03:12:30.172Z
+date: 2021-04-25T03:13:28.498Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -173,6 +173,8 @@ Prove that for each integer $n \ge 0$, $2^{2 n}-1$ is divisible by $3$.
 Let $P(n)$ denote the proposition "$2^{2 n}-1$" is divisible by $3$.
 
 **Base Case:** $P(0)=2^{2 \cdot 0}-1=2^0-1=0$. $0$ is divisible by $3$ so this holds.
+
+**Inductive Hypothesis:** $P(k)=2^{2k}-1$ is true.
 
 #### Example
 Use mathematical induction to prove that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$. 
