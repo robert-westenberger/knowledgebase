@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-25T00:26:56.242Z
+date: 2021-04-25T00:35:47.458Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -43,4 +43,7 @@ true whenever $n \ge 8$.
 ### Solution
 **a)** Adding together by hand we can form 4, 8, 11, 12, 15, 16, 19, 20, 22, 23, 24, 26, 27, 28, 30, 31, 32, 33. For any postage $n \ge 30$, it can be formed from just $4$ and $11$ cent stamps. 
 **b)** The inductive hypothesis is $P(k)$ is true. We want to prove it for $k \ge 30$. We want to show that, assuming $P(k)$, that $P(k) \rarr P(k+1)$. We consider two cases. For the first case, if the $k$ cents includes an $11$ cent stamp, replace it with $3$ $4$ cent stamps ($4+4+4=11 + 1$). Otherwise, $k$ includes no $11$ cent stamps and has been formed from just $4$ cent stamps. Because $k \ge 30$, that means that at least eight $4$ cent stamps were used. Replace those eight $4$ cent stamps with three $11$ cent stamps, and we have formed $k+1$ cents in postage ($3 \cdot 11=8\cdot4+1$).
-**c)**
+**c)** $P(k)$ is the same as in part b. This time for our strong induction basis step, we see $P(k)$ is true for $k=30,31,32,33$. Assuming that $P(j)$ is true for all $j$ with $30 \le j \le k$, where $k \ge 33$, we want to show that $P(k+1)$ is true. $k-1 \ge 30$, we know that $P(k-3)$ is true. Put one more $4$ cent stamp in the envelope, and we have $k+1$ cents of postage as desired. 
+## 9
+Use strong induction to prove that $\sqrt 2$ is irrational. (Hint: Let $P(n)$ be the statement that $\sqrt2 \ne \frac nb$ for any positive integer $b$).
+### Solution
