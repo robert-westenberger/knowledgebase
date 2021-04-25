@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:47:33.125Z
+date: 2021-04-25T02:48:14.705Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -100,3 +100,5 @@ $$
 4d^{3}+2y^{3}&=t^{3} \quad \text {divide both sides by 2} \\
 \end{aligned}
 $$
+
+We see that $a=d$, $b=y$, and $c=t$.
