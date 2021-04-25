@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:10:37.197Z
+date: 2021-04-25T23:13:26.646Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -71,6 +71,7 @@ where $i$ and $j$ are natural numbers less than $k + 1$. By the
 inductive hypothesis, $5(k + 1) = 5(i + j) = 5i + 5j =
 0 + 0 = 0$.
 ### Soln
+The error is going from the basis step $n=0$ to the next value $n=1$. We can't write $1$ as the sum of two smaller natural numbers, so we can't invoke the inductive hypothesis. In the notation of the "proof", when $k=0$, we cannot write $0+1=i+j$ where $0 \le i \le 0$ and $0 \le j \le 0$.
 # Unsourced
 ## 1 
 Use the well ordering principle to prove that there is no solution over the positive integers to the equation
