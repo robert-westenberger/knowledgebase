@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-25T00:35:47.458Z
+date: 2021-04-25T00:37:54.236Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -47,3 +47,4 @@ true whenever $n \ge 8$.
 ## 9
 Use strong induction to prove that $\sqrt 2$ is irrational. (Hint: Let $P(n)$ be the statement that $\sqrt2 \ne \frac nb$ for any positive integer $b$).
 ### Solution
+$P(n)=
