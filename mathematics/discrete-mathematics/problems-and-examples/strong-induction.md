@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:47:08.006Z
+date: 2021-04-25T23:51:29.257Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -92,7 +92,7 @@ showing that it follows from the well-ordering property.
 ### Solution
 To show that strong induction is valid, supose that we have a proposition $\forall n P(n)$ which has been proved using it. We must show that $\forall n P(n)$ is true (to say that a principle of proof is valid means that it only proves only true propositions).
 
-Let $S$ be the set of counterexamples, $S=\{n \mid \neg P(n)\}$. We want to show that $S=\emptyset$.
+Let $S$ be the set of counterexamples, $S=\{n \mid \neg P(n)\}$. We want to show that $S=\emptyset$. We argue by contradiction. Assume that $S\ne\emptyset$. Then by the WOP, $S$ has a smallest element. Since part of the method of strong induction is to show that $P(1)$ is true, this smallest counterexample must be greater than $1$. Lets call it $k+1$. Since $k+1$ is the smallest element in $S$, it must be the case that $P(1) \wedge P(2) \wedge \cdots \wedge P(k)$ is true. But the rest of the proof using strong induction involed showing $P(1) \wedge P(2) \wedge \cdots \wedge P(k)$ implied $P(k+1)$; therefore since the hypothesis is true, the conclusion must be true as well ($P(k+1)$ is true). This contradicts our assumption that $k+1 \in S$. Therefore we conclude that $S=\emptyset$, so $\forall n P(n)$ is true. 
 ## 41
 Show that the well-ordering property can be proved when the principle of mathematical induction is taken as an axiom.
 ### Solution
