@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:51:27.878Z
+date: 2021-04-25T23:08:22.221Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -61,6 +61,15 @@ $P(n)=n-1 \medspace \text {moves are required to assemble a puzzle with} \medspa
 **Inductive Hypothesis:** $P(j)$ is true for all $j \lt n$.
 **Inductive Step:** Consider a puzzle with $n$ pieces. The final move must be the joining of two blocks $k$ and $n-k$ for some integer $k$, $1 \le k \le n-1$. By the inductive hypothesis, it required $k-1$ moves to construct the one block, and $n-k-1$ moves to construct the other. Therefore, $1+(k-1)+(n-k-1)=n-1$ moves are required in all, so $P(n)$ is true. We have proved that $P(n)$ under the assumption that $P(j)$ was true for $j \lt n$.
 
+## 29
+What is wrong with this “proof” by strong induction?
+“Theorem” For every nonnegative integer $n$, $5n = 0$.
+Basis Step: $5 \cdot 0 = 0$.
+Inductive Step: Suppose that $5j = 0$ for all nonnegative
+integers $j$ with $0 \le j \le k$. Write $k + 1 = i + j$ ,
+where $i$ and $j$ are natural numbers less than $k + 1$. By the
+inductive hypothesis, $5(k + 1) = 5(i + j) = 5i + 5j =
+0 + 0 = 0$.
 # Unsourced
 ## 1 
 Use the well ordering principle to prove that there is no solution over the positive integers to the equation
