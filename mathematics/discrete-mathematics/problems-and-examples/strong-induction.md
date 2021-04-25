@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-25T00:37:54.236Z
+date: 2021-04-25T00:48:32.204Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -47,4 +47,6 @@ true whenever $n \ge 8$.
 ## 9
 Use strong induction to prove that $\sqrt 2$ is irrational. (Hint: Let $P(n)$ be the statement that $\sqrt2 \ne \frac nb$ for any positive integer $b$).
 ### Solution
-$P(n)=
+$P(n)= \neg \exists b (b \in \Z \wedge b \gt 0 \wedge \frac nb = \sqrt 2 )$ ("there is no positive integer $b$ such that $n/b = \sqrt 2$. $P(1)$ is true because $\sqrt{2}>1 \geq 1 / b$ for all positive integers $b$. For the inductive step, we assume $P(j)$ is true for all $j \le k$, where $k$ is an arbitrary positive integer; we must prove $P(k+1)$ is true. 
+
+Assuming the contrary, that $\sqrt{2}=(k+1) / b$ for some $b$. Squaring both sides and clearing fractions we get $2b^2 =(k+1)^2$. This tells us that $(k+1)^2$ is even, and so $k+1$ is as well (the square of an even number is always even). 
