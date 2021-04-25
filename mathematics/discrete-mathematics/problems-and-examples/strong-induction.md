@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-25T00:51:44.708Z
+date: 2021-04-25T01:03:27.963Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -49,4 +49,10 @@ Use strong induction to prove that $\sqrt 2$ is irrational. (Hint: Let $P(n)$ be
 ### Solution
 $P(n)= \neg \exists b (b \in \Z \wedge b \gt 0 \wedge \frac nb = \sqrt 2 )$ ("there is no positive integer $b$ such that $n/b = \sqrt 2$. $P(1)$ is true because $\sqrt{2}>1 \geq 1 / b$ for all positive integers $b$. For the inductive step, we assume $P(j)$ is true for all $j \le k$, where $k$ is an arbitrary positive integer; we must prove $P(k+1)$ is true. 
 
-Assuming the contrary, that $\sqrt{2}=(k+1) / b$ for some $b$. Squaring both sides and clearing fractions we get $2b^2 =(k+1)^2$. This tells us that $(k+1)^2$ is even, and so $k+1$ is as well (the square of an even number is always even). Therefore we can write $k+1=x$ for some positive integer $x$. Substituting, we have $2 b^{2}=4 x^{2}$, so $b^{2}=2 x^{2}$. We see that $b$ is even, so $b=2y$ for some positive integer $y$. then we have $\sqrt{2}=(k+1) / b=(2x) /(2 y)=x / y$. But $x \lt k$,so this contradicts the inductive hypothesis, and our proof of the inductive step is complet.
+Assuming the contrary, that $\sqrt{2}=(k+1) / b$ for some $b$. Squaring both sides and clearing fractions we get $2b^2 =(k+1)^2$. This tells us that $(k+1)^2$ is even, and so $k+1$ is as well (the square of an even number is always even). Therefore we can write $k+1=x$ for some positive integer $x$. Substituting, we have $2 b^{2}=4 x^{2}$, so $b^{2}=2 x^{2}$. We see that $b$ is even, so $b=2y$ for some positive integer $y$. then we have $\sqrt{2}=(k+1) / b=(2x) /(2 y)=x / y$. But $x \lt k$,so this contradicts the inductive hypothesis, and our proof of the inductive step is complete.
+
+
+## 13
+A jigsaw puzzle is put together by successively joining pieces that fit together into blocks. A move is made each time a piece is added to a block, or when two blocks are joined. Use strong induction to prove that no matter how the moves are carried out, exactly $n − 1$ moves are required to assemble a puzzle with $n$ pieces.
+### Solution
+$P(n)=n-1 \medspace \text {moves are required to assemble a puzzle with} \medspace n \medspace \text {pieces}$ 
