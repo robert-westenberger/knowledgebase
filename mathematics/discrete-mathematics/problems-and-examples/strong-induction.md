@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:20:25.413Z
+date: 2021-04-25T02:23:18.449Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -67,8 +67,8 @@ Use the well ordering principle to prove that there is no solution over the posi
 $$4 a^{3}+2 b^{3}=c^{3}$$
 ### Solution
 
-$P(n)$ is the statement that there is no solution to $4 a^{3}+2 b^{3}=c^{3}$ for $n \gt 0$.
+$P(a, b, c)$ is the statement that there is no solution to $4 a^{3}+2 b^{3}=c^{3}$ for $a \gt 0$, $b \gt 0$, $c \gt 0$.
 $X$ is the set of counterexamples of $P$:
-$X::=\{n \in \mathbb{N} \mid \neg(P(n))\}$
+$X::=\{a \in \mathbb{N} \wedge b \in \mathbb{N} \wedge c \in \mathbb{N}  \mid \neg(P(n))\}$
 
-Assume for proof by contradiction that $X$ is nonempty. That is, $X$ contains contains values that make $4 a^{3}+2 b^{3}=c^{3}$ true. By the WOP, there must be an $n \in X$ that is the smallest value 
+Assume for proof by contradiction that $X$ is nonempty. That is, $X$ contains contains values that make $4 a^{3}+2 b^{3}=c^{3}$ true. By the WOP, there must be an $c \in X$ that is the smallest value that makes the equation true.
