@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-23T20:11:48.845Z
+date: 2021-04-25T03:05:24.586Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -166,7 +166,7 @@ This shows that $P(k+1)$ is true, namely that $k+1<2^{k+1}$, based on the assump
 Therefore, because we have completed both the basis step and the inductive step, by the principle of mathematical induction we have shown that $n \lt 2^n$ is true for all positive integers $n$.
 
 
-### Proving Divisibility Results
+### Proving Divisibility Results / Properties
 #### Example
 Use mathematical induction to prove that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$. 
 
