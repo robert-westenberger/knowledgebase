@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:28:56.915Z
+date: 2021-04-25T23:34:33.630Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -84,8 +84,13 @@ integers $j$ with $j \le k$. Then note that
 $$
 a^{k+1}=\frac{a^{k} \cdot a^{k}}{a^{k-1}}=\frac{1 \cdot 1}{1}=1
 $$
-### Soln
+### Solution
 The denominator contains $a^{k-1}$ (which is $a^k$, for which we have proved nothing). Our inductive step requires $k \ge 1$.. but we want to start induction at $k=0$. 
+## 41
+Show that the well-ordering property can be proved when
+the principle of mathematical induction is taken as an axiom.
+### Solution
+
 # Unsourced
 ## 1 
 Use the well ordering principle to prove that there is no solution over the positive integers to the equation
