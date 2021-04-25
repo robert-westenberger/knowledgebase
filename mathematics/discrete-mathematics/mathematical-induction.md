@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-25T03:05:24.586Z
+date: 2021-04-25T03:06:18.062Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -167,6 +167,8 @@ Therefore, because we have completed both the basis step and the inductive step,
 
 
 ### Proving Divisibility Results / Properties
+#### Example
+Prove that for each integer $n \ge 0$, $2^{2 n}-1$ is divisible by $3$.
 #### Example
 Use mathematical induction to prove that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$. 
 
