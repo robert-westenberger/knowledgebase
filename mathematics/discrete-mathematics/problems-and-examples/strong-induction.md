@@ -1,8 +1,8 @@
 ---
-title: Strong Induction Exercises
+title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T01:07:05.563Z
+date: 2021-04-25T02:09:13.554Z
 tags: discrete-mathematics
 editor: markdown
 ---
