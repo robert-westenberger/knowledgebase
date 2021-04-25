@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:44:50.327Z
+date: 2021-04-25T02:46:24.111Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -91,4 +91,12 @@ a^{3}+4y^{3}&=2t^{3} \quad \text {divide both sides by 2}\\
 \end{aligned}
 $$
 
-We see that $a^3$ is even, so $a$ must be even.
+We see that $a^3$ is even, so $a$ must be even. There must be an integer $d$ where $a=2d$. Substituting once more we get 
+
+$$
+\begin{aligned}
+(2d)^{3}+4y^{3}&=2t^{3} \\
+8d^{3}+4y^{3}&=2t^{3} \\
+8d^{3}+4y^{3}&=2t^{3} \quad \text {divide both sides by 2} \\
+\end{aligned}
+$$
