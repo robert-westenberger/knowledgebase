@@ -2,7 +2,7 @@
 title: Strong Induction Exercises
 description: 
 published: true
-date: 2021-04-24T23:54:50.685Z
+date: 2021-04-25T00:02:51.740Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -32,6 +32,6 @@ true whenever $n \ge 8$.
 ### Solution
 **a)**$P(8)=3 + 5$, $P(9)=3+3+3$, $P(10)=5+5$
 **b)** Inductive hypothesis is the statement that $P(k)$ is true, that is, a postage of $k$ cents can be formed from $3$ and $5$ cent stamps. 
-**c)**
-**d)**
-**e)**
+**c)** In the inductive step we need to prove $P(k) \rarr P(k+1)$ assuming $P(k)$ is true for $k \ge 8$.
+**d)** We assume $P(k)$, that a postage of $k$ cents can be formed from $3$ and $5$ cent stamps. Since $k \ge 10$, we can know that $P(k-2)$ is true, that we can form $k-2$ cents of postage. Put another $3$ cent stamp on the envelope, and we have formed $k+1$ cents of postage.
+**e)** We have completed both the basis and inductive steps, so by the principal of strong induction, the statement is true for every integer $n \ge 8$.
