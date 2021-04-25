@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:44:28.592Z
+date: 2021-04-25T02:44:50.327Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -90,3 +90,5 @@ $$
 a^{3}+4y^{3}&=2t^{3} \quad \text {divide both sides by 2}\\
 \end{aligned}
 $$
+
+We see that $a^3$ is even, so $a$ must be even.
