@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T02:46:24.111Z
+date: 2021-04-25T02:47:33.125Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -97,6 +97,6 @@ $$
 \begin{aligned}
 (2d)^{3}+4y^{3}&=2t^{3} \\
 8d^{3}+4y^{3}&=2t^{3} \\
-8d^{3}+4y^{3}&=2t^{3} \quad \text {divide both sides by 2} \\
+4d^{3}+2y^{3}&=t^{3} \quad \text {divide both sides by 2} \\
 \end{aligned}
 $$
