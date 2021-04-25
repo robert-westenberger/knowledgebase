@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-04-12T19:17:32.238Z
+date: 2021-04-25T23:56:59.468Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -31,7 +31,7 @@ Truth tables
 Deduction
 [Induction](/mathematics/discrete-mathematics/mathematical-induction)
 State machines
-
+[Strong Induction vs Induction vs Well Ordering](/mathematics/discrete-mathematics/when-to-use-incomplete-induction-vs-strong-induction)
 
 ## Mathematical Data Types
 [Sets](/mathematics/discrete-mathematics/sets)
