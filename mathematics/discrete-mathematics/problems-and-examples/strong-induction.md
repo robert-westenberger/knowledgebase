@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:13:26.646Z
+date: 2021-04-25T23:18:11.126Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -64,14 +64,26 @@ $P(n)=n-1 \medspace \text {moves are required to assemble a puzzle with} \medspa
 ## 29
 What is wrong with this “proof” by strong induction?
 “Theorem” For every nonnegative integer $n$, $5n = 0$.
-Basis Step: $5 \cdot 0 = 0$.
-Inductive Step: Suppose that $5j = 0$ for all nonnegative
+**Basis Step:** $5 \cdot 0 = 0$.
+**Inductive Step:** Suppose that $5j = 0$ for all nonnegative
 integers $j$ with $0 \le j \le k$. Write $k + 1 = i + j$ ,
 where $i$ and $j$ are natural numbers less than $k + 1$. By the
 inductive hypothesis, $5(k + 1) = 5(i + j) = 5i + 5j =
 0 + 0 = 0$.
+
 ### Soln
 The error is going from the basis step $n=0$ to the next value $n=1$. We can't write $1$ as the sum of two smaller natural numbers, so we can't invoke the inductive hypothesis. In the notation of the "proof", when $k=0$, we cannot write $0+1=i+j$ where $0 \le i \le 0$ and $0 \le j \le 0$.
+
+## 30
+Find the flaw with the following “proof” that $a^n = 1$ for
+all nonnegative integers $n$, whenever $a$ is a nonzero real
+number.
+**Basis Step:** $a^0 = 1$ is true by the definition of $a^0$.
+**Inductive Step:** Assume that $a^j = 1$ for all nonnegative
+integers $j$ with $j \le k$. Then note that
+$$
+a^{k+1}=\frac{a^{k} \cdot a^{k}}{a^{k-1}}=\frac{1 \cdot 1}{1}=1
+$$
 # Unsourced
 ## 1 
 Use the well ordering principle to prove that there is no solution over the positive integers to the equation
