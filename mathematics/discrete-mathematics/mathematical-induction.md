@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-25T03:23:27.399Z
+date: 2021-04-25T03:26:10.487Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -176,7 +176,7 @@ Let $P(n)$ denote the proposition "$2^{2 n}-1$" is divisible by $3$.
 
 **Inductive Hypothesis:** $P(k)=2^{2k}-1$ is true.
 **Inductive Step:** Assuming $P(k)$ is true we need to prove $P(k) \rarr P(k+1)$ where $P(k+1)=2^{2k+2}-1$.
-
+There is some $r$ where $2^{2k}-1=3r$.
 $$
 \begin{aligned}
 2^{2(k+1)}-1 &= 2^{2k + 2}-1 \\
