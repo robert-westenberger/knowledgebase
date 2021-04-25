@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:43:25.023Z
+date: 2021-04-25T23:44:17.918Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -86,6 +86,10 @@ a^{k+1}=\frac{a^{k} \cdot a^{k}}{a^{k-1}}=\frac{1 \cdot 1}{1}=1
 $$
 ### Solution
 The denominator contains $a^{k-1}$ (which is $a^k$, for which we have proved nothing). Our inductive step requires $k \ge 1$.. but we want to start induction at $k=0$. 
+## 31 
+Show that strong induction is a valid method of proof by
+showing that it follows from the well-ordering property.
+### Solution
 ## 41
 Show that the well-ordering property can be proved when the principle of mathematical induction is taken as an axiom.
 ### Solution
