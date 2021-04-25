@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:08:22.221Z
+date: 2021-04-25T23:10:37.197Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -70,6 +70,7 @@ integers $j$ with $0 \le j \le k$. Write $k + 1 = i + j$ ,
 where $i$ and $j$ are natural numbers less than $k + 1$. By the
 inductive hypothesis, $5(k + 1) = 5(i + j) = 5i + 5j =
 0 + 0 = 0$.
+### Soln
 # Unsourced
 ## 1 
 Use the well ordering principle to prove that there is no solution over the positive integers to the equation
