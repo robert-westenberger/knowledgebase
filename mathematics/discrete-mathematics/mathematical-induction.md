@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-25T03:18:27.269Z
+date: 2021-04-25T03:23:27.399Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -179,7 +179,11 @@ Let $P(n)$ denote the proposition "$2^{2 n}-1$" is divisible by $3$.
 
 $$
 \begin{aligned}
-2^{2(k+1)}-1 = \\
+2^{2(k+1)}-1 &= 2^{2k + 2}-1 \\
+&= 2^2 \cdot 2^{2k + 1} - 1 \\
+&=   2^{2k + 1} \cdot 4 - 1 \\
+&=   2^{2k + 1} \cdot 3 \\
+&=   3 (2^{2k + 1}) \\
 \end{aligned}
 $$
 #### Example
