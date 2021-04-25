@@ -2,7 +2,7 @@
 title: Strong Induction + More Well Ordering Principle Exercises
 description: 
 published: true
-date: 2021-04-25T23:34:33.630Z
+date: 2021-04-25T23:43:25.023Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -87,10 +87,9 @@ $$
 ### Solution
 The denominator contains $a^{k-1}$ (which is $a^k$, for which we have proved nothing). Our inductive step requires $k \ge 1$.. but we want to start induction at $k=0$. 
 ## 41
-Show that the well-ordering property can be proved when
-the principle of mathematical induction is taken as an axiom.
+Show that the well-ordering property can be proved when the principle of mathematical induction is taken as an axiom.
 ### Solution
-
+We will prove this by contradiction. Suppose that the well-ordering property were false. Let $S$ b e a counterexample: a nonempty set of nonnegative integers that contains no smallest element. Let $P(n)$ be the statement "$i \notin S$ for all $i \leq n$". We will show that $P(n)$ is true for all $n$ (which will contradict the assertion that $S$ is nonempty). Now $P(0)$ must be true, because if $0 \in S$ then clearly $S$ would have a smallest element, namely $0$. Suppose now that $P(n)$ is true, so that $i \notin S$. If $n+1 \in S$, then $n+1$ would be the smallest element of $S$, and this would contradict our assumption. Therefore $n+1 \notin S$. Thus we have shown by the principle of mathematical induction that $P(n)$ is true for all $n$, which means there can be no elements of $S$. This contradiction our assumption that $S \ne \emptyset$, and our proof by contradiction is complete. 
 # Unsourced
 ## 1 
 Use the well ordering principle to prove that there is no solution over the positive integers to the equation
