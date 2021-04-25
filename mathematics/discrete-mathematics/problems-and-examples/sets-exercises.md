@@ -2,7 +2,7 @@
 title: Sets Exercises
 description: 
 published: true
-date: 2021-04-12T02:58:39.402Z
+date: 2021-04-25T01:19:27.042Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -96,3 +96,17 @@ Let $A$ be a set. Show that $\emptyset \times A = A \times \emptyset = \emptyset
 
 #### Solution
 By definition, $\emptyset \times A$ consists of all pairs $(x, a)$ such that $x \in \emptyset$ and $a \in A$. Since there are no elements $x \in \emptyset$, there are no such pairs, so $\emptyset \times A = \emptyset$. Similar reasoning shows that $A \times \emptyset = \emptyset$.
+
+
+## Other Set problems
+Subset take-away is a two player game involving a fixed finite set, $A$. Players alternately choose proper, nonempty subsets of $A$ with the condition that one may not name a set
+containing a set that was named earlier. A player who is unable to move loses.
+For example, if $A$ is ${1}$, then there are no legal moves and the second player wins. If $A$ is ${1, 2}$,
+then the only legal moves are ${1}$ and ${2}$. Each is a good reply to the other, and so once again the
+second player wins.
+The first interesting case is when $A$ has three elements. This time, if the first player picks a subset
+with one element, the second player picks the subset with the other two elements. If the first
+player picks a subset with two elements, the second player picks the subset whose sole member
+is the third element. Both cases produce positions equivalent to the starting position when $A$ has
+two elements, and thus leads to a win for the second player.
+Verify that when A has four elements, the second player still has a winning strategy
