@@ -1,8 +1,8 @@
 ---
-title: When to Use Strong Induction vs Incomplete Induction
+title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-23T20:51:23.935Z
+date: 2021-04-25T23:56:17.351Z
 tags: discrete-mathematics
 editor: markdown
 ---
