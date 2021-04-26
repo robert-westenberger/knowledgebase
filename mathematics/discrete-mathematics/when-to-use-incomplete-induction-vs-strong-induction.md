@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T01:13:35.379Z
+date: 2021-04-26T01:14:08.449Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -57,4 +57,4 @@ $$
 F_{n}=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n}-\left(\frac{1-\sqrt{5}}{2}\right)^{n}}{\sqrt{5}}
 $$
 
-**Scratch:** Because $F_0$ and $F_1$ are defined separately from $F_n$ for $n \ge 2$, we check the formula for these cases separately. For $n \ge 2$, the definition of $F_n$ suggests that we should use the assumption that the formula is correct for $F_{n-2}$ and $F_{n-1}$
+**Scratch:** Because $F_0$ and $F_1$ are defined separately from $F_n$ for $n \ge 2$, we check the formula for these cases separately. For $n \ge 2$, the definition of $F_n$ suggests that we should use the assumption that the formula is correct for $F_{n-2}$ and $F_{n-1}$ to prove it is correct for $F_n$. Because we need to know that the formula works for the two previous cases, we must use strong induction rather than regular induction.
