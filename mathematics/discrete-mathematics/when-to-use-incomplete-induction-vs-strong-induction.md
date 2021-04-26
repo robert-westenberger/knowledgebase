@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T01:14:08.449Z
+date: 2021-04-26T01:17:36.719Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -57,4 +57,41 @@ $$
 F_{n}=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n}-\left(\frac{1-\sqrt{5}}{2}\right)^{n}}{\sqrt{5}}
 $$
 
-**Scratch:** Because $F_0$ and $F_1$ are defined separately from $F_n$ for $n \ge 2$, we check the formula for these cases separately. For $n \ge 2$, the definition of $F_n$ suggests that we should use the assumption that the formula is correct for $F_{n-2}$ and $F_{n-1}$ to prove it is correct for $F_n$. Because we need to know that the formula works for the two previous cases, we must use strong induction rather than regular induction.
+**Scratch:** Because $F_0$ and $F_1$ are defined separately from $F_n$ for $n \ge 2$, we check the formula for these cases separately. For $n \ge 2$, the definition of $F_n$ suggests that we should use the assumption that the formula is correct for $F_{n-2}$ and $F_{n-1}$ to prove it is correct for $F_n$. **Because we need to know that the formula works for the two previous cases, we must use strong induction rather than regular induction.** 
+
+**Proof:** We use strong induction. Let $n$ be an arbitrary natural number, and suppose that for all $k \lt n$, 
+
+$$
+F_{k}=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{k}-\left(\frac{1-\sqrt{5}}{2}\right)^{k}}{\sqrt{5}}
+$$
+
+We proceed by cases.
+
+**Case 1:** $n=0$. Then, 
+
+$$
+\begin{aligned}
+\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n}-\left(\frac{1-\sqrt{5}}{2}\right)^{n}}{\sqrt{5}} &=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{0}-\left(\frac{1-\sqrt{5}}{2}\right)^{0}}{\sqrt{5}} \\
+&=\frac{1-1}{\sqrt{5}}=0=F_{0}
+\end{aligned}
+$$
+
+**Case 2:** $n=1$. Then, 
+
+$$
+\begin{aligned}
+\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n}-\left(\frac{1-\sqrt{5}}{2}\right)^{n}}{\sqrt{5}} &=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{1}-\left(\frac{1-\sqrt{5}}{2}\right)^{1}}{\sqrt{5}} \\
+&=\frac{\sqrt{5}}{\sqrt{5}}=1=F_{1}
+\end{aligned}
+$$
+
+**Case 3:** $n \ge 2$. Applying the inductive hypothesis to $n-2$ and $n-1$, we get
+
+$$
+\begin{aligned}
+F_{n} &=F_{n-2}+F_{n-1} \\
+&=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n-2}-\left(\frac{1-\sqrt{5}}{2}\right)^{n-2}}{\sqrt{5}}+\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n-1}-\left(\frac{1-\sqrt{5}}{2}\right)^{n-1}}{\sqrt{5}} \\
+&=\frac{\left[\left(\frac{1+\sqrt{5}}{2}\right)^{n-2}+\left(\frac{1+\sqrt{5}}{2}\right)^{n-1}\right]-\left[\left(\frac{1-\sqrt{5}}{2}\right)^{n-2}+\left(\frac{1-\sqrt{5}}{2}\right)^{n-1}\right]}{\sqrt{5}} \\
+&=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n-2}\left[1+\frac{1+\sqrt{5}}{2}\right]-\left(\frac{1-\sqrt{5}}{2}\right)^{n-2}\left[1+\frac{1-\sqrt{5}}{2}\right]}{\sqrt{5}} .
+\end{aligned}
+$$
