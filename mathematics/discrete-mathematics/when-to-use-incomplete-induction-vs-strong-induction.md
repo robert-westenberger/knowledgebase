@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T01:10:55.749Z
+date: 2021-04-26T01:12:04.340Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -51,4 +51,8 @@ We proceed by cases.
 *Case 2:* $n \ge m$. Let $k=n-m \lt n$ and note that since $n \ge m$, $k$ is a natural number. By inductive hypothesis, we can choose $q^{\prime}$ and $r^{\prime}$ such that $k=m q^{\prime}+r^{\prime}$ and $r^{\prime}<m$. Then $n-m=m q^{\prime}+r^{\prime}$, so $n=m q^{\prime}+r^{\prime}+m=m\left(q^{\prime}+1\right)+r^{\prime}$. Thus, if we let $q=q^{\prime}+1$ and $r=r^{\prime}$, then we have $n=mq+r$ and $r \lt m$, as required. $\blacksquare$.
 
 ## Proof of formula for fibonacci numbers
+**Theorem:** If $F_n$ is the $n^{th}$ Fibonacci number, then 
 
+$$
+F_{n}=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n}-\left(\frac{1-\sqrt{5}}{2}\right)^{n}}{\sqrt{5}}
+$$
