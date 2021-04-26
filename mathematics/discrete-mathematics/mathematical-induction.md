@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-26T18:41:59.751Z
+date: 2021-04-26T19:04:43.121Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -225,7 +225,16 @@ Prove that for any odd number $m \ge 1$, the number $9$ divides $4^m+5^m$.
 Base case is $4+5=9$. 
 
 Since $m$ is odd it can be written as $2k+1$ for some $k \ge 1$ (definition of odd number). So for our theorem we have $9 \mid 4^{2 n+1}+5^{2 n+1}$ or $4^{2 n+1}+5^{2 n+1}=9k$
+We need to show $4^{2(n+1)+1}+5^{2(n+1)+1}$ is also divisible by $9$. 
 
+$$
+\begin{aligned}
+4^{2 n+3}+5^{2 n+3} &=16 \cdot 4^{2 n+1}+25 \cdot 5^{2 n+1}=16\left(4^{2 n+1}+5^{2 n+1}\right)+9 \cdot 5^{2 n+1} \\
+&=16 \cdot 9 k+9 \cdot 5^{2 n+1}=9\left(16 k+5^{2 n+1}\right)
+\end{aligned}
+$$
+
+Hence $4^{2(n+1)+1}+5^{2(n+1)+1}$ is also divisible by $9$.
 ### Proving Results About Sets
 
 #### Example - The Number of Subsets of a Finite Set
