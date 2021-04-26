@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T00:37:41.728Z
+date: 2021-04-26T00:50:36.679Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -37,4 +37,4 @@ There are two cases to consider, when $k+1$ is prime and when $k+1$ is composite
 
 The goal is an existential statement so we need to come up with values of $q$ and $r$ with the required properties. 
 
-If $n \lt m$ we can just let $q=0$ and $r=n$ (multiply a number by 0 and add the number to the product to get...itself). 
+If $n \lt m$ we can just let $q=0$ and $r=n$ (multiply a number by 0 and add the number to the product to get...itself). For example $n=-5$, $m=3$, $q=0$, $r=-5$.
