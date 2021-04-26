@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-25T23:56:17.351Z
+date: 2021-04-26T00:20:25.022Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -28,3 +28,8 @@ Let $P(n)$ be the proposition that $n$ can be written as the product of primes.
 To complete the inductive step, it must be shown that $P(k+1)$ is true under this assumption, that is, that $k+1$ is the product of primes. 
 
 There are two cases to consider, when $k+1$ is prime and when $k+1$ is composite. If $k+1$ is prime, we immediately see that $P(k+1)$ is true. Otherwise, $k+1$ is composite and can be written as the product of two positive integers $a$ and $b$ with $2 \leq a \leq b<k+1$. Because both $a$ and $b$ are integers at least $2$ and not exceeding $k$, we can use the inductive hypothesis to write both $a$ and $b$ as the product of primes. Thus, if $k+1$ is composite, it can be written as the product of primes, namely, those primes in the factorization of $a$ and thoser in the factorization of $b$. 
+
+
+## Proof of division algorithm
+For all natural numbers $n$ and $m$, if $m \gt 0$, then there are natural numbers $q$ and $r$ such that $n=mq+r$ and $r \lt m$ (the numbers $q$ and $r$ are called the quotient and remainder when $n$ is divided by $m$).
+
