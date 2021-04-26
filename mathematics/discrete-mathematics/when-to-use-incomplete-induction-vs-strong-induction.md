@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T00:51:24.970Z
+date: 2021-04-26T00:57:15.944Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -38,3 +38,5 @@ There are two cases to consider, when $k+1$ is prime and when $k+1$ is composite
 The goal is an existential statement so we need to come up with values of $q$ and $r$ with the required properties. 
 
 If $n \lt m$ we can just let $q=0$ and $r=n$ (multiply a number by 0 and add the number to the product to get...itself). For example $n=-5$, $m=3$, $q=-2$, $r=1$ becomes $n=-5$, $m=3$, $q=0$, $r=-5$.
+
+If $n \ge m$, this won't work, since we must have $m \gt r$, so we must do something different. The inductive hypothesis starts with $\forall k \lt n$, so to apply it we should plug in some nat num smaller than $n$ for $k$, but what should we plug in??
