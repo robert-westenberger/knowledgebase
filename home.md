@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-03-15T18:14:36.178Z
+date: 2021-04-26T01:08:26.043Z
 tags: 
 editor: markdown
 ---
@@ -13,3 +13,5 @@ editor: markdown
 
 
 [Todo](/todo)
+
+**4-25** - stopped at how to prove it 2nd ed 6.4 (strong induction)
