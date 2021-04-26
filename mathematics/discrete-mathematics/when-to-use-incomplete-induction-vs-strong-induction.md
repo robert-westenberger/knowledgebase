@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T01:17:36.719Z
+date: 2021-04-26T01:21:11.759Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -94,4 +94,16 @@ F_{n} &=F_{n-2}+F_{n-1} \\
 &=\frac{\left[\left(\frac{1+\sqrt{5}}{2}\right)^{n-2}+\left(\frac{1+\sqrt{5}}{2}\right)^{n-1}\right]-\left[\left(\frac{1-\sqrt{5}}{2}\right)^{n-2}+\left(\frac{1-\sqrt{5}}{2}\right)^{n-1}\right]}{\sqrt{5}} \\
 &=\frac{\left(\frac{1+\sqrt{5}}{2}\right)^{n-2}\left[1+\frac{1+\sqrt{5}}{2}\right]-\left(\frac{1-\sqrt{5}}{2}\right)^{n-2}\left[1+\frac{1-\sqrt{5}}{2}\right]}{\sqrt{5}} .
 \end{aligned}
+$$
+
+Now we note that 
+
+$$
+\left(\frac{1+\sqrt{5}}{2}\right)^{2}=\frac{1+2 \sqrt{5}+5}{4}=\frac{6+2 \sqrt{5}}{4}=\frac{3+\sqrt{5}}{2}=1+\frac{1+\sqrt{5}}{2}
+$$
+
+and similarly 
+
+$$
+\left(\frac{1-\sqrt{5}}{2}\right)^{2}=1+\frac{1-\sqrt{5}}{2}
 $$
