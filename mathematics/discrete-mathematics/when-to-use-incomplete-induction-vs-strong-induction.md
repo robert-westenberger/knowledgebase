@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T00:20:25.022Z
+date: 2021-04-26T00:25:29.076Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -31,5 +31,7 @@ There are two cases to consider, when $k+1$ is prime and when $k+1$ is composite
 
 
 ## Proof of division algorithm
-For all natural numbers $n$ and $m$, if $m \gt 0$, then there are natural numbers $q$ and $r$ such that $n=mq+r$ and $r \lt m$ (the numbers $q$ and $r$ are called the quotient and remainder when $n$ is divided by $m$).
+**Theorem:** For all natural numbers $n$ and $m$, if $m \gt 0$, then there are natural numbers $q$ and $r$ such that $n=mq+r$ and $r \lt m$ (the numbers $q$ and $r$ are called the quotient and remainder when $n$ is divided by $m$).
+
+**Scratch Work:** We let $m$ be an arbitrary positive integer and then we use strong induction to prove that $\forall n \exists q \exists r(n=m q+r \wedge r<m)$ (for all $n \in \natnums$ there exists a $q$ and $r$ where $n$ is equal to $mq+r$ and $r$ is less than $m$.
 
