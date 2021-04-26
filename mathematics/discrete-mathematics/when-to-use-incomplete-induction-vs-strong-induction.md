@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T01:00:12.173Z
+date: 2021-04-26T01:00:59.192Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -42,3 +42,5 @@ If $n \lt m$ we can just let $q=0$ and $r=n$ (multiply a number by 0 and add the
 If $n \ge m$, this won't work, since we must have $m \gt r$, so we must do something different. The inductive hypothesis starts with $\forall k \lt n$, so to apply it we should plug in some nat num smaller than $n$ for $k$, but what should we plug in?? If we think of division as repeated subtraction, then dividing $n$ by $m$ invovles subtracting $m$ from $n$ repeatedly. The first step would be to compute $n-m$, which is a natural number smaller than $n$. Perhaps we should plug in $n-m$ for $k$. Note that we are using the fact that a quotient and remainder exist for some nat number smaller than $n$ to prove they exist for $n$, but this smaller number is not $n-1$ its $n-m$. **This is why we need strong induction**.
 
 **Proof:**
+
+
