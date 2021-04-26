@@ -2,7 +2,7 @@
 title: Strong Induction vs Induction vs Well Ordering
 description: 
 published: true
-date: 2021-04-26T00:25:29.076Z
+date: 2021-04-26T00:37:41.728Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -33,5 +33,8 @@ There are two cases to consider, when $k+1$ is prime and when $k+1$ is composite
 ## Proof of division algorithm
 **Theorem:** For all natural numbers $n$ and $m$, if $m \gt 0$, then there are natural numbers $q$ and $r$ such that $n=mq+r$ and $r \lt m$ (the numbers $q$ and $r$ are called the quotient and remainder when $n$ is divided by $m$).
 
-**Scratch Work:** We let $m$ be an arbitrary positive integer and then we use strong induction to prove that $\forall n \exists q \exists r(n=m q+r \wedge r<m)$ (for all $n \in \natnums$ there exists a $q$ and $r$ where $n$ is equal to $mq+r$ and $r$ is less than $m$.
+**Scratch Work:** We let $m$ be an arbitrary positive integer and then we use strong induction to prove that $\forall n \exists q \exists r(n=m q+r \wedge r<m)$ (for all $n \in \natnums$ there exists a $q$ and $r$ where $n$ is equal to $mq+r$ and $r$ is less than $m$. According to strong induction, this means we should let $n$ be an arbitrary natural number, assume that $\forall k<n \exists q \exists r(k=m q+r \wedge r<m)$ ( $P(n)$ is true for all $n \le k$) and prove that $\exists q \exists r(n=m q+r \wedge r<m)$.
 
+The goal is an existential statement so we need to come up with values of $q$ and $r$ with the required properties. 
+
+If $n \lt m$ we can just let $q=0$ and $r=n$ (multiply a number by 0 and add the number to the product to get...itself). 
