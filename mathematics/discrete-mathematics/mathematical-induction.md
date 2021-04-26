@@ -2,7 +2,7 @@
 title: Mathematical Induction
 description: 
 published: true
-date: 2021-04-25T03:39:39.513Z
+date: 2021-04-26T18:40:02.059Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -218,6 +218,13 @@ By **ii** and the inductive hypothesis, we conclude that the first term in the l
 
 Because we have completed the base and inductive steps, by mathemtical induction we know that $7^{n+2}+8^{2 n+1}$ is divisible by $57$ for every nonnegative integer $n$.
 
+#### Example
+
+Prove that for any odd number $m \ge 1$, the number $9$ divides $4^m+5^m$.
+
+Base case is $4+5=9$. 
+
+Since $m$ is odd it can be written as $2k+1$ for some $k \ge 1$ (definition of odd number).
 ### Proving Results About Sets
 
 #### Example - The Number of Subsets of a Finite Set
