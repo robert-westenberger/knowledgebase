@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:29:23.923Z
+date: 2021-04-27T18:29:45.669Z
 tags: discrete-mathematics
 editor: markdown
 ---
