@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-21T18:56:26.966Z
+date: 2021-04-27T17:38:23.623Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -375,6 +375,8 @@ $$
 & \gt k^{2}+2 k+1=(k+1)^{2}
 \end{aligned}
 $$
+## Proof by Induction (Involving Inequality)
+Prove $n! \ge 2^n$ for $n \ge 4$
 
 
 ## Proof by Induction (Involving summation)
