@@ -2,13 +2,13 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-27T19:18:42.070Z
+date: 2021-04-27T19:26:06.527Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
 # Binary Relations
-A **binary relation**, $R$, consists of a set, $A$, called the **domain** of $R$, a set, $B$, called the **codomain** of $R$, and a subset of $A \times B$ called the **graph** of $R$. 
+A **binary relation**, $R$, consists of a set, $A$, called the **domain** of $R$, a set, $B$, called the **codomain** of $R$, and a subset of $A \times B$ called the **graph** of $R$. The graph of a function has the property that every element of $A$ is the first element of exactly one ordered pair of the graph.
 
 A relation whose domain is $A$ and codomain is $B$ is said to be "between $A$ and $B$", or "from $A$ to $B$." 
 
