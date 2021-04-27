@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-27T19:12:23.003Z
+date: 2021-04-27T19:16:01.134Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -16,6 +16,7 @@ When the domain and codomain are the same set, $A$, we simply say the relation i
 
 It is common to use "$a \medspace R \medspace b$" to mean the pair $(a, b)$ is in the graph of $R$.
 
+Relationships between elements of more than two sets arise in many contexts. These relationships can be represented by $n$-ary relations, which are collections of $n$-tuples. Such relations are the basis of the relational data model, the most common way to store information in computer databses.
 ## Types Binary Relations
 (Diagrams of two example functions)![diagrams_of_two_functions.png](/diagrams_of_two_functions.png)
 
