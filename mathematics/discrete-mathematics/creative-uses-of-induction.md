@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:41:08.991Z
+date: 2021-04-27T18:41:42.124Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -35,4 +35,4 @@ $$
 \text {If any square is removed from a} \medspace 2^k+1 \times 2^k+1 \medspace \text{checkerboard, then the} \medspace \\ \text {remaining squares can be completely coverd by L-shaped trominoes.}
 $$
 
-Consider a $2^{k+1} \times 2^{k+1}$ checkerboard with one square removed. Divide it into four equal quadrants. 
+Consider a $2^{k+1} \times 2^{k+1}$ checkerboard with one square removed. Divide it into four equal quadrants. Each will consist of a $2^k \times 2^k$ checkerboard.
