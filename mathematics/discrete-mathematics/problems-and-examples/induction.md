@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-27T17:38:23.623Z
+date: 2021-04-27T17:39:36.088Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -378,7 +378,7 @@ $$
 ## Proof by Induction (Involving Inequality)
 Prove $n! \ge 2^n$ for $n \ge 4$
 
-
+Base case $P(4)=24 \ge 16$.
 ## Proof by Induction (Involving summation)
 **Theorem:** For all $n \in \mathbb{N}, 0^{3}+1^{3}+2^{3}+\cdots+n^{3}=\lbrack n(n+1) / 2\rbrack^{2}$.
 **Proof:**
