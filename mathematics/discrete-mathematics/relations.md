@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-27T19:31:58.087Z
+date: 2021-04-27T19:34:17.806Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -22,6 +22,8 @@ Relationships between elements of more than two sets arise in many contexts. The
 
 
 ### Reflexive
+
+
 ## Types Binary Relations
 (Diagrams of two example functions)![diagrams_of_two_functions.png](/diagrams_of_two_functions.png)
 
