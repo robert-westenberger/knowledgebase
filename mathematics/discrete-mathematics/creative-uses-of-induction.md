@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:33:46.191Z
+date: 2021-04-27T18:34:31.942Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -24,3 +24,13 @@ $$
 **Base Case:** $P(1)$ is a $2^1 \times 2^1$ checkerboard, which is just $4$ squares. If one square is removed, the rest form an L shaped trionimo which completely covers the rest of the checkerboard. 
 
 **Inductive Step:** We aim to prove that if $P(k) \rarr P(k+1)$ is $P(k)$ is true. 
+
+Let $P(k)$ be the sentence
+$$
+\text {If any square is removed from a} \medspace 2^k \times 2^k \medspace \text{checkerboard, then the} \medspace \\ \text {remaining squares can be completely coverd by L-shaped trominoes.}
+$$
+
+Let $P(k+1)$ be the sentence
+$$
+\text {If any square is removed from a} \medspace 2^k+1 \times 2^k+1 \medspace \text{checkerboard, then the} \medspace \\ \text {remaining squares can be completely coverd by L-shaped trominoes.}
+$$
