@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-27T17:52:01.027Z
+date: 2021-04-27T17:52:28.239Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -379,6 +379,7 @@ $$
 Prove $n! \ge 2^n$ for $n \ge 4$
 
 **Base case:** $P(4)=24 \ge 16$. 
+**Inductive Step:**
 $$
 \begin{aligned}
 (k+1)! &= (k+1)k!\text{ (by the definition of factorial)}\\
