@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:30:48.128Z
+date: 2021-04-27T18:31:07.748Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -22,3 +22,5 @@ $$
 $$
 
 **Base Case:** $P(1)$ is a $2^1 \times 2^1$ checkerboard, which is just $4$ squares. If one square is removed, the rest form an L shaped trionimo which completely covers the rest of the checkerboard. 
+
+**Inductive Step:** We aim 
