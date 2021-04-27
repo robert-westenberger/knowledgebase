@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:48:02.143Z
+date: 2021-04-27T18:49:40.056Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -40,6 +40,6 @@ Consider a $2^{k+1} \times 2^{k+1}$ checkerboard with one square removed. Divide
 
 In one of the quadrants, one square will have been removed, and so by the inductive hypothesis, all the remaining squares in this quadrant can be completely covered by L-shaped trionimoes.
 
-The other three quadrants meet at the center of the checkerboard. The center of the checkerboard serves as a corner of a square from each of those quadrants. An L-shaped trionimo can be placed on those three central squares (illustrated above).
+The other three quadrants meet at the center of the checkerboard. The center of the checkerboard serves as a corner of a square from each of those quadrants. An L-shaped trionimo can be placed on those three central squares (illustrated above.. note that each of those three quadrants only has 1 square occupied with the placement of the initial trionimo.. the bottom left kind of looks like 2 are shaded).
 
 By inductive hypothesis, the remaining squares in each of the three quadrants can be completely covered by L-shaped trionimoes. Thus every square in the $2^{k+1} \times 2^{k+1}$ checkerboard except the one that aws removed can be compeltely covered by L-shaped trionimoes.
