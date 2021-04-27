@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-27T19:35:26.869Z
+date: 2021-04-27T19:35:44.752Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -98,7 +98,7 @@ $$
 $$
 for all $x \in A$.
 
-## Types Binary Relations of Functions
+## Types Functions
 (Diagrams of two example functions)![diagrams_of_two_functions.png](/diagrams_of_two_functions.png)
 
 (Left is total and surjective, but not injective)
