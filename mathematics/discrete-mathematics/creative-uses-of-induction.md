@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:29:45.669Z
+date: 2021-04-27T18:30:48.128Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -20,3 +20,5 @@ We use induction. Let $P(n)$ be the sentence
 $$
 \text {If any square is removed from a} \medspace 2^n \times 2^n \medspace \text{checkerboard, then the} \medspace \\ \text {remaining squares can be completely coverd by L-shaped trominoes.}
 $$
+
+**Base Case:** $P(1)$ is a $2^1 \times 2^1$ checkerboard, which is just $4$ squares. If one square is removed, the rest form an L shaped trionimo which completely covers the rest of the checkerboard. 
