@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:44:29.976Z
+date: 2021-04-27T18:44:38.048Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -38,4 +38,4 @@ $$
 Consider a $2^{k+1} \times 2^{k+1}$ checkerboard with one square removed. Divide it into four equal quadrants. Each will consist of a $2^k \times 2^k$ checkerboard.
 ![checkerboard.png](/checkerboard.png)
 
-In one of the quadrants, one square will have been removed, and so by the inductive hypothesis, all the remaining squares in this quadrant can be completely covered by trionimoes.
+In one of the quadrants, one square will have been removed, and so by the inductive hypothesis, all the remaining squares in this quadrant can be completely covered by L-shaped trionimoes.
