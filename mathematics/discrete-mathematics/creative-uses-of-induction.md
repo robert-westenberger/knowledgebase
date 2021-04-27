@@ -2,7 +2,7 @@
 title: Creative Uses of Induction
 description: 
 published: true
-date: 2021-04-27T18:31:07.748Z
+date: 2021-04-27T18:33:46.191Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -23,4 +23,4 @@ $$
 
 **Base Case:** $P(1)$ is a $2^1 \times 2^1$ checkerboard, which is just $4$ squares. If one square is removed, the rest form an L shaped trionimo which completely covers the rest of the checkerboard. 
 
-**Inductive Step:** We aim 
+**Inductive Step:** We aim to prove that if $P(k) \rarr P(k+1)$ is $P(k)$ is true. 
