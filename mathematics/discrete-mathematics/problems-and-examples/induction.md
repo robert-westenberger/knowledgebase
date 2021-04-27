@@ -2,7 +2,7 @@
 title: Induction Exercises
 description: 
 published: true
-date: 2021-04-27T17:39:36.088Z
+date: 2021-04-27T17:42:12.833Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -378,20 +378,22 @@ $$
 ## Proof by Induction (Involving Inequality)
 Prove $n! \ge 2^n$ for $n \ge 4$
 
-Base case $P(4)=24 \ge 16$.
+**Base case:** $P(4)=24 \ge 16$. 
+$$
+\begin{aligned}
+\end{aligned}
+$$
 ## Proof by Induction (Involving summation)
 **Theorem:** For all $n \in \mathbb{N}, 0^{3}+1^{3}+2^{3}+\cdots+n^{3}=\lbrack n(n+1) / 2\rbrack^{2}$.
 **Proof:**
 **Base Case:** $P(0) = 0^3 = \left(0 \times \frac{0+1}{2}\right)^{2} = 0$
 **Inductive Hypothesis:** $P(k)$ implies $P(k+1)$ where $P(k)=0^{3}+1^{3}+2^{3}+\cdots+k^{3}=\lbrack k(k+1) / 2\rbrack^{2}$ and $P(k+1)$ = $0^{3}+1^{3}+2^{3}+\cdots(k+1)^{3}=\lbrack (k+1)((k+1)+1) / 2\rbrack^{2}=\lbrack (k+1)((k+2) / 2\rbrack^{2}$.
 **Inductive Step:** 
-$$
-\begin{aligned}
-1^{3}+2^{3}+3^{3}+\cdots+k^{3}+(k+1)^{3} &=\frac{k^{2}(k+1)^{2}}{4}+(k+1)^{3} \\
-&=\frac{k^{2}(k+1)^{2}+4(k+1)^{3}}{4} \\
-&=\frac{(k+1)^{2}\left(k^{2}+4 k+4\right)}{4} \\
-&=\frac{(k+1)^{2}(k+2)^{2}}{4} \\
-1^{3}+2^{3}+3^{3}+\cdots+k^{3}+(k+1)^{3} &=\frac{(k+1)^{2}(k+2)^{2}}{4}
+$$\begin{aligned}
+(k+1)! &= (k+1)k!\text{ (by the definition of factorial)}\\
+&\ge (k+1)2^k\text{ (by the induction hypothesis)}\\
+&> 2\cdot2^k\text{ (since }k\ge 4\text{)}\\
+&= 2^{k+1}
 \end{aligned}
 $$
 
