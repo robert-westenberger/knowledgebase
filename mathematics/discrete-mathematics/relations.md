@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-28T17:34:08.811Z
+date: 2021-04-28T17:35:57.725Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -49,3 +49,5 @@ The less than or equal to relation is antisymmetric. $a \le b$ and $b \le a$ imp
 
 ### Transitive
 A relation $R$ on a set $A$ is called transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$, for all $a, b, c \in A$
+
+For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Longleftrightarrow x>y$. Since $a \gt b$ and $b \gt c$ then $a \gt c$ is true for all $a, b, c \in \mathbb{R}$, then $G$ is transitive.
