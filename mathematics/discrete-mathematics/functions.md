@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-28T18:38:33.961Z
+date: 2021-04-28T18:39:13.373Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -154,6 +154,7 @@ $$
 a \equiv_{f} b \quad \text { iff } \quad f(a)=f(b)
 $$
 for all $a, b \in A$
+A binary relation is an **equivalence relation** iff it equals $\equiv_{f}$ for some $f$.
 
 Abstractly, we assume there is some function that extracts the angles, size, color, or whatever other property of elements we’re interested in. Two elements would be considered equivalent iff the function extracts the same value for each.
 
