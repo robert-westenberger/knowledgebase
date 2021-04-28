@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-28T17:24:58.546Z
+date: 2021-04-28T17:25:43.960Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -32,10 +32,15 @@ In a reflexive relation, an element is always related to itself. For example, le
 ### Symmetric
 $(b, a) \in R$ whenever $(a,b) \in R$, for all $a,b \in A$. 
 A relation $R$ on $A$ is **symmetric** iff for all $a,b \in A$, if $aRb$ then $bRa$.
+
+
+In other words, a relation is **symmetric** iff $a$ is related to $b$ always implies that $b$ is related to $a$. 
+
+The equality relation is symmetric since $x=y \leftrightarrow y=x$. 
+
+
+### Antisymmetric
 A relation $R$ on a set $A$ such that for all $a,b \in A$, if $(a,b) \in R$ and $(b, a) \in R$, then $a=b$ is called **antisymmetric**.
-
-In other words, a relation is **symmetric** iff $a$ is related to $b$ always implies that $b$ is related to $a$. The equality relation is symmetric since $x=y \leftrightarrow y=x$. 
-
-A relation is **antisymmetric** iff there are no pairs of distinct elements $a$ and $b$ with $a$ related to $b$ and $b$ related to $a$.That is, the only way to have $a$ related to $b$ and $b$ related to $a$ is for $a$ and $b$ to be the same element. 
+In other words, a relation is **antisymmetric** iff there are no pairs of distinct elements $a$ and $b$ with $a$ related to $b$ and $b$ related to $a$.That is, the only way to have $a$ related to $b$ and $b$ related to $a$ is for $a$ and $b$ to be the same element. 
 
 The less than or equal to relation is antisymmetric.
