@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-28T18:58:10.241Z
+date: 2021-04-28T18:58:35.214Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -178,3 +178,5 @@ $$
 We could partition the pixels of an image by their color. So there will be between $2$ and several million blocks depending on whether the image is pure black and white or is true color.
 
 The relation of **being in the same block** is an equivalence relation. We can extract an equivalence relation from any partition, and conversely, we can define a partition determined by any equivalence relation. Partitions and equivalence relations are interchangeable ways of talking about the same thing.
+
+### Properties of Equivalence Relations
