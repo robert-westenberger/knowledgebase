@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-28T17:26:57.530Z
+date: 2021-04-28T17:34:08.811Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -46,3 +46,6 @@ In other words, a relation is **antisymmetric** iff there are no pairs of distin
 The less than or equal to relation is antisymmetric. $a \le b$ and $b \le a$ implies $a=b$.
 
 **Note that symmetric and asymmetric are not opposites.** A relation can have both or lack both.
+
+### Transitive
+A relation $R$ on a set $A$ is called transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$, for all $a, b, c \in A$
