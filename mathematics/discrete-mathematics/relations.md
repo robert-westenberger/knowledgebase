@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-28T17:12:28.564Z
+date: 2021-04-28T17:14:26.375Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -33,3 +33,7 @@ In a reflexive relation, an element is always related to itself. For example, le
 $(b, a) \in R$ whenever $(a,b) \in R$, for all $a,b \in A$. 
 A relation $R$ on $A$ is **symmetric** iff for all $a,b \in A$, if $aRb$ then $bRa$.
 A relation $R$ on a set $A$ such that for all $a,b \in A$, if $(a,b) \in R$ and $(b, a) \in R$, then $a=b$ is called **antisymmetric**.
+
+The relation $=$ is symmetric since $x=y \rightarrow y=x$. 
+
+Divides is not symmetric since $5 \mid 10$ but $10 \not \mid 5$
