@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-27T19:35:53.204Z
+date: 2021-04-28T18:16:30.227Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -20,6 +20,8 @@ $$
 f(a)=b
 $$
 indicates that $f$ assigns the element $b \in B$ to $a$. Here $b$ would be called the $value$ of $f$ at argument $a$.
+
+For example, consider two sets and a function. The first set is students in a discrete math class, $\{ \text{Adams}, \text{Chou}, \text{Smith}, \text{Rodriguez}, \text{Stevens} \}$. The second set are letter grades, $\{ \text{A}, \text{B}, \text{C}, \text{D}, \text{F} \}$.  The function $G$ assigns letter grades to students. Suppose the grades assigned are $A$ for $\text{Adams}$, $C$ for $\text{Chou}$, $B$ for $\text{Smith}$, $A$ for $\text{Rodriguez}$, $F$ for $\text{Stevens}$.
 ## Defining Functions
 Every function can be described in four ways: algebraically (formula), numerically (a table), graphically, or in words. 
 
