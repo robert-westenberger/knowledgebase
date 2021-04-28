@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-28T18:52:59.760Z
+date: 2021-04-28T18:56:18.805Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -174,3 +174,5 @@ $$
 \{3,-1,7,-5,11,-9, \ldots\}
 \end{array}
 $$
+
+We could partition the pixels of an image by their color. So there will be between $2$ and several million blocks depending on whether the image is pure black and white or is true color.
