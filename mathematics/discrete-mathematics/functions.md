@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-28T18:51:59.901Z
+date: 2021-04-28T18:52:59.760Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -164,3 +164,13 @@ For example, if $f_{c}$ is the function mapping a triangle to the lengths of its
 A partition of a set $A$, is a collection $\mathcal{A}$, of nonempty sets called the blocks of the partition such that 
 1. $A=\textstyle\bigcup_{B \in \mathcal A}B$ and
 2. if $B_{1} \neq B_{2}$ are blocks of $\mathcal A$, then $B_1$ and $B_2$ are disjoint (they have no elements in common and their intersection is empty).
+
+For example, we can partition the integers into four blocks according to whether their remainder on division by $4$ is $0$, $1$, $2$, or $3$:
+$$
+\begin{array}{l}
+\{0,4,-4,8,-8,12, \ldots\} \\
+\{1,-3,5,-7,9,-11, \ldots\} \\
+\{2,-2,6,-6,10,-10, \ldots\} \\
+\{3,-1,7,-5,11,-9, \ldots\}
+\end{array}
+$$
