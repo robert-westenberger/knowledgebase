@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-28T18:41:07.093Z
+date: 2021-04-28T18:51:42.161Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -161,3 +161,6 @@ Abstractly, we assume there is some function that extracts the angles, size, col
 For example, if $f_{c}$ is the function mapping a triangle to the lengths of its sides, then $f_{c}$ determines the congruence relation. If $f_{s}$ is the function mapping a triangle to the sizes of its angles, then $f_{s}$ determines the similarity relation.
 
 ### Partitions
+A partition of a set $A$, is a collection $\mathcal{A}$, of nonempty sets called the blocks of the partition such that 
+1. $A=\textstyle\bigcup_{B \in \mathcal A}B$ and
+2. if $B_{1} \neq B_{2}$ are blocks of $\mathcal A$, then $B_1$ and $B_2$ are disjoint.
