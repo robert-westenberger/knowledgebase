@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-28T18:37:31.130Z
+date: 2021-04-28T18:38:33.961Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -149,6 +149,12 @@ A function $f$ whose domain and codomain are subsets of the set of real numbers 
 ## Equivalence Relations
 
 ### Equivalence by Function
+Given any total function $f$ with domain $A$, define the binary relation $\equiv_{f}$ on $A$ by the rule 
+$$
+a \equiv_{f} b \quad \text { iff } \quad f(a)=f(b)
+$$
+for all $a, b \in A$
+
 Abstractly, we assume there is some function that extracts the angles, size, color, or whatever other property of elements we’re interested in. Two elements would be considered equivalent iff the function extracts the same value for each.
 
 For example, if $f_{c}$ is the function mapping a triangle to the lengths of its sides, then $f_{c}$ determines the congruence relation. If $f_{s}$ is the function mapping a triangle to the sizes of its angles, then $f_{s}$ determines the similarity relation.
