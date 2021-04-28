@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-28T17:25:43.960Z
+date: 2021-04-28T17:26:57.530Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -43,4 +43,6 @@ The equality relation is symmetric since $x=y \leftrightarrow y=x$.
 A relation $R$ on a set $A$ such that for all $a,b \in A$, if $(a,b) \in R$ and $(b, a) \in R$, then $a=b$ is called **antisymmetric**.
 In other words, a relation is **antisymmetric** iff there are no pairs of distinct elements $a$ and $b$ with $a$ related to $b$ and $b$ related to $a$.That is, the only way to have $a$ related to $b$ and $b$ related to $a$ is for $a$ and $b$ to be the same element. 
 
-The less than or equal to relation is antisymmetric.
+The less than or equal to relation is antisymmetric. $a \le b$ and $b \le a$ implies $a=b$.
+
+**Note that symmetric and asymmetric are not opposites.** A relation can have both or lack both.
