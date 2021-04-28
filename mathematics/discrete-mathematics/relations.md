@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-27T19:41:55.865Z
+date: 2021-04-28T17:07:14.429Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -29,3 +29,4 @@ $(a, a) \in R$ for every element $a \in A$.
 
 In a reflexive relation, an element is always related to itself. For example, let $R$ be the relation on the set of all people consisting of pairs $(x, y)$ where $x$ and $y$ have the same mother and the same father. Then $xRx$ for every person $x$.
 
+### Symmetric
