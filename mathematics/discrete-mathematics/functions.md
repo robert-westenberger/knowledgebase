@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:14:25.855Z
+date: 2021-04-29T19:26:11.824Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -214,7 +214,7 @@ For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Long
 A relation $R$ on a set $S$ is called a **partial ordering** if it is reflexive, antisymmetric, and transitive. A set $S$ together with a partial ordering $R$ is called a p**artially ordered set**, or **poset**, and is denoted by $(S,R)$ Members of set $S$ are called elements of the poset. 
 A general example of a partial order is the subset relation $\subset$ on sets. For any element, $a$, we think of a function, $g$, such that $g(a)$ is the set of properties that $a$ has. Then we relate different elements according to how their properties compare.
 
-For partial orders the symbols $\prec$ or $\preceq$ are used because they resemble the symbols used for subset and less-or-equal, which are the most common partial orders.
+For partial orders the symbols $\prec$ or $\preceq$ (or $\preccurlyeq$) are used because they resemble the symbols used for subset and less-or-equal, which are the most common partial orders.
 
 
 
