@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:51:51.179Z
+date: 2021-04-29T18:55:10.706Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -233,3 +233,5 @@ $$
 for all $a \neq b \in A$
 
 A partial order is called **weak** iff it is reflexive. For example, the relation $\le$ on the real numbers and the relation $\subseteq$ on sets, are weak partial orders.
+
+A binary relation, $R$, on a set, $A$,
