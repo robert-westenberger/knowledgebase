@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:14:56.437Z
+date: 2021-04-29T18:15:09.210Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -213,4 +213,4 @@ For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Long
 ## Partial Orders
 A general example of a partial order is the subset relation $\subset$ on sets. For any element, $a$, we think of a function, $g$, such that $g(a)$ is the set of properties that $a$ has. Then we relate different elements according to how their properties compare.
 
-For partial orders the symbols $\prec$ or $\preceq$ are used because they resemble the symbols used for subset and less-or-equal.
+For partial orders the symbols $\prec$ or $\preceq$ are used because they resemble the symbols used for subset and less-or-equal, which are the most common partial orders.
