@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:07:09.570Z
+date: 2021-04-29T19:08:10.118Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -239,7 +239,11 @@ A binary relation, $R$, on a set, $A$, is **irreflexive** iff for all $a \in A$ 
 The $\lt$ relation on the reals and the proper subset relation $\subset$ are strict partial orers. In general, a partial order may be neither weak nor strict; this happens when some elements are related to themselves and others are not.
 
 ### Properties of Partial Orders
-Every partial order is transitive.
+Every partial order is transitive. A binary relation, $R$, on a set, $A$, is antisymmetric if 
+$$
+a R b \text { implies } \neg(b R a)
+$$
+for all $a \neq b \in A$
 ## Total Orders
 Given any two numbers, one will be bigger than the other. Partial orders with this property are **total orders**.
 
