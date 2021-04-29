@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:39:40.868Z
+date: 2021-04-29T19:41:33.992Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -278,3 +278,7 @@ $$
 Let $R$ be a relation of set $A$, and let $B$ be a subset of $A$. The restriction of $R$ to $B$ is the relation on $B$ whose graph is $(R) \cap(B \times B)$
 
 Restriction preserves transitivity, symmetry, antisymmetry, asymmetry, refexivity, and irreflexivity. It doesn't preserve everything though (like surjectivity, nor whether it is a total relation).
+
+
+## Digraphs
+
