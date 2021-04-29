@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:27:26.662Z
+date: 2021-04-29T19:28:41.641Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -255,3 +255,11 @@ Given any two numbers, one will be bigger than the other. Partial orders with th
 Let $R$ be a binary relation on a set, $A$, and let $a,b$ be elements of $A$. Then $a$ and $b$ are comparable with respect to $R$ iff ($aRb$ or $bRa$). A partial order under which every two distinct elements are comparable is called a total order. 
 
 ## Products and Restrictions of Relations
+The product, $R_1 \times R_2$, of relations $R_1$ and $R_2$ is defined to be the relation with 
+$$
+\begin{aligned}
+\text { domain }\left(R_{1} \times R_{2}\right) &::=\operatorname{domain}\left(R_{1}\right) \times \operatorname{domain}\left(R_{2}\right) \\
+\operatorname{codomain}\left(R_{1} \times R_{2}\right) &::=\operatorname{codomain}\left(R_{1}\right) \times \operatorname{codomain}\left(R_{2}\right) \\
+\left(a_{1}, a_{2}\right)\left(R_{1} \times R_{2}\right)\left(b_{1}, b_{2}\right) & \text { iff }\left[a_{1} R_{1} b_{1} \text { and } a_{2} R_{2} b_{2}\right] .
+\end{aligned}
+$$
