@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:28:57.158Z
+date: 2021-04-29T19:31:55.570Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -263,3 +263,6 @@ $$
 \left(a_{1}, a_{2}\right)\left(R_{1} \times R_{2}\right)\left(b_{1}, b_{2}\right) & \text { iff }\left[a_{1} R_{1} b_{1} \text { and } a_{2} R_{2} b_{2}\right]
 \end{aligned}
 $$
+
+### Example of Product of Relations
+Define relation $Y$ on age-heght pairs of being younger and shorter. This is the relation on the set of pairs $(y,h)$ where $y$ is a nat num $\le 2400$ (age in months) and $h$ is a natural number $\le 120$ describing height in inches. 
