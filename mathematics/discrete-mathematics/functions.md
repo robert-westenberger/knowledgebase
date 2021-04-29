@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:21:45.396Z
+date: 2021-04-29T18:23:30.984Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -225,3 +225,6 @@ $$
 a R b \quad \text { iff } \quad a \prec_{g} b
 $$
 for all $a \neq b \in A$
+
+
+The most familiar examples of partial orders are the "less than relations", for example, the $\lt$ relation on real numbers. 
