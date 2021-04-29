@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:58:07.271Z
+date: 2021-04-29T19:02:40.798Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -239,3 +239,6 @@ A binary relation, $R$, on a set, $A$, is **irreflexive** iff for all $a \in A$ 
 The $\lt$ relation on the reals and the proper subset relation $\subset$ are strict partial orers. In general, a partial order may be neither weak nor strict; this happens when some elements are related to themselves and others are not.
 
 ## Total Orders
+Given any two numbers, one will be bigger than the other. Partial orders with this property are **total orders**.
+
+Let $R$ be a binary relation on a set, $A$, and let $a,b$ be elements of $A$. Then $a$ and $b$ are comparable with respect to $R$ iff ($aRb$ or $bRa$). A partial order under which every two distinct elements are comparable is called a total order. 
