@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:37:02.230Z
+date: 2021-04-29T18:51:51.179Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -215,6 +215,12 @@ A general example of a partial order is the subset relation $\subset$ on sets. F
 
 For partial orders the symbols $\prec$ or $\preceq$ are used because they resemble the symbols used for subset and less-or-equal, which are the most common partial orders.
 
+
+
+The most familiar examples of partial orders are the "less than relations", for example, the $\lt$ relation on real numbers. To see that $\lt$ is indeed a partial order, just define $h(r)::=\{q \in \mathbb{Q} \mid q<r\}$. Since there is a rational number between any two real numbers, it follows that $\lt$ is simply $\prec_{h}$. Likewise, the relation $\le$ is a partial order because it agrees with $\prec_{h}$ for all pairs of distinct real numbers.
+
+### Definitions
+
 Given any total function, $g$, form a set, $A$, to a collection of sets, define the binary relation $\prec_{g}$ on $A$ by the rule 
 
 $$
@@ -226,5 +232,4 @@ a R b \quad \text { iff } \quad a \prec_{g} b
 $$
 for all $a \neq b \in A$
 
-
-The most familiar examples of partial orders are the "less than relations", for example, the $\lt$ relation on real numbers. To see that $\lt$ is indeed a partial order, just define $h(r)::=\{q \in \mathbb{Q} \mid q<r\}$. Since there is a rational number between any two real numbers, it follows that $\lt$ is simply $\prec_{h}$. Likewise, the relation $\le$ is a partial order because it agrees with $\prec_{h}$ for all pairs of distinct real numbers.
+A partial order is called **weak** iff it is reflexive. For example, the relation $\le$ on the real numbers and the relation $\subseteq$ on sets, are weak partial orders.
