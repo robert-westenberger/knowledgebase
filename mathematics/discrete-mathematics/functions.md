@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:29:23.078Z
+date: 2021-04-29T18:36:15.228Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -227,4 +227,4 @@ $$
 for all $a \neq b \in A$
 
 
-The most familiar examples of partial orders are the "less than relations", for example, the $\lt$ relation on real numbers. To see that $\lt$ is indeed a partial order, just define $h(r)::=\{q \in \mathbb{Q} \mid q<r\}$. Since there is a rational number between any two real numbers, it follows that $\lt$ is simply \prec_{h}
+The most familiar examples of partial orders are the "less than relations", for example, the $\lt$ relation on real numbers. To see that $\lt$ is indeed a partial order, just define $h(r)::=\{q \in \mathbb{Q} \mid q<r\}$. Since there is a rational number between any two real numbers, it follows that $\lt$ is simply \prec_{h}.
