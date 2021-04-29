@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-04-28T17:35:57.725Z
+date: 2021-04-29T17:19:33.478Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -21,33 +21,3 @@ We use the notation $aRb$ to denote that $(a, b) \in R$ and $a \not{R} b$ to den
 When $(a, b)$ belongs to $R$, $a$ is said to be **related to** $b$ by $R$.
 Relationships between elements of more than two sets arise in many contexts. These relationships can be represented by $n$-ary relations, which are collections of $n$-tuples. Such relations are the basis of the relational data model, the most common way to store information in computer databases.
 
-## Properties of Relations
-
-
-### Reflexive
-$(a, a) \in R$ for every element $a \in A$.
-
-In a reflexive relation, an element is always related to itself. For example, let $R$ be the relation on the set of all people consisting of pairs $(x, y)$ where $x$ and $y$ have the same mother and the same father. Then $xRx$ for every person $x$.
-
-### Symmetric
-$(b, a) \in R$ whenever $(a,b) \in R$, for all $a,b \in A$. 
-A relation $R$ on $A$ is **symmetric** iff for all $a,b \in A$, if $aRb$ then $bRa$.
-
-
-In other words, a relation is **symmetric** iff $a$ is related to $b$ always implies that $b$ is related to $a$. 
-
-The equality relation is symmetric since $x=y \leftrightarrow y=x$. 
-
-
-### Antisymmetric
-A relation $R$ on a set $A$ such that for all $a,b \in A$, if $(a,b) \in R$ and $(b, a) \in R$, then $a=b$ is called **antisymmetric**.
-In other words, a relation is **antisymmetric** iff there are no pairs of distinct elements $a$ and $b$ with $a$ related to $b$ and $b$ related to $a$.That is, the only way to have $a$ related to $b$ and $b$ related to $a$ is for $a$ and $b$ to be the same element. 
-
-The less than or equal to relation is antisymmetric. $a \le b$ and $b \le a$ implies $a=b$.
-
-**Note that symmetric and asymmetric are not opposites.** A relation can have both or lack both.
-
-### Transitive
-A relation $R$ on a set $A$ is called transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$, for all $a, b, c \in A$
-
-For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Longleftrightarrow x>y$. Since $a \gt b$ and $b \gt c$ then $a \gt c$ is true for all $a, b, c \in \mathbb{R}$, then $G$ is transitive.
