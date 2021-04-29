@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:34:43.601Z
+date: 2021-04-29T19:36:40.121Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -265,6 +265,8 @@ $$
 $$
 
 Products preserve several of the relation properties we have considered. Transitivity, symmetry, reflexivity, and antisymmetry are preserved for $R_1 \times R_2$ if both $R_1$ and $R_2$ have those properties.
+
+Products **dont** preserve the property of being a total order. In the below example relating to age and height pairs, $(240,68)$ and $(228,72)$ are incomparable under $Y$ so $R_1 \times R_2$ is not total even though  both $R_1$ and $R_2$ are.
 ### Example of Product of Relations
 Define relation $Y$ on age-heght pairs of being younger and shorter. This is the relation on the set of pairs $(y,h)$ where $y$ is a nat num $\le 2400$ (age in months) and $h$ is a natural number $\le 120$ describing height in inches. $Y$ is defined by the rule
 
