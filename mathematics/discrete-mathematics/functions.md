@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:55:10.706Z
+date: 2021-04-29T18:55:55.066Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -234,4 +234,4 @@ for all $a \neq b \in A$
 
 A partial order is called **weak** iff it is reflexive. For example, the relation $\le$ on the real numbers and the relation $\subseteq$ on sets, are weak partial orders.
 
-A binary relation, $R$, on a set, $A$,
+A binary relation, $R$, on a set, $A$, is **irreflexive** iff for all $a \in A$ it is not true that $aRa$. A partial order is **strict** iff it is irreflexive.
