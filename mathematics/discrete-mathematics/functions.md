@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:26:11.824Z
+date: 2021-04-29T19:27:26.662Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -249,7 +249,9 @@ $$
 for all $a \neq b \in A$
 
 Every partial order is antisymmetric. 
-## Total Orders
+### Total Orders
 Given any two numbers, one will be bigger than the other. Partial orders with this property are **total orders**.
 
 Let $R$ be a binary relation on a set, $A$, and let $a,b$ be elements of $A$. Then $a$ and $b$ are comparable with respect to $R$ iff ($aRb$ or $bRa$). A partial order under which every two distinct elements are comparable is called a total order. 
+
+## Products and Restrictions of Relations
