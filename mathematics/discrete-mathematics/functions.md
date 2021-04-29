@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:10:33.947Z
+date: 2021-04-29T18:12:37.543Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -211,3 +211,4 @@ A relation $R$ on a set $A$ is called transitive if whenever $(a, b) \in R$ and 
 For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Longleftrightarrow x>y$. Since $a \gt b$ and $b \gt c$ then $a \gt c$ is true for all $a, b, c \in \mathbb{R}$, then $G$ is transitive.
 
 ## Partial Orders
+A general example of a partial order is the subset relation $\subset$ on sets. For any element, $a$, we think of a function, $g$, such that $g(a)$ is the set of properties that $a$ has. 
