@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:31:55.570Z
+date: 2021-04-29T19:34:43.601Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -254,7 +254,7 @@ Given any two numbers, one will be bigger than the other. Partial orders with th
 
 Let $R$ be a binary relation on a set, $A$, and let $a,b$ be elements of $A$. Then $a$ and $b$ are comparable with respect to $R$ iff ($aRb$ or $bRa$). A partial order under which every two distinct elements are comparable is called a total order. 
 
-## Products and Restrictions of Relations
+## Products of Relations
 The product, $R_1 \times R_2$, of relations $R_1$ and $R_2$ is defined to be the relation with 
 $$
 \begin{aligned}
@@ -264,5 +264,11 @@ $$
 \end{aligned}
 $$
 
+Products preserve several of the relation properties we have considered. Transitivity, symmetry, reflexivity, and antisymmetry are preserved for $R_1 \times R_2$ if both $R_1$ and $R_2$ have those properties.
 ### Example of Product of Relations
-Define relation $Y$ on age-heght pairs of being younger and shorter. This is the relation on the set of pairs $(y,h)$ where $y$ is a nat num $\le 2400$ (age in months) and $h$ is a natural number $\le 120$ describing height in inches. 
+Define relation $Y$ on age-heght pairs of being younger and shorter. This is the relation on the set of pairs $(y,h)$ where $y$ is a nat num $\le 2400$ (age in months) and $h$ is a natural number $\le 120$ describing height in inches. $Y$ is defined by the rule
+
+$$
+\left(y_{1}, h_{1}\right) Y\left(y_{2}, h_{2}\right) \quad \text { iff } \quad y_{1} \leq y_{2} \wedge h_{1} \leq h_{2}
+$$
+
