@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:28:41.641Z
+date: 2021-04-29T19:28:57.158Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -260,6 +260,6 @@ $$
 \begin{aligned}
 \text { domain }\left(R_{1} \times R_{2}\right) &::=\operatorname{domain}\left(R_{1}\right) \times \operatorname{domain}\left(R_{2}\right) \\
 \operatorname{codomain}\left(R_{1} \times R_{2}\right) &::=\operatorname{codomain}\left(R_{1}\right) \times \operatorname{codomain}\left(R_{2}\right) \\
-\left(a_{1}, a_{2}\right)\left(R_{1} \times R_{2}\right)\left(b_{1}, b_{2}\right) & \text { iff }\left[a_{1} R_{1} b_{1} \text { and } a_{2} R_{2} b_{2}\right] .
+\left(a_{1}, a_{2}\right)\left(R_{1} \times R_{2}\right)\left(b_{1}, b_{2}\right) & \text { iff }\left[a_{1} R_{1} b_{1} \text { and } a_{2} R_{2} b_{2}\right]
 \end{aligned}
 $$
