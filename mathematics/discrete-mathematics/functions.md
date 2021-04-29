@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:08:49.582Z
+date: 2021-04-29T19:14:25.855Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -211,6 +211,7 @@ A relation $R$ on a set $A$ is called transitive if whenever $(a, b) \in R$ and 
 For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Longleftrightarrow x>y$. Since $a \gt b$ and $b \gt c$ then $a \gt c$ is true for all $a, b, c \in \mathbb{R}$, then $G$ is transitive.
 
 ## Partial Orders
+A relation $R$ on a set $S$ is called a **partial ordering** if it is reflexive, antisymmetric, and transitive. A set $S$ together with a partial ordering $R$ is called a p**artially ordered set**, or **poset**, and is denoted by $(S,R)$ Members of set $S$ are called elements of the poset. 
 A general example of a partial order is the subset relation $\subset$ on sets. For any element, $a$, we think of a function, $g$, such that $g(a)$ is the set of properties that $a$ has. Then we relate different elements according to how their properties compare.
 
 For partial orders the symbols $\prec$ or $\preceq$ are used because they resemble the symbols used for subset and less-or-equal, which are the most common partial orders.
