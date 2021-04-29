@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:36:56.343Z
+date: 2021-04-29T19:38:16.835Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -275,3 +275,4 @@ $$
 $$
 
 ## Restrictions of Relations
+Let $R$ be a relation of set $A$, and let $B$ be a subset of $A$. The restriction of $R$ to $B$ is the relation on $B$ whose graph is $(R) \cap(B \times B)$
