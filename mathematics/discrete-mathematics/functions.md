@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:36:40.121Z
+date: 2021-04-29T19:36:56.343Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -274,3 +274,4 @@ $$
 \left(y_{1}, h_{1}\right) Y\left(y_{2}, h_{2}\right) \quad \text { iff } \quad y_{1} \leq y_{2} \wedge h_{1} \leq h_{2}
 $$
 
+## Restrictions of Relations
