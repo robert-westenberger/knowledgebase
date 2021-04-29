@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T18:15:09.210Z
+date: 2021-04-29T18:21:45.396Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -214,3 +214,14 @@ For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Long
 A general example of a partial order is the subset relation $\subset$ on sets. For any element, $a$, we think of a function, $g$, such that $g(a)$ is the set of properties that $a$ has. Then we relate different elements according to how their properties compare.
 
 For partial orders the symbols $\prec$ or $\preceq$ are used because they resemble the symbols used for subset and less-or-equal, which are the most common partial orders.
+
+Given any total function, $g$, form a set, $A$, to a collection of sets, define the binary relation $\prec_{g}$ on $A$ by the rule 
+
+$$
+a \prec_{g} b \quad \text { iff } \quad g(a) \subset g(b)
+$$
+for $a, b \in A$. A binary relation, $R$, on a set, $A$, is a partial order if and only if ther eis a $g$ such that $R$ agrees with $\prec_{g}$ for every pair of distinct elements. That is, 
+$$
+a R b \quad \text { iff } \quad a \prec_{g} b
+$$
+for all $a \neq b \in A$
