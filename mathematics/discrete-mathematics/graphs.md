@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T18:55:22.893Z
+date: 2021-04-30T18:57:15.449Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -26,11 +26,13 @@ Many of the relation properties have geometric descriptions in terms of digraphs
 **Transitivity:** Shortcircuits—for any path through the graph, there is an arrow from the first vertex to the last veretx in the path. 
 
 
-We can define some new relations based on paths. Let $R$ be a digraph with vertices, $A$. Define relations $R^{*}$ and $R^+$ on $A$ by the conditions that 
+We can define some new relations based on paths. Let $R$ be a digraph with vertices, $A$. Define relations $R^{\ast}$ and $R^+$ on $A$ by the conditions that 
 
 $$
 \begin{array}{ll}
-a R^{*} b & ::=  \quad \text{there is a path in} \medspace R \medspace \text{from} \medspace a \medspace \text {to} \medspace b \\
+a R^{\ast} b & ::=  \quad \text{there is a path in} \medspace R \medspace \text{from} \medspace a \medspace \text {to} \medspace b \\
 a R^{+} b & ::= \quad \text{there is a positive length path in} \medspace R \medspace \text{from} \medspace a \medspace \text {to} \medspace b 
 \end{array}
 $$
+
+$R^{\ast}$ is called the path
