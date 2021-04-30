@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:30:24.294Z
+date: 2021-04-30T19:30:39.282Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -48,3 +48,5 @@ If we were to add a relation from belt to underwear, that would create a **cycli
 A **cycle** is a positive length path in a digraph that begins and ends at the same vertex. A **directed acyclic graph** is a graph with no cycles.
 
 We use DAG's as an economic way to represent the dependency relation. Usually a task-graph DAG itself is not a transitive relation because it only includes the edges showing "direct" dependencies. Rather, the **dependency relation** we care about is defined by the positive length path relation, $R^+$, in the task graph. The dependency relation will always be a partial order. 
+
+## Topological Sorting
