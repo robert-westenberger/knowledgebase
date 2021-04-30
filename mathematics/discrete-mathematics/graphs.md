@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:15:20.339Z
+date: 2021-04-30T19:16:39.081Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -41,3 +41,5 @@ $R^{\ast}$ is called the **path relation** of $R$. It follows from the definitio
 Scheduling problems are a common source of partial orders: there is a set $A$ of tasks and a set of constraints specifying that starting a certain task depends on other tasks being completed beforehand. We represent the task by vertices and a constraint that task $a$ must finish before task $b$ can start by an arrow from $a$ to $b$. 
 Below is a directed acylcic graph that describes the order in which to put on clothes.
 ![directed_acyclic_graph_example.png](/directed_acyclic_graph_example.png)
+
+If we were to add a relation from belt to underwear, that would create a cyclic dependency and we would have no way to get dressed.
