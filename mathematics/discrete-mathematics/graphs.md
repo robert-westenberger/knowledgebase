@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T18:39:37.569Z
+date: 2021-04-30T18:41:45.573Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -23,4 +23,4 @@ Many of the relation properties have geometric descriptions in terms of digraphs
 
 **Irreflexivity:** No vertices have selfloops.
 **Symmetry:** All edges are bidirectional. 
-**Transitivity:** Shortcircuits—for any path
+**Transitivity:** Shortcircuits—for any path through the graph, there is an arrow from the first vertex to the last veretx in the path. 
