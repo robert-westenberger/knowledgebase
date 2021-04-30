@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:16:39.081Z
+date: 2021-04-30T19:17:32.901Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -42,4 +42,6 @@ Scheduling problems are a common source of partial orders: there is a set $A$ of
 Below is a directed acylcic graph that describes the order in which to put on clothes.
 ![directed_acyclic_graph_example.png](/directed_acyclic_graph_example.png)
 
-If we were to add a relation from belt to underwear, that would create a cyclic dependency and we would have no way to get dressed.
+If we were to add a relation from belt to underwear, that would create a **cyclic dependency** and we would have no way to get dressed.
+
+A **cycle** is a positive length path in a digraph that begins and ends at the same vertex. A **directed acyclic graph** is a graph with no cycles.
