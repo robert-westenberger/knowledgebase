@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T18:57:15.449Z
+date: 2021-04-30T19:00:05.618Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -35,4 +35,4 @@ a R^{+} b & ::= \quad \text{there is a positive length path in} \medspace R \med
 \end{array}
 $$
 
-$R^{\ast}$ is called the path
+$R^{\ast}$ is called the **path relation** of $R$. It follows from the definition of path that $R^{\ast}$ is transitive. IT is also reflexive because it has $0$ length paths. 
