@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T17:55:39.426Z
+date: 2021-04-30T18:13:26.140Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -13,3 +13,6 @@ A directed graph is the same as a binary relation on a set $A$, but we picture t
 Below, the divisibility relation on $\{1,2, \ldots, 12\}$ is represented by the following digraph:
 
 ![digraph_example_1.png](/digraph_example_1.png)
+
+## Paths in Digraphs
+A path in a digraph, $R$, is a sequence of vertices $a_{0}, \ldots, a_{k}$, with $k \ge 0$ such that $a_{i} R a_{i+1}$, for every $0 \le i \lt k$.
