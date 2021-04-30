@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T18:31:17.325Z
+date: 2021-04-30T18:39:37.569Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -17,4 +17,10 @@ Below, the divisibility relation on $\{1,2, \ldots, 12\}$ is represented by the 
 ## Paths in Digraphs
 A path in a digraph, $R$, is a sequence of vertices $a_{0}, \ldots, a_{k}$, with $k \ge 0$ such that $a_{i} R a_{i+1}$, for every $0 \le i \lt k$. The path is said to start at $a_0$, to end at $a_k$, and the length of the path is defined to be $k$.
 
-Many of the relation properties have geometric descriptions in terms of digraphs.
+Many of the relation properties have geometric descriptions in terms of digraphs. For example: 
+
+**Reflexivity:** All vertices have self loops (a self loop at a vertex is an arrow going from the vertex back to itself)
+
+**Irreflexivity:** No vertices have selfloops.
+**Symmetry:** All edges are bidirectional. 
+**Transitivity:** Shortcircuits—for any path
