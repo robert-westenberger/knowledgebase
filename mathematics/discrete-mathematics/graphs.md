@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:51:35.038Z
+date: 2021-04-30T19:55:08.440Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -68,3 +68,6 @@ A topological sort (one of a few possible) for our dressing example above could 
 $$
 \text { shirt } \sqsubset \text { sweater } \sqsubset \text { underwear } \sqsubset \text { leftsock } \sqsubset \text { rightsock } \sqsubset \text { pants } \sqsubset \text { leftshoe } \sqsubset \text { rightshoe } \sqsubset \text { belt } \sqsubset \text { jacket }
 $$
+
+
+Topological Sorts for finite DAGs are easy to construct by starting from minimal elements.
