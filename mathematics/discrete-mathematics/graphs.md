@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T18:13:26.140Z
+date: 2021-04-30T18:17:17.624Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -15,4 +15,4 @@ Below, the divisibility relation on $\{1,2, \ldots, 12\}$ is represented by the 
 ![digraph_example_1.png](/digraph_example_1.png)
 
 ## Paths in Digraphs
-A path in a digraph, $R$, is a sequence of vertices $a_{0}, \ldots, a_{k}$, with $k \ge 0$ such that $a_{i} R a_{i+1}$, for every $0 \le i \lt k$.
+A path in a digraph, $R$, is a sequence of vertices $a_{0}, \ldots, a_{k}$, with $k \ge 0$ such that $a_{i} R a_{i+1}$, for every $0 \le i \lt k$. The path is said to start at $a_0$, to end at $a_k$, and the length of the path is defined to be $k$.
