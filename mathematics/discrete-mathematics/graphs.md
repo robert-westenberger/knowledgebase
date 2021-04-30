@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:04:43.397Z
+date: 2021-04-30T19:11:52.238Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -38,3 +38,4 @@ $$
 $R^{\ast}$ is called the **path relation** of $R$. It follows from the definition of path that $R^{\ast}$ is transitive. IT is also reflexive because it has $0$ length paths and it contains the graph of $R$ because of the length-one paths. $R^+$ is called the positive-length path relation; it also contains graph $(R)$ and is transitive.
 
 ## Directed Acylic Graphs
+Scheduling problems are a common source of partial orders: there is a set $A$ of tasks and a set of constraints specifying that starting a certain task depends on other tasks being completed beforehand.
