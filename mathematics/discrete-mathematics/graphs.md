@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:50:34.260Z
+date: 2021-04-30T19:51:35.038Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -62,4 +62,9 @@ A topological sort of a partial order $\prec$ on a set $A$ is a total ordering $
 
 $$
 a \prec b \text { implies } a \sqsubset b
+$$
+
+A topological sort (one of a few possible) for our dressing example above could be 
+$$
+\text { shirt } \sqsubset \text { sweater } \sqsubset \text { underwear } \sqsubset \text { leftsock } \sqsubset \text { rightsock } \sqsubset \text { pants } \sqsubset \text { leftshoe } \sqsubset \text { rightshoe } \sqsubset \text { belt } \sqsubset \text { jacket }
 $$
