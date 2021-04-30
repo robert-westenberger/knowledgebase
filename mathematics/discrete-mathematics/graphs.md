@@ -2,10 +2,10 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T17:27:28.490Z
+date: 2021-04-30T17:28:02.751Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
-# Header
-Your content here
+# Directed Graph / Digraph
+A directed graph
