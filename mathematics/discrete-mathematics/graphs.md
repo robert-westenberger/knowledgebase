@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:17:32.901Z
+date: 2021-04-30T19:29:26.183Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -21,9 +21,10 @@ Many of the relation properties have geometric descriptions in terms of digraphs
 
 **Reflexivity:** All vertices have self loops (a self loop at a vertex is an arrow going from the vertex back to itself)
 
-**Irreflexivity:** No vertices have selfloops.
-**Symmetry:** All edges are bidirectional. 
-**Transitivity:** Shortcircuits—for any path through the graph, there is an arrow from the first vertex to the last veretx in the path. 
+**Irreflexivity:** Iff No vertices have selfloops.
+**Symmetry:** Iff All edges are bidirectional. 
+**Antisymmetry:** Iff there are never two edges in opposite directions between distinct vertices.
+**Transitivity:** Shortcircuits—for any path through the graph, there is an arrow from the first vertex to the last vertex in the path. 
 
 
 We can define some new relations based on paths. Let $R$ be a digraph with vertices, $A$. Define relations $R^{\ast}$ and $R^+$ on $A$ by the conditions that 
@@ -45,3 +46,5 @@ Below is a directed acylcic graph that describes the order in which to put on cl
 If we were to add a relation from belt to underwear, that would create a **cyclic dependency** and we would have no way to get dressed.
 
 A **cycle** is a positive length path in a digraph that begins and ends at the same vertex. A **directed acyclic graph** is a graph with no cycles.
+
+We use DAG's as an economic way to represent the dependency relation. Usually a task-graph DAG itself is not a transitive relation because it only includes the edges showing "direct" dependencies. Rather, the **dependency relation** we care about is defined by the positive length path relation, $R^+$, in the task graph. The dependency relation will always be a partial order. 
