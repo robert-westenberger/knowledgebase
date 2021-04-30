@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-04-30T19:39:10.624Z
+date: 2021-04-30T19:50:34.260Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -56,3 +56,10 @@ $$
 \circ \longrightarrow \circ \longrightarrow \cdots \longrightarrow \circ
 $$
 
+When we have a partial order of tasks to be performed, it can be useful to have an order in which to perform all the tasks, one at a time, while respecting the dependency constraints. This amounts to finding a total order that is consistent with the partial roder. This task of finding a total ordering that is consistent with a partial order is known as **topological sorting**.
+
+A topological sort of a partial order $\prec$ on a set $A$ is a total ordering $\sqsubset$ on $A$ such that 
+
+$$
+a \prec b \text { implies } a \sqsubset b
+$$
