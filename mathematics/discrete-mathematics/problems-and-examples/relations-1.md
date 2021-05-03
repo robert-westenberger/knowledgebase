@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:24:19.733Z
+date: 2021-05-03T18:27:58.358Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -41,3 +41,5 @@ Determine whether the relation $R$ on the set of all Web pages is reflexive, sym
 **b)** Not reflexive, any page $a$ that has links on it, $(a, a) \notin R$. $R$ is symmetric in its very definition. $R$ is not antisymmetric because there are surely two different webpages $a$ and $b$ that have no common links in them. Lastly, $R$ is not transitive since for webpages with no links in common, if they have links at all, give an example of a failure of the definition $(a, b) \in R$ and $(b,a) \in R$, but $(a, a) \notin R$.
 **c)**
 **d)**
+## Rosen 7th Edition Sec 9.1 Exercise 9
+Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
