@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T17:57:28.722Z
+date: 2021-05-03T18:00:16.077Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -27,3 +27,15 @@ it is antisymmetric, and whether it is transitive.
 **d)** Not reflexive or symmetrical. It is antisymmetric since there are no cases of $(a,b)$ being in the relation when $(b, a)$ is. It is not transitive since although $(1,2)$ and $(2,3)$ are in the relation, $(1,3)$ is not.
 **e)** Reflexive, symmetric, antisymmetric, and transitive (the only tyime the hypothesis ($(a, b) \in R \wedge(b, c) \in R$) is met is when $a=b=c$.
 **f)** Not reflexive or symmetric or antisymmetric. It is not transitive, since $(2,3)$ and $(3,1)$ are in the relation, but $(2,1)$ is not.
+
+## Rosen 7th Edition Sec 9.1 Exercise 5
+Determine whether the relation $R$ on the set of all Web pages is reflexive, symmetric, antisymmetric, and/or transitive, where $(a, b) \in R$ if and only if
+
+**a)** everyone who has visited Web page $a$ has also visited
+Web page $b$.
+**b)** there are no common links found on both Web
+page $a$ and Web page $b$.
+**c)** there is at least one common link onWeb page $a$ and
+Web page $b$.
+**d)** there is a Web page that includes links to both Web
+page $a$ and Web page $b$.
