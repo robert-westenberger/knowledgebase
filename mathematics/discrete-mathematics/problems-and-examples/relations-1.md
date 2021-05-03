@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T17:41:01.927Z
+date: 2021-05-03T17:48:40.370Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -21,8 +21,8 @@ it is antisymmetric, and whether it is transitive.
 **f)** $\{(1,3),(1,4),(2,3),(2,4),(3,1),(3,4)\}$.
 
 ### Soln
-**a)** 
-**b)** 
+**a)** Transitive.
+**b)** This is reflexive since it contains $(a, a) \in R$ for every $a \in A$. It is also symmetric since $(2,1)$ is in $R$ when $(1, 2)$ is. It is not antisymmetric since $(1,2)$ and $(2,1)$ are in the relation. It is transitive since $(1,2)$ and $(2, 1)$ are in the relation then $(1,1)$ and $(2,2)$ are in the relation as well.
 **c)** 
 **d)** 
 **e)** 
