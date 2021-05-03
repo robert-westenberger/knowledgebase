@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:34:09.383Z
+date: 2021-05-03T18:35:55.062Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -51,3 +51,6 @@ A relation $R$ on the set $A$ is irreflexive if for every $a \in A$, $(a, a) \no
 
 ### Soln
 c, d, f are irreflexive.
+
+## Rosen 7th Edition Sec 9.1 Exercise 15
+Can a relation on a set be neither reflexive nor irreflexive?
