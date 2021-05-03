@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-03T23:46:07.553Z
+date: 2021-05-03T23:47:49.736Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -228,7 +228,7 @@ $R_{6}=\left\{(a, b) \in \mathbf{R}^{2} \mid a \neq b\right\}$, the "unequal to"
 $R_{2} \cup R_{4}=$ all of $\mathbf{R}^{2}$. It's always true that $a \le b$ or $b \le a$, so the relation always holds.
 $R_3 \cup R_6=R_6$. $R_3 \cup R_6$ contains $(a, b)$ when $a \lt b$ or $a \ne b$. This only happens when $a \ne b$, 
 $R_3 \cap R_6=R_3$. $R_3 \cap R_6$ contains $(a,b)$ when $a \lt b \wedge a \ne b$, which happens preciesly when $a \lt b$.
-$R_4 \cap R_6=R_3$ contains $(a, b)$ when $a \le b \wedge a \ne b$. 
+$R_4 \cap R_6=R_3$ contains $(a, b)$ when $a \le b \wedge a \ne b$, which is also true for $R_3$.
 #### Example
 Consider $A=\{1,2,3\}$ and $B=\{1,2,3,4\}$. The relations $R_{1}=\{(1,1),(2,2),(3,3)\}$ and $R_{2}=\{(1,1),(1,2),(1,3),(1,4)\}$ can be combined to obtain 
 
