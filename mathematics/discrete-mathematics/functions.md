@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-03T19:02:00.820Z
+date: 2021-05-03T19:09:45.831Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -216,9 +216,16 @@ Relations from $A$ to $B$ are subsets of $A \times B$, two relations from $A$ to
 
 Let $R$ be a relation from set $A$ to set $B$ and $S$ a relation from $B$ to a set $C$. The **composite** of $R$ and $S$ is the relation consisting of ordered pairs $(a, c)$ where $a \in A$ and $c \in C$, and forwhich there exists an element $b \in B$ such that $(a,b) \in R$ and $(b, c) \in S$. We denote the composite of $R$ and $S$ by $S \circ R$
 ### Examples
+(Some examples below use the following relations..)
 $R_{1}=\left\{(a, b) \in \mathbf{R}^{2} \mid a>b\right\}$, the "greater than" relation,
 $R_{2}=\left\{(a, b) \in \mathbf{R}^{2} \mid a \geq b\right\}$, the "greater than or equal to" relation,
+$R_{3}=\left\{(a, b) \in \mathbf{R}^{2} \mid a<b\right\}$, the "less than" relation,
+$R_{4}=\left\{(a, b) \in \mathbf{R}^{2} \mid a \leq b\right\}$, the "less than or equal to" relation,
+$R_{5}=\left\{(a, b) \in \mathbf{R}^{2} \mid a=b\right\}$, the "equal to" relation,
+$R_{6}=\left\{(a, b) \in \mathbf{R}^{2} \mid a \neq b\right\}$, the "unequal to"relation.
 
+#### Example
+$R_{2} \cup R_{4}=$ all of $\mathbf{R}^{2}$
 #### Example
 Consider $A=\{1,2,3\}$ and $B=\{1,2,3,4\}$. The relations $R_{1}=\{(1,1),(2,2),(3,3)\}$ and $R_{2}=\{(1,1),(1,2),(1,3),(1,4)\}$ can be combined to obtain 
 
