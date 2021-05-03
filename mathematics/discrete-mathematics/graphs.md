@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-05-03T17:11:47.778Z
+date: 2021-05-03T17:14:15.076Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -72,4 +72,7 @@ $$
 
 Topological Sorts for finite DAGs are easy to construct by starting from minimal elements.
 
-## Parallel Task Scheduling
+### Parallel Task Scheduling
+Topological sorting provides a way to execute tasks sequentially without violating the dependencies. 
+
+A **chain** in a partial order is a set of elements such that any two elements in the set are incompatible.
