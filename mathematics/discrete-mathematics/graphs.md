@@ -2,7 +2,7 @@
 title: Graphs
 description: 
 published: true
-date: 2021-05-03T17:08:48.766Z
+date: 2021-05-03T17:11:47.778Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -72,3 +72,4 @@ $$
 
 Topological Sorts for finite DAGs are easy to construct by starting from minimal elements.
 
+## Parallel Task Scheduling
