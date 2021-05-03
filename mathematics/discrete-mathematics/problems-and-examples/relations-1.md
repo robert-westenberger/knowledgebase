@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:18:11.661Z
+date: 2021-05-03T18:24:19.733Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -31,14 +31,10 @@ it is antisymmetric, and whether it is transitive.
 ## Rosen 7th Edition Sec 9.1 Exercise 5
 Determine whether the relation $R$ on the set of all Web pages is reflexive, symmetric, antisymmetric, and/or transitive, where $(a, b) \in R$ if and only if
 
-**a)** everyone who has visited Web page $a$ has also visited
-Web page $b$.
-**b)** there are no common links found on both Web
-page $a$ and Web page $b$.
-**c)** there is at least one common link onWeb page $a$ and
-Web page $b$.
-**d)** there is a Web page that includes links to both Web
-page $a$ and Web page $b$.
+**a)** everyone who has visited Web page $a$ has also visitedWeb page $b$.
+**b)** there are no common links found on both Webpage $a$ and Web page $b$.
+**c)** there is at least one common link onWeb page $a$ andWeb page $b$.
+**d)** there is a Web page that includes links to both Webpage $a$ and Web page $b$.
 
 ### Soln
 **a)** It's reflexive (if you visited website $a$ you have also visited website $a$..) It is not symmetric since there must exist a website $a$ and $b$ such that the set of people who visited $a$ are a proper subset of $b$. If there exists two different web pages that have the same exact set of visitors, then $R$ is not antisymmetric. $R$ is transitive (if everyone who visited $a$ visited $b$, and everyone who visited $b$ visited $c$, then everyone who visited $a$ has also visited $c$.
