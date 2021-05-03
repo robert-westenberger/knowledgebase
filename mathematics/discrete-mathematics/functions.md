@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-03T19:09:45.831Z
+date: 2021-05-03T19:09:57.486Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -225,7 +225,7 @@ $R_{5}=\left\{(a, b) \in \mathbf{R}^{2} \mid a=b\right\}$, the "equal to" relati
 $R_{6}=\left\{(a, b) \in \mathbf{R}^{2} \mid a \neq b\right\}$, the "unequal to"relation.
 
 #### Example
-$R_{2} \cup R_{4}=$ all of $\mathbf{R}^{2}$
+$R_{2} \cup R_{4}=$ all of $\mathbf{R}^{2}$.
 #### Example
 Consider $A=\{1,2,3\}$ and $B=\{1,2,3,4\}$. The relations $R_{1}=\{(1,1),(2,2),(3,3)\}$ and $R_{2}=\{(1,1),(1,2),(1,3),(1,4)\}$ can be combined to obtain 
 
