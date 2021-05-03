@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:35:55.062Z
+date: 2021-05-03T18:38:33.590Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -54,3 +54,6 @@ c, d, f are irreflexive.
 
 ## Rosen 7th Edition Sec 9.1 Exercise 15
 Can a relation on a set be neither reflexive nor irreflexive?
+
+### Soln
+A relation $R$ may contain some pairs of $(a, a)$ but not all of them.
