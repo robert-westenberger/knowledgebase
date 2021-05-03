@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-03T17:20:52.125Z
+date: 2021-05-03T17:27:33.011Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -209,6 +209,21 @@ The less than or equal to relation is antisymmetric. $a \le b$ and $b \le a$ imp
 A relation $R$ on a set $A$ is called transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$, for all $a, b, c \in A$
 
 For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Longleftrightarrow x>y$. Since $a \gt b$ and $b \gt c$ then $a \gt c$ is true for all $a, b, c \in \mathbb{R}$, then $G$ is transitive.
+
+## Combining Relations
+Relations from $A$ to $B$ are subsets of $A \times B$, two relations from $A$ to $B$ can be combined in any way two sets can be combined. 
+
+### Example
+Consider $A=\{1,2,3\}$ and $B=\{1,2,3,4\}$. The relations $R_{1}=\{(1,1),(2,2),(3,3)\}$ and $R_{2}=\{(1,1),(1,2),(1,3),(1,4)\}$ can be combined to obtain 
+
+$$
+\begin{array}{l}
+R_{1} \cup R_{2}=\{(1,1),(1,2),(1,3),(1,4),(2,2),(3,3)\} \\
+R_{1} \cap R_{2}=\{(1,1)\}, \\
+R_{1}-R_{2}=\{(2,2),(3,3)\} \\
+R_{2}-R_{1}=\{(1,2),(1,3),(1,4)\}
+\end{array}
+$$
 
 ## Partial Orders
 A relation $R$ on a set $S$ is called a **partial ordering** if it is reflexive, antisymmetric, and transitive. A set $S$ together with a partial ordering $R$ is called a p**artially ordered set**, or **poset**, and is denoted by $(S,R)$ Members of set $S$ are called elements of the poset. 
