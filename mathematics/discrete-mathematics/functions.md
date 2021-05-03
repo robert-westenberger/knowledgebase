@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-03T18:47:15.404Z
+date: 2021-05-03T18:48:15.300Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -197,7 +197,7 @@ In other words, a relation is **symmetric** iff $a$ is related to $b$ always imp
 
 The equality relation is symmetric since $x=y \leftrightarrow y=x$. 
 ### Asymmetric
-If $(a,b) \in R$ implies that $(b, a) \notin R$.
+A relation $R$ is called asymmetric f $(a,b) \in R$ implies that $(b, a) \notin R$.
 ### Antisymmetric
 A relation $R$ on a set $A$ such that for all $a,b \in A$, if $(a,b) \in R$ and $(b, a) \in R$, then $a=b$ is called **antisymmetric**.
 In other words, a relation is **antisymmetric** iff there are no pairs of distinct elements $a$ and $b$ with $a$ related to $b$ and $b$ related to $a$.That is, the only way to have $a$ related to $b$ and $b$ related to $a$ is for $a$ and $b$ to be the same element. 
