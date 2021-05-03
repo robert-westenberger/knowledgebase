@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:27:58.358Z
+date: 2021-05-03T18:30:19.174Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -43,3 +43,5 @@ Determine whether the relation $R$ on the set of all Web pages is reflexive, sym
 **d)**
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
+### Soln
+Each of the properties reflexive, symmetric, and transitive are universally quantified statements. Because the domain is empty, each of them is vacuously true.
