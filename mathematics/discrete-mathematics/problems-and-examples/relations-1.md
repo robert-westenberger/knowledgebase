@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T17:49:03.124Z
+date: 2021-05-03T17:49:25.721Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -23,7 +23,7 @@ it is antisymmetric, and whether it is transitive.
 ### Soln
 **a)** Transitive.
 **b)** This is reflexive since it contains $(a, a) \in R$ for every $a \in A$. It is also symmetric since $(2,1)$ is in $R$ when $(1, 2)$ is. It is not antisymmetric since $(1,2)$ and $(2,1)$ are in the relation. It is transitive since $(1,2)$ and $(2, 1)$ are in the relation then $(1,1)$ and $(2,2)$ are in the relation as well.
-**c)** Not reflexive, but it is symmetric.
+**c)** Not reflexive, but it is symmetric. Not antisymmetric because $(2,4)$ and $(4,2)$ are in the relation.
 **d)** 
 **e)** 
 **f)** 
