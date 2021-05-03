@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-04-29T19:41:33.992Z
+date: 2021-05-03T17:20:52.125Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -279,6 +279,4 @@ Let $R$ be a relation of set $A$, and let $B$ be a subset of $A$. The restrictio
 
 Restriction preserves transitivity, symmetry, antisymmetry, asymmetry, refexivity, and irreflexivity. It doesn't preserve everything though (like surjectivity, nor whether it is a total relation).
 
-
-## Digraphs
 
