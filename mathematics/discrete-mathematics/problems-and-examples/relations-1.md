@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:49:33.435Z
+date: 2021-05-03T18:50:26.662Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -63,3 +63,12 @@ Give an example of an irreflexive relation on the set of all people.
 $(a,b) \in R$ iff $a$ weighs more than $b$. A person can't weigh more than themselves, so this is irreflexive.
 ## Rosen 7th Edition Sec 9.1 Exercise 23
 Use quantifiers to express what it means for a relation to be asymmetric.
+
+### Soln
+$$
+\forall a \forall b \neg((a, b) \in R \wedge(b, a) \in R)
+$$
+or 
+$$
+\forall a \forall b((a, b) \in R \rightarrow(b, a) \notin R)
+$$
