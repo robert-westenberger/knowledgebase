@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-03T18:39:26.791Z
+date: 2021-05-03T18:39:43.645Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -184,10 +184,10 @@ The relation of **being in the same block** is an equivalence relation. We can e
 
 ### Reflexive
 $(a, a) \in R$ for every element $a \in A$.
-A relation $R$ on a set $A$ is reflexive iff for every $a \in A$, $aRa$.
+A relation $R$ on a set $A$ is **reflexive** iff for every $a \in A$, $aRa$.
 In a reflexive relation, an element is always related to itself. For example, let $R$ be the relation on the set of all people consisting of pairs $(x, y)$ where $x$ and $y$ have the same mother and the same father. Then $xRx$ for every person $x$.
-### Reflexive
-A relation $R$ on the set $A$ is irreflexive if for every $a \in A$, $(a, a) \notin R$. That is, $R$ is irreflexive if no element in $A$ is related to itself. 
+### Irreflexive
+A relation $R$ on the set $A$ is **irreflexive** if for every $a \in A$, $(a, a) \notin R$. That is, $R$ is irreflexive if no element in $A$ is related to itself. 
 ### Symmetric
 $(b, a) \in R$ whenever $(a,b) \in R$, for all $a,b \in A$. 
 A relation $R$ on $A$ is **symmetric** iff for all $a,b \in A$, if $aRb$ then $bRa$.
