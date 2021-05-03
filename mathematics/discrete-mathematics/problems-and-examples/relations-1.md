@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:41:48.275Z
+date: 2021-05-03T18:49:33.435Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -61,3 +61,5 @@ Yes, a relation $R$ may contain some pairs of $(a, a)$ but not all of them.
 Give an example of an irreflexive relation on the set of all people.
 ### Soln
 $(a,b) \in R$ iff $a$ weighs more than $b$. A person can't weigh more than themselves, so this is irreflexive.
+## Rosen 7th Edition Sec 9.1 Exercise 23
+Use quantifiers to express what it means for a relation to be asymmetric.
