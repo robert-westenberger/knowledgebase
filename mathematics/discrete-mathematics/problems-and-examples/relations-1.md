@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:00:16.077Z
+date: 2021-05-03T18:05:52.844Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -39,3 +39,9 @@ page $a$ and Web page $b$.
 Web page $b$.
 **d)** there is a Web page that includes links to both Web
 page $a$ and Web page $b$.
+
+### Soln
+**a)** It's reflexive (if you visited website $a$ you have also visited website $a$..) It is not symmetric since there must exist a website $a$ and $b$ such that the set of people who visited $a$ are a proper subset of $b$. 
+**b)**
+**c)**
+**d)**
