@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T18:24:37.677Z
+date: 2021-05-04T18:29:03.966Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -77,8 +77,8 @@ In each case, say whether or not $R$ is an equivalence relation on $A$. If it is
 **a)** This is an equivalence relation, being symmetric reflexive and transitive. The equivalence class is $\lbrack x \rbrack _R$ is the set of words $y$ such that $y$ has the same first letter as $x$. There are $26$ equivalence classes, one for each letter of the alphabet. 
 **b)** Not an equivalence relation, since its not transitive. There can exist a word $a$ that has letters in common with another word $b$, and word $b$ can have letters in common with a word $c$, but $a$ may have no letters in common with $c$.
 **c)** Not an equivalence relation. A word can't come before itself alphabetically. 
-**d)**
-**e)**
+**d)** Its not symmetric, no equiv relation.
+**e)** This is an equivalence relation. There is an equivalence relation for all positive integers with that number of ones.
 # Show that a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
