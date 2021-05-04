@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T17:54:22.563Z
+date: 2021-05-04T18:06:39.650Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -58,12 +58,25 @@ It is symmetric (if a person $a$ has a blood relative $b$, then person $b$ is a 
 It is not transitive (a person may have a cousin $a$ through his mothers family and another cousin $b$ through their fathers family, but $a$ and $c$ may not be blood relatives).
 ## 2000 Solved Problems in Discrete Mathematics 2.182 
 Let $R = \{(1,1),(1,3),(3,1),(3,3)\}$. Is $R$ an equivalence relation on $A=\{1,2,3\}$? on $B=\{1,3\}$?
+### Solution
+For $A$, its not reflexive since its missing $(2,2)$, so its not an equivalence relation.
+For $B$, it is symmetric, reflexive, and transitive so it is an equivalence relation.
+
+## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 1
+In each case, say whether or not $R$ is an equivalence relation on $A$. If it is an equivalence relation, what are the equivalence classes and how many equivalence clases are there?
+
+### Solution
+
 # Show that a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
 ### Soln
 Each of the properties reflexive, symmetric, and transitive are universally quantified statements. Because the domain is empty, each of them is vacuously true.
-
+**a)** $R::=\{(x, y) \in W \times W \mid$ the words $x$ and $y$ start with the same letter $\}$ where $W$ is the set of all words in the 2001 edition of the Oxford English dictionary.
+**b)** $R::=\{(x, y) \in W \times W \mid$ the words $x$ and $y$ have at least one letter in common $\}$
+**c)** $R=\{(x, y) \in W \times W$ and the word $x$ comes before the word $y$ alphabetically $\}$
+**d)** $R=\{(x, y) \in \mathbb{R} \times \mathbb{R}$ and $|x| \leq|y|\}$
+**e)** $R=\{(x, y) \in B \times B$, where $\mathrm{B} \medspace \text {is the set of all bit strings and} \medspace \mathrm{x} \medspace \text {and} \medspace \mathrm{y} \medspace \text { have the same number of 1s\} }$.
 # Determine which relations are irreflexive
 ## Rosen 7th Edition Sec 9.1 Exercise 11
 A relation $R$ on the set $A$ is irreflexive if for every $a \in A$, $(a, a) \notin R$. That is, $R$ is irreflexive if no element in $A$ is related to itself. 
