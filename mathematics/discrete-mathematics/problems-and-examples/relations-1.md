@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T18:29:03.966Z
+date: 2021-05-04T19:12:37.253Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -117,3 +117,13 @@ $$
 \forall a \forall b((a, b) \in R \rightarrow(b, a) \notin R)
 $$
 
+# Verify a relation is a partial order and possibly a total order
+## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 3
+**a)** The relation $\lt$ on $\R$
+**b)** The superset relation $\subseteq$ on $\mathcal{P}(B)$ for a set $B$.
+**c)** The divides relation on $\natnums$.
+
+### Soln
+**a)** 
+**b)** 
+**c)** 
