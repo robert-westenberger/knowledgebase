@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T17:52:29.607Z
+date: 2021-05-04T17:53:52.107Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -56,6 +56,8 @@ Let $S$ be the relation "is a blood relative of" on the set $X$ of people. Is $S
 It is not reflexive (a person can't be a blood relative of themselves, that doesnt make sense. The book says this is reflexive, so they are considering a person a relative of themselves...). 
 It is symmetric (if a person $a$ has a blood relative $b$, then person $b$ is a blood relative of $a$).
 It is not transitive (a person may have a cousin $a$ through his mothers family and another cousin $b$ through their fathers family, but $a$ and $c$ may not be blood relatives).
+## 2000 Solved Problems in Discrete Mathematics 2.182 
+Let $R = \{(1,1),(1,3),(3,1),(3,3)\}$. Is $R$ an equivalence relation on $A=\{1,2,3\}$? on $B=\{1,3\}$?
 # Show that a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
