@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-04T18:17:36.550Z
+date: 2021-05-04T18:18:46.644Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -212,7 +212,7 @@ A relation $R$ on a set $A$ is called transitive if whenever $(a, b) \in R$ and 
 For example, $\boldsymbol{G}: \mathbb{R} \rightarrow \mathbb{R}$ by $x G y \Longleftrightarrow x>y$. Since $a \gt b$ and $b \gt c$ then $a \gt c$ is true for all $a, b, c \in \mathbb{R}$, then $G$ is transitive.
 
 ## Equivalence Classes
-Let $R$ be an equivalence relation on a set $A$. The set of all elements that are related to an element $a$ of $A$ is called the **equivalence class** of $a$. The equivalence class of $a$ with respect to $R$ is denoted by $\lbrack a \rbrack _R$. 
+Let $R$ be an equivalence relation on a set $A$. The set of all elements that are related to an element $a$ of $A$ is called the **equivalence class** of $a$. The equivalence class of $a$ with respect to $R$ is denoted by $\lbrack a \rbrack _R$. When only one relation is under consideration, we can delete the subscript $R$ and write $\lbrack a \rbrack $ for this equivalence class.
 ## Combining Relations
 Relations from $A$ to $B$ are subsets of $A \times B$, two relations from $A$ to $B$ can be combined in any way two sets can be combined. 
 
