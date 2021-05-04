@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T18:07:19.992Z
+date: 2021-05-04T18:10:39.149Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -41,7 +41,7 @@ Determine whether the relation $R$ on the set of all Web pages is reflexive, sym
 **b)** Not reflexive, any page $a$ that has links on it, $(a, a) \notin R$. $R$ is symmetric in its very definition. $R$ is not antisymmetric because there are surely two different webpages $a$ and $b$ that have no common links in them. Lastly, $R$ is not transitive since for webpages with no links in common, if they have links at all, give an example of a failure of the definition $(a, b) \in R$ and $(b,a) \in R$, but $(a, a) \notin R$.
 **c)**
 **d)**
-# Determine whether a relation is an equivalence relation ( reflexive, symmetric, and transitive)
+# Determine whether a relation is an equivalence relation (reflexive, symmetric, and transitive)
 ## 2000 Solved Problems in Discrete Mathematics 2.180
 Let $R$ be the relation ont he set $N$ of positive integers defined by $R=\{(a,b): a + b \medspace \text {is even}\}$. Is $R$ an equivalence relation?
 ### Soln
@@ -62,8 +62,10 @@ Let $R = \{(1,1),(1,3),(3,1),(3,3)\}$. Is $R$ an equivalence relation on $A=\{1,
 For $A$, its not reflexive since its missing $(2,2)$, so its not an equivalence relation.
 For $B$, it is symmetric, reflexive, and transitive so it is an equivalence relation.
 
+# Determine whether a relation is an equivalence relation (reflexive, symmetric, and transitive) and if applicable, how many and what equivalence classes are there
+
 ## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 1
-In each case, say whether or not $R$ is an equivalence relation on $A$. If it is an equivalence relation, what are the equivalence classes and how many equivalence clases are there?
+In each case, say whether or not $R$ is an equivalence relation on $A$. If it is an equivalence relation, what are the equivalence classes and how many equivalence classes are there?
 
 **a)** $R::=\{(x, y) \in W \times W \mid$ the words $x$ and $y$ start with the same letter $\}$ where $W$ is the set of all words in the 2001 edition of the Oxford English dictionary.
 **b)** $R::=\{(x, y) \in W \times W \mid$ the words $x$ and $y$ have at least one letter in common $\}$
@@ -72,7 +74,11 @@ In each case, say whether or not $R$ is an equivalence relation on $A$. If it is
 **e)** $R=\{(x, y) \in B \times B$, where $\mathrm{B} \medspace \text {is the set of all bit strings and} \medspace \mathrm{x} \medspace \text {and} \medspace \mathrm{y} \medspace \text { have the same number of 1s\} }$.
 
 ### Solution
-
+**a)** 
+**b)**
+**c)**
+**d)**
+**e)**
 # Show that a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
