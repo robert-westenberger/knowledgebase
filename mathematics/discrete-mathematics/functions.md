@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-04T18:18:46.644Z
+date: 2021-05-04T19:01:22.327Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -248,12 +248,13 @@ $$
 
 
 ## Partial Orders
-A relation $R$ on a set $S$ is called a **partial ordering** if it is reflexive, antisymmetric, and transitive. A set $S$ together with a partial ordering $R$ is called a p**artially ordered set**, or **poset**, and is denoted by $(S,R)$ Members of set $S$ are called elements of the poset. 
+A relation $R$ on a set $S$ is called a **partial ordering** if it is  antisymmetric and transitive. A set $S$ together with a partial ordering $R$ is called a **partially ordered set**, or **poset**, and is denoted by $(S,R)$ Members of set $S$ are called elements of the poset. 
 A general example of a partial order is the subset relation $\subset$ on sets. For any element, $a$, we think of a function, $g$, such that $g(a)$ is the set of properties that $a$ has. Then we relate different elements according to how their properties compare.
 
 For partial orders the symbols $\prec$ or $\preceq$ (or $\preccurlyeq$) are used because they resemble the symbols used for subset and less-or-equal, which are the most common partial orders.
 
-
+A partial order is called **weak** iff it is reflexive.
+A partial orer is called **strict** iff it is irreflexive.
 
 The most familiar examples of partial orders are the "less than relations", for example, the $\lt$ relation on real numbers. To see that $\lt$ is indeed a partial order, just define $h(r)::=\{q \in \mathbb{Q} \mid q<r\}$. Since there is a rational number between any two real numbers, it follows that $\lt$ is simply $\prec_{h}$. Likewise, the relation $\le$ is a partial order because it agrees with $\prec_{h}$ for all pairs of distinct real numbers.
 
