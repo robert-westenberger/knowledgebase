@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T17:53:52.107Z
+date: 2021-05-04T17:54:22.563Z
 tags: discrete-mathematics
 editor: markdown
 ---
