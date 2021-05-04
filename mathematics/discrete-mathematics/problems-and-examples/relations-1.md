@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T17:48:49.266Z
+date: 2021-05-04T17:48:58.314Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -49,7 +49,7 @@ It is reflexive ($a+a$ is even).
 It is symmetric (if $a+b$ is even then $b+a$ is even).
 It is transitive (if $a+b$ is even and $b+c$ is even then $a+c$ is also even)
 
-It is reflexive, symmetric, and transitive, so it is an equivalence relatin.
+It is reflexive, symmetric, and transitive, so it is an equivalence relation.
 # Show that a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
