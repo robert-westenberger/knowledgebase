@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T18:10:39.149Z
+date: 2021-05-04T18:11:35.636Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -74,7 +74,7 @@ In each case, say whether or not $R$ is an equivalence relation on $A$. If it is
 **e)** $R=\{(x, y) \in B \times B$, where $\mathrm{B} \medspace \text {is the set of all bit strings and} \medspace \mathrm{x} \medspace \text {and} \medspace \mathrm{y} \medspace \text { have the same number of 1s\} }$.
 
 ### Solution
-**a)** 
+**a)** This is an equivalence relation, being symmetric reflexive and transitive.
 **b)**
 **c)**
 **d)**
