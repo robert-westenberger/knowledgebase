@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-03T23:47:49.736Z
+date: 2021-05-04T00:01:20.226Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -229,6 +229,7 @@ $R_{2} \cup R_{4}=$ all of $\mathbf{R}^{2}$. It's always true that $a \le b$ or 
 $R_3 \cup R_6=R_6$. $R_3 \cup R_6$ contains $(a, b)$ when $a \lt b$ or $a \ne b$. This only happens when $a \ne b$, 
 $R_3 \cap R_6=R_3$. $R_3 \cap R_6$ contains $(a,b)$ when $a \lt b \wedge a \ne b$, which happens preciesly when $a \lt b$.
 $R_4 \cap R_6=R_3$ contains $(a, b)$ when $a \le b \wedge a \ne b$, which is also true for $R_3$.
+$R_{3}-R_{6}=R_{3} \cap \overline{\huge R_{6}}$ 
 #### Example
 Consider $A=\{1,2,3\}$ and $B=\{1,2,3,4\}$. The relations $R_{1}=\{(1,1),(2,2),(3,3)\}$ and $R_{2}=\{(1,1),(1,2),(1,3),(1,4)\}$ can be combined to obtain 
 
