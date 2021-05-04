@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-03T18:50:26.662Z
+date: 2021-05-04T17:45:30.453Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -41,17 +41,24 @@ Determine whether the relation $R$ on the set of all Web pages is reflexive, sym
 **b)** Not reflexive, any page $a$ that has links on it, $(a, a) \notin R$. $R$ is symmetric in its very definition. $R$ is not antisymmetric because there are surely two different webpages $a$ and $b$ that have no common links in them. Lastly, $R$ is not transitive since for webpages with no links in common, if they have links at all, give an example of a failure of the definition $(a, b) \in R$ and $(b,a) \in R$, but $(a, a) \notin R$.
 **c)**
 **d)**
+
+## 2000 Solved Problems in Discrete Mathematics 2.180
+Let $R$ be the relation ont he set $N$ of positive integers defined by $R=\{(a,b): a + b \medspace \text {is even}\}$. Is $R$ an equivalence relation?
+# Show that a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
 ### Soln
 Each of the properties reflexive, symmetric, and transitive are universally quantified statements. Because the domain is empty, each of them is vacuously true.
 
+# Determine which relations are irreflexive
 ## Rosen 7th Edition Sec 9.1 Exercise 11
 A relation $R$ on the set $A$ is irreflexive if for every $a \in A$, $(a, a) \notin R$. That is, $R$ is irreflexive if no element in $A$ is related to itself. 
 
+Which relations from exercise 3 are irreflexive?
 ### Soln
 c, d, f are irreflexive.
 
+# Answer about the nature of reflexivity / irreflexivity
 ## Rosen 7th Edition Sec 9.1 Exercise 15
 Can a relation on a set be neither reflexive nor irreflexive?
 
@@ -61,6 +68,8 @@ Yes, a relation $R$ may contain some pairs of $(a, a)$ but not all of them.
 Give an example of an irreflexive relation on the set of all people.
 ### Soln
 $(a,b) \in R$ iff $a$ weighs more than $b$. A person can't weigh more than themselves, so this is irreflexive.
+
+# Use quantifiers to express a statement about a relation
 ## Rosen 7th Edition Sec 9.1 Exercise 23
 Use quantifiers to express what it means for a relation to be asymmetric.
 
@@ -72,3 +81,4 @@ or
 $$
 \forall a \forall b((a, b) \in R \rightarrow(b, a) \notin R)
 $$
+
