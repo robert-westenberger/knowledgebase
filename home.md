@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-03T19:11:08.386Z
+date: 2021-05-04T19:01:46.384Z
 tags: 
 editor: markdown
 ---
@@ -13,6 +13,7 @@ editor: markdown
 
 
 [Todo](/todo)
+**5-4** - 10-12:10 Some binary relations exercises
 **5-3** - 10-12:10 Some exercises from rosen 9.1 (relations and their properties). Was taking notes regarding relations on the set of real numbers (#35)
 **4-29** - 10-12:40 notes on partial orders and their properties, total orders, products and restrictions of relations. (got to bottom of 2005 6.042j week 4 pdf page 11/21.. digraphs)
 **4-28** - Notes on binary relations of functions, equivalence relations, partitions of sets (got to bottom of 2005 6.042j week 4 pdf page 4/21)
