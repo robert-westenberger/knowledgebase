@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-04T00:04:21.350Z
+date: 2021-05-04T17:19:48.914Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -123,7 +123,7 @@ For every element $b \in B$, there exists an element $a \in A$ such that
 $$f(a) = b$$
 
 
-"$f$ is surjective" means that evry point in the codomain column has at least one arrow into it.
+"$f$ is surjective" means that every point in the codomain column has at least one arrow into it.
 If $A$ is a finite set, we let $|A|$ be the number of elements in $A$. If $f : A \rarr B$ is surjective, then $|A| \geq|B|$.
 ### Injective
 If every element of $B$ is mapped to at most once. Also known as **one-to-one**. This is a property of the domain of a function. 
@@ -230,6 +230,7 @@ $R_3 \cup R_6=R_6$. $R_3 \cup R_6$ contains $(a, b)$ when $a \lt b$ or $a \ne b$
 $R_3 \cap R_6=R_3$. $R_3 \cap R_6$ contains $(a,b)$ when $a \lt b \wedge a \ne b$, which happens preciesly when $a \lt b$.
 $R_4 \cap R_6=R_3$ contains $(a, b)$ when $a \le b \wedge a \ne b$, which is also true for $R_3$.
 $R_{3}-R_{6}=R_{3} \cap \overline{\huge R_{6}}=R_{3} \cap R_5=\emptyset$, which is equivalent to $R_{3} \cap R_5$ It is impossible for both $a \lt b$ and $a =b$ to hold at the same time, so the answer is $\emptyset$.
+$R_{2} \oplus R_{6}$
 #### Example
 Consider $A=\{1,2,3\}$ and $B=\{1,2,3,4\}$. The relations $R_{1}=\{(1,1),(2,2),(3,3)\}$ and $R_{2}=\{(1,1),(1,2),(1,3),(1,4)\}$ can be combined to obtain 
 
