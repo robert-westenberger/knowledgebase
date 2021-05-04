@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T17:45:30.453Z
+date: 2021-05-04T17:48:49.266Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -41,9 +41,15 @@ Determine whether the relation $R$ on the set of all Web pages is reflexive, sym
 **b)** Not reflexive, any page $a$ that has links on it, $(a, a) \notin R$. $R$ is symmetric in its very definition. $R$ is not antisymmetric because there are surely two different webpages $a$ and $b$ that have no common links in them. Lastly, $R$ is not transitive since for webpages with no links in common, if they have links at all, give an example of a failure of the definition $(a, b) \in R$ and $(b,a) \in R$, but $(a, a) \notin R$.
 **c)**
 **d)**
-
+# Determine whether a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## 2000 Solved Problems in Discrete Mathematics 2.180
 Let $R$ be the relation ont he set $N$ of positive integers defined by $R=\{(a,b): a + b \medspace \text {is even}\}$. Is $R$ an equivalence relation?
+### Soln
+It is reflexive ($a+a$ is even).
+It is symmetric (if $a+b$ is even then $b+a$ is even).
+It is transitive (if $a+b$ is even and $b+c$ is even then $a+c$ is also even)
+
+It is reflexive, symmetric, and transitive, so it is an equivalence relatin.
 # Show that a relation is an equivalence relation ( reflexive, symmetric, and transitive)
 ## Rosen 7th Edition Sec 9.1 Exercise 9
 Show that the relation $R=\emptyset$ on the empty set $S=\emptyset$ is reflexive, symmetric, and transitive.
