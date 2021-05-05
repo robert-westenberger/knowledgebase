@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:34:54.063Z
+date: 2021-05-05T18:36:42.750Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -19,6 +19,8 @@ Let $A$ and $B$ be sets. A relation from $A$ into $B$ is any subset of $A \times
 ### Example
 Let $A=\{1,2,3\}$ and $B=\{4,5\}$. Then  $\{(1,4),(2,4),(3,5)\}$ is a relation from $A$ into $B$. There would be $64$ possible relations for these two sets.
 
+A graph of this simple relation:
+![simple_relation_graph.png](/simple_relation_graph.png)
 ### Divisibility Exmaple
 Let $A=\{2,3,5,6\}$ and define a relation $r$ from $A$ into $A$ by $(a,b) \in r$ iff $a \mid b$. The set of pairs that qualify for membership is $r=\{(2,2),(3,3),(5,5),(6,6),(2,6),(3,6)\}$
 
