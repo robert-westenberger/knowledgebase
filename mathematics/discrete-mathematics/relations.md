@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:53:17.436Z
+date: 2021-05-05T19:00:42.905Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -59,3 +59,11 @@ $$
 Based on this, a new relation $rs$, from $A$ into $C$ can be defined. In order for $(a,c)$ to be in $rs$, it must be possible to travel along a path from $a$ to $c$. In other words, $(a,c) \in rs$ iff $(\exists b)_{B}(a r b$ and $b s c)$.
 
 # Graphs of Relations on a Set
+In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
+## Example
+Let $A=\{0,1,2,3\}$ and let $r=\{(0,0),(0,3),(1,2),(2,1),(3,2),(2,0)\}$. 
+and its digraph..
+![digraph.png](/digraph.png)
+or 
+![graph_2.png](/graph_2.png)
+
