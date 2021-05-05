@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:49:02.810Z
+date: 2021-05-05T18:51:02.471Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -30,7 +30,7 @@ A relation from a set $A$ into itself is called a relation on $A$.
 The "divides" relation, for example on the set of integers is: Let $a, b \in \Z$, $a \ne 0$. We say that $a$ divides $b$, denoted by $a \mid b$, iff there exists an integer $k$ such that $ak=b$.
 
 # Composition of Relations
-
+Let $r$ be a relation from a set $A$ into a set $B$, and let $s$ be a relation from $B$ into a set $C$. The composition of $r$ with $s$, written $rs$, is the set of pairs of the form $(a, c) \in A \times C$, where $(a, c) \in r s$ iff there exists $b \in B$ such that $(a,b) \in r$ and $(b,c) \in s$.
 
 ## Example
 Take for example three sets
