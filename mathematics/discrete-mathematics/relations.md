@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:39:17.377Z
+date: 2021-05-05T18:42:53.985Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -28,3 +28,9 @@ Let $A=\{2,3,5,6\}$ and define a relation $r$ from $A$ into $A$ by $(a,b) \in r$
 A relation from a set $A$ into itself is called a relation on $A$.
 
 The "divides" relation, for example on the set of integers is: Let $a, b \in \Z$, $a \ne 0$. We say that $a$ divides $b$, denoted by $a \mid b$, iff there exists an integer $k$ such that $ak=b$.
+
+# Composition of Relations
+Take for example three sets
+$A=\{2,3,5,8\}$
+$B=\{4,6,16\}$
+$C=\{1,4,5,7\}$.
