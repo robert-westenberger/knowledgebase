@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:42:53.985Z
+date: 2021-05-05T18:45:44.473Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -33,4 +33,10 @@ The "divides" relation, for example on the set of integers is: Let $a, b \in \Z$
 Take for example three sets
 $A=\{2,3,5,8\}$
 $B=\{4,6,16\}$
-$C=\{1,4,5,7\}$.
+$C=\{1,4,5,7\}$
+and two relations on those sets
+$r = \text{divides from A into B}$
+$s= \le \text{from B into C}$
+so $r=\{(2,4),(2,6),(2,16),(3,6),(8,16)\}$ and $s=\{(4,4),(4,5),(4,7),(6,7)\}$.
+
+Viewed graphically: 
