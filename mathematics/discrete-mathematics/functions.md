@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2021-05-04T19:01:22.327Z
+date: 2021-05-05T17:43:49.785Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -202,6 +202,7 @@ A relation $R$ is called **asymmetric** if $(a,b) \in R$ implies that $(b, a) \n
 A relation $R$ on a set $A$ such that for all $a,b \in A$, if $(a,b) \in R$ and $(b, a) \in R$, then $a=b$ is called **antisymmetric**.
 In other words, a relation is **antisymmetric** iff there are no pairs of distinct elements $a$ and $b$ with $a$ related to $b$ and $b$ related to $a$.That is, the only way to have $a$ related to $b$ and $b$ related to $a$ is for $a$ and $b$ to be the same element. 
 
+In terms of arrow diagrams of a relation, saying that a relation is antisymmetric is the same as saying that whenever there is an arrow going from one one element to another distinct element, there is not an arrow going back from the second to the first.
 The less than or equal to relation is antisymmetric. $a \le b$ and $b \le a$ implies $a=b$.
 
 **Note that symmetric and asymmetric are not opposites.** A relation can have both or lack both.
