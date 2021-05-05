@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:53:03.013Z
+date: 2021-05-05T18:53:17.436Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -58,3 +58,4 @@ $$
 
 Based on this, a new relation $rs$, from $A$ into $C$ can be defined. In order for $(a,c)$ to be in $rs$, it must be possible to travel along a path from $a$ to $c$. In other words, $(a,c) \in rs$ iff $(\exists b)_{B}(a r b$ and $b s c)$.
 
+# Graphs of Relations on a Set
