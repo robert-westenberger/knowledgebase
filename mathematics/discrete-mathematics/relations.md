@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:45:44.473Z
+date: 2021-05-05T18:49:02.810Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -30,6 +30,9 @@ A relation from a set $A$ into itself is called a relation on $A$.
 The "divides" relation, for example on the set of integers is: Let $a, b \in \Z$, $a \ne 0$. We say that $a$ divides $b$, denoted by $a \mid b$, iff there exists an integer $k$ such that $ak=b$.
 
 # Composition of Relations
+
+
+## Example
 Take for example three sets
 $A=\{2,3,5,8\}$
 $B=\{4,6,16\}$
@@ -40,3 +43,17 @@ $s= \le \text{from B into C}$
 so $r=\{(2,4),(2,6),(2,16),(3,6),(8,16)\}$ and $s=\{(4,4),(4,5),(4,7),(6,7)\}$.
 
 Viewed graphically: 
+![composition_relation_graph.png](/composition_relation_graph.png)
+
+Note how certain elements in $A$ go through elements in $B$ to results in $C$. That is, 
+$$
+\begin{array}{l}
+2 \mid 4 \text { and } 4 \leq 4 \\
+2 \mid 4 \text { and } 4 \leq 5 \\
+2 \mid 4 \text { and } 4 \leq 7 \\
+2 \mid 6 \text { and } 6 \leq 7 \\
+3 \mid 6 \text { and } 6 \leq 7
+\end{array}
+$$
+
+Based on this, a new relation $rs$, from $A$ into $C$ can be defined. In order for $(a,c)$ to be in $rs$, it must be possible to travel along a path from $a$ to $c$. In other words, $(a,c) \in rs$ iff $(\exists b)_{B}(a r b$ and $b s c)$.
