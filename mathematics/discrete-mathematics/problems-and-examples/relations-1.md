@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-04T19:12:37.253Z
+date: 2021-05-05T17:26:09.237Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -119,11 +119,27 @@ $$
 
 # Verify a relation is a partial order and possibly a total order
 ## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 3
+Verify that each of the following relations is a partial order by describing a function, $g$, such that the relation is defined by $g$ according to the following defintion: 
+A relation, $R$, on a set, $A$, is a partial order providing there is a function, $g$, from $A$ to some collection of sets such that 
+
+$$
+a_{1} R a_{2} \quad \text { iff } \quad g\left(a_{1}\right) \subset g\left(a_{2}\right)
+$$
+for all $a_{1} \neq a_{2} \in A$
+. For each, is it a total order?
 **a)** The relation $\lt$ on $\R$
 **b)** The superset relation $\subseteq$ on $\mathcal{P}(B)$ for a set $B$.
 **c)** The divides relation on $\natnums$.
 
 ### Soln
-**a)** 
+**a)** $g(r)::=\{t \in \mathbb{R} \mid t<r\}$. It follows that 
+$$
+r_{1}<r_{2} \quad \text { iff } \quad g\left(r_{1}\right) \subset g\left(r_{2}\right)
+$$
+so $\lt$ satisfies the condition $a_{1} R a_{2}$ iff $g\left(a_{1}\right) \subset g\left(a_{2}\right)$ on $R$ that defines partial orders. Likewise the relation $\le$ is a partial order because 
+$$
+r_{1} \leq r_{2} \quad \text { iff } \quad r_{1}<r_{2}
+$$
+for all reals $r_1 \ne r_2$. $\blacksquare$.
 **b)** 
 **c)** 
