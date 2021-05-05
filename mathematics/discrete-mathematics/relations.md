@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T18:36:42.750Z
+date: 2021-05-05T18:39:17.377Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -11,7 +11,7 @@ editor: markdown
 > This page contains a lot of duplications from the [functions](/mathematics/discrete-mathematics/functions) page..
 {.is-warning}
 
-
+Let $s$ be a relation from set $A$ into a set $B$. Then the fact that $(x,y) \in s$ is frequently written as $xsy$.
 # Relations between two sets
 Let $A$ and $B$ be sets. A relation from $A$ into $B$ is any subset of $A \times B$.
 
@@ -21,7 +21,7 @@ Let $A=\{1,2,3\}$ and $B=\{4,5\}$. Then  $\{(1,4),(2,4),(3,5)\}$ is a relation f
 
 A graph of this simple relation:
 ![simple_relation_graph.png](/simple_relation_graph.png)
-### Divisibility Exmaple
+### Divisibility Example
 Let $A=\{2,3,5,6\}$ and define a relation $r$ from $A$ into $A$ by $(a,b) \in r$ iff $a \mid b$. The set of pairs that qualify for membership is $r=\{(2,2),(3,3),(5,5),(6,6),(2,6),(3,6)\}$
 
 # Relations on a set
