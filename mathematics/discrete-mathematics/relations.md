@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:10:41.813Z
+date: 2021-05-06T17:29:58.221Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -79,5 +79,6 @@ Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **antisymmetric**
 Let $A$ be a set and let $r$ be a relation on $A$. $r$ is transitive iff whenever $arb$ and $brc$ then $arc$.
 
 ## Equivalence Relations
+A relation $r$ on a set $A$ is aclled an equivalence relation iff it is reflexive, symmetric, and transitive.
 ### Symmetric
 Let $r$ be a relation on a set $A$. $r$ is symmetric iff whenever $arb$, it follows that $bra$.
