@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:43:07.236Z
+date: 2021-05-06T17:45:54.731Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -99,3 +99,5 @@ If any one element is related to any other element, then the second element is r
 Let $r$ be a relation on a set $A$. $r$ is symmetric iff whenever $arb$, it follows that $bra$.
 #### Represented Graphically
 In each case where there is an arrow goign from one point to a second, there is an arrow going from the second point back to the first.
+
+## Partial Orderings
