@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:00:43.147Z
+date: 2021-05-06T17:06:51.987Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -69,5 +69,11 @@ or
 
 # Properties of Relations
 ## Individual Properties
-### Reflexivity 
-Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is reflexive iff $ara$ for all $a \in A$.
+### Reflexive 
+Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **reflexive** iff $ara$ for all $a \in A$.
+
+### Antisymmetric 
+Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **antisymmetric** iff whenever $arb$ and $a\ne b$ then $bra$ is false.
+
+### Transitive
+Let $A$ be a set and let $r$ be a relation on $A$. $r$ is transitive iff whenever $arb$ and $brc$ then $arc$.
