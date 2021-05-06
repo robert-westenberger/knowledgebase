@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-05T19:01:19.886Z
+date: 2021-05-06T19:01:12.453Z
 tags: 
 editor: markdown
 ---
@@ -13,6 +13,7 @@ editor: markdown
 
 
 [Todo](/todo)
+**5-6** - 9:45 - 12 Notes on relations, ended at Schaums Outline of Discrete Mathematics 2.5(pp 27)
 **5-5** - 10-12:00 Notes on relations, ended at bottom of http://faculty.uml.edu/klevasseur/ads/s-graphs-of-relations-on-a-set.html
 **5-4** - 10-12:10 Some binary relations exercises
 **5-3** - 10-12:10 Some exercises from rosen 9.1 (relations and their properties). Was taking notes regarding relations on the set of real numbers (#35)
