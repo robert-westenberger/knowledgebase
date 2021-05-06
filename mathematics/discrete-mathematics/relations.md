@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:32:24.299Z
+date: 2021-05-06T17:39:07.155Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -77,12 +77,17 @@ Each point of the graph has an arrow looping from it and back onto itself.
 ### Antisymmetric 
 #### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **antisymmetric** iff whenever $arb$ and $a\ne b$ then $bra$ is false.
-
+#### Represented Graphically
+Whenever there is an arrow going from one element to another distinct element, there is not an arrow going back from the second to the first.
 ### Transitive
 #### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. $r$ is transitive iff whenever $arb$ and $brc$ then $arc$.
-
+#### Represented Graphically
+In each case where there is an arrow going from one point to a second and from the second point to a third, there is an arrow going form the first point to the third. That is, there are no "incomplete directed triangles" in the graph.
 ## Equivalence Relations
 A relation $r$ on a set $A$ is aclled an equivalence relation iff it is reflexive, symmetric, and transitive.
 ### Symmetric
+#### Formal Definition
 Let $r$ be a relation on a set $A$. $r$ is symmetric iff whenever $arb$, it follows that $bra$.
+#### Represented Graphically
+In each case where there is an arrow goign from one point to a second, there is an arrow going from the second point back to the first.
