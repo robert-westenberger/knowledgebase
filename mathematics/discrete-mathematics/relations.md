@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:29:58.221Z
+date: 2021-05-06T17:32:24.299Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -69,13 +69,17 @@ or
 
 # Properties of Relations
 ## Individual Properties
-### Reflexive 
+### Reflexive
+#### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **reflexive** iff $ara$ for all $a \in A$.
-
+#### Represented Graphically
+Each point of the graph has an arrow looping from it and back onto itself.
 ### Antisymmetric 
+#### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **antisymmetric** iff whenever $arb$ and $a\ne b$ then $bra$ is false.
 
 ### Transitive
+#### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. $r$ is transitive iff whenever $arb$ and $brc$ then $arc$.
 
 ## Equivalence Relations
