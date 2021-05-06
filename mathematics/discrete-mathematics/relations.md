@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T18:44:11.493Z
+date: 2021-05-06T18:44:54.620Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -126,5 +126,7 @@ Let $R$ be a relation from set $A$ to a set $B$. The **inverse relation** from $
 
 For example, let $A=\{1,2,3\}$ and $B=\{x,y,z\}$. Then the inverse of 
 $$R=\{(1,y),(1,z),(3,y)\} \medspace \text {is} \medspace R^{-1}=\{(y,1),(z,1),(y,3)\}$$
+
+If $R$ is any relation, then $(R^{-1})^{-1}=R$.
 # Complementary Relations
 Let $R$ be a relation from set $A$ to a set $B$. The **complementary relation** $\bar{R}$ is the set of ordered pairs $\{(a, b) \mid(a, b) \notin R\}$.
