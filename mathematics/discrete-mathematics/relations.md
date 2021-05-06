@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:48:25.542Z
+date: 2021-05-06T18:07:30.283Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -74,13 +74,27 @@ or
 Each element is related to itself.
 #### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **reflexive** iff $ara$ for all $a \in A$.
+
+Or 
+
+if $(a, a) \in R a$ for all $a \in A$
 #### Represented Graphically
 Each point of the graph has an arrow looping from it and back onto itself.
+### Irreflexive
+#### Informal definition
+No element is related to itself.
+#### Formal definition
+Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **irreflexive** iff $a \not r \medspace a$ for all $a \in A$.
+
+Or 
+if $(a, a) \notin R$ for all $a \in A$
 ### Antisymmetric 
 #### Informal definition
 There are no pairs of distinct elements that are related to eachother. In other words, the only way for two elements to be related to eachother is for them to be the same element. 
 #### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **antisymmetric** iff whenever $arb$ and $a\ne b$ then $bra$ is false.
+Or 
+if $[(a, b) \in R \wedge(b, a) \in R] \Rightarrow a=b$ for all $a, b \in A$
 #### Represented Graphically
 Whenever there is an arrow going from one element to another distinct element, there is not an arrow going back from the second to the first.
 ### Transitive
@@ -88,6 +102,8 @@ Whenever there is an arrow going from one element to another distinct element, t
 If any one element is related to a second and that second element is related to a third, then the first element is related to the third.
 #### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. $r$ is transitive iff whenever $arb$ and $brc$ then $arc$.
+Or 
+if $[(a, b) \in R \wedge(b, c) \in R] \Rightarrow(a, c) \in R$ for all $a, b, c \in A$
 #### Represented Graphically
 In each case where there is an arrow going from one point to a second and from the second point to a third, there is an arrow going form the first point to the third. That is, there are no "incomplete directed triangles" in the graph.
 ## Equivalence Relations
@@ -97,6 +113,8 @@ A relation $r$ on a set $A$ is aclled an equivalence relation iff it is reflexiv
 If any one element is related to any other element, then the second element is related to the first. 
 #### Formal Definition
 Let $r$ be a relation on a set $A$. $r$ is symmetric iff whenever $arb$, it follows that $bra$.
+Or 
+if $(a, b) \in R \Rightarrow(b, a) \in R$ for all $a, b \in A$
 #### Represented Graphically
 In each case where there is an arrow goign from one point to a second, there is an arrow going from the second point back to the first.
 
