@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-05T19:00:42.905Z
+date: 2021-05-06T17:00:43.147Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -67,3 +67,7 @@ and its digraph..
 or 
 ![graph_2.png](/graph_2.png)
 
+# Properties of Relations
+## Individual Properties
+### Reflexivity 
+Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is reflexive iff $ara$ for all $a \in A$.
