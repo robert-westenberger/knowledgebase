@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:45:54.731Z
+date: 2021-05-06T17:48:25.542Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -101,3 +101,4 @@ Let $r$ be a relation on a set $A$. $r$ is symmetric iff whenever $arb$, it foll
 In each case where there is an arrow goign from one point to a second, there is an arrow going from the second point back to the first.
 
 ## Partial Orderings
+A relation on a set $A$ that is **reflexive**, **antisymmetric**, and **transitive** is a **partial ordering** on set $A$. A set on which there is a partial ordering relation is called a **partially ordered set** or **poset**.
