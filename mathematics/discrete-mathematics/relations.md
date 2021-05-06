@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T18:41:57.146Z
+date: 2021-05-06T18:44:11.493Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -124,5 +124,7 @@ A relation on a set $A$ that is **reflexive**, **antisymmetric**, and **transiti
 # Inverse Relations
 Let $R$ be a relation from set $A$ to a set $B$. The **inverse relation** from $B$ to $A$, denoted by $R^{-1}$, is the set of ordered pairs $\{(b, a) \mid(a, b) \in R\}$.
 
+For example, let $A=\{1,2,3\}$ and $B=\{x,y,z\}$. Then the inverse of 
+$$R=\{(1,y),(1,z),(3,y)\} \medspace \text {is} \medspace R^{-1}=\{(y,1),(z,1),(y,3)\}$$
 # Complementary Relations
 Let $R$ be a relation from set $A$ to a set $B$. The **complementary relation** $\bar{R}$ is the set of ordered pairs $\{(a, b) \mid(a, b) \notin R\}$.
