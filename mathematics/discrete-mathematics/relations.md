@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T17:42:58.838Z
+date: 2021-05-06T17:43:07.236Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -78,7 +78,7 @@ Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **reflexive** iff
 Each point of the graph has an arrow looping from it and back onto itself.
 ### Antisymmetric 
 #### Informal definition
-There are no pairs of distinct elements that are related to eachother. In other words, the only way for two distinct elements to be related to eachother is for them to be the same element. 
+There are no pairs of distinct elements that are related to eachother. In other words, the only way for two elements to be related to eachother is for them to be the same element. 
 #### Formal Definition
 Let $A$ be a set and let $r$ be a relation on $A$. Then $r$ is **antisymmetric** iff whenever $arb$ and $a\ne b$ then $bra$ is false.
 #### Represented Graphically
