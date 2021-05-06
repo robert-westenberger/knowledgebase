@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T18:41:47.781Z
+date: 2021-05-06T18:41:57.146Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -122,7 +122,7 @@ In each case where there is an arrow goign from one point to a second, there is 
 A relation on a set $A$ that is **reflexive**, **antisymmetric**, and **transitive** is a **partial ordering** on set $A$. A set on which there is a partial ordering relation is called a **partially ordered set** or **poset**.
 
 # Inverse Relations
-Let $R$ be a relation from set $A$ to a set $B$. The **inverse relation** from $B$ to $A$, denoted by $R^{-1}$, is the set of ordered pairs $\{(b, a) \mid(a, b) \in R\}$
+Let $R$ be a relation from set $A$ to a set $B$. The **inverse relation** from $B$ to $A$, denoted by $R^{-1}$, is the set of ordered pairs $\{(b, a) \mid(a, b) \in R\}$.
 
 # Complementary Relations
-Let $R$ be a relation from set $A$ to a set $B$. The **complementary relation** $\bar{R}$ is the set of ordered pairs $\{(a, b) \mid(a, b) \notin R\}$
+Let $R$ be a relation from set $A$ to a set $B$. The **complementary relation** $\bar{R}$ is the set of ordered pairs $\{(a, b) \mid(a, b) \notin R\}$.
