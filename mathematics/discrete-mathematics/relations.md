@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-07T18:19:50.802Z
+date: 2021-05-07T18:30:31.384Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -127,7 +127,7 @@ We will define partial orders via the subset relation. For any element $a$, we t
 For partial orders the symbols $\prec$ and $\preceq$ are used because they resemble the symbols for subset and less-or-equal, which are the most common partial orders. (General orders are usually denoted by a letter like $R$).
 
 #### Formal Definition
-Given any total function $g$, from a set $A$, to a collection of sets, define the binary relation $\prec_{g}$ on $A$ byy the rule 
+Given any total function $g$, from a set $A$, to a collection of sets, define the binary relation $\prec_{g}$ on $A$ by the rule 
 $$
 a \prec_{g} b \quad \text { iff } \quad g(a) \subset g(b)
 $$
