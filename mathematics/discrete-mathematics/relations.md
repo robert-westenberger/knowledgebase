@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-07T17:20:51.812Z
+date: 2021-05-07T17:56:49.466Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -120,6 +120,11 @@ In each case where there is an arrow goign from one point to a second, there is 
 
 ## Partial Orderings
 A relation on a set $A$ that is **reflexive**, **antisymmetric**, and **transitive** is a **partial ordering** on set $A$. A set on which there is a partial ordering relation is called a **partially ordered set** or **poset**.
+
+### Partial Order by Function
+We will define partial orders via the subset relation. For any element $a$, we think of a function $g$, such that $g(a)$ is the set of properties that $a$ has. Then we relate different elements according to how their properites compare. All partial orders will arise this way.
+
+For partial orders the symbols $\prec$ and $\preceq$ are used because they resemble the symbols for subset and less-or-equal, which are the most common partial orders. (General orders are usually denoted by a letter like $R$).
 
 # Inverse Relations
 Let $R$ be a relation from set $A$ to a set $B$. The **inverse relation** from $B$ to $A$, denoted by $R^{-1}$, is the set of ordered pairs $\{(b, a) \mid(a, b) \in R\}$.
