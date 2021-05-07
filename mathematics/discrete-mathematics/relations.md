@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-06T18:45:49.951Z
+date: 2021-05-07T17:20:51.812Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -134,3 +134,6 @@ The domain and range of $R^{-1}$ are equal to the domain and range of $R$.
 If $R$ is a relation on $A$, then $R^{-1}$ is also a relation on $A$.
 # Complementary Relations
 Let $R$ be a relation from set $A$ to a set $B$. The **complementary relation** $\bar{R}$ is the set of ordered pairs $\{(a, b) \mid(a, b) \notin R\}$.
+
+# Combining Relations
+Let $R$ be a relation from a set $A$ to a set $B$ and $S$ a relation from $B$ to a set $C$.The composite of $R$ and $S$ is the relation consisting or ordered pairs $(a, c)$ where $a \in A$, $c \in C$, and for which there exists an element $b \in B$ such that $(a, b) \in R$ and $(b, c) \in S$. We denote the composite of $R$ and $S$ by $S \circ R$.
