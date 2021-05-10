@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-07T18:00:41.660Z
+date: 2021-05-10T19:01:20.761Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -128,7 +128,7 @@ $$
 for all $a_{1} \neq a_{2} \in A$
 For each, is it a total order?
 **a)** The relation $\lt$ on $\R$
-**b)** The superset relation $\subseteq$ on $\mathcal{P}(B)$ for a set $B$.
+**b)** The superset relation $\supseteq$ on $\mathcal{P}(B)$ for a set $B$.
 **c)** The divides relation on $\natnums$.
 
 ### Soln
