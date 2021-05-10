@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-07T19:11:05.881Z
+date: 2021-05-10T19:55:10.571Z
 tags: 
 editor: markdown
 ---
@@ -13,6 +13,7 @@ editor: markdown
 
 
 [Todo](/todo)
+**5-10** - 10 - 12 Review MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 3. Start taking notes / doing exercises in rosen 9.1 
 **5-7** - 9:45 - 12 Notes on partially orders on sets, 6042j 2005 notes on relations, Partial order by function, MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 3
 **5-6** - 9:45 - 12 Notes on relations, ended at Schaums Outline of Discrete Mathematics 2.5(pp 27)
 **5-5** - 10-12:00 Notes on relations, ended at bottom of http://faculty.uml.edu/klevasseur/ads/s-graphs-of-relations-on-a-set.html
