@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-10T19:01:20.761Z
+date: 2021-05-10T19:11:43.364Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -141,5 +141,15 @@ $$
 r_{1} \leq r_{2} \quad \text { iff } \quad r_{1}<r_{2}
 $$
 for all reals $r_1 \ne r_2$. $\blacksquare$.
-**b)** 
+**b)** $g(a)::=\bar{a}::=B-\{a\}$, and note that for $a_{1} \neq a_{2} \in \mathcal{P}(B)$,
+
+$$
+\begin{aligned}
+a_{1} \supseteq a_{2} & \text { iff } \quad a_{1} \supset a_{2} & \text{(since} \medspace a_1 \ne a_2 \text{)} \\
+& \text { iff } \quad \overline{\huge a_{1}} \subset \overline{\huge a_{2}} & \text{(basic set theory)} \\
+& \text { iff } \quad g\left(a_{1}\right) \subset g\left(a_{2}\right) & \text{(def of g)}
+\end{aligned}
+$$
+
+
 **c)** 
