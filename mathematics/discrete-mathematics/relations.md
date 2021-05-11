@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-07T18:30:31.384Z
+date: 2021-05-11T18:11:34.741Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -152,3 +152,7 @@ Let $R$ be a relation from set $A$ to a set $B$. The **complementary relation** 
 
 # Combining Relations
 Let $R$ be a relation from a set $A$ to a set $B$ and $S$ a relation from $B$ to a set $C$.The composite of $R$ and $S$ is the relation consisting or ordered pairs $(a, c)$ where $a \in A$, $c \in C$, and for which there exists an element $b \in B$ such that $(a, b) \in R$ and $(b, c) \in S$. We denote the composite of $R$ and $S$ by $S \circ R$.
+
+
+
+# n-ary Relations and Their Applications
