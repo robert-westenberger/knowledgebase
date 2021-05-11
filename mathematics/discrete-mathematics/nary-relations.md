@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:17:22.145Z
+date: 2021-05-11T19:18:25.039Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -49,4 +49,5 @@ Let $R$ be an n-ary relation and $C$ a condition that elements in $R$ must satis
 Using our student records table above, we could use the operator $s_{C_1}$ where $C_1$ is the condition Major="Computer Science". The result is the two 4 tuples containing data on the students Ackermann and Chou.
 
 ### Projections
+The **projection** $P_{i_{1} i_{2}, \ldots, i_{m}}$ where $i_{1}<i_{2}<\cdots<i_{m}$, maps the n-tuple $\left(a_{1}, a_{2}, \ldots, a_{n}\right)$ to the m-tuple $\left(a_{i_{1}}, a_{i_{2}}, \ldots, a_{i_{m}}\right)$, where $m \le n$.
  
