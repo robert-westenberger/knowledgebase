@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-11T17:31:32.610Z
+date: 2021-05-11T17:37:34.549Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -158,3 +158,6 @@ $$
 # Show a property about a relation
 ## Rosen 7th Edition Sec 9.1 Exercise 51
 Show that the relation $R$ on a set $A$ is symmetric iff $R=R^{-1}$, where $R^{-1}$ is the inverse relation.
+
+### Solution
+We need to show two things. We need to show that if a relation is symmetric, then $R=R^{-1}$, which means we must show that $R \subseteq R^{-1}$ and $R^{-1} \subseteq R$. To do this, let $(a, b) \in R$. Since $R$ is symmetric, this implies that $(b,a) \in R$. Since $R^{-1}$. But since $R^{-1}$ consists of all pairs $(a, b)$ such that $(b, a) \in R$, this means that $(a, b) \in R^{-1}$. 
