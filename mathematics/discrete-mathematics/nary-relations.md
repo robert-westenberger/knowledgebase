@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:23:46.611Z
+date: 2021-05-11T19:27:45.158Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -56,4 +56,6 @@ In other words, the projection $P_{i_{1} i_{2}, \ldots, i_{m}}$ deletes $n-m$ of
 For example, taking the projection $P_{1,3}$ on the 4-tuples $(2, 3, 0, 4)$ and (Jane Doe, 234111001, Geography, 3.14) results in $(2,0)$ and (Jane Doe, Geography) respectively. 
 
 ### Join Operation
- 
+Used to combine two tables into one when these tables share some identical fields. For instance, a table containing fields for airline, flight number, and gate, and another table containing fields for flight number, gate, and departure time can be combined into a table containing fields for airline, flight number, gate, and departure time.
+
+Let $R$ be a relation of degree $m$ and $S$ a relation of degree $n$. The **join** $J_{p}(R, S)$ where $p \le m$ and $p \le n$, is a relation of degree $m+n-p$ that consists of all $(m+n-p)$-tuples $\left(a_{1}, a_{2}, \ldots, a_{m-p}, c_{1}, c_{2}, \ldots, c_{p}, b_{1}, b_{2}, \ldots, b_{n-p}\right)$, where the $m$-tuple $\left(a_{1}, a_{2}, \ldots, a_{m-p}, c_{1}, c_{2}, \ldots, c_{p}\right)$ belongs to $R$ and the n-tuple $\left(c_{1}, c_{2}, \ldots, c_{p}, b_{1}, b_{2}, \ldots\right.\left.b_{n-p}\right)$ belongs to $S$.
