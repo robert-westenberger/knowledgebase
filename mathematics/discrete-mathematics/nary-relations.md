@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T18:25:15.941Z
+date: 2021-05-11T18:48:21.902Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -13,4 +13,6 @@ Let $A_{1}, A_{2}, \ldots, A_{n}$ be sets. An **n-ary relation** on these sets i
 For example, let $R_1$ bbe the relation $\mathbf{N} \times \mathbf{N} \times \mathbf{N}$ consisting of triples $(a,b,c)$, where $a$, $b$, and $c$ are integers with $a \lt b \lt c$. Then $(1,2,3) \in R$, but $(2,4,3) \notin R$. The degree of the relation is $3$. Its domains are all equal to the set of natural numbers.
 
 # Databases and Relations
-The **relational data model** is based on the concept of a relation.
+The **relational data model** is based on the concept of a relation. 
+
+A database consists of **records**, which are **n-tuples**, made up of fields. The fields are the entries of the n-tuples. 
