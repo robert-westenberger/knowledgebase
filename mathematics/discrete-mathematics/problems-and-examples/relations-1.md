@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-10T19:12:07.380Z
+date: 2021-05-11T17:31:32.610Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -153,3 +153,8 @@ $$
 
 
 **c)** 
+
+
+# Show a property about a relation
+## Rosen 7th Edition Sec 9.1 Exercise 51
+Show that the relation $R$ on a set $A$ is symmetric iff $R=R^{-1}$, where $R^{-1}$ is the inverse relation.
