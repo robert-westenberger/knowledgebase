@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:16:27.034Z
+date: 2021-05-11T19:17:00.918Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -46,5 +46,5 @@ Combinations of domains can also uniquely identify n-tuples in an n-ary relation
 ### Selection operator
 Let $R$ be an n-ary relation and $C$ a condition that elements in $R$ must satisfy. Then the **selection operator** $s_{C}$ maps the n-ary relation $R$ to the n-ary relation of all n-tuples from $R$ that satisfy the condition $C$. 
 
-Using our student records table above, we could use the operator $s_{C_1}$ where $C_1$ is the condition Major="Computer Science".
+Using our student records table above, we could use the operator $s_{C_1}$ where $C_1$ is the condition Major="Computer Science". The result is the two 4 tuples containing data on the students Ackermann and Chou.
  
