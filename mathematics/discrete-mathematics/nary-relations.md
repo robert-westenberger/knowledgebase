@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:22:10.753Z
+date: 2021-05-11T19:23:46.611Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -54,4 +54,6 @@ The **projection** $P_{i_{1} i_{2}, \ldots, i_{m}}$ where $i_{1}<i_{2}<\cdots<i_
 In other words, the projection $P_{i_{1} i_{2}, \ldots, i_{m}}$ deletes $n-m$ of the components of an n-tuple, leaving the $i_{1}$th, $i_{2}$th, $\cdots$, and $i_{m}$th components.
 
 For example, taking the projection $P_{1,3}$ on the 4-tuples $(2, 3, 0, 4)$ and (Jane Doe, 234111001, Geography, 3.14) results in $(2,0)$ and (Jane Doe, Geography) respectively. 
+
+### Join Operation
  
