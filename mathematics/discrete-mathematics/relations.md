@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-11T18:11:34.741Z
+date: 2021-05-11T18:16:50.669Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -155,4 +155,4 @@ Let $R$ be a relation from a set $A$ to a set $B$ and $S$ a relation from $B$ to
 
 
 
-# n-ary Relations and Their Applications
+
