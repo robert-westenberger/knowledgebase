@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:01:58.423Z
+date: 2021-05-11T19:03:30.566Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -25,3 +25,5 @@ The current collection of n-tuples in a relation is called the **extension** of 
 
 ## Selecting a primary key in a relational database
 When selecting a primary key, the goal should be to select a key that can serve as a primary key for all possible extensions of the database. To do this, it is necessary to examine the intension of the database to understand the set of possible n-tuples that can occur in an extension.
+
+Combinations of domains can also uniquely identify n-tuples in an n-ary relation. When the values of a set of domains determine an n-tuple in a relation, the Cartesian product of these domains is called a **composite key**.
