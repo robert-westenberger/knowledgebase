@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:11:17.857Z
+date: 2021-05-11T19:15:24.631Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -20,6 +20,18 @@ For instance, a database of student records may be made up of fields containing 
 
 Relations used to represent databases are called **tables**. Each column of the table corresponds to an attribute of the database. A table of student records discussed above is shown below..
 
+$$
+\begin{array}{|l|c|l|l|}
+\hline \text { Student\_name } & \text { ID\_number } & \text {Major} & \text { GPA } \\
+\hline \text { Ackermann } & 231455 & \text { Computer Science } & 3.88 \\
+\text { Adams } & 888323 & \text { Physics } & 3.45 \\
+\text { Chou } & 102147 & \text { Computer Science } & 3.49 \\
+\text { Goodfriend } & 453876 & \text { Mathematics } & 3.45 \\
+\text { Rao } & 678543 & \text { Mathematics } & 3.90 \\
+\text { Stevens } & 786576 & \text { Psychology } & 2.99 \\
+\hline
+\end{array}
+$$
 
 A domain of an n-ary relation is called a **primary key** when the value of the n-tuple from this domain determines the n-tuple. That is, a domain is a primary key when no two n-tuples in the relation have the same value for this domain.
 
