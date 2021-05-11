@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T18:48:21.902Z
+date: 2021-05-11T18:58:22.406Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -15,4 +15,6 @@ For example, let $R_1$ bbe the relation $\mathbf{N} \times \mathbf{N} \times \ma
 # Databases and Relations
 The **relational data model** is based on the concept of a relation. 
 
-A database consists of **records**, which are **n-tuples**, made up of fields. The fields are the entries of the n-tuples. 
+A database consists of **records**, which are **n-tuples**, made up of fields. The fields are the entries of the n-tuples. The relational data model represents a database of records as an n-ary relation. For instance, a database of student records may be made up of fields containing the name, student number, major, and gpa of the student. Student records are represented as 4-tuples of the form (Student_name, ID_number, Major, GPA). 
+
+Relations used to represent databases are called **tables**. Each column of the table corresponds to an attribute of the database. 
