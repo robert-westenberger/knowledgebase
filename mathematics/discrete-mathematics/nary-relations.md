@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:18:25.039Z
+date: 2021-05-11T19:20:15.178Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,4 +50,6 @@ Using our student records table above, we could use the operator $s_{C_1}$ where
 
 ### Projections
 The **projection** $P_{i_{1} i_{2}, \ldots, i_{m}}$ where $i_{1}<i_{2}<\cdots<i_{m}$, maps the n-tuple $\left(a_{1}, a_{2}, \ldots, a_{n}\right)$ to the m-tuple $\left(a_{i_{1}}, a_{i_{2}}, \ldots, a_{i_{m}}\right)$, where $m \le n$.
+
+In other words, the projection $P_{i_{1} i_{2}, \ldots, i_{m}}$ deletes $n-m$ of the components of an n-tuple, leaving the $i_{1}$th, $i_{2}$th, $\cdots$, and $i_{m}$th components.
  
