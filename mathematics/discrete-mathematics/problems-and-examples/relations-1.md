@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-11T17:39:27.256Z
+date: 2021-05-11T17:45:52.805Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -161,3 +161,5 @@ Show that the relation $R$ on a set $A$ is symmetric iff $R=R^{-1}$, where $R^{-
 
 ### Solution
 We need to show two things. We need to show that if a relation is symmetric, then $R=R^{-1}$, which means we must show that $R \subseteq R^{-1}$ and $R^{-1} \subseteq R$. To do this, let $(a, b) \in R$. Since $R$ is symmetric, this implies that $(b,a) \in R$. Since $R^{-1}$. But since $R^{-1}$ consists of all pairs $(a, b)$ such that $(b, a) \in R$, this means that $(a, b) \in R^{-1}$. Thus we have shown that $R \subseteq R^{-1}$. Next let $(a, b) \in R^{-1}$. By definition this means that $(b, a) \in R$. Since $R$ is symmetric, this implies that $(a,b) \in R$ as well. Thus we have show that $R^{-1} \subseteq R$.
+ 
+ Second we need to show that $R=R^{-1}$ implies that $R$ is symmetric. We let $(a,b) \in R$ and try to show that $(b,a)$ is also necessarily an element of $R$. Since $(a,b) \in R$, the definition tells us that $(b, a) \in R^{-1}$. But since we are under the hypothesis that $R=R^{-1}$, this tells us that $(b,a) \in R$, exactly as desired.
