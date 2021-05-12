@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-12T18:10:32.897Z
+date: 2021-05-12T18:17:34.712Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -38,3 +38,9 @@ $$
 1 & 0 & 1 & 0 & 1
 \end{array}\right]
 $$
+
+## Reflexivity
+The matrix relationship on a set, which is a square matrix, will have $1$s along the entirety of the main diagonal if the relationship is reflexive.
+
+## Symmetry and Antisymmetry
+![symmetry_antisymmetry.png](/symmetry_antisymmetry.png)
