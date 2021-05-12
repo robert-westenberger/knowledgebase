@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:42:27.401Z
+date: 2021-05-12T17:44:27.683Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -78,3 +78,5 @@ The **support** of an itemset $I$ is the probabilty that $I$ is included ina ran
 $$
 \operatorname{support}(I)=\frac{\sigma(I)}{|T|}
 $$
+
+The support threshhold $s$ is specified for a particular application. **Frequent itemset mining** is the process of finding itemsets $I$ with support greater than or equal to $s$. Such itemsets are said to be **frequent**.
