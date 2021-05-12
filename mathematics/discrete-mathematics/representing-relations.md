@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-12T18:30:56.611Z
+date: 2021-05-12T18:31:10.420Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -52,4 +52,4 @@ $$
 \mathbf{M}_{R_{1} \cup R_{2}}=\mathbf{M}_{R_{1}} \vee \mathbf{M}_{R_{2}} \quad \text { and } \quad \mathbf{M}_{R_{1} \cap R_{2}}=\mathbf{M}_{R_{1}} \wedge \mathbf{M}_{R_{2}}
 $$
 
-# Finding Composite 
+# Finding Composite of Relations Using Matrices
