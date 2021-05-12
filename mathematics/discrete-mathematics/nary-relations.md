@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:40:48.710Z
+date: 2021-05-12T17:42:27.401Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -70,3 +70,11 @@ A **transaction** is a set of items bought by a customer during a visit to the s
 
 Each product in the store is an **item**. A collection of items is an **itemset** (or **basket** or **transaction** in this context). A **k-itemset** is an itemset that contains exactly $k$ items. When a store has $n$ items for sale $a_{1}, a_{2}, \ldots, a_{n}$, each transaction can be represented by an n-tuple $b_{1}, b_{2}, \ldots, b_{n}$, where $b_1$ is a binary variable that tells us whether $a_1$ occurs in this transaction. We can represent a transaction by an $(n+1)$-tuple of the form (transaction number, $\left.b_{1}, b_{2}, \ldots, b_{n}\right)$. The collection of these $(n+1)$-tuples forms a database of transactions. 
 
+The **count** of an itemset $I$, denoted by $\sigma(I)$, in a set of transactions $T=\left\{t_{1}, t_{2}, \ldots, t_{k}\right\}$, where $k$ is a positive integer, is the number of transactions that contain this itemset. That is, 
+$$
+\sigma(I)=\left|\left\{t_{i} \in T \mid I \subseteq t_{i}\right\}\right|
+$$
+The **support** of an itemset $I$ is the probabilty that $I$ is included ina randomly selected transaction from $T$. That is, 
+$$
+\operatorname{support}(I)=\frac{\sigma(I)}{|T|}
+$$
