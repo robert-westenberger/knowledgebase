@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-12T18:31:10.420Z
+date: 2021-05-12T18:31:29.544Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -53,3 +53,4 @@ $$
 $$
 
 # Finding Composite of Relations Using Matrices
+Can be found using the boolean product of matrices.
