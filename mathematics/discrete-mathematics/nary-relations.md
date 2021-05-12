@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:49:35.530Z
+date: 2021-05-12T17:56:29.985Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -82,3 +82,17 @@ $$
 The support threshhold $s$ is specified for a particular application. **Frequent itemset mining** is the process of finding itemsets $I$ with support greater than or equal to $s$. Such itemsets are said to be **frequent**.
 
 If $S$ is a set of items and $T$ is a set of transactions, an **association rule** is an implication of the form $I \rarr J$, where $I$ and $J$ are disjoint subsets of $S$. Note that the statement $I \rarr J$ is not the statement that whenever $I$ is a subset of a transaction, then $J$ must also be one. Instead, the strength of an association rule is measured in terms of its **support**, the frequency of transactions that contain both $I$ and $J$, and its **confidence**, the frequency of transactions that contain $J$ when they also contain $I$.
+
+If $I$ and $J$ are subsets of a set $T$ of transactions, then 
+
+$$
+\operatorname{support}(I \rightarrow J)=\frac{\sigma(I \cup J)}{|T|}
+$$
+
+and 
+
+$$
+\text { confidence }(I \rightarrow J)=\frac{\sigma(I \cup J)}{\sigma(I)}
+$$
+
+The **support** of the association rule $I \rarr J$, the fraction of transactions containing both $I$ and $J$, is a useful measure because a low support value tells us a transaction containing all items in $I$ and all items in $J$ is seldom purchased. A high value would tell us they are purchased together in a large fraction of transactions. The  **confidence**  of $I \rarr J$ is the conditional probability that a transaction will contain all the items in $I$ and in $J$ given that it contains all the items in $I$. So the larger confidence in an association rule $I \rarr J$, the more likely it is for $J$ to be a subset of a transaction that contains $I$.
