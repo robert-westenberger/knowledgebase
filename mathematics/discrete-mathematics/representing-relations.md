@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-12T18:09:18.930Z
+date: 2021-05-12T18:10:32.897Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -26,5 +26,15 @@ $$
 0 & 0 \\
 1 & 0 \\
 1 & 1
+\end{array}\right]
+$$
+
+Another example, $A=\left\{a_{1}, a_{2}, a_{3}\right\}$, $B=\left\{b_{1}, b_{2}, b_{3}, b_{4}, b_{5}\right\}$, and $R=\left\{\left(a_{1}, b_{2}\right),\left(a_{2}, b_{1}\right),\left(a_{2}, b_{3}\right),\left(a_{2}, b_{4}\right),\left(a_{3}, b_{1}\right),\left(a_{3}, b_{3}\right),\left(a_{3}, b_{5}\right)\right\}$
+
+$$
+\mathbf{M}_{R}=\left[\begin{array}{lllll}
+0 & 1 & 0 & 0 & 0 \\
+1 & 0 & 1 & 1 & 0 \\
+1 & 0 & 1 & 0 & 1
 \end{array}\right]
 $$
