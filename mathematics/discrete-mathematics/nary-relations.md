@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:33:54.518Z
+date: 2021-05-12T17:37:06.117Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -64,5 +64,7 @@ In other words, the join operator produces a new relation from two relations by 
 
 
 # Association Rules from Data Mining
-We will use supermarket transactions as an example domain for discussing concepts in data mining.
+We will use supermarket transactions as an example domain for discussing concepts in data mining. We will use records from a database to address the question: How likely is it that a customer buys a product given that they also buy a collection of one or more specified products?
+
+A transaction is a set of items bought by a customer during a visit to the store, such as \{ milk, eggs, bread \} or \{orange juice, bananas, yogurt, cream\}. 
 A **transaction**
