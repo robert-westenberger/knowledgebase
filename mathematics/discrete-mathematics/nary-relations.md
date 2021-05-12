@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:58:45.676Z
+date: 2021-05-12T17:58:45.675Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
