@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-12T18:24:02.662Z
+date: 2021-05-12T18:30:56.611Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -45,9 +45,11 @@ The matrix relationship on a set, which is a square matrix, will have $1$s along
 ## Symmetry and Antisymmetry
 ![symmetry_antisymmetry.png](/symmetry_antisymmetry.png)
 
-# Finding union and intersection of relations using matrices
+# Finding Union and Intersection of Relations Using Matrices
 The boolean operations **join** and **meet** can be used to find the matrices representing the union and the intersection of two relations. Suppose $R_1$ and $R_2$ are relations on a set $A$ represented by the matrices $M_{R_1}$ and $M_{R_2}$, respectively. The matrix representing the union of these relations has a $1$ in the positions where either $M_{R_1}$ or $M_{R_2}$ has a $1$. The matrix representing the intersection has a $1$ in positions where both $M_{R_1}$ and $M_{R_2}$ have a $1$. The matrices representing these relations are 
 
 $$
 \mathbf{M}_{R_{1} \cup R_{2}}=\mathbf{M}_{R_{1}} \vee \mathbf{M}_{R_{2}} \quad \text { and } \quad \mathbf{M}_{R_{1} \cap R_{2}}=\mathbf{M}_{R_{1}} \wedge \mathbf{M}_{R_{2}}
 $$
+
+# Finding Composite 
