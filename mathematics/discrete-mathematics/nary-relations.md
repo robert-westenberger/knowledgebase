@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-11T19:28:58.134Z
+date: 2021-05-12T17:33:54.518Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -61,3 +61,8 @@ Used to combine two tables into one when these tables share some identical field
 Let $R$ be a relation of degree $m$ and $S$ a relation of degree $n$. The **join** $J_{p}(R, S)$ where $p \le m$ and $p \le n$, is a relation of degree $m+n-p$ that consists of all $(m+n-p)$-tuples $\left(a_{1}, a_{2}, \ldots, a_{m-p}, c_{1}, c_{2}, \ldots, c_{p}, b_{1}, b_{2}, \ldots, b_{n-p}\right)$, where the $m$-tuple $\left(a_{1}, a_{2}, \ldots, a_{m-p}, c_{1}, c_{2}, \ldots, c_{p}\right)$ belongs to $R$ and the n-tuple $\left(c_{1}, c_{2}, \ldots, c_{p}, b_{1}, b_{2}, \ldots\right.\left.b_{n-p}\right)$ belongs to $S$.
 
 In other words, the join operator produces a new relation from two relations by combining all m-tuples of the first relation with all n-tuples of the second relation, where the last $p$ components of the $m-tuples$ agree with the first $p$ components of the n-tuples.
+
+
+# Association Rules from Data Mining
+We will use supermarket transactions as an example domain for discussing concepts in data mining.
+A **transaction**
