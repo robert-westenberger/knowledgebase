@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:44:27.683Z
+date: 2021-05-12T17:49:35.530Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -80,3 +80,5 @@ $$
 $$
 
 The support threshhold $s$ is specified for a particular application. **Frequent itemset mining** is the process of finding itemsets $I$ with support greater than or equal to $s$. Such itemsets are said to be **frequent**.
+
+If $S$ is a set of items and $T$ is a set of transactions, an **association rule** is an implication of the form $I \rarr J$, where $I$ and $J$ are disjoint subsets of $S$. Note that the statement $I \rarr J$ is not the statement that whenever $I$ is a subset of a transaction, then $J$ must also be one. Instead, the strength of an association rule is measured in terms of its **support**, the frequency of transactions that contain both $I$ and $J$, and its **confidence**, the frequency of transactions that contain $J$ when they also contain $I$.
