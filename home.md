@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-11T19:31:40.254Z
+date: 2021-05-12T19:08:59.535Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**5-11** 10 - 12 Finished taking notes on rosen 9.2, started on 9.3 (matrix representation of relations).. Need better understanding of boolean product of zero-one matrices.
 **5-11** 10 - 12 An exercise from rosen 7th 9.1. Starting taking notes on sec 9.2(n-ary relations). Stopped at page 616 in the 8th edition, sec 9.2.5 SQL
 **5-10** - 10 - 12 Review MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 3. Start taking notes / doing exercises in rosen 9.1 
 **5-7** - 9:45 - 12 Notes on partially orders on sets, 6042j 2005 notes on relations, Partial order by function, MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 3
