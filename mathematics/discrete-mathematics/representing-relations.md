@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-12T18:17:34.712Z
+date: 2021-05-12T18:20:41.105Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -44,3 +44,6 @@ The matrix relationship on a set, which is a square matrix, will have $1$s along
 
 ## Symmetry and Antisymmetry
 ![symmetry_antisymmetry.png](/symmetry_antisymmetry.png)
+
+# Finding union and intersection of relations using matrices
+The boolean operations **join** and **meet** can be used to find the matrices representing the union and the intersection of two relations. 
