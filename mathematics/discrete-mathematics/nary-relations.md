@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:37:06.117Z
+date: 2021-05-12T17:40:48.710Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -66,5 +66,7 @@ In other words, the join operator produces a new relation from two relations by 
 # Association Rules from Data Mining
 We will use supermarket transactions as an example domain for discussing concepts in data mining. We will use records from a database to address the question: How likely is it that a customer buys a product given that they also buy a collection of one or more specified products?
 
-A transaction is a set of items bought by a customer during a visit to the store, such as \{ milk, eggs, bread \} or \{orange juice, bananas, yogurt, cream\}. 
-A **transaction**
+A **transaction** is a set of items bought by a customer during a visit to the store, such as \{ milk, eggs, bread \} or \{orange juice, bananas, yogurt, cream\}. 
+
+Each product in the store is an **item**. A collection of items is an **itemset** (or **basket** or **transaction** in this context). A **k-itemset** is an itemset that contains exactly $k$ items. When a store has $n$ items for sale $a_{1}, a_{2}, \ldots, a_{n}$, each transaction can be represented by an n-tuple $b_{1}, b_{2}, \ldots, b_{n}$, where $b_1$ is a binary variable that tells us whether $a_1$ occurs in this transaction. We can represent a transaction by an $(n+1)$-tuple of the form (transaction number, $\left.b_{1}, b_{2}, \ldots, b_{n}\right)$. The collection of these $(n+1)$-tuples forms a database of transactions. 
+
