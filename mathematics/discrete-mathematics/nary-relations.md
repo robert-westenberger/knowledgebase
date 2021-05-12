@@ -2,7 +2,7 @@
 title: n-ary Relations
 description: 
 published: true
-date: 2021-05-12T17:56:29.985Z
+date: 2021-05-12T17:58:45.676Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -96,3 +96,6 @@ $$
 $$
 
 The **support** of the association rule $I \rarr J$, the fraction of transactions containing both $I$ and $J$, is a useful measure because a low support value tells us a transaction containing all items in $I$ and all items in $J$ is seldom purchased. A high value would tell us they are purchased together in a large fraction of transactions. The  **confidence**  of $I \rarr J$ is the conditional probability that a transaction will contain all the items in $I$ and in $J$ given that it contains all the items in $I$. So the larger confidence in an association rule $I \rarr J$, the more likely it is for $J$ to be a subset of a transaction that contains $I$.
+
+
+An important problem in data mining is to find **strong association rules**, which have support and confidence greater than that of a minimum confidence and support levels.
