@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-05-12T18:00:22.900Z
+date: 2021-05-13T18:54:46.547Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -38,10 +38,12 @@ State machines
 [Sets](/mathematics/discrete-mathematics/sets)
 [Sequences](/mathematics/discrete-mathematics/Sequences)
 [Functions](/mathematics/discrete-mathematics/functions)
+Recursive Data Types
+### Relations
 [Relations](/mathematics/discrete-mathematics/relations)
 [n-ary Relations](/mathematics/discrete-mathematics/nary-relations)
 [Representing Relations](/mathematics/discrete-mathematics/representing-relations)
-Recursive Data Types
+[Closures of Relations](/mathematics/discrete-mathematics/closures-of-relations)
 
 ## Structures
 Number theory
