@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-13T17:55:45.223Z
+date: 2021-05-13T17:57:55.241Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -62,6 +62,14 @@ Based on this, a new relation $rs$, from $A$ into $C$ can be defined. In order f
 
 # Powers of a Relation
 The powers of a relation $R$ can be recursively defined from the definition of a composite of two relations.
+
+Let $R$ be a relation on the set $A$. The powers $R^{n}, n=1,2,3, \ldots$, are defined recursively by 
+
+$$
+R^{1}=R \quad \text { and } \quad R^{n+1}=R^{n} \circ R \text { . }
+$$
+
+
 # Graphs of Relations on a Set
 In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
 ## Example
