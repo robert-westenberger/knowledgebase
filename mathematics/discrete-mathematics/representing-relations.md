@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-13T18:40:12.298Z
+date: 2021-05-13T18:45:39.977Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -161,3 +161,4 @@ $$
 $$
 
 # Representing Relations Using Digraphs
+Note: see [Graphs](/mathematics/discrete-mathematics/graphs).
