@@ -2,10 +2,10 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-13T18:55:27.950Z
+date: 2021-05-13T19:02:59.397Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
 
-# Different Types of Closures
+# Types of Closures
 Your content here
