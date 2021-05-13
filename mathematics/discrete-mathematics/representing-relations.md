@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-13T17:25:48.527Z
+date: 2021-05-13T17:26:49.681Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -109,3 +109,14 @@ $$
 
 
 ### Example
+
+$\mathbf{M}_{R}=\left[\begin{array}{lll}1 & 0 & 1 \\ 1 & 1 & 0 \\ 0 & 0 & 0\end{array}\right]$ and $\mathbf{M}_{S}=\left[\begin{array}{lll}0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 1\end{array}\right]$
+
+$$
+\mathbf{M}_{S \circ R}=\mathbf{M}_{R} \odot \mathbf{M}_{S}=\left[\begin{array}{ccc}
+1 & 1 & 1 \\
+0 & 1 & 1 \\
+0 & 0 & 0
+\end{array}\right]
+$$
+
