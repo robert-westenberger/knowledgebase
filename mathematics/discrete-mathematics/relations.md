@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-13T18:01:25.892Z
+date: 2021-05-13T18:02:25.016Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -78,7 +78,7 @@ Because $R^{2}=R \circ R$, we find that $R^{2}=\{(1,1),(2,1),(3,1),(4,2)\}$.
 
 Because $R^{3}=R^{2} \circ R, R^{3}=\{(1,1),(2,1),(3,1),(4,1)\}$.
 
-$R^4$ turns out to be the same as $R^3$.
+$R^4$ turns out to be the same as $R^3$. It follows that $R^n=R^3$ for $n \gt 3$.
 # Graphs of Relations on a Set
 In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
 ## Example
