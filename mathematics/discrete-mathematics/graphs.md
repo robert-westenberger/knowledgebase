@@ -2,12 +2,14 @@
 title: Graphs
 description: 
 published: true
-date: 2021-05-03T17:17:04.394Z
+date: 2021-05-13T18:48:04.731Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
 # Directed Graph / Digraph
+
+A **directed graph** / **digraph** consists of a set of $V$ of **vertices** (or **nodes**) together with a set $E$ of ordered pairs of elements of $V$ called **edges** (or **arcs**). The vertex $a$ is called the **initial vertex** of the edge $(a,b)$ and vertex $b$ is called the **terminal vertex** of this edge.
 A directed graph is the same as a binary relation on a set $A$, but we picture the digraph geometrically by representing elements of $A$ as points on the plane, with an arrow from the point for $a$ to the point for $b$ exactly when $aRb$. The elements of $A$ are referred to as the vertices of the digraph.
 
 Below, the divisibility relation on $\{1,2, \ldots, 12\}$ is represented by the following digraph:
