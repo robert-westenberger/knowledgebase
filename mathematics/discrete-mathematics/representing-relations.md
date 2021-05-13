@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-12T18:49:54.054Z
+date: 2021-05-13T17:18:02.700Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -61,6 +61,43 @@ Let $\mathbf{A}=\left[a_{i j}\right]$ be an $m \times k$ boolean matrix and $\ma
 $$
 c_{i j}=\left(a_{i 1} \wedge b_{1 j}\right) \vee\left(a_{i 2} \wedge b_{2 j}\right) \vee \cdots \vee\left(a_{i k} \wedge b_{k j}\right)
 $$
+
+### Example
+The boolean product of $\textbf {A}$ and $\textbf {B}$
+
+$$
+\mathbf{A}=\left[\begin{array}{ll}
+1 & 0 \\
+0 & 1 \\
+1 & 0
+\end{array}\right], \quad \mathbf{B}=\left[\begin{array}{lll}
+1 & 1 & 0 \\
+0 & 1 & 1
+\end{array}\right]
+$$
+
+
+
+$$
+\begin {aligned}
+\mathbf{A} \odot \mathbf{B}&=\left[\begin{array}{lll}
+(1 \wedge 1) \vee(0 \wedge 0) & (1 \wedge 1) \vee(0 \wedge 1) & (1 \wedge 0) \vee(0 \wedge 1) \\
+(0 \wedge 1) \vee(1 \wedge 0) & (0 \wedge 1) \vee(1 \wedge 1) & (0 \wedge 0) \vee(1 \wedge 1) \\
+(1 \wedge 1) \vee(0 \wedge 0) & (1 \wedge 1) \vee(0 \wedge 1) & (1 \wedge 0) \vee(0 \wedge 1)
+\end{array}\right] \\
+&=\left[\begin{array}{lll}
+1 \vee 0 & 1 \vee 0 & 0 \vee 0 \\
+0 \vee 0 & 0 \vee 1 & 0 \vee 1 \\
+1 \vee 0 & 1 \vee 0 & 0 \vee 0
+\end{array}\right] \\
+& =\left[\begin{array}{lll}
+1 & 1 & 0 \\
+0 & 1 & 1 \\
+1 & 1 & 0
+\end{array}\right]
+\end {aligned}
+$$
+
 
 ## Matrix for composite relations
 Suppose $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to $C$. Suppose $A$ $B$ and $C$ have $m$, $n$ and $p$ elements, respectively. Let the boolean matrices for $S \circ R$, $R$, and $S$ be $\mathbf{M}_{S \circ R}=\left[t_{i j}\right]$, $\mathbf{M}_{R}=\left[r_{i j}\right]$, and $\mathbf{M}_{S}=\left[s_{i j}\right]$, respectively. These matrices have sizes $m \times p$, $m \times n$, and $n \times p$, respectively. The ordered pair $\left(a_{i}, c_{j}\right)$ belongs to $S \circ R$ iff there is an element $b_k$ such that $\left(a_{i}, b_{k}\right)$ belongs to $R$ and $\left(b_{k}, c_{j}\right)$ belongs to $S$. It follows that $t_{ij}=1$ iff $r_{i k}=s_{k j}=1$ for some $k$.
