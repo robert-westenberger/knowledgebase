@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-13T18:24:00.355Z
+date: 2021-05-13T18:31:54.215Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -104,7 +104,7 @@ Suppose $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to $C$.
 
 From the definition of boolean product this means that 
 $$
-\mathbf{M}_{S^{\circ} R}=\mathbf{M}_{R} \odot \mathbf{M}_{S}
+\mathbf{M}_{S \circ R}=\mathbf{M}_{R} \odot \mathbf{M}_{S}
 $$
 
 
@@ -121,3 +121,22 @@ $$
 $$
 
 ## Boolean Powers of a Square Zero-One Matrix
+Let $\textbf A$ be a square zero-one matrix and let $r$ be a positive integer. The $r$th **boolean power** of $\textbf A$ is the boolean product of $r$ factors of $\textbf A$. The $rth$ boolean product of $\textbf A$ is denoted by $\textbf A^{[r]}$, Hence
+
+$$
+\mathbf{A}^{[r]}=\underbrace{\mathbf{A} \odot \mathbf{A} \odot \mathbf{A} \odot \cdots \odot \mathbf{A}}_{r \text { times }} .
+$$
+We also define $\mathbf{A}^{[0]}$ to be $\mathbf{I}_{n}$.
+
+(Remember that $\textbf I_n$ is the **identity matrix of order** $\textbf n$, which is the $\textbf n \times \textbf n$ matrix $\mathbf{I}_{n}=\left[\delta_{i j}\right]$ (The Kronecker delta) where $\delta_{i j}=1$ if $i=j$ and $\delta_{i j}=0$ if $i \ne j$. Hence,
+
+$$
+\mathbf{I}_{n}=\left[\begin{array}{llll}
+1 & 0 & \ldots & 0 \\
+0 & 1 & \ldots & 0 \\
+. & . & & . \\
+. & . & & . \\
+. & . & & . \\
+0 & 0 & \ldots & 1
+\end{array}\right]
+$$
