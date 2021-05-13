@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-13T18:38:57.556Z
+date: 2021-05-13T18:39:52.006Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -146,4 +146,16 @@ $$
 The matrix representing the composite of two relations can be used to find the matrix for $\mathbf{M}_{R^{n}}$. In particular, 
 $$
 \mathbf{M}_{R^{n}}=\mathbf{M}_{R}^{[n]}
+$$
+
+### Example
+Find the matrix representing $R^2$, where the matrix for $R$ is 
+$$\mathbf{M}_{R}=\left[\begin{array}{lll}0 & 1 & 0 \\ 0 & 1 & 1 \\ 1 & 0 & 0\end{array}\right]$$
+
+$$
+\mathbf{M}_{R^{2}}=\mathbf{M}_{R}^{[2]}=\left[\begin{array}{lll}
+0 & 1 & 1 \\
+1 & 1 & 1 \\
+0 & 1 & 0
+\end{array}\right]
 $$
