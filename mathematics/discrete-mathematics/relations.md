@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-11T18:16:50.669Z
+date: 2021-05-13T17:48:29.915Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -32,6 +32,7 @@ The "divides" relation, for example on the set of integers is: Let $a, b \in \Z$
 # Composition of Relations
 Let $r$ be a relation from a set $A$ into a set $B$, and let $s$ be a relation from $B$ into a set $C$. The composition of $r$ with $s$, written $rs$, is the set of pairs of the form $(a, c) \in A \times C$, where $(a, c) \in r s$ iff there exists $b \in B$ such that $(a,b) \in r$ and $(b,c) \in s$.
 
+The composition of relations $S$ and $R$ can also be denoted by $S \circ R$ for example.
 ## Example
 Take for example three sets
 $A=\{2,3,5,8\}$
@@ -57,6 +58,8 @@ $$
 $$
 
 Based on this, a new relation $rs$, from $A$ into $C$ can be defined. In order for $(a,c)$ to be in $rs$, it must be possible to travel along a path from $a$ to $c$. In other words, $(a,c) \in rs$ iff $(\exists b)_{B}(a r b$ and $b s c)$.
+
+
 
 # Graphs of Relations on a Set
 In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
