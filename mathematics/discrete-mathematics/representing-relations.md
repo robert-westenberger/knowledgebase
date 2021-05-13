@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-13T18:31:54.215Z
+date: 2021-05-13T18:38:57.556Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -139,4 +139,11 @@ $$
 . & . & & . \\
 0 & 0 & \ldots & 1
 \end{array}\right]
+$$
+
+## Using Matrices Representing the Composite of Two Relations to find the Powers of a relation
+
+The matrix representing the composite of two relations can be used to find the matrix for $\mathbf{M}_{R^{n}}$. In particular, 
+$$
+\mathbf{M}_{R^{n}}=\mathbf{M}_{R}^{[n]}
 $$
