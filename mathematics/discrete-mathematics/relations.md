@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-13T17:57:55.241Z
+date: 2021-05-13T17:58:17.288Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -69,7 +69,7 @@ $$
 R^{1}=R \quad \text { and } \quad R^{n+1}=R^{n} \circ R \text { . }
 $$
 
-
+$R^{2}=R \circ R, R^{3}=R^{2} \circ R=(R \circ R) \circ R$ and so on.
 # Graphs of Relations on a Set
 In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
 ## Example
