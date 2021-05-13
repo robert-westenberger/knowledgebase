@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-13T17:58:17.288Z
+date: 2021-05-13T18:01:25.892Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -70,6 +70,15 @@ R^{1}=R \quad \text { and } \quad R^{n+1}=R^{n} \circ R \text { . }
 $$
 
 $R^{2}=R \circ R, R^{3}=R^{2} \circ R=(R \circ R) \circ R$ and so on.
+
+## Example
+Let $R=\{(1,1),(2,1),(3,2),(4,3)\}$. Find $R^n$, $n=2,3,4, \ldots$
+
+Because $R^{2}=R \circ R$, we find that $R^{2}=\{(1,1),(2,1),(3,1),(4,2)\}$. 
+
+Because $R^{3}=R^{2} \circ R, R^{3}=\{(1,1),(2,1),(3,1),(4,1)\}$.
+
+$R^4$ turns out to be the same as $R^3$.
 # Graphs of Relations on a Set
 In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
 ## Example
