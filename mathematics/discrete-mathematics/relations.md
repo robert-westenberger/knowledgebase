@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-13T17:48:29.915Z
+date: 2021-05-13T17:55:45.223Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -60,7 +60,8 @@ $$
 Based on this, a new relation $rs$, from $A$ into $C$ can be defined. In order for $(a,c)$ to be in $rs$, it must be possible to travel along a path from $a$ to $c$. In other words, $(a,c) \in rs$ iff $(\exists b)_{B}(a r b$ and $b s c)$.
 
 
-
+# Powers of a Relation
+The powers of a relation $R$ can be recursively defined from the definition of a composite of two relations.
 # Graphs of Relations on a Set
 In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
 ## Example
