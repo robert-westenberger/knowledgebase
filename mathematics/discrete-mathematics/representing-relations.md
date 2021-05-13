@@ -2,7 +2,7 @@
 title: Representing Relations
 description: 
 published: true
-date: 2021-05-13T17:26:49.681Z
+date: 2021-05-13T18:24:00.355Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -120,3 +120,4 @@ $$
 \end{array}\right]
 $$
 
+## Boolean Powers of a Square Zero-One Matrix
