@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T17:54:59.358Z
+date: 2021-05-14T18:18:21.986Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -17,7 +17,8 @@ If $R$ is a relation on a set $A$, then the **closure** of $R$ with respect to $
 
 The relation $R=\{(1,1),(1,2),(2,1),(3,2)\}$ on set $A=\{1,2,3\}$ is not reflexive. By adding $(2,2)$ and $(3,3)$ to $R$, $R$ is now reflexive. This new relation contains $R$. Any reflexive relation that contains $R$ must also contain $(2,2)$ and $(3,3)$. Because this relation contains $R$, is reflexive, and is contained within every reflexive relation that contains $R$, it is called the **reflexive closure** of $R$.
 
-As the above example illustrates, given a relation $R$ on a set $A$, the reflexive closure of $R$ can be formed by adding to $R$ all pairs of the form $(a, a)$ with $a \in A$, not already in $R$. The addition of these pairs produces a new relation that is reflexive, contains $R$, and is contained within any reflexive relation containing $R$. We see that the reflexive closure of $R$ equals $R \cup \Delta$, where $\Delta=\{(a, a) \mid a \in A\}$ is the **diagonal relation** on $A$.
+As the above example illustrates, given a relation $R$ on a set $A$, the reflexive closure of $R$ can be formed by adding to $R$ all pairs of the form $(a, a)$ with $a \in A$, not already in $R$. The addition of these pairs produces a new relation that is reflexive, contains $R$, and is contained within any reflexive relation containing $R$. We see that the reflexive closure of $R$ equals $R \.
+3+\Delta$, where $\Delta=\{(a, a) \mid a \in A\}$ is the **diagonal relation** on $A$.
 
 ### Example
 What is the reflexive closure of the relation $R=\{(a, b) \mid a<b\}$ on the set of integers?
@@ -29,3 +30,5 @@ $$
 
 ## Symmetric Closure
 The relation $R=\{(1,1),(1,2),(2,2),(2,3),(3,1),(3,2)\}$ on a set $A=\{1,2,3\}$ can be made symmetric by adding $(2,1)$ and $(1,3)$, the only pairs of the form $(b,a)$ with $(a,b) \in R$ that are not in $R$. This new relation is the **symmetric closure** of $R$.
+
+The symmetric closure of a relation can be constructed by taking the union of a relation with its inverse, this is, $R \cup R^{-1}$ is the symmetric closure of $R$, where $R^{-1}=\{(b, a) \mid(a, b) \in R\}$.
