@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-05-13T18:54:46.547Z
+date: 2021-05-14T19:06:58.511Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -44,7 +44,7 @@ Recursive Data Types
 [n-ary Relations](/mathematics/discrete-mathematics/nary-relations)
 [Representing Relations](/mathematics/discrete-mathematics/representing-relations)
 [Closures of Relations](/mathematics/discrete-mathematics/closures-of-relations)
-
+[equivalence-relations](/mathematics/discrete-mathematics/equivalence-relations)
 ## Structures
 Number theory
 [Graphs](/mathematics/discrete-mathematics/graphs)
