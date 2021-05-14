@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:56:27.626Z
+date: 2021-05-14T18:58:36.071Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -104,3 +104,10 @@ Suppose that $a=b$ and that $m>n$, so that $m \geq n+1 .$ By the pigeonhole prin
 ![producing_a_path_with_length_not_exceeding_n.png](/producing_a_path_with_length_not_exceeding_n.png)
 
 Suppose that $x_{i}=x_{j}$ with $0 \leq i<j \leq m-1$. Then the path contains a circuit from $x_{i}$ to itself. This circuit can be deleted from the path from $a$ to $b$, leaving a path, namely, $x_{0}, x_{1}, \ldots, x_{i}, x_{j+1}, \ldots, x_{m-1}, x_{m}$, from $a$ to $b$ of shorter length. Hence, the path of shortest length must have length less than or equal to $n$.
+
+## Theorem 3
+
+Let $\mathbf{M}_{R}$ be the zero-one matrix of the relation $R$ on a set with $n$ elements. Then the zero-one matrix of the transitive closure $R^{*}$ is
+$$
+\mathbf{M}_{R^{*}}=\mathbf{M}_{R} \vee \mathbf{M}_{R}^{[2]} \vee \mathbf{M}_{R}^{[3]} \vee \cdots \vee \mathbf{M}_{R}^{[n]}
+$$
