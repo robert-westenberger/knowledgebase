@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:30:05.749Z
+date: 2021-05-14T18:32:13.465Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -42,4 +42,4 @@ $$
 ## Transitive Closures
 These are a little more complicated. Take for example a relation $R=\{(1,3),(1,4),(2,1),(3,2)\}$ on a set $A=\{1,2,3,4\}$. The relation isn't transitive because it does not contain all pairs of the form $(a,c)$ where $(a,b)$ and $(b,c)$ are in $R$. The pairs of this form not in $R$ are $(1,2)$, $(2,3)$, $(2,4)$, and $(3,1)$. Adding these pairs doesn't produce a transitive relation because the resulting relation contains $(3,1)$ and $(1,4)$ but does not contain $(3,4)$.
 # Paths in Directed Graphs
-
+A **path** from $a$ to $b$ in the directed graph $G$ is a sequence of edges $\left(x_{0}, x_{1}\right),\left(x_{1}, x_{2}\right)$, $\left(x_{2}, x_{3}\right), \ldots,\left(x_{n-1}, x_{n}\right)$ in $G$, where $n$ is a nonnegative integer, and $x_{0}=a$ and $x_{n}=b$, that is, a sequence of edges where the terminal vertex of an edge is the same as the initial vertex in the next edge in the path. This path is denoted by $x_{0}, x_{1}, x_{2}, \ldots, x_{n-1}, x_{n}$ and has **length** $n$. We view the empty set of edges as a path of length zero from $a$ to $a$. A path of length $n \geq 1$ that begins and ends at the same vertex is called a circuit or cycle.
