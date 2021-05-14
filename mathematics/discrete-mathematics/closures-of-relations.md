@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:47:49.336Z
+date: 2021-05-14T18:49:00.646Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -74,3 +74,8 @@ Let $R$ be the relation on the set of all people in the world that contains $(a,
 The relation $R^{2}$ contains $(a, b)$ if there is a person $c$ such that $(a, c) \in R$ and $(c, b) \in R$ that is, if there is a person $c$ such that $a$ has met $c$ and $c$ has met $b$. Similarly, $R^{n}$ consists of those pairs $(a, b)$ such that there are people $x_{1}, x_{2}, \ldots, x_{n-1}$ such that $a$ has met $x_{1}, x_{1}$ has met $x_{2}, \ldots$, and $x_{n-1}$ has met $b$.
 
 The relation $R^{*}$ contains $(a, b)$ if there is a sequence of people, starting with $a$ and ending with $b$, such that each person in the sequence has met the next person in the sequence. 
+
+### Example
+Let $R$ be the relation on the set of all subway stops in New York City that contains $(a, b)$ if it is possible to travel from stop $a$ to stop $b$ without changing trains. What is $R^{n}$ when $n$ is a positive integer? What is $R^{*}$ ?
+#### Solution
+The relation $R^{n}$ contains $(a, b)$ if it is possible to travel from stop $a$ to stop $b$ by making at most $n-1$ changes of trains. The relation $R^{*}$ consists of the ordered pairs $(a, b)$ where it is possible to travel from stop $a$ to stop $b$ making as many changes of trains as necessary.
