@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:41:23.468Z
+date: 2021-05-14T18:41:41.918Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -53,4 +53,5 @@ Let $R$ be a relation on a set $A$. There is a path of length $n$, where $n$ is 
 ### Proof of Theorem 1
 **Proof:** We will use mathematical induction. By definition, there is a path from $a$ to $b$ of length one if and only if $(a, b) \in R$, so the theorem is true when $n=1$.
 
-Assume that the theorem is true for the positive integer $n$. This is the inductive hypothesis. There is a path of length $n+1$ from $a$ to $b$ if and only if there is an element $c \in A$ such that there is a path of length one from $a$ to $c$, so $(a, c) \in R$, and a path of length $n$ from $c$ to $b$, that is, $(c, b) \in R^{n} .$ Consequently, by the inductive hypothesis, there is a path of length $n+1$ from $a$ to $b$ if and only if there is an element $c$ with $(a, c) \in R$ and $(c, b) \in R^{n} .$ But there is such an element if and only if $(a, b) \in R^{n+1}$. Therefore, there is a path of length $n+1$ from $a$ to $b$ if and only if $(a, b) \in R^{n+1}$. This completes the proof. $\blacksquare$.
+Assume that the theorem is true for the positive integer $n$. This is the inductive hypothesis. There is a path of length $n+1$ from $a$ to $b$ if and only if there is an element $c \in A$ such that there is a path of length one from $a$ to $c$, so $(a, c) \in R$, and a path of length $n$ from $c$ to $b$, that is, $(c, b) \in R^{n} .$ Consequently, by the inductive hypothesis, there is a path of length $n+1$ from $a$ to $b$ if and only if there is an element $c$ with $(a, c) \in R$ and $(c, b) \in R^{n} .$ But there is such an element if and only if $(a, b) \in R^{n+1}$. Therefore, there is a path of length $n+1$ from $a$ to $b$ if and only if $(a, b) \in R^{n+1}$. This completes the proof. $\blacksquare$
+
