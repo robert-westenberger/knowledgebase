@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:46:27.313Z
+date: 2021-05-14T18:47:49.336Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -67,3 +67,10 @@ Because $R^{n}$ consists of the pairs $(a, b)$ such that there is a path of leng
 $$
 R^{*}=\bigcup_{n=1}^{\infty} R^{n}
 $$
+
+### Example
+Let $R$ be the relation on the set of all people in the world that contains $(a, b)$ if $a$ has met $b$. What is $R^{n}$, where $n$ is a positive integer greater than one? What is $R^{*}$ ?
+#### Solution
+The relation $R^{2}$ contains $(a, b)$ if there is a person $c$ such that $(a, c) \in R$ and $(c, b) \in R$ that is, if there is a person $c$ such that $a$ has met $c$ and $c$ has met $b$. Similarly, $R^{n}$ consists of those pairs $(a, b)$ such that there are people $x_{1}, x_{2}, \ldots, x_{n-1}$ such that $a$ has met $x_{1}, x_{1}$ has met $x_{2}, \ldots$, and $x_{n-1}$ has met $b$.
+
+The relation $R^{*}$ contains $(a, b)$ if there is a sequence of people, starting with $a$ and ending with $b$, such that each person in the sequence has met the next person in the sequence. 
