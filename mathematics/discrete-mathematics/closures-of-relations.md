@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:53:19.753Z
+date: 2021-05-14T18:56:27.626Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -90,3 +90,17 @@ $$
 S^{*}=\bigcup_{k=1}^{\infty} S^{k}
 $$
 and $S^{k} \subseteq S$, it follows that $S^{*} \subseteq S .$ Now note that if $R \subseteq S$, then $R^{*} \subseteq S^{*}$, because any path in $R$ is also a path in $S .$ Consequently, $R^{*} \subseteq S^{*} \subseteq S .$ Thus, any transitive relation that contains $R$ must also contain $R^*$. Therefore, $R^*$ is the transitive closure of $R$.
+
+## Lemma 1
+This lemma shows it is sufficient to examine paths containing no more than $n$ edges, where $n$ is the number of elements in the set. 
+
+Let $A$ be a set with $n$ elements, and let $R$ be a relation on $A$. If there is a path of length at least one in $R$ from $a$ to $b$, then there is such a path with length not exceeding $n$. Moreover, when $a \neq b$, if there is a path of length at least one in $R$ from $a$ to $b$, then there is such a path with length not exceeding $n-1$.
+
+### Proof of Lemma 1
+Proof: Suppose there is a path from $a$ to $b$ in $R$. Let $m$ be the length of the shortest such path. Suppose that $x_{0}, x_{1}, x_{2}, \ldots, x_{m-1}, x_{m}$, where $x_{0}=a$ and $x_{m}=b$, is such a path.
+
+Suppose that $a=b$ and that $m>n$, so that $m \geq n+1 .$ By the pigeonhole principle, because there are $n$ vertices in $A$, among the $m$ vertices $x_{0}, x_{1}, \ldots, x_{m-1}$, at least two are equal (see below digraph)
+
+![producing_a_path_with_length_not_exceeding_n.png](/producing_a_path_with_length_not_exceeding_n.png)
+
+Suppose that $x_{i}=x_{j}$ with $0 \leq i<j \leq m-1$. Then the path contains a circuit from $x_{i}$ to itself. This circuit can be deleted from the path from $a$ to $b$, leaving a path, namely, $x_{0}, x_{1}, \ldots, x_{i}, x_{j+1}, \ldots, x_{m-1}, x_{m}$, from $a$ to $b$ of shorter length. Hence, the path of shortest length must have length less than or equal to $n$.
