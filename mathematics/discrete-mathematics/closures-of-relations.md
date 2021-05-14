@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:49:00.646Z
+date: 2021-05-14T18:53:19.753Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -79,3 +79,14 @@ The relation $R^{*}$ contains $(a, b)$ if there is a sequence of people, startin
 Let $R$ be the relation on the set of all subway stops in New York City that contains $(a, b)$ if it is possible to travel from stop $a$ to stop $b$ without changing trains. What is $R^{n}$ when $n$ is a positive integer? What is $R^{*}$ ?
 #### Solution
 The relation $R^{n}$ contains $(a, b)$ if it is possible to travel from stop $a$ to stop $b$ by making at most $n-1$ changes of trains. The relation $R^{*}$ consists of the ordered pairs $(a, b)$ where it is possible to travel from stop $a$ to stop $b$ making as many changes of trains as necessary.
+
+## Theorem 2
+The transitive closure of a relation $R$ equals the connectivity relation $R^{*}$.
+### Proof of Theorem 2
+Note that $R^{*}$ contains $R$ by definition. To show that $R^{*}$ is the transitive closure of $R$ we must also show that $R^{*}$ is transitive and that $R^{*} \subseteq S$ whenever $S$ is a transitive relation that contains $R$.
+
+First, we show that $R^{*}$ is transitive. If $(a, b) \in R^{*}$ and $(b, c) \in R^{*}$, then there are paths from $a$ to $b$ and from $b$ to $c$ in $R$. We obtain a path from $a$ to $c$ by starting with the path from $a$ to $b$ and following it with the path from $b$ to $c$. Hence, $(a, c) \in R^{*}$. It follows that $R^{*}$ is transitive. Now suppose that $S$ is a transitive relation containing $R$. Because $S$ is transitive, $S^{n}$ also is transitive and $S^{n} \subseteq S$. Furthermore, because
+$$
+S^{*}=\bigcup_{k=1}^{\infty} S^{k}
+$$
+and $S^{k} \subseteq S$, it follows that $S^{*} \subseteq S .$ Now note that if $R \subseteq S$, then $R^{*} \subseteq S^{*}$, because any path in $R$ is also a path in $S .$ Consequently, $R^{*} \subseteq S^{*} \subseteq S .$ Thus, any transitive relation that contains $R$ must also contain $R^*$. Therefore, $R^*$ is the transitive closure of $R$.
