@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:44:27.344Z
+date: 2021-05-14T18:45:28.460Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -61,4 +61,4 @@ Assume that the theorem is true for the positive integer $n$. This is the induct
 ## Transitive Closures and Connectivity Relation
 Transitive closures of a relation are equivalent to determining which pairs of vertices in the associated digraph are connected by a path. With this in mind, we define a new relation.
 
-Let $R$ be a relation on a set $A .$ The connectivity relation $R^{*}$ consists of the pairs $(a, b)$ such that there is a path of length at least one from $a$ to $b$ in $R$.
+Let $R$ be a relation on a set $A .$ The **connectivity relation** $R^{*}$ consists of the pairs $(a, b)$ such that there is a path of length at least one from $a$ to $b$ in $R$.
