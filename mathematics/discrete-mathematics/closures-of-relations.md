@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T17:54:39.243Z
+date: 2021-05-14T17:54:59.358Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -28,4 +28,4 @@ R \cup \Delta=\{(a, b) \mid a<b\} \cup\{(a, a) \mid a \in \mathbf{Z}\}=\{(a, b) 
 $$
 
 ## Symmetric Closure
-The relation $R=\{(1,1),(1,2),(2,2),(2,3),(3,1),(3,2)\}$ on a set $A=\{1,2,3\}$ can be made symmetric by adding $(2,1)$ and $(1,3)$, the only pairs of the form $(b,a)$ with $(a,b) \in R$ that are not in $R$.
+The relation $R=\{(1,1),(1,2),(2,2),(2,3),(3,1),(3,2)\}$ on a set $A=\{1,2,3\}$ can be made symmetric by adding $(2,1)$ and $(1,3)$, the only pairs of the form $(b,a)$ with $(a,b) \in R$ that are not in $R$. This new relation is the **symmetric closure** of $R$.
