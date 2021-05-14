@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:58:36.071Z
+date: 2021-05-14T18:59:36.932Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -110,4 +110,51 @@ Suppose that $x_{i}=x_{j}$ with $0 \leq i<j \leq m-1$. Then the path contains a 
 Let $\mathbf{M}_{R}$ be the zero-one matrix of the relation $R$ on a set with $n$ elements. Then the zero-one matrix of the transitive closure $R^{*}$ is
 $$
 \mathbf{M}_{R^{*}}=\mathbf{M}_{R} \vee \mathbf{M}_{R}^{[2]} \vee \mathbf{M}_{R}^{[3]} \vee \cdots \vee \mathbf{M}_{R}^{[n]}
+$$
+
+### Example
+Find the zero-one matrix of the transitive closure of the relation $R$ where
+$$
+\mathbf{M}_{R}=\left[\begin{array}{lll}
+1 & 0 & 1 \\
+0 & 1 & 0 \\
+1 & 1 & 0
+\end{array}\right]
+$$
+#### Solution
+Solution: By Theorem 3, it follows that the zero-one matrix of $R^{*}$ is
+$$
+\mathbf{M}_{R^{*}}=\mathbf{M}_{R} \vee \mathbf{M}_{R}^{[2]} \vee \mathbf{M}_{R}^{[3]}
+$$
+Because
+$$
+\mathbf{M}_{R}^{[2]}=\left[\begin{array}{lll}
+1 & 1 & 1 \\
+0 & 1 & 0 \\
+1 & 1 & 1
+\end{array}\right] \quad \text { and } \quad \mathbf{M}_{R}^{[3]}=\left[\begin{array}{ccc}
+1 & 1 & 1 \\
+0 & 1 & 0 \\
+1 & 1 & 1
+\end{array}\right]
+$$
+it follows that
+$$
+\mathbf{M}_{R^{*}}=\left[\begin{array}{lll}
+1 & 0 & 1 \\
+0 & 1 & 0 \\
+1 & 1 & 0
+\end{array}\right] \vee\left[\begin{array}{lll}
+1 & 1 & 1 \\
+0 & 1 & 0 \\
+1 & 1 & 1
+\end{array}\right] \vee\left[\begin{array}{lll}
+1 & 1 & 1 \\
+0 & 1 & 0 \\
+1 & 1 & 1
+\end{array}\right]=\left[\begin{array}{lll}
+1 & 1 & 1 \\
+0 & 1 & 0 \\
+1 & 1 & 1
+\end{array}\right]
 $$
