@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-05-14T18:18:21.986Z
+date: 2021-05-14T18:30:05.749Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -32,3 +32,14 @@ $$
 The relation $R=\{(1,1),(1,2),(2,2),(2,3),(3,1),(3,2)\}$ on a set $A=\{1,2,3\}$ can be made symmetric by adding $(2,1)$ and $(1,3)$, the only pairs of the form $(b,a)$ with $(a,b) \in R$ that are not in $R$. This new relation is the **symmetric closure** of $R$.
 
 The symmetric closure of a relation can be constructed by taking the union of a relation with its inverse, this is, $R \cup R^{-1}$ is the symmetric closure of $R$, where $R^{-1}=\{(b, a) \mid(a, b) \in R\}$.
+
+### Example 
+What is the symmetric closure of the relation $R=\{(a, b) \mid a>b\}$ on the set of positive integers?
+
+$$
+R \cup R^{-1}=\{(a, b) \mid a>b\} \cup\{(b, a) \mid a>b\}=\{(a, b) \mid a \neq b\}
+$$
+## Transitive Closures
+These are a little more complicated. Take for example a relation $R=\{(1,3),(1,4),(2,1),(3,2)\}$ on a set $A=\{1,2,3,4\}$. The relation isn't transitive because it does not contain all pairs of the form $(a,c)$ where $(a,b)$ and $(b,c)$ are in $R$. The pairs of this form not in $R$ are $(1,2)$, $(2,3)$, $(2,4)$, and $(3,1)$. Adding these pairs doesn't produce a transitive relation because the resulting relation contains $(3,1)$ and $(1,4)$ but does not contain $(3,4)$.
+# Paths in Directed Graphs
+
