@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-05-17T18:40:48.121Z
+date: 2021-05-17T18:52:39.434Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -11,3 +11,12 @@ editor: markdown
 A relation on a set $A$ is called an equivalence relation if it is reflexive, symmetric, and transitive.
 
 Two elements $a$ and $b$ that are related by an equivalence relation are called equivalent. The notation $a \sim b$ is often used to denote that $a$ and $b$ are equivalent elements with respect to a particular equivalence relation.
+
+# Equivalence Classes
+Let $R$ be an equivalence relation on a set $A .$ The set of all elements that are related to an element $a$ of $A$ is called the equivalence class of $a$. The equivalence class of $a$ with respect to $R$ is denoted by $[a]_{R}$. When only one relation is under consideration, we can delete the subscript $R$ and write $[a]$ for this equivalence class.
+
+In other words, if $R$ is an equivalence relation on a set $A$, the equivalence class of the element $a$ is
+$$
+[a]_{R}=\{s \mid(a, s) \in R\}
+$$
+If $b \in[a]_{R}$, then $b$ is called a representative of this equivalence class. Any element of a class can be used as a representative of this class. That is, there is nothing special about the particular element chosen as the representative of the class.
