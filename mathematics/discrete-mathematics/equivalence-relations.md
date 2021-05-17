@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-05-17T19:06:30.400Z
+date: 2021-05-17T19:25:39.260Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -58,3 +58,7 @@ $A_{i} \cap A_{j}=\emptyset$ when $i \neq j$,
 and
 $\bigcup_{i \in I} A_{i}=S$
 (Here the notation $\bigcup_{i \in I} A_{i}$ represents the union of the sets $A_{i}$ for all $i \in I$.) 
+
+
+## Theorem 2
+Let $R$ be an equivalence relation on a set $S$. Then the equivalence classes of $R$ form a partition of $S$. Conversely, given a partition $\left\{A_{i} \mid i \in I\right\}$ of the set $S$, there is an equivalence relation $R$ that has the sets $A_{i}, i \in I$, as its equivalence classes.
