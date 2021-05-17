@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-05-17T18:52:39.434Z
+date: 2021-05-17T19:00:09.123Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -20,3 +20,12 @@ $$
 [a]_{R}=\{s \mid(a, s) \in R\}
 $$
 If $b \in[a]_{R}$, then $b$ is called a representative of this equivalence class. Any element of a class can be used as a representative of this class. That is, there is nothing special about the particular element chosen as the representative of the class.
+
+# Equivalence Classes and Partitions
+## Theorem 1
+Shows that the equivalence classes of two elements of $A$ are either identical or disjoint. 
+
+Let $R$ be an equivalence relation on a set $A .$ These statements for elements $a$ and $b$ of $A$ are equivalent:
+(i) $a R b$
+(ii) $[a]=[b]$
+$(i i i)[a] \cap[b] \neq \emptyset$
