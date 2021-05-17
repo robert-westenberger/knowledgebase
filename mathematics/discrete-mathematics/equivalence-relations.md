@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-05-17T19:04:32.488Z
+date: 2021-05-17T19:06:30.400Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -45,3 +45,16 @@ Let $R$ be an equivalence relation on a set $A$. The union of the equivalence cl
 $$
 \bigcup_{a \in A}[a]_{R}=A .
 $$
+In addition, from Theorem 1, it follows that these equivalence classes are either equal or disjoint,
+So
+$$
+[a]_{R} \cap[b]_{R}=\emptyset
+$$
+when $[a]_{R} \neq[b]_{R}$.
+
+These two observations show that the equivalence classes form a partition of $A$, because they split $A$ into disjoint subsets. More precisely, a **partition** of a set $S$ is a collection of disjoint nonempty subsets of $S$ that have $S$ as their union. In other words, the collection of subsets $A_{i}$, $i \in I$ (where $I$ is an index set) forms a partition of $S$ if and only if
+$A_{i} \neq \emptyset$ for $i \in I$
+$A_{i} \cap A_{j}=\emptyset$ when $i \neq j$,
+and
+$\bigcup_{i \in I} A_{i}=S$
+(Here the notation $\bigcup_{i \in I} A_{i}$ represents the union of the sets $A_{i}$ for all $i \in I$.) 
