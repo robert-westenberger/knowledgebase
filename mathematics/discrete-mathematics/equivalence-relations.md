@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-05-17T19:01:11.641Z
+date: 2021-05-17T19:04:32.488Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -38,3 +38,10 @@ Second, we will show that (ii) implies (iii). Assume that $[a]=[b] .$ It follows
 Next, we will show that (iii) implies ( $i$ ). Suppose that $[a] \cap[b] \neq \emptyset$. Then there is an element $c$ with $c \in[a]$ and $c \in[b] .$ In other words, $a R c$ and $b R c .$ By the symmetric property, $c R b$. Then by transitivity, because $a R c$ and $c R b$, we have $a R b$.
 
 Because (i) implies (ii), (ii) implies (iii), and (iii) implies ( $i$ ), the three statements, (i), (ii)., and (iii), are equivalent.
+
+## How An Equivalence Class Partitions a Set
+
+Let $R$ be an equivalence relation on a set $A$. The union of the equivalence classes of $R$ is all of $A$, because an element $a$ of $A$ is in its own equivalence class, namely, $[a]_{R}$. In other words,
+$$
+\bigcup_{a \in A}[a]_{R}=A .
+$$
