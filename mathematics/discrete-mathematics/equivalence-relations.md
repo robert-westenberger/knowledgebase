@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-05-17T19:00:09.123Z
+date: 2021-05-17T19:01:11.641Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -29,3 +29,12 @@ Let $R$ be an equivalence relation on a set $A .$ These statements for elements 
 (i) $a R b$
 (ii) $[a]=[b]$
 $(i i i)[a] \cap[b] \neq \emptyset$
+
+### Proof of Theorem 1
+We first show that $(i)$ implies $(i i) .$ Assume that $a R b$. We will prove that $[a]=[b]$ by showing $[a] \subseteq[b]$ and $[b] \subseteq[a]$. Suppose $c \in[a]$. Then $a R c$. Because $a R b$ and $R$ is symmetric, we know that $b R a$. Furthermore, because $R$ is transitive and $b R a$ and $a R c$, it follows that $b R c$. Hence, $c \in[b]$. This shows that $[a] \subseteq[b]$. The proof that $[b] \subseteq[a]$ is similar; it is left as an exercise for the reader.
+
+Second, we will show that (ii) implies (iii). Assume that $[a]=[b] .$ It follows that $[a] \cap[b] \neq \emptyset$ because $[a]$ is nonempty (because $a \in[a]$ because $R$ is reflexive).
+
+Next, we will show that (iii) implies ( $i$ ). Suppose that $[a] \cap[b] \neq \emptyset$. Then there is an element $c$ with $c \in[a]$ and $c \in[b] .$ In other words, $a R c$ and $b R c .$ By the symmetric property, $c R b$. Then by transitivity, because $a R c$ and $c R b$, we have $a R b$.
+
+Because (i) implies (ii), (ii) implies (iii), and (iii) implies ( $i$ ), the three statements, (i), (ii)., and (iii), are equivalent.
