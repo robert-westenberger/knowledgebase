@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-18T18:35:05.876Z
+date: 2021-05-18T18:47:34.646Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -174,3 +174,32 @@ For 2, We let $(a,b) \in R$ and try to show that $(b,a)$ is also necessarily an 
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
 ### Solution
 For $(a, b)$ to be in $R^2$, we must find a $c$ such that $(a, c) \in R$ and $(c, b) \in R .$ In our context, this says that $b$ got his / her doctorate under someone who got his / her doctorate under $a .$ Colloquially, $a$ is the academic grandparent of $b$, or $b$ is the academic grandchild of $a .$ Generalizing, $(a, b) \in R^{n}$ precisely when there is a sequence of $n+1$ people, starting with $a$ and ending with $b$, such that each is the advisor of the next person in the sequence.
+
+# Counting number of relations on a set
+## Rosen 7th Edition Sec 9.1 Exercise 42 + 43
+List the 16 different relations on the set $\{0,1\}$.
+How many of the 16 different relations on $\{0,1\}$ contain the pair $(0,1) ?$
+
+### Solution
+$$
+\begin{array}{l}
+\emptyset \\
+\{(0,0)\} \\
+\{(0,1)\} \\
+\{(1,0)\} \\
+\{(1,1)\} \\
+\{(0,0),(0,1)\} \\
+\{(0,0),(1,0)\} \\
+\{(0,0),(1,1)\} \\
+\{(0,1),(1,0)\} \\
+\{(0,1),(1,1)\} \\
+\{(1,0),(1,1)\} \\
+\{(0,0),(0,1),(1,0)\} \\
+\{(0,0),(0,1),(1,1)\} \\
+\{(0,0),(1,0),(1,1)\} \\
+\{(0,1),(1,0),(1,1)\} \\
+\{(0,0),(0,1),(1,0),(1,1)\}
+\end{array}
+$$
+
+A relation is just a subset. A subset can either contain a specified element or not; half of them do and half of them do not. Therefore 8 of the 16 relations on $\{0,1\}$ contain the pair $(0,1)$. Alternatively, a relation on $\{0,1\}$ containing the pair $(0,1)$ is just a set of the form $\{(0,1)\} \cup X$, where $X \subseteq\{(0,0),(1,0),(1,1)\}$. Since this latter set has 3 elements, it has $2^{3}=8$ subsets.
