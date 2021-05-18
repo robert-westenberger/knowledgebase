@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-11T18:13:24.342Z
+date: 2021-05-18T18:35:05.876Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -168,3 +168,9 @@ and
 For 1, we must show that $R \subseteq R^{-1}$ and $R^{-1} \subseteq R$. To do this, let $(a, b) \in R$. Since $R$ is symmetric, this implies that $(b,a) \in R$. Since $R^{-1}$. But since $R^{-1}$ consists of all pairs $(a, b)$ such that $(b, a) \in R$, this means that $(a, b) \in R^{-1}$. Thus we have shown that $R \subseteq R^{-1}$. Next let $(a, b) \in R^{-1}$. By definition this means that $(b, a) \in R$. Since $R$ is symmetric, this implies that $(a,b) \in R$ as well. Thus we have show that $R^{-1} \subseteq R$.
  
 For 2, We let $(a,b) \in R$ and try to show that $(b,a)$ is also necessarily an element of $R$. Since $(a,b) \in R$, the definition tells us that $(b, a) \in R^{-1}$. But since we are under the hypothesis that $R=R^{-1}$, this tells us that $(b,a) \in R$, exactly as desired.
+
+# Powers of Relations
+## Rosen 7th Edition Sec 9.1 Exercise 39
+Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
+### Solution
+For $(a, b)$ to be in $R^2$, we must find a $c$ such that $(a, c) \in R$ and $(c, b) \in R .$ In our context, this says that $b$ got his / her doctorate under someone who got his / her doctorate under $a .$ Colloquially, $a$ is the academic grandparent of $b$, or $b$ is the academic grandchild of $a .$ Generalizing, $(a, b) \in R^{n}$ precisely when there is a sequence of $n+1$ people, starting with $a$ and ending with $b$, such that each is the advisor of the next person in the sequence.
