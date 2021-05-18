@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-18T18:47:34.646Z
+date: 2021-05-18T18:56:00.647Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -203,3 +203,5 @@ $$
 $$
 
 A relation is just a subset. A subset can either contain a specified element or not; half of them do and half of them do not. Therefore 8 of the 16 relations on $\{0,1\}$ contain the pair $(0,1)$. Alternatively, a relation on $\{0,1\}$ containing the pair $(0,1)$ is just a set of the form $\{(0,1)\} \cup X$, where $X \subseteq\{(0,0),(1,0),(1,1)\}$. Since this latter set has 3 elements, it has $2^{3}=8$ subsets.
+
+## Rosen 7th Edition Sec 9.1 Exercise 45
