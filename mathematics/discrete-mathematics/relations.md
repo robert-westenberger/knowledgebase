@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-18T18:11:21.253Z
+date: 2021-05-18T18:12:31.519Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -87,6 +87,30 @@ $$
 R=\{(x, y) \mid y=x-1\} .
 $$
 Find the composition of relations $R^{2}$.
+### Solution
+By definition, the composition $R^{2}$ is the relation given by the following property:
+$$
+R^{2}=R \circ R=\{(x, z) \mid \exists y \in R: x R y \wedge y R z\}
+$$
+where
+$$
+x R y=\{(x, y) \mid y=x-1\}, y R z=\{(y, z) \mid z=y-1\} .
+$$
+To determine the composed relation $x R z$, we solve the system of equations:
+$$
+\left\{\begin{array}{l}
+y=x-1 \\
+z=y-1
+\end{array}, \Rightarrow z=(x-1)-1=x-2 .\right.
+$$
+Hence, the composition $R^{2}$ is given by
+$$
+R^{2}=\{(x, z) \mid z=x-2\}
+$$
+It is clear that the composition $R^{n}$ is written in the form
+$$
+R^{n}=\{(x, z) \mid z=x-n\} .
+$$
 # Graphs of Relations on a Set
 In representing a relation as a graph, elements of $A$ are called the vertices (or node/point/junction) of the graph. They are typically represented by labeled points or small circles.We connect vertex $a$ to vertex $b$ with a narrow, called an edge (or arc, line, branch), going from vertex $a$ to vertex $b$ iff $arb$. This type of graph of a relation $r$ is called a **directed graph** or **digraph**.
 ## Example
