@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-19T17:42:10.344Z
+date: 2021-05-19T18:12:15.186Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -181,6 +181,9 @@ Let $R$ be a reflexive relation on a set $A$. Show that $R^{n}$ is reflexive for
 
 ### Solution
 We use induction on $n$, the result being trivially true for $n=1 .$ Assume that $R^{n}$ is reflexive; we must show that $R^{n+1}$ is reflexive. Let $a \in A$, where $A$ is the set on which $R$ is defined. By definition $R^{n+1}=R^{n} \circ R .$ By the inductive hypothesis, $R^{n}$ is reflexive, so $(a, a) \in R^{n} .$ Also, since $R$ is reflexive by assumption, $(a, a) \in R$. Therefore by the definition of composition, $(a, a) \in R^{n} \circ R$, as desired.
+
+## Discrete Mathematics Study Center Relations Exercise
+Suppose that $R$ is a relation defined on a set $A$ that is not reflexive. Prove or disprove that $R^2$ is not reflexive. 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
