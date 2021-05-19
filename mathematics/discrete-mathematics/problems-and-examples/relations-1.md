@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-19T17:40:08.427Z
+date: 2021-05-19T17:41:07.664Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -174,7 +174,7 @@ Let $R$ be a relation that is reflexive and transitive. Prove that $R^{n}=R$ for
 ### 
 We prove this by induction on $n$. The case $n=1$ is trivial, since it is the statement $R=R$. Assume the inductive hypothesis that $R^{n}=R .$ We must show that $R^{n+1}=R .$ By definition $R^{n+1}=R^{n} \circ R .$ Thus our task is to show that $R^{n} \circ R \subseteq R$ and $R \subseteq R^{n} \circ R .$ The first uses the transitivity of $R$, as follows. Suppose that $(a, c) \in R^{n} \circ R .$ This means that there is an element $b$ such that $(a, b) \in R$ and $(b, c) \in R^{n} \cdot$ By the inductive hypothesis, the latter statement implies that $(b, c) \in R .$ Thus by the transitivity of $R$, we know that $(a, c) \in R$, as desired
 
-Next assume that $(a, b) \in R$. We must show that $(a, b) \in R^{n} \circ R .$ By the inductive hypothesis, $R^{n}=R$ and therefore $R^{n}$ is reflexive by assumption. Thus $(b, b) \in R^{n} .$ Since we have $(a, b) \in R$ and $(b, b) \in R^{n}$, we have by definition that $(a, b)$ is an element of $R^{n} \circ R$, exactly as desired. (The first half of this proof was not really necessary, since Theorem 1 in this section already told us that $R^{n} \subseteq R$ for all $n .$ )
+Next assume that $(a, b) \in R$. We must show that $(a, b) \in R^{n} \circ R .$ By the inductive hypothesis, $R^{n}=R$ and therefore $R^{n}$ is reflexive by assumption. Thus $(b, b) \in R^{n} .$ Since we have $(a, b) \in R$ and $(b, b) \in R^{n}$, we have by definition that $(a, b)$ is an element of $R^{n} \circ R$, exactly as desired. 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
