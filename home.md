@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-18T19:08:03.238Z
+date: 2021-05-19T19:01:59.732Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**5-18** 10 - 12 Reading on relations (Book of Proof)
 **5-18** 10 - 12 Relation rosen 9.1 exercises
 **5-14** 10 - 12 Notes on 9.4 closures of relations. For now, skipped Algorithm 1 (A procedure for computing the transitive closure) and Warshall's Algorithm).
 **5-13** 10 - 12 Looked more into boolean products of zero-one matrices. Finished taking notes on rosen 9.3, about to start on Rosen 9.4 (Closures of Relations).
