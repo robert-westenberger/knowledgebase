@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-19T18:12:15.186Z
+date: 2021-05-19T18:14:19.307Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -184,6 +184,8 @@ We use induction on $n$, the result being trivially true for $n=1 .$ Assume that
 
 ## Discrete Mathematics Study Center Relations Exercise
 Suppose that $R$ is a relation defined on a set $A$ that is not reflexive. Prove or disprove that $R^2$ is not reflexive. 
+### Solution
+We show that it is possible for $R$ not to be reflexive but $R^{2}$ to be reflexive. Let $A=\{a, b\}$. Let $R=\{(a, b),(b, a)\}$. Given this, $R^{2}=\{(a, a),(b, b)\} . R$ is not reflexive but $R^{2}$ is reflexive
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
