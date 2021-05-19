@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-19T17:09:44.100Z
+date: 2021-05-19T17:17:15.068Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -168,6 +168,10 @@ and
 For 1, we must show that $R \subseteq R^{-1}$ and $R^{-1} \subseteq R$. To do this, let $(a, b) \in R$. Since $R$ is symmetric, this implies that $(b,a) \in R$. Since $R^{-1}$. But since $R^{-1}$ consists of all pairs $(a, b)$ such that $(b, a) \in R$, this means that $(a, b) \in R^{-1}$. Thus we have shown that $R \subseteq R^{-1}$. Next let $(a, b) \in R^{-1}$. By definition this means that $(b, a) \in R$. Since $R$ is symmetric, this implies that $(a,b) \in R$ as well. Thus we have show that $R^{-1} \subseteq R$.
  
 For 2, We let $(a,b) \in R$ and try to show that $(b,a)$ is also necessarily an element of $R$. Since $(a,b) \in R$, the definition tells us that $(b, a) \in R^{-1}$. But since we are under the hypothesis that $R=R^{-1}$, this tells us that $(b,a) \in R$, exactly as desired.
+
+## Rosen 7th Edition Sec 9.1 Exercise 55
+Let $R$ be a relation that is reflexive and transitive. Prove that $R^{n}=R$ for all positive integers $n .$
+### 
 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
