@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-18T19:07:19.728Z
+date: 2021-05-19T17:09:44.100Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -210,3 +210,4 @@ A relation is just a subset. A subset can either contain a specified element or 
 ### Solution
 **a)** A relation on a set $S$ with $n$ elements is a subset of $S \times S$. Since $S \times S$ has $n^{2}$ elements, we are asking for the number of subsets of a set with $n^{2}$ elements, which is $2^{n^{2}} .$ In our case $n=4$, so the answer is $2^{16}=65,536$
 **b)** In solving part (a), we had 16 binary choices to make-whether to include a pair $(x, y)$ in the relation or not as $x$ and $y$ ranged over the set $\{a, b, c, d\} .$ In this part, one of those choices has been made for us: we must include $(a, a) .$ We are free to make the other 15 choices. So the answer is $2^{15}=32,768 .$ See Exercise 47 for more problems of this type.
+
