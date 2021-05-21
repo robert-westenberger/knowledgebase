@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-18T18:12:31.519Z
+date: 2021-05-21T18:26:52.740Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -30,8 +30,13 @@ A relation from a set $A$ into itself is called a relation on $A$.
 The "divides" relation, for example on the set of integers is: Let $a, b \in \Z$, $a \ne 0$. We say that $a$ divides $b$, denoted by $a \mid b$, iff there exists an integer $k$ such that $ak=b$.
 
 # Composition of Relations
-Let $r$ be a relation from a set $A$ into a set $B$, and let $s$ be a relation from $B$ into a set $C$. The composition of $r$ with $s$, written $rs$, is the set of pairs of the form $(a, c) \in A \times C$, where $(a, c) \in r s$ iff there exists $b \in B$ such that $(a,b) \in r$ and $(b,c) \in s$.
+Let $R$ be a relation from a set $A$ into a set $B$, and let $S$ be a relation from $B$ into a set $C$. The composition of $R$ with $S$, written $RS$, is the set of pairs of the form $(a, c) \in A \times C$, where $(a, c) \in R S$ iff there exists $b \in B$ such that $(a,b) \in r$ and $(b,c) \in s$.
 
+$$
+S \circ R=\{(a, c) \in A \times C \mid \exists b \in B((a, b) \in R \text { and }(b, c) \in S)\}
+$$
+
+(Notice how we assumed that the second coordinates of pairs in $R$ and the first ocordinates of pairs in $S$ both come from $B$. IF these sets were not the same, the composition $S \circ R$ would be undefined. 
 The composition of relations $S$ and $R$ can also be denoted by $S \circ R$ for example.
 ## Example
 Take for example three sets
