@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-19T18:14:19.307Z
+date: 2021-05-24T18:44:13.624Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -228,3 +228,31 @@ A relation is just a subset. A subset can either contain a specified element or 
 **a)** A relation on a set $S$ with $n$ elements is a subset of $S \times S$. Since $S \times S$ has $n^{2}$ elements, we are asking for the number of subsets of a set with $n^{2}$ elements, which is $2^{n^{2}} .$ In our case $n=4$, so the answer is $2^{16}=65,536$
 **b)** In solving part (a), we had 16 binary choices to make-whether to include a pair $(x, y)$ in the relation or not as $x$ and $y$ ranged over the set $\{a, b, c, d\} .$ In this part, one of those choices has been made for us: we must include $(a, a) .$ We are free to make the other 15 choices. So the answer is $2^{15}=32,768 .$ See Exercise 47 for more problems of this type.
 
+# Prove a relation is an equivalence relation and describe its equivalence classes
+
+## Book of Proof Section 11.3 Exercise 7
+Define a relation $R$ on $\mathbb{Z}$ as $x R y$ if and only if $3 x-5 y$ is even. Prove $R$ is an equivalence relation. Describe its equivalence classes.
+
+### Solution
+
+We must prove that $R$ is reflexive, symmetric and transitive. The relation $R$ is reflexive for the following reason. If $x \in \mathbb{Z}$, then $3 x-5 x=-2 x$ is even. But then since $3 x-5 x$ is even, we have $x R x .$ Thus $R$ is reflexive.
+
+To see that $R$ is symmetric, suppose $x R y .$ We must show $y R x$. Since $x R y$, we know $3 x-5 y$ is even, so $3 x-5 y=2 a$ for some integer $a$. Now reason as follows:
+$$
+\begin{aligned}
+3 x-5 y &=2 a \\
+3 x-5 y+8 y-8 x &=2 a+8 y-8 x \\
+3 y-5 x &=2(a+4 y-4 x) .
+\end{aligned}
+$$
+
+From this it follows that $3 y-5 x$ is even, so $y R x$. We've now shown $x R y$ implies $y R x$, so $R$ is symmetric.
+
+To prove that $R$ is transitive, assume that $x R y$ and $y R z .$ (We will show that this implies $x R z$.) Since $x R y$ and $y R z$, it follows that $3 x-5 y$ and $3 y-5 z$ are both even, so $3 x-5 y=2 a$ and $3 y-5 z=2 b$ for some integers $a$ and $b$. Adding these equations, we get $(3 x-5 y)+(3 y-5 z)=2 a+2 b$, and this simplifies to $3 x-5 z=2(a+b+y)$. Therefore $3 x-5 z$ is even, so $x R z$. We've now shown that if $x R y$ and $y R z$, then $x R z$, so $R$ is transitive.
+
+We've shown $R$ is reflexive, symmetric and transitive, so it's an equivalence relation.
+
+The completes the first part of the problem. Now we move on the second part. To find the equivalence classes, first note that $[0]=\{x \in \mathbb{Z}: x R 0\}=\{x \in \mathbb{Z}: 3 x-5 \cdot 0$ is even $\}=\{x \in \mathbb{Z}: 3 x$ is even $\}=\{x \in \mathbb{Z}: x$ is even $\} .$
+Thus the equivalence class [0] consists of all even integers. Next, note that $[1]=\{x \in \mathbb{Z}: x R 1\}=\{x \in \mathbb{Z}: 3 x-5 \cdot 1$ is even $\}=\{x \in \mathbb{Z}: 3 x-5$ is even $\}=\{x \in \mathbb{Z}: x$ is odd $\}$.
+Thus the equivalence class [1] consists of all odd integers.
+Consequently there are just two equivalence classes $\{\ldots,-4,-2,0,2,4, \ldots\}$ and $\{\ldots,-3,-1,1,3,5, \ldots\}$
