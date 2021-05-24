@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-24T18:44:13.624Z
+date: 2021-05-24T18:56:15.784Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -255,4 +255,4 @@ We've shown $R$ is reflexive, symmetric and transitive, so it's an equivalence r
 The completes the first part of the problem. Now we move on the second part. To find the equivalence classes, first note that $[0]=\{x \in \mathbb{Z}: x R 0\}=\{x \in \mathbb{Z}: 3 x-5 \cdot 0$ is even $\}=\{x \in \mathbb{Z}: 3 x$ is even $\}=\{x \in \mathbb{Z}: x$ is even $\} .$
 Thus the equivalence class [0] consists of all even integers. Next, note that $[1]=\{x \in \mathbb{Z}: x R 1\}=\{x \in \mathbb{Z}: 3 x-5 \cdot 1$ is even $\}=\{x \in \mathbb{Z}: 3 x-5$ is even $\}=\{x \in \mathbb{Z}: x$ is odd $\}$.
 Thus the equivalence class [1] consists of all odd integers.
-Consequently there are just two equivalence classes $\{\ldots,-4,-2,0,2,4, \ldots\}$ and $\{\ldots,-3,-1,1,3,5, \ldots\}$
+Consequently there are just two equivalence classes $\{\ldots,-4,-2,0,2,4, \ldots\}$ and $\{\ldots,-3,-1,1,3,5, \ldots\}$.
