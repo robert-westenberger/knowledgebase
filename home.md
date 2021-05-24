@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-19T19:01:59.732Z
+date: 2021-05-24T19:01:46.143Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**5-24** 10 - 12 Reading on relations (Book of Proof 2nd ed) pp 176
 **5-18** 10 - 12 Reading on relations (Book of Proof)
 **5-18** 10 - 12 Relation rosen 9.1 exercises
 **5-14** 10 - 12 Notes on 9.4 closures of relations. For now, skipped Algorithm 1 (A procedure for computing the transitive closure) and Warshall's Algorithm).
