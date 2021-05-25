@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-21T18:27:02.894Z
+date: 2021-05-25T18:24:16.291Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -13,7 +13,21 @@ editor: markdown
 
 Let $s$ be a relation from set $A$ into a set $B$. Then the fact that $(x,y) \in s$ is frequently written as $xsy$.
 # Relations between two sets
-Let $A$ and $B$ be sets. A relation from $A$ into $B$ is any subset of $A \times B$.
+Let $A$ and $B$ be sets. A relation $R$ from $A$ into $B$ is any subset of $A \times B$.
+
+The **domain** of $R$ is the set 
+$$
+\operatorname{Dom}(R)=\{a \in A \mid \exists b \in B((a, b) \in R)\}
+$$
+
+The **range** of $R$ is the set
+$$
+\operatorname{Ran}(R)=\{b \in B \mid \exists a \in A((a, b) \in R)\}
+$$
+The **inverse** of $R$ is the relation $R^{-1}$ from $B$ to $A$ defined as follows:
+$$
+R^{-1}=\{(b, a) \in B \times A \mid(a, b) \in R\}
+$$
 
 ## Examples of relations between two sets
 ### Example
