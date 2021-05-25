@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-25T18:24:16.291Z
+date: 2021-05-25T18:44:18.750Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -29,6 +29,12 @@ $$
 R^{-1}=\{(b, a) \in B \times A \mid(a, b) \in R\}
 $$
 
+Now, in addition to $A$, $B$, and $R$, consider a relation $S$ from $B$ to $C$.
+Then the composition of $S$ and $R$ is the relation $S \circ R$ from $A$ to $C$ defined as follows: 
+
+$$
+S \circ R=\{(a, c) \in A \times C \mid \exists b \in B((a, b) \in R \text { and }(b, c) \in S)\}
+$$
 ## Examples of relations between two sets
 ### Example
 Let $A=\{1,2,3\}$ and $B=\{4,5\}$. Then  $\{(1,4),(2,4),(3,5)\}$ is a relation from $A$ into $B$. There would be $64$ possible relations for these two sets.
