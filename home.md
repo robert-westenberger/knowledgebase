@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-25T19:14:34.763Z
+date: 2021-05-26T18:43:18.702Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**5-26** 10 - 12 Reading on composition of relations. Did exercise 4 in How to Prove it 2nd Ed. Tomorrow, go over exercise 7
 **5-25** 10 - 12 Reading on relations (How to Prove It 2nd ed) and exercises 1-4. Need a better understanding on composition of a relation with its inverse(4b). 
 **5-24** 10 - 12 Reading on relations (Book of Proof 2nd ed) pp 176
 **5-18** 10 - 12 Reading on relations (Book of Proof)
