@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-27T18:32:50.646Z
+date: 2021-05-27T18:33:56.583Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -197,7 +197,7 @@ $$
 
 $$\operatorname{Dom}(S)=\{b \in B \mid \exists c \in C((b, c) \in S)\}$$
 
-Ran(R) and Dom(S) are disjoint. That is, the set of elements they have in common is $\emptyset$.
+$\operatorname{Ran}(R)$ and $\operatorname{Dom}(S)$ are disjoint. That is, the set of elements they have in common is $\emptyset$. That is, 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
