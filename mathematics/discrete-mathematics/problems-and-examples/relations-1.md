@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-27T18:57:05.259Z
+date: 2021-05-27T19:03:40.206Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -209,6 +209,9 @@ We must prove a biconditional here. We must prove both directions. That is, we m
 2. if $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint then $S \circ R=\varnothing$.
 
 We prove the contrapositives of both directions. 
+1. Suppose $S \circ R \neq \varnothing .$ Then we can choose some $(a, c) \in S \circ R$. By definition of $S \circ R$, this means that we can choose some $b \in B$ such that $(a, b) \in R$ and $(b, c) \in S .$ But then $b \in \operatorname{Ran}(R)$ and $b \in \operatorname{Dom}(S)$, so $\operatorname{Ran}(R)$ and $\operatorname{Dom}(S)$ are not disjoint. 
+2. Suppose $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are not disjoint. That is, $A \cap B \ne \emptyset$.
+	... then $S \circ R \ne \emptyset$. 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
