@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-27T18:44:16.124Z
+date: 2021-05-27T18:56:29.935Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -204,7 +204,9 @@ $$
 S \circ R=\{(a, c) \in A \times C \mid \exists b \in B((a, b) \in R \text { and }(b, c) \in S)\}
 $$
 
-
+We must prove a biconditional here. We must prove both directions. That is, we must prove  
+1. if $S \circ R=\varnothing$ then  $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint
+2. if $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint then $S \circ R=\varnothing$.
 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
