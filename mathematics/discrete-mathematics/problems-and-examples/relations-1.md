@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-24T18:56:15.784Z
+date: 2021-05-27T17:52:23.598Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -186,6 +186,12 @@ We use induction on $n$, the result being trivially true for $n=1 .$ Assume that
 Suppose that $R$ is a relation defined on a set $A$ that is not reflexive. Prove or disprove that $R^2$ is not reflexive. 
 ### Solution
 We show that it is possible for $R$ not to be reflexive but $R^{2}$ to be reflexive. Let $A=\{a, b\}$. Let $R=\{(a, b),(b, a)\}$. Given this, $R^{2}=\{(a, a),(b, b)\} . R$ is not reflexive but $R^{2}$ is reflexive
+
+# Prove a property about a relation
+## How to Prove It 2nd ed 4.2 Exercise 10
+Suppose $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to Prove that $S \circ R=\varnothing$ iff $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint.
+
+### Solution
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
@@ -256,3 +262,13 @@ The completes the first part of the problem. Now we move on the second part. To 
 Thus the equivalence class [0] consists of all even integers. Next, note that $[1]=\{x \in \mathbb{Z}: x R 1\}=\{x \in \mathbb{Z}: 3 x-5 \cdot 1$ is even $\}=\{x \in \mathbb{Z}: 3 x-5$ is even $\}=\{x \in \mathbb{Z}: x$ is odd $\}$.
 Thus the equivalence class [1] consists of all odd integers.
 Consequently there are just two equivalence classes $\{\ldots,-4,-2,0,2,4, \ldots\}$ and $\{\ldots,-3,-1,1,3,5, \ldots\}$.
+
+# Interpreting what a statement means about some relations
+
+## How to Prove It 2nd ed 4.2 Exercise 7
+Let $E=\{(p, q) \in P \times P \mid$ the person $p$ is an enemy of the person $q\}$, and $F=\{(p, q) \in P \times P \mid$ the person $p$ is a friend of the person $q\}$, where $P$ is the set of all people. What does the saying "an enemy of one's enemy is one's friend" mean about the relations $E$ and $F$ ?
+
+### Solution
+Suppose $p$ is the enemy of $q$ and $q$ is the enemy of $r$, then it is given that $p$ is the friend of $r$. Thus we have if $(p, q) \in E$ and $(q, r) \in E$, then $(p, r) \in F$.
+Now since $(p, q) \in E$ and $(q, r) \in E$, it follows $(p, r) \in E \circ E$. Thus the given statement says: if $(p, r) \in E \circ E$, then $(p, r) \in F$, or Enemy of an enemy is a
+friend. Since $(p, r)$ is arbitrary, it follows that $E \circ E \subseteq F$.
