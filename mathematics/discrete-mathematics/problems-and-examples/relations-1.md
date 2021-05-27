@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-27T18:56:29.935Z
+date: 2021-05-27T18:57:05.259Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -208,6 +208,7 @@ We must prove a biconditional here. We must prove both directions. That is, we m
 1. if $S \circ R=\varnothing$ then  $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint
 2. if $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint then $S \circ R=\varnothing$.
 
+We prove the contrapositives of both directions. 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
