@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-27T18:28:11.364Z
+date: 2021-05-27T18:32:50.646Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -191,7 +191,13 @@ We show that it is possible for $R$ not to be reflexive but $R^{2}$ to be reflex
 ## How to Prove It 2nd ed 4.2 Exercise 10
 Suppose $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to $C$. Prove that $S \circ R=\varnothing$ iff Ran $(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint.
 ### Solution
-$\operatorname{Dom}(S)=\{b \in B \mid \exists c \in C((b, c) \in S)\}$
+$$
+\operatorname{Ran}(R)=\{b \in B \mid \exists a \in A((a, b) \in R)\}
+$$
+
+$$\operatorname{Dom}(S)=\{b \in B \mid \exists c \in C((b, c) \in S)\}$$
+
+Ran(R) and Dom(S) are disjoint. That is, the set of elements they have in common is $\emptyset$.
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
