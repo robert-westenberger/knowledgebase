@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-27T17:52:23.598Z
+date: 2021-05-27T18:07:01.721Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -189,8 +189,7 @@ We show that it is possible for $R$ not to be reflexive but $R^{2}$ to be reflex
 
 # Prove a property about a relation
 ## How to Prove It 2nd ed 4.2 Exercise 10
-Suppose $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to Prove that $S \circ R=\varnothing$ iff $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint.
-
+Suppose $R$ is a relation from $A$ to $B$ and $S$ is a relation from $B$ to $C$. Prove that $S \circ R=\varnothing$ iff Ran $(\mathrm{R})$ and $\operatorname{Dom}(S)$ are disjoint.
 ### Solution
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
