@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-28T18:15:38.928Z
+date: 2021-05-28T18:29:11.316Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -221,6 +221,9 @@ Now suppose $(x, y) \in R^{-1}$. Then $(y, x) \in R$, so since $R$ is symmetric,
 
 Suppose $R=R^{-1}$, and let $x$ and $y$ be arbitrary elements of $A$. Suppose $x R y .$ Then $(x, y) \in R$, so since $R=R^{-1},(x, y) \in R^{-1} .$ By the definition of $R^{-1}$ this means $(y, x) \in R$, so $y R x .$ Thus, $\forall x \in A \forall y \in A(x R y \rightarrow y R x)$, so $R$ is symmetric. $\blacksquare$.
 
+## How to Prove It 2nd ed 4.3 Exercise 7
+Suppose $R$ is a relation on a set $A$. Prove $R$ is reflexive iff $i_{A} \subseteq R$, where $i_{A}$ is the identity relation on $A$.
+### Solution
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
