@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-28T17:28:03.172Z
+date: 2021-05-28T18:15:38.928Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -211,6 +211,15 @@ We must prove a biconditional here. We must prove both directions. That is, we m
 We prove the contrapositives of both directions. 
 1. Suppose $S \circ R \neq \varnothing .$ Then we can choose some $(a, c) \in S \circ R$. By definition of $S \circ R$, this means that we can choose some $b \in B$ such that $(a, b) \in R$ and $(b, c) \in S .$ But then $b \in \operatorname{Ran}(R)$ and $b \in \operatorname{Dom}(S)$, so $\operatorname{Ran}(R)$ and $\operatorname{Dom}(S)$ are not disjoint. 
 2. Suppose $\operatorname{Ran}(R)$ and $\operatorname{Dom}(S)$ are not disjoint. Then we can choose some $b \in \operatorname{Ran}(R) \cap \operatorname{Dom}(S)$. Since $b \in \operatorname{Ran}(R)$, we can choose some $a \in A$ such that $(a, b) \in R$. Similarly, since $b \in \operatorname{Dom}(S)$, we can choose some $c \in C$ such that $(b, c) \in S .$ But then $(a, c) \in S \circ R$, so $S \circ R \neq \varnothing$
+
+## How to Prove It 2nd ed 4.3 Theorem 4.3.4 Part 2
+Suppose $R$ is a relation on a set $A$. $R$ is symmetric iff $R=R^{-1}$.
+### Solution
+Suppose $R$ is symmetric. Let $(x, y)$ be an arbitrary element of $R$. Then $x R y$, so since $R$ is symmetric, $y R x$. Thus, $(y, x) \in R$, so by the definition of $R^{-1},(x, y) \in R^{-1}$. Since $(x, y)$ was arbitrary, it follows that $R \subseteq R^{-1}$.
+
+Now suppose $(x, y) \in R^{-1}$. Then $(y, x) \in R$, so since $R$ is symmetric, $(x, y) \in R .$ Thus, $R^{-1} \subseteq R$, so $R=R^{-1}$.
+
+Suppose $R=R^{-1}$, and let $x$ and $y$ be arbitrary elements of $A$. Suppose $x R y .$ Then $(x, y) \in R$, so since $R=R^{-1},(x, y) \in R^{-1} .$ By the definition of $R^{-1}$ this means $(y, x) \in R$, so $y R x .$ Thus, $\forall x \in A \forall y \in A(x R y \rightarrow y R x)$, so $R$ is symmetric. $\blacksquare$.
 
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
