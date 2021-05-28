@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-27T18:46:30.331Z
+date: 2021-05-28T17:35:06.089Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -34,6 +34,10 @@ Then the composition of $S$ and $R$ is the relation $S \circ R$ from $A$ to $C$ 
 
 $$
 S \circ R=\{(a, c) \in A \times C \mid \exists b \in B((a, b) \in R \text { and }(b, c) \in S)\}
+$$
+$$ \text { or alternatively.. }$$
+$$
+S \circ R=\{(a, c) \in A \times C \mid \exists b \in B(a R b \text { and } b S c)\}
 $$
 ## Examples of relations between two sets
 ### Example
