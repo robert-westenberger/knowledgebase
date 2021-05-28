@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-28T17:22:47.113Z
+date: 2021-05-28T17:28:03.172Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -210,9 +210,8 @@ We must prove a biconditional here. We must prove both directions. That is, we m
 
 We prove the contrapositives of both directions. 
 1. Suppose $S \circ R \neq \varnothing .$ Then we can choose some $(a, c) \in S \circ R$. By definition of $S \circ R$, this means that we can choose some $b \in B$ such that $(a, b) \in R$ and $(b, c) \in S .$ But then $b \in \operatorname{Ran}(R)$ and $b \in \operatorname{Dom}(S)$, so $\operatorname{Ran}(R)$ and $\operatorname{Dom}(S)$ are not disjoint. 
-2. Suppose $\operatorname{Ran}(\mathrm{R})$ and $\operatorname{Dom}(S)$ are not disjoint. That is, $\operatorname{Ran}(R) \cap \operatorname{Dom}(S) \ne \emptyset$. 
-	So $\operatorname{Ran}(R) \cap \operatorname{Dom}(S)=\{b \mid b \in \operatorname{Ran}(R) \text { and } b \in \operatorname{Dom}(S) \}$
-	... then $S \circ R \ne \emptyset$. 
+2. Suppose $\operatorname{Ran}(R)$ and $\operatorname{Dom}(S)$ are not disjoint. Then we can choose some $b \in \operatorname{Ran}(R) \cap \operatorname{Dom}(S)$. Since $b \in \operatorname{Ran}(R)$, we can choose some $a \in A$ such that $(a, b) \in R$. Similarly, since $b \in \operatorname{Dom}(S)$, we can choose some $c \in C$ such that $(b, c) \in S .$ But then $(a, c) \in S \circ R$, so $S \circ R \neq \varnothing$
+
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
