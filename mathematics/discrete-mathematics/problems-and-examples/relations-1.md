@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-02T18:33:14.577Z
+date: 2021-06-02T18:43:47.536Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -233,9 +233,9 @@ Suppose $S$ is a relation on $A .$ Let $D=\operatorname{Dom}(S)$ and $R=\operato
 ### Solution
 **scratch:**
 $S=\{(a_1, a_2) \in A \}$.
-$S^{-1}=\{(b_2, b_1) \in A \times A \mid(b_1, b_2) \in S\}$.
+$S^{-1}=\{(a_2, a_1) \in A \times A \mid(a_1, a_2) \in S\}$.
 
-$S^{-1} \circ S=\{(a_1, b_1) \in A \times A \mid \exists b_1 \in A((a_1, b_1) \in S$ and $(b_1, b_2) \in S^{-1})\}$
+$S^{-1} \circ S=\{(a_1, a_1) \in A \times A \mid \exists a_2 \in A((a_1, a_2) \in S$ and $(a_2, a_1) \in S^{-1})\}$
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
