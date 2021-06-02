@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-02T18:53:06.822Z
+date: 2021-06-02T18:59:58.154Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -235,17 +235,17 @@ Suppose $S$ is a relation on $A .$ Let $D=\operatorname{Dom}(S)$ and $R=\operato
 $S=\{(a_1, a_2) \in A \}$.
 $S^{-1}=\{(a_2, a_1) \in A \times A \mid(a_1, a_2) \in S\}$.
 
-$$
-\operatorname{Dom}(S)=\{a \in A \mid \exists b \in B((a, b) \in S)\}
-$$
-
-$$
-\operatorname{Ran}(S)=\{b \in B \mid \exists a \in A((a, b) \in S)\}
-$$
-
+$
+D = \operatorname{Dom}(S)=\{a \in A \mid \exists b \in B((a, b) \in S)\}
+$
+$i_D=\{(x, y) \in D \times D \mid x=y\}$.
+$
+R = \operatorname{Ran}(S)=\{b \in B \mid \exists a \in A((a, b) \in S)\}
+$
+$i_R=\{(x, y) \in R \times R \mid x=y\}$.
 $S^{-1} \circ S=\{(a_1, a_1) \in A \times A \mid \exists a_2 \in A((a_1, a_2) \in S$ and $(a_2, a_1) \in S^{-1})\}$
 
-$i_D=\{(x, y) \in A \times A \mid x=y\}$.
+
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
