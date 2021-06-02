@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-05-28T18:52:34.744Z
+date: 2021-06-02T17:33:29.269Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -227,6 +227,10 @@ Suppose $R$ is a relation on a set $A$. Prove $R$ is reflexive iff $i_{A} \subse
 Suppose $R$ is reflexive. Let $(x, y)$ be arbitrary element of $i_{A} .$ Then by the definition of $i_{A}, x=y \in A .$ Since $R$ is reflexive, $(x, y)=(x, x) \in R$ Since $(x, y)$ was arbitrary, this shows that $i_{A} \subseteq R$.
 
 Suppose $i_{A} \subseteq R .$ Let $x \in A$ be arbitrary. Then $(x, x) \in i_{A}$, so since $i_{A} \subseteq R,(x, x) \in R .$ Since $x$ was arbitrary, this shows that $R$ is reflexive.
+
+## How to Prove It 2nd ed section 4.3 Exercise 10
+Suppose $S$ is a relation on $A .$ Let $D=\operatorname{Dom}(S)$ and $R=\operatorname{Ran}(S) .$ Prove that $i_{D} \subseteq S^{-1} \circ S$ and $i_{R} \subseteq S \circ S^{-1}$.
+
 # Powers of Relations
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
