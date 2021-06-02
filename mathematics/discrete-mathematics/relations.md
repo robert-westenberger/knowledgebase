@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-05-28T17:35:06.089Z
+date: 2021-06-02T17:12:55.621Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -48,6 +48,10 @@ A graph of this simple relation:
 ### Divisibility Example
 Let $A=\{2,3,5,6\}$ and define a relation $r$ from $A$ into $A$ by $(a,b) \in r$ iff $a \mid b$. The set of pairs that qualify for membership is $r=\{(2,2),(3,3),(5,5),(6,6),(2,6),(3,6)\}$
 
+### Identity Relation Example
+Suppose $A$ is a set. Let $i_A=\{(x, y) \in A \times A \mid x=y\}$. Could also be defined by writing $i_{A}=\{(x, x) \mid x \in A\}$. 
+
+For example, if $A=\{1,2,3\}$ then $i_{A}=\{(1,1),(2,2),(3,3)\}$. 
 # Relations on a set
 A relation from a set $A$ into itself is called a relation on $A$.
 
