@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-28T18:53:41.393Z
+date: 2021-06-02T19:00:31.504Z
 tags: 
 editor: markdown
 ---
@@ -15,7 +15,8 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
-**5-27** 10 - 12 Finished exercise 10. Started sec 4.3 of how to prove it 2nd edition. Did a few exercises. Tomorrow, do exercises 8/9/10 of sec 4.3
+**5-28** 10 - 12 Tomorrow, finish exercise 10 of Sec 4.3
+**5-28** 10 - 12 Finished exercise 10. Started sec 4.3 of how to prove it 2nd edition. Did a few exercises. Tomorrow, do exercises 8/9/10 of sec 4.3
 **5-27** 10 - 12 Went over exercise 7 in how to prove it 2nd ed. Started exercise 10. Tomorrow, finish exercise 10.
 **5-26** 10 - 12 Reading on composition of relations. Did exercise 4 in How to Prove it 2nd Ed. Tomorrow, go over exercise 7
 **5-25** 10 - 12 Reading on relations (How to Prove It 2nd ed) and exercises 1-4. Need a better understanding on composition of a relation with its inverse(4b). 
