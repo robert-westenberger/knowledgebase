@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-03T17:45:18.045Z
+date: 2021-06-03T17:49:05.253Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -251,6 +251,16 @@ Suppose $(x, y) \in i_{D} .$ Then $x=y \in D=\operatorname{Dom}(S)$, so there is
 
 **2)** Proving $i_R \subseteq S \circ S^{-1}$:
 Suppose $(b, b) \in i_{R}$. Thus $b \in R$, or $\operatorname{Ran}(S)$. Since $b \in \operatorname{Ran}(S)$, there must exist an element $a$ such that $(a, b) \in S$. It follows that $(b, a) \in S^{-1}$. Since $(a, b) \in S^{-1}$ and $(a, b) \in S$, it follows that $(b, b) \in S \circ S^{-1}$. Thus if $(b, b) \in i_{D}$, then $(b, b) \in S \circ S^{-1}$. Since $(b, b)$ is arbitrary, we can conclude that $i_{R} \subseteq S \circ S^{-1}$.
+
+
+## How to Prove It 2nd ed section 4.3 Exercise 13
+Suppose $R_{1}$ and $R_{2}$ are relations on $A .$ For each part, give either a proof or a counterexample to justify your answer.
+**(a)** If $R_{1}$ and $R_{2}$ are reflexive, must $R_{1} \cup R_{2}$ be reflexive?
+**(b)** If $R_{1}$ and $R_{2}$ are symmetric, must $R_{1} \cup R_{2}$ be symmetric?
+**(c)** If $R_{1}$ and $R_{2}$ are transitive, must $R_{1} \cup R_{2}$ be transitive?
+### Solution
+**(a)**
+
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
