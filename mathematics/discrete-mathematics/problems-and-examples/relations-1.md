@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-03T16:49:10.237Z
+date: 2021-06-03T17:04:51.213Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -246,8 +246,10 @@ $i_R=\{(x, y) \in R \times R \mid x=y\}$.
 $S^{-1} \circ S=\{(a_1, a_1) \in A \times A \mid \exists a_2 \in A((a_1, a_2) \in S$ and $(a_2, a_1) \in S^{-1})\}$
 
 Proving $i_{D} \subseteq S^{-1} \circ S$ :
+We must prove that $x \in i_D \rarr x \in S^{-1} \circ S$.
 
-# Powers of Relations
+Suppose $x \in i_D$. This means that $\{(x, y) \in D \times D \mid x=y\}$. So this means that 
+# Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
 ### Solution
