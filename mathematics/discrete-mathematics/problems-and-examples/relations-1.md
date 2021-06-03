@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-03T18:41:51.929Z
+date: 2021-06-03T18:48:38.861Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -260,7 +260,8 @@ Suppose $R_{1}$ and $R_{2}$ are relations on $A .$ For each part, give either a 
 **(c)** If $R_{1}$ and $R_{2}$ are transitive, must $R_{1} \cup R_{2}$ be transitive?
 ### Solution
 **(a)** Suppose $R_{1}$ and $R_{2}$ are reflexive, and suppose $a \in A$. Since $R_{1}$ is reflexive, $(a, a) \in R_{1}$, so $(a, a) \in R_{1} \cup R_{2}$.
-**(b)** Suppose $R_{1}$ and $R_{2}$ are symmetric.
+**(b)** Suppose $R_{1}$ and $R_{2}$ are symmetric, and suppose $(x, y) \in R_{1} \cup R_{2} .$ Then either $(x, y) \in R_{1}$ or $(x, y) \in R_{2} .$ If $(x, y) \in$
+$R_{1}$ then since $R_{1}$ is symmetric, $(y, x) \in R_{1}$, so $(y, x) \in R_{1} \cup R_{2} .$ Similar reasoning shows that if $(x, y) \in R_{2}$ then $(y, x) \in R_{1} \cup R_{2}$
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
