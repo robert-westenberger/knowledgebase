@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-03T17:37:25.591Z
+date: 2021-06-03T17:39:35.723Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -250,7 +250,7 @@ We must prove that $(x,y) \in i_D \rarr (x,y) \in S^{-1} \circ S$.
 
 Suppose $(x,y) \in i_D$. This means that $\{(x, y) \in D \times D \mid x=y\}$. So this means that $x$ and $y$ are the same. $i_D$ is a cartesian product of $D$ with itself.
 
-$D$, which is $\operatorname{Dom}(S)$, is the set containing all the first coordinates of the relation $S$, which is $A \times A$.
+$D$, which is $\operatorname{Dom}(S)$, is the set containing all the first coordinates of the relation $S$, which is $A \times A$. So $D$ 
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
