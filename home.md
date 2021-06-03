@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-02T19:00:31.504Z
+date: 2021-06-03T18:52:31.130Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**5-29** 10 - 12 Did exercise 10 and 13 of 4.3 how to prove it 2nd edition
 **5-28** 10 - 12 Tomorrow, finish exercise 10 of Sec 4.3
 **5-28** 10 - 12 Finished exercise 10. Started sec 4.3 of how to prove it 2nd edition. Did a few exercises. Tomorrow, do exercises 8/9/10 of sec 4.3
 **5-27** 10 - 12 Went over exercise 7 in how to prove it 2nd ed. Started exercise 10. Tomorrow, finish exercise 10.
