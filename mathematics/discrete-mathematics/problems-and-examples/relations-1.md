@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-03T17:44:37.747Z
+date: 2021-06-03T17:45:18.045Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -249,7 +249,8 @@ $S^{-1} \circ S=\{(a_1, a_1) \in A \times A \mid \exists a_2 \in A((a_1, a_2) \i
 We must prove that $(x,y) \in i_D \rarr (x,y) \in S^{-1} \circ S$.
 Suppose $(x, y) \in i_{D} .$ Then $x=y \in D=\operatorname{Dom}(S)$, so there is some $z \in A$ such that $(x, z) \in S .$ Therefore $(z, x) \in S^{-1}$, so $(x, y)=(x, x) \in S^{-1} \circ S$ Thus, $i_{D} \subseteq S^{-1} \circ S .$ 
 
-**2)** Proving $i_R \subseteq S \circ S^{-1}$ :
+**2)** Proving $i_R \subseteq S \circ S^{-1}$:
+Suppose $(b, b) \in i_{R}$. Thus $b \in R$, or $\operatorname{Ran}(S)$. Since $b \in \operatorname{Ran}(S)$, there must exist an element $a$ such that $(a, b) \in S$. It follows that $(b, a) \in S^{-1}$. Since $(a, b) \in S^{-1}$ and $(a, b) \in S$, it follows that $(b, b) \in S \circ S^{-1}$. Thus if $(b, b) \in i_{D}$, then $(b, b) \in S \circ S^{-1}$. Since $(b, b)$ is arbitrary, we can conclude that $i_{R} \subseteq S \circ S^{-1}$.
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
