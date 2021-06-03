@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-03T17:49:05.253Z
+date: 2021-06-03T18:07:44.191Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -259,7 +259,7 @@ Suppose $R_{1}$ and $R_{2}$ are relations on $A .$ For each part, give either a 
 **(b)** If $R_{1}$ and $R_{2}$ are symmetric, must $R_{1} \cup R_{2}$ be symmetric?
 **(c)** If $R_{1}$ and $R_{2}$ are transitive, must $R_{1} \cup R_{2}$ be transitive?
 ### Solution
-**(a)**
+**(a)** $R_1 \cup R_2=\{x \mid x \in R_1$ or $x \in R_2\}$.
 
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
