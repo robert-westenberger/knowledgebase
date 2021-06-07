@@ -2,7 +2,7 @@
 title: Relations
 description: 
 published: true
-date: 2021-06-02T17:12:55.621Z
+date: 2021-06-07T19:02:44.197Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -193,7 +193,7 @@ if $[(a, b) \in R \wedge(b, c) \in R] \Rightarrow(a, c) \in R$ for all $a, b, c 
 #### Represented Graphically
 In each case where there is an arrow going from one point to a second and from the second point to a third, there is an arrow going form the first point to the third. That is, there are no "incomplete directed triangles" in the graph.
 ## Equivalence Relations
-A relation $r$ on a set $A$ is aclled an equivalence relation iff it is reflexive, symmetric, and transitive.
+A relation $r$ on a set $A$ is called an equivalence relation iff it is reflexive, symmetric, and transitive.
 ### Symmetric
 #### Informal definition
 If any one element is related to any other element, then the second element is related to the first. 
