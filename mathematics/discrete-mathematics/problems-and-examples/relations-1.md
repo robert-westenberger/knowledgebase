@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-07T19:13:09.391Z
+date: 2021-06-07T19:13:53.970Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -75,6 +75,7 @@ Since the relation is reflexive, symmetric, and transitive, it is in fact an equ
 ## Discrete Mathematics Study Center Exercise
 Let $A$ be the set of all ordered pairs of positive integers (including zero). This means that $A=\{(a, b) \mid a, b \geq 0\}$. Let $R$ be
 a relation defined on $A$ such that $R=\{[(a, b),(c, d)] \mid a+c=b+d\} .$ Determine whether or not $R$ is an equivalence relation.
+### Solution
 
 # Determine whether a relation is an equivalence relation (reflexive, symmetric, and transitive) and if applicable, how many and what equivalence classes are there
 
