@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-03T18:50:36.408Z
+date: 2021-06-07T18:46:04.149Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -61,7 +61,8 @@ Let $R = \{(1,1),(1,3),(3,1),(3,3)\}$. Is $R$ an equivalence relation on $A=\{1,
 ### Solution
 For $A$, its not reflexive since its missing $(2,2)$, so its not an equivalence relation.
 For $B$, it is symmetric, reflexive, and transitive so it is an equivalence relation.
-
+## Discrete Mathematics Study Center Exercise
+Let $A$ be the set of all ordered pairs of positive integers (including zero). This means that $A=\{(a, b) \mid a, b \geq 0\}$. Let $R$ be a relation defined on $A$ such that $\boldsymbol{R}=\{[(a, b),(c, d)] \mid a d=b c\}$. Determine whether or not $\boldsymbol{R}$ is an equivalence relation.
 # Determine whether a relation is an equivalence relation (reflexive, symmetric, and transitive) and if applicable, how many and what equivalence classes are there
 
 ## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 1
