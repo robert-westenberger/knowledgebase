@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-07T18:56:10.314Z
+date: 2021-06-07T19:10:27.190Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -64,7 +64,13 @@ For $B$, it is symmetric, reflexive, and transitive so it is an equivalence rela
 ## Discrete Mathematics Study Center Exercise
 Let $A$ be the set of all ordered pairs of positive integers (including zero). This means that $A=\{(a, b) \mid a, b \geq 0\}$. Let $R$ be a relation defined on $A$ such that $\boldsymbol{R}=\{[(a, b),(c, d)] \mid a d=b c\}$. Determine whether or not $\boldsymbol{R}$ is an equivalence relation.
 ### Solution
+The relation is reflexive, i.e., $[(a, b),(a, b)] \in R$, since $a b=b a .$
 
+The relation is symmetric. If $[(a, b),(c, d)] \in R$, we know that $a d=b c .$ This implies that $c b=d a$, i.e. $[(c, d),(a, b)] \in R$.
+
+The relation is transitive.  If $[(a, b),(c, d)] \in R$ and $[(c, d),(e, f)] \in R$, we know that $a d=b c$ and $c f=d e$ hold. This implies that $a=\frac{b c}{d}$ and $f=\frac{d e}{c}$ and hence $a f=\frac{b c}{d} \frac{d e}{c}=b e$. This implies that $[(a, b),(e, f)] \in R .$ 
+
+Since the relation is reflexive, symmetric, and transitive, it is in fact an equivalence relation.
 # Determine whether a relation is an equivalence relation (reflexive, symmetric, and transitive) and if applicable, how many and what equivalence classes are there
 
 ## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 1
