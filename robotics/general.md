@@ -2,7 +2,7 @@
 title: General
 description: 
 published: true
-date: 2021-06-07T03:44:55.807Z
+date: 2021-06-07T03:46:39.717Z
 tags: robotics
 editor: markdown
 ---
@@ -11,5 +11,4 @@ editor: markdown
 
 ## Resources
 https://www.fingertechrobotics.com/index.php
-## Events
-https://robotcombatevents.com/
+https://buildersdb.com/
