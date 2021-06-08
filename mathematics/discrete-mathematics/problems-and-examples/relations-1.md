@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-08T17:36:27.324Z
+date: 2021-06-08T17:36:39.116Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -285,6 +285,7 @@ $R_{1}$ then since $R_{1}$ is symmetric, $(y, x) \in R_{1}$, so $(y, x) \in R_{1
 Let $A$, $B$, $C$, and $D$ be sets. Suppose $R$ is a relation from $A$ to $B$, $S$ is a relation from $B$ to $C$, and $T$ is a relation from $C$ to $D$. Then
 
 $$
+(R \circ S) \circ T = R \circ (S \circ T)
 $$
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
