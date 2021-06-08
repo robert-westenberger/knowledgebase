@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-08T17:37:12.062Z
+date: 2021-06-08T17:37:39.110Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -287,7 +287,7 @@ $R_{1}$ then since $R_{1}$ is symmetric, $(y, x) \in R_{1}$, so $(y, x) \in R_{1
 $$
 (R \circ S) \circ T = R \circ (S \circ T)
 $$
-
+(That is, the composition of relations satisfies the associative law).
 Prove this theorem.
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
