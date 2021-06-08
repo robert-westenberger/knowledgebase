@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-07T19:24:08.846Z
+date: 2021-06-08T17:36:27.324Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -280,6 +280,12 @@ Suppose $R_{1}$ and $R_{2}$ are relations on $A .$ For each part, give either a 
 **(b)** Suppose $R_{1}$ and $R_{2}$ are symmetric, and suppose $(x, y) \in R_{1} \cup R_{2} .$ Then either $(x, y) \in R_{1}$ or $(x, y) \in R_{2} .$ If $(x, y) \in$
 $R_{1}$ then since $R_{1}$ is symmetric, $(y, x) \in R_{1}$, so $(y, x) \in R_{1} \cup R_{2} .$ Similar reasoning shows that if $(x, y) \in R_{2}$ then $(y, x) \in R_{1} \cup R_{2}$
 **(c)** 
+
+## 2000 Solved Problems in Discrete Mathematics 2.106
+Let $A$, $B$, $C$, and $D$ be sets. Suppose $R$ is a relation from $A$ to $B$, $S$ is a relation from $B$ to $C$, and $T$ is a relation from $C$ to $D$. Then
+
+$$
+$$
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
