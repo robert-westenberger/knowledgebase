@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-03T18:52:52.895Z
+date: 2021-06-08T18:55:09.778Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**6-8** 10 - 12 Did some exercises in schaums discrete math manual. Started looking at mit ocw 2005 problem set 3. Started taking notes in Discrete Mathematics with Applications 8.5 Partial Order relations. Continue this tomorrow.
 **6-3** 10 - 12 Did exercise 10 and 13 of 4.3 how to prove it 2nd edition
 **6-2** 10 - 12 Tomorrow, finish exercise 10 of Sec 4.3
 **5-28** 10 - 12 Finished exercise 10. Started sec 4.3 of how to prove it 2nd edition. Did a few exercises. Tomorrow, do exercises 8/9/10 of sec 4.3
