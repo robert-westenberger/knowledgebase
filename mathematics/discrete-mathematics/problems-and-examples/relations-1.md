@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-08T18:08:05.067Z
+date: 2021-06-08T18:12:13.753Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -292,6 +292,8 @@ Prove this theorem.
 
 ## Solution
 Need to show $(R \circ S) \circ T \subseteq R \circ (S \circ T)$ and $R \circ (S \circ T) \subseteq (R \circ S) \circ T$. 
+
+Suppose $(a, d)$ belongs to $(R \circ S) \circ T$. Then there exists a $c \in C$ such that $(a,c) \in R \circ S$ and $(c, d) \in T$.
 # Powers of Relations 
 ## Rosen 7th Edition Sec 9.1 Exercise 39
 Let $R$ be the relation on the set of people with doctorates such that $(a, b) \in R$ if and only if $a$ was the thesis advisor of $b$. When is an ordered pair $(a, b)$ in $R^{2} ?$ When is an ordered pair $(a, b)$ in $R^{n}$, when $n$ is a positive integer? (Assume that every person with a doctorate has a thesis advisor.
