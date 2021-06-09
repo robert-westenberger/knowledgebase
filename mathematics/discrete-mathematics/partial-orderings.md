@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-08T18:50:45.722Z
+date: 2021-06-09T17:07:15.130Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -15,3 +15,6 @@ A relation $R$ on a set $S$ is called a partial ordering or partial order if it 
 Let $R$ be a relation on a set $A . R$ is antisymmetric if, and only if, for every $a$ and $b$ in $A,$ if $a R b$ and $b R a$ then $a=b$.
 
 In terms of an arrow diagram of a relation, saying that a relation is antisymmetric is the same as saying that whenever there is an arrow goign from one element to another distinct element, there is not an arrow going back from the second to the first.
+
+### Example: Testing for Antisymmetry of "Divides" Relations
+Let $R_1$ be the "divides" relation on the set of all positive integers, and $R_2$ be the "divides" relation on the set of all integers. Prove or give a counterexample of $R_1$ and $R_2$ being antisymmetric.
