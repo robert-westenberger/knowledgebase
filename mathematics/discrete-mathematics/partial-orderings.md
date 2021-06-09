@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-09T17:16:49.529Z
+date: 2021-06-09T18:08:33.910Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -34,3 +34,4 @@ $$ a=k_{2} b=1 \cdot b=b $$
 [as was to be shown].
 
 $R_2$ is not antisymmetric. Let $a=2$ and $b=-2$. Then $a \mid b$ since $-2=(-1) \cdot 2]$ and $b \mid a$ [since $2=(-1)(-2)]$. Hence $a R_{2} b$ and $b R_{2} a$ but $a \neq b$.
+
