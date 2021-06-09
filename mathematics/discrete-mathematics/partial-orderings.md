@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-09T18:08:33.910Z
+date: 2021-06-09T18:46:44.264Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -35,3 +35,8 @@ $$ a=k_{2} b=1 \cdot b=b $$
 
 $R_2$ is not antisymmetric. Let $a=2$ and $b=-2$. Then $a \mid b$ since $-2=(-1) \cdot 2]$ and $b \mid a$ [since $2=(-1)(-2)]$. Hence $a R_{2} b$ and $b R_{2} a$ but $a \neq b$.
 
+### Example: Show that the greater than or equal to relation is a partial ordering on the set of integers
+Because $a \geq a$ for every integer $a, \geq$ is reflexive. If $a \geq b$ and $b \geq a$, then $a=b$. Hence, $\geq$ is antisymmetric. Finally, $\geq$ is transitive because $a \geq b$ and $b \geq c$ imply that $a \geq c$. It follows that $\geq$ is a partial ordering on the set of integers and $(\mathbf{Z}, \geq)$ is a poset.
+
+### Example: Show that the inclusion relation $\subseteq$ is a partial ordering on the power set of a set $S$.
+Solution: Because $A \subseteq A$ whenever $A$ is a subset of $S \subseteq$ is reflexive. It is antisymmetric because $A \subseteq \mid B$ and $B \subseteq A$ imply that $A=B$. Finally, $\subseteq$ is transitive, because $A \subseteq B$ and $B \subseteq C$ imply that $A \subseteq C$. Hence, $\subseteq$ is a partial ordering on $P(S)$, and $(P(S) \subseteq)$ is a poset.
