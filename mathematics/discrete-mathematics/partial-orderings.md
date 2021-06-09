@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-09T17:07:15.130Z
+date: 2021-06-09T17:08:28.395Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -18,3 +18,5 @@ In terms of an arrow diagram of a relation, saying that a relation is antisymmet
 
 ### Example: Testing for Antisymmetry of "Divides" Relations
 Let $R_1$ be the "divides" relation on the set of all positive integers, and $R_2$ be the "divides" relation on the set of all integers. Prove or give a counterexample of $R_1$ and $R_2$ being antisymmetric.
+
+$R_1$ is antisymmetric. 
