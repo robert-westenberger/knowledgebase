@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-09T17:13:42.188Z
+date: 2021-06-09T17:15:17.918Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -26,3 +26,9 @@ b=k_{1} a=k_{1}\left(k_{2} b\right)=\left(k_{1} k_{2}\right) b .
 $$
 Dividing both sides by $b$ gives 
 $$ k_{1} k_{2}=1 $$
+
+Now since $a$ and $b$ are both integers, $k_{1}$ and $k_{2}$ are both positive integers also. And the only product of two positive integers that equals 1 is $1 \cdot 1$. Thus 
+$$ k_{1}=k_{2}=1 $$ 
+and so 
+$$ a=k_{2} b=1 \cdot b=b $$
+[as was to be shown].
