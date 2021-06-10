@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-10T17:59:02.305Z
+date: 2021-06-10T18:00:10.221Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -41,7 +41,7 @@ Because $a \geq a$ for every integer $a, \geq$ is reflexive. If $a \geq b$ and $
 ### Example: Show that the inclusion relation $\subseteq$ is a partial ordering on the power set of a set $S$.
 Because $A \subseteq A$ whenever $A$ is a subset of $S \subseteq$ is reflexive. It is antisymmetric because $A \subseteq \mid B$ and $B \subseteq A$ imply that $A=B$. Finally, $\subseteq$ is transitive, because $A \subseteq B$ and $B \subseteq C$ imply that $A \subseteq C$. Hence, $\subseteq$ is a partial ordering on $P(S)$, and $(P(S) \subseteq)$ is a poset.
 
-## Comparability
+## Comparability and totally ordered sets
 Suppose $\preceq$ is a partial order relation on a set $A$. Elements $a$ and $b$ of $A$ are said to be **comparable** if, and only if, either $a \preceq b$ or $b \preceq a$. Otherwise, $a$ and $b$ are called **noncomparable**.
 
 Given any two real numbers $x$ and $y$, either $x \leq y$ or $y \leq x$. The elements  $x$ and $y$ in this case are **comparable**.
