@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-08T18:55:23.548Z
+date: 2021-06-10T18:36:19.725Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**6-10** 10 - 11:30 Notes on partially ordered sets. Tomorrow, continue notes / research on lexicographic order 
 **6-8** 10 - 12 Did some exercises in schaums discrete math manual. Started looking at mit ocw 2005 problem set 3. Started taking notes in Discrete Mathematics with Applications 8.5 Partial Order relations. Continue this tomorrow (left off on p. 547)
 **6-3** 10 - 12 Did exercise 10 and 13 of 4.3 how to prove it 2nd edition
 **6-2** 10 - 12 Tomorrow, finish exercise 10 of Sec 4.3
