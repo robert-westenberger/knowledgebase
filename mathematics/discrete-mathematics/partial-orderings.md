@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-10T17:25:45.550Z
+date: 2021-06-10T17:37:05.423Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -48,5 +48,5 @@ Given any two real numbers $x$ and $y$, either $x \leq y$ or $y \leq x$. The ele
 
 Given two subsets $A$ and $B$ of $\{a,b,c\}$, it may be the case that neither $A \subseteq B$ nor $B \subseteq A$. For instance, let $A=\{a, b\}$ and $B=\{b, c\} .$ Then $A \nsubseteq B$ and $B \nsubseteq A .$ In such a case, $A$ and $B$ are said to be **noncomparable**.
 
-
+When every two elements in the set are comparable, the relation is called a **total ordering**.
 
