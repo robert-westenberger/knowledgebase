@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-10T17:41:00.752Z
+date: 2021-06-10T17:59:02.305Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,4 +50,4 @@ Given two subsets $A$ and $B$ of $\{a,b,c\}$, it may be the case that neither $A
 
 When every two elements in the set are comparable, the relation is called a **total ordering**.
 
-If $(S, \preccurlyeq)$ is a poset and every two elements of $S$ are comparable, $S$ is called a totally ordered or linearly ordered set, and $\preccurlyeq$ is called a total order or a linear order. A totally ordered set is also called a **chain**.
+If $(S, \preccurlyeq)$ is a poset and every two elements of $S$ are comparable, $S$ is called a **totally ordered** or **linearly ordered** set, and $\preccurlyeq$ is called a total order or a linear order. A totally ordered set is also called a **chain**.
