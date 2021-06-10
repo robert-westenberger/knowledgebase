@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-10T17:22:03.395Z
+date: 2021-06-10T17:25:45.550Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -42,8 +42,11 @@ Because $a \geq a$ for every integer $a, \geq$ is reflexive. If $a \geq b$ and $
 Because $A \subseteq A$ whenever $A$ is a subset of $S \subseteq$ is reflexive. It is antisymmetric because $A \subseteq \mid B$ and $B \subseteq A$ imply that $A=B$. Finally, $\subseteq$ is transitive, because $A \subseteq B$ and $B \subseteq C$ imply that $A \subseteq C$. Hence, $\subseteq$ is a partial ordering on $P(S)$, and $(P(S) \subseteq)$ is a poset.
 
 ## Comparability
-Suppose $\preceq$ is a partial order relation on a set $A$. Elements $a$ and $b$ of $A$ are said to be comparable if, and only if, either $a \preceq b$ or $b \preceq a$. Otherwise, $a$ and $b$ are called noncomparable.
+Suppose $\preceq$ is a partial order relation on a set $A$. Elements $a$ and $b$ of $A$ are said to be **comparable** if, and only if, either $a \preceq b$ or $b \preceq a$. Otherwise, $a$ and $b$ are called **noncomparable**.
 
 Given any two real numbers $x$ and $y$, either $x \leq y$ or $y \leq x$. The elements  $x$ and $y$ in this case are **comparable**.
 
-Given two subsets $A$ and $B$ of $\{a,b,c\}$, it may be the case that neither $A \subseteq B$ nor $B \subseteq A$. For instance, let $A=\{a, b\}$ and $B=\{b, c\} .$ Then $A \nsubseteq B$ and $B \nsubseteq A .$ In such a case, $A$ and $B$ are said to be noncomparable.
+Given two subsets $A$ and $B$ of $\{a,b,c\}$, it may be the case that neither $A \subseteq B$ nor $B \subseteq A$. For instance, let $A=\{a, b\}$ and $B=\{b, c\} .$ Then $A \nsubseteq B$ and $B \nsubseteq A .$ In such a case, $A$ and $B$ are said to be **noncomparable**.
+
+
+
