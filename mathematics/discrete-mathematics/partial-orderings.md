@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-10T18:19:56.489Z
+date: 2021-06-10T18:28:08.755Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -62,3 +62,6 @@ $$
 is a chain of length 3 in $\mathscr{P}(\{a, b, c\})$
 ## Well Ordered Set
 $(S, \preccurlyeq)$ is a **well-ordered set** if it is a poset such that $\preccurlyeq$ is a total ordering and every nonempty subset of $S$ has a least element.
+
+
+## Lexicographic Order
