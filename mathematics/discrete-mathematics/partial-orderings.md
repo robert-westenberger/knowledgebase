@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-10T17:17:02.213Z
+date: 2021-06-10T17:21:13.338Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -43,3 +43,5 @@ Because $A \subseteq A$ whenever $A$ is a subset of $S \subseteq$ is reflexive. 
 
 ## Comparability
 Given any two real numbers $x$ and $y$, either $x \leq y$ or $y \leq x$. The elements  $x$ and $y$ in this case are **comparable**.
+
+Given two subsets $A$ and $B$ of $\{a,b,c\}$, it may be the case that neither $A \subseteq B$ nor $B \subseteq A$. For instance, let $A=\{a, b\}$ and $B=\{b, c\} .$ Then $A \nsubseteq B$ and $B \nsubseteq A .$ In such a case, $A$ and $B$ are said to be noncomparable.
