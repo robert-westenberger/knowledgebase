@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-10T18:28:08.755Z
+date: 2021-06-11T17:13:23.408Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -65,3 +65,10 @@ $(S, \preccurlyeq)$ is a **well-ordered set** if it is a poset such that $\precc
 
 
 ## Lexicographic Order
+Let $A$ be a set with a partial order relation $R$, and let $S$ be a set of strings over $A$ Define a relation $\prec$ on $S$ as follows:
+
+Let $s$ and $t$ be any strings in $S$ of lengths $m$ and $n$, respectively, where $m$ and $n$ are positive integers, and let $s_{m}$ and $t_{m}$ be the characters in the $m$ th position for $s$ and $t$, respectively.
+1. If $m \leq n$ and the first $m$ characters of $s$ and $t$ are the same, then $s \preceq t$.
+2. If the first $m-1$ characters in $s$ and $t$ are the same, $s_{m} R t_{m}$, and $s_{m} \neq t_{m}$, then $s \preceq t$.
+3. If $\lambda$ is the null string then $\lambda \preceq s$.
+If no strings are related by $\preceq$ other than by these three conditions, then $\preceq$ is a partial order relation on $S$.
