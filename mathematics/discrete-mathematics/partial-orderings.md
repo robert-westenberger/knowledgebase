@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-11T17:13:23.408Z
+date: 2021-06-11T17:53:41.279Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -72,3 +72,16 @@ Let $s$ and $t$ be any strings in $S$ of lengths $m$ and $n$, respectively, wher
 2. If the first $m-1$ characters in $s$ and $t$ are the same, $s_{m} R t_{m}$, and $s_{m} \neq t_{m}$, then $s \preceq t$.
 3. If $\lambda$ is the null string then $\lambda \preceq s$.
 If no strings are related by $\preceq$ other than by these three conditions, then $\preceq$ is a partial order relation on $S$.
+
+### Example - Testing Strings for Lexicographic Order
+Let $A=\{x, y\}$ and let $R$ be the following partial order relation on $A$ :
+$$
+R=\{(x, x),(x, y),(y, y)\}
+$$
+Let $S$ be the set of all strings over $A$, and denote by the lexicographic order for $S$ that corresponds to $R$.
+a. Is $x \preceq x ? \quad$ Is $x \preceq x x ? \quad$ Is $y x \preceq y x y$ ?
+b. Is $x x x y y y \preceq x y$ ?
+c. Is $x \preceq y$ ?
+d. Is $\lambda \preceq x y$ ?
+e. Is $x y y \preceq x y x$ ?
+#### Example - Testing Strings for Lexicographic Order
