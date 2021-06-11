@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-11T17:53:41.279Z
+date: 2021-06-11T17:55:07.532Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -79,9 +79,14 @@ $$
 R=\{(x, x),(x, y),(y, y)\}
 $$
 Let $S$ be the set of all strings over $A$, and denote by the lexicographic order for $S$ that corresponds to $R$.
-a. Is $x \preceq x ? \quad$ Is $x \preceq x x ? \quad$ Is $y x \preceq y x y$ ?
-b. Is $x x x y y y \preceq x y$ ?
-c. Is $x \preceq y$ ?
-d. Is $\lambda \preceq x y$ ?
-e. Is $x y y \preceq x y x$ ?
-#### Example - Testing Strings for Lexicographic Order
+**a.** Is $x \preceq x ? \quad$ Is $x \preceq x x ? \quad$ Is $y x \preceq y x y$ ?
+**b.** Is $x x x y y y \preceq x y$ ?
+**c.** Is $x \preceq y$ ?
+**d.** Is $\lambda \preceq x y$ ?
+**e.** Is $x y y \preceq x y x$ ?
+#### Solution - Testing Strings for Lexicographic Order
+**a.** Yes in all three cases, by property (1) of the definition of $\preceq$
+**b.** Yes in all cases, by property (2) of the definition of $\preceq$.
+**c.** Yes in all cases, by property (2) of the definition of $\preceq$. In this case $m-1=0$, and the statement that the first zero characters of $x$ and $y$ are the same is true by default.
+**d.** Yes by property (3) of the definition of $\preceq$
+**e.** No because $y$ is not related to $x$ by $R$.
