@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-15T23:03:26.278Z
+date: 2021-06-15T23:03:33.429Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -118,5 +118,4 @@ Let $(S, \preccurlyeq)$ be a poset. We say that an element $y \in S$ **covers** 
 ## Recovering a directed graph from the Hasse Diagram
 1. Reinsert the direction markers on the arrows making all arrows point upward.
 2. Add loops at each vertex.
-3. For each sequence of arrows from one point to a second and from that second point to
-a third, add an arrow from the first point to the third.
+3. For each sequence of arrows from one point to a second and from that second point to a third, add an arrow from the first point to the third.
