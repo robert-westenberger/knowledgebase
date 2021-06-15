@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-15T22:51:33.588Z
+date: 2021-06-15T22:53:38.060Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -111,3 +111,6 @@ A Hasse diagram is a digraph for a finite poset that has mandatory edges removed
 3. Remove all edges that must be in the partial ordering because of the presence of other edges and transitivity. That is, remove all edges $(x,y)$ for which there is an element $z \in S$ such that $z \in S$ such that $x \prec z$ and $z \prec x$. 
 4. Arrange each edge so that its initial vertex is below its terminal vertex. 
 5. Remove all arrows on the directed edges, because all edges point "upward" toward their terminal vertex. 
+
+## Covering Relation
+Let $(S, \preccurlyeq)$ be a poset. We say that an element $y \in S$ covers an element $x \in S$ if $x<$ $y$ and there is no element $z \in S$ such that $x \prec z<y .$ The set of pairs $(x, y)$ such that $y$ covers $x$ is called the covering relation of $(S, \preccurlyeq) .$ 
