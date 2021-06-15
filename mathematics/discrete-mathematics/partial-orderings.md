@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-15T22:24:18.678Z
+date: 2021-06-15T22:30:26.366Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -93,4 +93,4 @@ Let $S$ be the set of all strings over $A$, and denote by the lexicographic orde
 
 
 # Hasse Diagrams
-A Hasse diagram is a digraph for a finite poset that has mandatory edges removed. For example, the digraph for the partial ordering 
+--A Hasse diagram is a digraph for a finite poset that has mandatory edges removed. For example, the digraph for the partial ordering `````
