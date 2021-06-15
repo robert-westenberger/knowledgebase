@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-15T22:40:07.687Z
+date: 2021-06-15T22:48:46.514Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -103,3 +103,8 @@ A Hasse diagram is a digraph for a finite poset that has mandatory edges removed
 
 3. Remove transitive edges, because they must be present, and remove direction because we assume all edges are pointed "upwards". 
 ![hasse_c.png](/hasse_c.png)
+
+## Representing a finite poset using a Hasse Diagram
+
+1. Start with the directed graph for the relation.
+2. 
