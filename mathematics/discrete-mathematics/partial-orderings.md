@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-11T17:55:07.532Z
+date: 2021-06-15T22:23:53.578Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -90,3 +90,7 @@ Let $S$ be the set of all strings over $A$, and denote by the lexicographic orde
 **c.** Yes in all cases, by property (2) of the definition of $\preceq$. In this case $m-1=0$, and the statement that the first zero characters of $x$ and $y$ are the same is true by default.
 **d.** Yes by property (3) of the definition of $\preceq$
 **e.** No because $y$ is not related to $x$ by $R$.
+
+
+# Hasse Diagrams
+A Hasse diagram is a digraph for a finite poset that has mandatory edges removed. For example, 
