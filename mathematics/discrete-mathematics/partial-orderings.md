@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-15T22:55:28.713Z
+date: 2021-06-15T22:55:43.147Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -113,4 +113,4 @@ A Hasse diagram is a digraph for a finite poset that has mandatory edges removed
 5. Remove all arrows on the directed edges, because all edges point "upward" toward their terminal vertex. 
 
 ## Covering Relation
-Let $(S, \preccurlyeq)$ be a poset. We say that an element $y \in S$ covers an element $x \in S$ if $x<$ $y$ and there is no element $z \in S$ such that $x \prec z<y .$ The set of pairs $(x, y)$ such that $y$ covers $x$ is called the covering relation of $(S, \preccurlyeq)$. From the description of the Hasse diagram of a poset, we see that the edges in the Hasse diagram of $(S, \preccurlyeq)$ are upwardly pointing edges corresponding to the pairs in the covering relation of $(S, \preccurlyeq)$. Furthermore, we can recover a poset from its covering relation, because it is the reflexive transitive closure of its covering relation. This tells us that we can construct a partial ordering from its Hasse diagram.
+Let $(S, \preccurlyeq)$ be a poset. We say that an element $y \in S$ **covers** an element $x \in S$ if $x<$ $y$ and there is no element $z \in S$ such that $x \prec z<y .$ The set of pairs $(x, y)$ such that $y$ covers $x$ is called the **covering relation** of $(S, \preccurlyeq)$. From the description of the Hasse diagram of a poset, we see that the edges in the Hasse diagram of $(S, \preccurlyeq)$ are upwardly pointing edges corresponding to the pairs in the covering relation of $(S, \preccurlyeq)$. Furthermore, we can recover a poset from its covering relation, because it is the reflexive transitive closure of its covering relation. This tells us that we can construct a partial ordering from its Hasse diagram.
