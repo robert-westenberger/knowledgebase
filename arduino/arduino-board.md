@@ -2,7 +2,7 @@
 title: Arduino Board
 description: 
 published: true
-date: 2021-06-16T02:41:56.763Z
+date: 2021-06-16T02:43:48.588Z
 tags: arduino, hardware
 editor: markdown
 ---
