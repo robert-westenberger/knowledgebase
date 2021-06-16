@@ -2,7 +2,7 @@
 title: Arduino Board
 description: 
 published: true
-date: 2021-06-16T02:24:12.041Z
+date: 2021-06-16T02:27:52.864Z
 tags: arduino, hardware
 editor: markdown
 ---
@@ -15,4 +15,10 @@ editor: markdown
   
 * Microcontroller - Tiny computer that contains a processor to execute instructions, includes varios types of memory to hold data and instructions, and provides various avenues for sending and receiving data.![microcontroller.png](/microcontroller.png)
 
-* Power connections and socket for an external RESET button. 
+* Power Sockets
+	* Offers power connections and ability to use external reset button
+* Analog sockets
+	* Inputs that are used to measure electrical signals that vary in voltage. Pins A4 and A5 can also be used for sendign data to and receiving it from other devices. 
+![poweranalogsockets.png](/poweranalogsockets.png)
+
+* Digital I/O Pins
