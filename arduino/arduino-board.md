@@ -2,7 +2,7 @@
 title: Arduino Board
 description: 
 published: true
-date: 2021-06-16T02:43:48.588Z
+date: 2021-06-16T02:44:19.879Z
 tags: arduino, hardware
 editor: markdown
 ---
@@ -39,4 +39,4 @@ editor: markdown
 * reset button
 
 ## Arduino Shields
-Shields are boards that can be plugged on top of the Arduino circuit board to expand its capabilities. There are shields that contain an ethernet interface for example, that lets the arduino communicate over networks and the internet. 
+Shields are boards that can be plugged on top of the Arduino circuit board to expand its capabilities. There are shields that contain an ethernet interface for example, that lets the arduino communicate over networks and the internet. You can buy blank shields and add your own circuitry. 
