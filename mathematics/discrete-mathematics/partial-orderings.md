@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-15T23:03:33.429Z
+date: 2021-06-16T00:46:07.321Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -60,6 +60,8 @@ $$
 S=\{\varnothing,\{a\},\{a, b\},\{a, b, c\}\}
 $$
 is a chain of length 3 in $\mathscr{P}(\{a, b, c\})$
+
+## Maximal and Minimal Elements
 ## Well Ordered Set
 $(S, \preccurlyeq)$ is a **well-ordered set** if it is a poset such that $\preccurlyeq$ is a total ordering and every nonempty subset of $S$ has a least element.
 
