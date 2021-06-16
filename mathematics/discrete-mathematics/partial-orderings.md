@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T19:05:26.145Z
+date: 2021-06-16T19:06:05.414Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -52,7 +52,7 @@ When every two elements in the set are comparable, the relation is called a **to
 
 If $(S, \preccurlyeq)$ is a poset and every two elements of $S$ are comparable, $S$ is called a **totally ordered** or **linearly ordered** set, and $\preccurlyeq$ is called a total order or a linear order. A totally ordered set is also called a **chain**. The **length of a chain** is one less than the number of elements in the chain.
 
-A set that is partially ordered but not totally ordered may have totally ordered subsets. Such subsets are called **chains**.
+A set that is partially ordered but not totally ordered may have totally ordered subsets. Such subsets are **chains**.
 ### Chain Length Subsets Example
 The set $\mathscr{P}(\{a, b, c\})$ is partially ordered with respect to the subset relation. Find a chain of length 3 in $\mathscr{P}(\{a, b, c\})$
 
