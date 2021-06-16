@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T01:09:39.719Z
+date: 2021-06-16T19:02:21.497Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -78,6 +78,13 @@ An element $a$ in $A$ is called a minimal element of $A$ if, and only if, for ea
 
 ### Least
 An element $a$ in $A$ is called a least element of $A$ if, and only if, for each $b$ in $A$, $a \preceq b$.
+
+#### Example - Identifying minimal and maximal elements of a set
+(a) What are the maximal and minimal elements, if any, of the set, $\mathbb{N}$, of all natural numbers under divisibility? Is there a minimum or maximum element?
+(b) What are the minimal and maximal elements, if any, of the set of integers $\geq 2$ under divisibility?
+##### Solution
+**(a)** The minimum (and therefore unique minimal) element is 1 since 1 divides all natural numbers. The maximum (and therefore unique maximal) element is 0 since all numbers divide $0 .$
+**(b)** All prime numbers are minimal elements, since no numbers divide them. Since there is more than one minimal element, there can't be a minimum element. There is no maximal element, because for any $n \geq 2$, there is a "larger" number under the divisibility partial order, namely, $m n$, for any $m>1$.
 ## Well Ordered Set
 $(S, \preccurlyeq)$ is a **well-ordered set** if it is a poset such that $\preccurlyeq$ is a total ordering and every nonempty subset of $S$ has a least element.
 
