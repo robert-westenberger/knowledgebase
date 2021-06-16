@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T19:06:05.414Z
+date: 2021-06-16T19:29:39.331Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -145,3 +145,8 @@ Let $(S, \preccurlyeq)$ be a poset. We say that an element $y \in S$ **covers** 
 1. Reinsert the direction markers on the arrows making all arrows point upward.
 2. Add loops at each vertex.
 3. For each sequence of arrows from one point to a second and from that second point to a third, add an arrow from the first point to the third.
+
+# Topological Sorting
+Suppose a project is made up of 20 different tasks that can be completed only after others have been finished. How can an order be found for these tasks? 
+
+To model this problem we set up a partial order on the set of tasks so that $a \prec b$ iff $a$ and $b$ are tasks where $b$ cannot be started until $a$ has been completed. 
