@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T01:08:36.685Z
+date: 2021-06-16T01:09:39.719Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -66,11 +66,18 @@ Maximal and minimal elements are easy to spot using a Hasse diagram. They are th
 ### Maximal
 An element of a poset is called maximal if it is not less than any element of the poset. That is, a is maximal in the poset $(S, \preccurlyeq)$ if there is no $b \in S$ such that $a \prec b$. 
 
+An element $a$ in $A$ is called a maximal element of $A$ if, and only if, for each $b$ in $A$, either $b \preceq a$ or $b$ and $a$ are not comparable.
+
 ### Greatest
 An element $a$ in $A \mid$ is called a greatest element of $A$ if, and only if, for each $b$ in $A, b \preceq a$
+
 ### Minimal
 Similarly, an element of a poset is called minimal if it is not greater than any element of the poset. That is, $a$ is minimal if there is no element $b \in S$ such that $b \prec a$. 
 
+An element $a$ in $A$ is called a minimal element of $A$ if, and only if, for each $b$ in $A$, either $a \preceq b$ or $b$ and $a$ are not comparable.
+
+### Least
+An element $a$ in $A$ is called a least element of $A$ if, and only if, for each $b$ in $A$, $a \preceq b$.
 ## Well Ordered Set
 $(S, \preccurlyeq)$ is a **well-ordered set** if it is a poset such that $\preccurlyeq$ is a total ordering and every nonempty subset of $S$ has a least element.
 
