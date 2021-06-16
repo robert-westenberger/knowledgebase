@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T19:40:53.618Z
+date: 2021-06-16T19:41:21.039Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -156,4 +156,4 @@ A **total ordering** $\preccurlyeq$ is said to be compatible with the partial or
 
 **Lemma:**  Every finite nonempty poset $(S, \preccurlyeq)$ has at least one minimal element.
 
-**Proof:** Choose an element $a_{0}$ of $S$. If $a_{0}$ is not minimal, then there is an element $a_{1}$ with $a_{1} \prec a_{0}$. If $a_{1}$ is not minimal, there is an element $a_{2}$ with $a_{2} \prec a_{1}$. Continue this process, so that if $a_{n}$ is not minimal, there is an element $a_{n+1}$ with $a_{n+1} \prec a_{n} .$ Because there are only a finite number of elements in the poset, this process must end with a minimal element $a_{n}$. $\blacksquare$.
+**Proof:** Choose an element $a_{0}$ of $S$. If $a_{0}$ is not minimal, then there is an element $a_{1}$ with $a_{1} \prec a_{0}$. If $a_{1}$ is not minimal, there is an element $a_{2}$ with $a_{2} \prec a_{1}$. Continue this process, so that if $a_{n}$ is not minimal, there is an element $a_{n+1}$ with $a_{n+1} \prec a_{n} .$ Because there are only a finite number of elements in the poset, this process must end with a minimal element $a_{n} \blacksquare$.
