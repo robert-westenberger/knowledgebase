@@ -2,7 +2,7 @@
 title: Arduino Board
 description: 
 published: true
-date: 2021-06-16T02:32:50.217Z
+date: 2021-06-16T02:35:46.682Z
 tags: arduino, hardware
 editor: markdown
 ---
@@ -27,3 +27,10 @@ editor: markdown
 	* Detect whether or not an electrical signal is present or generate a signal on command. Pins 0 and 1 are the **serial port**, used to excahnge data with other devices, such as a computer via the USB connector circuitry. 
   * The pins with tilde (~) can also generate a varying electrical signal (which looks like a wave on an oscilloscope, thus the wavy tilde). This can be useful for things like lighting efects or controlling electric motors.
   
+![leds.png](/leds.png)
+* TX
+	* Lights up when data is being transmitted
+* RX
+	* Lights up when data is being received
+* L 
+	* For own use. Connected to the digital i/o pin 13. 
