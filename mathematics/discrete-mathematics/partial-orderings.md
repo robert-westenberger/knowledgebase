@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T00:55:04.160Z
+date: 2021-06-16T00:58:52.969Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -62,12 +62,12 @@ $$
 is a chain of length 3 in $\mathscr{P}(\{a, b, c\})$
 
 ## Maximal and Minimal Elements
-
+Maximal and minimal elements are easy to spot using a Hasse diagram. They are the "top" and "bottom" elements in the diagram.
 ### Maximal
 An element of a poset is called maximal if it is not less than any element of the poset. That is, a is maximal in the poset $(S, \preccurlyeq)$ if there is no $b \in S$ such that $a \prec b$. 
 
 ### Minimal
-Similarly, an element of a poset is called minimal if it is not greater than any element of the poset. That is, $a$ is minimal if there is no element $b \in S$ such that $b \prec a$. Maximal and minimal elements are easy to spot using a Hasse diagram. They are the "top" and "bottom" elements in the diagram.
+Similarly, an element of a poset is called minimal if it is not greater than any element of the poset. That is, $a$ is minimal if there is no element $b \in S$ such that $b \prec a$. 
 ## Well Ordered Set
 $(S, \preccurlyeq)$ is a **well-ordered set** if it is a poset such that $\preccurlyeq$ is a total ordering and every nonempty subset of $S$ has a least element.
 
