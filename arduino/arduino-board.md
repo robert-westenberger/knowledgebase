@@ -2,7 +2,7 @@
 title: Arduino Board
 description: 
 published: true
-date: 2021-06-16T02:36:48.632Z
+date: 2021-06-16T02:41:56.763Z
 tags: arduino, hardware
 editor: markdown
 ---
@@ -35,4 +35,8 @@ editor: markdown
 * L 
 	* For own use. Connected to the digital i/o pin 13. 
   
-  
+![reset.png](/reset.png)
+* reset button
+
+## Arduino Shields
+Shields are boards that can be plugged on top of the Arduino circuit board to expand its capabilities. There are shields that contain an ethernet interface for example, that lets the arduino communicate over networks and the internet. 
