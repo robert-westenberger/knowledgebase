@@ -2,7 +2,7 @@
 title: Arduino Board
 description: 
 published: true
-date: 2021-06-16T02:35:46.682Z
+date: 2021-06-16T02:36:48.632Z
 tags: arduino, hardware
 editor: markdown
 ---
@@ -34,3 +34,5 @@ editor: markdown
 	* Lights up when data is being received
 * L 
 	* For own use. Connected to the digital i/o pin 13. 
+  
+  
