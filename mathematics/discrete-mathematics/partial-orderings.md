@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T19:29:39.331Z
+date: 2021-06-16T19:38:54.467Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -149,4 +149,9 @@ Let $(S, \preccurlyeq)$ be a poset. We say that an element $y \in S$ **covers** 
 # Topological Sorting
 Suppose a project is made up of 20 different tasks that can be completed only after others have been finished. How can an order be found for these tasks? 
 
-To model this problem we set up a partial order on the set of tasks so that $a \prec b$ iff $a$ and $b$ are tasks where $b$ cannot be started until $a$ has been completed. 
+To model this problem we set up a partial order on the set of tasks so that $a \prec b$ iff $a$ and $b$ are tasks where $b$ cannot be started until $a$ has been completed. To produce a schedule for the project, we need to produce an order for all $20$ tasks that is compatible with this partial order.
+
+## Definition
+A **total ordering** $\preccurlyeq$ is said to be compatible with the partial ordering $R$ if $a \preccurlyeq b$ whenever $a R b .$ Constructing a compatible total ordering from a partial ordering is called topological sorting.
+
+Every finite nonempty poset $(S, \preccurlyeq)$ has at least one minimal element.
