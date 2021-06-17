@@ -2,7 +2,7 @@
 title: Partial Orderings
 description: 
 published: true
-date: 2021-06-16T19:43:53.680Z
+date: 2021-06-17T18:14:06.021Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -168,3 +168,5 @@ a. Pick any minimal element $y$ in $A^{\prime}$.
 b. Define $x \preceq^{\prime} y$.
 c. $\operatorname{Set} A^{\prime}:=A^{\prime}-\{y\}$ and $x:=y$.
 [Completion of steps $1-3$ of this algorithm gives enough information to construct the Hasse diagram for the total ordering $\preceq$. We have already shown how to use the Hasse diagram to obtain a complete directed graph for a relation. $]$
+
+
