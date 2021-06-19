@@ -2,7 +2,7 @@
 title: Parallel Task Scheduling
 description: 
 published: true
-date: 2021-06-19T22:23:39.009Z
+date: 2021-06-19T22:23:47.610Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -33,10 +33,7 @@ A **parallel schedule** for a DAG $D$ is a partition of $V(D)$ into blocks $A_{0
 A **largest** chain ending at an element $a$ is called a **critical path to** $a$. The number of elements less than $a$ in the chain is called the **depth of** $a$. So in any possible parallel schedule, there must be at least depth $(a)$ steps before task $a$ can be started. In particular, the minimal elements are precisely the elements with depth $0$.
 
 ### Minimum Time Schedule
-A Theorem 10.5.8. A minimum time schedule for a finite DAG $D$ consists of the sets $A_{0}, A_{1}, \ldots$, where
-$$
-A_{k}::=\{a \in V(D) \mid \operatorname{depth}(a)=k\}
-$$ for a finite DAG $D$ consists of the sets $A_{0}, A_{1}, \ldots$, where
+A **minimum time schedule** for a finite DAG $D$ consists of the sets $A_{0}, A_{1}, \ldots$, where
 $$
 A_{k}::=\{a \in V(D) \mid \operatorname{depth}(a)=k\}
 $$
