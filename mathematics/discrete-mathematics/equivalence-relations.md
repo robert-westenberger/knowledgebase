@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-06-19T21:22:48.376Z
+date: 2021-06-19T21:25:02.647Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -23,6 +23,10 @@ If $b \in[a]_{R}$, then $b$ is called a representative of this equivalence class
 
 # Equivalence Classes and Partitions
 Cutting up a set into a bunch of different pieces is called **partitioning** the set. 
+
+**Definition 2.3.** A partition of a set, $A$, is a collection, $\mathcal{A}$, of nonempty sets called the blocks of the partition such that
+1. $A=\bigcup_{B \in \mathcal{A}} B$, and
+2. if $B_{1} \neq B_{2}$ are blocks of $\mathcal{A}$, then $B_{1}$ and $B_{2}$ are disjoint $^{1}$.
 ## Theorem 1
 Shows that the equivalence classes of two elements of $A$ are either identical or disjoint. 
 
