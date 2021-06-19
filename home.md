@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-19T22:58:04.913Z
+date: 2021-06-19T23:02:18.168Z
 tags: 
 editor: markdown
 ---
@@ -15,7 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
-**6-19** 2 - 4 Notes on parallel task scheduling. Tomorrow, do problems in Epps or Rosen on relations. 
+**6-19** 2 - 4 Notes on parallel task scheduling. Tomorrow, do problems in Epps or Rosen on relations. Left off on Epps 8.5 Exercise #5 
 **6-10** 10-11 More reading on lexicographic order
 
 [Archive](/journal-archive)
