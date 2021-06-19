@@ -2,7 +2,7 @@
 title: Parallel Task Scheduling
 description: 
 published: true
-date: 2021-06-19T21:57:59.845Z
+date: 2021-06-19T21:59:35.749Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -18,3 +18,6 @@ A **chain** in a DAG (Directed Acyclic Graph) is a set of vertices such that any
 
 ## Minimum Time to Schedule Tasks
 The time it takes to schedule tasks is at least as large as the number of vertices in any chain (because if we used less time than the size of some chain, then two items from the chain would have to be done at the same step, contradicting the precedence constraints). A largest chain is also known as a **critical path**. 
+
+## Schedules
+All tasks can be scheduled in $t$ steps, where $t$ is the size of the largest chain.
