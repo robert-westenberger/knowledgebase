@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-05-17T19:36:23.537Z
+date: 2021-06-19T21:32:52.189Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -50,6 +50,8 @@ Recursive Data Types
 Number theory
 [Graphs](/mathematics/discrete-mathematics/graphs)
 
+## Other
+[Parallel Task Scheduling](/mathematics/discrete-mathematics/parallel-task-scheduling)
 ## Counting / Combinatorics
 sums, products, asymptotic series
 Cardinality rules
