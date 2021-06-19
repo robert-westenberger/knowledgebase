@@ -2,7 +2,7 @@
 title: Equivalence Relations
 description: 
 published: true
-date: 2021-05-17T19:25:39.260Z
+date: 2021-06-19T21:22:48.376Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -22,6 +22,7 @@ $$
 If $b \in[a]_{R}$, then $b$ is called a representative of this equivalence class. Any element of a class can be used as a representative of this class. That is, there is nothing special about the particular element chosen as the representative of the class.
 
 # Equivalence Classes and Partitions
+Cutting up a set into a bunch of different pieces is called **partitioning** the set. 
 ## Theorem 1
 Shows that the equivalence classes of two elements of $A$ are either identical or disjoint. 
 
