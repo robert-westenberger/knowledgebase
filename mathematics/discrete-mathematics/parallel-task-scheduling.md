@@ -2,7 +2,7 @@
 title: Parallel Task Scheduling
 description: 
 published: true
-date: 2021-06-19T22:09:10.503Z
+date: 2021-06-19T22:14:01.234Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -28,4 +28,4 @@ $$
 \{a, c\} \quad\{b, e\} \quad\{d\}
 $$
 
-A **parallel schedule** for a DAG $D$ is a partition of $V(D)$ into blocks $A_{0}, A_{1}, \ldots$, such that when $j<k$, no vertex in $A_{j}$ is reachable from any vertex in $A_{k} .$ The block $A_{k}$ is called the set of elements scheduled at step $k$, and the time of the schedule is the number of blocks. The maximum number of elements scheduled at any step is called the number of processors required by the schedule.
+A **parallel schedule** for a DAG $D$ is a partition of $V(D)$ into blocks $A_{0}, A_{1}, \ldots$, such that when $j<k$, no vertex in $A_{j}$ is reachable from any vertex in $A_{k} .$ The block $A_{k}$ is called the set of elements **scheduled at step** $k$, and the **time** of the schedule is the number of blocks. The maximum number of elements scheduled at any step is called the **number of processors** required by the schedule.
