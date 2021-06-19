@@ -2,7 +2,7 @@
 title: Parallel Task Scheduling
 description: 
 published: true
-date: 2021-06-19T22:05:41.937Z
+date: 2021-06-19T22:09:10.503Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -20,4 +20,12 @@ A **chain** in a DAG (Directed Acyclic Graph) is a set of vertices such that any
 The time it takes to schedule tasks is at least as large as the number of vertices in any chain (because if we used less time than the size of some chain, then two items from the chain would have to be done at the same step, contradicting the precedence constraints). A largest chain is also known as a **critical path**. 
 
 ## Schedules
-All tasks can be scheduled in $t$ steps, where $t$ is the size of the largest chain. This is true for any DAG. 
+All tasks can be scheduled in $t$ steps, where $t$ is the size of the largest chain. This is true for any DAG. A **schedule** for performing tasks specifies which tasks to do at successive steps. Every task $a$ has to be scheduled at some step, and all the tasks have to be completed before task $a$ must be scheduled for an earlier step. 
+
+A **partition** of a set $A$ is a set of nonempty subsets of $A$ called the **blocks** of the partition, such that every element of $A$ is in exactly one block.
+For example, one possible partition of the set $\{a, b, c, d, e\}$ into three blocks is
+$$
+\{a, c\} \quad\{b, e\} \quad\{d\}
+$$
+
+A **parallel schedule** for a DAG $D$ is a partition of $V(D)$ into blocks $A_{0}, A_{1}, \ldots$, such that when $j<k$, no vertex in $A_{j}$ is reachable from any vertex in $A_{k} .$ The block $A_{k}$ is called the set of elements scheduled at step $k$, and the time of the schedule is the number of blocks. The maximum number of elements scheduled at any step is called the number of processors required by the schedule.
