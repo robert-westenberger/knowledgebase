@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-20T20:54:11.399Z
+date: 2021-06-20T21:09:41.013Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -178,6 +178,7 @@ $(a, b) R(c, d) \quad \Leftrightarrow$ either $a<c$ or both $a=c$ and $b \leq d$
 Is $R$ a partial order relation? Prove or give a counterexample.
 
 ### Solution
+(Note, this is just the lexicographic ordering)
 $R$ is a partial order relation. 
 
 $\boldsymbol{R}$ is **reflexive**: Suppose $(a, b) \in \mathbf{R} \times \mathbf{R}$. Then $(a, b) R(a, b)$ because $a=a$ and $b \leq b$.
