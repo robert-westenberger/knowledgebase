@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-20T20:49:59.600Z
+date: 2021-06-20T20:54:11.399Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -211,6 +211,15 @@ either $a<c$ or both $a=c$ and $b \leq d$
 and
 either $c<e$ or both $c=e$ and $d \leq f$.
 
+**Case 1** $(a<c$ and $c<e):$ Then by transitivity of $<$, $a<e$, and so $(a, b) R(e, f)$ by definition of $R$
+
+**Case 2** $(a<c$ and $c=e):$ Then by substitution, $a<e$, and so $(a, b) R(e, f)$ by definition of $R$.
+
+**Case 3** $(a=c$ and $c<e):$ Then by substitution, $a<e$ and so $(a, b) R(e, f)$ by definition of $R$.
+
+**Case 4** $(a=c$ and $c=e):$ Then by definition of $R$, $b \leq d$ and $d \leq f$, and so by transitivity of $\leq, b \leq f$. Hence $a=e$ and $b \leq f$, and so $(a, b) R(e, f)$ by definition of $R$.
+
+In each case, $(a, b) R(e, f)$. Therefore, $R$ is transitive. Since $R$ is reflexive, antisymmetric, and transitive, $R$ is a partial order relation.
 # Show a property about a relation
 ## Rosen 7th Edition Sec 9.1 Exercise 51
 Show that the relation $R$ on a set $A$ is symmetric iff $R=R^{-1}$, where $R^{-1}$ is the inverse relation.
