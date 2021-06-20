@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-08T18:17:44.919Z
+date: 2021-06-20T20:49:59.600Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -171,6 +171,45 @@ $$
 
 **c)** 
 
+
+## Discrete Mathematics with Applications 5th Edition (Epp) Section 8.5 Exercise 5
+Let $\mathbf{R}$ be the set of all real numbers and define a relation $R$ on $\mathbf{R} \times \mathbf{R}$ as follows: For every $(a, b)$ and $(c, d)$ in $\mathbf{R} \times \mathbf{R}$,
+$(a, b) R(c, d) \quad \Leftrightarrow$ either $a<c$ or both $a=c$ and $b \leq d$.
+Is $R$ a partial order relation? Prove or give a counterexample.
+
+### Solution
+$R$ is a partial order relation. 
+
+$\boldsymbol{R}$ is **reflexive**: Suppose $(a, b) \in \mathbf{R} \times \mathbf{R}$. Then $(a, b) R(a, b)$ because $a=a$ and $b \leq b$.
+
+$\boldsymbol{R}$ is **antisymmetric**: Suppose $(a, b)$ and $(c, d)$ are ordered pairs of real numbers such that $(a, b) R(c, d)$ and $(c, d) R(a, b)$. Then 
+
+either $a<c$ or both $a=c$ and $b \leq d$
+and
+either $c<a$ or both $c=a$ and $d \leq b$.
+
+Thus
+$$
+a \leq c \text { and } c \leq a
+$$
+and so
+$$
+a=c
+$$
+Consequently,
+$$
+b \leq d \quad \text { and } \quad d \leq b
+$$
+and so
+$$
+b=d
+$$
+Hence $(a, b)=(c, d)$
+
+$\boldsymbol{R}$ is **transitive**: Suppose $(a, b),(c, d)$, and $(e, f)$ are ordered pairs of real numbers such that $(a, b) R(c, d)$ and $(c, d) R(e, f) .$ Then
+either $a<c$ or both $a=c$ and $b \leq d$
+and
+either $c<e$ or both $c=e$ and $d \leq f$.
 
 # Show a property about a relation
 ## Rosen 7th Edition Sec 9.1 Exercise 51
