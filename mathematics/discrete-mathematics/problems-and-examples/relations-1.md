@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-21T15:40:44.009Z
+date: 2021-06-21T16:29:20.934Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -78,7 +78,11 @@ a relation defined on $A$ such that $R=\{[(a, b),(c, d)] \mid a+c=b+d\} .$ Deter
 ### Solution
 $R$ is not an equivalence relation since its not reflexive or transitive. For reflexivity, consider $[(1,2),(1,2)]$ is not in $R$ since $1+1 \neq 2+2$
 
+# Find chain with a particular length
+## Discrete Mathematics with Applications 5th Edition (Epp) Section 8.5 Exercise 35
+The set $\mathscr{P}(\{w, x, y, z\})$ is partially ordered with respect to the "subset" relation $\subseteq$. Find a chain of length 4 in $\mathscr{P}(\{w, x, y, z\})$
 
+### Solution
 # Determine whether a relation is an equivalence relation (reflexive, symmetric, and transitive) and if applicable, how many and what equivalence classes are there
 
 ## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 1
