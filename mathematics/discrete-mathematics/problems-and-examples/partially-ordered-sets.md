@@ -2,10 +2,10 @@
 title: Partially Ordered Sets Exercises
 description: 
 published: true
-date: 2021-06-21T16:40:17.162Z
+date: 2021-06-21T16:41:21.816Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
-# Header
-Your content here
+## Discrete Mathematics with Applications 5th Edition (Epp) Section 8.5 Exercise 38
+Prove that a partially ordered set is totally ordered if, and only if, it is a chain.
