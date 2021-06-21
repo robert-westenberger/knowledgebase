@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-21T16:29:20.934Z
+date: 2021-06-21T16:35:21.748Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -83,6 +83,8 @@ $R$ is not an equivalence relation since its not reflexive or transitive. For re
 The set $\mathscr{P}(\{w, x, y, z\})$ is partially ordered with respect to the "subset" relation $\subseteq$. Find a chain of length 4 in $\mathscr{P}(\{w, x, y, z\})$
 
 ### Solution
+$\emptyset \subseteq\{w\} \subseteq\{w, x\} \subseteq\{w, x, y\} \subseteq \{w, x, y, z\}$.
+
 # Determine whether a relation is an equivalence relation (reflexive, symmetric, and transitive) and if applicable, how many and what equivalence classes are there
 
 ## MIT OCW 6.042J Fall 2005 In-Class Problems Week 4 Problem 1
