@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-05-04T17:38:06.258Z
+date: 2021-06-21T16:42:45.529Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -19,6 +19,7 @@ editor: markdown
 [Induction](/mathematics/discrete-mathematics/problems-and-examples/induction)
 [Strong Induction and WOP](/mathematics/discrete-mathematics/problems-and-examples/strong-induction)
 [Relations](/mathematics/discrete-mathematics/problems-and-examples/relations-1)
+[Partially Ordered Sets](/mathematics/discrete-mathematics/problems-and-examples/partially-ordered-sets)
 ## Discrete Mathematics 8th Edition - Rosen
 [Section 1.1 Propositional Logic](/mathematics/discrete-mathematics/problems-and-examples/discrete-math-8th-edition-1-1-problems)
 
