@@ -2,7 +2,7 @@
 title: Partially Ordered Sets Exercises
 description: 
 published: true
-date: 2021-06-21T17:33:49.366Z
+date: 2021-06-21T18:16:39.104Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -23,5 +23,6 @@ Suppose that $A$ is a totally ordered set. Use mathematical induction to prove t
 If $A=\varnothing$, then $P(1)$ is true by default. So assume that $A$ has at least one element, and suppose $S=\left\{a_{1}\right\}$ is a subset of $A$ with one element. Because $\preceq$ is reflexive, $a_{1} \preceq a_{1} .$ So, by definition of least element and greatest element, $a_{1}$ is both a least element and a greatest element of $S$, and thus the property is true for $n=1$. 
 
 **Show that for every integer** **$k \geq 1$, if $P(k)$ is true, then $P(k+1)$ is true:**
+**Inductive Hypothesis:** Let $k$ be any integer with $k \geq 1$, and suppose that any subset of $A$ with $k$ elements has both a least element and a greatest element. 
 
-Let $k$ be any integer with $k \geq 1$, and suppose that any subset of $A$ with $k$ elements has both a least element and a greatest element. [Inductive hypothesis.] We must show that any subset of $A$ with $k+1$ elements has both a least element and a greatest element. If $A$ has fewer than $k+1$ elements, then the statement is true by default. So assume that $A$ has at least $k+1$ elements and that $S=\left\{a_{1}, a_{2}, \ldots, a_{k+1}\right\}$ is a subset of $A$ with $k+1$ elements. By inductive hypothesis, $S-\left\{a_{k+1}\right\}$ has both a least element $s$ and a greatest element $t$. Now because $A$ is totally ordered, $a_{k+1}$ and $s$ are comparable. If $a_{k+1} \preceq s$, then, by transitivity of $\preceq, a_{k+1}$ is the least element of $S$; otherwise, $s$ remains the least element of $S$. And if $t \preceq a_{k+1}$, then, by transitivity of $\preceq, a_{k+1}$ is the greatest element of $S$; otherwise, $t$ remains the greatest element of $S$. Thus $S$ has both a greatest element and a least element [as was to be shown].
+We must show that any subset of $A$ with $k+1$ elements has both a least element and a greatest element. If $A$ has fewer than $k+1$ elements, then the statement is true by default. So assume that $A$ has at least $k+1$ elements and that $S=\left\{a_{1}, a_{2}, \ldots, a_{k+1}\right\}$ is a subset of $A$ with $k+1$ elements. By inductive hypothesis, $S-\left\{a_{k+1}\right\}$ has both a least element $s$ and a greatest element $t$. Now because $A$ is totally ordered, $a_{k+1}$ and $s$ are comparable. If $a_{k+1} \preceq s$, then, by transitivity of $\preceq, a_{k+1}$ is the least element of $S$; otherwise, $s$ remains the least element of $S$. And if $t \preceq a_{k+1}$, then, by transitivity of $\preceq, a_{k+1}$ is the greatest element of $S$; otherwise, $t$ remains the greatest element of $S$. Thus $S$ has both a greatest element and a least element [as was to be shown].
