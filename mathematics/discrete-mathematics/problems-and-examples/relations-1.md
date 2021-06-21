@@ -2,7 +2,7 @@
 title: Relations 1 Exercises
 description: 
 published: true
-date: 2021-06-20T21:09:41.013Z
+date: 2021-06-21T15:40:44.009Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -221,6 +221,13 @@ either $c<e$ or both $c=e$ and $d \leq f$.
 **Case 4** $(a=c$ and $c=e):$ Then by definition of $R$, $b \leq d$ and $d \leq f$, and so by transitivity of $\leq, b \leq f$. Hence $a=e$ and $b \leq f$, and so $(a, b) R(e, f)$ by definition of $R$.
 
 In each case, $(a, b) R(e, f)$. Therefore, $R$ is transitive. Since $R$ is reflexive, antisymmetric, and transitive, $R$ is a partial order relation.
+
+# Prove a relation is a total order relation
+## Discrete Mathematics with Applications 5th Edition (Epp) Section 8.5 Exercise 21
+Consider the "divides" relation defined on the set $A=\left\{1,2,2^{2}, 2^{3}, \ldots, 2^{n}\right\}$, where $n$ is a nonnegative integer.
+**a.** Prove that this relation is a total order relation on $A$.
+**b.** Draw the Hasse diagram for this relation for $n=4$
+### Solution
 # Show a property about a relation
 ## Rosen 7th Edition Sec 9.1 Exercise 51
 Show that the relation $R$ on a set $A$ is symmetric iff $R=R^{-1}$, where $R^{-1}$ is the inverse relation.
