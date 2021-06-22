@@ -2,10 +2,10 @@
 title: Relations and Their Properties
 description: 
 published: true
-date: 2021-06-22T17:32:39.514Z
+date: 2021-06-22T17:51:41.596Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
-# Header
+## Rosen 7th Edition Sec 9.1 Exercise ?
 Your content here
