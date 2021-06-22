@@ -2,7 +2,7 @@
 title: Relations and Their Properties
 description: 
 published: true
-date: 2021-06-22T18:06:11.840Z
+date: 2021-06-22T18:07:39.233Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -17,3 +17,8 @@ For a relation $R$ on a set $A$
   
 Every asymmetric relation is antisymmetric. 
 **Proof:** Suppose $R$ is an asymmetric relation on a set $A$. Let $(a, b) \in R$. Then, $a \neq b$ and $(b, a) \notin R$. Hence, $R$ is antisymmetric.
+
+An antisymmetric relationship need not be asymmetric. For example, 
+
+$R=\{(0, 0)\}$ is anti $-$ symmetric but not asymmetric on the set $A=\{0, 1\}$
+$S=\{(0, 1)\}$ is anti - symmetric as well as asymmetric on the set $A=\{0,1\}$.
