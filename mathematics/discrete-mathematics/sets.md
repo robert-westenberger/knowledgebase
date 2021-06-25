@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-06-25T19:18:21.225Z
+date: 2021-06-25T19:22:00.550Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -77,10 +77,13 @@ $$
 ![difference.png](/difference.png)
 #### Symmetric Difference
 (not clear if $\oplus$ is appropriate for set notation or if that is only acceptable for logical operations. $\oplus$ is typically used as the $\text{XOR}$ connective.)
+
+$X \oplus Y$ (or $X \ominus Y$ or $X \triangle Y$) contains elements in either $X$ or $Y$, but not in both $X$ and $Y$.
+
 $$
 x \in X \oplus Y \equiv x \in X \not \equiv x \in Y
 $$
-$X \oplus Y$ (or $X \ominus Y$ or $X \triangle Y$) contains elements in either $X$ or $Y$, but not in both $X$ and $Y$.
+
 
 $$
 X \oplus Y=(X-Y) \cup(Y-X)
