@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-06-25T19:00:10.200Z
+date: 2021-06-25T19:13:58.946Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -76,8 +76,13 @@ $$
 
 ![difference.png](/difference.png)
 #### Symmetric Difference
+(not clear if $\oplus$ is appropriate for set notation or if that is only acceptable for logical operations. $\oplus$ is typically used as the $\text{XOR}$ connective.)
+
 $X \oplus Y$ (or $X \ominus Y$ or $X \triangle Y$) contains elements in either $X$ or $Y$, but not in both $X$ and $Y$.
 
+$$
+X \oplus Y=(X-Y) \cup(Y-X)
+$$
 ![symmetric_difference.png](/symmetric_difference.png)
 #### Cartesian Product
 $X \times Y$ contains all the ordered pairs in which the first elements are selected from $X$, and the second elements are selected from $Y$.
