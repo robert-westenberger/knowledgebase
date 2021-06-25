@@ -2,7 +2,7 @@
 title: Sets
 description: 
 published: true
-date: 2021-05-07T19:14:16.063Z
+date: 2021-06-25T19:00:10.200Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -75,6 +75,10 @@ X-Y=\{x \mid x \in X \text { and } x \notin Y\}
 $$
 
 ![difference.png](/difference.png)
+#### Symmetric Difference
+$X \oplus Y$ (or $X \ominus Y$ or $X \triangle Y$) contains elements in either $X$ or $Y$, but not in both $X$ and $Y$.
+
+![symmetric_difference.png](/symmetric_difference.png)
 #### Cartesian Product
 $X \times Y$ contains all the ordered pairs in which the first elements are selected from $X$, and the second elements are selected from $Y$.
 
