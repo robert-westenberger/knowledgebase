@@ -2,10 +2,9 @@
 title: Counting Relations
 description: 
 published: true
-date: 2021-06-28T19:37:30.077Z
+date: 2021-06-28T19:37:54.884Z
 tags: discrete-mathematics, combinatorics
 editor: markdown
 ---
 
-# Header
-Your content here
+# Counting Special Relations
