@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-28T21:16:15.780Z
+date: 2021-06-29T19:01:50.864Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**6-29** 10-12 Did execises in rosen 9.2 (n-ary relations) and rosen 9.3 (representing relations). Tomorrow, continue from 7 in 9.3
 **6-28** 11-1 Did execises on counting relations.. tomorrow finish off rosen discrete math 7th 9.1 #47b
 **6-21** 9-11:30 exercises in epp sec 8.5 (Partial Order Relations)
 **6-19** 2 - 4 Notes on parallel task scheduling. Tomorrow, do problems in Epps or Rosen on relations. Left off on Epps 8.5 Exercise #5 
