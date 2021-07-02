@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-06-28T19:59:06.142Z
+date: 2021-07-02T18:41:44.120Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -47,6 +47,8 @@ Recursive Data Types
 [Equivalence Relations](/mathematics/discrete-mathematics/equivalence-relations)
 [Partial Orderings](/mathematics/discrete-mathematics/partial-orderings)
 [Counting Relations](/mathematics/discrete-mathematics/counting-relations)
+## Number Theory and Cryptography
+
 ## Structures
 Number theory
 [Graphs](/mathematics/discrete-mathematics/graphs)
