@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-07-02T18:46:43.779Z
+date: 2021-07-02T19:30:37.388Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -52,7 +52,7 @@ Recursive Data Types
 
 ## Graphs
 [Graphs](/mathematics/discrete-mathematics/graphs)
-
+[Graphs and Graph Models](/mathematics/discrete-mathematics/graphs-and-graph-models)
 ## Other
 [Parallel Task Scheduling](/mathematics/discrete-mathematics/parallel-task-scheduling)
 ## Counting / Combinatorics
