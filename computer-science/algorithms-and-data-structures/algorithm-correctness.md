@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T19:58:58.914Z
+date: 2021-07-05T20:11:23.369Z
 tags: algorithms
 editor: markdown
 ---
@@ -23,6 +23,18 @@ There is a fundamental difference between **algorithms**, procedures that always
 # Scheduling 
 What would be the optimal way to $n$ schedule jobs, where you can only do one job at a time, and you must complete the entirety of the job before moving onto another. 
 
+
 **Problem:** Movie Scheduling Problem
 **Input:** A set $I$ of $n$ intervals on the line.
 **Output:** What is the largest subset of mutually non-overlapping intervals that can be selected from $I$?
+
+Topological sorting (of [Partial Orderings](/mathematics/discrete-mathematics/partial-orderings)) can be used to find the optimal scheduling for a set of tasks).
+
+## Algorithm
+
+```
+OptimalScheduling(I)
+	While (I ≠ ∅) do
+		Accept the job j from I with the earliest completion date.
+		Delete j, and any interval which intersects j, from I.
+```
