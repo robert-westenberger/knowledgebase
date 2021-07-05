@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T02:31:04.742Z
+date: 2021-07-05T03:23:12.590Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -64,4 +64,10 @@ A **complete graph on $n$ vertices**, denoted by $K_n$, is a simple graph that c
 A simple graph $G$ is called **bipartite** if its vertex set $V$ can be partitioned into two disjoint sets $V_{1}$ and $V_{2}$ such that every edge in the graph connects a vertex in $V_{1}$ and a vertex in $V_{2}$ (so that no edge in $G$ connects either two vertices in $V_{1}$ or two vertices in $V_{2}$ ). When this condition holds, we call the pair $\left(V_{1}, V_{2}\right)$ a **bipartition** of the vertex set $V$ of $G$.
 
 ## 2-Coloring and Bipartancy
+### Theorem 
 A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.
+
+### Proof
+First, suppose that $G=(V, E)$ is a bipartite simple graph. Then $V=V_{1} \cup V_{2}$, where $V_{1}$ and $V_{2}$ are disjoint sets and every edge in $E$ connects a vertex in $V_{1}$ and a vertex in $V_{2}$. If we assign one color to each vertex in $V_{1}$ and a second color to each vertex in $V_{2}$, then no two adjacent vertices are assigned the same color.
+
+Now suppose that it is possible to assign colors to the vertices of the graph using just two colors so that no two adjacent vertices are assigned the same color. Let $V_{1}$ be the set of vertices assigned one color and $V_{2}$ be the set of vertices assigned the other color. Then, $V_{1}$ and $V_{2}$ are disjoint and $V=V_{1} \cup V_{2}$. Furthermore, every edge connects a vertex in $V_{1}$ and a vertex in $V_{2}$ because no two adjacent vertices are either both in $V_{1}$ or both in $V_{2}$. Consequently, $G$ is bipartite.
