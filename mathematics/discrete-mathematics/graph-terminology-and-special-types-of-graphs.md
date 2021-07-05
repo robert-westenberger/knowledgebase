@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T01:56:52.113Z
+date: 2021-07-05T01:58:28.184Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -27,4 +27,11 @@ $$
 (Note that this applies even if multiple edges and loops are present.)
 
 ## Vertices and Degrees of Undirected Graphsd
-An undirected graph has an even number of vertices of odd degree.
+**An undirected graph has an even number of vertices of odd degree.**
+**Proof:** Let $V_{1}$ and $V_{2}$ be the set of vertices of even degree and the set of vertices of odd degree, respectively, in an undirected graph $G=(V, E)$ with $m$ edges. Then
+$$
+2 m=\sum_{v \in V} \operatorname{deg}(v)=\sum_{v \in V_{1}} \operatorname{deg}(v)+\sum_{v \in V_{2}} \operatorname{deg}(v)
+$$
+Because $\operatorname{deg}(v)$ is even for $v \in V_{1}$, the first term in the right-hand side of the last equality is even. Furthermore, the sum of the two terms on the right-hand side of the last equality is even, because this sum is $2 m$. Hence, the second term in the sum is also even. Because all the terms in this sum are odd, there must be an even number of such terms. Thus, there are an even number of vertices of odd degree.
+
+# Directed Graph Terminology
