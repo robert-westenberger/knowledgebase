@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T04:00:18.388Z
+date: 2021-07-05T04:03:08.385Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -124,3 +124,5 @@ We will prove that the inductive holds using a proof by cases, using two case. C
 We will show that the graph $K$ satisfies the condition $|N(A)| \geq|A|$ for all subsets $A$ of $W_{1}-$ $W_{1}^{\prime}$. If not, there would be a subset of $t$ vertices of $W_{1}-W_{1}^{\prime}$ where $1 \leq t \leq k+1-j$ such that the vertices in this subset have fewer than $t$ vertices of $W_{2}-W_{2}^{\prime}$ as neighbors. Then, the set of $j+t$ vertices of $W_{1}$ consisting of these $t$ vertices together with the $j$ vertices we removed from $W_{1}$ has fewer than $j+t$ neighbors in $W_{2}$, contradicting the hypothesis that $|N(A)| \geq|A|$ for all $A \subseteq W_{1}$. Hence, by the inductive hypothesis, the graph $K$ has a complete matching. Combining this complete matching with the complete matching from $W_{1}^{\prime}$ to $W_{2}^{\prime}$, we obtain a complete matching from $W_{1}$ to $W_{2}$.
 
 We have shown that in both cases there is a complete matching from $W_{1}$ to $W_{2}$. This completes the inductive step and completes the proof. 
+
+## Parallel Processing and Parallel Algorithms
