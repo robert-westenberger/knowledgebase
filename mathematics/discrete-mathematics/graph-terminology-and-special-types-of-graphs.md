@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T02:15:01.285Z
+date: 2021-07-05T02:23:10.211Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -51,4 +51,13 @@ $$
 
 
 # Special Simple Graphs
+## Complete Graph
 A **complete graph on $n$ vertices**, denoted by $K_n$, is a simple graph that contains exactly one edge between each pair of distinct vertices.  A simple graph for which there is at least one pair of distinct vertex not connected by an edge is called **noncomplete**.
+
+## Cycle
+
+## Wheel
+
+## n-Cubes
+
+# Bipartite Graphs
