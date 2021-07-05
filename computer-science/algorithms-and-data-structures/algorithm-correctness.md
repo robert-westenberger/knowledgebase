@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T20:11:43.942Z
+date: 2021-07-05T20:27:30.202Z
 tags: algorithms
 editor: markdown
 ---
@@ -40,3 +40,18 @@ OptimalScheduling(I)
 ```
 
 **Note:** Topological sorting (of [Partial Orderings](/mathematics/discrete-mathematics/partial-orderings)) can be used to find the optimal scheduling for a set of tasks).
+
+# Reasoning about Correctness
+Proofs are used to argue about the correctness of algorithms.
+
+## Problems and Properties
+We need a **problem specification:**
+* The set of allowed input instances
+* The required properties of the algorithm's output.
+	* Should be well defined (e.g. the "best" route for the travelling saleman problem is ambiguous. Is "best" in this case the shortest, fastest, or the one minimizing the number of turns?).
+  * The output / goals for an algorithm should be optimizing for a single goal. A goal like "Find the shortest route from a to b e that doesn't use more than twice as many turns as necessary" is complicated and difficult to reason about.
+
+An important technique in algorithm design is to narrow the set of allowable instances until there is a correct and efficient algorithm. For example, a graph problem can be restricted down to trees. A geometric problem from two dimensions can be restricted down to 1 dimension.
+
+
+	
