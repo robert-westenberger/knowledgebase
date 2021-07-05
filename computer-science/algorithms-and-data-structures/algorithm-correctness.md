@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T20:44:18.440Z
+date: 2021-07-05T21:12:49.740Z
 tags: algorithms
 editor: markdown
 ---
@@ -74,3 +74,13 @@ Good counterexamples are
 	* In the example of breaking a greedy heuristic, provide an instance where everything is the same size.
 * **Seek extremes** 
 	* It is usually easier to verify or reason about extreme examples than more muddled ones.
+  
+## Induction and Recursion
+### Example
+```
+Increment(y)
+	if (y = 0) then return(1) else
+		if (y mod 2) = 1 then
+			return(2 · Increment(Math.floor(y/2)))
+		else return(y + 1)
+```
