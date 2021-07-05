@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T21:43:32.558Z
+date: 2021-07-05T21:50:28.320Z
 tags: algorithms
 editor: markdown
 ---
@@ -106,3 +106,32 @@ and the general case is resolved $\blacksquare$.
 
 ## Modeling the Problem
 Most algorithms are designed to work on rigorously defined abstract struvtures such as **permutations**, **graphs**, and **sets**.
+
+### Combinatorial Objects and their common uses
+* Permutations 
+	* arrangement
+  * tour 
+  * ordering
+  * sequence
+* Subsets
+	* cluster
+  * collection
+  * committee
+  * group
+  * packaging
+  * selection
+* Trees
+	* hierarchy
+  * dominance relationship
+  * ancestor / descendant relationship
+  * taxonomy
+* Graphs
+	* network
+  * circuit
+  * web
+  * relationship
+* Points
+	* sites
+  * positions
+  * data records
+  * locations
