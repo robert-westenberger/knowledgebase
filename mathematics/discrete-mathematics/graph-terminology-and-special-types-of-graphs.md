@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T02:24:35.146Z
+date: 2021-07-05T02:31:04.742Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -62,3 +62,6 @@ A **complete graph on $n$ vertices**, denoted by $K_n$, is a simple graph that c
 
 # Bipartite Graphs
 A simple graph $G$ is called **bipartite** if its vertex set $V$ can be partitioned into two disjoint sets $V_{1}$ and $V_{2}$ such that every edge in the graph connects a vertex in $V_{1}$ and a vertex in $V_{2}$ (so that no edge in $G$ connects either two vertices in $V_{1}$ or two vertices in $V_{2}$ ). When this condition holds, we call the pair $\left(V_{1}, V_{2}\right)$ a **bipartition** of the vertex set $V$ of $G$.
+
+## 2-Coloring and Bipartancy
+A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.
