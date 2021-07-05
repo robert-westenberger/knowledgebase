@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T21:12:49.740Z
+date: 2021-07-05T21:34:05.358Z
 tags: algorithms
 editor: markdown
 ---
@@ -84,3 +84,22 @@ Increment(y)
 			return(2 · Increment(Math.floor(y/2)))
 		else return(y + 1)
 ```
+
+The base case of $y=0$ is obviously handled. 
+
+Assume the function works correctly for the general case of $y=n-1$. Given this, we must demonstrate the truth for the case of $y=n$. The cases corresponding to even numbers are obvious, because $y+1$ is explicitly returned when $(y \operatorname{mod}2)=0$.
+
+For odd numbers, the answer depends on what Increment(Math.floor(y/2)) returns. Our inductive assumption ($y=n-1$) doesn't support values that are about half. We can fix this by strengthening our assumption to declare the genral case holds for all $y \leq n-1$.
+
+Now the case of the odd $y$ (i.e. $y=2 m+1$ for some integer $m$):
+
+$$
+\begin{aligned}
+2 \cdot \operatorname{Increment}(\lfloor(2 m+1) / 2\rfloor) &=2 \cdot \operatorname{Increment}(\lfloor m+1 / 2\rfloor) \\
+&=2 \cdot \operatorname{Increment}(m) \\
+&=2(m+1) \\
+&=2 m+2=y+1
+\end{aligned}
+$$
+and the general case is resolved $\blacksquare$.
+(Note: Math.floor(x) = $\lfloor x \rfloor$)
