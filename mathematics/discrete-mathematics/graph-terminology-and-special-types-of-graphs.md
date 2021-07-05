@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T03:29:34.067Z
+date: 2021-07-05T03:32:44.777Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -63,6 +63,9 @@ A **complete graph on $n$ vertices**, denoted by $K_n$, is a simple graph that c
 # Bipartite Graphs
 A simple graph $G$ is called **bipartite** if its vertex set $V$ can be partitioned into two disjoint sets $V_{1}$ and $V_{2}$ such that every edge in the graph connects a vertex in $V_{1}$ and a vertex in $V_{2}$ (so that no edge in $G$ connects either two vertices in $V_{1}$ or two vertices in $V_{2}$ ). When this condition holds, we call the pair $\left(V_{1}, V_{2}\right)$ a **bipartition** of the vertex set $V$ of $G$.
 
+A bipartite graph can be colored with only two colors, such that no two adjacent vertices are assigned the same color. 
+
+A bipartite graph iff it is not possible to start a vertex and return to this vertex by traversing an odd number of distinct edges. 
 ## 2-Coloring and Bipartancy
 ### Theorem 
 A simple graph is bipartite if and only if it is possible to assign one of two different colors to each vertex of the graph so that no two adjacent vertices are assigned the same color.
@@ -75,3 +78,5 @@ Now suppose that it is possible to assign colors to the vertices of the graph us
 ### Usage
 ![undirected_graphs.png](/undirected_graphs.png)
 We first consider the graph $G$. We will try to assign one of two colors, say red and blue, to each vertex in $G$ so that no edge in $G$ connects a red vertex and a blue vertex. Without loss of generality we begin by arbitrarily assigning red to $a$. Then, we must assign blue to $c, e$, $f$, and $g$, because each of these vertices is adjacent to $a$. To avoid having an edge with two blue endpoints, we must assign red to all the vertices adjacent to either $c, e, f$, or $g$. This means that we must assign red to both $b$ and $d$ (and means that $a$ must be assigned red, which it already has been). We have now assigned colors to all vertices, with $a, b$, and $d$ red and $c, e, f$, and $g$ blue. Checking all edges, we see that every edge connects a red vertex and a blue vertex. Hence, by Theorem 4 the graph $G$ is bipartite.
+
+Next, we will try to assign either red or blue to each vertex in $H$ so that no edge in $H$ connects a red vertex and a blue vertex. Without loss of generality we arbitrarily assign red to $a$. Then, we must assign blue to $b, e$, and $f$, because each is adjacent to $a$. But this is not possible because $e$ and $f$ are adjacent, so both cannot be assigned blue. This argument shows that we cannot assign one of two colors to each of the vertices of $H$ so that no adjacent vertices are assigned the same color. It follows by Theorem 4 that $H$ is not bipartite.
