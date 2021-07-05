@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T04:03:08.385Z
+date: 2021-07-05T04:10:02.389Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -126,3 +126,11 @@ We will show that the graph $K$ satisfies the condition $|N(A)| \geq|A|$ for all
 We have shown that in both cases there is a complete matching from $W_{1}$ to $W_{2}$. This completes the inductive step and completes the proof. 
 
 ## Parallel Processing and Parallel Algorithms
+**Parallel processing**, which uses computers made up of many separate processors, each with its own memory, helps overcome the limitations of computers with a single processor.
+
+**Parallel algorithms**, which break a problem into a number of subproblems that can be solved concurrently, can then be devised to rapidly solve problems using a computer with multiple processors. In a parallel algorithm, a single instruction stream controls the execution of the algorithm, sending subproblems to different processors, and directs the input and output of these subproblems to the appropriate processors.
+
+## Subgraphs
+Sometimes we need only part of a graph to solve a problem. 
+
+A **subgraph of a graph** $G=(V, E)$ is a graph $H=(W, F)$, where $W \subseteq V$ and $F \subseteq E$. A subgraph $H$ of $G$ is a **proper subgraph** of $G$ if $H \neq G$
