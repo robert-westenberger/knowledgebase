@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T02:05:38.231Z
+date: 2021-07-05T02:15:01.285Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -39,6 +39,7 @@ When $(u, v)$ is an edge of the graph $G$ with directed edges, $u$ is said to be
 
 In a graph with directed edges the **in-degree of a vertex** $v$, denoted by $\operatorname{deg}^{-}(v)$, is the number of edges with $v$ as their terminal vertex. The **out-degree** of $v$, denoted by $\operatorname{deg}^{+}(v)$, is the number of edges with $v$ as their initial vertex. (Note that a loop at a vertex contributes 1 to both the in-degree and the out-degree of this vertex.)
 
+The undirected graph that results from ignoring directions of edges is called the **underlying directed graph**.
 ## Sum of in-degrees and out-degrees
 The sum of the in-degrees and the sum of the out-degrees of all vertices in a graph with directed edges are the same because each edge has an initial vertex and a terminal vertex. Both of these sums are the number of edges in the graph. 
 
@@ -47,3 +48,7 @@ Let $G=(V, E)$ be a graph with directed edges. Then
 $$
 \sum_{v \in V} \operatorname{deg}^{-}(v)=\sum_{v \in V} \operatorname{deg}^{+}(v)=|E|
 $$
+
+
+# Special Simple Graphs
+A **complete graph on $n$ vertices**, denoted by $K_n$, is a simple graph that contains exactly one edge between each pair of distinct vertices.  A simple graph for which there is at least one pair of distinct vertex not connected by an edge is called **noncomplete**.
