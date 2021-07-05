@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T04:16:16.748Z
+date: 2021-07-05T04:16:36.391Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -138,3 +138,4 @@ A **subgraph of a graph** $G=(V, E)$ is a graph $H=(W, F)$, where $W \subseteq V
 Let $G=(V, E)$ be a simple graph. The **subgraph induced** by a subset $W$ of the vertex set $V$ is the graph $(W, F)$, where the edge set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$.
 
 ### Removing Vertices From a Graph
+When we remove a vertex $v$ and all edges incident to it from $G=(V, E)$, we produce a subgraph, denoted by $G-v$. Observe that $G-v=\left(V-\{v\}, E^{\prime}\right)$, where $E^{\prime}$ is the set of edges of $G$ not incident to $v$. Similarly, if $V^{\prime}$ is a subset of $V$, then the graph $G-V^{\prime}$ is the subgraph $\left(V-V^{\prime}, E^{\prime}\right)$, where $E^{\prime}$ is the set of edges of $G$ not incident to a vertex in $V^{\prime}$.
