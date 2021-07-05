@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T03:23:12.590Z
+date: 2021-07-05T03:26:35.583Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -71,3 +71,5 @@ A simple graph is bipartite if and only if it is possible to assign one of two d
 First, suppose that $G=(V, E)$ is a bipartite simple graph. Then $V=V_{1} \cup V_{2}$, where $V_{1}$ and $V_{2}$ are disjoint sets and every edge in $E$ connects a vertex in $V_{1}$ and a vertex in $V_{2}$. If we assign one color to each vertex in $V_{1}$ and a second color to each vertex in $V_{2}$, then no two adjacent vertices are assigned the same color.
 
 Now suppose that it is possible to assign colors to the vertices of the graph using just two colors so that no two adjacent vertices are assigned the same color. Let $V_{1}$ be the set of vertices assigned one color and $V_{2}$ be the set of vertices assigned the other color. Then, $V_{1}$ and $V_{2}$ are disjoint and $V=V_{1} \cup V_{2}$. Furthermore, every edge connects a vertex in $V_{1}$ and a vertex in $V_{2}$ because no two adjacent vertices are either both in $V_{1}$ or both in $V_{2}$. Consequently, $G$ is bipartite.
+
+### Usage
