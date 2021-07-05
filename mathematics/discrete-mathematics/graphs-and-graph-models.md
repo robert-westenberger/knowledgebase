@@ -2,7 +2,7 @@
 title: Graphs and Graph Models
 description: 
 published: true
-date: 2021-07-05T01:01:22.604Z
+date: 2021-07-05T01:02:46.605Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -20,3 +20,5 @@ A graph can either be **finite** or **infinite**. They have finite vertex set or
 
 ## Graph Models
 Graphs can be used to model social networks, communication (telephone, computer etc..) networks, information networks.
+
+Graphs can be used to model module dependencies for software construction. 
