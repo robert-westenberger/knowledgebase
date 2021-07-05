@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T04:10:02.389Z
+date: 2021-07-05T04:10:22.943Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -134,3 +134,5 @@ We have shown that in both cases there is a complete matching from $W_{1}$ to $W
 Sometimes we need only part of a graph to solve a problem. 
 
 A **subgraph of a graph** $G=(V, E)$ is a graph $H=(W, F)$, where $W \subseteq V$ and $F \subseteq E$. A subgraph $H$ of $G$ is a **proper subgraph** of $G$ if $H \neq G$
+
+Let $G=(V, E)$ be a simple graph. The **subgraph induced** by a subset $W$ of the vertex set $V$ is the graph $(W, F)$, where the edge set $F$ contains an edge in $E$ if and only if both endpoints of this edge are in $W$.
