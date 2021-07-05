@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T03:54:50.361Z
+date: 2021-07-05T04:00:18.388Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -105,3 +105,22 @@ The bipartite graph $G=(V, E)$ with bipartition $\left(V_{1}, V_{2}\right)$ has 
 
 #### Proof
 We first prove the only if part of the theorem. To do so, suppose that there is a complete matching $M$ from $V_{1}$ to $V_{2}$. Then, if $A \subseteq V_{1}$, for every vertex $v \in A$, there is an edge in $M$ connecting $v$ to a vertex in $V_{2}$. Consequently, there are at least as many vertices in $V_{2}$ that are neighbors of vertices in $V_{1}$ as there are vertices in $V_{1}$. It follows that $|N(A)| \geq|A|$.
+
+To prove the if part of the theorem, the more difficult part, we need to show that if $|N(A)| \geq|A|$ for all $A \subseteq V_{1}$, then there is a complete matching $M$ from $V_{1}$ to $V_{2} .$ We will use strong induction on $\left|V_{1}\right|$ to prove this.
+
+**Basis step:** If $\left|V_{1}\right|=1$, then $V_{1}$ contains a single vertex $v_{0} .$ Because $\left|N\left(\left\{v_{0}\right\}\right)\right| \geq\left|\left\{v_{0}\right\}\right|=1$, there is at least one edge connecting $v_{0}$ and a vertex $w_{0} \in V_{2} .$ Any such edge forms a complete matching from $V_{1}$ to $V_{2}$.
+
+**Inductive step:** We first state the inductive hypothesis.
+**Inductive hypothesis:** Let $k$ be a positive integer. If $G=(V, E)$ is a bipartite graph with bipartition $\left(V_{1}, V_{2}\right)$, and $\left|V_{1}\right|=j \leq k$, then there is a complete matching $M$ from $V_{1}$ to $V_{2}$ whenever the condition that $|N(A)| \geq|A|$ for all $A \subseteq V_{1}$ is met.
+
+Now suppose that $H=(W, F)$ is a bipartite graph with bipartition $\left(W_{1}, W_{2}\right)$ and $\left|W_{1}\right|=k+ 1$
+
+We will prove that the inductive holds using a proof by cases, using two case. Case $(i)$ applies when for all integers $j$ with $1 \leq j \leq k$, the vertices in every set of $j$ elements from $W_{1}$ are adjacent to at least $j+1$ elements of $W_{2}$. Case (ii) applies when for some $j$ with $1 \leq j \leq k$ there is a subset $W_{1}^{\prime}$ of $j$ vertices such that there are exactly $j$ neighbors of these vertices in $W_{2} .$ Because either Case (i) or Case (ii) holds, we need only consider these cases to complete the inductive step
+
+
+**Case $(i):$** Suppose that for all integers $j$ with $1 \leq j \leq k$, the vertices in every subset of $j$ elements from $W_{1}$ are adjacent to at least $j+1$ elements of $W_{2}$. Then, we select a vertex $v \in W_{1}$ and an element $w \in N(\{v\})$, which must exist by our assumption that $\mid N(\{v\}|\geq|\{v\} \mid=1 .$ We delete $v$ and $w$ and all edges incident to them from $H$. This produces a bipartite graph $H^{\prime}$ with bipartition $\left(W_{1}-\{v\}, W_{2}-\{w\}\right) .$ Because $\left|W_{1}-\{v\}\right|=k$, the inductive hypothesis tells us there is a complete matching from $W_{1}-\{v\}$ to $W_{2}-\{w\}$. Adding the edge from $v$ to $w$ to this complete matching produces a complete matching from $W_{1}$ to $W_{2}$.
+
+**Case ($ii$):** Suppose that for some $j$ with $1 \leq j \leq k$, there is a subset $W_{1}^{\prime}$ of $j$ vertices such that there are exactly $j$ neighbors of these vertices in $W_{2}$. Let $W_{2}^{\prime}$ be the set of these neighbors. Then, by the inductive hypothesis there is a complete matching from $W_{1}^{\prime}$ to $W_{2}^{\prime} .$ Remove these $2 j$ vertices from $W_{1}$ and $W_{2}$ and all incident edges to produce a bipartite graph $K$ with bipartition $\left(W_{1}-W_{1}^{\prime}, W_{2}-W_{2}^{\prime}\right)$
+We will show that the graph $K$ satisfies the condition $|N(A)| \geq|A|$ for all subsets $A$ of $W_{1}-$ $W_{1}^{\prime}$. If not, there would be a subset of $t$ vertices of $W_{1}-W_{1}^{\prime}$ where $1 \leq t \leq k+1-j$ such that the vertices in this subset have fewer than $t$ vertices of $W_{2}-W_{2}^{\prime}$ as neighbors. Then, the set of $j+t$ vertices of $W_{1}$ consisting of these $t$ vertices together with the $j$ vertices we removed from $W_{1}$ has fewer than $j+t$ neighbors in $W_{2}$, contradicting the hypothesis that $|N(A)| \geq|A|$ for all $A \subseteq W_{1}$. Hence, by the inductive hypothesis, the graph $K$ has a complete matching. Combining this complete matching with the complete matching from $W_{1}^{\prime}$ to $W_{2}^{\prime}$, we obtain a complete matching from $W_{1}$ to $W_{2}$.
+
+We have shown that in both cases there is a complete matching from $W_{1}$ to $W_{2}$. This completes the inductive step and completes the proof. 
