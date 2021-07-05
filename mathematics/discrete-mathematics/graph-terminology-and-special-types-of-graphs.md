@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T04:17:05.161Z
+date: 2021-07-05T04:18:39.927Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -141,3 +141,4 @@ Let $G=(V, E)$ be a simple graph. The **subgraph induced** by a subset $W$ of th
 When we remove a vertex $v$ and all edges incident to it from $G=(V, E)$, we produce a subgraph, denoted by $G-v$. Observe that $G-v=\left(V-\{v\}, E^{\prime}\right)$, where $E^{\prime}$ is the set of edges of $G$ not incident to $v$. Similarly, if $V^{\prime}$ is a subset of $V$, then the graph $G-V^{\prime}$ is the subgraph $\left(V-V^{\prime}, E^{\prime}\right)$, where $E^{\prime}$ is the set of edges of $G$ not incident to a vertex in $V^{\prime}$.
 
 ## Graph Unions
+The **union** of two simple graphs $G_{1}=\left(V_{1}, E_{1}\right)$ and $G_{2}=\left(V_{2}, E_{2}\right)$ is the simple graph with vertex set $V_{1} \cup V_{2}$ and edge set $E_{1} \cup E_{2}$. The union of $G_{1}$ and $G_{2}$ is denoted by $G_{1} \cup G_{2}$.
