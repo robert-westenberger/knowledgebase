@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T01:50:54.059Z
+date: 2021-07-05T01:52:16.887Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -19,3 +19,9 @@ A vertex of degree zero is **isolated**.
 A vertex of degree one is **pendant**.
 
 # Handshaking Theorem
+Let $G=(V, E)$ be an undirected graph with $m$ edges. Then
+$$
+2 m=\sum_{v \in V} \operatorname{deg}(v)
+$$
+(In other words, the sum of the degrees of the vertices in a graph equals twice the number of edges)
+(Note that this applies even if multiple edges and loops are present.)
