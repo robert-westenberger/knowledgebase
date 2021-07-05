@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T21:34:05.358Z
+date: 2021-07-05T21:34:42.821Z
 tags: algorithms
 editor: markdown
 ---
@@ -103,3 +103,4 @@ $$
 $$
 and the general case is resolved $\blacksquare$.
 (Note: Math.floor(x) = $\lfloor x \rfloor$)
+
