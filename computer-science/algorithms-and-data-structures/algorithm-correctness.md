@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T20:27:30.202Z
+date: 2021-07-05T20:36:36.713Z
 tags: algorithms
 editor: markdown
 ---
@@ -53,5 +53,12 @@ We need a **problem specification:**
 
 An important technique in algorithm design is to narrow the set of allowable instances until there is a correct and efficient algorithm. For example, a graph problem can be restricted down to trees. A geometric problem from two dimensions can be restricted down to 1 dimension.
 
+## Demonstrating Incorrectness
+Provide **counterexamples** (an instance on which an algorithm yields an incorrect answer) to prove an algorithm is incorrect.
 
+Good counterexamples are
+* Verifiable - You must be able to
+	* Calculate what answer your algorithm will give in this instance
+  * Display a better answer so as to prove that the algorithm didn't find it. 
+* Simple - Once a counterexample is found, strip all unneccessary details away that don't relate to showing why the proposed algorithm fails.
 	
