@@ -2,7 +2,7 @@
 title: Graphs and Graph Models
 description: 
 published: true
-date: 2021-07-05T01:18:29.764Z
+date: 2021-07-05T01:19:17.078Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -33,5 +33,4 @@ Graphs can be used to model
 * Tournaments
 	* Round robin
   * Single Elimination
-  
-
+* Sexual partners
