@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T20:11:23.369Z
+date: 2021-07-05T20:11:43.942Z
 tags: algorithms
 editor: markdown
 ---
@@ -28,7 +28,7 @@ What would be the optimal way to $n$ schedule jobs, where you can only do one jo
 **Input:** A set $I$ of $n$ intervals on the line.
 **Output:** What is the largest subset of mutually non-overlapping intervals that can be selected from $I$?
 
-Topological sorting (of [Partial Orderings](/mathematics/discrete-mathematics/partial-orderings)) can be used to find the optimal scheduling for a set of tasks).
+
 
 ## Algorithm
 
@@ -38,3 +38,5 @@ OptimalScheduling(I)
 		Accept the job j from I with the earliest completion date.
 		Delete j, and any interval which intersects j, from I.
 ```
+
+**Note:** Topological sorting (of [Partial Orderings](/mathematics/discrete-mathematics/partial-orderings)) can be used to find the optimal scheduling for a set of tasks).
