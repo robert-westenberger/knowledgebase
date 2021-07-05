@@ -2,7 +2,7 @@
 title: Graphs and Graph Models
 description: 
 published: true
-date: 2021-07-05T01:07:26.613Z
+date: 2021-07-05T01:10:25.671Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -19,8 +19,12 @@ A graph can either be **finite** or **infinite**. They have finite vertex set or
 ![graph_terminology2.png](/graph_terminology2.png)
 
 ## Graph Models
-Graphs can be used to model social networks, communication (telephone, computer etc..) networks, information networks, transportation networks (airline routes, shipping, rail networks etc..)
+Graphs can be used to model 
+* social networks 
+* communication (telephone, computer etc..) networks
+* information networks 
+* transportation networks (airline routes, shipping, rail networks etc..)
+* program dependencies -  each module is represented by a vertex. There is a directed edge from a module to a second module if the second module depends on the first.
+* statement precedence (execution orders for a program) - Some statements may require the output of previously executed statements, and such a graph of statements would be represented by a digraph. Each statement would be a node in the graph, and there would be an edge from one statement to a second statement if the second statement cannot be executed before the first statement is.
+* biological networks
 
-Graphs can be used to model module dependencies for software construction. In a **program dependency graph**, each module is represented by a vertex. There is a directed edge from a module to a second module if the second module depends on the first.
-
-A **precedence graph** is a graph of statements that can be executed by a computer. Some statements may require the output of previously executed statements, and such a graph of statements would be represented by a digraph. Each statement would be a node in the graph, and there would be an edge from one statement to a second statement if the second statement cannot be executed before the first statement is.
