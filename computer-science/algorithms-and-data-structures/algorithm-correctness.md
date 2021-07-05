@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T20:42:18.724Z
+date: 2021-07-05T20:44:18.440Z
 tags: algorithms
 editor: markdown
 ---
@@ -68,7 +68,9 @@ Good counterexamples are
 * **Think small**
 	* Try to find small examples on which an algorithm fails, because they are easier to verify and reason about.
 * **Think exhaustively** 
-* **Hunt for the weakness**
-* **Go for a tie**
-* **Seek extremes**
-	
+* **Hunt for the weakness** 
+	* If a proposed algorithm is of the form “always take the biggest” (better known as the greedy algorithm), think about why that might prove to be the wrong thing to do
+* **Go for a tie** 
+	* In the example of breaking a greedy heuristic, provide an instance where everything is the same size.
+* **Seek extremes** 
+	* It is usually easier to verify or reason about extreme examples than more muddled ones.
