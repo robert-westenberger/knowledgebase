@@ -2,10 +2,9 @@
 title: Algorithms and Data Structures
 description: 
 published: true
-date: 2021-07-05T07:10:45.910Z
+date: 2021-07-05T07:13:13.042Z
 tags: book-notes, index
 editor: markdown
 ---
 
-# Header
-Your content here
+# Algorithm Design
