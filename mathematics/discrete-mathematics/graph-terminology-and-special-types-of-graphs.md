@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T03:32:44.777Z
+date: 2021-07-05T03:48:52.272Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -80,3 +80,18 @@ Now suppose that it is possible to assign colors to the vertices of the graph us
 We first consider the graph $G$. We will try to assign one of two colors, say red and blue, to each vertex in $G$ so that no edge in $G$ connects a red vertex and a blue vertex. Without loss of generality we begin by arbitrarily assigning red to $a$. Then, we must assign blue to $c, e$, $f$, and $g$, because each of these vertices is adjacent to $a$. To avoid having an edge with two blue endpoints, we must assign red to all the vertices adjacent to either $c, e, f$, or $g$. This means that we must assign red to both $b$ and $d$ (and means that $a$ must be assigned red, which it already has been). We have now assigned colors to all vertices, with $a, b$, and $d$ red and $c, e, f$, and $g$ blue. Checking all edges, we see that every edge connects a red vertex and a blue vertex. Hence, by Theorem 4 the graph $G$ is bipartite.
 
 Next, we will try to assign either red or blue to each vertex in $H$ so that no edge in $H$ connects a red vertex and a blue vertex. Without loss of generality we arbitrarily assign red to $a$. Then, we must assign blue to $b, e$, and $f$, because each is adjacent to $a$. But this is not possible because $e$ and $f$ are adjacent, so both cannot be assigned blue. This argument shows that we cannot assign one of two colors to each of the vertices of $H$ so that no adjacent vertices are assigned the same color. It follows by Theorem 4 that $H$ is not bipartite.
+
+
+### Bipartite Graphs and Matchings
+Bipartite graphs can be used to model types of applications that involve matching the elements of one set to elements of another.
+
+#### Job Assignments
+A task like finding an assignment of jobs to employees with the requisite ability can be thought of as finding a **matching** in the graph model. A matching $M$ in a simple graph $G=(V, E)$ is a subset of the set $E$ of edges of the graph such that no two edges are incident with the same vertex. 
+
+In other words, a matching is a subset of edges such that if $\{s, t\}$ and $\{u, v\}$ are distinct edges of the matching, then $s, t, u$, and $v$ are distinct. 
+
+A vertex that is the endpoint of an edge of a matching $M$ is said to be **matched** in $M$; otherwise it is said to be **unmatched**. 
+
+A **maximum matching** is a matching with the largest number of edges. We say that a matching $M$ in a bipartite graph $G=(V, E)$ with bipartition $\left(V_{1}, V_{2}\right)$ is a **complete matching from $V_{1}$ to $V_{2}$** if every vertex in $V_{1}$ is the endpoint of an edge in the matching, or equivalently, if $|M|=\left|V_{1}\right|$. 
+
+For example, to assign jobs to employees so that the largest number of jobs are assigned employees, we seek a maximum matching in the graph that models employee capabilities. To assign employees to all jobs we seek a complete matching from the set of jobs to the set of employees.
