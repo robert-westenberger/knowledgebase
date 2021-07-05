@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-07-02T19:30:37.388Z
+date: 2021-07-05T01:21:45.022Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -53,6 +53,7 @@ Recursive Data Types
 ## Graphs
 [Graphs](/mathematics/discrete-mathematics/graphs)
 [Graphs and Graph Models](/mathematics/discrete-mathematics/graphs-and-graph-models)
+[Graph Terminology and Special Types of Graphs](/mathematics/discrete-mathematics/graph-terminology-and-special-types-of-graphs)
 ## Other
 [Parallel Task Scheduling](/mathematics/discrete-mathematics/parallel-task-scheduling)
 ## Counting / Combinatorics
