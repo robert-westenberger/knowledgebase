@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T20:39:02.480Z
+date: 2021-07-05T20:42:18.724Z
 tags: algorithms
 editor: markdown
 ---
@@ -65,6 +65,10 @@ Good counterexamples are
 * Simple - Once a counterexample is found, strip all unneccessary details away that don't relate to showing why the proposed algorithm fails.
 
 #### Techniques for Finding Good Counterexamples
-
-
+* **Think small**
+	* Try to find small examples on which an algorithm fails, because they are easier to verify and reason about.
+* **Think exhaustively** 
+* **Hunt for the weakness**
+* **Go for a tie**
+* **Seek extremes**
 	
