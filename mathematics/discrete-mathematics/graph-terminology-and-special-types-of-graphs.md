@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T01:58:28.184Z
+date: 2021-07-05T01:59:14.859Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -35,3 +35,4 @@ $$
 Because $\operatorname{deg}(v)$ is even for $v \in V_{1}$, the first term in the right-hand side of the last equality is even. Furthermore, the sum of the two terms on the right-hand side of the last equality is even, because this sum is $2 m$. Hence, the second term in the sum is also even. Because all the terms in this sum are odd, there must be an even number of such terms. Thus, there are an even number of vertices of odd degree.
 
 # Directed Graph Terminology
+When $(u, v)$ is an edge of the graph $G$ with directed edges, $u$ is said to be adjacent to $v$ and $v$ is said to be adjacent from $u$. The vertex $u$ is called the initial vertex of $(u, v)$, and $v$ is called the terminal or end vertex of $(u, v) .$ The initial vertex and terminal vertex of a loop are the same.
