@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T03:26:35.583Z
+date: 2021-07-05T03:29:34.067Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -73,3 +73,5 @@ First, suppose that $G=(V, E)$ is a bipartite simple graph. Then $V=V_{1} \cup V
 Now suppose that it is possible to assign colors to the vertices of the graph using just two colors so that no two adjacent vertices are assigned the same color. Let $V_{1}$ be the set of vertices assigned one color and $V_{2}$ be the set of vertices assigned the other color. Then, $V_{1}$ and $V_{2}$ are disjoint and $V=V_{1} \cup V_{2}$. Furthermore, every edge connects a vertex in $V_{1}$ and a vertex in $V_{2}$ because no two adjacent vertices are either both in $V_{1}$ or both in $V_{2}$. Consequently, $G$ is bipartite.
 
 ### Usage
+![undirected_graphs.png](/undirected_graphs.png)
+We first consider the graph $G$. We will try to assign one of two colors, say red and blue, to each vertex in $G$ so that no edge in $G$ connects a red vertex and a blue vertex. Without loss of generality we begin by arbitrarily assigning red to $a$. Then, we must assign blue to $c, e$, $f$, and $g$, because each of these vertices is adjacent to $a$. To avoid having an edge with two blue endpoints, we must assign red to all the vertices adjacent to either $c, e, f$, or $g$. This means that we must assign red to both $b$ and $d$ (and means that $a$ must be assigned red, which it already has been). We have now assigned colors to all vertices, with $a, b$, and $d$ red and $c, e, f$, and $g$ blue. Checking all edges, we see that every edge connects a red vertex and a blue vertex. Hence, by Theorem 4 the graph $G$ is bipartite.
