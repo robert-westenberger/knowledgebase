@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T01:46:38.206Z
+date: 2021-07-05T01:50:54.059Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -17,3 +17,5 @@ The **degree of a vertex in an undirected graph** is the number of edges inciden
 
 A vertex of degree zero is **isolated**.
 A vertex of degree one is **pendant**.
+
+# Handshaking Theorem
