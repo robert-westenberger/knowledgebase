@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T21:34:42.821Z
+date: 2021-07-05T21:43:32.558Z
 tags: algorithms
 editor: markdown
 ---
@@ -104,3 +104,5 @@ $$
 and the general case is resolved $\blacksquare$.
 (Note: Math.floor(x) = $\lfloor x \rfloor$)
 
+## Modeling the Problem
+Most algorithms are designed to work on rigorously defined abstract struvtures such as **permutations**, **graphs**, and **sets**.
