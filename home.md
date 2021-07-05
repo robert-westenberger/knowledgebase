@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-29T19:01:50.864Z
+date: 2021-07-05T07:12:06.317Z
 tags: 
 editor: markdown
 ---
@@ -11,7 +11,7 @@ editor: markdown
 [Discrete Math Index](/mathematics/discrete-mathematics/index)
 [Discrete Math Exercises Index](/mathematics/discrete-mathematics/problems-and-examples/index)
 
-
+[Algorithms Index](/computer-science/algorithms-and-data-structures/home)
 [Todo](/todo)
 
 ## Diary
