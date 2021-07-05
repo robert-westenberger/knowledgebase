@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T02:00:05.827Z
+date: 2021-07-05T02:05:38.231Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -36,3 +36,14 @@ Because $\operatorname{deg}(v)$ is even for $v \in V_{1}$, the first term in the
 
 # Directed Graph Terminology
 When $(u, v)$ is an edge of the graph $G$ with directed edges, $u$ is said to be **adjacent** to $v$ and $v$ is said to be **adjacent from** $u$. The vertex $u$ is called the **initial vertex** of $(u, v)$, and $v$ is called the **terminal** or **end vertex** of $(u, v) .$ The initial vertex and terminal vertex of a loop are the same.
+
+In a graph with directed edges the **in-degree of a vertex** $v$, denoted by $\operatorname{deg}^{-}(v)$, is the number of edges with $v$ as their terminal vertex. The **out-degree** of $v$, denoted by $\operatorname{deg}^{+}(v)$, is the number of edges with $v$ as their initial vertex. (Note that a loop at a vertex contributes 1 to both the in-degree and the out-degree of this vertex.)
+
+## Sum of in-degrees and out-degrees
+The sum of the in-degrees and the sum of the out-degrees of all vertices in a graph with directed edges are the same because each edge has an initial vertex and a terminal vertex. Both of these sums are the number of edges in the graph. 
+
+Written in sigma notation..
+Let $G=(V, E)$ be a graph with directed edges. Then
+$$
+\sum_{v \in V} \operatorname{deg}^{-}(v)=\sum_{v \in V} \operatorname{deg}^{+}(v)=|E|
+$$
