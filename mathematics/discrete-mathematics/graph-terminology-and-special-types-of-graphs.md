@@ -2,7 +2,7 @@
 title: Graph Terminology and Special Types of Graphs
 description: 
 published: true
-date: 2021-07-05T03:48:52.272Z
+date: 2021-07-05T03:54:50.361Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -95,3 +95,13 @@ A vertex that is the endpoint of an edge of a matching $M$ is said to be **match
 A **maximum matching** is a matching with the largest number of edges. We say that a matching $M$ in a bipartite graph $G=(V, E)$ with bipartition $\left(V_{1}, V_{2}\right)$ is a **complete matching from $V_{1}$ to $V_{2}$** if every vertex in $V_{1}$ is the endpoint of an edge in the matching, or equivalently, if $|M|=\left|V_{1}\right|$. 
 
 For example, to assign jobs to employees so that the largest number of jobs are assigned employees, we seek a maximum matching in the graph that models employee capabilities. To assign employees to all jobs we seek a complete matching from the set of jobs to the set of employees.
+
+#### Necessary and Sufficient Conditions For Complete Matchings
+
+#### Hall's Marriage Theorem
+The bipartite graph $G=(V, E)$ with bipartition $\left(V_{1}, V_{2}\right)$ has a complete matching from $V_{1}$ to $V_{2}$ if and only if $|N(A)| \geq|A|$ for all subsets $A$ of $V_{1}$
+
+(Recall $N(A)$ is the set of all vertices in $G$ that are adjacent to at least one vertex in $A$. $N(A)=\bigcup_{v \in A} N(v)$)
+
+#### Proof
+We first prove the only if part of the theorem. To do so, suppose that there is a complete matching $M$ from $V_{1}$ to $V_{2}$. Then, if $A \subseteq V_{1}$, for every vertex $v \in A$, there is an edge in $M$ connecting $v$ to a vertex in $V_{2}$. Consequently, there are at least as many vertices in $V_{2}$ that are neighbors of vertices in $V_{1}$ as there are vertices in $V_{1}$. It follows that $|N(A)| \geq|A|$.
