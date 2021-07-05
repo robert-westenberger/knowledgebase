@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T21:52:38.355Z
+date: 2021-07-05T22:08:53.846Z
 tags: algorithms
 editor: markdown
 ---
@@ -145,3 +145,24 @@ Most algorithms are designed to work on rigorously defined abstract struvtures s
   * characters
   * patterns 
   * labels
+  
+### Recursive Objects
+Each of the abstract structures can be broken down into smaller structures of the same type.
+
+* Permutations
+	* Delete the first element of a permutation of $n$ things  $\{1, \ldots, n\}$ and you get a permutation of the remaining $n-1$ things. 
+* Subsets
+	* Every subset of $\{1, \ldots, n\}$ contains a subset of $\{1, \ldots, n-1\}$ obtained by deleting element $n$, if it is present. Subsets are recursive.
+* Trees
+	* Delete the root of a tree and what do you get? A collection of smaller trees. Delete any leaf of a tree and what do you get? A slightly smaller tree.
+* Graphs
+	* Delete any vertex from a graph, and you get a smaller graph. Now divide the vertices of a graph into two groups, left and right. Cut through all edges that span from left to right, and what do you get? Two smaller graphs, and a bunch of broken edges.
+* Points
+	* Take a cloud of points, and separate them into two groups by drawing a line. Now you have two smaller clouds of points.
+* Polygons
+	* Inserting any internal chord between two non-adjacent vertices of a simple polygon cuts it into two smaller polygons.
+* Strings
+	* Delete the first character from a string, and what do you get? A shorter string.
+  
+  
+## Proof by Contradiction
