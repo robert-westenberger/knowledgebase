@@ -2,7 +2,7 @@
 title: Program Correctness
 description: 
 published: true
-date: 2021-07-08T18:55:06.514Z
+date: 2021-07-08T18:56:17.254Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -75,3 +75,6 @@ if condition then
 else 
 	S<sub>2</sub>
 </pre>
+To verify this particular program segment is correct with respect to the initial assertion $p$ and final assertion $q$, two things must be shown:
+1) When $p$ is true and **condition** is true, then $q$ is true after $S_1$ terminates.
+2) When $p$ is true and **condition** is false, then $q$ is true after $S_2$ terminates.
