@@ -2,7 +2,7 @@
 title: Program Correctness
 description: 
 published: true
-date: 2021-07-08T18:22:23.735Z
+date: 2021-07-08T18:24:40.035Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -20,3 +20,5 @@ Two propositions are used to specify a program produces the correct output:
 The appropriate and final assertions must be provided when a program is checked.
 
 A program, or program segment, $S$ is said to be **partially correct with respect to** the initial assertion $p$ and the final assertion $q$ if whenever $p$ is true for the input values of $S$ and $S$ terminates, then $q$ is true for the output values of $S$. The notation $p\{S\} q$ indicates that the program, or program segment, $S$ is partially correct with respect to the initial assertion $p$ and the final assertion $q$.
+
+## Rules of Inference
