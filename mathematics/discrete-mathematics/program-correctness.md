@@ -2,7 +2,7 @@
 title: Program Correctness
 description: 
 published: true
-date: 2021-07-08T18:56:17.254Z
+date: 2021-07-08T19:04:10.629Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -70,9 +70,9 @@ $$
 \end{aligned}
 $$
 <pre>
-if condition then 
+<bold>if</bold> condition <bold>then</bold>
 	S<sub>1</sub>
-else 
+<bold>else</bold>
 	S<sub>2</sub>
 </pre>
 To verify this particular program segment is correct with respect to the initial assertion $p$ and final assertion $q$, two things must be shown:
