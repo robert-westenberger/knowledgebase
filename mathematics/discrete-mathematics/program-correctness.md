@@ -2,7 +2,7 @@
 title: Program Correctness
 description: 
 published: true
-date: 2021-07-08T18:48:04.457Z
+date: 2021-07-08T18:52:07.381Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -40,7 +40,7 @@ Suppose that the correctness of $S_{1}$ with respect to the initial assertion $p
 
 Thus, if $p$ is true and $S=S_{1} ; S_{2}$ is executed and terminates, then $r$ is true. 
 
-### Conditional Statements Rule
+### If Statement Rule of Inference
 $$
 \begin{aligned}
 & (p \wedge \text { condition })\{S\} q \\
@@ -59,3 +59,13 @@ where $S$ is a block of statements. Then $S$ is executed iff condition is true.
 To verify this particular program segment is correct with respect to the initial assertion $p$ and final assertion $q$, two things must be shown:
 1) When $p$ is true and **condition** is also true, then $q$ is true after $S$ terminates.
 2) When $p$ is true and **condition** is false, then $q$ is true (because $S$ does not execute).
+
+### If Else Statement Rule of Inference
+$$
+\begin{aligned}
+& (p \wedge \text { condition })\{S_1\} q \\
+& (p \wedge \neg \text { condition })\{S_2\}q\\
+\hline \therefore \medspace
+& p\{\text { if condition then } S_1 \medspace \text {else} \medspace S_2 \} q
+\end{aligned}
+$$
