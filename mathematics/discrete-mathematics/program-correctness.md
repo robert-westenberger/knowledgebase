@@ -2,7 +2,7 @@
 title: Program Correctness
 description: 
 published: true
-date: 2021-07-08T18:52:07.381Z
+date: 2021-07-08T18:55:06.514Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -69,3 +69,9 @@ $$
 & p\{\text { if condition then } S_1 \medspace \text {else} \medspace S_2 \} q
 \end{aligned}
 $$
+<pre>
+if condition then 
+	S<sub>1</sub>
+else 
+	S<sub>2</sub>
+</pre>
