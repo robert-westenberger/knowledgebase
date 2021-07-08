@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-07-05T01:21:45.022Z
+date: 2021-07-08T18:14:51.338Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -34,6 +34,7 @@ State machines
 [Well Ordering Principle](/mathematics/discrete-mathematics/well-ordering-principle)
 [Strong Induction vs Induction vs Well Ordering](/mathematics/discrete-mathematics/when-to-use-incomplete-induction-vs-strong-induction)
 [Creative Uses of Induction](/mathematics/discrete-mathematics/creative-uses-of-induction)
+[Program Correctness](/mathematics/discrete-mathematics/program-correctness)
 ## Mathematical Data Types
 [Sets](/mathematics/discrete-mathematics/sets)
 [Sequences](/mathematics/discrete-mathematics/Sequences)
