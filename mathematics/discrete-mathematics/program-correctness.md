@@ -2,7 +2,7 @@
 title: Program Correctness
 description: 
 published: true
-date: 2021-07-08T18:37:45.388Z
+date: 2021-07-08T18:38:10.237Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -37,3 +37,5 @@ It is stating that a program $S$ is split into subprograms $S_1$ and $S_2$. $S=S
 Suppose that the correctness of $S_{1}$ with respect to the initial assertion $p$ and final assertion $q$, and the correctness of $S_{2}$ with respect to the initial assertion $q$ and the final assertion $r$, have been established. It follows that if $p$ is true and $S_{1}$ is executed and terminates, then $q$ is true; and if $q$ is true, and $S_{2}$ executes and terminates, then $r$ is true. 
 
 Thus, if $p$ is true and $S=S_{1} ; S_{2}$ is executed and terminates, then $r$ is true. 
+
+## Conditional Statements
