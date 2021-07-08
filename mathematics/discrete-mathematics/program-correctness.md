@@ -2,7 +2,7 @@
 title: Program Correctness
 description: 
 published: true
-date: 2021-07-08T18:43:29.986Z
+date: 2021-07-08T18:48:04.457Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -54,4 +54,8 @@ For the program segment
 if condition then 
     S
 ```
-where $S$ is a block of statements. Then $S$ is executed iff condition is true. To verify 
+where $S$ is a block of statements. Then $S$ is executed iff condition is true.
+
+To verify this particular program segment is correct with respect to the initial assertion $p$ and final assertion $q$, two things must be shown:
+1) When $p$ is true and **condition** is also true, then $q$ is true after $S$ terminates.
+2) When $p$ is true and **condition** is false, then $q$ is true (because $S$ does not execute).
