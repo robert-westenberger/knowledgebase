@@ -2,7 +2,7 @@
 title: Logbook
 description: 
 published: true
-date: 2021-07-10T03:36:45.286Z
+date: 2021-07-10T03:49:32.334Z
 tags: arduino, hardware, electronics
 editor: markdown
 ---
@@ -22,10 +22,11 @@ The LED stops emitting any light.
 LED doesnt light up. The current is flowing from positive to negative, but in this configuration the LED's cathode and anode are in the incorrect position in the circuit. Swapping the anode and cathode pins of the LED, the circuit lights up again.
 
 # Lesson 2
-## Measurements when LED is on
+## Measurements when LED is on (220 $\Omega$ resistor)
 ### Voltage
-4.92 V
+4.80 V
 ### Current
-milliamps = 3.7
-amps = .0037
+milliamps = 8.1
+amps = .0081
 ### Resistance
+592.59
