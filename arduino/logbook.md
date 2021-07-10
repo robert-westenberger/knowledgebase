@@ -2,7 +2,7 @@
 title: Logbook
 description: 
 published: true
-date: 2021-07-10T03:34:58.682Z
+date: 2021-07-10T03:36:45.286Z
 tags: arduino, hardware, electronics
 editor: markdown
 ---
@@ -26,5 +26,6 @@ LED doesnt light up. The current is flowing from positive to negative, but in th
 ### Voltage
 4.92 V
 ### Current
-milliams = 3.7
+milliamps = 3.7
+amps = .0037
 ### Resistance
