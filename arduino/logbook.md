@@ -2,7 +2,7 @@
 title: Logbook
 description: 
 published: true
-date: 2021-07-09T04:57:16.145Z
+date: 2021-07-10T03:34:58.682Z
 tags: arduino, hardware, electronics
 editor: markdown
 ---
@@ -19,4 +19,12 @@ $10k \Omega$ - Extremely dim
 The LED stops emitting any light.
 
 ## Swapping positive and negative wires from battery
-LED doesnt light up. The current is flowing from positive to negative, but in this configuration the LED's cathode and anode are in the incorrect position in the circuit. Swapping the anode and cathode pins of the LED, the circuit lights up again./
+LED doesnt light up. The current is flowing from positive to negative, but in this configuration the LED's cathode and anode are in the incorrect position in the circuit. Swapping the anode and cathode pins of the LED, the circuit lights up again.
+
+# Lesson 2
+## Measurements when LED is on
+### Voltage
+4.92 V
+### Current
+milliams = 3.7
+### Resistance
