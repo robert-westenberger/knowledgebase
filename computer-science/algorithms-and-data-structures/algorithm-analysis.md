@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-11T23:45:51.470Z
+date: 2021-07-11T23:48:29.285Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -20,4 +20,4 @@ Run time on the RAM is measured by counting the number of steps an algorithm tak
 
 * **Best-case** - Minimum number of steps taken in any instance of size $n$.
 * **Average-case** - Average number of steps over all instances of size $n$.
-* **Worst-case** - Maximum number of steps taken in any instance of size $n$. This is typically 
+* **Worst-case** - Maximum number of steps taken in any instance of size $n$. This is typically the most important / useful case to observe.  
