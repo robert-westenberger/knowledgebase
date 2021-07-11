@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-11T23:37:59.504Z
+date: 2021-07-11T23:45:51.470Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -15,4 +15,9 @@ Machine-independent algorithm design depends upon a hypothetical computer called
 
 Run time on the RAM is measured by counting the number of steps an algorithm takes on a given problem instance.
 
-## Base-Case, Worst-Case, and Average-Case Complexity
+## Best-Case, Worst-Case, and Average-Case Complexity
+" "-Case refers to the resources (computations, memory) required for an algorithm to finish.
+
+* **Best-case** - Minimum number of steps taken in any instance of size $n$.
+* **Average-case** - Average number of steps over all instances of size $n$.
+* **Worst-case** - Maximum number of steps taken in any instance of size $n$. This is typically 
