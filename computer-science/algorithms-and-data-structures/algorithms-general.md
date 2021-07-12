@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:32:28.558Z
+date: 2021-07-12T02:39:30.190Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -35,9 +35,11 @@ For use when the list is sorted and the list has items ordered by increasing siz
 ## Quick Sort
 ## Shaker Sort
 ## Insertion Sort
+
 ## Selection Sort
 ## Bubble Sort
 Simple but not very efficient. Orders by comparing adjacent elements, interchanging them if they are in the wrong order. 
 To carry out the bubble sort, we
 perform the basic operation, that is, interchanging a larger element with a smaller one following
 it, starting at the beginning of the list, for a full pass.
+# String Matching
