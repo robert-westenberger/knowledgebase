@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-12T00:26:46.098Z
+date: 2021-07-12T00:28:01.713Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -34,4 +34,5 @@ The Big O simplifies analysis of algorithms by ignoring levels of detail that do
 **(b)** $f(n)=\Omega(g(n))$ means $c \cdot g(n)$ is a **lower bound** on $f(n)$. Thus, there exists some constant $c$ such that $f(n) \ge c \cdot g(n)$ for all $n \ge n_0$.
 **(c)** $f(n)=\Theta(g(n))$ means $c_1 \cdot g(n)$ is an **upper bound** on $f(n)$ and $c_2 \cdot g(n)$ is a **lower bound** on $f(n), for all $n \ge n_0$. Thus, there exist constants $c_1$ and $c_{2}$ such that $f(n) \leq c_{1} \cdot g(n)$ and $f(n) \geq c_{2} \cdot g(n)$ for all $n \geq n_{0}$. This means that $g(n)$ provides a nice, tight bound on $f(n)$.
 
+We are not concerned with small values of $n$ (anything to the left of $n_0$ in the graphs).
 
