@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:47:10.021Z
+date: 2021-07-12T03:04:59.029Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
