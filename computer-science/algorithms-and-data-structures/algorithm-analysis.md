@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-12T00:09:00.234Z
+date: 2021-07-12T00:23:28.854Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -27,4 +27,11 @@ Each time complexity defines a numerical function for any given algorithm. These
 The best case for a sorting algorithm would be an empty array, or an array that is already in order.
 The worse case would be an array that is in the opposite preferred sort order.
 ## Big O Notation
-The Big O simplifies analysis of algorithms by ignoring levels of detail that don't impact comparison between algorithms. For example, difference between multiplicative constants. $f(n)=2 n$ and $g(n)=n$ are identical in Big O analysis.
+The Big O simplifies analysis of algorithms by ignoring levels of detail that don't impact comparison between algorithms. For example, difference between multiplicative constants. $f(n)=2 n$ and $g(n)=n$ are identical in Big O analysis
+
+![asymptotic-notation-graphs.png](/asymptotic-notation-graphs.png)
+**(a)** $f(n)=O(g(n))$ means $c \cdot g(n)$ is an **upper bound** on $f(n)$. There exists some constant $c$, such that $f(n) \leq c \cdot g(n)$ for every large enough $n$ (that is, for all $n \ge n_0$, for some constant $n_0$).
+**(b)** $f(n)=\Omega(g(n))$
+**(c)** $f(n)=\Theta(g(n))$
+
+
