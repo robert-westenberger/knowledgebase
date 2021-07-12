@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:01:17.179Z
+date: 2021-07-12T02:09:55.515Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -21,3 +21,5 @@ values.
 large) number of steps for any input in the set.
 ▶ **Effectiveness**. It must be possible to perform each step of an algorithm exactly and in a
 finite amount of time.
+▶ **Generality**. The procedure should be applicable for all problems of the desired form, not
+just for a particular set of input values.
