@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:39:30.190Z
+date: 2021-07-12T02:40:15.476Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -43,3 +43,4 @@ To carry out the bubble sort, we
 perform the basic operation, that is, interchanging a larger element with a smaller one following
 it, starting at the beginning of the list, for a full pass.
 # String Matching
+Algorithms for finding where, if at all, a string of characters $P$, called the **pattern** occur, within another string $T$, called the **text**.
