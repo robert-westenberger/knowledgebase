@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-12T00:07:31.277Z
+date: 2021-07-12T00:09:00.234Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -27,5 +27,4 @@ Each time complexity defines a numerical function for any given algorithm. These
 The best case for a sorting algorithm would be an empty array, or an array that is already in order.
 The worse case would be an array that is in the opposite preferred sort order.
 ## Big O Notation
-The Big O simplifies analysis of algorithms by ignoring levels of detail that don't impact comparison between algorithms. Things ignored are 
-* Difference between multiplicative constants. $f(n)=2 n$ and $g(n)=n$ are identical in Big O analysis.
+The Big O simplifies analysis of algorithms by ignoring levels of detail that don't impact comparison between algorithms. For example, difference between multiplicative constants. $f(n)=2 n$ and $g(n)=n$ are identical in Big O analysis.
