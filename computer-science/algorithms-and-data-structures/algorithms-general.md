@@ -2,13 +2,10 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:09:55.515Z
+date: 2021-07-12T02:14:25.467Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
-
-# Tracing Algorithms
-To gain insight into how an algorithm works it is useful to construct a **trace** that shows its steps when given specific input. 
 
 # Properties of Algorithms
 ▶ **Input**. An algorithm has input values from a specified set.
@@ -23,3 +20,6 @@ large) number of steps for any input in the set.
 finite amount of time.
 ▶ **Generality**. The procedure should be applicable for all problems of the desired form, not
 just for a particular set of input values.
+
+# Searching Algorithms
+## Linear / Sequential Search
