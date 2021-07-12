@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:40:15.476Z
+date: 2021-07-12T02:46:24.286Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -44,3 +44,8 @@ perform the basic operation, that is, interchanging a larger element with a smal
 it, starting at the beginning of the list, for a full pass.
 # String Matching
 Algorithms for finding where, if at all, a string of characters $P$, called the **pattern** occur, within another string $T$, called the **text**.
+
+# Greedy Algorithms
+Designed to solve **optimization problems**, the goal of which is to either minimize or maximize the value of some parameter. 
+
+**Greedy Algorithms** are a family of algorithms that choose what seems to be the "best" choice at every step of the algorithm, with no consideration of all sequences of steps that may lead to the true optimal solution.
