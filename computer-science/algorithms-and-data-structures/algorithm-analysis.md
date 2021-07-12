@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-12T00:23:28.854Z
+date: 2021-07-12T00:24:57.635Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -31,7 +31,7 @@ The Big O simplifies analysis of algorithms by ignoring levels of detail that do
 
 ![asymptotic-notation-graphs.png](/asymptotic-notation-graphs.png)
 **(a)** $f(n)=O(g(n))$ means $c \cdot g(n)$ is an **upper bound** on $f(n)$. There exists some constant $c$, such that $f(n) \leq c \cdot g(n)$ for every large enough $n$ (that is, for all $n \ge n_0$, for some constant $n_0$).
-**(b)** $f(n)=\Omega(g(n))$
+**(b)** $f(n)=\Omega(g(n))$ means $c \cdot g(n)$ is a **lower bound** on $f(n)$. Thus, there exists some constant $c$ such that $f(n) \ge c \cdot g(n)$ for all $n \ge n_0$.
 **(c)** $f(n)=\Theta(g(n))$
 
 
