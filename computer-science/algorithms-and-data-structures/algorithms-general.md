@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:30:51.927Z
+date: 2021-07-12T02:32:28.558Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -30,6 +30,11 @@ For each item in a list, check to see if item in the list is the value we are lo
 For use when the list is sorted and the list has items ordered by increasing size. It compares the target item to the item in the middle of the list. The list is then split into two smaller sublists of the same size, or where one of the sublists is one item fewer than the other. The search continues by restricting the search to the appropriate sublist based on the comparison of the element to be located and the middle term.
 
 # Sorting Algorithms
+## Tim Sort
+## Merge Sort
+## Quick Sort
+## Shaker Sort
+## Insertion Sort
 ## Selection Sort
 ## Bubble Sort
 Simple but not very efficient. Orders by comparing adjacent elements, interchanging them if they are in the wrong order. 
