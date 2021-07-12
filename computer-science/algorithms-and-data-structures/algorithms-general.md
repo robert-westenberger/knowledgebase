@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T02:46:24.286Z
+date: 2021-07-12T02:47:10.021Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -49,3 +49,6 @@ Algorithms for finding where, if at all, a string of characters $P$, called the 
 Designed to solve **optimization problems**, the goal of which is to either minimize or maximize the value of some parameter. 
 
 **Greedy Algorithms** are a family of algorithms that choose what seems to be the "best" choice at every step of the algorithm, with no consideration of all sequences of steps that may lead to the true optimal solution.
+
+
+# The Halting Problem
