@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-12T03:17:46.783Z
+date: 2021-07-12T03:21:54.151Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -31,12 +31,14 @@ The Big O simplifies analysis of algorithms by ignoring levels of detail that do
 
 It is used extensively to estimate the number of operations an algorithm uses as its input grows. 
 
+
 ### Notation for Growth of Functions
 Let $f$ and $g$ be functions from the set of integers or the set of real numbers to the set of real numbers. We say that $f(x)$ is $O(g(x))$ if there are constants $C$ and $k$ such that
 $$
 |f(x)| \leq C|g(x)|
 $$
 whenever $x>k$. (This is read as " $f(x)$ is big-oh of $g(x) . ")$
+The constants $C$ and $k$ are called **witnesses** to the relationship of $f(x)$ is $O(g(x))$. To establish $f(x)$ is $O(g(x))$, we need find only one pair of constants $C$ and $k$, the witnesses, such that $|f(x)| \leq C|g(x)|$ whenever $x \gt k$.
 
 Intuitively, the definition that $f(x)$ is $O(g(x))$ says that $f(x)$ grows slower than some fixed multiple of $g(x)$ as $x$ grows without bound.
 ![asymptotic-notation-graphs.png](/asymptotic-notation-graphs.png)
