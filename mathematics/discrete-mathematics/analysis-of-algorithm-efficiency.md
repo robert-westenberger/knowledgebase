@@ -2,7 +2,7 @@
 title: Analysis of Algorithm Efficiency
 description: 
 published: true
-date: 2021-07-14T18:05:07.742Z
+date: 2021-07-14T18:06:09.009Z
 tags: discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -39,3 +39,5 @@ Thus by transitivity of order and equality,
 $$
 n^{4}-5 n-8 \leq 14 n^{4} \text { for every integer } n \geq 1
 $$
+
+By definition of O-notation, $n^4 - 5n -8$ is $O\left(n^{4}\right)$
