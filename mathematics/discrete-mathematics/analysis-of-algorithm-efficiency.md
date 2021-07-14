@@ -2,7 +2,7 @@
 title: Analysis of Algorithm Efficiency
 description: 
 published: true
-date: 2021-07-14T17:39:45.387Z
+date: 2021-07-14T17:40:39.040Z
 tags: discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -17,3 +17,6 @@ For any positive rational numbers $r$ and $s$ and any integer $n \ge 1$,
 $$
 \text { if } r \leq s, \quad \text { then } \quad n^{r} \leq n^{s}
 $$
+
+### Examples
+$1 \leq n \leq n^{2} \leq n^{3}$
