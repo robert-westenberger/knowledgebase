@@ -2,7 +2,7 @@
 title: Analysis of Algorithm Efficiency
 description: 
 published: true
-date: 2021-07-14T17:40:39.040Z
+date: 2021-07-14T17:41:13.501Z
 tags: discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -19,4 +19,4 @@ $$
 $$
 
 ### Examples
-$1 \leq n \leq n^{2} \leq n^{3}$
+$1 \leq n \leq n^{2} \leq n^{3}$.
