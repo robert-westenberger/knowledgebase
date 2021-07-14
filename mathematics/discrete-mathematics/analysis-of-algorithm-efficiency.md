@@ -2,11 +2,10 @@
 title: Analysis of Algorithm Efficiency
 description: 
 published: true
-date: 2021-07-14T17:41:13.501Z
+date: 2021-07-14T17:41:34.612Z
 tags: discrete-mathematics, algorithms
 editor: markdown
 ---
-
 
 # Orders of Power Functions
 The functions that are most commonly used for comparing algorithm efficiencies are power functions, such as $n^{1 / 2}, n, n^{2}$, and $n^{3}$, and combinations involving a power function and an exponential or logarithmic function, such as $2^{n}, \log (n), n \log (n)$, and $n^{2} \log (n)$
@@ -20,3 +19,5 @@ $$
 
 ### Examples
 $1 \leq n \leq n^{2} \leq n^{3}$.
+
+# Orders of Polynomial Functions
