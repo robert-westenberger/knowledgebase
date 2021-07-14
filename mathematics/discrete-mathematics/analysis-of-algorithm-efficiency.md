@@ -2,7 +2,7 @@
 title: Analysis of Algorithm Efficiency
 description: 
 published: true
-date: 2021-07-14T18:02:34.255Z
+date: 2021-07-14T18:05:07.742Z
 tags: discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -28,9 +28,14 @@ Observe for every integer $n \ge 1$,
 
 $$
 \begin{aligned}
-n^{4}-5 n-8 & \leq n^{4}+5 n+8 & \text{because when}\medspace n \ge 1, 5n+8 \medspace \text {is positive by transitivity}\\
-& \leq n^{4}+5 n^{4}+8 n^{4} & \text{order theorem, since} \medspace n \ge 1 \medspace \text{then} \medspace n \le n^4 \medspace \text{and} \\ 
-& & 1 \le n^4 \medspace \text{and so} \medspace 5n \le 5n^4 \medspace \text{and} \medspace 8 \le 8n^4\\
+n^{4}-5 n-8 & \leq n^{4}+5 n+8 & \text{because when}\medspace n \ge 1, 5n+8 \medspace \text {is positive}\\
+& \leq n^{4}+5 n^{4}+8 n^{4} & \text{by transitivity of order theorem, since} \medspace n \ge 1 \medspace  \\ 
+& & \text{then} \medspace n \le n^4 \medspace \text{and} \medspace 1 \le n^4 \medspace \text{and so} \medspace 5n \le 5n^4 \medspace \text{and} \medspace 8 \le 8n^4\\
 &=14 n^{4}
 \end{aligned}
+$$
+
+Thus by transitivity of order and equality,
+$$
+n^{4}-5 n-8 \leq 14 n^{4} \text { for every integer } n \geq 1
 $$
