@@ -1,8 +1,8 @@
 ---
-title: Orders of Power Functions
+title: Analysis of Algorithm Efficiency
 description: 
 published: true
-date: 2021-07-14T17:34:25.431Z
+date: 2021-07-14T17:34:42.571Z
 tags: discrete-mathematics, algorithms
 editor: markdown
 ---
