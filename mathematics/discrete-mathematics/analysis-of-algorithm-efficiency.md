@@ -2,7 +2,7 @@
 title: Analysis of Algorithm Efficiency
 description: 
 published: true
-date: 2021-07-14T17:41:34.612Z
+date: 2021-07-14T18:02:34.255Z
 tags: discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -21,3 +21,16 @@ $$
 $1 \leq n \leq n^{2} \leq n^{3}$.
 
 # Orders of Polynomial Functions
+## Example with some negative coefficients
+Show that $n^{4}-5 n-8$ is $O\left(n^{4}\right)$
+
+Observe for every integer $n \ge 1$,
+
+$$
+\begin{aligned}
+n^{4}-5 n-8 & \leq n^{4}+5 n+8 & \text{because when}\medspace n \ge 1, 5n+8 \medspace \text {is positive by transitivity}\\
+& \leq n^{4}+5 n^{4}+8 n^{4} & \text{order theorem, since} \medspace n \ge 1 \medspace \text{then} \medspace n \le n^4 \medspace \text{and} \\ 
+& & 1 \le n^4 \medspace \text{and so} \medspace 5n \le 5n^4 \medspace \text{and} \medspace 8 \le 8n^4\\
+&=14 n^{4}
+\end{aligned}
+$$
