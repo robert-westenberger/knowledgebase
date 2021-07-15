@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-12T03:21:54.151Z
+date: 2021-07-15T18:54:51.205Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -26,13 +26,14 @@ Each time complexity defines a numerical function for any given algorithm. These
 ### Example - Sorting algorithm
 The best case for a sorting algorithm would be an empty array, or an array that is already in order.
 The worse case would be an array that is in the opposite preferred sort order.
-## Big O Notation
+
+# Big O Notation
 The Big O simplifies analysis of algorithms by ignoring levels of detail that don't impact comparison between algorithms. For example, difference between multiplicative constants. $f(n)=2 n$ and $g(n)=n$ are identical in Big O analysis
 
 It is used extensively to estimate the number of operations an algorithm uses as its input grows. 
 
 
-### Notation for Growth of Functions
+## Notation for Growth of Functions
 Let $f$ and $g$ be functions from the set of integers or the set of real numbers to the set of real numbers. We say that $f(x)$ is $O(g(x))$ if there are constants $C$ and $k$ such that
 $$
 |f(x)| \leq C|g(x)|
@@ -48,7 +49,10 @@ Intuitively, the definition that $f(x)$ is $O(g(x))$ says that $f(x)$ grows slow
 
 We are not concerned with small values of $n$ (anything to the left of $n_0$ in the graphs).
 
-### Examples
+## Relation among $\mathbf{O}$-, $\mathbf{\Omega}-$, and $\Theta$- Notations
+If $f$ and $g$ are real-valued functions defined on the same set of nonnegative integers, and if $f(n) \geq 0$ and $g(n) \geq 0$ for every integer $n \geq r$, where $r$ is a positive real number,
+then $f(n)$ is $\Theta(g(n))$ if, and only if, $f(n)$ is $\Omega(g(n))$ and $f(n)$ is $O(g(n))$.
+## Examples
 $$
 \begin{aligned}
 &f(n)=3 n^{2}-100 n+6=O\left(n^{2}\right), \text { because for } c=3,3 n^{2}>f(n)\\
