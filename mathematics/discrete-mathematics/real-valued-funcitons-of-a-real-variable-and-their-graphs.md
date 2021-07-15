@@ -2,7 +2,7 @@
 title: Real Valued Functions of a Real Variable and Their Graphs
 description: 
 published: true
-date: 2021-07-15T18:01:55.736Z
+date: 2021-07-15T18:04:35.177Z
 tags: 
 editor: markdown
 ---
@@ -24,7 +24,7 @@ $$
 # Graph of a Multiple of a Function
 A **multiple** of a function is obtained by multiplying every value of the function by a fixed number. To understand the concept of $O$-notation, it is helpful to understand the relation between the graph of a function and the graph of a multiple of the function.
 
-Let $f$ be a real-valued function of a real variable and let $M$ be any real number. The function $M f$, called the multiple of $f$ by $M$ or $M$ times $f$, is the real-valued function with the same domain as $f$ that is defined by the rule
+Let $f$ be a real-valued function of a real variable and let $M$ be any real number. The function $M f$, called the **multiple of** $\boldsymbol{f}$ **by** $\boldsymbol{M}$ or $\boldsymbol{M}$ **times** $\boldsymbol{f}$, is the real-valued function with the same domain as $f$ that is defined by the rule
 $$
 (M f)(x)=M \cdot(f(x)) \quad \text { for each } x \in \text { domain of } f
 $$
