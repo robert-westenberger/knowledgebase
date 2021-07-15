@@ -2,7 +2,7 @@
 title: Exponential and Logarithmic Functions
 description: 
 published: true
-date: 2021-07-15T17:28:21.723Z
+date: 2021-07-15T17:28:33.552Z
 tags: mathematics
 editor: markdown
 ---
@@ -71,4 +71,7 @@ b^{\log _{a} x \cdot \log _{b} a} &=\left(b^{\log _{b} a}\right)^{\log _{a} x} \
 &=x
 \end{aligned}
 $$
-This completes the proof. $\hspace {32em} \blacksquare$
+This completes the proof. 
+$$ 
+\hspace {32em} \blacksquare
+$$
