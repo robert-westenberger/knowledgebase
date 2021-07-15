@@ -2,7 +2,7 @@
 title: Real Valued Functions of a Real Variable and Their Graphs
 description: 
 published: true
-date: 2021-07-15T18:11:56.953Z
+date: 2021-07-15T18:12:28.139Z
 tags: 
 editor: markdown
 ---
@@ -48,7 +48,7 @@ When $x \geq 0$, the graph of $A$ is the same as the graph of $y=x$, the straigh
 Note that as you trace from left to right along the graph to the left of the origin, the height of the graph continually decreases. For this reason, the absolute value function is said to be **decreasing** on the set of real numbers less than $0$. On the other hand, as you trace from left to right along the graph to the right of the origin, the height of the graph continually increases. Consequently, the absolute value function is said to be **increasing** on the set of real numbers greater than $0$.
 
 ## Definition
-Let $f$ be a real-valued function defined on a set of real numbers, and suppose the domain of $f$ contains a set $S$. We say that $f$ is **increasing on the set** $S$ if, and only if,
+Let $f$ be a real-valued function defined on a set of real numbers, and suppose the domain of $f$ contains a set $S$. We say that $f$ is **increasing on the set** $\boldsymbol{S}$ if, and only if,
 for all real numbers $x_{1}$ and $x_{2}$ in $S$, if $x_{1}<x_{2}$ then $f\left(x_{1}\right)<f\left(x_{2}\right)$.
 We say that $f$ is decreasing on the set $S$ if, and only if,
 for all real numbers $x_{1}$ and $x_{2}$ in $S$, if $x_{1}<x_{2}$ then $f\left(x_{1}\right)>f\left(x_{2}\right)$.
