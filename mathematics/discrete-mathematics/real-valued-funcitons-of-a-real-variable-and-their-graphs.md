@@ -2,7 +2,7 @@
 title: Real Valued Functions of a Real Variable and Their Graphs
 description: 
 published: true
-date: 2021-07-15T18:04:35.177Z
+date: 2021-07-15T18:07:44.744Z
 tags: 
 editor: markdown
 ---
@@ -28,3 +28,18 @@ Let $f$ be a real-valued function of a real variable and let $M$ be any real num
 $$
 (M f)(x)=M \cdot(f(x)) \quad \text { for each } x \in \text { domain of } f
 $$
+
+# Increasing and Decreasing Functions
+
+Consider the absolute value function, $A$, defined as follows: 
+$$
+\begin{array}{l}
+A(x)=|x|=\left\{\begin{aligned}
+x & \text { if } x \geq 0 \\
+-x & \text { if } x<0
+\end{aligned}\right.\\
+\text { for each real number } x
+\end{array}
+$$
+
+When $x \geq 0$, the graph of $A$ is the same as the graph of $y=x$, the straight line with slope 1 that passes through the origin $(0,0)$. For $x<0$, the graph of $A$ is the same as the graph of $y=-x$, which is the straight line with slope $-1$ that passes through $(0,0) .$ (See below graph of absolute value function)
