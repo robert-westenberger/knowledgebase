@@ -2,7 +2,7 @@
 title: Real Valued Functions of a Real Variable and Their Graphs
 description: 
 published: true
-date: 2021-07-15T18:01:24.528Z
+date: 2021-07-15T18:01:28.540Z
 tags: 
 editor: markdown
 ---
@@ -22,4 +22,4 @@ F(x)&=\lfloor x\rfloor \\
 $$
 
 # Graph of a Multiple of a Function
-A multiple of a function is obtained by multiplying every value of the function by a fixed number. To understand the concept of $O$ -notation, it is helpful to understand the relation between the graph of a function and the graph of a multiple of the function.
+A **multiple** of a function is obtained by multiplying every value of the function by a fixed number. To understand the concept of $O$ -notation, it is helpful to understand the relation between the graph of a function and the graph of a multiple of the function.
