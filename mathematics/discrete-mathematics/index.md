@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-07-14T17:35:48.774Z
+date: 2021-07-15T17:49:33.182Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -51,6 +51,7 @@ Recursive Data Types
 ## Number Theory and Cryptography
 
 ## Algorithmic Analysis
+[Real-Valued Functions of a Real Variable and Their Graphs](/mathematics/discrete-mathematics/real-valued-funcitons-of-a-real-variable-and-their-graphs)
 [Analysis of Algorithm Efficiency](/mathematics/discrete-mathematics/analysis-of-algorithm-efficiency)
 ## Graphs
 [Graphs](/mathematics/discrete-mathematics/graphs)
