@@ -2,7 +2,7 @@
 title: Real Valued Functions of a Real Variable and Their Graphs
 description: 
 published: true
-date: 2021-07-15T17:55:13.698Z
+date: 2021-07-15T17:55:13.699Z
 tags: 
 editor: markdown
 ---
