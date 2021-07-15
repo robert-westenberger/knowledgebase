@@ -2,7 +2,7 @@
 title: Real Valued Functions of a Real Variable and Their Graphs
 description: 
 published: true
-date: 2021-07-15T18:07:44.744Z
+date: 2021-07-15T18:09:30.512Z
 tags: 
 editor: markdown
 ---
@@ -43,3 +43,6 @@ x & \text { if } x \geq 0 \\
 $$
 
 When $x \geq 0$, the graph of $A$ is the same as the graph of $y=x$, the straight line with slope 1 that passes through the origin $(0,0)$. For $x<0$, the graph of $A$ is the same as the graph of $y=-x$, which is the straight line with slope $-1$ that passes through $(0,0) .$ (See below graph of absolute value function)
+![graph_of_absolute_value_function.png](/graph_of_absolute_value_function.png)
+
+Note as you trace from left to right along the graph to the left of the origin, the height of the graph continually **decreases**.
