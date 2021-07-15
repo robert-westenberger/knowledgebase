@@ -2,7 +2,7 @@
 title: Real Valued Functions of a Real Variable and Their Graphs
 description: 
 published: true
-date: 2021-07-15T18:12:28.139Z
+date: 2021-07-15T18:13:01.634Z
 tags: 
 editor: markdown
 ---
@@ -50,6 +50,6 @@ Note that as you trace from left to right along the graph to the left of the ori
 ## Definition
 Let $f$ be a real-valued function defined on a set of real numbers, and suppose the domain of $f$ contains a set $S$. We say that $f$ is **increasing on the set** $\boldsymbol{S}$ if, and only if,
 for all real numbers $x_{1}$ and $x_{2}$ in $S$, if $x_{1}<x_{2}$ then $f\left(x_{1}\right)<f\left(x_{2}\right)$.
-We say that $f$ is decreasing on the set $S$ if, and only if,
+We say that $f$ is **decreasing on the set** $\boldsymbol{S}$ if, and only if,
 for all real numbers $x_{1}$ and $x_{2}$ in $S$, if $x_{1}<x_{2}$ then $f\left(x_{1}\right)>f\left(x_{2}\right)$.
-We say that $f$ is an increasing (or decreasing) function if, and only if, $f$ is increasing (or decreasing) on its entire domain.
+We say that $f$ is an **increasing** (or **decreasing**) **function** if, and only if, $f$ is increasing (or decreasing) on its entire domain.
