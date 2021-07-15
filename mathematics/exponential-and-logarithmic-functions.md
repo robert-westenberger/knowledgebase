@@ -2,7 +2,7 @@
 title: Exponential and Logarithmic Functions
 description: 
 published: true
-date: 2021-07-15T17:24:03.327Z
+date: 2021-07-15T17:24:19.202Z
 tags: mathematics
 editor: markdown
 ---
