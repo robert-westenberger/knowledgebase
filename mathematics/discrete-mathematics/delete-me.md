@@ -2,7 +2,7 @@
 title: DELETE ME
 description: 
 published: true
-date: 2021-02-28T00:42:58.838Z
+date: 2021-07-16T20:10:57.772Z
 tags: 
 editor: markdown
 ---
@@ -75,3 +75,9 @@ editor: markdown
 #### Additional topics
 16. Generating funcs, buildind generating funcs, multiplication and partial sums
 17. intro to number theory, divisilibty, remainder classes, solving congruences
+
+
+
+
+
+
