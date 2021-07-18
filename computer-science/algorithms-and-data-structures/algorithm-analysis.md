@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T01:58:48.284Z
+date: 2021-07-18T02:03:01.237Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -177,3 +177,32 @@ A faster growing function **dominates** a slower growing one. When $f$ and $g$ b
 * **Exponential functions**, $f(n)=c^{n}$ for a given constant $c>1:$ Functions like $2^{n}$ arise when enumerating all subsets of $n$ items. As we have seen, exponential algorithms become useless fast, but not as fast as...
 
 * **Factorial functions**, $f(n)=n !:$ Functions like $n !$ arise when generating all permutations or orderings of $n$ items.
+
+$$
+n ! \gg 2^{n} \gg n^{3} \gg n^{2} \gg n \log n \gg n \gg \log n \gg 1
+$$
+
+# Adding Functions
+The sum of two functions is governed by the dominanat one. Namely :
+$$
+f(n)+g(n) \rightarrow \Theta(\max (f(n), g(n)))
+$$
+
+# Multiplying Functions
+$$
+\begin{aligned}
+O(c \cdot f(n)) & \rightarrow O(f(n)) \\
+\Omega(c \cdot f(n)) & \rightarrow \Omega(f(n)) \\
+\Theta(c \cdot f(n)) & \rightarrow \Theta(f(n))
+\end{aligned}
+$$
+
+Note that $c$ must be strictly positive. 
+
+$$
+\begin{aligned}
+O(f(n)) \cdot O(g(n)) & \rightarrow O(f(n) \cdot g(n)) \\
+\Omega(f(n)) \cdot \Omega(g(n)) & \rightarrow \Omega(f(n) \cdot g(n)) \\
+\Theta(f(n)) \cdot \Theta(g(n)) & \rightarrow \Theta(f(n) \cdot g(n))
+\end{aligned}
+$$
