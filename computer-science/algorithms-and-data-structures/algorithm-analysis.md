@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T00:48:57.310Z
+date: 2021-07-18T01:40:00.604Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -130,4 +130,4 @@ $f(n)=3 n^{2}-100 n+6=\Theta\left(n^{2}\right)$, because both $O$ and $\Omega$ a
 $f(n)=3 n^{2}-100 n+6 \neq \Theta\left(n^{3}\right)$, because only $O$ applies;
 $f(n)=3 n^{2}-100 n+6 \neq \Theta(n)$, because only $\Omega$ applies.
 
-
+# Growth Rates 
