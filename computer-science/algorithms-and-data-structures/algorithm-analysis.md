@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-15T18:54:51.205Z
+date: 2021-07-18T00:42:35.272Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -49,6 +49,19 @@ Intuitively, the definition that $f(x)$ is $O(g(x))$ says that $f(x)$ grows slow
 
 We are not concerned with small values of $n$ (anything to the left of $n_0$ in the graphs).
 
+
+## General Procedure for finding Big $\Omega$ for a polynomial function
+Let $m$ be a nonnegative integer, let $P(n)$ be a polynomial of degree $m$, and suppose the coefficient $a_{m}$ of $n^{m}$ is positive. To find big-Omega for $P(n)$ : Let $A=\frac{1}{2} a_{m}$, and let $a$ be the number obtained as follows:
+1. Find the sum of the absolute values of all the coefficients of $P(n)$ except for $a_{m}$.
+2. Multiply the result of step 1 by $\frac{2}{a_{m}}$.
+3. Let $a$ be the larger of the number 1 and the result of step 2 .
+Show that $A n^{m} \leq P(n)$ for every integer $n \geq a$.
+
+### Example: Show $n^{4}-5 n-8$ is $\Omega\left(n^{4}\right)$
+Observe the coefficient of the highest power is $1$ and the sum of the absolute values of its other coefficients is $13$. Thus, we would take 
+$$
+A=\frac{1}{2} \quad \text { and } \quad a=\frac{2}{1}(|-5|+|-8|)
+$$
 ## Relation among $\mathbf{O}$-, $\mathbf{\Omega}-$, and $\Theta$- Notations
 If $f$ and $g$ are real-valued functions defined on the same set of nonnegative integers, and if $f(n) \geq 0$ and $g(n) \geq 0$ for every integer $n \geq r$, where $r$ is a positive real number,
 then $f(n)$ is $\Theta(g(n))$ if, and only if, $f(n)$ is $\Omega(g(n))$ and $f(n)$ is $O(g(n))$.
