@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T01:41:02.890Z
+date: 2021-07-18T01:45:09.092Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -131,3 +131,24 @@ $f(n)=3 n^{2}-100 n+6 \neq \Theta\left(n^{3}\right)$, because only $O$ applies;
 $f(n)=3 n^{2}-100 n+6 \neq \Theta(n)$, because only $\Omega$ applies.
 
 # Growth Rates and Dominance Relations
+$$
+\begin{array}{|l||l|l|l|l|l|l|}
+\hline n & \lg n & n & n \lg n & n^{2} & 2^{n} & n ! \\
+\hline 10 & 0.003 \mu \mathrm{s} & 0.01 \mu \mathrm{s} & 0.033 \mu \mathrm{s} & 0.1 \mu \mathrm{s} & 1 \mu \mathrm{s} & 3.63 \mathrm{~ms} \\
+20 & 0.004 \mu \mathrm{s} & 0.02 \mu \mathrm{s} & 0.086 \mu \mathrm{s} & 0.4 \mu \mathrm{s} & 1 \mathrm{~ms} & 77.1 \text { years } \\
+30 & 0.005 \mu \mathrm{s} & 0.03 \mu \mathrm{s} & 0.147 \mu \mathrm{s} & 0.9 \mu \mathrm{s} & 1 \mathrm{sec} & 8.4 \times 10^{15} \mathrm{yrs} \\
+40 & 0.005 \mu \mathrm{s} & 0.04 \mu \mathrm{s} & 0.213 \mu \mathrm{s} & 1.6 \mu \mathrm{s} & 18.3 \mathrm{~min} & \\
+50 & 0.006 \mu \mathrm{s} & 0.05 \mu \mathrm{s} & 0.282 \mu \mathrm{s} & 2.5 \mu \mathrm{s} & 13 \text { days } & \\
+\hline 100 & 0.007 \mu \mathrm{s} & 0.1 \mu \mathrm{s} & 0.644 \mu \mathrm{s} & 10 \mu \mathrm{s} & 4 \times 10^{13} \mathrm{yrs} & \\
+1,000 & 0.010 \mu \mathrm{s} & 1.00 \mu \mathrm{s} & 9.966 \mu \mathrm{s} & 1 \mathrm{~ms} & & \\
+10,000 & 0.013 \mu \mathrm{s} & 10 \mu \mathrm{s} & 130 \mu \mathrm{s} & 100 \mathrm{~ms} & & \\
+100,000 & 0.017 \mu \mathrm{s} & 0.10 \mathrm{~ms} & 1.67 \mathrm{~ms} & 10 \mathrm{sec} & & \\
+1,000,000 & 0.020 \mu \mathrm{s} & 1 \mathrm{~ms} & 19.93 \mathrm{~ms} & 16.7 \mathrm{~min} & & \\
+10,000,000 & 0.023 \mu \mathrm{s} & 0.01 \mathrm{sec} & 0.23 \mathrm{sec} & 1.16 \text { days } & & \\
+100,000,000 & 0.027 \mu \mathrm{s} & 0.10 \mathrm{sec} & 2.66 \mathrm{sec} & 115.7 \text { days } & & \\
+1,000,000,000 & 0.030 \mu \mathrm{s} & 1 \mathrm{sec} & 29.90 \mathrm{sec} & 31.7 \text { years } & & \\
+\hline
+\end{array}
+$$
+
+Above: Running times of common funcitons measured in nanoseconds. The function $\lg n$ denotes the base-2 logarithm of $n$.
