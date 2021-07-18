@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T00:48:42.784Z
+date: 2021-07-18T00:48:57.310Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -100,9 +100,7 @@ $$
 n^{4}-5 n-8 \geq A n^{4} \quad \text { for every integer } n \geq a
 $$
 
-and so by definition of $\Omega$-notation, $$
-n^{4}-5 n-8 \text { is } \Omega\left(n^{4}\right)
-$$.
+and so by definition of $\Omega$-notation, $n^{4}-5 n-8$ is $\Omega\left(n^{4}\right)$.
 ## Relation among $\mathbf{O}$-, $\mathbf{\Omega}-$, and $\Theta$- Notations
 If $f$ and $g$ are real-valued functions defined on the same set of nonnegative integers, and if $f(n) \geq 0$ and $g(n) \geq 0$ for every integer $n \geq r$, where $r$ is a positive real number,
 then $f(n)$ is $\Theta(g(n))$ if, and only if, $f(n)$ is $\Omega(g(n))$ and $f(n)$ is $O(g(n))$.
