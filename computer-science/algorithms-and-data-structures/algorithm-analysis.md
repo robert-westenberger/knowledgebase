@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T01:52:03.602Z
+date: 2021-07-18T01:58:48.284Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -159,3 +159,21 @@ Multiplicative constants are discarded with Big Oh Notation. $f(n)=0.001 n^{2}$ 
 Big Oh groups functions into a set of classes, such that all functions within a particular class are essentially equivalent. Functions $f(n)=$ $0.34 n$ and $g(n)=234,234 n$ belong in the same class, namely those that are order $\Theta(n)$. Furthermore, when two functions $f$ and $g$ belong to different classes, they are different with respect to our notation, meaning either $f(n)=O(g(n))$ or $g(n)=O(f(n))$, but not both.
 
 A faster growing function **dominates** a slower growing one. When $f$ and $g$ belong to different classes (i.e. $f(n) \neq \Theta(g(n)))$, we say $g$ dominates $f$ when $f(n)=O(g(n))$. This is sometimes written $g \gg f$.
+
+## Orders of Dominance
+
+* **Constant functions**, $f(n)=1:$ Such functions might measure the cost of adding two numbers, printing out "The Star Spangled Banner," or the growth realized by functions such as $f(n)=\min (n, 100)$. In the big picture, there is no dependence on the parameter $n .$
+
+* **Logarithmic functions**, $f(n)=\log n$ : Logarithmic time complexity shows up in algorithms such as binary search. Such functions grow quite slowly as $n$ gets big, but faster than the constant function (which is standing still, after all). 
+
+* **Linear functions**, $f(n)=n:$ Such functions measure the cost of looking at each item once (or twice, or ten times) in an $n$ -element array, say to identify the biggest item, the smallest item, or compute the average value.
+
+* **Superlinear functions**, $f(n)=n \lg n:$ This important class of functions arises in such algorithms as quicksort and mergesort. They grow just a little faster than linear, but enough so to rise to a higher dominance class.
+
+* **Quadratic functions**, $f(n)=n^{2}:$ Such functions measure the cost of looking at most or all pairs of items in an $n$ -element universe. These arise in algorithms such as insertion sort and selection sort.
+
+* **Cubic functions**, $f(n)=n^{3}:$ Such functions enumerate all triples of items in an $n$ -element universe. These also arise in certain dynamic programming algorithms.
+
+* **Exponential functions**, $f(n)=c^{n}$ for a given constant $c>1:$ Functions like $2^{n}$ arise when enumerating all subsets of $n$ items. As we have seen, exponential algorithms become useless fast, but not as fast as...
+
+* **Factorial functions**, $f(n)=n !:$ Functions like $n !$ arise when generating all permutations or orderings of $n$ items.
