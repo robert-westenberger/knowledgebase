@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T02:03:01.237Z
+date: 2021-07-18T02:06:17.431Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -182,13 +182,17 @@ $$
 n ! \gg 2^{n} \gg n^{3} \gg n^{2} \gg n \log n \gg n \gg \log n \gg 1
 $$
 
-# Adding Functions
+# Working with Big Oh
+## Adding Functions
 The sum of two functions is governed by the dominanat one. Namely :
 $$
 f(n)+g(n) \rightarrow \Theta(\max (f(n), g(n)))
 $$
 
-# Multiplying Functions
+## Multiplying Functions
+Multiplying a function by a constant cannot affect its asymptotic behavior, because we can multiply the bounding constants in the Big Oh analysis to account for it: 
+
+
 $$
 \begin{aligned}
 O(c \cdot f(n)) & \rightarrow O(f(n)) \\
@@ -199,6 +203,7 @@ $$
 
 Note that $c$ must be strictly positive. 
 
+When two functions in a product are increasing, both are important. An $O(n ! \log n)$ function dominates $n !$ by just as much as $\log n$ dominates 1. In general: 
 $$
 \begin{aligned}
 O(f(n)) \cdot O(g(n)) & \rightarrow O(f(n) \cdot g(n)) \\
@@ -206,3 +211,5 @@ O(f(n)) \cdot O(g(n)) & \rightarrow O(f(n) \cdot g(n)) \\
 \Theta(f(n)) \cdot \Theta(g(n)) & \rightarrow \Theta(f(n) \cdot g(n))
 \end{aligned}
 $$
+
+# Reasoning About Efficiency
