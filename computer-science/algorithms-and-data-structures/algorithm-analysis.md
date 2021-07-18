@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T00:42:35.272Z
+date: 2021-07-18T00:48:42.784Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -58,10 +58,51 @@ Let $m$ be a nonnegative integer, let $P(n)$ be a polynomial of degree $m$, and 
 Show that $A n^{m} \leq P(n)$ for every integer $n \geq a$.
 
 ### Example: Show $n^{4}-5 n-8$ is $\Omega\left(n^{4}\right)$
-Observe the coefficient of the highest power is $1$ and the sum of the absolute values of its other coefficients is $13$. Thus, we would take 
+Observe the coefficient of the highest power is $1$ and the sum of the absolute values of its other coefficients is $|-5|+|-8| = 13$. Thus, we would take 
 $$
 A=\frac{1}{2} \quad \text { and } \quad a=\frac{2}{1}(|-5|+|-8|)
 $$
+
+and note that 
+
+$$
+a=\frac{2}{1}(|-5|+|-8|)=26, \quad \text { which is greater than }
+$$
+
+Requiring $n \ge a$ means that 
+$$
+n \geq \frac{2}{1}(|-5|+|-8|)
+$$
+and multiplying both sides by $\frac{1}{2} n^{3}$ gives
+
+$$
+\begin{aligned}
+\frac{1}{2} n^{4} & \geq(|-5|+|-8|) n^{3} \\
+&=5 n^{3}+8 n^{3} \\
+& \geq 5 n+8 \quad \text { because } n \geq 1 \text { and so } 5 n^{3} \geq 5 n \text { and } 8 n^{3} \geq 8 .
+\end{aligned}
+$$
+
+Hence, by transitivity of order and equality, 
+
+$$
+\frac{1}{2} n^{4} \geq 5 n+8 \quad \text { for every integer } n \geq a
+$$
+
+Subtracting the right-hand side from the left-hand side and adding $\frac{1}{2} n^{4}$ to both sides gives  
+
+$$
+n^{4}-5 n-8 \geq \frac{1}{2} n^{4} \quad \text { for every integer } n \geq a \text { . }
+$$
+
+Thus since $A=\frac12$, 
+$$
+n^{4}-5 n-8 \geq A n^{4} \quad \text { for every integer } n \geq a
+$$
+
+and so by definition of $\Omega$-notation, $$
+n^{4}-5 n-8 \text { is } \Omega\left(n^{4}\right)
+$$.
 ## Relation among $\mathbf{O}$-, $\mathbf{\Omega}-$, and $\Theta$- Notations
 If $f$ and $g$ are real-valued functions defined on the same set of nonnegative integers, and if $f(n) \geq 0$ and $g(n) \geq 0$ for every integer $n \geq r$, where $r$ is a positive real number,
 then $f(n)$ is $\Theta(g(n))$ if, and only if, $f(n)$ is $\Omega(g(n))$ and $f(n)$ is $O(g(n))$.
