@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T01:45:09.092Z
+date: 2021-07-18T01:52:03.602Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -152,3 +152,10 @@ $$
 $$
 
 Above: Running times of common funcitons measured in nanoseconds. The function $\lg n$ denotes the base-2 logarithm of $n$.
+
+## Dominance Relations
+Multiplicative constants are discarded with Big Oh Notation. $f(n)=0.001 n^{2}$ and $g(n)=1000 n^{2}$ are treated identically in big oh. 
+
+Big Oh groups functions into a set of classes, such that all functions within a particular class are essentially equivalent. Functions $f(n)=$ $0.34 n$ and $g(n)=234,234 n$ belong in the same class, namely those that are order $\Theta(n)$. Furthermore, when two functions $f$ and $g$ belong to different classes, they are different with respect to our notation, meaning either $f(n)=O(g(n))$ or $g(n)=O(f(n))$, but not both.
+
+A faster growing function **dominates** a slower growing one. When $f$ and $g$ belong to different classes (i.e. $f(n) \neq \Theta(g(n)))$, we say $g$ dominates $f$ when $f(n)=O(g(n))$. This is sometimes written $g \gg f$.
