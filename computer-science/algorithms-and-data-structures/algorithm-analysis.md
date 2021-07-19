@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-18T02:06:17.431Z
+date: 2021-07-19T18:52:55.988Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -213,3 +213,10 @@ O(f(n)) \cdot O(g(n)) & \rightarrow O(f(n) \cdot g(n)) \\
 $$
 
 # Reasoning About Efficiency
+## Example: Selection Sort
+<pre>
+void selection_sort(item_type s[], int n) {
+	int i, j; /* counters */
+	int min; /* index of minimum */
+  for (i = 0; i < n; i++) {
+</pre>
