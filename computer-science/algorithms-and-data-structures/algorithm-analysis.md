@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-19T18:54:59.011Z
+date: 2021-07-19T18:56:06.149Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -219,7 +219,7 @@ void selection_sort(item_type s[], int n) {
 	int i, j; /* counters */
 	int min; /* index of minimum */
   
-  	for (i = 0; i < n; i++) {
+  	for (i = 0; i < n; i++) { /* Goes around n times */
 		min = i;
   		for (j = i + 1; j < n; j++) {
 			if (s[j] < s[min]) {
