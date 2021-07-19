@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-19T18:56:06.149Z
+date: 2021-07-19T19:15:37.481Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -221,7 +221,7 @@ void selection_sort(item_type s[], int n) {
   
   	for (i = 0; i < n; i++) { /* Goes around n times */
 		min = i;
-  		for (j = i + 1; j < n; j++) {
+  		for (j = i + 1; j < n; j++) { /* Goes around n - (i+1) times, where i is the index of the outer loop*/
 			if (s[j] < s[min]) {
 				min = j;
 			}
@@ -231,3 +231,18 @@ void selection_sort(item_type s[], int n) {
 }
 
 </pre>
+
+In the above algorithm, the number of times the if statement is executed is given by 
+
+$$T(n)=\sum_{i=0}^{n-1} \sum_{j=i+1}^{n-1} 1=\sum_{i=0}^{n-1} n-i-1$$
+
+
+What this sum is doing is adding up the non-negative integers in decreasing order starting from $n-1$, which is
+
+$$
+T(n)=(n-1)+(n-2)+(n-3)+\ldots+2+1
+$$
+
+This yields $T(n) \approx(n-1) n / 2=O\left(n^{2}\right)$
+
+### Example: 
