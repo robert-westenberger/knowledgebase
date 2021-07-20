@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-20T17:13:08.626Z
+date: 2021-07-20T17:17:10.253Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -244,3 +244,5 @@ T(n)=(n-1)+(n-2)+(n-3)+\ldots+2+1
 $$
 
 This yields $T(n) \approx(n-1) n / 2=O\left(n^{2}\right)$
+
+# Summation Formulae
