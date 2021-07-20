@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-20T17:17:30.290Z
+date: 2021-07-20T17:24:24.113Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -245,3 +245,20 @@ $$
 
 This yields $T(n) \approx(n-1) n / 2=O\left(n^{2}\right)$
 
+# Classes of Summation Formulae
+## Sum of a Power of Integers
+In general, 
+
+$$
+S(n, p)=\sum_{i=1}^{n} i^{p}=\Theta\left(n^{p+1}\right)
+$$
+
+for $p \ge 0$. Thus, the sum of squares is cubic, and the sum of cubes if quartic, and so on. 
+
+For $p \lt -1$, this sum $S(n,p)$ always converges to a constant as $n \rightarrow \infty$, while for $p \ge 0$ it diverges. The interesting case between these is the Harmonic numbers, $H(n)=\sum_{i=1}^{n} 1 / i=\Theta(\log n)$.
+
+## Sum of a Geometric Progression
+In geometric progerssions, the index of the loop affecst the exponent, that is, 
+$$
+G(n, a)=\sum_{i=0}^{n} a^{i}=\left(a^{n+1}-1\right) /(a-1)
+$$
