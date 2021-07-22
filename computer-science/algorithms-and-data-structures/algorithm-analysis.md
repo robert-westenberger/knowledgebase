@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-22T18:44:41.242Z
+date: 2021-07-22T18:54:26.958Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -265,3 +265,28 @@ $$
 
 # Logarithms
 See [Logarithms](/computer-science/algorithms-and-data-structures/logarithms)
+# Limits and Dominance Relations
+We say that $f(n)$ **dominates** $g(n)$ if $\lim _{n \rightarrow \infty} g(n) / f(n)=0$.
+
+
+
+## Example
+Suppose $f(n)=2 n^{2}$ and $g(n)=n^{2}$. Clearly $f(n)>g(n)$ for all $n$, but it does not dominate since
+$$
+\lim _{n \rightarrow \infty} \frac{g(n)}{f(n)}=\lim _{n \rightarrow \infty} \frac{n^{2}}{2 n^{2}}=\lim _{n \rightarrow \infty} \frac{1}{2} \neq 0
+$$
+This is to be expected because both functions are in the class $\Theta\left(n^{2}\right) .$ What about $f(n)=n^{3}$ and $g(n)=n^{2} ?$ Since
+$$
+\lim _{n \rightarrow \infty} \frac{g(n)}{f(n)}=\lim _{n \rightarrow \infty} \frac{n^{2}}{n^{3}}=\lim _{n \rightarrow \infty} \frac{1}{n}=0
+$$
+
+the higher-degree polynomial dominates. This is true for any two polynomials, that is, $n^{a}$ dominates $n^{b}$ if $a>b$ since
+$$
+\lim _{n \rightarrow \infty} \frac{n^{b}}{n^{a}}=\lim _{n \rightarrow \infty} n^{b-a} \rightarrow 0
+$$
+Thus, $n^{1.2}$ dominates $n^{1.1999999}$. Now consider two exponential functions, say $f(n)=3^{n}$ and $g(n)=2^{n}$. Since
+$$
+\lim _{n \rightarrow \infty} \frac{g(n)}{f(n)}=\frac{2^{n}}{3^{n}}=\lim _{n \rightarrow \infty}\left(\frac{2}{3}\right)^{n}=0
+$$
+
+the exponential with the higher base dominates. 
