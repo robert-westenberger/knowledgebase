@@ -2,7 +2,7 @@
 title: Logarithms
 description: 
 published: true
-date: 2021-07-22T17:07:22.661Z
+date: 2021-07-22T17:42:58.612Z
 tags: mathematics, algorithms
 editor: markdown
 ---
@@ -12,6 +12,7 @@ A **logarithm** is simply an inverse exponential function. Saying $b^{x}=y$ is e
 Logarithms arise in any process where things are repeatedly halved.
 
 # Properties of Logarithms
+## Important Bases
 Three bases are of particular importance for mathematical and historical reasons:
 * Base $b=2$ : The binary logarithm, usually denoted $\lg x$, is a base 2 logarithm. We have seen how this base arises whenever repeated halving (i.e., binary search) or doubling (i.e., nodes in trees) occurs. Most algorithmic applications of logarithms imply binary logarithms.
 * Base $b=e:$ The natural logarithm, usually denoted $\ln x$, is a base $e=$ $2.71828 \ldots$ logarithm. The inverse of $\ln x$ is the exponential function $\exp (x)=e^{x}$ on your calculator. Thus, composing these functions gives us the identity function,
@@ -20,6 +21,9 @@ $$
 $$
 
 * Base $b=10$ : Less common today is the base- 10 or common logarithm, usually denoted as $\log x$. This base was employed in slide rules and logarithm books in the days before pocket calculators.
+
+## Important Properties
+* $\log _{a}(x y)=\log _{a}(x)+\log _{a}(y)$ - 
 # Logarithms, Trees, and Bits
 ![tree_fig.png](/tree_fig.png)
 A height $h$ tree with $d$ children per node has $d^{h}$ leaves. Here $h=3$ and $d=3$ (left). The number of bit patterns grows exponentially with pattern length (right). These would be described by the root-to-leaf paths of a binary tree of height $h=3$.
