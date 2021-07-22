@@ -2,7 +2,7 @@
 title: Logarithms
 description: 
 published: true
-date: 2021-07-22T16:30:29.410Z
+date: 2021-07-22T16:35:42.271Z
 tags: mathematics, algorithms
 editor: markdown
 ---
@@ -33,4 +33,13 @@ $$
 so the problem is reduced to one multiplication plus one call to each of these functions.
 
 # Fast Exponentiation
-Logarithms can be used to quickly give an exact computation of the value of $a^n$. 
+Logarithms can be used to quickly give an exact computation of the value of $a^n$. The simplest algorithm performs $n-1$ multiplications, by computing $a \times a \times$ $\ldots \times a .$ However, we can do better by observing that $n=\lfloor n / 2\rfloor+\lceil n / 2\rceil .$ If $n$ is even, then $a^{n}=\left(a^{n / 2}\right)^{2}$. If $n$ is odd, then $a^{n}=a\left(a^{\lfloor n / 2\rfloor}\right)^{2}$. In either case, we have halved the size of our exponent at the cost of, at most, two multiplications, so $O(\lg n)$ multiplications suffice to compute the final value.
+
+<pre>
+function power(a, n)
+	if (n = 0) return(1)
+	x = power(a,  n/2 )
+	if (n is even) then return(x2)
+		else return(a   x2)
+</pre>
+
