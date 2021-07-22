@@ -2,7 +2,7 @@
 title: Logarithms
 description: 
 published: true
-date: 2021-07-22T17:42:58.612Z
+date: 2021-07-22T17:45:49.584Z
 tags: mathematics, algorithms
 editor: markdown
 ---
@@ -23,7 +23,7 @@ $$
 * Base $b=10$ : Less common today is the base- 10 or common logarithm, usually denoted as $\log x$. This base was employed in slide rules and logarithm books in the days before pocket calculators.
 
 ## Important Properties
-* $\log _{a}(x y)=\log _{a}(x)+\log _{a}(y)$ - 
+* **Product Rule** - $\log _{a}(x y)=\log _{a}(x)+\log _{a}(y)$ - 
 # Logarithms, Trees, and Bits
 ![tree_fig.png](/tree_fig.png)
 A height $h$ tree with $d$ children per node has $d^{h}$ leaves. Here $h=3$ and $d=3$ (left). The number of bit patterns grows exponentially with pattern length (right). These would be described by the root-to-leaf paths of a binary tree of height $h=3$.
