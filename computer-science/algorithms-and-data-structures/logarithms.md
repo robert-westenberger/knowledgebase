@@ -2,15 +2,17 @@
 title: Logarithms
 description: 
 published: true
-date: 2021-07-22T16:38:08.069Z
+date: 2021-07-22T17:04:14.826Z
 tags: mathematics, algorithms
 editor: markdown
 ---
 
-A **logarithm** is simply an inverse exponential function. Saying $b^{x}=y$ is equivalent to saying that $x=\log _{b} y .$ Further, this equivalence is the same as saying $b^{\log _{b} y}=y$
+A **logarithm** is simply an inverse exponential function. Saying $b^{x}=y$ is equivalent to saying that $x=\log _{b} y .$ Further, this equivalence is the same as saying $b^{\log _{b} y}=y$. (The $b$ term is known as the **base** of the logarithm).
 
 Logarithms arise in any process where things are repeatedly halved.
 
+# Properties of Logarithms
+Recall that 
 # Logarithms, Trees, and Bits
 ![tree_fig.png](/tree_fig.png)
 A height $h$ tree with $d$ children per node has $d^{h}$ leaves. Here $h=3$ and $d=3$ (left). The number of bit patterns grows exponentially with pattern length (right). These would be described by the root-to-leaf paths of a binary tree of height $h=3$.
@@ -45,3 +47,10 @@ function power(a, n)
 </pre>
 
 # Logarithms and Summations
+The **Harmonic numbers** arise as a special case of a sum of a power of integers. They are the sum of the progerssion of simple reciprocals, namely, 
+
+$$
+H(n)=\sum_{i=1}^{n} 1 / i=\Theta(\log n)
+$$
+
+Harmonic numbers are important because they usually explain "where the log comes from". For example, the key to analyzing the average-case complexity of quicksort is the summation $n \sum_{i=1}^{n} 1 / i$. 
