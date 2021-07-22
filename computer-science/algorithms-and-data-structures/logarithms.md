@@ -2,7 +2,7 @@
 title: Logarithms
 description: 
 published: true
-date: 2021-07-22T17:55:31.811Z
+date: 2021-07-22T17:57:55.648Z
 tags: mathematics, algorithms
 editor: markdown
 ---
@@ -25,6 +25,11 @@ $$
 ## Important Properties
 * **Product Rule**  $\log _{a}(x y)=\log _{a}(x)+\log _{a}(y)$ - The log of a product is equal to the sum of the logs of its factors.
 * **Change of base rule**  $\log _{a} b=\frac{\log _{c} b}{\log _{c} a}$ - Changing the base of $\log b$ from base-$a$ to base-$c$ involves multiplying by $\log _{c} a$.
+
+## Algorithmic Application of these properties
+### The base of the logarithm has no real impact on the growth rate
+Compare the following three values: $\log _{2}(1,000,000)=19.9316, \log _{3}(1,000,000)=$
+12.5754, and $\log _{100}(1,000,000)=3$. A big change in the base of the logarithm produces little difference in the value of the log. Changing the base of the log from $a$ to $c$ involves multiplying by $\log _{c} a .$ This conversion factor is absorbed in the Big Oh notation whenever $a$ and $c$ are constants. Thus, we are usually justified in ignoring the base of the logarithm when analyzing algorithms.
 # Logarithms, Trees, and Bits
 ![tree_fig.png](/tree_fig.png)
 A height $h$ tree with $d$ children per node has $d^{h}$ leaves. Here $h=3$ and $d=3$ (left). The number of bit patterns grows exponentially with pattern length (right). These would be described by the root-to-leaf paths of a binary tree of height $h=3$.
