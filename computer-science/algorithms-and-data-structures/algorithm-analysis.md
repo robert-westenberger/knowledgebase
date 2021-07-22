@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2021-07-21T17:26:49.972Z
+date: 2021-07-22T18:44:41.242Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -262,3 +262,6 @@ In geometric progerssions, the index of the loop affecst the exponent, that is,
 $$
 G(n, a)=\sum_{i=0}^{n} a^{i}=\left(a^{n+1}-1\right) /(a-1)
 $$
+
+# Logarithms
+See [Logarithms](/computer-science/algorithms-and-data-structures/logarithms)
