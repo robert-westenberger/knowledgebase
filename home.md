@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-07-21T18:49:34.749Z
+date: 2021-07-22T18:51:28.691Z
 tags: 
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 [Todo](/todo)
 
 ## Diary
+**7-21** 10-12 Finished taking notes on ch 2 of Algorithm Design Manual 3rd Edition (Skiena). Tomorrow, do some ch 2 exercises.
 **7-21** 10-12 Tomorrow, continue notes on logarithms (algorithm design manual 2.7)
 **6-29** 10-12 Did execises in rosen 9.2 (n-ary relations) and rosen 9.3 (representing relations). Tomorrow, continue from 7 in 9.3
 **6-28** 11-1 Did execises on counting relations.. tomorrow finish off rosen discrete math 7th 9.1 #47b
