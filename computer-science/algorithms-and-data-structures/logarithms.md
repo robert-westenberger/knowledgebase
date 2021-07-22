@@ -2,7 +2,7 @@
 title: Logarithms
 description: 
 published: true
-date: 2021-07-22T17:57:55.648Z
+date: 2021-07-22T17:58:48.652Z
 tags: mathematics, algorithms
 editor: markdown
 ---
@@ -30,6 +30,18 @@ $$
 ### The base of the logarithm has no real impact on the growth rate
 Compare the following three values: $\log _{2}(1,000,000)=19.9316, \log _{3}(1,000,000)=$
 12.5754, and $\log _{100}(1,000,000)=3$. A big change in the base of the logarithm produces little difference in the value of the log. Changing the base of the log from $a$ to $c$ involves multiplying by $\log _{c} a .$ This conversion factor is absorbed in the Big Oh notation whenever $a$ and $c$ are constants. Thus, we are usually justified in ignoring the base of the logarithm when analyzing algorithms.
+### Logarithms cut any function down to size
+The growth rate of the logarithm of any polynomial function is $O(\lg n)$. This follows because
+$$
+\log _{a} n^{b}=b \cdot \log _{a} n
+$$
+The effectiveness of binary search on a wide range of problems is a consequence of this observation. Note that performing a binary search on a sorted array of $n^{2}$ things requires only twice as many comparisons as a binary search on $n$ things.
+
+Logarithms efficiently cut any function down to size. It is hard to do arithmetic on factorials except after taking logarithms, since
+$$
+n !=\prod_{i=1}^{n} i \rightarrow \log n !=\sum_{i=1}^{n} \log i=\Theta(n \log n)
+$$
+provides another way logarithms pop up in algorithm analysis.
 # Logarithms, Trees, and Bits
 ![tree_fig.png](/tree_fig.png)
 A height $h$ tree with $d$ children per node has $d^{h}$ leaves. Here $h=3$ and $d=3$ (left). The number of bit patterns grows exponentially with pattern length (right). These would be described by the root-to-leaf paths of a binary tree of height $h=3$.
