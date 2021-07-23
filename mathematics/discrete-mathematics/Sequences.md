@@ -2,7 +2,7 @@
 title: Sequences
 description: 
 published: true
-date: 2021-07-23T18:38:32.922Z
+date: 2021-07-23T18:59:42.361Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -44,3 +44,29 @@ $$
 for $n=2,3,4, \ldots$.
 
 An explicit formula for the terms of a sequence, called a **closed formula**, solves a recurrence relation together with it's initial conditions.
+
+### Example of Iteration for finding closed formula for a recurrence relation
+Let $\left\{a_{n}\right\}$ be a sequence that satisfies the recurrence relation $a_{n}=a_{n-1}+3$ for $n=1,2,3, \ldots$, and suppose that $a_{1}=2$. 
+
+Starting with the initial condition $a_{1}=2$, and working upward until we reach $a_{n}$ to deduce a closed formula for the sequence. We see that
+$$
+\begin{aligned}
+a_{2} &=2+3 \\
+a_{3} &=(2+3)+3=2+3 \cdot 2 \\
+a_{4} &=(2+2 \cdot 3)+3=2+3 \cdot 3 \\
+& \dots \\
+a_{n} &=a_{n-1}+3=(2+3 \cdot(n-2))+3=2+3(n-1) .
+\end{aligned}
+$$
+
+We can also work in the opposite direction, starting from $a_n$ and working downwards.
+
+$$
+\begin{aligned}
+a_{n} &=a_{n-1}+3 \\
+&=\left(a_{n-2}+3\right)+3=a_{n-2}+3 \cdot 2 \\
+&=\left(a_{n-3}+3\right)+3 \cdot 2=a_{n-3}+3 \cdot 3 \\
+& \dots \\
+&=a_{2}+3(n-2)=\left(a_{1}+3\right)+3(n-2)=2+3(n-1) .
+\end{aligned}
+$$
