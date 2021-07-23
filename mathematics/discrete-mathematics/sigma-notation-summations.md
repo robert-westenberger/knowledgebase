@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-23T19:30:10.030Z
+date: 2021-07-23T19:44:39.114Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -32,3 +32,12 @@ Here, the index of summation runs through all integers with its **lower limit** 
 
 ## Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
+
+### Example
+Suppose we have the sum 
+$$\sum_{j=1}^{5} j^{2}$$
+but want the index of summation to run between $0$ and $4$ rather than $1$ to $5$. To do this, we let $k=j-1$. Then the new summation index runs from 0 (because $k=1-0=0$ when $j=1$ ) to 4 (because $k=5-1=4$ when $j=5$ ), and the term $j^{2}$ becomes $(k+1)^{2}$. Hence,
+$$
+\sum_{j=1}^{5} j^{2}=\sum_{k=0}^{4}(k+1)^{2}
+$$
+
