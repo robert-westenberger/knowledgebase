@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-23T19:15:38.613Z
+date: 2021-07-23T19:18:21.672Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -22,4 +22,10 @@ $$
 a_{m}+a_{m+1}+\cdots+a_{n}
 $$
 
-Above, the variable $j$ is called the **index of summation**.
+Above, the variable $j$ is called the **index of summation**. The choice of $j$ is arbitrary, we could have used any letter, such as $i$ or $k$.. 
+
+$$
+\sum_{j=m}^{n} a_{j}=\sum_{i=m}^{n} a_{i}=\sum_{k=m}^{n} a_{k}
+$$
+
+Here, the index of summation runs through all integers with its **lower limit** $m$ and ending with its **upper limit** $n$.
