@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-23T19:28:05.257Z
+date: 2021-07-23T19:30:10.030Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -31,4 +31,4 @@ $$
 Here, the index of summation runs through all integers with its **lower limit** $m$ and ending with its **upper limit** $n$.
 
 ## Shifting the Index of Summation
-Sometimes its useful to shift the index of summation in a sum.
+Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
