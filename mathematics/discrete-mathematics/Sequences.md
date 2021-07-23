@@ -2,26 +2,25 @@
 title: Sequences
 description: 
 published: true
-date: 2021-04-09T18:22:43.947Z
+date: 2021-07-23T18:15:22.737Z
 tags: discrete-mathematics
 editor: markdown
 ---
 
 # Sequences
-A sequence is a list of objects called its components, members, or elements. 
-Short sequences are typically described by listing the elements between parentheses, for example $(a,b,c)$ is a sequence that has $3$ elements.
+
+A **sequence** is a function from a subset of the set of integers (usually either the set $\{0,1,2, \ldots\}$ or the set $\{1,2,3, \ldots\})$ to a set $S$. We use the notation $a_{n}$ to denote the image of the integer $n$. We call $a_{n}$ a term of the sequence.
 
 Unlike sets, the elements in a sequence can be **duplicate** and they have a particular **order**. 
 
-Texts differ on the notation of an empty sequence, but a common one is $\lambda$.
 
-Sequences also can be combined with a **Cartesian Product** just like sets. For example, $\mathbb{N} \times\{a, b\}$ is the set of all pairs whose first element is a nonnegative integer and whose second element is an $a$ or a $b$.
+## Geometric Progression
+A **geometric progression** is a sequence of the form
+$$
+a, a r, a r^{2}, \ldots, a r^{n}, \ldots
+$$
+where the **initial term** $a$ and the **common ratio** $r$ are real numbers.
 
-$$
-\mathbb{N} \times\{a, b\}=\{(0, a),(0, b),(1, a),(1, b),(2, a),(2, b), \ldots\}
-$$
 
-A product of $n$ copies of a set $S$ is denoted $S^n$. For example, $\{0,1\}^{3}$ is the set of all $3$-bit sequences:
-$$
-\{0,1\}^{3}=\{(0,0,0),(0,0,1),(0,1,0),(0,1,1),(1,0,0),(1,0,1),(1,1,0),(1,1,1)\}
-$$
+
+
