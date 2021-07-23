@@ -2,7 +2,7 @@
 title: Sigma Notation
 description: 
 published: true
-date: 2021-03-06T23:25:37.190Z
+date: 2021-07-23T17:40:17.996Z
 tags: mathematics
 editor: markdown
 ---
