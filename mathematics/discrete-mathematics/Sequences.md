@@ -2,7 +2,7 @@
 title: Sequences
 description: 
 published: true
-date: 2021-07-23T18:29:54.791Z
+date: 2021-07-23T18:38:32.922Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -43,3 +43,4 @@ f_{n}=f_{n-1}+f_{n-2}
 $$
 for $n=2,3,4, \ldots$.
 
+An explicit formula for the terms of a sequence, called a **closed formula**, solves a recurrence relation together with it's initial conditions.
