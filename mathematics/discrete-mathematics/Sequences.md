@@ -2,7 +2,7 @@
 title: Sequences
 description: 
 published: true
-date: 2021-07-23T18:18:52.752Z
+date: 2021-07-23T18:20:58.973Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -11,7 +11,7 @@ A **sequence** is a function from a subset of the set of integers (usually eithe
 
 Unlike sets, the elements in a sequence can be **duplicate** and they have a particular **order**. 
 
-
+Sequences of the form $a_{1}, a_{2}, \ldots, a_{n}$ are often used in computer science. These finite sequences are also called **strings**. This string is also denoted by $a_{1} a_{2} \ldots a_{n} .$  The **length** of a string is the number of terms in this string. The empty string, denoted by $\lambda$, is the string that has no terms. The empty string has length zero.
 # Geometric Progression
 A **geometric progression** is a sequence of the form
 $$
