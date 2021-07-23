@@ -2,7 +2,7 @@
 title: Sequences
 description: 
 published: true
-date: 2021-07-23T18:24:22.264Z
+date: 2021-07-23T18:29:54.791Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -33,4 +33,13 @@ where the **initial term** $a$ and the **common difference** $d$ are real number
 It is a discrete analogue of the linear function $f(x)=dx+a$.
 
 ## Recurrence Relations
-A recurrence relation for the sequence $\left\{a_{n}\right\}$ is an equation that expresses $a_{n}$ in terms of one or more of the previous terms of the sequence, namely, $a_{0}, a_{1}, \ldots, a_{n-1}$, for all integers $n$ with $n \geq n_{0}$, where $n_{0}$ is a nonnegative integer. A sequence is called a solution of a recurrence relation if its terms satisfy the recurrence relation.
+A **recurrence relation** for the sequence $\left\{a_{n}\right\}$ is an equation that expresses $a_{n}$ in terms of one or more of the previous terms of the sequence, namely, $a_{0}, a_{1}, \ldots, a_{n-1}$, for all integers $n$ with $n \geq n_{0}$, where $n_{0}$ is a nonnegative integer. A sequence is called a **solution** of a recurrence relation if its terms satisfy the recurrence relation.
+
+The **initial conditions** for a recursively defined sequence specify the terms that precede the first term where the recurrence relation takes effect.
+
+For example, the Fibonacci sequence, $f_{0}, f_{1}, f_{2}, \ldots$, is defined by the initial conditions $f_{0}=0, f_{1}=1$, and the recurrence relation
+$$
+f_{n}=f_{n-1}+f_{n-2}
+$$
+for $n=2,3,4, \ldots$.
+
