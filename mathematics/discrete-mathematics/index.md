@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2021-07-15T17:49:33.182Z
+date: 2021-07-23T17:55:20.874Z
 tags: computer-science, mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -39,6 +39,7 @@ State machines
 [Sets](/mathematics/discrete-mathematics/sets)
 [Sequences](/mathematics/discrete-mathematics/Sequences)
 [Functions](/mathematics/discrete-mathematics/functions)
+[Summations](/mathematics/discrete-mathematics/sigma-notation-summations)
 Recursive Data Types
 ### Relations
 [Relations](/mathematics/discrete-mathematics/relations)
