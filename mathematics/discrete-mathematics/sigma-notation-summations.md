@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-23T19:18:21.672Z
+date: 2021-07-23T19:28:05.257Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -29,3 +29,6 @@ $$
 $$
 
 Here, the index of summation runs through all integers with its **lower limit** $m$ and ending with its **upper limit** $n$.
+
+## Shifting the Index of Summation
+Sometimes its useful to shift the index of summation in a sum.
