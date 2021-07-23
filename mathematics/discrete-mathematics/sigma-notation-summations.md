@@ -1,9 +1,9 @@
 ---
-title: Sigma Notation
+title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-23T17:40:17.996Z
-tags: mathematics
+date: 2021-07-23T17:40:34.369Z
+tags: mathematics, discrete-mathematics
 editor: markdown
 ---
 
