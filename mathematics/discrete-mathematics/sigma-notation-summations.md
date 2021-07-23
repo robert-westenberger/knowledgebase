@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-23T19:15:14.833Z
+date: 2021-07-23T19:15:38.613Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -22,4 +22,4 @@ $$
 a_{m}+a_{m+1}+\cdots+a_{n}
 $$
 
-
+Above, the variable $j$ is called the **index of summation**.
