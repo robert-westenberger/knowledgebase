@@ -2,7 +2,7 @@
 title: Sequences
 description: 
 published: true
-date: 2021-07-23T18:59:42.361Z
+date: 2021-07-23T19:00:59.861Z
 tags: discrete-mathematics
 editor: markdown
 ---
@@ -48,6 +48,7 @@ An explicit formula for the terms of a sequence, called a **closed formula**, so
 ### Example of Iteration for finding closed formula for a recurrence relation
 Let $\left\{a_{n}\right\}$ be a sequence that satisfies the recurrence relation $a_{n}=a_{n-1}+3$ for $n=1,2,3, \ldots$, and suppose that $a_{1}=2$. 
 
+#### Forward Substitution
 Starting with the initial condition $a_{1}=2$, and working upward until we reach $a_{n}$ to deduce a closed formula for the sequence. We see that
 $$
 \begin{aligned}
@@ -59,6 +60,7 @@ a_{n} &=a_{n-1}+3=(2+3 \cdot(n-2))+3=2+3(n-1) .
 \end{aligned}
 $$
 
+#### Backward Substitution
 We can also work in the opposite direction, starting from $a_n$ and working downwards.
 
 $$
