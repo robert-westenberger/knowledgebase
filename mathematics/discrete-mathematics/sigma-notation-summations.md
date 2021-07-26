@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-26T18:36:50.036Z
+date: 2021-07-26T18:37:41.900Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -87,3 +87,4 @@ If $r=1$, then the $S_{n}=\sum_{j=0}^{n} a r^{j}=\sum_{j=0}^{n} a=(n+1) a$
 $$\hspace {32em} \blacksquare$$
 
 # Double Summations
+Arise in many contexts, such as the analysis of ensted loops in computer programs.
