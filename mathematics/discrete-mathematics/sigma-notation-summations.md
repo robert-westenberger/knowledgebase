@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-26T18:41:06.180Z
+date: 2021-07-26T18:44:04.359Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -90,3 +90,11 @@ $$\hspace {32em} \blacksquare$$
 Arise in many contexts, such as the analysis of ensted loops in computer programs.
  
 ## Evaluating a Double Summation
+
+$$
+\begin{aligned}
+\sum_{i=1}^{4} \sum_{j=1}^{3} i j &=\sum_{i=1}^{4}(i+2 i+3 i) \\
+&=\sum_{i=1}^{4} 6 i \\
+&=6+12+18+24=60 .
+\end{aligned}
+$$
