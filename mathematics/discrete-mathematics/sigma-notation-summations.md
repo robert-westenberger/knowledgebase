@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-26T18:37:41.900Z
+date: 2021-07-26T18:41:06.180Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -88,3 +88,5 @@ $$\hspace {32em} \blacksquare$$
 
 # Double Summations
 Arise in many contexts, such as the analysis of ensted loops in computer programs.
+ 
+## Evaluating a Double Summation
