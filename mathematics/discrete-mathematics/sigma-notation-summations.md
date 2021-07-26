@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-26T18:26:38.003Z
+date: 2021-07-26T18:31:28.924Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -41,7 +41,8 @@ $$
 \sum_{j=1}^{5} j^{2}=\sum_{k=0}^{4}(k+1)^{2}
 $$
 
-## Geometric Series
+## Formula for the Sum of Terms of a Geometric Progression
+Recall that sums of geometric progressions are called **geometric series**. 
 If $a$ and $r$ are real numbers and $r \neq 0$, then
 $$
 \sum_{j=0}^{n} a r^{j}=\left\{\begin{array}{ll}
