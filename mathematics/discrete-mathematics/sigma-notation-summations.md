@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-23T19:44:39.114Z
+date: 2021-07-26T18:26:38.003Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -39,5 +39,14 @@ $$\sum_{j=1}^{5} j^{2}$$
 but want the index of summation to run between $0$ and $4$ rather than $1$ to $5$. To do this, we let $k=j-1$. Then the new summation index runs from 0 (because $k=1-0=0$ when $j=1$ ) to 4 (because $k=5-1=4$ when $j=5$ ), and the term $j^{2}$ becomes $(k+1)^{2}$. Hence,
 $$
 \sum_{j=1}^{5} j^{2}=\sum_{k=0}^{4}(k+1)^{2}
+$$
+
+## Geometric Series
+If $a$ and $r$ are real numbers and $r \neq 0$, then
+$$
+\sum_{j=0}^{n} a r^{j}=\left\{\begin{array}{ll}
+\frac{a r^{n+1}-a}{r-1} & \text { if } r \neq 1 \\
+(n+1) a & \text { if } r=1
+\end{array}\right.
 $$
 
