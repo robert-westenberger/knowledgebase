@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-26T18:31:28.924Z
+date: 2021-07-26T18:36:08.196Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -51,3 +51,39 @@ $$
 \end{array}\right.
 $$
 
+### Proof
+Let 
+$$S_{n}=\sum_{j=0}^{n} a r^{j}$$
+
+To compute $S$, first multiply both sides of the equality by $r$ and then manipulate the resulting sum as follows:
+
+1. Substitute Summation formula for $S$
+$$r S_{n}=r \sum_{j=0}^{n} a r^{j}$$
+
+2. by the distributive property
+$$
+=\sum_{j=0}^{n} a r^{j+1}
+$$
+3. Shifting the index of summation, with $k=k+1$
+$$
+=\sum_{k=1}^{n+1} a r^{k}
+$$
+4. Removing $k=n+1$ term and adding $k=0$ term
+$$
+=\left(\sum_{k=0}^{n} a r^{k}\right)+\left(a r^{n+1}-a\right)
+$$
+5. Substituting $S$ for summation formula
+$$
+=S_{n}+\left(a r^{n+1}-a\right)
+$$
+
+From these equalities, we see that
+$$
+r S_{n}=S_{n}+\left(a r^{n+1}-a\right)
+$$
+Solving for $S_{n}$ shows that if $r \neq 1$, then
+$$
+S_{n}=\frac{a r^{n+1}-a}{r-1}
+$$
+If $r=1$, then the $S_{n}=\sum_{j=0}^{n} a r^{j}=\sum_{j=0}^{n} a=(n+1) a$
+$$\hspace {32em} \blacksquare$$
