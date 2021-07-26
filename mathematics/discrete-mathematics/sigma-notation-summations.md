@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-26T18:52:48.677Z
+date: 2021-07-26T18:55:01.144Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -101,3 +101,15 @@ $$
 $$
 
 # Some Useful Summation Formula
+
+$$
+\begin{array}{|l|c|}
+\hline \text { Sum } & \text { Closed Form } \\
+\hline \sum_{k=0}^{n} a r^{k}(r \neq 0) & \frac{a r^{n+1}-a}{r-1}, r \neq 1 \\
+\sum_{k=1}^{n} k & \frac{n(n+1)}{2} \\
+\sum_{k=1}^{n} k^{2} & \frac{n(n+1)(2 n+1)}{6} \\
+\sum_{k=1}^{n} k^{3} & \frac{n^{2}(n+1)^{2}}{4} \\
+\sum_{k=0}^{\infty} x^{k},|x|<1 & \frac{1}{1-x} \\
+\sum_{k=1}^{\infty} k x^{k-1},|x|<1 & \frac{1}{(1-x)^{2}}
+\end{array}
+$$
