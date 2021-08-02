@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-02T19:23:49.370Z
+date: 2021-08-02T19:24:37.167Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -118,3 +118,8 @@ $$
 ## Linearity
 For any real number $c$ and any finite sequences $a_{1}, a_{2}, \ldots, a_{n}$ and $b_{1}, b_{2}, \ldots, b_{n}$,
 $\sum_{k=1}^{n}\left(c a_{k}+b_{k}\right)=c \sum_{k=1}^{n} a_{k}+\sum_{k=1}^{n} b_{k} .$
+
+
+# Bounding Summations
+Here are some of the most frequently used methods for bounding the summations that describe the running times of algorithms.
+
