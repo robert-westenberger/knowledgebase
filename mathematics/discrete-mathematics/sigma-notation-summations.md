@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-07-26T19:03:27.720Z
+date: 2021-08-02T19:19:53.881Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -28,6 +28,10 @@ $$
 
 Here, the index of summation runs through all integers with its **lower limit** $m$ and ending with its **upper limit** $n$.
 
+# Summation Properties
+## Linearity
+For any real number $c$ and any finite sequences $a_{1}, a_{2}, \ldots, a_{n}$ and $b_{1}, b_{2}, \ldots, b_{n}$,
+$\sum_{k=1}^{n}\left(c a_{k}+b_{k}\right)=c \sum_{k=1}^{n} a_{k}+\sum_{k=1}^{n} b_{k} .$
 # Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
