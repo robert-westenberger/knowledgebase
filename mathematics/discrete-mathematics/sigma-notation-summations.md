@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-02T19:24:37.167Z
+date: 2021-08-03T17:09:06.866Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -120,6 +120,8 @@ For any real number $c$ and any finite sequences $a_{1}, a_{2}, \ldots, a_{n}$ a
 $\sum_{k=1}^{n}\left(c a_{k}+b_{k}\right)=c \sum_{k=1}^{n} a_{k}+\sum_{k=1}^{n} b_{k} .$
 
 
-# Bounding Summations
-Here are some of the most frequently used methods for bounding the summations that describe the running times of algorithms.
+# Splitting Summations
+$$
+\sum(A+B)=\left(\sum A\right)+\left(\sum B\right)
+$$
 
