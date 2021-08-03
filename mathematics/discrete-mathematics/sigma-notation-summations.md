@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-03T19:01:45.154Z
+date: 2021-08-03T19:02:25.832Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -157,6 +157,7 @@ $$
 $$
 
 # Manipulating Sums
+## Laws
 
 ## Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
