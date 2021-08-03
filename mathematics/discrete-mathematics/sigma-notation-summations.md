@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-03T17:46:58.963Z
+date: 2021-08-03T17:50:21.993Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -33,6 +33,18 @@ $$
 \sum_{1 \leqslant k \leqslant n} a_{k}
 $$
 Above, an inequality is used to specify the set of indices over which the summation should take place. 
+
+## Example of a General Sum and It's Delimited Equivalent
+For example, we can express the sum of squares of all odd positive integers below $100$ as follows: 
+
+$$
+\sum_{1 \leqslant k<100 \atop k \text { odd }} k^{2}
+$$
+
+The delimited equivalent is 
+$$
+\sum_{k=0}^{49}(2 k+1)^{2}
+$$
 # Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
