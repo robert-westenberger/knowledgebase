@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-03T18:09:33.589Z
+date: 2021-08-03T18:13:34.675Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -85,6 +85,14 @@ R_{n}=R_{n-1}+\beta+\gamma n, \quad \text { for } n>0 .
 $$
 
 We find $R_{1}=\alpha+\beta+\gamma, R_{2}=\alpha+2 \beta+3 \gamma$, and so on; in general the solution can be written in the form
+
+$$
+R_{n}=A(n) \alpha+B(n) \beta+C(n) \gamma
+$$
+
+where $A(n), B(n)$, and $C(n)$ are the coefficients of dependence on the general parameters $\alpha, \beta$, and $\gamma$.
+
+
 # Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
