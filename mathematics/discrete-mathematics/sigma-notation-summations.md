@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-03T18:05:59.168Z
+date: 2021-08-03T18:09:33.589Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -75,6 +75,16 @@ S_{n} &=S_{n-1}+a_{n}, \quad \text { for } n>0
 \end{aligned}
 $$
 
+If $a_n$ os equal to a constant plus a multiple of $n$, the recurrence above takes the following form: 
+
+$$
+\begin{array}{l}
+R_{0}=\alpha \\
+R_{n}=R_{n-1}+\beta+\gamma n, \quad \text { for } n>0 .
+\end{array}
+$$
+
+We find $R_{1}=\alpha+\beta+\gamma, R_{2}=\alpha+2 \beta+3 \gamma$, and so on; in general the solution can be written in the form
 # Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
