@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-03T18:04:44.354Z
+date: 2021-08-03T18:05:59.168Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -61,6 +61,19 @@ $$
 $$
 
 # Sums and Recurrences
+The sum
+$$
+\mathrm{S}_{\mathrm{n}}=\sum_{\mathrm{k}=0}^{\mathrm{n}} a_{\mathrm{k}}
+$$
+
+is equivalent to the recurrence
+
+$$
+\begin{aligned}
+S_{0} &=a_{0} ; \\
+S_{n} &=S_{n-1}+a_{n}, \quad \text { for } n>0
+\end{aligned}
+$$
 
 # Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
