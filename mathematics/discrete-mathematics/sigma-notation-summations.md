@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-03T18:13:34.675Z
+date: 2021-08-03T19:01:45.154Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -93,16 +93,7 @@ $$
 where $A(n), B(n)$, and $C(n)$ are the coefficients of dependence on the general parameters $\alpha, \beta$, and $\gamma$.
 
 
-# Shifting the Index of Summation
-Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
-## Example
-Suppose we have the sum 
-$$\sum_{j=1}^{5} j^{2}$$
-but want the index of summation to run between $0$ and $4$ rather than $1$ to $5$. To do this, we let $k=j-1$. Then the new summation index runs from 0 (because $k=1-0=0$ when $j=1$ ) to 4 (because $k=5-1=4$ when $j=5$ ), and the term $j^{2}$ becomes $(k+1)^{2}$. Hence,
-$$
-\sum_{j=1}^{5} j^{2}=\sum_{k=0}^{4}(k+1)^{2}
-$$
 
 # Formula for the Sum of Terms of a Geometric Progression
 Recall that sums of geometric progressions are called **geometric series**. 
@@ -165,7 +156,21 @@ $$
 \end{aligned}
 $$
 
-# Some Useful Summation Formula
+# Manipulating Sums
+
+## Shifting the Index of Summation
+Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
+
+### Example
+Suppose we have the sum 
+$$\sum_{j=1}^{5} j^{2}$$
+but want the index of summation to run between $0$ and $4$ rather than $1$ to $5$. To do this, we let $k=j-1$. Then the new summation index runs from 0 (because $k=1-0=0$ when $j=1$ ) to 4 (because $k=5-1=4$ when $j=5$ ), and the term $j^{2}$ becomes $(k+1)^{2}$. Hence,
+$$
+\sum_{j=1}^{5} j^{2}=\sum_{k=0}^{4}(k+1)^{2}
+$$
+
+
+## Some Useful Summation Formula
 
 $$
 \begin{array}{|c|c|}
@@ -180,12 +185,12 @@ $$
 \end{array}
 $$
 
-## Linearity
+### Linearity
 For any real number $c$ and any finite sequences $a_{1}, a_{2}, \ldots, a_{n}$ and $b_{1}, b_{2}, \ldots, b_{n}$,
 $\sum_{k=1}^{n}\left(c a_{k}+b_{k}\right)=c \sum_{k=1}^{n} a_{k}+\sum_{k=1}^{n} b_{k} .$
 
 
-# Splitting Summations
+## Splitting Summations
 $$
 \sum(A+B)=\left(\sum A\right)+\left(\sum B\right)
 $$
