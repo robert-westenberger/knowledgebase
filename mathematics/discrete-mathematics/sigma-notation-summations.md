@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-03T17:09:06.866Z
+date: 2021-08-03T17:38:49.628Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -26,7 +26,7 @@ $$
 \sum_{j=m}^{n} a_{j}=\sum_{i=m}^{n} a_{i}=\sum_{k=m}^{n} a_{k}
 $$
 
-Here, the index of summation runs through all integers with its **lower limit** $m$ and ending with its **upper limit** $n$.
+Here, the index of summation runs through all integers with its **lower limit** $m$ and ending with its **upper limit** $n$ (both inclusive).
 
 # Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
@@ -123,5 +123,10 @@ $\sum_{k=1}^{n}\left(c a_{k}+b_{k}\right)=c \sum_{k=1}^{n} a_{k}+\sum_{k=1}^{n} 
 # Splitting Summations
 $$
 \sum(A+B)=\left(\sum A\right)+\left(\sum B\right)
+$$
+
+For example
+$$
+\sum_{k=1}^{n}(k+2)=\left(\sum_{k=1}^{n} k\right)+\left(\sum_{k=1}^{n} 2\right)
 $$
 
