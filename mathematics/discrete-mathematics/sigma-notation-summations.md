@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T17:52:43.432Z
+date: 2021-08-04T18:04:15.325Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -176,6 +176,13 @@ Says we can reorder terms in any way we please.
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$, 
 $a_{-1}+a_{0}+a_{1}=a_{1}+a_{0}+a_{-1}$.
 
+### Interchanging the Order of Summation Law 
+This is a generalization of the associative law, for use in evaluating a sum of sums.
+
+$$
+\sum_{j} \sum_{k} a_{j, k}[P(j, k)]=\sum_{P(j, k)} a_{j, k}=\sum_{k} \sum_{j} a_{j, k}[P(j, k)]
+$$
+
 ### Use of the laws
 Suppose we want to compute the general sum of an arithmetic progression, 
 $$
@@ -286,7 +293,6 @@ $$
 \sum_{j}\left(\sum_{k} a_{j, k}[P(j, k)]\right)
 $$
 
-
 ## Evaluating a Double Summation
 To evaluate the double sum, first expand the inner summation and then continue by computing
 the outer summation:
@@ -297,3 +303,35 @@ $$
 &=6+12+18+24=60 .
 \end{aligned}
 $$
+
+## Another Double Summation example
+
+$$
+\begin{aligned}
+\sum_{1 \leqslant j, k \leqslant 3} a_{j} b_{k} &=\sum_{j, k} a_{j} b_{k}[1 \leqslant j, k \leqslant 3]=\sum_{j, k} a_{j} b_{k}[1 \leqslant j \leqslant 3][1 \leqslant k \leqslant 3] \\
+&=\sum_{j} \sum_{k} a_{j} b_{k}[1 \leqslant j \leqslant 3][1 \leqslant k \leqslant 3] \\
+&=\sum_{j} a_{j}[1 \leqslant j \leqslant 3] \sum_{k} b_{k}[1 \leqslant k \leqslant 3] \\
+&=\sum_{j} a_{j}[1 \leqslant j \leqslant 3]\left(\sum_{k} b_{k}[1 \leqslant k \leqslant 3]\right) \\
+&=\left(\sum_{j} a_{j}[1 \leqslant j \leqslant 3]\right)\left(\sum_{k} b_{k}[1 \leqslant k \leqslant 3]\right) \\
+&=\left(\sum_{j=1}^{3} a_{j}\right)\left(\sum_{k=1}^{3} b_{k}\right) .
+\end{aligned}
+$$
+
+First line denotes a sum of nine terms in no particular orer.
+
+Second line groups them in threes, $\left(a_{1} b_{1}+a_{1} b_{2}+a_{1} b_{3}\right)+\left(a_{2} b_{1}+a_{2} b_{2}+ \left.a_{2} b_{3}\right)+\left(a_{3} b_{1}+a_{3} b_{2}+a_{3} b_{3}\right)\right.$.
+
+The third line uses the distributive law to factor out the a's, since $a_{j}$ and $[1 \leqslant j \leqslant 3]$ do not depend on $k ;$ this gives $a_{1}\left(b_{1}+b_{2}+b_{3}\right)+a_{2}\left(b_{1}+b_{2}+b_{3}\right)+a_{3}\left(b_{1}+b_{2}+b_{3}\right) .$
+
+The fourth line is the same as the third, but with a redundant pair of parentheses thrown in so that the  fth line won't look so mysterious.
+
+The fifth line factors out $\left(b_{1}+b_{2}+b_{3}\right)$ that occurs for each value of $j:\left(a_{1}+a_{2}+a_{3}\right)\left(b_{1}+b_{2}+b_{3}\right)$
+The last line is just another way to write the previous line. 
+
+This method of derivation can be used to prove a general distributive law,
+
+$$
+\sum_{j \in J \atop k \in K} a_{j} b_{k}=\left(\sum_{j \in J} a_{j}\right)\left(\sum_{k \in K} b_{k}\right)
+$$
+
+valid for all sets of indices $J$ and $K$.
