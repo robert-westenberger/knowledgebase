@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T17:21:29.363Z
+date: 2021-08-04T17:23:00.333Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -217,6 +217,11 @@ so one sum is just the reversal of the other.
 The two equations can be added together using the associative law:
 $$
 2 S=\sum_{0 \leqslant k \leqslant n}((a+b k)+(a+b n-b k))=\sum_{0 \leqslant k \leqslant n}(2 a+b n)
+$$
+
+And we can now apply the distributive law and evaluate a trival sum:
+$$
+2 S=(2 a+\text { bn }) \sum_{0 \leqslant k \leqslant n} 1=(2 a+b n)(n+1)
 $$
 
 ## Shifting the Index of Summation
