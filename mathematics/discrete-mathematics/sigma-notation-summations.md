@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T17:15:11.585Z
+date: 2021-08-04T17:18:07.587Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -164,11 +164,19 @@ $$
 $$
 
 Allows us to move constants in and out of a $\Sigma$.
+
+If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
+$\mathrm{ca}_{-1}+\mathrm{ca}_{0}+\mathrm{ca}_{1}=\mathrm{c}\left(\mathrm{a}_{-1}+\mathrm{a}_{0}+\mathrm{a}_{1}\right)$
 ### Associative Law
 $$
 \sum_{\mathrm{k} \in \mathrm{K}}\left(a_{\mathrm{k}}+\mathrm{b}_{\mathrm{k}}\right)=\sum_{\mathrm{k} \in \mathrm{K}} a_{\mathrm{k}}+\sum_{\mathrm{k} \in \mathrm{K}} \mathrm{b}_{k}
 $$
 Allows us to break a $\Sigma$ intwo two parts, or to combine two $\Sigma$'s into one.
+
+If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
+
+$\left(a_{-1}+b_{-1}\right)+\left(a_{0}+b_{0}\right)+\left(a_{1}+b_{1}\right)$
+$\quad=\left(a_{-1}+a_{0}+a_{1}\right)+\left(b_{-1}+b_{0}+b_{1}\right)$
 ### Commutative Law
 $$
 \sum_{k \in K} a_{k}=\sum_{p(k) \in K} a_{p(k)}
@@ -176,6 +184,9 @@ $$
 
 Says we can reorder terms in any way we please. 
 
+
+If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$, 
+$a_{-1}+a_{0}+a_{1}=a_{1}+a_{0}+a_{-1}$.
 Suppose we want to compute the general sum of an arithmetic progression, 
 $$
 S=\sum_{0 \leqslant k \leqslant n}(a+b k)
@@ -186,7 +197,7 @@ $$
 S=\sum_{0 \leqslant n-k \leqslant n}(a+b(n-k))=\sum_{0 \leq k \leq n}(a+b n-b k)
 $$
 
-(Note that 
+Note that 
 
 $$
 \sum_{0 \leq k \leq n}(a+b k)=(a+0 \cdot b)+(a+1 \cdot b)+\cdots+(a+(n-1) \cdot b)+(a+n \cdot b)
@@ -200,8 +211,8 @@ $$
 +(a+(n-n) \cdot b)
 \end{array}
 $$
-)
 
+so one sum is just the reversal of the other.
 ## Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
