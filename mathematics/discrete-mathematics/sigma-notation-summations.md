@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T17:23:42.207Z
+date: 2021-08-04T17:42:40.610Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -270,3 +270,14 @@ $$
 \sum_{k=1}^{n}(k+2)=\left(\sum_{k=1}^{n} k\right)+\left(\sum_{k=1}^{n} 2\right)
 $$
 
+# Multiple Summations
+
+Terms of a sum may be specified by two or more indices. For example, here is a double sum of nine terms, goberned by two indices $j$ and $k$. 
+
+$$
+\begin{aligned}
+\sum_{1 \leqslant j, k \leqslant 3} a_{j} b_{k}=& a_{1} b_{1}+a_{1} b_{2}+a_{1} b_{3} \\
+&+a_{2} b_{1}+a_{2} b_{2}+a_{2} b_{3} \\
+&+a_{3} b_{1}+a_{3} b_{2}+a_{3} b_{3}
+\end{aligned}
+$$
