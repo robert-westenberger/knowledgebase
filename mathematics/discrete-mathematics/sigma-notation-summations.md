@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T17:42:40.610Z
+date: 2021-08-04T17:52:43.432Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -142,19 +142,7 @@ $$
 If $r=1$, then the $S_{n}=\sum_{j=0}^{n} a r^{j}=\sum_{j=0}^{n} a=(n+1) a$
 $$\hspace {32em} \blacksquare$$
 
-# Double Summations
-Arise in many contexts, such as the analysis of ensted loops in computer programs.
- 
-## Evaluating a Double Summation
-To evaluate the double sum, first expand the inner summation and then continue by computing
-the outer summation:
-$$
-\begin{aligned}
-\sum_{i=1}^{4} \sum_{j=1}^{3} i j &=\sum_{i=1}^{4}(i+2 i+3 i) \\
-&=\sum_{i=1}^{4} 6 i \\
-&=6+12+18+24=60 .
-\end{aligned}
-$$
+
 
 # Manipulating Sums
 ## Laws
@@ -279,5 +267,33 @@ $$
 \sum_{1 \leqslant j, k \leqslant 3} a_{j} b_{k}=& a_{1} b_{1}+a_{1} b_{2}+a_{1} b_{3} \\
 &+a_{2} b_{1}+a_{2} b_{2}+a_{2} b_{3} \\
 &+a_{3} b_{1}+a_{3} b_{2}+a_{3} b_{3}
+\end{aligned}
+$$
+
+The same notations and methods for single summations are used for multiple summations. Thus, if $\mathrm{P}(j, \mathrm{k})$ is a property of $\mathrm{j}$ and $\mathrm{k}$, the sum of all terms $a_{j, k}$ such that $P(j, k)$ is true can be written in two ways, one of which uses Iverson's convention and sums over all pairs of integers $j$ and $k$ :
+$$
+\sum_{\mathrm{P}(\mathrm{j}, \mathrm{k})} a_{j, k}=\sum_{j, k} a_{j, k}[\mathrm{P}(j, k)]
+$$
+
+## Sum of Sums
+Two $\Sigma$'s are used when we are talking about a sum of sums. For example,
+$$
+\sum_{j} \sum_{k} a_{j, k}[P(j, k)]
+$$
+is an abbreviation for 
+
+$$
+\sum_{j}\left(\sum_{k} a_{j, k}[P(j, k)]\right)
+$$
+
+
+## Evaluating a Double Summation
+To evaluate the double sum, first expand the inner summation and then continue by computing
+the outer summation:
+$$
+\begin{aligned}
+\sum_{i=1}^{4} \sum_{j=1}^{3} i j &=\sum_{i=1}^{4}(i+2 i+3 i) \\
+&=\sum_{i=1}^{4} 6 i \\
+&=6+12+18+24=60 .
 \end{aligned}
 $$
