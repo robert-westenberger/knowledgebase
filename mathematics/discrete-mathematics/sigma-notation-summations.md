@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T18:08:50.578Z
+date: 2021-08-04T18:25:21.670Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -176,13 +176,18 @@ Says we can reorder terms in any way we please.
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$, 
 $a_{-1}+a_{0}+a_{1}=a_{1}+a_{0}+a_{-1}$.
 
-### Interchanging the Order of Summation Law 
-This is a generalization of the associative law, for use in evaluating a sum of sums.
+### Interchanging the Order of Summation Law
+#### Vanilla version
+This is a generalization of the associative law, for use in evaluating a sum of sums. The vanilla version applies whenever the ranges of $j$ and $k$ are independent of eachother.
 
 $$
 \sum_{j} \sum_{k} a_{j, k}[P(j, k)]=\sum_{P(j, k)} a_{j, k}=\sum_{k} \sum_{j} a_{j, k}[P(j, k)]
 $$
 
+Another way to write the above is 
+$$
+\sum_{j \in J} \sum_{k \in K} a_{j, k}=\sum_{j \in J \atop k \in K} a_{j, k}=\sum_{k \in K} \sum_{j \in J} a_{j, k}
+$$
 ### Use of the laws
 Suppose we want to compute the general sum of an arithmetic progression, 
 $$
