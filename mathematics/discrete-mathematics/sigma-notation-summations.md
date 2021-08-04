@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T17:23:00.333Z
+date: 2021-08-04T17:23:42.207Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -224,6 +224,10 @@ $$
 2 S=(2 a+\text { bn }) \sum_{0 \leqslant k \leqslant n} 1=(2 a+b n)(n+1)
 $$
 
+Dividing by $2$, we have proved that 
+$$
+\sum_{k=0}^{n}(a+b k)=\left(a+\frac{1}{2} b n\right)(n+1)
+$$
 ## Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
