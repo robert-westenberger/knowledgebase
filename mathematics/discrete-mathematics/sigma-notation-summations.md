@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T17:18:07.587Z
+date: 2021-08-04T17:21:29.363Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -187,6 +187,8 @@ Says we can reorder terms in any way we please.
 
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$, 
 $a_{-1}+a_{0}+a_{1}=a_{1}+a_{0}+a_{-1}$.
+
+### Use of the laws
 Suppose we want to compute the general sum of an arithmetic progression, 
 $$
 S=\sum_{0 \leqslant k \leqslant n}(a+b k)
@@ -206,13 +208,17 @@ $$
 and 
 
 $$
-\begin{array}{c}
 \sum_{0 \leq k \leq n}(a+(n-k) b)=(a+(n-0) \cdot b)+(a+(n-1) \cdot b)+\cdots+(a+(n-(n-1)) \cdot b) \\
 +(a+(n-n) \cdot b)
-\end{array}
 $$
 
 so one sum is just the reversal of the other.
+
+The two equations can be added together using the associative law:
+$$
+2 S=\sum_{0 \leqslant k \leqslant n}((a+b k)+(a+b n-b k))=\sum_{0 \leqslant k \leqslant n}(2 a+b n)
+$$
+
 ## Shifting the Index of Summation
 Sometimes its useful to shift the index of summation in a sum. This is often done when two sums need to be added but their indices of summation do not match. When shifting an index of summation, it is important to make the appropriate changes in the corresponding summand. 
 
