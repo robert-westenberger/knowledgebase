@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-04T18:04:15.325Z
+date: 2021-08-04T18:08:50.578Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -293,18 +293,7 @@ $$
 \sum_{j}\left(\sum_{k} a_{j, k}[P(j, k)]\right)
 $$
 
-## Evaluating a Double Summation
-To evaluate the double sum, first expand the inner summation and then continue by computing
-the outer summation:
-$$
-\begin{aligned}
-\sum_{i=1}^{4} \sum_{j=1}^{3} i j &=\sum_{i=1}^{4}(i+2 i+3 i) \\
-&=\sum_{i=1}^{4} 6 i \\
-&=6+12+18+24=60 .
-\end{aligned}
-$$
-
-## Another Double Summation example
+## Double Summation example
 
 $$
 \begin{aligned}
@@ -335,3 +324,14 @@ $$
 $$
 
 valid for all sets of indices $J$ and $K$.
+
+## Double Summation Example 2
+To evaluate the double sum, first expand the inner summation and then continue by computing
+the outer summation:
+$$
+\begin{aligned}
+\sum_{i=1}^{4} \sum_{j=1}^{3} i j &=\sum_{i=1}^{4}(i+2 i+3 i) \\
+&=\sum_{i=1}^{4} 6 i \\
+&=6+12+18+24=60 .
+\end{aligned}
+$$
