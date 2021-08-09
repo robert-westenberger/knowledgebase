@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T19:08:02.887Z
+date: 2021-08-09T19:08:33.137Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -284,7 +284,7 @@ $$
 
 # Multiple Summations
 
-Terms of a sum may be specified by two or more indices. For example, here is a double sum of nine terms, goberned by two indices $j$ and $k$. 
+Terms of a sum may be specified by two or more indices. For example, here is a double sum of nine terms, governed by two indices $j$ and $k$. 
 
 $$
 \begin{aligned}
