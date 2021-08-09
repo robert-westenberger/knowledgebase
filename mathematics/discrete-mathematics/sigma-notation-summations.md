@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T19:12:41.335Z
+date: 2021-08-09T19:15:52.309Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -150,7 +150,7 @@ $$\hspace {32em} \blacksquare$$
 $$
 \sum_{\mathrm{k} \in \mathrm{K}} \mathrm{c} a_{k}=\mathrm{c} \sum_{\mathrm{k} \in \mathrm{K}} a_{k}
 $$
-
+or 
 $$
 \sum_{i=a}^{b} c f(i)=c \sum_{i=a}^{b} f(i)
 $$
