@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T18:57:40.214Z
+date: 2021-08-09T19:08:02.887Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -264,12 +264,6 @@ $$
 \hline
 \end{array}
 $$
-
-# Useful Summation Identities
-## Splitting a Sum
-$\sum_{i=a}^{b}(x+y)=\sum_{i=a}^{b} x+\sum_{i=a}^{b} y$
-## Adjusting Summation Bounds
-## Factoring out a Constant
 
 
 
