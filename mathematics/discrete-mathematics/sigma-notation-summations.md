@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T19:08:33.137Z
+date: 2021-08-09T19:11:02.769Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -146,11 +146,15 @@ $$\hspace {32em} \blacksquare$$
 
 # Manipulating Sums
 ## Laws
-### Distributive Law
+### Distributive Law (Factoring out constants)
 $$
 \sum_{\mathrm{k} \in \mathrm{K}} \mathrm{c} a_{k}=\mathrm{c} \sum_{\mathrm{k} \in \mathrm{K}} a_{k}
 $$
 
+$$
+\sum_{i=a}^{b} c f(i)=c \sum_{i=a}^{b} f(i)
+$$
+Note: $c$ is some constant.
 Allows us to move constants in and out of a $\Sigma$.
 
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
