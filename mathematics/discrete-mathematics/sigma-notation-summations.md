@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T19:11:02.769Z
+date: 2021-08-09T19:11:49.263Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -159,11 +159,11 @@ Allows us to move constants in and out of a $\Sigma$.
 
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
 $\mathrm{ca}_{-1}+\mathrm{ca}_{0}+\mathrm{ca}_{1}=\mathrm{c}\left(\mathrm{a}_{-1}+\mathrm{a}_{0}+\mathrm{a}_{1}\right)$
-### Associative Law
+### Associative Law (Splitting and combining sums)
 $$
 \sum_{\mathrm{k} \in \mathrm{K}}\left(a_{\mathrm{k}}+\mathrm{b}_{\mathrm{k}}\right)=\sum_{\mathrm{k} \in \mathrm{K}} a_{\mathrm{k}}+\sum_{\mathrm{k} \in \mathrm{K}} \mathrm{b}_{k}
 $$
-Allows us to break a $\Sigma$ intwo two parts, or to combine two $\Sigma$'s into one.
+Allows us to break a $\Sigma$ into two parts, or to combine two $\Sigma$'s into one.
 
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
 
