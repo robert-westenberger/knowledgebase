@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T19:11:49.263Z
+date: 2021-08-09T19:12:41.335Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -201,6 +201,11 @@ $$
 Here the sets $J, K(j), K^{\prime}$, and $J^{\prime}(k)$ must be related in such a way that
 $$
 [j \in J][k \in K(j)]=\left[k \in K^{\prime}\right]\left[j \in J^{\prime}(k)\right]
+$$
+
+## Adjusting Summation Bounds
+$$
+\sum_{i=a}^{b} f(x)=\sum_{i=0}^{b} f(x)-\sum_{i=0}^{a-1} f(x)
 $$
 ### Use of the laws
 Suppose we want to compute the general sum of an arithmetic progression, 
