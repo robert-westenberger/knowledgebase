@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T18:56:19.243Z
+date: 2021-08-09T18:57:40.214Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -265,7 +265,14 @@ $$
 \end{array}
 $$
 
-# 
+# Useful Summation Identities
+## Splitting a Sum
+$\sum_{i=a}^{b}(x+y)=\sum_{i=a}^{b} x+\sum_{i=a}^{b} y$
+## Adjusting Summation Bounds
+## Factoring out a Constant
+
+
+
 # Linearity
 For any real number $c$ and any finite sequences $a_{1}, a_{2}, \ldots, a_{n}$ and $b_{1}, b_{2}, \ldots, b_{n}$,
 $\sum_{k=1}^{n}\left(c a_{k}+b_{k}\right)=c \sum_{k=1}^{n} a_{k}+\sum_{k=1}^{n} b_{k} .$
