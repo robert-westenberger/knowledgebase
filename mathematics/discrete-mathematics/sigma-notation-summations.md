@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-10T17:09:21.714Z
+date: 2021-08-10T17:53:19.262Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -272,6 +272,7 @@ $$
 \begin{array}{|c|c|}
 \hline \text { Sum } & \text { Closed Form } \\
 \hline \sum_{k=0}^{n} a r^{k}(r \neq 0) & \frac{a r^{n+1}-a}{r-1}, r \neq 1 \\[1em]
+\sum_{k=1}^{n} c & cn \\[1em]
 \sum_{k=1}^{n} k & \frac{n(n+1)}{2} \\[1em]
 \sum_{k=1}^{n} k^{2} & \frac{n(n+1)(2 n+1)}{6} \\[1em]
 \sum_{k=1}^{n} k^{3} & \frac{n^{2}(n+1)^{2}}{4} \\[1em]
