@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-09T19:15:52.309Z
+date: 2021-08-10T16:58:59.930Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -163,6 +163,13 @@ $\mathrm{ca}_{-1}+\mathrm{ca}_{0}+\mathrm{ca}_{1}=\mathrm{c}\left(\mathrm{a}_{-1
 $$
 \sum_{\mathrm{k} \in \mathrm{K}}\left(a_{\mathrm{k}}+\mathrm{b}_{\mathrm{k}}\right)=\sum_{\mathrm{k} \in \mathrm{K}} a_{\mathrm{k}}+\sum_{\mathrm{k} \in \mathrm{K}} \mathrm{b}_{k}
 $$
+
+Or 
+
+$$
+\sum_{i=a}^{b}(x+y)=\sum_{i=a}^{b} x+\sum_{i=a}^{b} y
+$$
+
 Allows us to break a $\Sigma$ into two parts, or to combine two $\Sigma$'s into one.
 
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
