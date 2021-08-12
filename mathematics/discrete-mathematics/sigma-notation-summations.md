@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-10T17:53:19.262Z
+date: 2021-08-12T17:26:56.279Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -213,6 +213,12 @@ $$
 ## Adjusting Summation Bounds
 $$
 \sum_{i=a}^{b} f(x)=\sum_ {i=0}^{b} f(x)-\sum_{i=0}^{a-1} f(x)
+$$
+
+or 
+
+$$
+\sum_{n=s}^{t} f(n)=\sum_{n=s+p}^{t+p} f(n-p)
 $$
 ### Use of the laws
 Suppose we want to compute the general sum of an arithmetic progression, 
