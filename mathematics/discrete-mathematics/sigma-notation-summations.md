@@ -2,7 +2,7 @@
 title: Sigma Notation and Summations
 description: 
 published: true
-date: 2021-08-12T17:26:56.279Z
+date: 2021-08-13T18:22:17.907Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
@@ -333,6 +333,8 @@ $$
 \sum_{j}\left(\sum_{k} a_{j, k}[P(j, k)]\right)
 $$
 
+### General Strategy for finding closed form of a multiple summation
+Repeatedly convert the rightmost / "innermost" sum to closed form. Get the summations into a form where we can use common closed sum formulas. This can be done through distributivity (factor out constants), associativity (splitting and combiing sums), commutativity (reordering sums). 
 ## Double Summation example
 
 $$
