@@ -2,7 +2,7 @@
 title: Algorithm Correctness
 description: 
 published: true
-date: 2021-07-05T23:53:50.858Z
+date: 2021-08-22T01:07:12.232Z
 tags: algorithms
 editor: markdown
 ---
@@ -167,5 +167,3 @@ Each of the abstract structures can be broken down into smaller structures of th
   
 ## Proof by Contradiction
 [Types of Proofs](/mathematics/discrete-mathematics/types-of-proofs)
-
-## Estimation
