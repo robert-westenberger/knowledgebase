@@ -2,7 +2,7 @@
 title: Formulas and Identities
 description: Useful summation closed forms, laws, identities, and any relevant proofs
 published: true
-date: 2021-08-22T00:46:40.617Z
+date: 2021-08-22T00:47:22.833Z
 tags: mathematics
 editor: markdown
 ---
@@ -81,3 +81,20 @@ or
 
 $$
 \sum_{n=s}^{t} 
+
+# Useful Closed Forms
+
+
+$$
+\begin{array}{|c|c|}
+\hline \text { Sum } & \text { Closed Form } \\
+\hline \sum_{k=0}^{n} a r^{k}(r \neq 0) & \frac{a r^{n+1}-a}{r-1}, r \neq 1 \\[1em]
+\sum_{k=1}^{n} c & cn \\[1em]
+\sum_{k=1}^{n} k & \frac{n(n+1)}{2} \\[1em]
+\sum_{k=1}^{n} k^{2} & \frac{n(n+1)(2 n+1)}{6} \\[1em]
+\sum_{k=1}^{n} k^{3} & \frac{n^{2}(n+1)^{2}}{4} \\[1em]
+\sum_{k=0}^{\infty} x^{k},|x|<1 & \frac{1}{1-x} \\[1em]
+\sum_{k=1}^{\infty} k x^{k-1},|x|<1 & \frac{1}{(1-x)^{2}} \\
+\hline
+\end{array}
+$$
