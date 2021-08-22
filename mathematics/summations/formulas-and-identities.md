@@ -2,7 +2,7 @@
 title: Formulas and Identities
 description: Useful summation closed forms, laws, identities, and any relevant proofs
 published: true
-date: 2021-08-22T00:47:22.833Z
+date: 2021-08-22T00:49:06.512Z
 tags: mathematics
 editor: markdown
 ---
@@ -12,11 +12,12 @@ editor: markdown
 $$
 \sum_{\mathrm{k} \in \mathrm{K}} \mathrm{c} a_{k}=\mathrm{c} \sum_{\mathrm{k} \in \mathrm{K}} a_{k}
 $$
-or 
+$$\textbf{or}$$
+
 $$
 \sum_{i=a}^{b} c f(i)=c \sum_{i=a}^{b} f(i)
 $$
-Note: $c$ is some constant.
+**Note:** $c$ is some constant.
 Allows us to move constants in and out of a $\Sigma$.
 
 If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
@@ -26,7 +27,7 @@ $$
 \sum_{\mathrm{k} \in \mathrm{K}}\left(a_{\mathrm{k}}+\mathrm{b}_{\mathrm{k}}\right)=\sum_{\mathrm{k} \in \mathrm{K}} a_{\mathrm{k}}+\sum_{\mathrm{k} \in \mathrm{K}} \mathrm{b}_{k}
 $$
 
-Or 
+$$\textbf{or}$$
 
 $$
 \sum_{i=a}^{b}(x+y)=\sum_{i=a}^{b} x+\sum_{i=a}^{b} y
@@ -77,11 +78,11 @@ $$
 \sum_{i=a}^{b} f(x)=\sum_ {i=0}^{b} f(x)-\sum_{i=0}^{a-1} f(x)
 $$
 
-or 
+$$\textbf{or}$$
 
 $$
-\sum_{n=s}^{t} 
-
+\sum_{n=s}^{t} f(n)=\sum_{n=s+p}^{t+p} f(n-p)
+$$
 # Useful Closed Forms
 
 
