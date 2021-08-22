@@ -2,7 +2,7 @@
 title: Loop Invariants
 description: 
 published: true
-date: 2021-08-22T01:41:03.603Z
+date: 2021-08-22T02:04:41.447Z
 tags: computer-science, mathematics, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -20,9 +20,22 @@ that helps show that the algorithm is correct.
 
 ## Example: Insertion Sort
 
-Pseudocode of insertion sort:
+**Insertion Sort**
 <pre>
 <strong>Input:</strong> A sequence of <i>n</i> numbers  [a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>]
 <strong>Output:</strong> A permutation (reordering) [a<super>'</super><sub>1</sub>, a<super>'</super><sub>2</sub>, ..., a<super>'</super><sub>n</sub>] of the input sequence
 such that a<super>'</super><sub>1</sub> ≤ a<super>'</super><sub>2</sub> ≤ ... ≤ a<super>'</super><sub>n</sub>
 </pre>
+
+<pre>
+1 <strong>for</strong> j=2 <strong>to</strong> A.length
+2   key = A[j]
+3   // Insert A[j] into the sorted sequence A[1..j-1]
+4   i = j-1
+5   <strong>while</strong> i > 0 and A[i] > key
+6     A[i + 1] = A[i]
+7     i = i - 1
+8   A[i+1] = key
+</pre>
+
+For the above, 
