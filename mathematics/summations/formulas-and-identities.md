@@ -2,7 +2,7 @@
 title: Formulas and Identities
 description: Useful summation closed forms, laws, identities, and any relevant proofs
 published: true
-date: 2021-08-22T00:49:06.512Z
+date: 2021-08-22T00:50:09.268Z
 tags: mathematics
 editor: markdown
 ---
@@ -31,6 +31,12 @@ $$\textbf{or}$$
 
 $$
 \sum_{i=a}^{b}(x+y)=\sum_{i=a}^{b} x+\sum_{i=a}^{b} y
+$$
+
+$$\textbf{or}$$
+
+$$
+\sum(A+B)=\left(\sum A\right)+\left(\sum B\right)
 $$
 
 Allows us to break a $\Sigma$ into two parts, or to combine two $\Sigma$'s into one.
