@@ -2,7 +2,7 @@
 title: Loop Invariants
 description: 
 published: true
-date: 2021-08-22T01:26:23.960Z
+date: 2021-08-22T01:41:03.603Z
 tags: computer-science, mathematics, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -14,3 +14,15 @@ A **loop invariant** is a logical assertion that is true before and after each i
 * **Maintenance** If its true before an iteration, it remains true before the next iteration
 * **Termination** - When the loop terminates, the invariant gives us a useful property
 that helps show that the algorithm is correct.
+
+
+
+
+## Example: Insertion Sort
+
+Pseudocode of insertion sort:
+<pre>
+<strong>Input:</strong> A sequence of <i>n</i> numbers  [a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>]
+<strong>Output:</strong> A permutation (reordering) [a<super>'</super><sub>1</sub>, a<super>'</super><sub>2</sub>, ..., a<super>'</super><sub>n</sub>] of the input sequence
+such that a<super>'</super><sub>1</sub> ≤ a<super>'</super><sub>2</sub> ≤ ... ≤ a<super>'</super><sub>n</sub>
+</pre>
