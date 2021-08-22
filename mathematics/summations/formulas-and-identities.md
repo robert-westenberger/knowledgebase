@@ -2,12 +2,12 @@
 title: Formulas and Identities
 description: Useful summation closed forms, laws, identities, and any relevant proofs
 published: true
-date: 2021-08-22T00:45:16.214Z
+date: 2021-08-22T00:46:40.617Z
 tags: mathematics
 editor: markdown
 ---
 
-# Laws
+# Laws and Identities
 ## Distributive Law (Factoring out constants)
 $$
 \sum_{\mathrm{k} \in \mathrm{K}} \mathrm{c} a_{k}=\mathrm{c} \sum_{\mathrm{k} \in \mathrm{K}} a_{k}
@@ -38,7 +38,7 @@ If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
 
 $\left(a_{-1}+b_{-1}\right)+\left(a_{0}+b_{0}\right)+\left(a_{1}+b_{1}\right)$
 $\quad=\left(a_{-1}+a_{0}+a_{1}\right)+\left(b_{-1}+b_{0}+b_{1}\right)$
-## Commutative Law
+## Commutative Law (Reordering Terms)
 $$
 \sum_{k \in K} a_{k}=\sum_{p(k) \in K} a_{p(k)}
 $$
@@ -71,3 +71,13 @@ Here the sets $J, K(j), K^{\prime}$, and $J^{\prime}(k)$ must be related in such
 $$
 [j \in J][k \in K(j)]=\left[k \in K^{\prime}\right]\left[j \in J^{\prime}(k)\right]
 $$
+
+## Adjusting Summation Bounds
+$$
+\sum_{i=a}^{b} f(x)=\sum_ {i=0}^{b} f(x)-\sum_{i=0}^{a-1} f(x)
+$$
+
+or 
+
+$$
+\sum_{n=s}^{t} 
