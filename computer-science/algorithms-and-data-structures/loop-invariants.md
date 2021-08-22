@@ -2,7 +2,7 @@
 title: Loop Invariants
 description: 
 published: true
-date: 2021-08-22T02:04:41.447Z
+date: 2021-08-22T02:08:31.933Z
 tags: computer-science, mathematics, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -38,4 +38,8 @@ such that a<super>'</super><sub>1</sub> ≤ a<super>'</super><sub>2</sub> ≤ ..
 8   A[i+1] = key
 </pre>
 
-For the above, 
+For the above, the loop invariant would be
+$$
+\text{At the start of each iteration of the for loop of lines } 1-8\text{, the subarray} A[1 \ldots j-1] \text{consists of the elements originally in} A[1 \ldots j-1] \text{, but in sorted order.}
+$$
+At the start of each iteration of the for loop of lines $1-8$, the subarray $A[1 \ldots j-1]$ consists of the elements originally in $A[1 \ldots j-1]$, but in sorted order.
