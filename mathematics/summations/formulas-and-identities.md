@@ -2,7 +2,7 @@
 title: Formulas and Identities
 description: Useful summation closed forms, laws, identities, and any relevant proofs
 published: true
-date: 2021-08-22T00:50:09.268Z
+date: 2021-08-22T00:50:41.620Z
 tags: mathematics
 editor: markdown
 ---
