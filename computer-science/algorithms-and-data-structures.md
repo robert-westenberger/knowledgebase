@@ -2,7 +2,7 @@
 title: Algorithms and Data Structures
 description: 
 published: true
-date: 2021-08-23T19:02:57.799Z
+date: 2021-08-23T19:06:48.730Z
 tags: book-notes, index
 editor: markdown
 ---
@@ -15,3 +15,4 @@ editor: markdown
 RAM Model of Computation
 Big Oh Notation
 Orders of Dominance
+Divide & Conquer Algorithms
