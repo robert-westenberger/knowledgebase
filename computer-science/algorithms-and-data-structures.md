@@ -2,7 +2,7 @@
 title: Algorithms and Data Structures
 description: 
 published: true
-date: 2021-08-23T18:47:18.685Z
+date: 2021-08-23T19:02:57.799Z
 tags: book-notes, index
 editor: markdown
 ---
@@ -14,4 +14,4 @@ editor: markdown
 
 RAM Model of Computation
 Big Oh Notation
-
+Orders of Dominance
