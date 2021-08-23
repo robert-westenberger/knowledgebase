@@ -2,7 +2,7 @@
 title: Loop Invariants
 description: 
 published: true
-date: 2021-08-23T00:24:01.465Z
+date: 2021-08-23T00:28:08.561Z
 tags: computer-science, mathematics, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -45,5 +45,7 @@ $$
  
 **Properties of loop variant for insertion sort:**
 **Initialization:** Before the first iteration, when $j=2$. The subarray $A[1 \ldots j-1]$, consists of just the single element $A[1]$, which  is sorted (trivially), which shows that the loop invariant holds prior to the first iteration of the loop. 
+
 **Maintenance:** Informally, the body of the for loop works by moving $A[j-1], A[j-2], A[j-3]$, and so on by one position to the right until it finds the proper position for $A[j]$ (lines $4-7)$, at which point it inserts the value of $A[j]$ (line 8). The subarray $A[1 \ldots j]$ then consists of the elements originally in $A[1 \ldots j]$, but in sorted order. Incrementing $j$ for the next iteration of the for loop then preserves the loop invariant.
-**Termination:** Finally, we examine what happens when the loop terminates. The condition causing the for loop to terminate is that $j>A$.length $=n$. Because each loop iteration increases $j$ by 1 , we must have $j=n+1$ at that time. Substituting $n+1$ for $j$ in the wording of loop invariant, we have that the subarray $A[1 \ldots n]$ consists of the elements originally in $A[1 \ldots n]$, but in sorted order. Observing that the subarray $A[1 \ldots n]$ is the entire array, we conclude that the entire array is sorted. Hence, the algorithm is correct.
+
+**Termination:** The condition causing the **for** loop to terminate is that $j>A$.length $=n$. Because each loop iteration increases $j$ by 1 , we must have $j=n+1$ at that time. Substituting $n+1$ for $j$ in the wording of loop invariant, we have that the subarray $A[1 \ldots n]$ consists of the elements originally in $A[1 \ldots n]$, but in sorted order. Observing that the subarray $A[1 \ldots n]$ is the entire array, we conclude that the entire array is sorted. Hence, the algorithm is correct.
