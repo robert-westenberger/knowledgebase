@@ -2,7 +2,7 @@
 title: Algorithms and Data Structures
 description: 
 published: true
-date: 2021-08-23T19:29:43.052Z
+date: 2021-08-23T19:30:19.781Z
 tags: book-notes, index
 editor: markdown
 ---
@@ -14,6 +14,6 @@ editor: markdown
 
 TODO: Deprecate the above
 RAM Model of Computation
-Big Oh Notation
+[big-oh-notation](/computer-science/algorithms-and-data-structures/big-oh-notation)
+[divide-and-conquer-algorithms](/computer-science/algorithms-and-data-structures/divide-and-conquer-algorithms)
 Orders of Dominance
-Divide & Conquer Algorithms
