@@ -2,7 +2,7 @@
 title: Loop Invariants
 description: 
 published: true
-date: 2021-08-22T02:09:00.285Z
+date: 2021-08-23T00:23:22.473Z
 tags: computer-science, mathematics, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -42,3 +42,8 @@ For the above, the loop invariant would be
 $$
 \text{At the start of each iteration of the for loop of lines } 1-8\text{, the subarray} A[1 \ldots j-1] \\ \text{consists of the elements originally in} A[1 \ldots j-1] \text{, but in sorted order.}
 $$
+ 
+**Properties of loop variant for insertion sort:**
+**Initialization:** Before the first iteration, when $j=2$. The subarray $A[1 \ldots j-1]$, consists of just the single element $A[1]$, which  is sorted (trivially), which shows that the loop invariant holds prior to the first iteration of the loop. 
+**Maintenance:** Informally, the body of the for loop works by moving $A[j-1], A[j-2], A[j-3]$, and so on by one position to the right until it finds the proper position for $A[j]$ (lines $4-7)$, at which point it inserts the value of $A[j]$ (line 8). The subarray $A[1 \ldots j]$ then consists of the elements originally in $A[1 \ldots j]$, but in sorted order. Incrementing $j$ for the next iteration of the for loop then preserves the loop invariant.
+
