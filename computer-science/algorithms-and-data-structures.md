@@ -2,7 +2,7 @@
 title: Algorithms and Data Structures
 description: 
 published: true
-date: 2021-08-23T19:31:19.776Z
+date: 2021-08-23T19:31:47.531Z
 tags: book-notes, index
 editor: markdown
 ---
@@ -13,8 +13,7 @@ editor: markdown
 [Logarithms](/computer-science/algorithms-and-data-structures/logarithms)
 
 TODO: Deprecate the above
-RAM Model of Computation
-
+[RAM-model-of-computation](/computer-science/algorithms-and-data-structures/RAM-model-of-computation)
 [big-oh-notation](/computer-science/algorithms-and-data-structures/big-oh-notation)
 [divide-and-conquer-algorithms](/computer-science/algorithms-and-data-structures/divide-and-conquer-algorithms)
 Orders of Dominance
