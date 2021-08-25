@@ -2,7 +2,7 @@
 title: Formulas and Identities
 description: Useful summation closed forms, laws, identities, and any relevant proofs
 published: true
-date: 2021-08-22T00:50:41.620Z
+date: 2021-08-25T17:19:31.740Z
 tags: mathematics
 editor: markdown
 ---
@@ -45,6 +45,17 @@ If $\mathrm{K}=\{-1,0,+1\} \text { and if } p(\mathrm{k})=-\mathrm{k}$,
 
 $\left(a_{-1}+b_{-1}\right)+\left(a_{0}+b_{0}\right)+\left(a_{1}+b_{1}\right)$
 $\quad=\left(a_{-1}+a_{0}+a_{1}\right)+\left(b_{-1}+b_{0}+b_{1}\right)$
+### Special Note: Products and Quotients Can't Be Split!
+$$
+\sum_{i=i_{0}}^{n}\left(a_{i} b_{i}\right) \neq\left(\sum_{i=i}^{n} a_{i}\right)\left(\sum_{i=i_{0}}^{n} b_{i}\right)
+$$
+
+and
+
+$$
+\sum_{i=i_{0}}^{n} \frac{a_{i}}{b_{i}} \neq \frac{\sum_{i=i_{0}}^{n} a_{i}}{\sum_{i=i_{0}}^{n} b_{i}}
+$$
+
 ## Commutative Law (Reordering Terms)
 $$
 \sum_{k \in K} a_{k}=\sum_{p(k) \in K} a_{p(k)}
