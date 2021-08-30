@@ -2,7 +2,7 @@
 title: Properties of Logarithms
 description: 
 published: true
-date: 2021-08-30T18:08:22.280Z
+date: 2021-08-30T18:15:35.125Z
 tags: mathematics
 editor: markdown
 ---
