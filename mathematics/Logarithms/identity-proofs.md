@@ -2,12 +2,12 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-30T18:23:09.599Z
+date: 2021-08-30T18:30:19.467Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
 
-# Product Rule Proof
+# Product Rule
 $\log _{a}(x y)=\log _{a} x+\log _{a} y$
 
 Assume $\mathrm{m}=\log _{\mathrm{a}} \mathrm{x}$ and $\mathrm{n}=\log _{\mathrm{a}} \mathrm{y}$.
@@ -30,3 +30,7 @@ Substituting the values of $m$ and $n$ from our initial assumption:
 $$
 \log _{a} x y=\log _{a} x+\log _{a} y
 $$
+
+# Power Rule
+$\log _{a} x^{y}=y \log _{a} x$
+
