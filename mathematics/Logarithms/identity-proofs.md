@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-30T18:45:20.115Z
+date: 2021-08-30T18:46:37.166Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -47,3 +47,5 @@ $\log _{a} x^{y}=m y$
 Substitute $m$ from our initial assumption.
 
 $\log _{a} x^{y}=y \log _{a} x$
+# Change of Base Rule
+$\log _{a} x=\frac{\log _{b} x}{\log _{b} a}$
