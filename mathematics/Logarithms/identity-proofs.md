@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-31T18:15:19.772Z
+date: 2021-08-31T18:27:56.098Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -73,10 +73,15 @@ x^{\log _{b}(y)}=b^{\log _{b}(x) \log _{b}(y)}=b^{\log _{b}(y) \log _{b}(x)}=y^{
 $$
 
 # $\lceil\lg (n+1)\rceil=\lfloor\lg n\rfloor+1$
-
+(used the base 10 log here)
 To prove $\lceil\lg (n+1)\rceil=\lfloor\lg n\rfloor+1$, we need to consider the following four cases:
 
 **Case 1:** $x=1$
+$\lceil\lg (1+1)\rceil= 1 = \lfloor\lg 1\rfloor+1 = 1$
+
 **Case 2:** $x=2^k$ for some values $k \ge 1$
+$\lceil\lg (2^4+1)\rceil= 2 = \lfloor\lg 2^4\rfloor+1 = 2$
 **Case 3:** $2^k \lt x \lt 2^{k+1} - 1$ for some $k \ge 2$.
+$\lceil\lg (9+1)\rceil= 2 = \lfloor\lg 9\rfloor+1 = 2$
 **Case 4:** $x = 2^k -1$ for some $k \ge 2$.
+$\lceil\lg (7+1)\rceil= 1 = \lfloor\lg 7\rfloor+1 = 1$
