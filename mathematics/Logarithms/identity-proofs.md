@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-31T17:42:01.200Z
+date: 2021-08-31T17:54:28.866Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -51,3 +51,16 @@ $\log _{a} x^{y}=y \log _{a} x$
 $\log _{a} x=\frac{\log _{b} x}{\log _{b} a}$
 
 Assume $\mathrm{x}=\log _{\mathrm{a}} \mathrm{x}$, which is $a^x = x$ in exponent form.
+
+Now take $log_b$ of both sides.
+
+$\log _{b} a^{x}=\log _{b} x$
+$x \log _{b} a=\log _{b} x$
+$x=\frac{\log _{b} x}{\log _{b} a}$
+
+# $x^{\log _{b} y}=y^{\log _{b} x}$
+
+The log to the base $b$ of $x$ is defined as the number which, when $b$ is raised to this number, gives back $x$. 
+
+Since $x=b^{\log _{b}(x)}$ that means $x^{\log _{b}(y)}=\left(b^{\log _{b}(x)}\right)^{\log _{b}(y)}$.
+
