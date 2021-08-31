@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-31T17:54:28.866Z
+date: 2021-08-31T17:56:46.440Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -64,3 +64,10 @@ The log to the base $b$ of $x$ is defined as the number which, when $b$ is raise
 
 Since $x=b^{\log _{b}(x)}$ that means $x^{\log _{b}(y)}=\left(b^{\log _{b}(x)}\right)^{\log _{b}(y)}$.
 
+Applying the rule of exponents which is that $\left(s^{r}\right)^{t}=s^{r t}$, we get $\left(b^{\log _{b}(x)}\right)^{\log _{b}(y)}=b^{\log _{b}(x) \log _{b}(y)}$.
+
+Put all together, 
+
+$$
+x^{\log _{b}(y)}=b^{\log _{b}(x) \log _{b}(y)}=b^{\log _{b}(y) \log _{b}(x)}=y^{\log _{b}(x)}
+$$
