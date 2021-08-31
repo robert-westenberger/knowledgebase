@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-31T17:56:46.440Z
+date: 2021-08-31T18:06:48.079Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -71,3 +71,5 @@ Put all together,
 $$
 x^{\log _{b}(y)}=b^{\log _{b}(x) \log _{b}(y)}=b^{\log _{b}(y) \log _{b}(x)}=y^{\log _{b}(x)}
 $$
+
+# 
