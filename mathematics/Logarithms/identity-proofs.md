@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-31T18:43:44.279Z
+date: 2021-08-31T18:44:42.519Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -78,9 +78,7 @@ To prove $\lceil\lg (n+1)\rceil=\lfloor\lg n\rfloor+1$, we need to consider the 
 
 **Case 1:** $x=1$
 **Case 2:** $x=2^k$ for some values $k \ge 1$
-
 **Case 3:** $2^k \lt x \lt 2^{k+1} - 1$ for some $k \ge 2$.
-
 **Case 4:** $x = 2^k -1$ for some $k \ge 2$.
 
 
