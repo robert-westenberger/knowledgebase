@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-31T18:06:48.079Z
+date: 2021-08-31T18:12:09.264Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -72,4 +72,11 @@ $$
 x^{\log _{b}(y)}=b^{\log _{b}(x) \log _{b}(y)}=b^{\log _{b}(y) \log _{b}(x)}=y^{\log _{b}(x)}
 $$
 
-# 
+# $\lceil\lg (n+1)\rceil=\lceil\lg n]+1$
+
+To prove $\lceil\lg (n+1)\rceil=\lceil\lg n]+1$, we need to consider the following four cases:
+
+**Case 1:** $x=1$
+**Case 2:** $x=2^k$ for some values $k \ge 1$
+**Case 3:** $2^k \lt x \lt 2^{k+1} - 1$ for some $k \ge 2$.
+**Case 4:** $x = 2^k -1$ for some $k \ge 2$.
