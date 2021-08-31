@@ -2,7 +2,7 @@
 title: Logarithm Identity Proofs
 description: 
 published: true
-date: 2021-08-30T18:46:37.166Z
+date: 2021-08-31T17:42:01.200Z
 tags: mathematics, proof-writing
 editor: markdown
 ---
@@ -49,3 +49,5 @@ Substitute $m$ from our initial assumption.
 $\log _{a} x^{y}=y \log _{a} x$
 # Change of Base Rule
 $\log _{a} x=\frac{\log _{b} x}{\log _{b} a}$
+
+Assume $\mathrm{x}=\log _{\mathrm{a}} \mathrm{x}$, which is $a^x = x$ in exponent form.
