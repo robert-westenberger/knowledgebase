@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-01T18:36:31.142Z
+date: 2021-09-01T18:46:09.097Z
 tags: data-structures
 editor: markdown
 ---
@@ -52,4 +52,19 @@ Composed of distinct chunks of memory bound together by pointers, and include li
 Pointers represent the address of a location in memory. A variable storing a pointer to a given data item can provide more freedom than storying a copy of the item itself. 
 
 ### Pointers in C
-A pointer **p** is assumed to give the address in memory where a particular chunk of data is located. Pointers in **C** have types declared at compile time, denoting the data type of the items they can point to. We use ***p** to denote the item that is pointed to by pointer **p**, and **&x** to denote the address of (pointer to) a particular variable **x**.
+A pointer **p** is assumed to give the address in memory where a particular chunk of data is located. Pointers in **C** have types declared at compile time, denoting the data type of the items they can point to. We use ***p** to denote the item that is pointed to by pointer **p**, and **&x** to denote the address of (pointer to) a particular variable **x**. A special **NULL** pointer value is used to denote structure-terminating or unassigned pointers.
+## Linked Data Structure Properties
+All linked data structures share certain properties, as revealed by the following linked list type declaration:
+
+<pre>
+typedef struct list {
+	item_type item; /* data item */
+ 	struct list *next; /* point to successor */
+} list;
+</pre>
+
+* Each node in our data structure contains one or more data fields (in this case *item*) that retain the data we need to store.
+
+* Each node contains a pointer field to at least one other node (here *next*). This means that much of the space used in linked data structures has to be used for pointers, not data.
+
+* We need a pointer to the head of the structure, so we know where to access it.
