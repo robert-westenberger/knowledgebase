@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-01T18:32:13.322Z
+date: 2021-09-01T18:36:31.142Z
 tags: data-structures
 editor: markdown
 ---
@@ -52,4 +52,4 @@ Composed of distinct chunks of memory bound together by pointers, and include li
 Pointers represent the address of a location in memory. A variable storing a pointer to a given data item can provide more freedom than storying a copy of the item itself. 
 
 ### Pointers in C
-A pointer **p** is assumed to give the address in memory where a particular chunk of data is located.
+A pointer **p** is assumed to give the address in memory where a particular chunk of data is located. Pointers in **C** have types declared at compile time, denoting the data type of the items they can point to. We use ***p** to denote the item that is pointed to by pointer **p**, and **&x** to denote the address of (pointer to) a particular variable **x**.
