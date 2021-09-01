@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-01T18:49:29.280Z
+date: 2021-09-01T18:52:48.518Z
 tags: data-structures
 editor: markdown
 ---
@@ -73,3 +73,6 @@ typedef struct list {
 
 ## List 
 The **list** is the simplest linked structure (pseudocode given in the preceding section). The three basic operations supported by lists are searching, insertion, and deletion. In **doubly-linked lists**, each node points to both its predecessor and successor element.
+
+### Searching a List
+
