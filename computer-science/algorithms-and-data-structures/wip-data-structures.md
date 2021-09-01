@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-01T18:46:09.097Z
+date: 2021-09-01T18:49:29.280Z
 tags: data-structures
 editor: markdown
 ---
@@ -68,3 +68,8 @@ typedef struct list {
 * Each node contains a pointer field to at least one other node (here *next*). This means that much of the space used in linked data structures has to be used for pointers, not data.
 
 * We need a pointer to the head of the structure, so we know where to access it.
+
+
+
+## List 
+The **list** is the simplest linked structure (pseudocode given in the preceding section). The three basic operations supported by lists are searching, insertion, and deletion. In **doubly-linked lists**, each node points to both its predecessor and successor element.
