@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-02T17:44:56.094Z
+date: 2021-09-02T17:54:47.041Z
 tags: data-structures
 editor: markdown
 ---
@@ -145,9 +145,33 @@ Containers are distinguished by the particular retrieval order they support.
 ## Stacks
 ### Retrieval Order
 **Last-in, first-out (LIFO)** order.
-### When to use them
+### When to use
 Use them when retrieval order doesn't matter, such as when processing batch jobs. 
 ### Operations
+The put and get operations are usually called push and pop.
 - Push(x,s): Insert item *x* at the top of the stack *s*.
 - Pop(s): Return (and remove) the top item of stack *s*. 
 
+## Queues
+### Retrieval Order
+**First-in, first-out (FIFO) order.**
+### When to use
+When order is important. 
+### Operations
+The put and get operations are usually called enqueue and dequeue
+- Enqueue(x,q): Insert item x at the back of queue q.
+- Dequeue(q): Return (and remove) the front item from queue q.
+
+# Dictionaries
+Permits access to data items by content. 
+## Primary Operations
+- Search(D,k) – Given a search key k, return a pointer to the element in dictionary D whose key value is k, if one exists.
+- Insert(D,x) – Given a data item x, add it to the dictionary D.
+- Delete(D,x) – Given a pointer x to a given data item in the dictionary D, remove it from D.
+
+Certain dictionary data structures also efficiently support other useful operations:
+
+- Max(D) or Min(D) – Retrieve the item with the largest (or smallest) key from D. This enables the dictionary to serve as a priority queue.
+- Predecessor(D,x) or Successor(D,x) – Retrieve the item from D whose key is immediately before (or after) item x in sorted order. These enable us to iterate through the elements of the data structure in sorted order.
+
+## Real World Use Case Examples
