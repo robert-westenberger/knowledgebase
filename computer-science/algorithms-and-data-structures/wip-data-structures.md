@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-02T17:36:49.466Z
+date: 2021-09-02T17:43:29.217Z
 tags: data-structures
 editor: markdown
 ---
@@ -52,6 +52,7 @@ Composed of distinct chunks of memory bound together by pointers, and include li
 - Overflow on linked structures never occurs unless the memory is actually full.
 - Insertion and deletion are simpler than for static arrays. 
 - With large records, moving pointers is easier and faster than moving the items themselves.
+
 
 
 ## Pointers
@@ -136,3 +137,13 @@ Special care must be taken to reset the pointer to the head of list (*l*) when t
 
 C requires explicit deallocation of memory, so we must *free* the deleted node after we are finished with it in order to return the memory to the system. This leaves the incoming pointer as a dangling reference to a location that no longer exists, so care must be taken not to use this pointer again.
 
+# Containers
+The term **container** denotes an abstract data type that permits storage and retrieval of data items independent of content. 
+
+Containers are distinguished by the particular retrieval order they support.
+
+## Stacks
+### Retrieval Order
+**Last-in, first-out (LIFO)** order.
+### When to use them
+Use them when retrieval order doesn't matter, such as when processing batch jobs. 
