@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-02T17:43:29.217Z
+date: 2021-09-02T17:44:56.094Z
 tags: data-structures
 editor: markdown
 ---
@@ -147,3 +147,7 @@ Containers are distinguished by the particular retrieval order they support.
 **Last-in, first-out (LIFO)** order.
 ### When to use them
 Use them when retrieval order doesn't matter, such as when processing batch jobs. 
+### Operations
+- Push(x,s): Insert item *x* at the top of the stack *s*.
+- Pop(s): Return (and remove) the top item of stack *s*. 
+
