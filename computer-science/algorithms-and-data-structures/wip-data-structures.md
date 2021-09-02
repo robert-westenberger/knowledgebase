@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-02T17:33:04.633Z
+date: 2021-09-02T17:36:49.466Z
 tags: data-structures
 editor: markdown
 ---
@@ -50,6 +50,10 @@ Composed of distinct chunks of memory bound together by pointers, and include li
 
 ## Advantages
 - Overflow on linked structures never occurs unless the memory is actually full.
+- Insertion and deletion are simpler than for static arrays. 
+- With large records, moving pointers is easier and faster than moving the items themselves.
+
+
 ## Pointers
 Pointers represent the address of a location in memory. A variable storing a pointer to a given data item can provide more freedom than storying a copy of the item itself. 
 
