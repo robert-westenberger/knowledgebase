@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-02T17:54:47.041Z
+date: 2021-09-02T17:58:31.736Z
 tags: data-structures
 editor: markdown
 ---
@@ -174,4 +174,3 @@ Certain dictionary data structures also efficiently support other useful operati
 - Max(D) or Min(D) – Retrieve the item with the largest (or smallest) key from D. This enables the dictionary to serve as a priority queue.
 - Predecessor(D,x) or Successor(D,x) – Retrieve the item from D whose key is immediately before (or after) item x in sorted order. These enable us to iterate through the elements of the data structure in sorted order.
 
-## Real World Use Case Examples
