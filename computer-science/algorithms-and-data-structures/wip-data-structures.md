@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-02T18:19:19.348Z
+date: 2021-09-05T02:13:52.214Z
 tags: data-structures
 editor: markdown
 ---
@@ -175,4 +175,21 @@ Certain dictionary data structures also efficiently support other useful operati
 - Predecessor(D,x) or Successor(D,x) – Retrieve the item from D whose key is immediately before (or after) item x in sorted order. These enable us to iterate through the elements of the data structure in sorted order.
 
 
-# Binary Search Trees
+# Binary Trees
+## Rooted Binary Tree
+A rooted binary tree is recursively defined as being either
+
+1. Empty
+2. Consisting of a node called the **root**, together with two rooted binary trees called the left and right subtrees, respectively. 
+
+Order matters among "sibling" nodes in rooted trees. The left subtree is different from the right. 
+## Binary Search Trees
+A binary search tree labels each node in a binary tree with a single key such that for any node labeled $x$, all nodes in the left subtree of $x$ have keys $\lt x$ while all nodes in the right subtree have keys $\gt x$.
+
+
+### Implementation
+Binary tree nodes have the following fields
+* Left pointer
+* Right pointer
+* Parent pointer (optional)
+
