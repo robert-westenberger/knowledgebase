@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-05T02:37:05.963Z
+date: 2021-09-05T02:48:30.872Z
 tags: data-structures
 editor: markdown
 ---
@@ -263,3 +263,33 @@ Each item is processed only once during the course of traversal, so it runs in $
 Changing the position of the `process_item` call relative to the traversals of the left and right subtrees changes the order of the traversal. 
 * Processing the item first yields a **pre-order traversal**
 * Processing the item last yields a **post-order traversal**
+
+### Insertion
+There is exactly one place to insert an item $x$ into a BST $T$. 
+
+This implementation uses recursion to combine the search and node inseration stages of key insertion. The three arguments to insert_tree are 
+1. A pointer $l$ to the pointer linking the search subtree to the rest of the tree
+2. The key $x$ to be inserted
+3. A parent pointer to the parent node containing $l$.  
+
+```
+void insert_tree(tree **l, item_type x, tree *parent) {
+	
+  tree *p; /* temporary pointer */
+
+	if (*l == NULL) {
+		p = malloc(sizeof(tree));
+		p->item = x;
+		p->left = p->right = NULL;
+		p->parent = parent;
+		*l = p;
+		return;
+	}
+	if (x < (*l)->item) {
+		insert_tree(&((*l)->left), x, *l);
+	} else {
+		insert_tree(&((*l)->right), x, *l);
+	}
+}
+```
+The node is allocated and linked in after hitting the NULL pointer. 
