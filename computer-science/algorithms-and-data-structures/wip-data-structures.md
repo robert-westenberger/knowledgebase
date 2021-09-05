@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-05T02:13:52.214Z
+date: 2021-09-05T02:37:05.963Z
 tags: data-structures
 editor: markdown
 ---
@@ -176,6 +176,7 @@ Certain dictionary data structures also efficiently support other useful operati
 
 
 # Binary Trees
+Basic operations supported by binary trees are searching, traversal, insertion, and deletion.
 ## Rooted Binary Tree
 A rooted binary tree is recursively defined as being either
 
@@ -192,4 +193,73 @@ Binary tree nodes have the following fields
 * Left pointer
 * Right pointer
 * Parent pointer (optional)
+```
+typedef struct tree {
+	item_type item; /* data item */
+	struct tree *parent; /* pointer to parent */
+	struct tree *left; /* pointer to left child */
+	struct tree *right; /* pointer to right child */
+}
+```
 
+### Searching
+The BST labeling scheme uniquely identifies where each key is located. The algorithm is as follows:
+
+1. Start at the root
+2. Unless it contains the query key $x$, proceed either left or right depnding upon whether $x$ occurs before or after the root key. 
+
+
+The recursive nature of BST's allows for a recursive search algorithm
+```
+tree *search_tree(tree *l, item_type x) {
+	if (l == NULL) {
+		return(NULL);
+	}
+	if (l->item == x) {
+		return(l);
+	}
+	if (x < l->item) {
+		return(search_tree(l->left, x));
+	} else {
+		return(search_tree(l->right, x));
+	}
+}
+```
+
+The above algorithm runs in $O(h)$, where $h$ denotes the height of the tree.
+
+### Finding minimum and maximum elements
+The smallest key in a BST must reside in the left subtree of the root by definition. 
+```
+tree *find_minimum(tree *t) {
+	tree *min; /* pointer to minimum */
+	if (t == NULL) {
+		return(NULL);
+	}
+	min = t;
+	while (min->left != NULL) {
+		min = min->left;
+	}
+	return(min);
+}
+```
+
+### Traversal
+Visiting every node in a RBT is an important part of many algorithms. It is a special case of traversing all the nodes and edges in a graph.
+
+BST's make it easy to report labels in sorted order. All keys smaller than the root must lie in the left subtree of the root, and all keys bigger than the root in the right subtree. Visiting the nodes recursively produces an in-order traveersal of the search tree
+```
+void traverse_tree(tree *l) {
+	if (l != NULL) {
+		traverse_tree(l->left);
+		process_item(l->item);
+		traverse_tree(l->right);
+	}
+}
+```
+
+Each item is processed only once during the course of traversal, so it runs in $O(n)$ time, where $n$ is the number of nodes in the tree.
+
+Changing the position of the `process_item` call relative to the traversals of the left and right subtrees changes the order of the traversal. 
+* Processing the item first yields a **pre-order traversal**
+* Processing the item last yields a **post-order traversal**
