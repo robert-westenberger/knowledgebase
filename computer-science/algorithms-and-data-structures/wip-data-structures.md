@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:08:45.452Z
+date: 2021-09-07T18:12:40.409Z
 tags: data-structures
 editor: markdown
 ---
@@ -318,9 +318,6 @@ Relabel the deleted node with the key of its immediate successor in sorted order
 # Hashing
 The key idea of hashing is to represent a large object (be it a key, string, or substring) by a single number. 
 
-Its often the best data structure to maintain a dictionary. 
-
-
 A **hash function** is a mathematical function that maps keys to integers. 
 
 The first step of the hash function is usually to map each key (here the string $S$) to a big integer. Let $\alpha$ be the size of the alphabet on which $S$ is written. Let `char(c)` be a function that maps each symbol of the alphabet to a unique integer from $0$ to $\alpha - 1$. The function
@@ -332,6 +329,7 @@ $$
 maps each string to a unique (but large) integer by treating the characters of the string as "digits" in a base-$\alpha$ number system.
 
 This creates unique identifier numbers, but they are so large they will quickly exceed the number of desired slots in our hash table (denoted by $m$). We must reduce this number to an integer between $0$ and $m-1$, by taking the remainder $H^{\prime}(S)=H(S) \bmod m$. This works on the same principle as a roulette wheel. The ball travels a long distance, around the circumference-$m$ wheel $\lfloor H(S) / m\rfloor$ times before settlign down to a random bin. 
+
 
 ## Collision Resolution
 Two distinct keys will at least occasionally hash to the same value. There are two different approaches for maintaining a hash table:
