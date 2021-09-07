@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:08:17.031Z
+date: 2021-09-07T18:08:45.452Z
 tags: data-structures
 editor: markdown
 ---
@@ -317,6 +317,8 @@ Relabel the deleted node with the key of its immediate successor in sorted order
 
 # Hashing
 The key idea of hashing is to represent a large object (be it a key, string, or substring) by a single number. 
+
+Its often the best data structure to maintain a dictionary. 
 
 
 A **hash function** is a mathematical function that maps keys to integers. 
