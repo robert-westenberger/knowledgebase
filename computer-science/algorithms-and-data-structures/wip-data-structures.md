@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:07:09.963Z
+date: 2021-09-07T18:08:17.031Z
 tags: data-structures
 editor: markdown
 ---
@@ -316,6 +316,9 @@ Relabel the deleted node with the key of its immediate successor in sorted order
 
 
 # Hashing
+The key idea of hashing is to represent a large object (be it a key, string, or substring) by a single number. 
+
+
 A **hash function** is a mathematical function that maps keys to integers. 
 
 The first step of the hash function is usually to map each key (here the string $S$) to a big integer. Let $\alpha$ be the size of the alphabet on which $S$ is written. Let `char(c)` be a function that maps each symbol of the alphabet to a unique integer from $0$ to $\alpha - 1$. The function
@@ -335,3 +338,4 @@ Two distinct keys will at least occasionally hash to the same value. There are t
 
 * **Open addressing** maintains the hash table as a simple array of elements (not buckets). EAch cell is initialized to null. On each insertion, we check to see whether the desired cell is empty; if so, we insert the item there. If the cell is already occupied, we must find some other place to put the item. The simplest possibilty (called **sequential probing**) inserts the item into the next open cell in the table. 
 
+## Duplicate Detection via Hashing
