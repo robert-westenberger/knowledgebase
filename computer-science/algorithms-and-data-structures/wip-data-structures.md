@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:20:16.263Z
+date: 2021-09-07T18:25:19.016Z
 tags: data-structures
 editor: markdown
 ---
@@ -341,5 +341,10 @@ Two distinct keys will at least occasionally hash to the same value. There are t
 
 * **Open addressing** maintains the hash table as a simple array of elements (not buckets). EAch cell is initialized to null. On each insertion, we check to see whether the desired cell is empty; if so, we insert the item there. If the cell is already occupied, we must find some other place to put the item. The simplest possibilty (called **sequential probing**) inserts the item into the next open cell in the table. 
 
-## Canocicalization
+## Canonicalization
+Consider a word game that gives you a set of letters $S$, and asks you to find all dictionary words that can be made by reordering them. For example, three words can be made from the four letters in $S=(a, e, k, l)$, namely *kale*, *lake*, and *leak*.
+
+The most straightforward approach is to test each word $d \in D$ against the characters of $S$. This would take linear time in $n$ for each $S$.
+
+
 
