@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:12:40.409Z
+date: 2021-09-07T18:17:49.280Z
 tags: data-structures
 editor: markdown
 ---
@@ -330,7 +330,10 @@ maps each string to a unique (but large) integer by treating the characters of t
 
 This creates unique identifier numbers, but they are so large they will quickly exceed the number of desired slots in our hash table (denoted by $m$). We must reduce this number to an integer between $0$ and $m-1$, by taking the remainder $H^{\prime}(S)=H(S) \bmod m$. This works on the same principle as a roulette wheel. The ball travels a long distance, around the circumference-$m$ wheel $\lfloor H(S) / m\rfloor$ times before settlign down to a random bin. 
 
-
+## Real World Problems to Which Hashing Is an Elegant Solution
+* Is a given document unique within a large corpus? - We can hash the document $D$ to an integer, and compare $H(D)$ to the hash codes of the rest of the corpus. Only if there is a collision might $D$ be a possible duplicate. 
+* Is part of this document plagiarized? - (how? TODO: look into this one more)
+* Convince someone a file isn't changed -  (how? TODO: look into this one more)... this one makes use of cryptographic hashing. 
 ## Collision Resolution
 Two distinct keys will at least occasionally hash to the same value. There are two different approaches for maintaining a hash table:
 
