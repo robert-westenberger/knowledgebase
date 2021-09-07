@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:03:27.989Z
+date: 2021-09-07T18:06:02.559Z
 tags: data-structures
 editor: markdown
 ---
@@ -333,4 +333,5 @@ Two distinct keys will at least occasionally hash to the same value. There are t
 
 * **Chaining**  represents a hash table as an array of $m$ linked lists ("buckets"). The $i$th list will contain all the items that hash to the value $i$. Search, insertion, and deletion thus reduce to the corresponding problem in linked lists. If the $n$ keys are distributed uniformly in a table, each list will contain roughly $n/m$ elements, making them a constant size when $m \approx n$. 
 
-* **Open addressing**
+* **Open addressing** maintains the hash table as a simple array of elements (not buckets). EAch cell is initialized to null. On each insertion, we check to see whether the desired cell is empty; if so, we insert the item there. If the cell is already occupied, we must find some other place to put the item. The simplest possibilty (called **sequential probing**) inserts the item into the next open cell in the table. 
+
