@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-05T02:48:30.872Z
+date: 2021-09-07T16:54:26.342Z
 tags: data-structures
 editor: markdown
 ---
@@ -292,4 +292,6 @@ void insert_tree(tree **l, item_type x, tree *parent) {
 	}
 }
 ```
-The node is allocated and linked in after hitting the NULL pointer. 
+The node is allocated and linked in after hitting the NULL pointer. Note that we pass the pointer to the appropriate left/right poitner int he node during the search, so the assignment `*l=p;` links the new node into the tree.
+
+### Deletion
