@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-08-23T19:44:44.085Z
+date: 2021-09-07T17:50:14.806Z
 tags: 
 editor: markdown
 ---
@@ -14,6 +14,10 @@ editor: markdown
 [Algorithms Index](/computer-science/algorithms-and-data-structures)
 [Todo](/todo)
 
+## Exercises
+https://leetcode.com/
+https://www.hackerrank.com/
+https://onlinejudge.org/
 ## Diary
 **8-23** - 10-12 Tomorrow, continue refactoring /computer-science/algorithms-and-data-structures/ articles. Delete anything that is fully deprecated.
 **8-20** - 10-12 Did exercise 2.17 in algorithm design manual 2nd ed. TODO: finish splitting apart, relocating, and refactoring summation notation articles and algorithmic complexity articles.
