@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T16:54:26.342Z
+date: 2021-09-07T17:16:52.046Z
 tags: data-structures
 editor: markdown
 ---
@@ -295,3 +295,15 @@ void insert_tree(tree **l, item_type x, tree *parent) {
 The node is allocated and linked in after hitting the NULL pointer. Note that we pass the pointer to the appropriate left/right poitner int he node during the search, so the assignment `*l=p;` links the new node into the tree.
 
 ### Deletion
+![bst_deletion.png](/bst_deletion.png)
+
+The above image depicts deleting tree nodes with 0, 1, and 2 children.
+
+#### Deleting a leaf node
+Simply clear the pointer to the given node. We don't have to worry about relinking any other nodes.
+
+#### Deleting node with 1 child
+The child of the node to be deleted is linked to the deleted node's parent. 
+
+#### Deleting node with 2 children
+Relabel the deleted node with the key of its immediate successor in sorted order. This successor must be the smallest value in the right subtree, specifically the left-most decendant in the right subtree `p`. Moving this descendant to the point of deletion results in a properly labeled binary search tree, and reduces our deletion problem to physically removing a node with at most one child. 
