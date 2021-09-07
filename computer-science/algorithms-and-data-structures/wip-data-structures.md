@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T17:40:31.794Z
+date: 2021-09-07T18:03:27.989Z
 tags: data-structures
 editor: markdown
 ---
@@ -315,3 +315,22 @@ Relabel the deleted node with the key of its immediate successor in sorted order
 - Delete-Minimum(Q) or Delete-Maximum(Q) - Remove the item whose key value is minimum (or maximum) from priority queue Q.
 
 
+# Hashing
+A **hash function** is a methematical function that maps keys to integers. 
+
+The first step of the hash function is usually to map each key (here the string $S$) to a big integer. Let $\alpha$ be the size of the alphabet on which $S$ is written. Let `char(c)` be a function that maps each symbol of the alphabet to a unique integer from $0$ to $\alpha - 1$. The function
+
+$$
+H(S)=\alpha^{|S|}+\sum_{i=0}^{|S|-1} \alpha^{|S|-(i+1)} \times \operatorname{char}\left(s_{i}\right)
+$$
+
+maps each string to a unique (but large) integer by treating the characters of the string as "digits" in a base-$\alpha$ number system.
+
+This creates unique identifier numbers, but they are so large they will quickly exceed the number of desired slots in our hash table (denoted by $m$). We must reduce this number to an integer between $0$ and $m-1$, by taking the remainder $H^{\prime}(S)=H(S) \bmod m$. This works on the same principle as a roulette wheel. The ball travels a long distance, around the circumference-$m$ wheel $\lfloor H(S) / m\rfloor$ times before settlign down to a random bin. 
+
+## Collision Resolution
+Two distinct keys will at least occasionally hash to the same value. There are two different approaches for maintaining a hash table:
+
+* **Chaining**  represents a hash table as an array of $m$ linked lists ("buckets"). The $i$th list will contain all the items that hash to the value $i$. Search, insertion, and deletion thus reduce to the corresponding problem in linked lists. If the $n$ keys are distributed uniformly in a table, each list will contain roughly $n/m$ elements, making them a constant size when $m \approx n$. 
+
+* **Open addressing**
