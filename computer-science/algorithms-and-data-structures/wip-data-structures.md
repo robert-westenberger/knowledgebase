@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T17:31:54.243Z
+date: 2021-09-07T17:40:31.794Z
 tags: data-structures
 editor: markdown
 ---
@@ -309,4 +309,9 @@ The child of the node to be deleted is linked to the deleted node's parent.
 Relabel the deleted node with the key of its immediate successor in sorted order. This successor must be the smallest value in the right subtree, specifically the left-most decendant in the right subtree `p`. Moving this descendant to the point of deletion results in a properly labeled binary search tree, and reduces our deletion problem to physically removing a node with at most one child. 
 
 # Priority Queues
+## Primary Operations
+- Insert(Q, x) – Given item x, insert it into the priority queue Q.
+- Find-Minimum(Q) or Find-Maximum(Q) - Return a pointer to the item whose key value is smallest (or largest) among all keys in priority queue Q.
+- Delete-Minimum(Q) or Delete-Maximum(Q) - Remove the item whose key value is minimum (or maximum) from priority queue Q.
+
 
