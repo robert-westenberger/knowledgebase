@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:06:02.559Z
+date: 2021-09-07T18:07:09.963Z
 tags: data-structures
 editor: markdown
 ---
@@ -316,7 +316,7 @@ Relabel the deleted node with the key of its immediate successor in sorted order
 
 
 # Hashing
-A **hash function** is a methematical function that maps keys to integers. 
+A **hash function** is a mathematical function that maps keys to integers. 
 
 The first step of the hash function is usually to map each key (here the string $S$) to a big integer. Let $\alpha$ be the size of the alphabet on which $S$ is written. Let `char(c)` be a function that maps each symbol of the alphabet to a unique integer from $0$ to $\alpha - 1$. The function
 
