@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-07T18:25:19.016Z
+date: 2021-09-08T17:20:51.634Z
 tags: data-structures
 editor: markdown
 ---
@@ -342,9 +342,16 @@ Two distinct keys will at least occasionally hash to the same value. There are t
 * **Open addressing** maintains the hash table as a simple array of elements (not buckets). EAch cell is initialized to null. On each insertion, we check to see whether the desired cell is empty; if so, we insert the item there. If the cell is already occupied, we must find some other place to put the item. The simplest possibilty (called **sequential probing**) inserts the item into the next open cell in the table. 
 
 ## Canonicalization
+**Canonicalization** (aka **standardization** or **normalization**) is a process for converting data that has more than one possible representation into a "normal" / "standard" / canonical form. 
+
+### Example
 Consider a word game that gives you a set of letters $S$, and asks you to find all dictionary words that can be made by reordering them. For example, three words can be made from the four letters in $S=(a, e, k, l)$, namely *kale*, *lake*, and *leak*.
 
 The most straightforward approach is to test each word $d \in D$ against the characters of $S$. This would take linear time in $n$ for each $S$.
 
+We could instead hash every word in $D$ to a string, by sorting the words letters. Now *lake*, *leak*, and *kale* all go to *aekl* which have the same hash. All words with the same letter distribution get hashed to the same bucket. Once you have built this hash table, you can use it for different query sets S. The time for each query will be proportional to the number of matching words in D, which is a lot smaller than n.
+
+The same hash table can be used to calculate which set of $k$ letters can be used to make the most dictionary words. It is just the hash code with the largest number of collisions. 
 
 
+## Compaction
