@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-08T17:20:51.634Z
+date: 2021-09-08T17:45:50.880Z
 tags: data-structures
 editor: markdown
 ---
@@ -355,3 +355,14 @@ The same hash table can be used to calculate which set of $k$ letters can be use
 
 
 ## Compaction
+Also called **fingerprinting**, where we represent large objects by small hash codes. 
+
+### Example
+Suppose you want to sort all $n$ books in the library by their contents and not their titles. If we represented each book by its first 100 characters, it would make things a lot quicker. There would be hash collisions involving multiple editions of the same book or plag iarism, but those would be rare. After sorting the 100 character prefixes, collsions can be resolved by comparing the full texts.
+
+
+# Specialized Data Structures
+* String data structures - Character strings are typicaly represented by arrays of characters, perhaps with a special character to mark the end of the string.Suffix trees/arrays are special data structures that preprocess strings to make pattern matching operations faster.
+* Geometric data structures - Typically consists of collections of data points and regions. Regions in the plane can be described by polygons, where the boundary of the polygon is a closed chain of line segments. A polygon $P$ can be represented using an array of points $\left(v_{1}, \ldots, v_{n}, v_{1}\right)$, such that $\left(v_{i}, v_{i+1}\right)$ is a segment of the boundary of $P$. Spatial data structures such as $kd$-trees organize poitns and regions by geometric location to support fast search operations.
+* Graph data structures - Typically represented using either adjacency matrices or adjacency lists. 
+* Set data structures - Subsets of items are typically represented using a dictionary to support fast membership queries. Alternatively, **bit vectors** are boolean arrays such that the $i$th bit is $1$ if $i$ is in the subset.
