@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-09-07T17:50:14.806Z
+date: 2021-09-08T18:48:20.177Z
 tags: 
 editor: markdown
 ---
@@ -19,6 +19,8 @@ https://leetcode.com/
 https://www.hackerrank.com/
 https://onlinejudge.org/
 ## Diary
+**9-8** - 10-12 Today, finished notes on algorithm design manual 3rd ed ch 3. Also started on exercise 1 of algorithm design manual 2nd ed ch 3. Tomorrow, finish stack implementation in C. 
+
 **8-23** - 10-12 Tomorrow, continue refactoring /computer-science/algorithms-and-data-structures/ articles. Delete anything that is fully deprecated.
 **8-20** - 10-12 Did exercise 2.17 in algorithm design manual 2nd ed. TODO: finish splitting apart, relocating, and refactoring summation notation articles and algorithmic complexity articles.
 **7-23** - 10-12 Started on ch 2 exercises, but was having difficulty manipulating summations. Started reading / taking notes on rosen 8th edition sec 2.4, Sequences and Summations. Tomorrow, continue taking notes and studying the summations part of it. 
