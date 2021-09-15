@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:24:45.596Z
+date: 2021-09-15T18:27:02.325Z
 tags: pointers, c
 editor: markdown
 ---
@@ -21,7 +21,7 @@ assigns the address of `c` to the variable `p`, and `p` is said to "point to" `c
 
 The unary operator `*` is the **indirection** or **dereferencing** operator. When applied to a pointer, it accesses the object the pointer points to. 
 
-> Pointers are constrained to point to a particular kind of object / data type.
+> Pointers are constrained to point to a particular kind of object / data type. (There is one exception: a “pointer to void” is used to hold any type of pointer but cannot be dereferenced itself.)
 {.is-info}
 
 ## Example showing how a pointer is declared and how the unary operators are used
@@ -36,6 +36,7 @@ y = *ip; /* y is now 1 */
 ip = &z[0]; /* ip now points to z[0] */
 ```
 
-
+# Pointers and Function Arguments
+Since arguments are passed to functions by value in C, there is no direct way for the called function to alter a variable in the calling function. 
 # Pointer to Pointer 
 Also known as **double indirection**
