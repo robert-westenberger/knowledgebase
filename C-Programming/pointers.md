@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:36:20.003Z
+date: 2021-09-15T18:43:13.968Z
 tags: pointers, c
 editor: markdown
 ---
@@ -13,6 +13,10 @@ A typical machine has an array of consecutively numbered or addressed memory ell
 
 A **pointer** is a group of cells (often two or four) that can hold an address. So if `c` is a *char* and `p` is a pointer that points to it, it could be represented as![pointer.png](/pointer.png)
 
+> Pointers are constrained to point to a particular kind of object / data type. (There is one exception: a “pointer to void” is used to hold any type of pointer but cannot be dereferenced itself.)
+{.is-info}
+
+# Operators
 The unary operator `&` gives an address of an object, so the statement
 
 `p=&c;` 
@@ -21,8 +25,7 @@ assigns the address of `c` to the variable `p`, and `p` is said to "point to" `c
 
 The unary operator `*` is the **indirection** or **dereferencing** operator. When applied to a pointer, it accesses the object the pointer points to. 
 
-> Pointers are constrained to point to a particular kind of object / data type. (There is one exception: a “pointer to void” is used to hold any type of pointer but cannot be dereferenced itself.)
-{.is-info}
+
 
 ## Example showing how a pointer is declared and how the unary operators are used
 Suppose that `x` and `y` are integers and `ip` is a pointer to `int`.
@@ -39,6 +42,7 @@ ip = &z[0]; /* ip now points to z[0] */
 # Pointers and Function Arguments
 Since arguments are passed to functions by value in C, there is no direct way for the called function to alter a variable in the calling function. So we need to pass pointers to the values to be changed.
 
+Pointer arguments enable a function to access and change objects in the function that called it.
 ## Example - Incorrect Function
 ```
 void swap(int x, int y)  /* WRONG */
