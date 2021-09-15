@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:45:04.602Z
+date: 2021-09-15T18:46:42.032Z
 tags: pointers, c
 editor: markdown
 ---
@@ -17,17 +17,19 @@ A **pointer** is a group of cells (often two or four) that can hold an address. 
 {.is-info}
 
 # Operators
+## & Address Of Operator
 The unary operator `&` gives an address of an object, so the statement
 
 `p=&c;` 
 
 assigns the address of `c` to the variable `p`, and `p` is said to "point to" `c`.
 
+## * Indirection / Dereferencing Operator
 The unary operator `*` is the **indirection** or **dereferencing** operator. When applied to a pointer, it accesses the object the pointer points to. 
 
 
 
-## Example showing how a pointer is declared and how the unary operators are used
+### Example showing how a pointer is declared and how the unary operators are used
 Suppose that `x` and `y` are integers and `ip` is a pointer to `int`.
 ```
 int x=1, y=2, z[10];
@@ -39,7 +41,7 @@ y = *ip; /* y is now 1 */
 ip = &z[0]; /* ip now points to z[0] */
 ```
 
-## Example showing using pointer to access and change the value of an object
+### Example showing using pointer to access and change the value of an object
 ```
 #include <stdio.h>
 int main(void)
