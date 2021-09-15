@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:46:42.032Z
+date: 2021-09-15T18:49:58.452Z
 tags: pointers, c
 editor: markdown
 ---
@@ -92,3 +92,8 @@ Above, the parameters are declared to be pointers, and the operands are accessed
 
 # Pointer to Pointer 
 Also known as **double indirection**
+
+# Other notes
+* Doesn't matter whether the `*` operator is placed next to the type name or next to the variable name. `some_type* p;` is the same as `some_type *p;`.
+
+* The `*` means different things in different contexts. When in a declaration such as `some_type *p;`, it denotes a pointer type. When used in front of the variable name, as in `*p`, or `*p = some_value;`, the star symbol denotes a dereferencing operator.
