@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:43:13.968Z
+date: 2021-09-15T18:45:04.602Z
 tags: pointers, c
 editor: markdown
 ---
@@ -39,6 +39,23 @@ y = *ip; /* y is now 1 */
 ip = &z[0]; /* ip now points to z[0] */
 ```
 
+## Example showing using pointer to access and change the value of an object
+```
+#include <stdio.h>
+int main(void)
+{
+      int x = 123;
+      printf("The value before the change: %d\n", x);
+      int* p = &x;
+      *p = 456;
+      printf("The value after the change: %d\n", x);
+}
+```
+The above will output:
+```
+The value before the change: 123
+The value after the change: 456
+```
 # Pointers and Function Arguments
 Since arguments are passed to functions by value in C, there is no direct way for the called function to alter a variable in the calling function. So we need to pass pointers to the values to be changed.
 
