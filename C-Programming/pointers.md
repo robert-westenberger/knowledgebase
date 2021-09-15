@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:15:23.702Z
+date: 2021-09-15T18:21:10.940Z
 tags: pointers, c
 editor: markdown
 ---
@@ -19,6 +19,16 @@ The unary operator `&` gives an address of an object, so the statement
 
 assigns the address of `c` to the variable `p`, and `p` is said to "point to" `c`.
 
-The unary operator `*` is the **indirection** or **dereferencing** operator.
+The unary operator `*` is the **indirection** or **dereferencing** operator. When applied to a pointer, it accesses the object the pointer points to. 
+
+## Example showing how a pointer is declared and how the unary operators are used
+Suppose that `x` and `y` are integers and `ip` is a pointer to `int`.
+```
+int x=1, y=2, z[10];
+int *ip; /* ip is a pointer to an int */
+
+ip = &x; /* ip now points to x */
+
+
 # Pointer to Pointer 
 Also known as **double indirection**
