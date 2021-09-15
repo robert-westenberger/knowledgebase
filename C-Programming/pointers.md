@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:27:02.325Z
+date: 2021-09-15T18:36:20.003Z
 tags: pointers, c
 editor: markdown
 ---
@@ -37,6 +37,35 @@ ip = &z[0]; /* ip now points to z[0] */
 ```
 
 # Pointers and Function Arguments
-Since arguments are passed to functions by value in C, there is no direct way for the called function to alter a variable in the calling function. 
+Since arguments are passed to functions by value in C, there is no direct way for the called function to alter a variable in the calling function. So we need to pass pointers to the values to be changed.
+
+## Example - Incorrect Function
+```
+void swap(int x, int y)  /* WRONG */
+{
+    int temp;
+
+    temp = x;
+    x = y;
+    y = temp;
+}
+swap(a, b);
+```
+The above function only swaps copies of `a` and `b`.
+
+## Example - Correct Function
+```
+void swap(int *px, int *py)  /* interchange *px and *py */
+{
+    int temp;
+
+    temp = *px;
+    *px = *py;
+    *py = temp;
+}
+swap(&a, &b);
+```
+Above, the parameters are declared to be pointers, and the operands are accessed indirectly through them. 
+
 # Pointer to Pointer 
 Also known as **double indirection**
