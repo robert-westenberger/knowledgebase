@@ -2,10 +2,10 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T17:58:32.485Z
+date: 2021-09-15T18:00:14.910Z
 tags: pointers, c
 editor: markdown
 ---
 
-# Header
-Your content here
+# Pointer to Pointer 
+Also known as **double indirection**
