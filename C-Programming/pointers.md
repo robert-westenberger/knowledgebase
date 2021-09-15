@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:49:58.452Z
+date: 2021-09-15T18:56:54.579Z
 tags: pointers, c
 editor: markdown
 ---
@@ -91,7 +91,7 @@ swap(&a, &b);
 Above, the parameters are declared to be pointers, and the operands are accessed indirectly through them. 
 
 # Pointer to Pointer 
-Also known as **double indirection**
+Also known as **double indirection**. Just like how passing a pointer to a function allows that function to access and change data that the pointer points to, a double pointer (`**`) allows accessing and updating a pointer that points to some data.
 
 # Other notes
 * Doesn't matter whether the `*` operator is placed next to the type name or next to the variable name. `some_type* p;` is the same as `some_type *p;`.
