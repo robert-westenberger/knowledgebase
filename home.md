@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-09-08T18:48:20.177Z
+date: 2021-09-17T18:51:20.551Z
 tags: 
 editor: markdown
 ---
@@ -19,6 +19,7 @@ https://leetcode.com/
 https://www.hackerrank.com/
 https://onlinejudge.org/
 ## Diary
+**9-17** - 10 - 12 Today, finished up implementation of singly linked list in C. Tomorrow, finish up more "elegant" node deletion by value procedure for singly-linked lists as suggested by torvalds. 
 **9-8** - 10-12 Today, finished notes on algorithm design manual 3rd ed ch 3. Also started on exercise 1 of algorithm design manual 2nd ed ch 3. Tomorrow, finish stack implementation in C. 
 
 **8-23** - 10-12 Tomorrow, continue refactoring /computer-science/algorithms-and-data-structures/ articles. Delete anything that is fully deprecated.
