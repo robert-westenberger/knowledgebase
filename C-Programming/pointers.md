@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-20T02:00:58.812Z
+date: 2021-09-20T02:14:18.397Z
 tags: pointers, c-lang
 editor: markdown
 ---
@@ -11,7 +11,7 @@ Data is stored in computer memory. The CPU reads and writes from this memory. Co
 
 A typical machine has an array of consecutively numbered or addressed memory ells that may be manipulated individually or in contiguous groups. One common situation is any byte can be a *char*, a pair of one-byte cells can be treated as a *short* integer, four adjacent bytes form a *long*. (Note: Is this still up to date with 64 bit architecture..?)
 
-A **pointer** is a group of cells (often two or four) that can hold an address. So if `c` is a *char* and `p` is a pointer that points to it, it could be represented as![pointer.png](/pointer.png)
+A **pointer** is a group of cells that can hold an address. They are 4 bytes for 32bit machines and 8 bytes for 64bit machines. So if `c` is a *char* and `p` is a pointer that points to it, it could be represented as![pointer.png](/pointer.png)
 
 > Pointers are constrained to point to a particular kind of object / data type. (There is one exception: a “pointer to void” is used to hold any type of pointer but cannot be dereferenced itself.)
 {.is-info}
@@ -90,6 +90,13 @@ swap(&a, &b);
 ```
 Above, the parameters are declared to be pointers, and the operands are accessed indirectly through them. 
 
+# Dangling Pointers 
+Pointers that point to invalid addresses.
+
+## Programming Errors leading to dangling pointers
+* casting arbitrary integers to pointers
+* adjusting pointers beyond the bounds of arrays
+* deallocating storage that one or more pointers still reference
 # Pointer to Pointer 
 Also known as **double indirection**. Just like how passing a pointer to a function allows that function to access and change data that the pointer points to, a double pointer (`**`) allows accessing and updating a pointer that points to some data.
 
