@@ -2,7 +2,7 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-20T02:14:18.397Z
+date: 2021-09-20T02:14:25.931Z
 tags: pointers, c-lang
 editor: markdown
 ---
@@ -11,7 +11,7 @@ Data is stored in computer memory. The CPU reads and writes from this memory. Co
 
 A typical machine has an array of consecutively numbered or addressed memory ells that may be manipulated individually or in contiguous groups. One common situation is any byte can be a *char*, a pair of one-byte cells can be treated as a *short* integer, four adjacent bytes form a *long*. (Note: Is this still up to date with 64 bit architecture..?)
 
-A **pointer** is a group of cells that can hold an address. They are 4 bytes for 32bit machines and 8 bytes for 64bit machines. So if `c` is a *char* and `p` is a pointer that points to it, it could be represented as![pointer.png](/pointer.png)
+A **pointer** is a group of cells that can hold an address. They are 4 bytes for 32 bit machines and 8 bytes for 64 bit machines. So if `c` is a *char* and `p` is a pointer that points to it, it could be represented as![pointer.png](/pointer.png)
 
 > Pointers are constrained to point to a particular kind of object / data type. (There is one exception: a “pointer to void” is used to hold any type of pointer but cannot be dereferenced itself.)
 {.is-info}
