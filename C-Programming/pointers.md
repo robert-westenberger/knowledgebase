@@ -2,8 +2,8 @@
 title: Pointers in C
 description: 
 published: true
-date: 2021-09-15T18:56:54.579Z
-tags: pointers, c
+date: 2021-09-20T02:00:58.812Z
+tags: pointers, c-lang
 editor: markdown
 ---
 
