@@ -2,7 +2,7 @@
 title: Binary Search Trees
 description: 
 published: true
-date: 2021-10-01T17:16:10.157Z
+date: 2021-10-01T17:56:15.522Z
 tags: data-structures
 editor: markdown
 ---
@@ -20,8 +20,8 @@ Starting at the root, unless it contains the value we are searching for, recursi
 It is the leftmost descendant of the root.
 ## Maximum
 It is the rightmost descendant of the root.
-Predecessor
-Successor
+# Predecessor
+# Successor
 ## Insert
 To insert a new value `v` into a binary search tree `T`, `v` is put into a new node `z` for which `z.data=v`, `z.left=NULL` and `z.right=NULL`. `T` and some attributes of `z` are modified in such a way that it inserts `z` into an appropriate position in the tree.
 
@@ -35,7 +35,14 @@ To insert a new value `v` into a binary search tree `T`, `v` is put into a new n
 5. Otherwise, if the value to be inserted is less than its parent node, set parent.left = z.
 6. If the value to be inserted is greater than its parent node, set parent.right = z.
   
-  	
-  	
 ## Delete
+![deleting_subtrees.png](/deleting_subtrees.png)
 
+Above image shows the three possible cases for deleting a node from a tree.
+
+### Deleting leaf node
+Clear the pointer to the given node.
+### Deleting node with one child
+There is one parent and one grandchild, so just directly link the grandparent to the grandchild.
+### Deleting node with two children
+Relabel this node with the key of its immediate successor in sorted order. This successor must be the smallest value in the right subtree, specifically the leftmost descendant in the right subtree. Moving this to the point of deletion results in a properly labeled binary search tree, and reduces our deletion problem to physically removing a node with at most one child—a case that has been resolved above.
