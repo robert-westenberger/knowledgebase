@@ -2,7 +2,7 @@
 title: Binary Search Trees
 description: 
 published: true
-date: 2021-09-29T17:37:00.931Z
+date: 2021-10-01T17:16:10.157Z
 tags: data-structures
 editor: markdown
 ---
@@ -14,9 +14,12 @@ $$
 y.\text{key} \le \medspace x \text{.key}. \medspace \text{If} \medspace y \medspace \text{is a node in the right subtree of } \medspace x \text{, then } y.\text{key} \ge \medspace x \text{.key}.
 $$
 # Operations
-Search
-Minimum
-Maximum
+## Search
+Starting at the root, unless it contains the value we are searching for, recursively search the tree preceding with the left or right child depending on whether the value we are searching for is less or greater than the key of the current node respectively. 
+## Minimum
+It is the leftmost descendant of the root.
+## Maximum
+It is the rightmost descendant of the root.
 Predecessor
 Successor
 ## Insert
