@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-03T03:35:12.469Z
+date: 2021-10-03T03:36:04.713Z
 tags: data-structures
 editor: markdown
 ---
@@ -327,6 +327,7 @@ The pointer structure of the tree is changed through **rotation**, which is a lo
 ### Left Rotation
 ![left_rotation_rbt.gif](/left_rotation_rbt.gif)
 ### Right Rotation
+![right_rotation_rbt.gif](/right_rotation_rbt.gif)
 ## Node 
 ```
 typedef struct RedBlackTreeNode {
