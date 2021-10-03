@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-03T03:36:04.713Z
+date: 2021-10-03T03:48:02.148Z
 tags: data-structures
 editor: markdown
 ---
@@ -324,10 +324,30 @@ Every time elements are inserted or deleted, we must change some colors and the 
 
 The pointer structure of the tree is changed through **rotation**, which is a local operation in a search tree that preserves the binary-search-tree property.
 
+
+![rbt_1.png](/rbt_1.png)
 ### Left Rotation
+In left rotation, we assume that the right child is not null.
+![rbt_left_before.png](/rbt_left_after.png)
+
 ![left_rotation_rbt.gif](/left_rotation_rbt.gif)
+
+![rbt_left_after.png](/rbt_left_after.png)
+After applying left rotation on the node x, the node y will become the new root of the subtree and its left child will be x. And the previous left child of y will now become the right child of x.
+
+
 ### Right Rotation
+In right rotation, we assume that the left child is not null.
+
+
+![rbt_right_before.png](/rbt_left_after.png)
+
+
 ![right_rotation_rbt.gif](/right_rotation_rbt.gif)
+
+
+![rbt_right_after.png](/rbt_left_after.png)
+Right rotation on the node y will make x the root of the tree, y will become x's right child. And the previous right child of x will now become the left child of y.
 ## Node 
 ```
 typedef struct RedBlackTreeNode {
