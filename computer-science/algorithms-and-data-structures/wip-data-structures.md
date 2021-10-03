@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-03T03:19:00.667Z
+date: 2021-10-03T03:21:21.162Z
 tags: data-structures
 editor: markdown
 ---
@@ -320,8 +320,9 @@ A red-black tree satisfies the following **red-black properties**:
 5. For each node, all simple paths from the node to descendant leaves contain the same number of black nodes.
 
 ## Rotations (On Insertion and Deletion)
-Every time elements are inserted or 
+Every time elements are inserted or deleted, we must change some colors and the pointer structure of the tree to prevent violation of any of the red-black properties.
 
+The pointer structure of the tree is changed through **rotation**.
 ## Node 
 ```
 typedef struct RedBlackTreeNode {
