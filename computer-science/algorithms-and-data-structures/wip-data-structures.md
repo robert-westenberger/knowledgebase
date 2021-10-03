@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-03T03:48:02.148Z
+date: 2021-10-03T03:52:41.732Z
 tags: data-structures
 editor: markdown
 ---
