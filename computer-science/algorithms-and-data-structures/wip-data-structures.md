@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-03T02:06:49.855Z
+date: 2021-10-03T03:19:00.667Z
 tags: data-structures
 editor: markdown
 ---
@@ -309,7 +309,31 @@ The child of the node to be deleted is linked to the deleted node's parent.
 Relabel the deleted node with the key of its immediate successor in sorted order. This successor must be the smallest value in the right subtree, specifically the left-most decendant in the right subtree `p`. Moving this descendant to the point of deletion results in a properly labeled binary search tree, and reduces our deletion problem to physically removing a node with at most one child. 
 
 
-# Self-Balancing Binary Search Tree
+# Red-Black Tree
+A red-black tree is a kind of self-balancing tree structure. Height-balancing the tree will prevent issues caused by relying purely on insertion order to build and maintain the tree (in the worst case, we can get a skinny tree whose height is the same as the number of nodes in the tree). 
+
+A red-black tree satisfies the following **red-black properties**:
+1. Every node is either red or black.
+2. The root is black.
+3. Every leaf is black.
+4. If a node is red, then both its children are black.
+5. For each node, all simple paths from the node to descendant leaves contain the same number of black nodes.
+
+## Rotations (On Insertion and Deletion)
+Every time elements are inserted or 
+
+## Node 
+```
+typedef struct RedBlackTreeNode {
+    int item;
+    bool color; /* 0 black 1 red */
+    struct RedBlackTreeNode *parent;
+    struct RedBlackTreeNode *left;
+    struct RedBlackTreeNode *right;
+} RedBlackTreeNode;
+```
+
+
 # Priority Queues
 ## Primary Operations
 - Insert(Q, x) – Given item x, insert it into the priority queue Q.
