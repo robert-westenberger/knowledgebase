@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-03T03:26:58.208Z
+date: 2021-10-03T03:35:12.469Z
 tags: data-structures
 editor: markdown
 ---
@@ -323,6 +323,10 @@ A red-black tree satisfies the following **red-black properties**:
 Every time elements are inserted or deleted, we must change some colors and the pointer structure of the tree to prevent violation of any of the red-black properties.
 
 The pointer structure of the tree is changed through **rotation**, which is a local operation in a search tree that preserves the binary-search-tree property.
+
+### Left Rotation
+![left_rotation_rbt.gif](/left_rotation_rbt.gif)
+### Right Rotation
 ## Node 
 ```
 typedef struct RedBlackTreeNode {
