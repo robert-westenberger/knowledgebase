@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-09-08T17:45:50.880Z
+date: 2021-10-03T02:06:49.855Z
 tags: data-structures
 editor: markdown
 ---
@@ -308,6 +308,8 @@ The child of the node to be deleted is linked to the deleted node's parent.
 #### Deleting node with 2 children
 Relabel the deleted node with the key of its immediate successor in sorted order. This successor must be the smallest value in the right subtree, specifically the left-most decendant in the right subtree `p`. Moving this descendant to the point of deletion results in a properly labeled binary search tree, and reduces our deletion problem to physically removing a node with at most one child. 
 
+
+# Self-Balancing Binary Search Tree
 # Priority Queues
 ## Primary Operations
 - Insert(Q, x) – Given item x, insert it into the priority queue Q.
