@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-03T03:52:41.732Z
+date: 2021-10-04T02:46:34.374Z
 tags: data-structures
 editor: markdown
 ---
@@ -348,6 +348,14 @@ In right rotation, we assume that the left child is not null.
 
 ![rbt_right_after.png](/rbt_left_after.png)
 Right rotation on the node y will make x the root of the tree, y will become x's right child. And the previous right child of x will now become the left child of y.
+
+## Insertion Fixup
+After a new node is inserted, the colors and structure of the tree needs to change to maintain the red-black properties.
+
+Insert can introduce violations of 2 and 4 of the red-black properties. If it is 2, its because the new node is the root and it's red. If its property 4, its because both the new node and it's parent are red.
+
+
+
 ## Node 
 ```
 typedef struct RedBlackTreeNode {
