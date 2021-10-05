@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-05T17:45:09.364Z
+date: 2021-10-05T17:48:53.922Z
 tags: data-structures
 editor: markdown
 ---
@@ -356,6 +356,7 @@ Insert can introduce violations of 2 and 4 of the red-black properties. If it is
 After a new node is inserted (always red, unless the tree was previously empty), the colors and structure of the tree needs to change to maintain the red-black properties.
 
 ## Deletion
+### Delete Algorithm
 1. Save a reference to the deleted node's color as originalColor.
 2. If the left child of the deleted node is NULL
 	a. assign its right child to $x$.
@@ -372,7 +373,8 @@ After a new node is inserted (always red, unless the tree was previously empty),
   f. Transplant node to be deleted with $y$.
   g. Set the color of y to originalColor.
 5. If originalColor is black, call the delete fixup procedure.
-
+### Delete Fixup Algorithm
+This algorithm is called when a black node is deleted, because that violates the black depth property of the red black tree.
 
 ## Node 
 ```
