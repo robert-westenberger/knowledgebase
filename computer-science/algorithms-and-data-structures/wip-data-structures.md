@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-05T17:36:27.250Z
+date: 2021-10-05T17:45:09.364Z
 tags: data-structures
 editor: markdown
 ---
@@ -356,9 +356,22 @@ Insert can introduce violations of 2 and 4 of the red-black properties. If it is
 After a new node is inserted (always red, unless the tree was previously empty), the colors and structure of the tree needs to change to maintain the red-black properties.
 
 ## Deletion
-
-1. Save a reference to the deleted node's color.
-If the left child of the deleted node is NULL, assign its right child to $x$.
+1. Save a reference to the deleted node's color as originalColor.
+2. If the left child of the deleted node is NULL
+	a. assign its right child to $x$.
+  b. Transplant the node to be deleted with $x$.
+3. Else if the right child of the deleted node is NULL
+	a. Assign its right child to $x$.
+  b. Transplant the node to be deleted with $x$.
+4. Else ( node has two children )
+	a. Assign the minimum of the right subtree of the node to be deleted to $y$.
+  b. Save a reference to $y$'s color as originalColor.
+  c. Assign the right child of $y$ into $x$.
+  d. If $y$ is a child of the node to be deleted, then set the parent of $x$ as $y$.
+  e. Else, transplant $y$ with the right child of $y$.
+  f. Transplant node to be deleted with $y$.
+  g. Set the color of y to originalColor.
+5. If originalColor is black, call the delete fixup procedure.
 
 
 ## Node 
