@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2021-10-04T02:47:48.228Z
+date: 2021-10-05T17:36:27.250Z
 tags: data-structures
 editor: markdown
 ---
@@ -355,8 +355,10 @@ Insert can introduce violations of 2 and 4 of the red-black properties. If it is
 ## Insertion Fixup
 After a new node is inserted (always red, unless the tree was previously empty), the colors and structure of the tree needs to change to maintain the red-black properties.
 
+## Deletion
 
-
+1. Save a reference to the deleted node's color.
+If the left child of the deleted node is NULL, assign its right child to $x$.
 
 
 ## Node 
