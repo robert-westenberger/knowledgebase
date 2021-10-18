@@ -2,7 +2,7 @@
 title: Pointers and Memory
 description: 
 published: true
-date: 2021-10-18T01:07:22.081Z
+date: 2021-10-18T01:44:56.990Z
 tags: pointers, c-lang
 editor: markdown
 ---
@@ -64,4 +64,17 @@ void Victim() {
 }
 ```
 
-In the above, the `ptr` variable gets a reference to a local variable from `TAB()`. Since that local variable is just going to be deallocated, if that pointer is dereferenced it will 
+In the above, the `ptr` variable gets a reference to a local variable from `TAB()`. Since that local variable is just going to be deallocated, if that pointer is dereferenced it will result in undefined behavior because its not pointing to anything. 
+
+# Reference Parameters
+1. Have a single copy of the value of interest, the "master" copy.
+2. Pass pointers to that value to any function which wants to see or change the value.
+3. Functions can deference their pointer to see or change the vlaue of interest. 
+4. Functions must remember that they do not have their own local copies. If they dereference their pointer and change the value, they really are changing the master value. If a function wants a local copy to change safely, the function must explicitly allocate and initialize such a local copy.
+
+
+## ** variables
+If the variable of interest to be passed around multiple functions is a pointer, then we would need a pointer to that pointer. 
+
+# Heap Memory
+Also known as "dynamic" memory. The programmer explicitly requests the allocation of a memory "block" of a particular size, and the block continues to be allocated until the programmer explicitly requests that it be deallocated.
