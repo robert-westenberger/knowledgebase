@@ -2,7 +2,7 @@
 title: Hash Map
 description: 
 published: true
-date: 2021-10-19T18:24:53.929Z
+date: 2021-10-19T18:39:44.752Z
 tags: data-structures
 editor: markdown
 ---
@@ -22,7 +22,7 @@ $X$ can be bounded or an unbounded set of values, while $M$ is always $0<M<\inft
 
 Hash functions should always be deterministic, and not computationally expensive.
 ## Hash Collisions
-When two keys are hashed to the same value, this is called a hash collision.
+When two pieces of data are hashed to the same value, this is called a hash collision.
 
 ## Division Hashing
 The simplest hash function, it just uses the modulo opeartor to return a hash value. 
@@ -41,3 +41,22 @@ uint32_t hashf_multip(uint32_t x, uint32_t m) {
     return (x * hash_a) >> (hash_w - m);
 }
 ```
+
+Above, a good choice for $A$ is $A=\phi * 2^{w}$, where $w$ is the machine word size and $\phi$ is the golden ratio. When $A=\phi * 2^{w}$, the general multiplicative hash is called a fibonacci hash function. 
+
+## Hashing Strings
+```
+//hash.c
+#define INIT <some_value>
+#define MULTIP <some_value>
+
+uint32_t hashf_generic(char* str) {
+    uint32_t hash = INIT;
+    char c;
+    while((c*=str++)) {
+        hash = MULTIP * hash + c;
+    }
+    return hash;
+}
+```
+
