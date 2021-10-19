@@ -2,7 +2,7 @@
 title: Hash Map
 description: 
 published: true
-date: 2021-10-12T19:00:16.893Z
+date: 2021-10-19T18:24:53.929Z
 tags: data-structures
 editor: markdown
 ---
@@ -12,3 +12,32 @@ A hash map is an associative array / dictionary composed of a collection of key 
 A hash table uses a **hash function** to compute an index (also code a **hash code**), into an array of **buckets** or **slots**, from which the desired value can be found. 
 
 Internally, hash tables use an array as storage and uses a hash function to generate an index where an element is to be inserted or located from. 
+
+# Hash Functions
+A hash function takes data of an arbitrary size and converts it to a fixed size. 
+
+It is a function $H: X \rightarrow \lbrack0, M)$ that takes an element $x \in X$ and associates to it a positive integer $H(x)=m$, where $m \in\lbrack0, M)$.
+
+$X$ can be bounded or an unbounded set of values, while $M$ is always $0<M<\infty$.
+
+Hash functions should always be deterministic, and not computationally expensive.
+## Hash Collisions
+When two keys are hashed to the same value, this is called a hash collision.
+
+## Division Hashing
+The simplest hash function, it just uses the modulo opeartor to return a hash value. 
+
+$H_{\text {division }}(x)=x \quad \bmod M$ , where $H_{\text {division }}: X \rightarrow\lbrack0, M)$
+
+## Multiplicative Hashing
+
+```
+//multiplicative_hash.c
+#define hash_a (uint32_t) 2654435769
+#define hash_w 32
+#define hash_m 3
+
+uint32_t hashf_multip(uint32_t x, uint32_t m) {
+    return (x * hash_a) >> (hash_w - m);
+}
+```
