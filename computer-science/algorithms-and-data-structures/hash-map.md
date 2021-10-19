@@ -2,7 +2,7 @@
 title: Hash Map
 description: 
 published: true
-date: 2021-10-19T18:39:44.752Z
+date: 2021-10-19T18:44:31.626Z
 tags: data-structures
 editor: markdown
 ---
@@ -60,3 +60,7 @@ uint32_t hashf_generic(char* str) {
 }
 ```
 
+# Implementing Hash Tables
+Data is stored in an array, where each key-value pair has its own unique index(or **bucket**). 
+
+The bucket hash $_{\text {function }}($ key $) \rightarrow$ bucket $\lbrack<$ key, value $\left.>)\right]$
