@@ -2,7 +2,7 @@
 title: Hash Map
 description: 
 published: true
-date: 2021-10-19T18:44:31.626Z
+date: 2021-10-19T18:55:31.747Z
 tags: data-structures
 editor: markdown
 ---
@@ -64,3 +64,18 @@ uint32_t hashf_generic(char* str) {
 Data is stored in an array, where each key-value pair has its own unique index(or **bucket**). 
 
 The bucket hash $_{\text {function }}($ key $) \rightarrow$ bucket $\lbrack<$ key, value $\left.>)\right]$
+
+
+## Handling Hash Collisions
+Depending on how we plan to handle hash collisions, there are two ways to implement a hash table
+### Method 1 - Separate Chaining
+* Each bucket references a linked list that contains none, one, or more kv entries.
+* To add a new entry, we compute the bucket with our hash function, and we append the key value pair to the corresponding bucket's linked list. If the key already exists, we just update the value. 
+* To get an entry, we compute the bucket with the hash function and then traverse the corresponding linked list until we find the key.
+
+### Method 2 - Open Addressing
+* No linked lists. There is just one kv per bucket.
+* If there is a collision, we probe the array to find another suitable bucket for our entry, and we add the entry to the newly found empty location.
+* Various algos for probing. The simplest one is linear probing - jumping to the next available bucket.
+* Deleting an existing entry is a complex operation. 
+
