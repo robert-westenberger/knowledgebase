@@ -2,7 +2,7 @@
 title: Hash Map
 description: 
 published: true
-date: 2021-10-19T18:55:31.747Z
+date: 2021-10-20T18:48:13.572Z
 tags: data-structures
 editor: markdown
 ---
@@ -69,10 +69,10 @@ The bucket hash $_{\text {function }}($ key $) \rightarrow$ bucket $\lbrack<$ ke
 ## Handling Hash Collisions
 Depending on how we plan to handle hash collisions, there are two ways to implement a hash table
 ### Method 1 - Separate Chaining
-* Each bucket references a linked list that contains none, one, or more kv entries.
+* Each bucket references a linked list (or dynamic array) that contains none, one, or more kv entries.
 * To add a new entry, we compute the bucket with our hash function, and we append the key value pair to the corresponding bucket's linked list. If the key already exists, we just update the value. 
 * To get an entry, we compute the bucket with the hash function and then traverse the corresponding linked list until we find the key.
-
+* Instead of linked lists or dynamic arrays, we can use red-black trees if the number of elements contained exceeds a certain threshhold. 
 ### Method 2 - Open Addressing
 * No linked lists. There is just one kv per bucket.
 * If there is a collision, we probe the array to find another suitable bucket for our entry, and we add the entry to the newly found empty location.
