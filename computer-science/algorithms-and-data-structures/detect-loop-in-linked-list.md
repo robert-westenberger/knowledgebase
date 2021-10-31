@@ -2,7 +2,7 @@
 title: Detect Loop In Linked List
 description: 
 published: true
-date: 2021-10-31T03:22:27.407Z
+date: 2021-10-31T03:22:42.677Z
 tags: algorithms
 editor: markdown
 ---
@@ -16,6 +16,12 @@ Traverse the linked list using two pointers. Move one pointer by one and another
 
 ## C Implementation
 ```
+struct ListNode
+{
+  int val;
+  struct ListNode *next;
+};
+
 bool hasCycle(struct ListNode *head)
 {
   struct ListNode* fast = head;
