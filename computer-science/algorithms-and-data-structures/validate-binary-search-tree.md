@@ -2,11 +2,12 @@
 title: Validate a Binary Search Tree
 description: 
 published: true
-date: 2021-11-01T02:31:52.708Z
+date: 2021-11-01T02:42:45.744Z
 tags: algorithms
 editor: markdown
 ---
 
+(from https://leetcode.com/problems/validate-binary-search-tree/)
 # Definition of BST
 
 The left subtree of a node contains only nodes with keys less than the node's key.
