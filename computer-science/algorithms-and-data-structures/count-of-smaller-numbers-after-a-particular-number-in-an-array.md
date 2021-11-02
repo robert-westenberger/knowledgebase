@@ -2,7 +2,7 @@
 title: Get Count Of Smaller Numbers After Particular Number In An Array
 description: 
 published: true
-date: 2021-11-01T03:09:07.650Z
+date: 2021-11-02T17:48:46.836Z
 tags: algorithms
 editor: markdown
 ---
@@ -19,3 +19,7 @@ To the right of 2 there is only 1 smaller element (1).
 To the right of 6 there is 1 smaller element (1).
 To the right of 1 there is 0 smaller element.
 
+# Algorithm (Self Balancing BST)
+We can augment an AVL tree to get the solution in O(nLogn) time. 
+
+Starting from the rightmost element, insert all elements one by one into the AVL tree. When we are inserting a new key into the tree, we compare the key with the root key of the tree. If key being inserted is greater than the root key, then its greater than all the nodes in the left subtree of root, so the size of the left subtree is added to the count of smaller elements for the key being inserted. 
