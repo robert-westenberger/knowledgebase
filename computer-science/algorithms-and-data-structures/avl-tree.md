@@ -2,7 +2,7 @@
 title: AVL Tree
 description: 
 published: true
-date: 2021-11-05T23:14:59.183Z
+date: 2021-11-05T23:18:45.066Z
 tags: data-structures
 editor: markdown
 ---
@@ -35,6 +35,7 @@ typedef struct AVLNode {
   
     Re-balance the tree by performing appropriate rotations on the subtree rooted with z. There can be 4 possible cases that needs to be handled as x, y and z can be arranged in 4 ways. Following are the possible 4 arrangements: 
 	a) y is left child of z and x is left child of y 
+  
   ```
   (Left Left Case)
   T1, T2, T3 and T4 are subtrees.
