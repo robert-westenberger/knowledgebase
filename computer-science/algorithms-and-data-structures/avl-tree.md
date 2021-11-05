@@ -2,7 +2,7 @@
 title: AVL Tree
 description: 
 published: true
-date: 2021-11-05T23:18:45.066Z
+date: 2021-11-05T23:34:12.357Z
 tags: data-structures
 editor: markdown
 ---
@@ -84,3 +84,71 @@ T1   y   Right Rotate (y)    T1   x      Left Rotate(z)   z      y
 T2   T3                           T3   T4
   ```
   
+## Insertion ( C Implementation )
+```
+struct Node* insert(struct Node* node, int key)
+{
+    /* 1.  Perform the normal BST insertion */
+    if (node == NULL)
+        return(newNode(key));
+ 
+    if (key < node->key)
+        node->left  = insert(node->left, key);
+    else if (key > node->key)
+        node->right = insert(node->right, key);
+    else // Equal keys are not allowed in BST
+        return node;
+ 
+    /* 2. Update height of this ancestor node */
+    node->height = 1 + max(height(node->left),
+                           height(node->right));
+ 
+    /* 3. Get the balance factor of this ancestor
+          node to check whether this node became
+          unbalanced */
+    int balance = getBalance(node);
+ 
+    // If this node becomes unbalanced, then
+    // there are 4 cases
+ 
+    // Left Left Case
+    if (balance > 1 && key < node->left->key)
+        return rightRotate(node);
+ 
+    // Right Right Case
+    if (balance < -1 && key > node->right->key)
+        return leftRotate(node);
+ 
+    // Left Right Case
+    if (balance > 1 && key > node->left->key)
+    {
+        node->left =  leftRotate(node->left);
+        return rightRotate(node);
+    }
+ 
+    // Right Left Case
+    if (balance < -1 && key < node->right->key)
+    {
+        node->right = rightRotate(node->right);
+        return leftRotate(node);
+    }
+ 
+    /* return the (unchanged) node pointer */
+    return node;
+}
+```
+
+## Program Flow of above recursive implementation
+Inserting 30 into a tree containing [10, 20] for example would have the following execution order:
+
+1) From the root of 10, traverse to the right child, which is 20. 
+2) From 20, traverse to the right child, which is NULL
+3) We insert 30
+4) We are back in in the recursive call from step 2, so we adjust the height of 30's parent node 20. We check if the tree is unbalanced at this point, and its not. 
+5) We are back in the recursive call from step 1, so we adjust the height of 20's parent node 10 (which is 30's GRANDparent node). We see that the tree is now unbalanced, we are in the right right case, so we perform the necessary rotations.
+
+
+So in general, when we are recursing, we
+recurse->recurse->recurse (until the innermost function returns, and we exit back out the way we came, adjusting heights and setting 
+  
+    
