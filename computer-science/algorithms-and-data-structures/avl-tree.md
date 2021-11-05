@@ -2,7 +2,7 @@
 title: AVL Tree
 description: 
 published: true
-date: 2021-11-05T19:28:58.989Z
+date: 2021-11-05T19:35:50.416Z
 tags: data-structures
 editor: markdown
 ---
@@ -26,6 +26,6 @@ typedef struct AVLNode {
 ## Insertion (Recursive)
 1. Start with standard BST insertion. (recursively traverse the tree until the proper location of insertion is found, using the (keys(left) < key(root) < keys(right) property of the BST) 
 
-2. While we are traversing down the tree to find and insert our new node, at every node we recurse to (these are the ancestor nodes of the node we are currently inserting), 
+2. While we are traversing down the tree to find and insert our new node, at every node we recurse to (these are the ancestor nodes of the node we are currently inserting), every ancestor nodes height will be updated. 
 
 
