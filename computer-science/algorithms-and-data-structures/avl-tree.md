@@ -2,7 +2,7 @@
 title: AVL Tree
 description: 
 published: true
-date: 2021-11-04T18:46:03.810Z
+date: 2021-11-05T17:43:57.217Z
 tags: data-structures
 editor: markdown
 ---
@@ -24,5 +24,9 @@ typedef struct AVLNode {
 ```
 
 ## Insertion (Recursive)
-1. Start with standard BST insertion. 
-2. 
+1. Start with standard BST insertion. (recursively traverse the tree until the proper location of insertion is found, using the (keys(left) < key(root) < keys(right) property of the BST) 
+
+2. After a node is inserted, we still have access to the ancestor node. We update that ancestor node's height to be + 1 of the maximum height of both of it's subtrees (which now includes the node we just inserted). 
+
+3. Then, we calculate the balance of the ancestor node, and perform rebalancing via rotations if the tree is unbalanced.
+
