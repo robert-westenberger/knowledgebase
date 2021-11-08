@@ -2,7 +2,7 @@
 title: Merge Sort
 description: 
 published: true
-date: 2021-11-08T18:34:33.420Z
+date: 2021-11-08T20:03:49.130Z
 tags: algorithms
 editor: markdown
 ---
@@ -75,3 +75,7 @@ void mergeSort(int *arr, int leftIndex, int rightIndex) {
 	}
 }
 ```
+
+The above implementation will recursively halve the array until it is n arrays of size 1, where n = the length of the original array.
+
+Once the size becomes 1, 
