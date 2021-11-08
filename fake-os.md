@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-08T05:56:02.606Z
+date: 2021-11-08T06:36:42.707Z
 tags: 
 editor: markdown
 ---
@@ -23,15 +23,18 @@ editor: markdown
 * Always renders an icon and a label
 * Either "executes" some command or is a submenu
 
-### Taskbar buttons
+### Taskbar buttons (ul)
+#### Taskbar button (li)
+* Rendered for each open window
+* onclick will bring associated window to front / visible
 * Always renders an icon and a label
 * Label text can be updated 
-* Always a fixed 
-#### Taskbar button
+* Always a fixed width, ellipsis text overflow
 
 ### Notification area
 
 ## Desktop
-### Icon
+### Icon + Label
 
 ## Window
+ 
