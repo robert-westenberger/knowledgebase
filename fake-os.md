@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-08T05:44:42.039Z
+date: 2021-11-08T05:54:14.047Z
 tags: 
 editor: markdown
 ---
@@ -15,10 +15,17 @@ editor: markdown
 ## Taskbar
 ### Start Button (with logo)
 * onClick will toggle the start menu.
-### Start Menu
+### Start Menu (ul)
 * Clicking anywhere not in the menu will close the start menu
-* Multiply nested menus that will open 
+* Multiply nested. Hovering on a menu item that is itself a menu will open the submenu. 
+* Submenus only close if a different menu item is hovered over. (Or the user clicks outside of the menu entirely, in which case all menus close.  
+#### Start Menu Item (li)
+* Always renders an icon and a label
+* Either "executes" some command or is a submenu
+
 ### Taskbar buttons
+#### Taskbar button
+
 ### Notification area
 
 ## Desktop
