@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-08T05:54:14.047Z
+date: 2021-11-08T05:56:02.606Z
 tags: 
 editor: markdown
 ---
@@ -24,6 +24,9 @@ editor: markdown
 * Either "executes" some command or is a submenu
 
 ### Taskbar buttons
+* Always renders an icon and a label
+* Label text can be updated 
+* Always a fixed 
 #### Taskbar button
 
 ### Notification area
