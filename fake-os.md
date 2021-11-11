@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-11T21:58:34.141Z
+date: 2021-11-11T21:59:28.517Z
 tags: 
 editor: markdown
 ---
@@ -12,7 +12,7 @@ editor: markdown
 ![windows_95_2.png](/windows_95_2.png)
 ![windows_95_3.png](/windows_95_3.png)
 # Features 
-* Depending on the users user agent, actually have that particular theme be opened up
+* Depending on the users user agent, actually have that particular theme be the default (So if user is connecting on a windows machine, have the windows theme display).
 # Components             
 ## Taskbar
 ### Start Button (with logo)
