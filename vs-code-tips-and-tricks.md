@@ -2,7 +2,7 @@
 title: VS Code Tips and Tricks
 description: 
 published: true
-date: 2021-11-11T05:16:28.640Z
+date: 2021-11-11T05:18:15.910Z
 tags: 
 editor: markdown
 ---
@@ -11,7 +11,8 @@ editor: markdown
 * type html:5 then tab to insert html5 boilerplate
 
 # Useful packages
-* Prettier code formatter
+## Prettier
+* Make sure to enable format on save and require config
 
 # Open Settings
 Cmd + , or Ctrl + , 
