@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-12T17:29:26.343Z
+date: 2021-11-12T17:52:17.740Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -13,8 +13,13 @@ editor: markdown
 * Component based 
 
 # Hooks
-
+* Functions that let you "hook into" React state and lifecycle features from function components.
 * Never put hooks in a for loop, if statement, etc.
 
 ## useState
 * Lets you use state without writing a class
+* Probably most commonly used hook
+* useState returns a tuple: the current state value and a function that lets you update it.
+* The only argument to useState is the initial state.
+## useEffect
+* 
