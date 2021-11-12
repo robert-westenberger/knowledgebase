@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-12T17:53:11.807Z
+date: 2021-11-12T17:53:44.961Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -23,3 +23,4 @@ editor: markdown
 * The only argument to useState is the initial state.
 ## useEffect
 * Handles side effects (data fetching, subscriptions, manually changing the DOM from React components).
+* Serves the same purpose as componentDidMount, componentDidUpdate, componentWillUnmount
