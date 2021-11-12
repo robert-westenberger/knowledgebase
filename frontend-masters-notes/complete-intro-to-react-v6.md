@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-12T17:56:21.923Z
+date: 2021-11-12T18:05:52.661Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -25,3 +25,5 @@ editor: markdown
 * Handles side effects (data fetching, subscriptions, manually changing the DOM from React components).
 * Serves the same purpose as componentDidMount, componentDidUpdate, componentWillUnmount, but unified into a single API.
 * Effects may optionally specify how to "clean up" after them by returning a function. 
+
+## Custom Hooks
