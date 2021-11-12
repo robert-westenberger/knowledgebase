@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-12T17:55:38.979Z
+date: 2021-11-12T17:56:21.923Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -15,6 +15,7 @@ editor: markdown
 # Hooks
 * Functions that let you "hook into" React state and lifecycle features from function components.
 * Never put hooks in a for loop, if statement, etc. (only call hooks at the top level)
+* Hooks solves problems formerly solved by HOCs and render props.
 ## useState
 * Lets you use state without writing a class
 * Probably most commonly used hook
