@@ -2,7 +2,7 @@
 title: Useful NPM Packages
 description: 
 published: true
-date: 2021-11-11T05:07:33.653Z
+date: 2021-11-12T03:20:03.010Z
 tags: 
 editor: markdown
 ---
@@ -10,3 +10,4 @@ editor: markdown
 # Prettier
 * Opinionated code formatter
 # ESLint
+# Parcel
