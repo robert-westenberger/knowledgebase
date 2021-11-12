@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-12T16:55:57.869Z
+date: 2021-11-12T17:07:47.733Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -13,3 +13,5 @@ editor: markdown
 * Component based 
 
 # Hooks
+* Lets you use state without writing a class
+* Never put hooks in a for loop, if statement, etc.
