@@ -2,7 +2,7 @@
 title: Useful NPM Packages
 description: 
 published: true
-date: 2021-11-12T03:20:10.248Z
+date: 2021-11-12T03:46:31.484Z
 tags: 
 editor: markdown
 ---
@@ -11,3 +11,4 @@ editor: markdown
 * Opinionated code formatter
 # ESLint
 # Parcel
+* Zero configuration build tool
