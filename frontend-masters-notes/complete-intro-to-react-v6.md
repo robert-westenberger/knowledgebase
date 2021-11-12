@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-12T17:53:53.664Z
+date: 2021-11-12T17:55:38.979Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -14,8 +14,7 @@ editor: markdown
 
 # Hooks
 * Functions that let you "hook into" React state and lifecycle features from function components.
-* Never put hooks in a for loop, if statement, etc.
-
+* Never put hooks in a for loop, if statement, etc. (only call hooks at the top level)
 ## useState
 * Lets you use state without writing a class
 * Probably most commonly used hook
@@ -24,3 +23,4 @@ editor: markdown
 ## useEffect
 * Handles side effects (data fetching, subscriptions, manually changing the DOM from React components).
 * Serves the same purpose as componentDidMount, componentDidUpdate, componentWillUnmount, but unified into a single API.
+* Effects may optionally specify how to "clean up" after them by returning a function. 
