@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-12T18:18:30.715Z
+date: 2021-11-13T05:44:36.236Z
 tags: web-technologies, react
 editor: markdown
 ---
