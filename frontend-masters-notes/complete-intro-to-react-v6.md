@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-14T01:40:00.794Z
+date: 2021-11-14T03:33:05.351Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -53,4 +53,8 @@ function ExampleApplication() {
 }
 ```
 
-## Class Components
+## Context
+* It's application level state.
+* Use sparingly. Adds indirection to your code, making it harder to read and figure about.
+* Mostly replaces redux. Use one or the other. 
+
