@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-14T03:33:05.351Z
+date: 2021-11-14T03:33:25.761Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -29,10 +29,10 @@ editor: markdown
 ## Custom Hooks
 * For common pieces of functionality in your application.
 
-## Component Composition
+# Component Composition
 * One component should handle one thing
 
-## Strict Mode
+# Strict Mode
 * Doesn't allow you to use old APIs, "unsafe" methods.
 
 import React from 'react';
@@ -53,7 +53,7 @@ function ExampleApplication() {
 }
 ```
 
-## Context
+# Context
 * It's application level state.
 * Use sparingly. Adds indirection to your code, making it harder to read and figure about.
 * Mostly replaces redux. Use one or the other. 
