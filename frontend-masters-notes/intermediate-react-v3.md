@@ -2,7 +2,7 @@
 title: Intermediate React V3
 description: 
 published: true
-date: 2021-11-14T04:08:08.823Z
+date: 2021-11-14T22:52:49.389Z
 tags: web-technologies
 editor: markdown
 ---
@@ -28,3 +28,4 @@ function App() {
 * Preferable to useState when you have complex state logic that involves multiple sub-values or when the next state depends on the previous one. 
 * You can pass dispatch down instead of callbacks.
 
+# useMemo
