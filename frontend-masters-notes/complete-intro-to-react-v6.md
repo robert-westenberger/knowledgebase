@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-14T01:04:53.559Z
+date: 2021-11-14T01:09:37.083Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -32,4 +32,5 @@ editor: markdown
 ## Component Composition
 * One component should handle one thing
 
-## Development Environment
+## Strict Mode
+* Doesn't allow you to use old APIs, "unsafe" methods.
