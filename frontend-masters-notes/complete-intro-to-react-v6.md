@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-14T00:31:54.293Z
+date: 2021-11-14T01:04:53.559Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -28,3 +28,8 @@ editor: markdown
 
 ## Custom Hooks
 * For common pieces of functionality in your application.
+
+## Component Composition
+* One component should handle one thing
+
+## Development Environment
