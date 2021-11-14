@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-13T05:44:36.236Z
+date: 2021-11-14T00:31:54.293Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -27,3 +27,4 @@ editor: markdown
 * Effects may optionally specify how to "clean up" after them by returning a function. 
 
 ## Custom Hooks
+* For common pieces of functionality in your application.
