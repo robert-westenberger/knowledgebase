@@ -2,7 +2,7 @@
 title: Complete Intro to React v6
 description: 
 published: true
-date: 2021-11-14T01:09:37.083Z
+date: 2021-11-14T01:10:06.930Z
 tags: web-technologies, react
 editor: markdown
 ---
@@ -34,3 +34,21 @@ editor: markdown
 
 ## Strict Mode
 * Doesn't allow you to use old APIs, "unsafe" methods.
+
+import React from 'react';
+```
+function ExampleApplication() {
+  return (
+    <div>
+      <Header />
+      <React.StrictMode>
+        <div>
+          <ComponentOne />
+          <ComponentTwo />
+        </div>
+      </React.StrictMode>
+      <Footer />
+    </div>
+  );
+}
+```
