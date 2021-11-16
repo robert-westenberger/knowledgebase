@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-16T17:01:48.176Z
+date: 2021-11-16T17:02:11.450Z
 tags: web-technologies
 editor: markdown
 ---
@@ -13,3 +13,4 @@ editor: markdown
 	* Values that are potentially absent
   * Incomplete refactoring
   * Breakage around some internal contracts.
+* Great autocomplete
