@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-16T18:18:23.730Z
+date: 2021-11-16T18:24:29.960Z
 tags: web-technologies
 editor: markdown
 ---
@@ -83,3 +83,23 @@ let car: {
   chargeVoltage?: number
 }
 ```
+## Excess Property Checking
+```
+function printCar(car: {
+  make: string
+  model: string
+  year: number
+  chargeVoltage?: number
+}) {
+  // implementation removed for simplicity
+}
+
+printCar({
+  make: "Tesla",
+  model: "Model 3",
+  year: 2020,
+  chargeVoltage: 220,
+  color: "RED", // <0------ EXTRA PROPERTY
+  })
+```
+In the above code, `color` will throw an error since it's not defined in the original `car` object's type declaration. 
