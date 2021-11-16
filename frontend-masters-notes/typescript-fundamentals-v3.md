@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-16T17:44:32.222Z
+date: 2021-11-16T18:18:23.730Z
 tags: web-technologies
 editor: markdown
 ---
@@ -53,7 +53,7 @@ If we wanted more safety, we could add a type annotation, such as:
 let endTime: Date
 ```
 
-# Function Arguments and Return Values
+## Function Arguments and Return Values
 ```
 no-type-annotations.js
 function add(a, b) {
@@ -65,5 +65,21 @@ with-type-annotations.js
 function add(a: number, b: number) {
   return a + b // return type will be a number, 
   						// the typescript compiler can infer this
+}
+```
+
+# Objects, Arrays and Tuples
+## Objects
+Object types are defined by:
+* The names of the properties that may or may not be present
+* The types of those properties
+## Optional Properties
+We can denote an object property is optional by using the `?` operator.
+```
+let car: {
+  make: string
+  model: string
+  year: number
+  chargeVoltage?: number
 }
 ```
