@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-16T00:42:06.945Z
+date: 2021-11-16T00:42:59.456Z
 tags: 
 editor: markdown
 ---
@@ -16,6 +16,8 @@ editor: markdown
 * The overall aesthetic being strived for is similar to the 2nd screenshot on this webpage. 
 * You could also draw inspiration from 
  	* https://en.wikipedia.org/wiki/Super_Mario_World
+  * Older RPGs like final fantasy
+  
 ## Icons
 For icons, there is a lot of room for artistic / designer interpretation here. 
 ### Required Icons
