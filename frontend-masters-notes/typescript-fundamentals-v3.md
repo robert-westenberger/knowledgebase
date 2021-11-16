@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-16T17:23:16.156Z
+date: 2021-11-16T17:32:39.788Z
 tags: web-technologies
 editor: markdown
 ---
@@ -26,3 +26,8 @@ editor: markdown
 let age = 6;
 ```
 TypeScript will infer the variable age is a number. If we attempt to reassign age with something besides a number, it will throw an error.
+## Literal types
+```
+const age = 6;
+```
+Since const values cannot be reassigned, and numbers are immutable, the type of this const is 6, a specific number.
