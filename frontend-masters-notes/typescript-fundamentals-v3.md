@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-16T18:24:29.960Z
+date: 2021-11-16T18:42:53.647Z
 tags: web-technologies
 editor: markdown
 ---
@@ -102,4 +102,23 @@ printCar({
   color: "RED", // <0------ EXTRA PROPERTY
   })
 ```
-In the above code, `color` will throw an error since it's not defined in the original `car` object's type declaration. 
+In the above code, `color` will throw an error since it's not defined in the  `car` parameter object's type declaration. 
+
+## Index Signatures
+Representing a type for dictionaries, where values of a consistent type are retrievable by keys.
+```
+const phones: {
+  [k: string]: {
+    country: string
+    area: string
+    number: string
+  }
+} = {}
+
+const phones = {
+  home: { country: "+1", area: "211", number: "652-4515" },
+  work: { country: "+1", area: "670", number: "752-5856" },
+  fax: { country: "+1", area: "322", number: "525-4357" },
+}
+```
+## Array Types
