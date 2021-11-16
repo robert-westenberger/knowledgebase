@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-16T00:42:59.456Z
+date: 2021-11-16T00:43:16.099Z
 tags: 
 editor: markdown
 ---
@@ -19,7 +19,7 @@ editor: markdown
   * Older RPGs like final fantasy
   
 ## Icons
-For icons, there is a lot of room for artistic / designer interpretation here. 
+For icons, there is a lot of room for artistic / designer interpretation here.  
 ### Required Icons
 * Icon representing a computer
 * Icon representing a folder
