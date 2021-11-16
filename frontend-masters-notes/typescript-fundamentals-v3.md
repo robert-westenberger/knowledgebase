@@ -2,10 +2,10 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-16T16:42:30.828Z
+date: 2021-11-16T17:00:16.309Z
 tags: web-technologies
 editor: markdown
 ---
 
-# Header
-Your content here
+# Why TypeScript
+* Leaves more of your intent in the code. 
