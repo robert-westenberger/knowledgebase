@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:59:40.189Z
+date: 2021-11-17T18:05:13.721Z
 tags: web-technologies
 editor: markdown
 ---
@@ -304,7 +304,6 @@ const outcome: ["error", Error] | ["success", {
     email: string;
 }]
 ```
-## Intersection Types
-Intersection types in TypeScript can be described using the & (ampersand) operator.
+
 
 
