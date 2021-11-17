@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:31:46.610Z
+date: 2021-11-17T17:35:56.363Z
 tags: web-technologies
 editor: markdown
 ---
@@ -272,4 +272,36 @@ function flipCoin(): "heads" | "tails" {
 const outcome = flipCoin()
 ```
 
+Another example..
 
+```
+function flipCoin(): "heads" | "tails" {
+  if (Math.random() > 0.5) return "heads"
+  return "tails"
+}
+
+function maybeGetUserInfo():
+  | ["error", Error]
+  | ["success", { name: string; email: string }] {
+  if (flipCoin() === "heads") {
+    return [
+      "success",
+      { name: "Mike North", email: "mike@example.com" },
+    ]
+  } else {
+    return [
+      "error",
+      new Error("The coin landed on TAILS :("),
+    ]
+  }
+}
+const outcome = maybeGetUserInfo()
+```
+In the above, outcome would have the following type..
+```
+const outcome: ["error", Error] | ["success", {
+    name: string;
+    email: string;
+}]
+```
+### Working with union types
