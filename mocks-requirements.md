@@ -2,7 +2,7 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:51:30.146Z
+date: 2021-11-17T05:52:46.656Z
 tags: 
 editor: markdown
 ---
@@ -34,6 +34,8 @@ For icons, there is a lot of room for artistic / designer interpretation here. I
 * Icon representing "help" 
 * Icon representing a web browser
 * Icon representing a terminal / command line
+* Icon representing an empty trash can
+* Icon representing a trash can with something inside it
 ## Mock Page 1
 * The **layout** of the mock should resemble the following screenshot of Windows 95.
 ![capture.png](/capture.png)
