@@ -2,7 +2,7 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:55:26.045Z
+date: 2021-11-17T05:56:16.147Z
 tags: 
 editor: markdown
 ---
@@ -55,7 +55,7 @@ The same as page 1, but with the start menu closed.
 Same as mock page 2, but with the window closed and a terminal / command line open. The terminal / command line should not be maximized. It could be a similar size to the window on pages 1 and 2.
 
 ## Mock Page 4
-The following ui elements, layout doesnt matter. Doesn't even have to be on the "desktop", could just be on a blank screen. The screenshots here are just an example. 
+The following ui elements, layout doesnt matter. Doesn't even have to be on the "desktop", could just be on a blank screen. **The screenshots here are just an example.**, doesn't need the same text, button placement, etc. 
 1. Warning message
 ![27d3cf88a626932621de61e0f024df59.png](/27d3cf88a626932621de61e0f024df59.png)
 2. Error message
