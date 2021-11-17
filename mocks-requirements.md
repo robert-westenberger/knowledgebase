@@ -2,7 +2,7 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:45:17.393Z
+date: 2021-11-17T05:51:30.146Z
 tags: 
 editor: markdown
 ---
@@ -70,4 +70,11 @@ The following ui elements, layout doesnt matter. Doesn't even have to be on the 
 I don't really have anything particular in mind here. Austin floated an interesting idea about a window for selecting a screen saver.
 
 Some other possible ideas:
-* Some other kind of window open. A paint program, a calculator, 
+* Some other kind of window open. A paint program, a calculator, some game. 
+
+If this is already too much work, this screen can be scrapped for a later time.
+## Other import requirements
+* A cursor 
+* A "grab" cursor (in windows, its a little hand).
+* A "grab" cursor that is actually grabbing ( so a clutched hand)
+* The same 4/5 mocks as above, but in a mobile view. 
