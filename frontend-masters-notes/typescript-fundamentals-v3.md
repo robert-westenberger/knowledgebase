@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:35:56.363Z
+date: 2021-11-17T17:57:23.723Z
 tags: web-technologies
 editor: markdown
 ---
@@ -304,4 +304,5 @@ const outcome: ["error", Error] | ["success", {
     email: string;
 }]
 ```
-### Working with union types
+## Intersection Types
+
