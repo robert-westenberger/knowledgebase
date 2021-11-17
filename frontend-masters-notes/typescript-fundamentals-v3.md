@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T18:13:33.469Z
+date: 2021-11-17T18:17:22.574Z
 tags: web-technologies
 editor: markdown
 ---
@@ -309,5 +309,25 @@ const outcome: ["error", Error] | ["success", {
 Interfaces and type aliases are ways in which we can give our types useful and meaningful names.
 
 ## Type Aliases
+Allow us to 
+* Define a more meaningful name for a particular type
+* Declare the particulars of the type in a single place
+* Import and export this type from modules, the same as if it were an exported value.
 
+```
+///////////////////////////////////////////////////////////
+// @filename: types.ts
+export type UserContactInfo = {
+  name: string
+  email: string
+}
 
+///////////////////////////////////////////////////////////
+// @filename: utilities.ts
+import { UserContactInfo } from "./types"
+function printContactInfo(info: UserContactInfo) {
+  console.log(info)
+
+	console.log(info.email)
+}
+```
