@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:20:27.913Z
+date: 2021-11-17T17:23:37.940Z
 tags: web-technologies
 editor: markdown
 ---
@@ -195,3 +195,24 @@ function bar(): string[] {
 Static type systems have types in the code and are evaluated as part of the compilation step.
 
 Dynamic type systems have types evaluated at runtime. 
+
+## Nominal vs Structural
+### Nominal
+Compatibility and equivalence of data types is determined by explicit declarations and/or the name of the types.
+```
+public class Car {
+  String make;
+  String model;
+  int make;
+}
+public class CarChecker {
+  // takes a `Car` argument, returns a `String`
+  public static String printCar(Car car) {  }
+}
+Car myCar = new Car();
+// TYPE CHECKING
+// -------------
+// Is `myCar` type-equivalent to
+//     what `checkCar` wants as an argument?
+CarChecker.checkCar(myCar);
+```
