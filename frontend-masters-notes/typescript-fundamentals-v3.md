@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:24:11.229Z
+date: 2021-11-17T17:25:04.446Z
 tags: web-technologies
 editor: markdown
 ---
@@ -217,3 +217,37 @@ Car myCar = new Car();
 CarChecker.checkCar(myCar);
 ```
 ### Structural / Property based
+This kind of type system just cares about shape. 
+```
+class Car {
+  make: string
+  model: string
+  year: number
+  isElectric: boolean
+}
+
+class Truck {
+  make: string
+  model: string
+  year: number
+  towingCapacity: number
+}
+
+const vehicle = {
+  make: "Honda",
+  model: "Accord",
+  year: 2017,
+}
+
+function printCar(car: {
+  make: string
+  model: string
+  year: number
+}) {
+  console.log(`${car.make} ${car.model} (${car.year})`)
+}
+
+printCar(new Car()) // Fine
+printCar(new Truck()) // Fine
+printCar(vehicle) // Fine
+```
