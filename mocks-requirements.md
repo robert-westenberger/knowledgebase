@@ -2,15 +2,10 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:56:16.147Z
+date: 2021-11-17T05:57:09.812Z
 tags: 
 editor: markdown
 ---
-
-![capture.png](/capture.png)
-
-![windows_95_2.png](/windows_95_2.png)
-![windows_95_3.png](/windows_95_3.png)
 
 # Mock Requirements
 ## Overall aesthetic to strive for
