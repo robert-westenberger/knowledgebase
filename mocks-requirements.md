@@ -2,7 +2,7 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:52:46.656Z
+date: 2021-11-17T05:55:26.045Z
 tags: 
 editor: markdown
 ---
@@ -80,3 +80,6 @@ If this is already too much work, this screen can be scrapped for a later time.
 * A "grab" cursor (in windows, its a little hand).
 * A "grab" cursor that is actually grabbing ( so a clutched hand)
 * The same 4/5 mocks as above, but in a mobile view. 
+* All the icons should have a "selected" state, for when the user clicks on it.
+## Other notes
+https://copy.sh/v86/?profile=windows95 can be used for a reminder of what windows 95 actually looks / behaves like.
