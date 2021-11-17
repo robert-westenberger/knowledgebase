@@ -2,7 +2,7 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:57:09.812Z
+date: 2021-11-17T06:04:09.387Z
 tags: 
 editor: markdown
 ---
@@ -70,7 +70,7 @@ Some other possible ideas:
 * Some other kind of window open. A paint program, a calculator, some game. 
 
 If this is already too much work, this screen can be scrapped for a later time.
-## Other import requirements
+## Other important requirements
 * A cursor 
 * A "grab" cursor (in windows, its a little hand).
 * A "grab" cursor that is actually grabbing ( so a clutched hand)
