@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:26:57.276Z
+date: 2021-11-17T17:29:04.858Z
 tags: web-technologies
 editor: markdown
 ---
@@ -256,3 +256,6 @@ printCar(vehicle) // Fine
 Gets its name from the phrase
 > If it looks like a duck, swims like a duck, and quack like a duck, then it probably is a duck.
 Usually to describe dynamic type system. 
+
+# Union and Intersection Types
+
