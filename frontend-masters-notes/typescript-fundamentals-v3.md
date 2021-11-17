@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:30:02.565Z
+date: 2021-11-17T17:31:46.610Z
 tags: web-technologies
 editor: markdown
 ---
@@ -258,5 +258,18 @@ Gets its name from the phrase
 Usually to describe dynamic type system. 
 
 # Union and Intersection Types
-Can be conceptually thought of as AND or OR operators, respectively.
+Can be conceptually thought of as OR or AND operations, respectively.
+
+## Union Types in TypeScript
+Union types are described using the | (pipe) operator.
+
+```
+function flipCoin(): "heads" | "tails" {
+  if (Math.random() > 0.5) return "heads"
+  return "tails"
+}
+
+const outcome = flipCoin()
+```
+
 
