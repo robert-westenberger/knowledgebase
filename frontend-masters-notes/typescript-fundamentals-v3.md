@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-16T18:42:53.647Z
+date: 2021-11-17T17:06:07.061Z
 tags: web-technologies
 editor: markdown
 ---
@@ -122,3 +122,16 @@ const phones = {
 }
 ```
 ## Array Types
+```
+const fileExtensions = ["js", "ts"];
+```
+Typescript is smart enough to infer that the above is an array of strings.
+```
+const cars = [{
+    make: "Toyota",
+    model: "Corolla",
+    year: 2002,
+  },
+]
+```
+Above will be typed as an array of objects, where the make and model keys are required and are strings, and the year is required and is a number.
