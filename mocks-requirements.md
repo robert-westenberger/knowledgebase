@@ -2,7 +2,7 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:44:24.617Z
+date: 2021-11-17T05:45:17.393Z
 tags: 
 editor: markdown
 ---
@@ -61,11 +61,11 @@ The following ui elements, layout doesnt matter. Doesn't even have to be on the 
 ![1_6-ufsbmajkjs-yllypk4tg.gif](/1_6-ufsbmajkjs-yllypk4tg.gif)
 4. A generic form, inside a window, with the following inputs
 	* Primary button
-  * Secondary button
-  * text input
-  * some checkboxes
-  * some radio buttons
-  * A select input
+  	* Secondary button
+ 	 * text input
+ 	* some checkboxes
+ 	 * some radio buttons
+  	* A select input
 ## Mock Page 5
 I don't really have anything particular in mind here. Austin floated an interesting idea about a window for selecting a screen saver.
 
