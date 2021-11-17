@@ -2,7 +2,7 @@
 title: Mocks Requirements
 description: 
 published: true
-date: 2021-11-17T05:36:40.695Z
+date: 2021-11-17T05:44:24.617Z
 tags: 
 editor: markdown
 ---
@@ -53,9 +53,19 @@ The same as page 1, but with the start menu closed.
 Same as mock page 2, but with the window closed and a terminal / command line open. The terminal / command line should not be maximized. It could be a similar size to the window on pages 1 and 2.
 
 ## Mock Page 4
-The following ui elements, layout doesnt matter. Doesn't even have to be on the "desktop", could just be on a blank screen.
-
-
+The following ui elements, layout doesnt matter. Doesn't even have to be on the "desktop", could just be on a blank screen. The screenshots here are just an example. 
+1. Warning message
+![27d3cf88a626932621de61e0f024df59.png](/27d3cf88a626932621de61e0f024df59.png)
+2. Error message
+3. Progress indicator
+![1_6-ufsbmajkjs-yllypk4tg.gif](/1_6-ufsbmajkjs-yllypk4tg.gif)
+4. A generic form, inside a window, with the following inputs
+	* Primary button
+  * Secondary button
+  * text input
+  * some checkboxes
+  * some radio buttons
+  * A select input
 ## Mock Page 5
 I don't really have anything particular in mind here. Austin floated an interesting idea about a window for selecting a screen saver.
 
