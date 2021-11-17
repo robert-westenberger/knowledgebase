@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:23:37.940Z
+date: 2021-11-17T17:24:11.229Z
 tags: web-technologies
 editor: markdown
 ---
@@ -197,7 +197,7 @@ Static type systems have types in the code and are evaluated as part of the comp
 Dynamic type systems have types evaluated at runtime. 
 
 ## Nominal vs Structural
-### Nominal
+### Nominal / Name Based
 Compatibility and equivalence of data types is determined by explicit declarations and/or the name of the types.
 ```
 public class Car {
@@ -216,3 +216,4 @@ Car myCar = new Car();
 //     what `checkCar` wants as an argument?
 CarChecker.checkCar(myCar);
 ```
+### Structural / Property based
