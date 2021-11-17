@@ -2,7 +2,7 @@
 title: Intermediate React V3
 description: 
 published: true
-date: 2021-11-14T22:52:49.389Z
+date: 2021-11-17T02:35:19.908Z
 tags: web-technologies
 editor: markdown
 ---
@@ -29,3 +29,4 @@ function App() {
 * You can pass dispatch down instead of callbacks.
 
 # useMemo
+* Memoizes expensive function calls so they are only re-evaluated when needed. 
