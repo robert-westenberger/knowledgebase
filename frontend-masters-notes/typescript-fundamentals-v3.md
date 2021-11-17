@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T18:17:22.574Z
+date: 2021-11-17T18:30:29.540Z
 tags: web-technologies
 editor: markdown
 ---
@@ -331,3 +331,6 @@ function printContactInfo(info: UserContactInfo) {
 	console.log(info.email)
 }
 ```
+
+## Interfaces
+An interface is a way of defining an object type. 
