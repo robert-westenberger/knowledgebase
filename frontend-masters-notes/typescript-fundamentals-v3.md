@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:07:01.105Z
+date: 2021-11-17T17:10:15.835Z
 tags: web-technologies
 editor: markdown
 ---
@@ -137,4 +137,19 @@ const cars = [{
 Above will be typed as an array of objects, where the make and model keys are required and are strings, and the year is required and is a number.
 
 ### Tuples
-A multi-element, ordered data structure, where position of each item has some special meaning or convention.
+A multi-element, ordered data structure, where position of each item has some special meaning or convention. Typescript is not good at inferring types of tuples.
+
+```
+let myCar = [2002, "Toyota", "Corolla"]
+```
+By default, typescript will infer the above is a mixed array of strings and numbers where order doesn't matter.
+
+The takeaway is, we need to explicitly define when an array should be considered a tuple.
+So something like this
+```
+let myCar: [number, string, string] = [
+  2002,
+  "Toyota",
+  "Corolla",
+]
+```
