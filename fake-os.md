@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-16T19:08:35.422Z
+date: 2021-11-17T05:16:14.322Z
 tags: 
 editor: markdown
 ---
@@ -19,13 +19,14 @@ editor: markdown
   * Older SNES era RPGs like final fantasy, chrono trigger, secret of mana
   
 ## Icons
-For icons, there is a lot of room for artistic / designer interpretation here.  
+For icons, there is a lot of room for artistic / designer interpretation here.
 ### Required Icons
 * Icon representing a computer
 * Icon representing a folder
 * Icon representing a folder with documents inside
 * Icon representing "system preferences" (so like a cog, or a folder with tools on it or something like that)
 * Icon representing a text document
+* Icon representing a text editor
 * Icon representing a spreadsheet
 * Icon representing a submenu (for the start menu)
 * Icon representing "help" 
@@ -38,9 +39,6 @@ For icons, there is a lot of room for artistic / designer interpretation here.
   * The taskbar should have a button to the right of the start menu button containing an icon and some text, which represents an opened program. (In the screenshot, this is the "Control Panel" button on the taskbar). 
   * On the far righthand side of the taskbar, should be a tiny computer icon with a time. 
   * There should be a window on the desktop opened. Buttons / text / scrollbars should show up in the window in the mock in the same place where they do in the screenshot. There should be more icons in the window. The name of the window should match the name of the taskbar button ( in the screenshot, its Control Panel).
-
-
-
 
 
 
