@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:10:15.835Z
+date: 2021-11-17T17:12:53.191Z
 tags: web-technologies
 editor: markdown
 ---
@@ -153,3 +153,5 @@ let myCar: [number, string, string] = [
   "Corolla",
 ]
 ```
+#### Limitations
+Typescript won't stop us from pushing and popping values from our tuple that would break it. It won't throw any errors even though it should. 
