@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:06:07.061Z
+date: 2021-11-17T17:07:01.105Z
 tags: web-technologies
 editor: markdown
 ---
@@ -135,3 +135,6 @@ const cars = [{
 ]
 ```
 Above will be typed as an array of objects, where the make and model keys are required and are strings, and the year is required and is a number.
+
+### Tuples
+A multi-element, ordered data structure, where position of each item has some special meaning or convention.
