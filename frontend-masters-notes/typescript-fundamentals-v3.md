@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:29:04.858Z
+date: 2021-11-17T17:30:02.565Z
 tags: web-technologies
 editor: markdown
 ---
@@ -258,4 +258,5 @@ Gets its name from the phrase
 Usually to describe dynamic type system. 
 
 # Union and Intersection Types
+Can be conceptually thought of as AND or OR operators, respectively.
 
