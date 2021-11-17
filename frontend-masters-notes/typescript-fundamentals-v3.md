@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T17:12:53.191Z
+date: 2021-11-17T17:20:27.913Z
 tags: web-technologies
 editor: markdown
 ---
@@ -155,3 +155,43 @@ let myCar: [number, string, string] = [
 ```
 #### Limitations
 Typescript won't stop us from pushing and popping values from our tuple that would break it. It won't throw any errors even though it should. 
+
+# Structural vs Nominal Types
+## What is type checking?
+Type checking is answering a question about type equivalence.
+### In a function call
+```
+function foo(x) {
+  // ... mystery code ...
+}
+//
+// TYPE CHECKING
+// -------------
+// Is `myValue` type-equivalent to
+//     what `foo` whats to receive?
+foo(myValue)
+```
+### In assignment
+```
+// is the value y holds type-equivalent to what `x` allows?
+x = y
+```
+### A return
+```
+const myStrings = ["a"]
+/// ---cut---
+function bar(): string[] {
+  // ...mystery code that might return early...
+  //
+  //
+  // TYPE CHECKING
+  // -------------
+  // Is `myStrings` type-equivalent to
+  //     what `bar` states it will return?
+  return myStrings
+}
+```
+## Static vs Dynamic
+Static type systems have types in the code and are evaluated as part of the compilation step.
+
+Dynamic type systems have types evaluated at runtime. 
