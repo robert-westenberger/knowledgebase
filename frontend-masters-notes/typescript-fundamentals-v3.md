@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:08:39.939Z
+date: 2021-11-18T18:16:17.038Z
 tags: web-technologies
 editor: markdown
 ---
@@ -543,3 +543,6 @@ $$
 \hline \text { private } & \text { only the instance itself }
 \end{array}
 $$
+
+## readonly
+Can be used with other keywords. Will throw an error if you try to reassign the value.
