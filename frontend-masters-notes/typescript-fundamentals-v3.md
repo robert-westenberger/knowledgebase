@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T16:57:49.539Z
+date: 2021-11-18T17:01:07.609Z
 tags: web-technologies
 editor: markdown
 ---
@@ -419,3 +419,8 @@ class Dog
 Typescript interfaces are "open", meaning that unlike in type aliases, you can have multiple declarations in the same scope. If two interface declarations are in the same scope, they are merged together.
 
 ### Recursion
+```
+type NestedNumbers = number | NestedNumbers[]
+
+const val: NestedNumbers = [3, 4, [5, 6, [7], 59], 221]
+```
