@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:17:45.465Z
+date: 2021-11-18T18:24:53.929Z
 tags: web-technologies
 editor: markdown
 ---
@@ -563,3 +563,39 @@ const c = new Car("Honda", "Accord", 2017)
 `c.#year` will throw an error because its private, hence not accessible outside of the car class.
 ## readonly
 Can be used with other keywords. Will throw an error if you try to reassign the value. Giving it an initial value in a constructor is fine. 
+
+## Param Properties
+Before using param properties...
+```
+class Car {
+  make: string
+  model: string
+  year: number
+  constructor(make: string, model: string, year: number) {
+    this.make = make
+    this.model = model
+    this.year = year
+  }
+}
+```
+
+After using param properties..
+```
+class Car {
+  constructor(
+    public make: string,
+    public model: string,
+    public year: number
+  ) {}
+}
+
+const myCar = new Car("Honda", "Accord", 2017)
+myCar.make
+```
+
+
+# Top and Bottom Types
+## Top Types
+A top type is a type that describes any possible value allowed by the system. In set theory notation, this would be $\{x \mid x$ could be anything $\}$.
+
+Typescript provides two of these types: `any` and `unknown`.
