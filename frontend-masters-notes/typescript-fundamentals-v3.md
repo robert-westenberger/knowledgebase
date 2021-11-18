@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:23:47.205Z
+date: 2021-11-18T17:24:08.976Z
 tags: web-technologies
 editor: markdown
 ---
@@ -445,3 +445,5 @@ In the above..
 
 ### void 
 `void` is a special type, that's specifically used to describe the return values. A return value from a `void` function is explicitly meant to be ignored.
+
+## Construct signatures
