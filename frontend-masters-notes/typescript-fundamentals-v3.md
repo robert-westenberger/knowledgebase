@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:30:45.002Z
+date: 2021-11-18T20:36:37.135Z
 tags: web-technologies
 editor: markdown
 ---
@@ -619,6 +619,32 @@ When converting a project from javascript to typescript, its convenient to be ab
 `unknown` is great for vals received at runtime ( API calls / the data layer). By obligating consumers of these values to perform some light validation before using them, errors are caught earlier, and can often be surfaced with more context.
 
 
-## Bottom Type
-### never
+## Bottom Type - Never
 A bottom type is a type that describes no possible value allowed by the system. 
+### Use case
+##### Exhaustive Conditionals
+```
+class Car {
+  drive() {
+    console.log("vroom")
+  }
+}
+class Truck {
+  tow() {
+    console.log("dragging something")
+  }
+}
+type Vehicle = Truck | Car
+
+let myVehicle: Vehicle = obtainRandomVehicle()
+
+// The exhaustive conditional
+if (myVehicle instanceof Truck) {
+  myVehicle.tow() // Truck
+} else if (myVehicle instanceof Car) {
+  myVehicle.drive() // Car
+} else {
+  // NEITHER!
+  const neverValue: never = myVehicle
+}
+```
