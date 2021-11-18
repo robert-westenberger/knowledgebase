@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:24:53.929Z
+date: 2021-11-18T18:26:50.297Z
 tags: web-technologies
 editor: markdown
 ---
@@ -599,3 +599,10 @@ myCar.make
 A top type is a type that describes any possible value allowed by the system. In set theory notation, this would be $\{x \mid x$ could be anything $\}$.
 
 Typescript provides two of these types: `any` and `unknown`.
+### any
+As described previously, `any` is just the default javascript type. A variable with an any type can be assigned any type of value.
+
+### unknown
+Like `any`, `unknown` can accept any value, but its different in a very important way..
+
+Values with an `unknown` type cannot be used without first applying a type guard.
