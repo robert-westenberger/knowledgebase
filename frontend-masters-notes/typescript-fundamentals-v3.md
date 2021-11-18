@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:01:07.609Z
+date: 2021-11-18T17:20:30.076Z
 tags: web-technologies
 editor: markdown
 ---
@@ -423,4 +423,19 @@ Typescript interfaces are "open", meaning that unlike in type aliases, you can h
 type NestedNumbers = number | NestedNumbers[]
 
 const val: NestedNumbers = [3, 4, [5, 6, [7], 59], 221]
+```
+
+# Functions
+## Callable Types
+Both type aliases and interfaces offer the capabiltiy to describe call signatures.
+
+```
+interface TwoNumberCalculation {
+  (x: number, y: number): number
+}
+
+type TwoNumberCalc = (x: number, y: number) => number
+
+const add: TwoNumberCalculation = (a, b) => a + b
+const subtract: TwoNumberCalc = (x, y) => x - y
 ```
