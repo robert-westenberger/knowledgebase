@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:42:49.924Z
+date: 2021-11-18T17:58:31.295Z
 tags: web-technologies
 editor: markdown
 ---
@@ -497,3 +497,39 @@ handleMainEvent(myFrame, (val) => {
 })
 handleMainEvent(myForm, (val) => { })
 ```
+
+## this Types
+Sometimes we have a free-standing function that has a strong opinion around what `this` will end up being, at the time it is invoked.
+
+For example, if we had a DOM event listener for the button
+`
+<button onClick="myClickHandler">Click Me!</button>
+`
+
+We could define `myClickHandler` as follows:
+```
+function myClickHandler(event: Event) {
+  this.disabled = true
+}
+
+myClickHandler(new Event("click")) // seems ok
+```
+but this will give us a warning because `this` has no type annotation.
+
+Here, we now specify the type correctly, and we give the function exactly the kind of type it wants.
+```
+function myClickHandler(
+  this: HTMLButtonElement,
+  event: Event
+) {
+  this.disabled = true
+}
+myClickHandler
+const myButton = document.getElementsByTagName("button")[0]
+const boundHandler = myClickHandler.bind(myButton)
+boundHandler(new Event("click")) // bound version: ok
+myClickHandler.call(myButton, new Event("click")) // also ok
+```
+
+## Function Type Best Practices
+### Explicitly Define Return Types
