@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:26:50.297Z
+date: 2021-11-18T18:30:45.002Z
 tags: web-technologies
 editor: markdown
 ---
@@ -606,3 +606,19 @@ As described previously, `any` is just the default javascript type. A variable w
 Like `any`, `unknown` can accept any value, but its different in a very important way..
 
 Values with an `unknown` type cannot be used without first applying a type guard.
+
+So the below would throw an error
+```
+let myUnknown: unknown = 14
+myUnknown.it.is.possible.to.access.any.deep.property
+```
+
+### Practical Use of Top Types
+When converting a project from javascript to typescript, its convenient to be able to incrementally add increasingly strong types. A lot of things will be `any` until you get a chance to inspect and add more specific types.
+
+`unknown` is great for vals received at runtime ( API calls / the data layer). By obligating consumers of these values to perform some light validation before using them, errors are caught earlier, and can often be surfaced with more context.
+
+
+## Bottom Type
+### never
+A bottom type is a type that describes no possible value allowed by the system. 
