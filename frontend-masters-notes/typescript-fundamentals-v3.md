@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:58:31.295Z
+date: 2021-11-18T18:04:41.312Z
 tags: web-technologies
 editor: markdown
 ---
@@ -531,5 +531,8 @@ boundHandler(new Event("click")) // bound version: ok
 myClickHandler.call(myButton, new Event("click")) // also ok
 ```
 
-## Function Type Best Practices
-### Explicitly Define Return Types
+# Classes
+## Access Modifier Keywords
+`public`, `private`, and `protected`
+
+
