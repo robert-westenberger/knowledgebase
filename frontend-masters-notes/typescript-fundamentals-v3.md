@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:06:02.721Z
+date: 2021-11-18T18:08:39.939Z
 tags: web-technologies
 editor: markdown
 ---
@@ -535,4 +535,11 @@ myClickHandler.call(myButton, new Event("click")) // also ok
 ## Access Modifier Keywords
 `public`, `private`, and `protected`
 
-
+$$
+\begin{array}{ll}
+\text { keyword } & \text { who can access } \\
+\hline \text { public } & \text { everyone (this is the default) } \\
+\hline \text { protected } & \text { the instance itself, and subclasses } \\
+\hline \text { private } & \text { only the instance itself }
+\end{array}
+$$
