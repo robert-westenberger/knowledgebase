@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T16:32:47.117Z
+date: 2021-11-18T16:33:21.382Z
 tags: web-technologies
 editor: markdown
 ---
@@ -333,4 +333,6 @@ function printContactInfo(info: UserContactInfo) {
 ```
 
 ## Interfaces
-An interface is a way of defining an object type. An "object type" can be thought of as, "an instance ofa class could conceivably look like this".
+An interface is a way of defining an object type. An "object type" can be thought of as, "an instance of a class could conceivably look like this".
+
+### Inheritance
