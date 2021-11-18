@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:37:35.369Z
+date: 2021-11-18T17:42:49.924Z
 tags: web-technologies
 editor: markdown
 ---
@@ -469,4 +469,31 @@ Given the following code
   <input type="password" name="password" />
   <input type="submit" value="Login" />
 </form>
+```
+
+What if we had to create a function that allowed us to register a “main event listener”?
+* If we are passed a form element, we should allow registration of a “submit callback”
+* If we are passed an iframe element, we should allow registration of a ”postMessage callback”
+```
+type FormSubmitHandler = (data: FormData) => void
+type MessageHandler = (evt: MessageEvent) => void
+
+function handleMainEvent(
+  elem: HTMLFormElement,
+  handler: FormSubmitHandler
+)
+function handleMainEvent(
+  elem: HTMLIFrameElement,
+  handler: MessageHandler
+)
+function handleMainEvent(
+  elem: HTMLFormElement | HTMLIFrameElement,
+  handler: FormSubmitHandler | MessageHandler
+) {}
+
+const myFrame = document.getElementsByTagName("iframe")[0]
+const myForm = document.getElementsByTagName("form")[0]
+handleMainEvent(myFrame, (val) => {
+})
+handleMainEvent(myForm, (val) => { })
 ```
