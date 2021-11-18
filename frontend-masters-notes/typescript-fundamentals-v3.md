@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T16:28:54.636Z
+date: 2021-11-18T16:32:47.117Z
 tags: web-technologies
 editor: markdown
 ---
@@ -306,7 +306,7 @@ const outcome: ["error", Error] | ["success", {
 ```
 
 # Interfaces and Type Aliases
-Interfaces and type aliases are ways in which we can give our types useful and meaningful names. You should pretty much always prefer interfaces unless you need some specific features. 
+Interfaces and type aliases are ways in which we can give our types useful and meaningful names. You should pretty much always prefer interfaces unless you need some specific features.                                    
 
 ## Type Aliases
 Allow us to 
@@ -333,4 +333,4 @@ function printContactInfo(info: UserContactInfo) {
 ```
 
 ## Interfaces
-An interface is a way of defining an object type. 
+An interface is a way of defining an object type. An "object type" can be thought of as, "an instance ofa class could conceivably look like this".
