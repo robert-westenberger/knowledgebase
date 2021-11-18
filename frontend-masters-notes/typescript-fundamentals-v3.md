@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T16:33:21.382Z
+date: 2021-11-18T16:39:44.198Z
 tags: web-technologies
 editor: markdown
 ---
@@ -336,3 +336,53 @@ function printContactInfo(info: UserContactInfo) {
 An interface is a way of defining an object type. An "object type" can be thought of as, "an instance of a class could conceivably look like this".
 
 ### Inheritance
+#### Extends
+Regular es6 class inheritance uses the `extends` keyword. For example,
+```
+class Animal {
+  eat(food) {
+    consumeFood(food)
+  }
+}
+class Dog extends Animal {
+  bark() {
+    return "woof"
+  }
+}
+const d = new Dog()
+d.eat
+d.bark
+```
+
+In typescript, a sub-interface extends from a base interface. 
+```
+interface Animal {
+  isAlive(): boolean
+}
+interface Mammal extends Animal {
+  getFurOrHairColor(): string
+}
+interface Dog extends Mammal {
+  getBreed(): string
+}
+function careForDog(dog: Dog) {
+  dog.getBreed
+  //   ^|
+}
+```
+#### Implements
+Typescript adds a second clause that can be used to state that a given class should produce instances that confirm to a given interface: implements.
+
+```
+function consumeFood(arg) {}
+/// ---cut---
+interface AnimalLike {
+  eat(food): void
+}
+
+class Dog implements AnimalLike {
+  bark() {
+    return "woof"
+  }
+}
+```
