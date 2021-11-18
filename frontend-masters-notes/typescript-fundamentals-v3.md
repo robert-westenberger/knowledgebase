@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:16:31.755Z
+date: 2021-11-18T18:17:45.465Z
 tags: web-technologies
 editor: markdown
 ---
@@ -544,5 +544,22 @@ $$
 \end{array}
 $$
 
+## JS private #fields
+denoted by the hash prefix
+```
+class Car {
+  public make: string
+  public model: string
+  #year: number
+
+  constructor(make: string, model: string, year: number) {
+    this.make = make
+    this.model = model
+    this.#year = year
+  }
+}
+const c = new Car("Honda", "Accord", 2017)
+```
+`c.#year` will throw an error because its private, hence not accessible outside of the car class.
 ## readonly
 Can be used with other keywords. Will throw an error if you try to reassign the value. Giving it an initial value in a constructor is fine. 
