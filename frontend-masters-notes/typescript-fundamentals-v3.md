@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T16:43:33.272Z
+date: 2021-11-18T16:49:59.455Z
 tags: web-technologies
 editor: markdown
 ---
@@ -416,4 +416,4 @@ class Dog
 }
 ```
 ### Open Interfaces
-Typescript interfaces are "open", meaning that unlike in type aliases, you can have multiple declarations in the same scope:
+Typescript interfaces are "open", meaning that unlike in type aliases, you can have multiple declarations in the same scope. If two interface declarations are in the same scope,
