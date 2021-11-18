@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-17T18:30:29.540Z
+date: 2021-11-18T16:28:54.636Z
 tags: web-technologies
 editor: markdown
 ---
@@ -306,7 +306,7 @@ const outcome: ["error", Error] | ["success", {
 ```
 
 # Interfaces and Type Aliases
-Interfaces and type aliases are ways in which we can give our types useful and meaningful names.
+Interfaces and type aliases are ways in which we can give our types useful and meaningful names. You should pretty much always prefer interfaces unless you need some specific features. 
 
 ## Type Aliases
 Allow us to 
