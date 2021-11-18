@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T18:16:17.038Z
+date: 2021-11-18T18:16:31.755Z
 tags: web-technologies
 editor: markdown
 ---
@@ -545,4 +545,4 @@ $$
 $$
 
 ## readonly
-Can be used with other keywords. Will throw an error if you try to reassign the value.
+Can be used with other keywords. Will throw an error if you try to reassign the value. Giving it an initial value in a constructor is fine. 
