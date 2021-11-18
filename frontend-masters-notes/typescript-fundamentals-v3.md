@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:22:26.744Z
+date: 2021-11-18T17:23:47.205Z
 tags: web-technologies
 editor: markdown
 ---
@@ -443,3 +443,5 @@ In the above..
 * The return type for an interface is `:number`, and for its type alias it's `=>number`. 
 * Because we provide types for the functions `add` and `subtract`, we don't need to provide type annotations for each individual function's argument list or return type.
 
+### void 
+`void` is a special type, that's specifically used to describe the return values. A return value from a `void` function is explicitly meant to be ignored.
