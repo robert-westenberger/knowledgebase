@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T16:41:04.213Z
+date: 2021-11-18T16:42:18.238Z
 tags: web-technologies
 editor: markdown
 ---
@@ -371,7 +371,7 @@ function careForDog(dog: Dog) {
 }
 ```
 #### Implements
-Typescript adds a second clause that can be used to state that a given class should produce instances that confirm to a given interface: implements.
+Typescript adds a second clause that can be used to state that a given class should produce instances that confirm to a given interface: `implements`.
 
 ```
 function consumeFood(arg) {}
@@ -387,3 +387,31 @@ class Dog implements AnimalLike {
 }
 ```
 The above will throw an error, since the class Dog doesn't have the eat method required by the AnimalLike interface.
+
+Both `extends` and `implements` can be used together.
+
+```
+class LivingOrganism {
+  isAlive() {
+    return true
+  }
+}
+interface AnimalLike {
+  eat(food): void
+}
+interface CanBark {
+  bark(): string
+}
+
+class Dog
+  extends LivingOrganism
+  implements AnimalLike, CanBark
+{
+  bark() {
+    return "woof"
+  }
+  eat(food) {
+    consumeFood(food)
+  }
+}
+```
