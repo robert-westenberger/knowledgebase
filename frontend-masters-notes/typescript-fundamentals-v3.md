@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:24:08.976Z
+date: 2021-11-18T17:25:30.958Z
 tags: web-technologies
 editor: markdown
 ---
@@ -439,7 +439,7 @@ type TwoNumberCalc = (x: number, y: number) => number
 const add: TwoNumberCalculation = (a, b) => a + b
 const subtract: TwoNumberCalc = (x, y) => x - y
 ```
-In the above..
+In the above (the interface TwoNumberCalculation and the type TwoNumberCalc are identical)..
 * The return type for an interface is `:number`, and for its type alias it's `=>number`. 
 * Because we provide types for the functions `add` and `subtract`, we don't need to provide type annotations for each individual function's argument list or return type.
 
