@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T16:39:44.198Z
+date: 2021-11-18T16:41:04.213Z
 tags: web-technologies
 editor: markdown
 ---
@@ -386,3 +386,4 @@ class Dog implements AnimalLike {
   }
 }
 ```
+The above will throw an error, since the class Dog doesn't have the eat method required by the AnimalLike interface.
