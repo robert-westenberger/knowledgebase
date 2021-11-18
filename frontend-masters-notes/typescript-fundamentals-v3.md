@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T17:36:17.763Z
+date: 2021-11-18T17:37:35.369Z
 tags: web-technologies
 editor: markdown
 ---
@@ -456,4 +456,17 @@ interface DateConstructor {
 
 let MyDateConstructor: DateConstructor = Date
 const d = new MyDateConstructor()
+```
+
+## Function overloads
+Given the following code
+```
+<iframe src="https://example.com" />
+<!-- // -->
+<form>
+  <input type="text" name="name" />
+  <input type="text" name="email" />
+  <input type="password" name="password" />
+  <input type="submit" value="Login" />
+</form>
 ```
