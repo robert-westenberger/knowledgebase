@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-18T20:36:37.135Z
+date: 2021-11-19T17:09:14.704Z
 tags: web-technologies
 editor: markdown
 ---
@@ -648,3 +648,44 @@ if (myVehicle instanceof Truck) {
   const neverValue: never = myVehicle
 }
 ```
+
+# Type Guards and Narrowing
+## Built-in Type Guards
+There are a bunch of type guards that are included with TypeScript. Below is an illustrative example of a wide variety of them. 
+```
+let value:
+  | Date
+  | null
+  | undefined
+  | "pineapple"
+  | [number]
+  | { dateRange: [Date, Date] }
+
+// instanceof
+if (value instanceof Date) {
+
+}
+// typeof
+else if (typeof value === "string") {
+
+}
+// Specific value check
+else if (value === null) {
+
+}
+// Truthy/falsy check
+else if (!value) {
+}
+// Some built-in functions
+else if (Array.isArray(value)) {
+
+}
+// Property presence check
+else if ("dateRange" in value) {
+
+} else {
+
+}
+```
+
+## User-defined Type Guards
