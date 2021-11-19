@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:35:14.935Z
+date: 2021-11-19T17:43:40.299Z
 tags: web-technologies
 editor: markdown
 ---
