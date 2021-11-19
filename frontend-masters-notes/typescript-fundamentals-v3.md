@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:43:40.299Z
+date: 2021-11-19T22:16:58.717Z
 tags: web-technologies
 editor: markdown
 ---
@@ -820,3 +820,7 @@ if (isNull(empty)) {
 
 > In cases where the rest of your code relies on a particular value being of a certain type, make sure to throw an error so that unexpected behavior is **LOUD** instead of quiet.
 {.is-info}
+
+# Nullish Values
+# null
+There is a value, and that value is nothing. 
