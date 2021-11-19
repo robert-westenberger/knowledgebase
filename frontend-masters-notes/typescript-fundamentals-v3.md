@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:26:09.146Z
+date: 2021-11-19T17:30:50.666Z
 tags: web-technologies
 editor: markdown
 ---
@@ -797,3 +797,22 @@ maybeCar // maybeCar is CarLike
 In the above example, if `assertsIsCarLike` throws an error, it should be taken as an indication that `valueToTest` is NOT type-equivalent to `CarLike`.
 
 Therefore, if we get past the assertion and keep executing code on the next line, the type changes from `unknown` to `CarLike`.
+
+## Writing High Quality Guards
+Below is a **BAD EXAMPLE** of a type guard..
+```
+function isNull(val: any): val is null {
+  return !val
+}
+
+const empty = ""
+const zero = 0
+if (isNull(zero)) {
+  console.log(zero) // it is possible to get here ( 0 is falsy)
+}
+if (isNull(empty)) {
+  console.log(empty) // its possible to get here (empty string is falsy)
+}
+```
+> Common mistakes like forgetting about the possibilities of strings and numbers being falsy can create false confidence in the correctness of your code. 
+{.is-info}
