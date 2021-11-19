@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:20:56.505Z
+date: 2021-11-19T17:21:17.675Z
 tags: web-technologies
 editor: markdown
 ---
@@ -723,7 +723,7 @@ if (isCarLike(maybeCar)) {
 }
 ```
 
-Below, we are using the `is` typeguard. Now, `isCarLike`
+Below, we are using the `is` typeguard. Now, `isCarLike`'s return tpype will be CarLike.
 ```
 interface CarLike {
   make: string
