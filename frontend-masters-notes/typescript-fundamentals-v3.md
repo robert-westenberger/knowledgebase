@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:09:14.704Z
+date: 2021-11-19T17:15:42.242Z
 tags: web-technologies
 editor: markdown
 ---
@@ -689,3 +689,36 @@ else if ("dateRange" in value) {
 ```
 
 ## User-defined Type Guards
+### value is foo
+The `is` type guard is meant to work in cooperation with a control flow statement of some sort, to indicate that different branches of the "flow" will be taken based on an evaluation of a variable's type.
+
+Below is an example of using built-in typeguards to narrow the type of a particular variable.
+
+```
+interface CarLike {
+  make: string
+  model: string
+  year: number
+}
+
+let maybeCar: unknown
+
+// the guard
+function isCarLike(valueToTest: any) {
+  return (
+    valueToTest &&
+    typeof valueToTest === "object" &&
+    "make" in valueToTest &&
+    typeof valueToTest["make"] === "string" &&
+    "model" in valueToTest &&
+    typeof valueToTest["model"] === "string" &&
+    "year" in valueToTest &&
+    typeof valueToTest["year"] === "number"
+  )
+}
+
+// using the guard
+if (isCarLike(maybeCar)) {
+  //maybeCar will be unknown
+}
+```
