@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:23:29.403Z
+date: 2021-11-19T17:25:55.126Z
 tags: web-technologies
 editor: markdown
 ---
@@ -757,3 +757,41 @@ if (isCarLike(maybeCar)) {
 
 ### asserts value is Foo
 Another approach that eliminates the need for a conditional. 
+
+```
+interface CarLike {
+  make: string
+  model: string
+  year: number
+}
+
+let maybeCar: unknown
+
+// the guard
+function assertsIsCarLike(
+  valueToTest: any
+): asserts valueToTest is CarLike {
+  if (
+    !(
+      valueToTest &&
+      typeof valueToTest === "object" &&
+      "make" in valueToTest &&
+      typeof valueToTest["make"] === "string" &&
+      "model" in valueToTest &&
+      typeof valueToTest["model"] === "string" &&
+      "year" in valueToTest &&
+      typeof valueToTest["year"] === "number"
+    )
+  )
+    throw new Error(
+      `Value does not appear to be a CarLike${valueToTest}`
+    )
+}
+
+// using the guard
+maybeCar // maybeCar is unknown
+assertsIsCarLike(maybeCar)
+maybeCar // maybeCar is CarLike
+```
+
+In the above example, if `assertsIsCarLike` throws an error, it should be taken as an indication that `valueToTest` is NOT type-equivalent to `CarLike`.
