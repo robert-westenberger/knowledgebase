@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:30:50.666Z
+date: 2021-11-19T17:35:14.935Z
 tags: web-technologies
 editor: markdown
 ---
@@ -814,5 +814,9 @@ if (isNull(empty)) {
   console.log(empty) // its possible to get here (empty string is falsy)
 }
 ```
-> Common mistakes like forgetting about the possibilities of strings and numbers being falsy can create false confidence in the correctness of your code. 
+> Common mistakes like forgetting about the possibilities of strings and numbers being falsy can create false confidence in the correctness of your code. {.is-info}
+
+> “Untruths” in your type guards will propagate quickly through your codebase and cause problems that are quite difficult to solve. {.is-info}
+
+> In cases where the rest of your code relies on a particular value being of a certain type, make sure to throw an error so that unexpected behavior is **LOUD** instead of quiet.
 {.is-info}
