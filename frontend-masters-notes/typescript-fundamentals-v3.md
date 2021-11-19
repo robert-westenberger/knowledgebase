@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:25:55.126Z
+date: 2021-11-19T17:26:09.146Z
 tags: web-technologies
 editor: markdown
 ---
@@ -795,3 +795,5 @@ maybeCar // maybeCar is CarLike
 ```
 
 In the above example, if `assertsIsCarLike` throws an error, it should be taken as an indication that `valueToTest` is NOT type-equivalent to `CarLike`.
+
+Therefore, if we get past the assertion and keep executing code on the next line, the type changes from `unknown` to `CarLike`.
