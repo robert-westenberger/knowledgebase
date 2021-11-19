@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:21:17.675Z
+date: 2021-11-19T17:23:29.403Z
 tags: web-technologies
 editor: markdown
 ---
@@ -754,3 +754,6 @@ if (isCarLike(maybeCar)) {
   //maybeCar will be CarLike
 }
 ```
+
+### asserts value is Foo
+Another approach that eliminates the need for a conditional. 
