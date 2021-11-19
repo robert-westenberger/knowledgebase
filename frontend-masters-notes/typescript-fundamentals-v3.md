@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T17:15:42.242Z
+date: 2021-11-19T17:20:43.712Z
 tags: web-technologies
 editor: markdown
 ---
@@ -720,5 +720,37 @@ function isCarLike(valueToTest: any) {
 // using the guard
 if (isCarLike(maybeCar)) {
   //maybeCar will be unknown
+}
+```
+
+Below, we are using the `is` typeguard. Now, `isCarLike`
+```
+interface CarLike {
+  make: string
+  model: string
+  year: number
+}
+
+let maybeCar: unknown
+
+// the guard
+function isCarLike(
+  valueToTest: any
+): valueToTest is CarLike {
+  return (
+    valueToTest &&
+    typeof valueToTest === "object" &&
+    "make" in valueToTest &&
+    typeof valueToTest["make"] === "string" &&
+    "model" in valueToTest &&
+    typeof valueToTest["model"] === "string" &&
+    "year" in valueToTest &&
+    typeof valueToTest["year"] === "number"
+  )
+}
+
+// using the guard
+if (isCarLike(maybeCar)) {
+  //maybeCar will be CarLike
 }
 ```
