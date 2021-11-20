@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-20T23:07:22.177Z
+date: 2021-11-20T23:39:49.828Z
 tags: web-technologies
 editor: markdown
 ---
@@ -825,3 +825,8 @@ if (isNull(empty)) {
 ## null
 There is a value, and that value is nothing. 
 ## undefined
+The value isn't available yet
+## void
+Exclusively used to describe that a function's return 
+
+# Generics
