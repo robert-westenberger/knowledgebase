@@ -2,7 +2,7 @@
 title: Typescript Fundamentals V3
 description: 
 published: true
-date: 2021-11-19T22:16:58.717Z
+date: 2021-11-20T23:07:22.177Z
 tags: web-technologies
 editor: markdown
 ---
@@ -822,5 +822,6 @@ if (isNull(empty)) {
 {.is-info}
 
 # Nullish Values
-# null
+## null
 There is a value, and that value is nothing. 
+## undefined
