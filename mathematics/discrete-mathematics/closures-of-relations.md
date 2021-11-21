@@ -2,7 +2,7 @@
 title: Closures of Relations
 description: 
 published: true
-date: 2021-06-30T18:26:06.498Z
+date: 2021-11-21T01:57:18.515Z
 tags: mathematics, discrete-mathematics
 editor: markdown
 ---
