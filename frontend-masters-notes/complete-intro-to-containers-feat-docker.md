@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-23T18:11:02.218Z
+date: 2021-11-23T18:12:31.175Z
 tags: containers, docker
 editor: markdown
 ---
@@ -24,3 +24,4 @@ Containers give us many of the security and resource-management features of VMs 
 **Namespaces** allow you to hide processes from other processes.
 
 # cgroups
+`cgroups` provide away of allocating resources between different processes. A runaway process taking 100% CPU won't be able to take out other processes with `cgroups`. 
