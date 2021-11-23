@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-23T17:22:59.914Z
+date: 2021-11-23T18:11:02.218Z
 tags: containers, docker
 editor: markdown
 ---
@@ -20,3 +20,7 @@ Containers give us many of the security and resource-management features of VMs 
 # Namespaces
 ## namespace
 `chroot` above only restricts a process to a particular directory, but that process can still other processes. If there are two separate processes `chroot`ed to two different directories, those two different processes could see eachother. 
+
+**Namespaces** allow you to hide processes from other processes.
+
+# cgroups
