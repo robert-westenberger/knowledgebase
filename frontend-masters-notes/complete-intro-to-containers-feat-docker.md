@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-24T21:09:14.222Z
+date: 2021-11-24T21:49:33.312Z
 tags: containers, docker
 editor: markdown
 ---
@@ -35,3 +35,7 @@ If you run `docker run -it node:latest` for example, `:latest` is the tag. It al
 
 # Alpine Linux
 Lightweight, security-oriented linux distro. 
+
+
+# Reminders
+Look more into build stages.
