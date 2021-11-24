@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-24T21:49:33.312Z
+date: 2021-11-24T22:09:36.982Z
 tags: containers, docker
 editor: markdown
 ---
@@ -35,6 +35,12 @@ If you run `docker run -it node:latest` for example, `:latest` is the tag. It al
 
 # Alpine Linux
 Lightweight, security-oriented linux distro. 
+
+# Features in Docker
+## Bind Mounts
+Allow you to mount files from your host computer into your container. 
+
+This allows you to use the containers a much more flexible way than previously possible: you don't have to know what files the container will have when you build it and it allows you to determine those files when you run it.
 
 
 # Reminders
