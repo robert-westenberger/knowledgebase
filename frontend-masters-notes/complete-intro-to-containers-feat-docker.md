@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-24T18:02:19.240Z
+date: 2021-11-24T21:09:14.222Z
 tags: containers, docker
 editor: markdown
 ---
@@ -33,5 +33,5 @@ Containers give us many of the security and resource-management features of VMs 
 If you run `docker run -it node:latest` for example, `:latest` is the tag. It allows you to run different versions of the same container.
 
 
-# Dockerfiles
-## 
+# Alpine Linux
+Lightweight, security-oriented linux distro. 
