@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-24T22:11:28.346Z
+date: 2021-11-24T22:13:18.178Z
 tags: containers, docker
 editor: markdown
 ---
@@ -43,6 +43,17 @@ Allow you to mount files from your host computer into your container.
 
 This allows you to use the containers a much more flexible way than previously possible: you don't have to know what files the container will have when you build it and it allows you to determine those files when you run it.
 
+Anything you change in the bound directory, will show up both inside the container and in the host. It doesn't matter if you change it from within the container or from the host. 
+
+```
+docker run --mount type=bind,source="$(pwd)"/build,target=/usr/share/nginx/html -p 8080:80 nginx
+```
+
+We use the `--mount` flag to identify we're going to be mounting something in from the host.
+
+As far as I know the only two types are `bind` and `volume`. Here we're using bind because we to mount in some piece of already existing data from the host.
+
+In the source, we identify what part of the host we want to make readable-and-writable to the container. It has to be an absolute path (e.g we can't say "`./build`") which is why use the "`$(pwd)`" to get the present working directory to make it an absolute path.
 
 # Reminders
 Look more into build stages.
