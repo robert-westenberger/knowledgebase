@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-24T22:37:13.361Z
+date: 2021-11-24T22:44:50.598Z
 tags: containers, docker
 editor: markdown
 ---
@@ -55,7 +55,7 @@ As far as I know the only two types are `bind` and `volume`. Here we're using bi
 
 In the source, we identify what part of the host we want to make readable-and-writable to the container. It has to be an absolute path (e.g we can't say "`./build`") which is why use the "`$(pwd)`" to get the present working directory to make it an absolute path.
 
-# Using Containers for your Dev Environment
+
 # Reminders
 Look more into build stages. 
 Look more into bind mounts and containers.
