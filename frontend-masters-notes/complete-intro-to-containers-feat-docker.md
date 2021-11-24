@@ -2,7 +2,7 @@
 title: Complete Intro to Containers
 description: 
 published: true
-date: 2021-11-24T16:47:25.641Z
+date: 2021-11-24T17:00:36.370Z
 tags: containers, docker
 editor: markdown
 ---
@@ -28,3 +28,6 @@ Containers give us many of the security and resource-management features of VMs 
 
 # Docker Images With Docker
 * Docker images are meant to be spun up and destroyed. They are ephemeral. You should just assume anything in the container will be destroyed.
+
+# Tags
+If you run `docker run -it node:latest` for example, `:latest` is the tag. It allows you to run different versions of the same container.
