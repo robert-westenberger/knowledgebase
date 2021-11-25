@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-25T00:20:06.369Z
+date: 2021-11-25T00:21:37.469Z
 tags: 
 editor: markdown
 ---
@@ -10,7 +10,11 @@ editor: markdown
 
 
 
-
+# Sandboxed OS 
+Sandboxed-OS needs a Dockerfile that will 
+1) Install docker (so we'll have a container within a container)
+2) Install and configure gvisor
+3) 
 # Features 
 * Depending on the users user agent, actually have that particular theme be the default (So if user is connecting on a windows machine, have the windows theme display).
 # Components             
