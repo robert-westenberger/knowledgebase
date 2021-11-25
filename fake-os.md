@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-25T00:29:31.683Z
+date: 2021-11-25T00:34:32.655Z
 tags: 
 editor: markdown
 ---
@@ -12,9 +12,9 @@ editor: markdown
 
 # Sandboxed OS 
 Sandboxed-OS needs a Dockerfile that will 
-1) Install docker (so we'll have a container within a container)
+1) Install docker (so we'll have a container within a container). This will have a volume mount, because the nested container will also have a volume mount. 
 2) Install and configure gvisor
-3) Build and run yet another container, which has our persistent files. 
+3) Build and run yet another container, which is using a volume mount to persist our files. This 
 # Features 
 * Depending on the users user agent, actually have that particular theme be the default (So if user is connecting on a windows machine, have the windows theme display).
 # Components             
