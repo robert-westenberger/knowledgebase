@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-25T00:42:33.129Z
+date: 2021-11-27T23:52:41.007Z
 tags: 
 editor: markdown
 ---
@@ -10,11 +10,7 @@ editor: markdown
 
 
 
-# Sandboxed OS 
-Sandboxed-OS needs a Dockerfile that will 
-1) Install docker (so we'll have a container within a container). This will have a volume mount, because the nested container will also have a volume mount. 
-2) Install and configure gvisor
-3) Build and run yet another container, which is using a volume mount to persist our files. 
+
 # Features 
 * Depending on the users user agent, actually have that particular theme be the default (So if user is connecting on a windows machine, have the windows theme display).
 # Components             
@@ -40,8 +36,15 @@ Sandboxed-OS needs a Dockerfile that will
 ### Notification area
 
 ## Desktop
-### Icon + Label
+### Icons
+Will be sortable by 
+* Auto Arrange - Default on windows 95. This is where there is some predefined order for icons, and the user can rearrange them by dragging and dropping.
+* Name
+* Size - TBD
+* Item type
+* Date Modified - TBD
 
+### Icon + Label
 ## Window
  
  
