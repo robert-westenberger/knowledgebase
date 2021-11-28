@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-28T00:00:35.348Z
+date: 2021-11-28T00:00:44.474Z
 tags: 
 editor: markdown
 ---
@@ -46,7 +46,7 @@ Will be sortable by
 * Item type
 * Date Modified - TBD
 #### Implementation
-Order should be maintained on directory level. Each directory node will have an array of ID's.
+Order should be maintained on directory level. Each directory node will have an array of ID's of files and folders.
 ### Icon + Label
 ## Window
  
