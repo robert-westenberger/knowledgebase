@@ -2,7 +2,7 @@
 title: Fake Os
 description: 
 published: true
-date: 2021-11-28T00:00:44.474Z
+date: 2021-11-28T05:50:09.114Z
 tags: 
 editor: markdown
 ---
@@ -14,7 +14,7 @@ editor: markdown
 # Features 
 * Depending on the users user agent, actually have that particular theme be the default (So if user is connecting on a windows machine, have the windows theme display).
 # Filesytem
-Represented by a tree data structure. 
+* Represented by a tree data structure. 
 # Components             
 ## Taskbar
 ### Start Button (with logo)
