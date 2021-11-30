@@ -2,7 +2,7 @@
 title: Storing Hierarchical Structures In A Relational Database
 description: 
 published: true
-date: 2021-11-30T01:13:08.125Z
+date: 2021-11-30T16:54:05.808Z
 tags: computer-science
 editor: markdown
 ---
@@ -19,3 +19,22 @@ In addition to whichever table contains a hierarchical self reference(for exampl
 The table storing the hierarchical information (for example, `NodePaths`) will need to have two columns, each of which is a foreign key to rows in the `Node` table.
 
 So for every descendant of a particular node, including the node itself, it will need an entry in the `nodePaths` table.
+
+The below two tables show what a directory structure would look like in SQL utilizing a closure table. 
+
+**Directory**
+| id | parent_dir | name |
+| :--- | :--- | :--- |
+| 1 | 0 | A |
+| 2 | 1 | B |
+| 3 | 2 | C |
+
+**Directory Closures**
+| parent | child | depth |
+| :---: | :---: | :---: |
+| 1 | 1 | 0 |
+| 2 | 2 | 0 |
+| 3 | 3 | 0 |
+| 1 | 2 | 1 |
+| 2 | 3 | 1 |
+| 1 | 3 | 2 |
