@@ -2,7 +2,7 @@
 title: Storing Hierarchical Structures In A Relational Database
 description: 
 published: true
-date: 2021-11-30T16:54:05.808Z
+date: 2021-11-30T17:52:27.202Z
 tags: computer-science
 editor: markdown
 ---
@@ -38,3 +38,15 @@ The below two tables show what a directory structure would look like in SQL util
 | 1 | 2 | 1 |
 | 2 | 3 | 1 |
 | 1 | 3 | 2 |
+
+
+Note that the total number of records in the closure table is equal to the number of records in the base table, times the average depth of the tree(s) in the base table. (That is, each base table row has a row in the closure table, plus one row for each of its parents.)
+
+## Inserting a child
+```
+insert into closure(parent, child, depth)
+select p.parent, c.child, p.depth+c.depth+1
+  from closure p, closure c
+ where p.child=PARENT_ITEM and c.parent=CHILD_ITEM
+ ```
+ 
