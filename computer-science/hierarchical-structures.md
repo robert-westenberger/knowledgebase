@@ -2,7 +2,7 @@
 title: Storing Hierarchical Structures In A Relational Database
 description: 
 published: true
-date: 2021-11-30T01:13:03.747Z
+date: 2021-11-30T01:13:08.125Z
 tags: computer-science
 editor: markdown
 ---
@@ -18,4 +18,4 @@ In addition to whichever table contains a hierarchical self reference(for exampl
 
 The table storing the hierarchical information (for example, `NodePaths`) will need to have two columns, each of which is a foreign key to rows in the `Node` table.
 
-So for every descendant of a particular node, including the node itself, it will need an entry in the `nodePaths` table
+So for every descendant of a particular node, including the node itself, it will need an entry in the `nodePaths` table.
