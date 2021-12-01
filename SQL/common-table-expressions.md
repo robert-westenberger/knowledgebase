@@ -1,8 +1,8 @@
 ---
-title: Common Table Expressions
+title: Common Table Expressions (in SQLITE)
 description: 
 published: true
-date: 2021-12-01T17:59:33.381Z
+date: 2021-12-01T17:59:46.344Z
 tags: 
 editor: markdown
 ---
