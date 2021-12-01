@@ -2,7 +2,7 @@
 title: Common Table Expressions (in SQLITE)
 description: 
 published: true
-date: 2021-12-01T18:42:38.101Z
+date: 2021-12-01T18:48:52.186Z
 tags: 
 editor: markdown
 ---
@@ -92,7 +92,7 @@ WITH RECURSIVE list( element, remainder ) AS (
    WHERE remainder IS NOT NULL
 )
 SELECT element FROM list WHERE element IS NOT NULL;
-
+```
 * In the above, imagine a table with two columns: element, and remainder. The “element” of each row contains a single element of the list, whereas “remainder” contains everything that comes after it.
 
 * We start off by seeding the table with a single row containing a NULL element, and a “remainder” containing the list we want to transform: “1,2,3,4,5”
@@ -106,3 +106,23 @@ SELECT element FROM list WHERE element IS NOT NULL;
 * The result is a table containing one row per element, plus one NULL element (which is what we seeded the CTE’s result table with)
 
 * So we select everything except for that NULL element, and voila, we’ve converted a comma-separated list into a table, purely in SQL.
+
+## Hierarchical Queries
+Consider for example a company's expense report approval hierarchy. The approval structure for any specific employee is b oth their approver, their approver's approver, etc, until you reach someone that has no approver.
+
+```
+CREATE TABLE company ( name, approver );
+
+INSERT INTO company VALUES ( 'David', NULL ), ( 'Matt', 'David' ), ( 'Jason', 'David' ), ( 'Ryan', 'David' ), ( 'Mike', 'Matt' ), ( 'Carlos', 'Matt' ), ( 'Garrett', 'Jason' ), ( 'Puneet', 'Jason' ), ( 'Joanie', 'Ryan' );
+```
+
+```
+WITH RECURSIVE approvers(x) AS (
+	SELECT 'Joanie' 
+		UNION ALL
+  SELECT company.approver 
+  FROM company, approvers 
+  WHERE company.name=approvers.x AND company.approver IS NOT NULL
+)
+SELECT * FROM approvers;
+```
