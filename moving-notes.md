@@ -2,12 +2,13 @@
 title: Moving Notes
 description: 
 published: true
-date: 2022-01-11T01:55:22.128Z
+date: 2022-01-11T02:01:11.205Z
 tags: 
 editor: markdown
 ---
 
 # Date of Vacation
-March 4
+Friday March 4
 
 # Schedule
+## Total drive time is 35 hours.
