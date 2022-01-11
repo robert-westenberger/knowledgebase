@@ -2,7 +2,7 @@
 title: Moving Notes
 description: 
 published: true
-date: 2022-01-11T02:27:45.803Z
+date: 2022-01-11T02:28:40.378Z
 tags: 
 editor: markdown
 ---
@@ -24,3 +24,7 @@ Total drive time is **35 hours.**
 ## Day 3
 ### Afton, Oklahoma to Nashville TN
 8hr
+
+## Day 4
+### Nashville Tn to Tellico Plains, TN
+3h 15m 
