@@ -2,7 +2,7 @@
 title: Moving Notes
 description: 
 published: true
-date: 2022-01-11T02:28:40.378Z
+date: 2022-01-11T02:33:01.982Z
 tags: 
 editor: markdown
 ---
@@ -28,3 +28,11 @@ Total drive time is **35 hours.**
 ## Day 4
 ### Nashville Tn to Tellico Plains, TN
 3h 15m 
+
+## Day 5
+### Tellico Plains, TN to Washington DC
+8.5 hr
+
+## Day 6
+### Washington DC to Philadelphia PA
+2.5 hrs
