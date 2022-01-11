@@ -2,7 +2,7 @@
 title: Moving Notes
 description: 
 published: true
-date: 2022-01-11T02:18:58.375Z
+date: 2022-01-11T02:27:45.803Z
 tags: 
 editor: markdown
 ---
@@ -17,5 +17,10 @@ Total drive time is **35 hours.**
 ### Tucson AZ to Tucumcari NM
 9 hours
 
+## Day 2
+### Tucumcari NM to Afton, Oklahoma
+8 hrs
 
-
+## Day 3
+### Afton, Oklahoma to Nashville TN
+8hr
