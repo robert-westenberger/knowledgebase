@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T18:49:04.455Z
+date: 2022-02-22T18:56:09.042Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -41,3 +41,6 @@ In this case (in normal rendering), React doesn't care whether "props changed"..
 * Mutate objects that were newly created while rendering.
 * Throw errors
 * "Lazy initialize" data that hasn't been created yet, such as a cached value.
+
+## Component Types and Reconciliation
+
