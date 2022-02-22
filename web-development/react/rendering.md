@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:13:15.298Z
+date: 2022-02-22T19:20:36.517Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -79,3 +79,7 @@ It's important that keys should be some kind of unique IDs from your data if pos
 Keys are useful for component instance identity beyond lists as well. You can add a key to any React component at any time to indicate its identity, and changing that key will cause React to destroy the old component instance and DOM and create new ones. A common use case for this is a list + details form combination, where the form shows the data for the currently selected list item. Rendering `<DetailForm key={selectedItem.id}>` will cause React to destroy and re-create the form when the selected item changes, thus avoiding any issues with stale state inside the form.
   
 ## Render Batching and Timing
+**Render batching** is when multiple calls to setState() result in a single render pass being queued and executed, usually on a slight delay. (React does this as an optimization).
+
+## Render Behavior Edge Cases
+
