@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T18:43:01.408Z
+date: 2022-02-22T18:44:37.984Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -30,3 +30,5 @@ or calling ReactDOM.render(<App />), which is equivalent to calling forceUpdate(
 ## Standard Render Behavior
 When a parent component renders, React will recursively render all child components inside of it. 
 In this case (in normal rendering), React doesn't care whether "props changed".. it will render child components unconditionally just because the parent rendered.
+
+## Rules of React Rendering
