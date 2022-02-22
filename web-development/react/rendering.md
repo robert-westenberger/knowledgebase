@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T18:56:09.042Z
+date: 2022-02-22T19:01:11.454Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -44,3 +44,27 @@ In this case (in normal rendering), React doesn't care whether "props changed"..
 
 ## Component Types and Reconciliation
 
+During the render process, React will compare elements based on their type field first. IF an element in a given spot in the component tree changes to a different type (like going from `<div>` to `<span>`, or `<ComponentA>` to `<ComponentB>`, React will assume that the entire tree has changed, destroying the entire existing component tree section, including all DOM nodes, and recreating it from scratch with new component instances.
+
+So **NEVER** do this
+
+```
+function ParentComponent() {
+  // This creates a new `ChildComponent` reference every time!
+  function ChildComponent() {}
+  
+  return <ChildComponent />
+}
+```
+
+Always define components separately
+
+```
+  // This only creates one component type reference
+function ChildComponent() {}
+  
+function ParentComponent() {
+
+  return <ChildComponent />
+}
+```
