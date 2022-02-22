@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:24:58.948Z
+date: 2022-02-22T19:28:13.387Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -87,3 +87,7 @@ React component render output should always be entirely based on current props a
 
 ## Component Render Optimization Techniques
 React offers three primary APIs that allow us to potentially skip rendering a component
+
+* **React.Component.shouldComponentUpdate**: an optional class component lifecycle method that will be called early in the render process. If it returns false, React will skip rendering the component. It may contain any logic you want to use to calculate that boolean result, but the most common approach is to check if the component's props and state have changed since last time, and return false if they're unchanged.
+* **React.PureComponent**: since that comparison of props and state is the most common way to implement shouldComponentUpdate, the PureComponent base class implements that behavior by default, and may be used instead of Component + shouldComponentUpdate.
+* **React.memo()**: a built-in "higher order component" type. It accepts your own component type as an argument, and returns a new wrapper component. The wrapper component's default behavior is to check to see if any of the props have changed, and if not, prevent a re-render. Both function components and class components can be wrapped using React.memo(). (A custom comparison callback may be passed in, but it really can only compare the old and new props anyway, so the main use case for a custom compare callback would be only comparing specific props fields instead of all of them.)
