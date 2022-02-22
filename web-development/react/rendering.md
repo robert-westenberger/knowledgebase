@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:24:05.393Z
+date: 2022-02-22T19:24:58.948Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -83,3 +83,7 @@ Keys are useful for component instance identity beyond lists as well. You can ad
 
 # Improving Rendering Performance
 React component render output should always be entirely based on current props and current component state. If we know ahead of time that a component's props and state haven't changed, we know it's render output will be the same, and we can skip the work of rendering it.
+
+
+## Component Render Optimization Techniques
+React offers three primary APIs that allow us to potentially skip rendering a component
