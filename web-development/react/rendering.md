@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:02:19.243Z
+date: 2022-02-22T19:12:48.600Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -70,3 +70,12 @@ function ParentComponent() {
 ```
 
 ## Keys and Reconciliation
+React uses they `key` pseudo-prop as a unique identifier to differentiate specific instances of a component type. 
+
+Keys are especially important here if you are rendering data that may be changed in some way, such as reordering, adding, or deleting list entries.
+
+It's important that keys should be some kind of unique IDs from your data if possible. 
+
+Keys are useful for component instance identity beyond lists as well. You can add a key to any React component at any time to indicate its identity, and changing that key will cause React to destroy the old component instance and DOM and create new ones. A common use case for this is a list + details form combination, where the form shows the data for the currently selected list item. Rendering <DetailForm key={selectedItem.id}> will cause React to destroy and re-create the form when the selected item changes, thus avoiding any issues with stale state inside the form.
+  
+  
