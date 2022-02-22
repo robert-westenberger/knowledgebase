@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T18:47:18.753Z
+date: 2022-02-22T18:48:30.627Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -32,6 +32,9 @@ When a parent component renders, React will recursively render all child compone
 In this case (in normal rendering), React doesn't care whether "props changed".. it will render child components unconditionally just because the parent rendered.
 
 ## Rules of React Rendering
-### Things to Avoid
+### Things to Avoid (in render logic)
 * Don't mutate existing variables and objects.
 * Don't create randomized values like `Math.random()` or `Date.now()`
+* Don't make network requests
+* Don't queue state updates
+### Things that may occur (in render logic)
