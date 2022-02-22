@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:20:36.517Z
+date: 2022-02-22T19:21:52.485Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -81,5 +81,4 @@ Keys are useful for component instance identity beyond lists as well. You can ad
 ## Render Batching and Timing
 **Render batching** is when multiple calls to setState() result in a single render pass being queued and executed, usually on a slight delay. (React does this as an optimization).
 
-## Render Behavior Edge Cases
-
+# Improving Rendering Performance
