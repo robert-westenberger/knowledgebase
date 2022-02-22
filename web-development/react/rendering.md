@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:30:20.590Z
+date: 2022-02-22T19:31:59.050Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -93,3 +93,5 @@ React offers three primary APIs that allow us to potentially skip rendering a co
 * **React.memo()**: a built-in "higher order component" type. It accepts your own component type as an argument, and returns a new wrapper component. The wrapper component's default behavior is to check to see if any of the props have changed, and if not, prevent a re-render. Both function components and class components can be wrapped using React.memo(). (A custom comparison callback may be passed in, but it really can only compare the old and new props anyway, so the main use case for a custom compare callback would be only comparing specific props fields instead of all of them.)
 
 The three above APIs use shallow equality when doing comparisons. So, nested object's will be determined as different, even if they are identical objects. 
+
+## How New Props References Affect Render Optimizaitons
