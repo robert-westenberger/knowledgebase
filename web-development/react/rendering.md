@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T18:37:55.351Z
+date: 2022-02-22T18:40:29.980Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -19,5 +19,11 @@ React will then do a diff of the new tree of objects (sometimes referred to as t
 After the render phase above, react will now take the list of required changes that need to be applied and apply them to the actual DOM.
 
 # How Does React Handle Renders?
+## Queuing Renders
+After the initial render has completed, there are a few different ways to tell React to queue a re-render
 
+Class components (this.setState(), this.forceUpdate())
+Function components (useState, useReducer)
+
+or calling ReactDOM.render(<App />), which is equivalent to calling forceUpdate() on the root component
 
