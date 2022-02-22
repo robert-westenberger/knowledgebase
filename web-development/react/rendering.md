@@ -2,10 +2,12 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T18:36:48.052Z
+date: 2022-02-22T18:37:55.351Z
 tags: react, web-framework
 editor: markdown
 ---
+
+(Notes from https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
 
 # Render and Commit Phases
 Note that rendering is not the same thing as "updating the DOM".
@@ -16,6 +18,6 @@ React will then do a diff of the new tree of objects (sometimes referred to as t
 ## Commit
 After the render phase above, react will now take the list of required changes that need to be applied and apply them to the actual DOM.
 
-
+# How Does React Handle Renders?
 
 
