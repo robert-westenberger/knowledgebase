@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:21:52.485Z
+date: 2022-02-22T19:24:05.393Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -82,3 +82,4 @@ Keys are useful for component instance identity beyond lists as well. You can ad
 **Render batching** is when multiple calls to setState() result in a single render pass being queued and executed, usually on a slight delay. (React does this as an optimization).
 
 # Improving Rendering Performance
+React component render output should always be entirely based on current props and current component state. If we know ahead of time that a component's props and state haven't changed, we know it's render output will be the same, and we can skip the work of rendering it.
