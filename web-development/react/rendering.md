@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:01:11.454Z
+date: 2022-02-22T19:02:19.243Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -68,3 +68,5 @@ function ParentComponent() {
   return <ChildComponent />
 }
 ```
+
+## Keys and Reconciliation
