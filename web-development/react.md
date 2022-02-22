@@ -2,9 +2,9 @@
 title: React
 description: 
 published: true
-date: 2022-02-16T19:20:09.142Z
+date: 2022-02-22T18:13:25.614Z
 tags: web-framework
 editor: markdown
 ---
 
-# useImperativeHandle
+# React Rendering Notes
