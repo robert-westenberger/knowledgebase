@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T18:40:29.980Z
+date: 2022-02-22T18:43:01.408Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -27,3 +27,6 @@ Function components (useState, useReducer)
 
 or calling ReactDOM.render(<App />), which is equivalent to calling forceUpdate() on the root component
 
+## Standard Render Behavior
+When a parent component renders, React will recursively render all child components inside of it. 
+In this case (in normal rendering), React doesn't care whether "props changed".. it will render child components unconditionally just because the parent rendered.
