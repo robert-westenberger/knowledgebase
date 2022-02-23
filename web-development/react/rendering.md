@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-23T18:31:31.885Z
+date: 2022-02-23T18:55:12.841Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -100,4 +100,6 @@ Since react uses **shallow equality**, passing new objects to a child will cause
 ### Optimizing Props References 
 For class components its pretty easy, most cases are handled by built in javascript instance methods which always have the same reference.
 
-React offers useCallback hook (for callback functions) and useMemo (for any kind of data like creating objects or complex calculations). 
+React offers useCallback hook (for callback functions) and useMemo (for any kind of data like creating objects or complex calculations).
+
+# React-Redux and Rendering Behavior
