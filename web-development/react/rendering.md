@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-22T19:31:59.050Z
+date: 2022-02-23T18:24:27.369Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -95,3 +95,4 @@ React offers three primary APIs that allow us to potentially skip rendering a co
 The three above APIs use shallow equality when doing comparisons. So, nested object's will be determined as different, even if they are identical objects. 
 
 ## How New Props References Affect Render Optimizaitons
+Since react uses **shallow equality**, passing new objects to a child will cause the child 
