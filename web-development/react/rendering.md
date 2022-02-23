@@ -2,7 +2,7 @@
 title: React Rendering
 description: 
 published: true
-date: 2022-02-23T18:27:49.355Z
+date: 2022-02-23T18:28:16.641Z
 tags: react, web-framework
 editor: markdown
 ---
@@ -96,3 +96,5 @@ The three above APIs use shallow equality when doing comparisons. So, nested obj
 
 ## How New Props References Affect Render Optimizaitons
 Since react uses **shallow equality**, passing new objects to a child will cause the child to rerender every time because `===` compares reference, even if the contents have not changed. The case is the same for functions and props.children that are not simple text nodes. 
+
+### Optimizing Props References
