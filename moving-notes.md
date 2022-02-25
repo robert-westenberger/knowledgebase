@@ -2,7 +2,7 @@
 title: Moving Notes
 description: 
 published: true
-date: 2022-02-25T01:48:07.924Z
+date: 2022-02-25T01:49:09.200Z
 tags: 
 editor: markdown
 ---
@@ -13,8 +13,8 @@ Friday March 4
 # Schedule
 Total drive time is **35 hours.**
 
-## Possible date of departure
-Wednesday March 2. Would need to take PTO W, TH, F, M, T, W, TH ...
+# Date of Departure
+Thursday March 3rd
 
 
 ### Day 1
