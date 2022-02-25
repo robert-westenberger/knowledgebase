@@ -2,7 +2,7 @@
 title: Moving Notes
 description: 
 published: true
-date: 2022-02-25T01:49:09.200Z
+date: 2022-02-25T02:00:23.895Z
 tags: 
 editor: markdown
 ---
@@ -15,8 +15,7 @@ Total drive time is **35 hours.**
 
 # Date of Departure
 Thursday March 3rd
-
-
+Would need to take PTO  TH, F, M-F
 ### Day 1
 #### Tucson AZ to Tucumcari NM
 9 hours
