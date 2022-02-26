@@ -2,7 +2,7 @@
 title: Random notes
 description: 
 published: true
-date: 2022-02-26T23:22:28.120Z
+date: 2022-02-26T23:22:43.260Z
 tags: 
 editor: markdown
 ---
@@ -39,4 +39,5 @@ I can see how **"The Second Constant Rule"** is
   
   
 # random 2
-RTK usequery hook should return a singly nested object. Any more nesting than one layer, or having values besides simple primitives in an object, will cause unnecessary rerenders because react can't diff them. 
+RTK usequery hook should return a singly nested object. Any more nesting than one layer, or having values besides simple primitives in an object, will cause unnecessary rerenders because react can't diff them. Reading from store state should happen further down the tree.
+
