@@ -2,7 +2,7 @@
 title: Random notes
 description: 
 published: true
-date: 2021-08-30T04:13:46.971Z
+date: 2022-02-26T23:22:28.120Z
 tags: 
 editor: markdown
 ---
@@ -36,3 +36,7 @@ I can see how **"The Second Constant Rule"** is
 
 
   [1]: http://www.statpower.net/Content/310/Summation%20Algebra.pdf
+  
+  
+# random 2
+RTK usequery hook should return a singly nested object. Any more nesting than one layer, or having values besides simple primitives in an object, will cause unnecessary rerenders because react can't diff them. 
