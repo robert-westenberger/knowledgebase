@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T19:11:02.690Z
+date: 2022-03-04T19:24:27.979Z
 tags: 
 editor: markdown
 ---
@@ -18,6 +18,8 @@ https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
 https://www.apartments.com/greene-manor-philadelphia-pa/91kmnx6/
 Good availability
 
+## Oxford House Apartments
+https://www.apartments.com/oxford-house-apartments-philadelphia-pa/b0sj6x9/
 ## SDG Residences of Germantown 
 https://www.apartments.com/sdg-residences-of-germantown-philadelphia-pa/jyqqn67/
 good availability
