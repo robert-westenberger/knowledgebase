@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T06:22:27.800Z
+date: 2022-03-04T18:49:32.407Z
 tags: 
 editor: markdown
 ---
@@ -14,6 +14,9 @@ https://www.zillow.com/homedetails/1010-Arch-St-UNIT-506-Philadelphia-PA-19107/7
 ## 1700 walnut street	
 https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
 
+## Greene Manor Apartments
+https://www.apartments.com/greene-manor-philadelphia-pa/91kmnx6/
+Good availability
 
 ## Fairfax Apartments 
 https://www.apartments.com/fairfax-apartments-philadelphia-pa/gp3x56x/
