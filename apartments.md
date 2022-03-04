@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T04:32:29.897Z
+date: 2022-03-04T05:11:46.950Z
 tags: 
 editor: markdown
 ---
@@ -15,3 +15,7 @@ Not available until April 9tu
 ## The Girard
 https://www.apartments.com/the-girard-philadelphia-pa/xhslt9m/
 Good Availability
+
+## Northxnorthwest
+https://www.apartments.com/northxnorthwest-philadelphia-pa/3q4dq5e/
+good availability
