@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T18:49:32.407Z
+date: 2022-03-04T19:10:44.226Z
 tags: 
 editor: markdown
 ---
@@ -18,6 +18,7 @@ https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
 https://www.apartments.com/greene-manor-philadelphia-pa/91kmnx6/
 Good availability
 
+## SDG Residences of Germantown 
 ## Fairfax Apartments 
 https://www.apartments.com/fairfax-apartments-philadelphia-pa/gp3x56x/
 good availability
