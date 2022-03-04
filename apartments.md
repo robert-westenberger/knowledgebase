@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T19:24:27.979Z
+date: 2022-03-04T19:24:45.248Z
 tags: 
 editor: markdown
 ---
@@ -20,6 +20,7 @@ Good availability
 
 ## Oxford House Apartments
 https://www.apartments.com/oxford-house-apartments-philadelphia-pa/b0sj6x9/
+good availability
 ## SDG Residences of Germantown 
 https://www.apartments.com/sdg-residences-of-germantown-philadelphia-pa/jyqqn67/
 good availability
