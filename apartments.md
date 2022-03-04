@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T19:10:55.720Z
+date: 2022-03-04T19:11:02.690Z
 tags: 
 editor: markdown
 ---
@@ -20,7 +20,7 @@ Good availability
 
 ## SDG Residences of Germantown 
 https://www.apartments.com/sdg-residences-of-germantown-philadelphia-pa/jyqqn67/
-
+good availability
 
 ## Fairfax Apartments 
 https://www.apartments.com/fairfax-apartments-philadelphia-pa/gp3x56x/
