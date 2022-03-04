@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T05:11:46.950Z
+date: 2022-03-04T05:13:23.455Z
 tags: 
 editor: markdown
 ---
@@ -19,3 +19,4 @@ Good Availability
 ## Northxnorthwest
 https://www.apartments.com/northxnorthwest-philadelphia-pa/3q4dq5e/
 good availability
+
