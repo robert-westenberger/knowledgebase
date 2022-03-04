@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T05:56:30.735Z
+date: 2022-03-04T05:58:28.262Z
 tags: 
 editor: markdown
 ---
@@ -12,6 +12,9 @@ editor: markdown
 ## 1700 walnut street	
 https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
 
+## Transatlantic Luxury Residences
+https://www.apartments.com/transatlantic-luxury-residences-philadelphia-pa/5e17vpm/
+Good availability
 ## Penns View
 https://www.apartments.com/penns-view-philadelphia-pa/xkhzb9p/
 Good availability
