@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T19:10:44.226Z
+date: 2022-03-04T19:10:55.720Z
 tags: 
 editor: markdown
 ---
@@ -19,6 +19,9 @@ https://www.apartments.com/greene-manor-philadelphia-pa/91kmnx6/
 Good availability
 
 ## SDG Residences of Germantown 
+https://www.apartments.com/sdg-residences-of-germantown-philadelphia-pa/jyqqn67/
+
+
 ## Fairfax Apartments 
 https://www.apartments.com/fairfax-apartments-philadelphia-pa/gp3x56x/
 good availability
