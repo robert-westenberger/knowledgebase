@@ -2,13 +2,15 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T05:58:28.262Z
+date: 2022-03-04T06:06:14.588Z
 tags: 
 editor: markdown
 ---
 
 # Candidates	
 
+## 1010 Arch St UNIT 506, Philadelphia, PA 19107
+https://www.zillow.com/homedetails/1010-Arch-St-UNIT-506-Philadelphia-PA-19107/71247858_zpid/?
 ## 1700 walnut street	
 https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
 
