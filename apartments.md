@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T06:06:14.588Z
+date: 2022-03-04T06:22:19.062Z
 tags: 
 editor: markdown
 ---
@@ -14,6 +14,9 @@ https://www.zillow.com/homedetails/1010-Arch-St-UNIT-506-Philadelphia-PA-19107/7
 ## 1700 walnut street	
 https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
 
+
+## Fairfax Apartments 
+https://www.apartments.com/fairfax-apartments-philadelphia-pa/gp3x56x/
 ## Transatlantic Luxury Residences
 https://www.apartments.com/transatlantic-luxury-residences-philadelphia-pa/5e17vpm/
 Good availability
