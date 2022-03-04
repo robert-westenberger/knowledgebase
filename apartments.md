@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-04T05:46:54.718Z
+date: 2022-03-04T05:56:30.735Z
 tags: 
 editor: markdown
 ---
@@ -11,6 +11,10 @@ editor: markdown
 
 ## 1700 walnut street	
 https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
+
+## Penns View
+https://www.apartments.com/penns-view-philadelphia-pa/xkhzb9p/
+Good availability
 
 ## Spruce Apartments
 https://www.apartments.com/spruce-apartments-philadelphia-pa/zx0n4dx/
