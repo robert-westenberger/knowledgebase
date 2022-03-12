@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-10T18:23:33.358Z
+date: 2022-03-12T00:10:23.632Z
 tags: 
 editor: markdown
 ---
@@ -11,14 +11,16 @@ editor: markdown
 
 ## 1010 Arch St UNIT 506, Philadelphia, PA 19107
 https://www.zillow.com/homedetails/1010-Arch-St-UNIT-506-Philadelphia-PA-19107/71247858_zpid/?
-
+BAD PARKING
 tom 2156209994 3:30 
+
 ## 1700 walnut street	
 https://www.apartments.com/1700-walnut-street-philadelphia-pa/6x57ykt/
 
 ## Greene Manor Apartments
 https://www.apartments.com/greene-manor-philadelphia-pa/91kmnx6/
 Good availability
+(Building smelled like shit)
 
 ## Oxford House Apartments
 https://www.apartments.com/oxford-house-apartments-philadelphia-pa/b0sj6x9/
