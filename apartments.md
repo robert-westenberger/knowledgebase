@@ -2,7 +2,7 @@
 title: Apartments
 description: 
 published: true
-date: 2022-03-12T00:10:23.632Z
+date: 2022-03-12T00:15:15.080Z
 tags: 
 editor: markdown
 ---
@@ -44,11 +44,6 @@ https://www.apartments.com/spruce-apartments-philadelphia-pa/zx0n4dx/
 1 config good, no availability
 
 
-
-
-
-
-
 ## The Hamilton
 https://www.apartments.com/the-hamilton-philadelphia-pa/jk2rxy5/
 Not available until April 9tu
@@ -61,3 +56,6 @@ Good Availability
 https://www.apartments.com/northxnorthwest-philadelphia-pa/3q4dq5e/
 good availability
 
+# Actual Contender
+## The Nook 
+5545 Pulaski Ave
