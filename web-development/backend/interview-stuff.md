@@ -2,7 +2,7 @@
 title: Interview Stuff
 description: 
 published: true
-date: 2022-03-22T22:23:43.133Z
+date: 2022-03-22T22:31:47.075Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -42,3 +42,5 @@ class MovieLister {
 ![ioc_dependencies_1.png](/ioc_dependencies_1.png)
 Above, we see the dependencies for this situation. The MovieLister class is dependent on both the MovieFinder interface and it's implementation. Ideally, the MovieLister class would be dependent only on the interface... but then how do we make an instance to work with?
 
+## Dependency Injection
+Dependency injection is a pattern that removes the dependency from an application class to the plugin implementation.** In the above example, **FILL IN EXAMPLE HERE....**
