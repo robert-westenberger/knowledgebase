@@ -2,7 +2,7 @@
 title: Interview Stuff
 description: 
 published: true
-date: 2022-03-22T22:22:33.084Z
+date: 2022-03-22T22:23:35.115Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -39,5 +39,5 @@ class MovieLister {
   }
 ```
 #### Dependency Issues
-Below, we see the dependencies for this situation. The MovieLister class is dependent on both the MovieFinder interface and it's implementation. Ideally, the MovieLister class would be dependent only on the interface... but then how do we make an instance to work with?
 ![ioc_dependencies_1.png](/ioc_dependencies_1.png)
+Above, we see the dependencies for this situation. The MovieLister class is dependent on both the MovieFinder interface and it's implementation. Ideally, the MovieLister class would be dependent only on the interface... but then how do we make an instance to work with?
