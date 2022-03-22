@@ -2,7 +2,7 @@
 title: Interview Stuff
 description: 
 published: true
-date: 2022-03-22T22:07:01.325Z
+date: 2022-03-22T22:08:11.583Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -24,3 +24,9 @@ class MovieLister {
 ```
 
 Ideally, the `moviesDirectedBy` method should be completely independent of how the movies are being stored. So, all the method should do is refer to a finder, and all the finder does is know how to execute the `findAll` method. 
+
+```
+public interface MovieFinder {
+	List findAll();
+}
+```
