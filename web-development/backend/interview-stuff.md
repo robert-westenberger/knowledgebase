@@ -2,7 +2,7 @@
 title: Interview Stuff
 description: 
 published: true
-date: 2022-03-22T22:05:27.596Z
+date: 2022-03-22T22:07:01.325Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -22,3 +22,5 @@ class MovieLister {
       return (Movie[]) allMovies.toArray(new Movie[allMovies.size()]);
   }
 ```
+
+Ideally, the `moviesDirectedBy` method should be completely independent of how the movies are being stored. So, all the method should do is refer to a finder, and all the finder does is know how to execute the `findAll` method. 
