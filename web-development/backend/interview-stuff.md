@@ -2,7 +2,7 @@
 title: Interview Stuff
 description: 
 published: true
-date: 2022-03-22T22:08:11.583Z
+date: 2022-03-22T22:08:59.150Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -29,4 +29,12 @@ Ideally, the `moviesDirectedBy` method should be completely independent of how t
 public interface MovieFinder {
 	List findAll();
 }
+```
+
+```
+class MovieLister {
+  private MovieFinder finder;
+  public MovieLister() {
+    finder = new ColonDelimitedMovieFinder("movies1.txt");
+  }
 ```
