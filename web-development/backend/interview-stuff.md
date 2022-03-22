@@ -2,10 +2,9 @@
 title: Interview Stuff
 description: 
 published: true
-date: 2022-03-22T21:18:14.454Z
+date: 2022-03-22T22:03:49.945Z
 tags: backend, interviewing
 editor: markdown
 ---
 
-# Header
-Your content here
+# Inversion Of Control
