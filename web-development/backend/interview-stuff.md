@@ -2,7 +2,7 @@
 title: Interview Stuff
 description: 
 published: true
-date: 2022-03-22T22:08:59.150Z
+date: 2022-03-22T22:22:33.084Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -22,7 +22,7 @@ class MovieLister {
       return (Movie[]) allMovies.toArray(new Movie[allMovies.size()]);
   }
 ```
-
+### Decoupling Listing logic from storage
 Ideally, the `moviesDirectedBy` method should be completely independent of how the movies are being stored. So, all the method should do is refer to a finder, and all the finder does is know how to execute the `findAll` method. 
 
 ```
@@ -38,3 +38,6 @@ class MovieLister {
     finder = new ColonDelimitedMovieFinder("movies1.txt");
   }
 ```
+#### Dependency Issues
+Below, we see the dependencies for this situation. The MovieLister class is dependent on both the MovieFinder interface and it's implementation. Ideally, the MovieLister class would be dependent only on the interface... but then how do we make an instance to work with?
+![ioc_dependencies_1.png](/ioc_dependencies_1.png)
