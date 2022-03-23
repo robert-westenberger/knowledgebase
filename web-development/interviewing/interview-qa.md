@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:29:49.111Z
+date: 2022-03-23T15:34:05.290Z
 tags: interviewing
 editor: markdown
 ---
@@ -85,6 +85,9 @@ POSTs will create a resource, and PUT updates a resource. PUTs are idempotent, s
 - A resource can be a singleton or a collection. For example, `/customers` can identify multiple customers, and `/customers/{customerId}` can identify a single customer.
 - A resource may contain a sub-collection of resources. `/customers/{customerId}/accounts` will identify the accounts of a particular customer. `/customers/{customerId}/accounts/{accountId}` will identify a particular account.
 - RESTful URI should refer to resources that are nouns, and not verbs. 
+### What are the four resource archetypes in a RESTful architecture?
+- **Document**: Akin to an object instance or database record. In REST, its a single resource inside a resource collection. A document's state representation typically includes both fields with values and links to other related resources.
+- **Collection**: Server managed directory of resources. 
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
