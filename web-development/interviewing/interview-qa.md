@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T01:09:40.907Z
+date: 2022-03-23T01:10:54.920Z
 tags: interviewing
 editor: markdown
 ---
@@ -23,6 +23,8 @@ React will group multiple state updates in a single rerender under the hood as a
 ### What is hoisting?
 ### What's the difference between a normal function declaration and an arrow function?
 # Backend
+## Software Engineering
+### Singleton is a design pattern that restricts the instantiation of a class to a single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 ## Web Architecture
 ### Explain the difference between a cookie and a session
 ## Design Patterns
