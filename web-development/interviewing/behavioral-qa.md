@@ -2,7 +2,7 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-23T22:54:58.471Z
+date: 2022-03-23T22:57:55.579Z
 tags: interviewing
 editor: markdown
 ---
@@ -42,6 +42,9 @@ This was on my own initiative, and was driven mainly out of frustration from usi
 Made a small node app that just authenticated and FTPd content assets to the appropriate directory on the server. Many more files could be Created, read, updated, and deleted at once than what the web interface could do.
 ### Result
 Implementation speed and ease took a lot faster. 
+
+## Design system 
+
 # List of common behavioral questions
 ## Tell me about a time when you were faced with a challenging situation. How did you solve it?
 ## Do you usually set goals at work? If yes, could you give me an example of a goal you had and how you achieved it?
