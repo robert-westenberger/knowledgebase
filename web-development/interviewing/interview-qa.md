@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T00:55:55.990Z
+date: 2022-03-23T01:07:38.799Z
 tags: interviewing
 editor: markdown
 ---
@@ -25,6 +25,13 @@ React will group multiple state updates in a single rerender under the hood as a
 # Backend
 ## Web Architecture
 ### Explain the difference between a cookie and a session
+## Design Patterns
+### Inversion of Control
+#### What is inversion of control, and how does it improve the design of code?
+### Active-Mapper
+#### What is the Active-Record design pattern? What are the limits and pitfalls of this pattern?
+### Data-Mapper
+#### What is the Data-Mapper design pattern? When would you use Active-Mapper vs Data-Mapper?
 # Fullstack
 ## Architecture
 ### How would you handle large data sets from the backend to the frontend?
