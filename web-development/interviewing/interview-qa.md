@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:51:10.278Z
+date: 2022-03-23T15:51:44.070Z
 tags: interviewing
 editor: markdown
 ---
@@ -122,7 +122,8 @@ Advantages are:
 - Web services can treat each method request independently.
 - Since HTTP is stateless, RESTful web services work seamlessly with HTTP protocols.
 
-
+Disadvantages:
+- Web services need to get extra information in each request and then interpret to get the client's state in case the client interactions are to be taken care of.
 	
 ## Design Patterns
 ### Inversion of Control
