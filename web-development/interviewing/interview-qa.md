@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:20:11.564Z
+date: 2022-03-23T14:27:50.277Z
 tags: interviewing
 editor: markdown
 ---
@@ -41,6 +41,11 @@ It has five major parts
 - **HTTP Version** HTTP version, like HTTP v1.1
 - **Request Header** Contains metadata for the HTTP request message as kv pairs. For example, client or browser type, format supported by client, format of message body, cache settings, etc. 
 - **Request Body** Message content or resource representation
+### What are the advantages of REST web services?
+- Easy learning curve, works on HTTP protocol.
+- Supports multiple technologies for data transfer such as text, xml, json, image, etc.
+- No contract defined between server and client, loosely coupled implementation.
+- Easily testable over the browser. 
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
