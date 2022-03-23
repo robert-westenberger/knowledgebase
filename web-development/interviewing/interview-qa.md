@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T01:15:11.294Z
+date: 2022-03-23T01:16:45.265Z
 tags: interviewing
 editor: markdown
 ---
@@ -22,12 +22,15 @@ React will group multiple state updates in a single rerender under the hood as a
 ## Javascript
 ### What is hoisting?
 ### What's the difference between a normal function declaration and an arrow function?
+
+
 # Backend
 ## SQL
 ### What are the pros and cons of holding domain logic in stored procedures?
 ## Software Engineering
 ### Singleton is a design pattern that restricts the instantiation of a class to a single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 ### The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it. 
+### What are generics?
 ## Web Architecture
 ### Explain the difference between a cookie and a session
 ## Design Patterns
@@ -48,6 +51,7 @@ React will group multiple state updates in a single rerender under the hood as a
 ### How would you deal with dependency hell?
 ### It is said that one of the most important goals in OO design is to have high cohesion and loose coupling. What does it mean? Why is it important and how is it achieved?
 ### In your opinion, why has OOP dominated the market for so many years?
+### What does it mean when a language treats functions as first-class citizens? Why is it important that in a language functions are first-class citizens?
 ## Testing
 ### What is your approach to testing?
 ## Functional Programming
