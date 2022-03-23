@@ -2,7 +2,7 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-23T22:37:29.943Z
+date: 2022-03-23T22:42:58.512Z
 tags: interviewing
 editor: markdown
 ---
@@ -29,7 +29,9 @@ Introduce linting to the front end build that would run on production builds. An
 
 We actually had to do this in a few phases, setting only the most important linting rules to error out at first since our codebase had so many linting issues. Once we had ESlint setup however, there was a clear path from no-linting -> strict linting that we completed in a few months. I remember we used some react code mod tools to refactor some of our react code.
 ### Result
-Less deploy issues that needed the attention of the entire UI team. 
+Less deploy issues that needed the attention of the entire UI team. Also general improvement of codebase... there was now static analysis of any issues and there was also a more standardized coding style that was programatically enforceable.
+
+
 # List of common behavioral questions
 ## Tell me about a time when you were faced with a challenging situation. How did you solve it?
 ## Do you usually set goals at work? If yes, could you give me an example of a goal you had and how you achieved it?
