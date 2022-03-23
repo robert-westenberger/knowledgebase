@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:30:58.201Z
+date: 2022-03-23T14:32:41.455Z
 tags: interviewing
 editor: markdown
 ---
@@ -51,6 +51,10 @@ It has five major parts
 - Web services use POST calls to make operations and GET to access resources.
 ### What is a cached response? 
 - Caching refers to storing server response in client itself so that a client needs not to make a server request to the same resource again and again. A server response should have information about how a caching is to be done so that a client caches a response for a period of time or never caches the server response.
+### What are the different types of Web Services?
+Two types of web services
+- **SOAP Web Services** Runs on the SOAP protocol and uses XML tech for sending data.
+- **RESTful Web Services**: Architectural style that runs on HTTP/HTTPS protocol. Its a stateless client-server architecture where web services are resources and can be identified by their URIs. 
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
