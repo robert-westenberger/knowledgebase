@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:39:41.039Z
+date: 2022-03-23T15:41:13.779Z
 tags: interviewing
 editor: markdown
 ---
@@ -84,7 +84,10 @@ POSTs will create a resource, and PUT updates a resource. PUTs are idempotent, s
 ### What are the best practices to create a standard URI for a web service?
 - A resource can be a singleton or a collection. For example, `/customers` can identify multiple customers, and `/customers/{customerId}` can identify a single customer.
 - A resource may contain a sub-collection of resources. `/customers/{customerId}/accounts` will identify the accounts of a particular customer. `/customers/{customerId}/accounts/{accountId}` will identify a particular account.
-- RESTful URI should refer to resources that are nouns, and not verbs. 
+- RESTful URI should refer to resources that are nouns, and not HTTP verbs.
+- Use forward slash to denote hierarchical relationships.
+- Don't use trailing forward slash in URIs.
+- Use hyphens, not underscores, to imrpove readability.
 ### What are the four resource archetypes in a RESTful architecture?
 - **Document**: Akin to an object instance or database record. In REST, its a single resource inside a resource collection. A document's state representation typically includes both fields with values and links to other related resources. These should be singular.
 ```
