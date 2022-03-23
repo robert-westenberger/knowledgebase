@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:41:13.779Z
+date: 2022-03-23T15:41:37.487Z
 tags: interviewing
 editor: markdown
 ---
@@ -88,6 +88,7 @@ POSTs will create a resource, and PUT updates a resource. PUTs are idempotent, s
 - Use forward slash to denote hierarchical relationships.
 - Don't use trailing forward slash in URIs.
 - Use hyphens, not underscores, to imrpove readability.
+- Allow query parameters to filter URI collection.
 ### What are the four resource archetypes in a RESTful architecture?
 - **Document**: Akin to an object instance or database record. In REST, its a single resource inside a resource collection. A document's state representation typically includes both fields with values and links to other related resources. These should be singular.
 ```
