@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:38:47.974Z
+date: 2022-03-23T14:40:14.566Z
 tags: interviewing
 editor: markdown
 ---
@@ -57,6 +57,8 @@ Two types of web services
 - **RESTful Web Services**: Architectural style that runs on HTTP/HTTPS protocol. Its a stateless client-server architecture where web services are resources and can be identified by their URIs. 
 ### What are resources in a REST arhitecture?
 Identified by logical URLs, these are the things accessed by the URL you supply. In a book API, one resource might be `example.com/api/v1/books`, where a GET request will return an array of either one or multiple books depending on the request configuration. A POST to `example.com/api/v1/books/32/` will update whatever book with an ID of 32 (just an example, there is no enforced API design in REST.
+### What are the advantages of Web Services?
+- **Interoperability**: Server can be one language, client in another. There is a common protocol used for transporting data.
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
