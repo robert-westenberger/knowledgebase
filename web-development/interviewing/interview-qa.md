@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T00:49:28.919Z
+date: 2022-03-23T00:55:55.990Z
 tags: interviewing
 editor: markdown
 ---
@@ -23,7 +23,8 @@ React will group multiple state updates in a single rerender under the hood as a
 ### What is hoisting?
 ### What's the difference between a normal function declaration and an arrow function?
 # Backend
-
+## Web Architecture
+### Explain the difference between a cookie and a session
 # Fullstack
 ## Architecture
 ### How would you handle large data sets from the backend to the frontend?
