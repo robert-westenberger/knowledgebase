@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:52:44.110Z
+date: 2022-03-23T16:00:05.307Z
 tags: interviewing
 editor: markdown
 ---
@@ -126,6 +126,9 @@ Disadvantages:
 - Web services need to get extra information in each request and then interpret to get the client's state in case the client interactions are to be taken care of.
 
 ### What are the best practices for caching?
+### What are different ways to test web services?
+### What are the best practices to design a resource representation?
+### What is the purpose of HTTP Status Code?
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
