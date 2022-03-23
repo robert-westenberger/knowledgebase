@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:41:03.531Z
+date: 2022-03-23T14:41:21.396Z
 tags: interviewing
 editor: markdown
 ---
@@ -61,6 +61,9 @@ Identified by logical URLs, these are the things accessed by the URL you supply.
 - **Interoperability**: Server can be one language, client in another. There is a common protocol used for transporting data.
 - **Reusability**: One web service can be reused by many client applications.
 - **Multiple Service Versions** can be running at the same time.
+
+### Whats the difference between REST and RESTful?
+
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
