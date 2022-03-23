@@ -2,7 +2,7 @@
 title: Availability & Reliability QA
 description: 
 published: true
-date: 2022-03-23T16:07:31.543Z
+date: 2022-03-23T16:08:31.225Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -18,3 +18,5 @@ Probability that a system performs correctly during a specific time duration.
 During this correct operation, no repair is required or performed, and the system adequately follows the defined performance specifications.
 
 Reliability follows an exponential failure law, which means that it reduces as the time duration considered for reliability calculations elapses. In other words, reliability of a system will be high at its initial state of operation and gradually reduce to its lowest magnitude over time.
+
+# What is Failover?
