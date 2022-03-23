@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:32:41.455Z
+date: 2022-03-23T14:36:38.435Z
 tags: interviewing
 editor: markdown
 ---
@@ -55,6 +55,8 @@ It has five major parts
 Two types of web services
 - **SOAP Web Services** Runs on the SOAP protocol and uses XML tech for sending data.
 - **RESTful Web Services**: Architectural style that runs on HTTP/HTTPS protocol. Its a stateless client-server architecture where web services are resources and can be identified by their URIs. 
+### What are resources in a REST arhitecture?
+Identified by logical URLs, these are the things accessed by the URL you supply. In a book API, one resource might be `example.com/api/v1/books`, where a GET request will return an array of either one or multiple books depending on the request configuration.
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
