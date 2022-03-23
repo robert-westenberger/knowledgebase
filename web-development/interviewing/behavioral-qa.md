@@ -2,7 +2,7 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-23T22:29:34.721Z
+date: 2022-03-23T22:37:29.943Z
 tags: interviewing
 editor: markdown
 ---
@@ -24,6 +24,12 @@ This allowed us to to sidestep the issue of having to refactor nearly 100 legacy
 We were running into issues where code would be commited to a release, would be deployed, and it would entirely break the shell of the site because there was a missing import or some other issue. The build process wouldn't complete, but it still contained problematic code that wouldn't cause issues until runtime. This would result in a critical escalation, all hands on deck to identify and fix the issue. (In reality, it would only take one person a little bit to actually find and fix the issue.. but they would have to pull down the latest code and do a build locally
 ### Task 
 Had to preven this situation from cropping up again. 
+### Action
+Introduce linting to the front end build that would run on production builds. Any lint errors would fail the pipeline and prevent code from being merged into a release branch. 
+
+We actually had to do this in a few phases, setting only the most important linting rules to error out at first since our codebase had so many linting issues. Once we had ESlint setup however, there was a clear path from no-linting -> strict linting that we completed in a few months. I remember we used some react code mod tools to refactor some of our react code.
+### Result
+Less deploy issues that needed the attention of the entire UI team. 
 # List of common behavioral questions
 ## Tell me about a time when you were faced with a challenging situation. How did you solve it?
 ## Do you usually set goals at work? If yes, could you give me an example of a goal you had and how you achieved it?
