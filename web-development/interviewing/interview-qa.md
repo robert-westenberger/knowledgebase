@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T01:16:45.265Z
+date: 2022-03-23T14:20:11.564Z
 tags: interviewing
 editor: markdown
 ---
@@ -33,6 +33,14 @@ React will group multiple state updates in a single rerender under the hood as a
 ### What are generics?
 ## Web Architecture
 ### Explain the difference between a cookie and a session
+## API Design
+### What are the core components of an HTTP Request?
+It has five major parts
+- **Verb** GET, POST, DELETE, PUT, etc
+- **URI** Uniform Resource Identifier to identify the resource on the server
+- **HTTP Version** HTTP version, like HTTP v1.1
+- **Request Header** Contains metadata for the HTTP request message as kv pairs. For example, client or browser type, format supported by client, format of message body, cache settings, etc. 
+- **Request Body** Message content or resource representation
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
