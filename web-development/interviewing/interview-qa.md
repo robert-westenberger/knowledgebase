@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T16:00:05.307Z
+date: 2022-03-23T16:02:46.491Z
 tags: interviewing
 editor: markdown
 ---
@@ -129,6 +129,8 @@ Disadvantages:
 ### What are different ways to test web services?
 ### What are the best practices to design a resource representation?
 ### What is the purpose of HTTP Status Code?
+### What are the primary security issues of web services?
+### What are the core components of an HTTP Response?
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
