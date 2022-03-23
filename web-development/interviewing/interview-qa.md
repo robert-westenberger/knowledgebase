@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T00:47:25.998Z
+date: 2022-03-23T00:48:05.731Z
 tags: interviewing
 editor: markdown
 ---
@@ -10,6 +10,7 @@ editor: markdown
 # Frontend
 ## Testing
 ### What is Jest/Enzyme used for?
+### What is snapshot testing?s
 ## React
 ### What is batching in react?
 React will group multiple state updates in a single rerender under the hood as a performance optimizations.
