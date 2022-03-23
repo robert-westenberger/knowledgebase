@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:15:45.923Z
+date: 2022-03-23T15:19:24.563Z
 tags: interviewing
 editor: markdown
 ---
@@ -79,7 +79,8 @@ REST based services follow some of the above principles but not all. RESTful ser
 4. WebSockets are ideal for real time scalable applications, where REST is for high request volume.
 5. WebSocket is stateful. 
 6. Websockets work better where the client server communicates over the same TCP connection for the life of the websocket connectionm whereas for an HTTP request, a new TCP connection is initiated.
-7. 
+### What's the difference between PUT and POST?
+POSTs will create a resource, and PUT updates a resource. PUTs are idempotent, so making the same PUT request multiple times will have the same effect as calling it once. Making multiple POST requests will create resources multiple times.
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
