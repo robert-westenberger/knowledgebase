@@ -2,7 +2,7 @@
 title: Caching QA
 description: 
 published: true
-date: 2022-03-23T16:17:29.201Z
+date: 2022-03-23T16:21:18.726Z
 tags: backend, interviewing, caching
 editor: markdown
 ---
@@ -30,3 +30,23 @@ Storing the results of a database query along with the query in the application.
 HTTP caching is a solution for improving the performance of your web application. For lower load on the application and fastest response time, you want to cache content for a long period (TTL). But at the same time, you want your clients to see fresh (validate the freshness) content as soon as there is an update.
 
 Cache invalidation gives you the best of both worlds: you can have very long TTLs, so when content changes little, it can be served from the cache because no requests to your application are required. At the same time, when data does change, that change is reflected without delay in the web representations.
+
+# What usually should be cached?
+The results of the following processes are good candidates for caching:
+- Long running queries on dataases
+- High latency network requests ( for external APIs )
+- Computation-Intensive processes
+
+# Name some cache writing strategies
+
+# What are some alternatives to cache invalidation
+
+# Name some cache invalidation methods
+
+# Compare caching at business layer vs caching at data layer
+
+# What are cache replacement (or Eviction Policy ) algorithms
+
+# What are disadvantages of cache invalidation?
+
+# Why is cache invalidation considered difficult?
