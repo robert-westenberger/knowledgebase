@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:40:14.566Z
+date: 2022-03-23T14:41:03.531Z
 tags: interviewing
 editor: markdown
 ---
@@ -59,6 +59,8 @@ Two types of web services
 Identified by logical URLs, these are the things accessed by the URL you supply. In a book API, one resource might be `example.com/api/v1/books`, where a GET request will return an array of either one or multiple books depending on the request configuration. A POST to `example.com/api/v1/books/32/` will update whatever book with an ID of 32 (just an example, there is no enforced API design in REST.
 ### What are the advantages of Web Services?
 - **Interoperability**: Server can be one language, client in another. There is a common protocol used for transporting data.
+- **Reusability**: One web service can be reused by many client applications.
+- **Multiple Service Versions** can be running at the same time.
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
