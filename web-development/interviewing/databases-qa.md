@@ -2,7 +2,7 @@
 title: Databases QA
 description: 
 published: true
-date: 2022-03-23T16:30:38.063Z
+date: 2022-03-23T16:33:35.930Z
 tags: backend, interviewing, databases
 editor: markdown
 ---
@@ -13,3 +13,22 @@ Normalization is basically to design a database schema such that duplicate and r
 There is a number of normalization levels from 1. normal form through 5. normal form. Each normal form describes how to get rid of some specific problem.
 
 By having a database with normalization errors, you open the risk of getting invalid or corrupt data into the database. Since data "lives forever" it is very hard to get rid of corrupt data when first it has entered the database.
+
+# What are the advantages of NoSQL over traditional RDBMS?
+
+NoSQL is better than RDBMS because
+- It supports semi-structred data and volatile data
+- It does not have schema
+- Read/Write throughput is very high
+- High horizontal scalability
+- Will support Bigdata in volumes of Terra Bytes & Peta Bytes
+- Provides good support for Analytic tools on top of Bigdata
+- Can be hosted in cheaper hardware machines
+- In-memory caching option is available to increase the performance of queries
+- Faster development life cycles for developers
+
+RDBMS is better 
+- Transactions with atomicity, consistency, isolation, and durability
+- Adherence to a strong schema of data being written, read.
+- Real time query management
+- Execution of complex queries involving join and group by clauses.
