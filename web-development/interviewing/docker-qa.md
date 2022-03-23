@@ -2,7 +2,7 @@
 title: Docker QA
 description: 
 published: true
-date: 2022-03-23T16:45:34.058Z
+date: 2022-03-23T16:46:04.077Z
 tags: docker, backend, interviewing
 editor: markdown
 ---
@@ -35,3 +35,6 @@ Images are created with the build command, and they’ll produce a container whe
 Images are stored in a Docker registry such as `registry.hub.docker.com`. 
 
 Because they can become quite large, images are designed to be composed of layers of other images, allowing a minimal amount of data to be sent when transferring images over the network.
+
+# What is a Docker container?
+Docker containers include the application and all of its dependencies, but share the kernel with other containers, running as isolated processes in user space on the host operating system. Docker containers are not tied to any specific infrastructure: they run on any computer, on any infrastructure, and in any cloud.
