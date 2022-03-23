@@ -2,7 +2,7 @@
 title: Caching QA
 description: 
 published: true
-date: 2022-03-23T16:16:48.455Z
+date: 2022-03-23T16:17:29.201Z
 tags: backend, interviewing, caching
 editor: markdown
 ---
@@ -25,3 +25,8 @@ But unlike a cash Redis:
 
 # What is Resultset Caching?
 Storing the results of a database query along with the query in the application. Every time a web page generates a query, the applications checks whether the results are already cached, and if they are, pulls them from an in-memory data set instead. The application still has to render the page.
+
+# What is Cache invalidation?
+HTTP caching is a solution for improving the performance of your web application. For lower load on the application and fastest response time, you want to cache content for a long period (TTL). But at the same time, you want your clients to see fresh (validate the freshness) content as soon as there is an update.
+
+Cache invalidation gives you the best of both worlds: you can have very long TTLs, so when content changes little, it can be served from the cache because no requests to your application are required. At the same time, when data does change, that change is reflected without delay in the web representations.
