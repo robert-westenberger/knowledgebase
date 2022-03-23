@@ -2,13 +2,15 @@
 title: Projects and Accomplishments
 description: 
 published: true
-date: 2022-03-23T21:25:48.284Z
+date: 2022-03-23T21:26:12.805Z
 tags: interviewing
 editor: markdown
 ---
 
 # STAR
 A technique for handling behavioral questions. These questions inquire about situations and problems faced at work anad help the interviewer understand how you handle them. 
+
+Behavioral questions always require you to tell a story of how you faced a specific situation at work, and how you dealt with it.
 ## Situation
 - This is where you describe the situation and provide the interviewer with context.
 ## Task
