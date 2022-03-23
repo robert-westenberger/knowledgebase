@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T01:07:38.799Z
+date: 2022-03-23T01:09:40.907Z
 tags: interviewing
 editor: markdown
 ---
@@ -32,13 +32,18 @@ React will group multiple state updates in a single rerender under the hood as a
 #### What is the Active-Record design pattern? What are the limits and pitfalls of this pattern?
 ### Data-Mapper
 #### What is the Data-Mapper design pattern? When would you use Active-Mapper vs Data-Mapper?
+
 # Fullstack
 ## Architecture
 ### How would you handle large data sets from the backend to the frontend?
 ## Software Engineering
 ### Explain the difference between classical and prototypal inheritance
+### Many state that, in OOP, composition is often a better option than inheritance. What's your opinion?
 ### How would you go about clearing tech debt?
-### Whats your approach to testing?
+
+
+## Testing
+### What is your approach to testing?
 ## Functional Programming
 ### What are higher order functions?
 # Other
