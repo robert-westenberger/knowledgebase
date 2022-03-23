@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T00:44:21.152Z
+date: 2022-03-23T00:44:50.212Z
 tags: interviewing
 editor: markdown
 ---
@@ -20,5 +20,7 @@ React will group multiple state updates in a single rerender under the hood as a
 # Fullstack
 ## Software Engineering
 ### Explain the difference between classical and prototypal inheritance
+### How would you go about clearing tech debt?
+### Whats your approach to testing?
 
 # Other
