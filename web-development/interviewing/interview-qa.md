@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:49:28.981Z
+date: 2022-03-23T15:51:10.278Z
 tags: interviewing
 editor: markdown
 ---
@@ -117,6 +117,13 @@ The Accept HTTP header indicates which content types, expressed as MIME types,th
 Content-type can be used both by client and server to identify the format of the data in their request(client) or response(server), and therefore, help the other part interpret the information correctly.
 ### What is statelessness in RESTful web services?
 A restful web service shouldn't keep client state on the server. With each request, its the responsibility of the client to pass its context to the server and then the server can store this context to process the client's further request. 
+
+Advantages are: 
+- Web services can treat each method request independently.
+- Since HTTP is stateless, RESTful web services work seamlessly with HTTP protocols.
+
+
+	
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
