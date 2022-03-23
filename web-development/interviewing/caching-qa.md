@@ -2,7 +2,7 @@
 title: Caching QA
 description: 
 published: true
-date: 2022-03-23T16:15:53.847Z
+date: 2022-03-23T16:16:48.455Z
 tags: backend, interviewing, caching
 editor: markdown
 ---
@@ -22,3 +22,6 @@ But unlike a cash Redis:
 - Redis cache provides replication for high availability (master/slave)
 - Supports ultra-fast lua-scripts. Its execution time equals to C commands execution.
 - Can be shared across multiple instances of the application (instead of in-memory cache for each app instance)
+
+# What is Resultset Caching?
+Storing the results of a database query along with the query in the application. Every time a web page generates a query, the applications checks whether the results are already cached, and if they are, pulls them from an in-memory data set instead. The application still has to render the page.
