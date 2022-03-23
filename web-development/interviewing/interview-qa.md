@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T00:44:50.212Z
+date: 2022-03-23T00:45:21.573Z
 tags: interviewing
 editor: markdown
 ---
@@ -15,6 +15,8 @@ editor: markdown
 React will group multiple state updates in a single rerender under the hood as a performance optimizations.
 ## Typescript
 ### What are the pros and cons of working with typescript?
+## Javascript
+### What is hoisting?
 # Backend
 
 # Fullstack
