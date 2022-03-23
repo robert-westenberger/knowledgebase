@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:41:37.487Z
+date: 2022-03-23T15:46:47.853Z
 tags: interviewing
 editor: markdown
 ---
@@ -111,6 +111,10 @@ https://api.example.com/song-management/users/{id}/playlists
 https://api.example.com/cart-management/users/{id}/cart/checkout 
 https://api.example.com/song-management/users/{id}/playlist/play
 ```
+### What is the use of Accept and Content-Type Headers in HTTP Requests?
+The Accept HTTP header indicates which content types, expressed as MIME types,the client is able to understand. The server uses content negotation to select one of the proposals and informs the client of the choice with the Content-Type response header. 
+
+Content-type can be used both by client and server to identify the format of the data in their request(client) or response(server), and therefore, help the other part interpret the information correctly.
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
