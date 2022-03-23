@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:51:44.070Z
+date: 2022-03-23T15:52:14.189Z
 tags: interviewing
 editor: markdown
 ---
@@ -124,7 +124,8 @@ Advantages are:
 
 Disadvantages:
 - Web services need to get extra information in each request and then interpret to get the client's state in case the client interactions are to be taken care of.
-	
+
+### What is a payload?
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
