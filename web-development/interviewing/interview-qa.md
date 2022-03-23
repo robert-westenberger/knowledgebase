@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:36:04.255Z
+date: 2022-03-23T15:39:41.039Z
 tags: interviewing
 editor: markdown
 ---
@@ -97,6 +97,15 @@ https://api.example.com/user-management/users/admin
 https://api.example.com/device-management/managed-devices
 https://api.example.com/user-management/users
 https://api.example.com/user-management/users/{id}/accounts
+```
+- **Store**: A store is a client-managed resource repository. A store resource lets an API client put resources in, get them out, and decide when to delete them. A store never generates new URIs. Instead, each stored resource has a URI. The URI was chosen by a client when the resource was initially put into the store. These should be plural.
+```
+https://api.example.com/song-management/users/{id}/playlists
+```
+- **Controller**: A controller resource models a procedural concept. They are like executable functions, with parameters and return values, inputs and outputs. Use "verb" to denote contorller archetype.
+```
+https://api.example.com/cart-management/users/{id}/cart/checkout 
+https://api.example.com/song-management/users/{id}/playlist/play
 ```
 ## Design Patterns
 ### Inversion of Control
