@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:27:50.277Z
+date: 2022-03-23T14:30:58.201Z
 tags: interviewing
 editor: markdown
 ---
@@ -46,6 +46,11 @@ It has five major parts
 - Supports multiple technologies for data transfer such as text, xml, json, image, etc.
 - No contract defined between server and client, loosely coupled implementation.
 - Easily testable over the browser. 
+### Mention some key characteristics of REST
+- REST is stateless, therefore the server has no state or session data
+- Web services use POST calls to make operations and GET to access resources.
+### What is a cached response? 
+- Caching refers to storing server response in client itself so that a client needs not to make a server request to the same resource again and again. A server response should have information about how a caching is to be done so that a client caches a response for a period of time or never caches the server response.
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
