@@ -2,7 +2,7 @@
 title: Databases QA
 description: 
 published: true
-date: 2022-03-23T16:36:36.114Z
+date: 2022-03-23T16:37:07.005Z
 tags: backend, interviewing, databases
 editor: markdown
 ---
@@ -36,6 +36,8 @@ RDBMS is better
 # Define ACID properties
 # How can a database index help performance?
 # What's the cost of having a database index?
+# What are some types of indexes?
 # What is denormalization?
 # What's the difference between a primary key and a unique key?
 # What is sharding?
+# How do you offload work from the database?
