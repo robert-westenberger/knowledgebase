@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T01:14:26.419Z
+date: 2022-03-23T01:15:11.294Z
 tags: interviewing
 editor: markdown
 ---
@@ -47,7 +47,7 @@ React will group multiple state updates in a single rerender under the hood as a
 ### How would you go about clearing tech debt?
 ### How would you deal with dependency hell?
 ### It is said that one of the most important goals in OO design is to have high cohesion and loose coupling. What does it mean? Why is it important and how is it achieved?
-
+### In your opinion, why has OOP dominated the market for so many years?
 ## Testing
 ### What is your approach to testing?
 ## Functional Programming
