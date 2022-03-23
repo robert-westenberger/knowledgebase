@@ -2,7 +2,7 @@
 title: Databases QA
 description: 
 published: true
-date: 2022-03-23T16:33:35.930Z
+date: 2022-03-23T16:36:36.114Z
 tags: backend, interviewing, databases
 editor: markdown
 ---
@@ -32,3 +32,10 @@ RDBMS is better
 - Adherence to a strong schema of data being written, read.
 - Real time query management
 - Execution of complex queries involving join and group by clauses.
+
+# Define ACID properties
+# How can a database index help performance?
+# What's the cost of having a database index?
+# What is denormalization?
+# What's the difference between a primary key and a unique key?
+# What is sharding?
