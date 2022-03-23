@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:44:51.189Z
+date: 2022-03-23T15:15:45.923Z
 tags: interviewing
 editor: markdown
 ---
@@ -72,6 +72,14 @@ REST is an architectural style of development that is:
 - should return the result in the form of JSON, XML
 
 REST based services follow some of the above principles but not all. RESTful services means it follows all of the above principles.
+### Websocket vs REST
+1. Websocket is a low-level protocol based on the concept of a socket and port, which are the underlying transport mechanism.. whereas REST is based on CRUD.
+2. WebSocket requires IP address and Port details, which are lower level details. RESTful application needs to design operation based on HTTP verbs and is HTTP based.
+3. Websockets are bidirectional in nature, REST is unidirecitonal.
+4. WebSockets are ideal for real time scalable applications, where REST is for high request volume.
+5. WebSocket is stateful. 
+6. Websockets work better where the client server communicates over the same TCP connection for the life of the websocket connectionm whereas for an HTTP request, a new TCP connection is initiated.
+7. 
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
