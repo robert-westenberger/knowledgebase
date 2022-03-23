@@ -2,10 +2,15 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T00:35:06.712Z
+date: 2022-03-23T00:42:10.019Z
 tags: interviewing
 editor: markdown
 ---
 
-# Header
-Your content here
+# Frontend
+## React
+### What is batching in react?
+React will group multiple state updates in a single rerender under the hood as a performance optimizations.
+
+# Fullstack
+## Explain the difference between classical and fullstack inheritance
