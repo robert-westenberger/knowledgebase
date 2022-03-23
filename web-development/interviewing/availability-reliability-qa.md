@@ -2,7 +2,7 @@
 title: Availability & Reliability QA
 description: 
 published: true
-date: 2022-03-23T16:08:31.225Z
+date: 2022-03-23T16:11:21.294Z
 tags: backend, interviewing
 editor: markdown
 ---
@@ -20,3 +20,6 @@ During this correct operation, no repair is required or performed, and the syste
 Reliability follows an exponential failure law, which means that it reduces as the time duration considered for reliability calculations elapses. In other words, reliability of a system will be high at its initial state of operation and gradually reduce to its lowest magnitude over time.
 
 # What is Failover?
+The ability to seamlessly and automatically switch to a reliable backup system. 
+
+A redundant or standby database server, system, or other hardware component, server, or network should be ready to replace any previously active version upon its abnormal termination or failure. 
