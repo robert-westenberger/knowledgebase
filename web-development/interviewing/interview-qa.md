@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:41:21.396Z
+date: 2022-03-23T14:44:14.924Z
 tags: interviewing
 editor: markdown
 ---
@@ -63,7 +63,13 @@ Identified by logical URLs, these are the things accessed by the URL you supply.
 - **Multiple Service Versions** can be running at the same time.
 
 ### Whats the difference between REST and RESTful?
-
+REST is an architectural style of development that is:
+- stateless and sessionless
+- has access to all the resources from the server using only URI
+- does not have built in encryption
+- uses only the HTTP protocol
+- for performing CRUD operations, it should use GET POST PUT and DELETE
+- should return the result in the form of JSON, XML
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
