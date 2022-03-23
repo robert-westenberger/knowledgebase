@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:19:24.563Z
+date: 2022-03-23T15:29:49.111Z
 tags: interviewing
 editor: markdown
 ---
@@ -81,6 +81,10 @@ REST based services follow some of the above principles but not all. RESTful ser
 6. Websockets work better where the client server communicates over the same TCP connection for the life of the websocket connectionm whereas for an HTTP request, a new TCP connection is initiated.
 ### What's the difference between PUT and POST?
 POSTs will create a resource, and PUT updates a resource. PUTs are idempotent, so making the same PUT request multiple times will have the same effect as calling it once. Making multiple POST requests will create resources multiple times.
+### What are the best practices to create a standard URI for a web service?
+- A resource can be a singleton or a collection. For example, `/customers` can identify multiple customers, and `/customers/{customerId}` can identify a single customer.
+- A resource may contain a sub-collection of resources. `/customers/{customerId}/accounts` will identify the accounts of a particular customer. `/customers/{customerId}/accounts/{accountId}` will identify a particular account.
+- RESTful URI should refer to resources that are nouns, and not verbs. 
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
