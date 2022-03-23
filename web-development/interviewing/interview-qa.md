@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T00:46:58.555Z
+date: 2022-03-23T00:47:25.998Z
 tags: interviewing
 editor: markdown
 ---
@@ -14,6 +14,7 @@ editor: markdown
 ### What is batching in react?
 React will group multiple state updates in a single rerender under the hood as a performance optimizations.
 ### What are higher order components?
+### Benefits of class over function components?
 ## Typescript
 ### What are the pros and cons of working with typescript?
 ## Javascript
