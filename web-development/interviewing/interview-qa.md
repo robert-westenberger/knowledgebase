@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T14:44:45.301Z
+date: 2022-03-23T14:44:51.189Z
 tags: interviewing
 editor: markdown
 ---
@@ -71,7 +71,7 @@ REST is an architectural style of development that is:
 - for performing CRUD operations, it should use GET POST PUT and DELETE
 - should return the result in the form of JSON, XML
 
-REST based services follow some of the above principles but not all. RESTful services means it follows all of the above principoles.
+REST based services follow some of the above principles but not all. RESTful services means it follows all of the above principles.
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
