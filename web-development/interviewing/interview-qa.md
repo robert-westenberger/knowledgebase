@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T01:11:27.793Z
+date: 2022-03-23T01:12:05.129Z
 tags: interviewing
 editor: markdown
 ---
@@ -43,7 +43,7 @@ React will group multiple state updates in a single rerender under the hood as a
 ### Explain the difference between classical and prototypal inheritance
 ### Many state that, in OOP, composition is often a better option than inheritance. What's your opinion?
 ### How would you go about clearing tech debt?
-
+### How would you deal with dependency hell?
 
 ## Testing
 ### What is your approach to testing?
