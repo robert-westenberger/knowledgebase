@@ -2,15 +2,23 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-23T21:51:07.582Z
+date: 2022-03-23T22:15:04.928Z
 tags: interviewing
 editor: markdown
 ---
 
 # Accomplishments that can be used
+## Magic Responsive Tables
+### Situation
+We were making all of screens in our app responsive. A large portion of our app were still legacy coldfusion, and there were still a lot of layout and data tables in use that were prohibitively difficult to make responsive. 
 
-
-
+This had to be completed as quickly as possible, and was going to take a lot of resources away from the UI team. 
+### Task 
+The task was to refactor all of the layout tables to be more responsive and themeable markup and styling. 
+### Action
+I made a relatively small (500-600 line) script that would parse these tables for their actual table or other useable markup, and then inject into the DOM more modern markup from a template. It would execute on page load, and under a certain viewport width it would hide the original table and show the updated markup. 
+### Result 
+This allowed us to to sidestep the issue of having to refactor nearly 100 legacy coldfusion tables. This was an acceptable stopgap to get everything completely responsive while we work on actually refactoring those screens to actual react apps.
 # List of common behavioral questions
 ## Tell me about a time when you were faced with a challenging situation. How did you solve it?
 ## Do you usually set goals at work? If yes, could you give me an example of a goal you had and how you achieved it?
