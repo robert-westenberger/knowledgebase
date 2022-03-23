@@ -2,7 +2,7 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-23T22:42:58.512Z
+date: 2022-03-23T22:54:58.471Z
 tags: interviewing
 editor: markdown
 ---
@@ -31,7 +31,17 @@ We actually had to do this in a few phases, setting only the most important lint
 ### Result
 Less deploy issues that needed the attention of the entire UI team. Also general improvement of codebase... there was now static analysis of any issues and there was also a more standardized coding style that was programatically enforceable.
 
+## Create small node based FTP tool for easier content modifications
+### Situation
+Our platform has a "content system", where clients can upload html markup, scripts, assets, web forms, etc. to be used on any screen of the app or even create their own pages. Uploading content assets was a particular pain in the ass, because you had to click through this legacy system for each content asset, and upload assets individually. 
 
+The idea was to upload these assets, and then the clients could modify them on their own time without developer intervention or a code deploy. 
+### Task
+This was on my own initiative, and was driven mainly out of frustration from using the old system. It was a nightmare to upload anything more than 5 assets at a time. 
+### Action
+Made a small node app that just authenticated and FTPd content assets to the appropriate directory on the server. Many more files could be Created, read, updated, and deleted at once than what the web interface could do.
+### Result
+Implementation speed and ease took a lot faster. 
 # List of common behavioral questions
 ## Tell me about a time when you were faced with a challenging situation. How did you solve it?
 ## Do you usually set goals at work? If yes, could you give me an example of a goal you had and how you achieved it?
