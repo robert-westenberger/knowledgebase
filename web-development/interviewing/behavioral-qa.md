@@ -2,10 +2,14 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-23T21:45:41.024Z
+date: 2022-03-23T21:51:07.582Z
 tags: interviewing
 editor: markdown
 ---
+
+# Accomplishments that can be used
+
+
 
 # List of common behavioral questions
 ## Tell me about a time when you were faced with a challenging situation. How did you solve it?
