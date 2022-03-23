@@ -2,7 +2,7 @@
 title: Interviewing QA
 description: 
 published: true
-date: 2022-03-23T15:34:05.290Z
+date: 2022-03-23T15:36:04.255Z
 tags: interviewing
 editor: markdown
 ---
@@ -86,8 +86,18 @@ POSTs will create a resource, and PUT updates a resource. PUTs are idempotent, s
 - A resource may contain a sub-collection of resources. `/customers/{customerId}/accounts` will identify the accounts of a particular customer. `/customers/{customerId}/accounts/{accountId}` will identify a particular account.
 - RESTful URI should refer to resources that are nouns, and not verbs. 
 ### What are the four resource archetypes in a RESTful architecture?
-- **Document**: Akin to an object instance or database record. In REST, its a single resource inside a resource collection. A document's state representation typically includes both fields with values and links to other related resources.
-- **Collection**: Server managed directory of resources. 
+- **Document**: Akin to an object instance or database record. In REST, its a single resource inside a resource collection. A document's state representation typically includes both fields with values and links to other related resources. These should be singular.
+```
+https://api.example.com/device-management/managed-devices/{device-id}
+https://api.example.com/user-management/users/{id}
+https://api.example.com/user-management/users/admin
+```
+- **Collection**: Server managed directory of resources. Clients may propose new resources be added to a collection, however its up to the collection resource to choose to create a new resource or not. These should be plural.
+```
+https://api.example.com/device-management/managed-devices
+https://api.example.com/user-management/users
+https://api.example.com/user-management/users/{id}/accounts
+```
 ## Design Patterns
 ### Inversion of Control
 #### What is inversion of control, and how does it improve the design of code?
