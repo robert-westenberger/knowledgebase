@@ -2,10 +2,12 @@
 title: YieldX
 description: 
 published: true
-date: 2022-03-24T16:57:09.293Z
+date: 2022-03-24T16:58:43.156Z
 tags: interviews
 editor: markdown
 ---
+
+# Interview 1 (HR screen)
 
 # Job Description
 At YieldX, our mission is to democratize fixed income investing with a comprehensive ecosystem of digital tools that power personalization-at-scale.
