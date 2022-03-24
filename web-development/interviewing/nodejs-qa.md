@@ -2,7 +2,7 @@
 title: NodeJS QA
 description: 
 published: true
-date: 2022-03-24T16:30:29.727Z
+date: 2022-03-24T16:45:18.526Z
 tags: backend, interviewing, node
 editor: markdown
 ---
@@ -18,4 +18,11 @@ Deeply nested callbacks. In order to get out of callback hell, some good solutio
 
 1. Use Promises (can chain together .then() ) statements
 2. Use Async/await
+
+# What are the key features of NodeJS?
+- **Asynchronous event driven IO helps concurrent request handling**
+- **Single threaded but highly scalable**: A single request doesn't block the processing of other requests. 
+- It uses javascript
+- No buffering of data (what does this actually mean?)
+
 
