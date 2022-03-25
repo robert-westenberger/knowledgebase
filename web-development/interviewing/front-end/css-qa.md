@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:38:37.908Z
+date: 2022-03-25T15:39:43.709Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -111,3 +111,7 @@ The CSS Box model is responsible for calculating:
 - The height of an element is calculated by the content's height.
 - The width of an element is calculated by the content's width.
 - By default, paddings and borders are not part of the width and height of an element.
+
+# Compare `block`, `inline`, and `inline-block`
+
+
