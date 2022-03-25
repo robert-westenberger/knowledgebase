@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-25T16:15:44.035Z
+date: 2022-03-25T16:16:52.899Z
 tags: interviewing, javascript
 editor: markdown
 ---
