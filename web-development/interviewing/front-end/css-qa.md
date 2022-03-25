@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:42:25.462Z
+date: 2022-03-25T14:43:25.773Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -38,3 +38,6 @@ It's a CSS positional property. They can be floated to the left or right. The de
 If all elements in a container are floated, its height will collapse to 0. This is corrected by a clearfix. 
 
 **There is never a reason, under any circumstance to use floats anymore.**
+
+# Describe `z-index` and how stacking context is formed
+The `z-index` property controls vertical stacking order of elements that overlap. It only works on elements with a `position` property that is anything but `static`. 
