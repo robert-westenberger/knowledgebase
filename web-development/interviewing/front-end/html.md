@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:29:17.513Z
+date: 2022-03-25T01:30:34.328Z
 tags: interviewing
 editor: markdown
 ---
@@ -17,3 +17,4 @@ The DOCTYPE declaration for the HTML5 standards is `<!DOCTYPE html>`.
 # How do you serve a page with content in multiple languages?
 When an HTTP request is made to a server, the requesting user agent usually sends information about language preferences, such as the `Accept-Language` header. The server can then use this information to return a version of the document in the appropriate language if such an alternative is available. The returned HTML document should declare the `lang` attribute in the `<html>` tag, like `<html lang="en">...</html>`
 
+To let a search engine know that the same content is available in different languages, you must also make use of the `hreflang` attribute in the `<head>`. Something like `<link rel="alternate" hreflang="de" href="http://de.example.com/page.html" />`. 
