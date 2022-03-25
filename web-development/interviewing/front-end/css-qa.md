@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:38:32.056Z
+date: 2022-03-25T14:39:12.110Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
