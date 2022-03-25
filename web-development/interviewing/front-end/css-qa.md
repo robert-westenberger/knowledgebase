@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:45:57.656Z
+date: 2022-03-25T14:47:38.343Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -52,4 +52,12 @@ A stacking context is formed, anywhere in the document, by any of the following 
 - Element with a position value fixed or sticky (sticky for all mobile browsers, but not older desktop).
 - Element that is a child of a flex container, with z-index value other than auto.
 - Element that is a child of a grid container, with z-index value other than auto.
+- Element with an opacity value less than 1 
+- Element with a mix-blend-mode value other than normal.
+- Element with any of the following properties with values other than `none`:
+	- transform
+  - filter
+  - perspective
+  - clip-path
+  - mask / mask-image / mask-border
 
