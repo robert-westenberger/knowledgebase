@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:09:48.430Z
+date: 2022-03-25T14:14:23.103Z
 tags: interviewing
 editor: markdown
 ---
@@ -58,3 +58,13 @@ Placement of script tags near the bottom of the body tag might cause flashes of 
 An exception for positioning of `<script>`s at the bottom is when your script contains `document.write()`, but using `document.write()` is not good practice. Also, placing `<script>`s at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. This ensures that your code that needs to manipulate DOM elements will not throw an error and halt the entire script. 
 
 If you need to put `<script>`s in the head, use the defer attribute, which will only execute the scripts once the DOM is loaded, but it will fetch them all in parallel. 
+
+# What is progressive rendering?
+Techniques to improve performance of a webpage (improving perceived load time).
+
+## Examples
+### Lazy loading of images
+Javascript will be used to load an image when the user scrolls into the part of the page that displays that image
+### Prioritizing visible content 
+AKA above the fold rendering. Includes only the minimum CSS/content/scripts necessary for the amount of page that would be rendered in the users browser first to display as quickly as possible.
+
