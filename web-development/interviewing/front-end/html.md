@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:14:23.103Z
+date: 2022-03-25T14:16:11.841Z
 tags: interviewing
 editor: markdown
 ---
@@ -68,3 +68,5 @@ Javascript will be used to load an image when the user scrolls into the part of 
 ### Prioritizing visible content 
 AKA above the fold rendering. Includes only the minimum CSS/content/scripts necessary for the amount of page that would be rendered in the users browser first to display as quickly as possible.
 
+# Why would you use a `srcset` attriute in an image tag? Explain the process the browser uses when evaluating the content of this attribute
+This allows you to serve different images for different screen resolutions. 
