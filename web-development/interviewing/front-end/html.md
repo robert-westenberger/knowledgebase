@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:33:22.198Z
+date: 2022-03-25T01:34:30.242Z
 tags: interviewing
 editor: markdown
 ---
@@ -28,3 +28,8 @@ To let a search engine know that the same content is available in different lang
 - Formatting of dates and currencies. 
 - Don't concatenate translated strings. Languages will have different word order.
 - Language reading direction (LTR vs RTL).
+
+# What are data- attribute good for?
+They are intended to store extra data within DOM nodes. They generally aren't encouraged anymore since the data model is better stored within javascript itself. 
+
+# 
