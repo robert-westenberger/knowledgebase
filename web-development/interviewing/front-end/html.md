@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:34:30.242Z
+date: 2022-03-25T01:35:41.196Z
 tags: interviewing
 editor: markdown
 ---
@@ -32,4 +32,9 @@ To let a search engine know that the same content is available in different lang
 # What are data- attribute good for?
 They are intended to store extra data within DOM nodes. They generally aren't encouraged anymore since the data model is better stored within javascript itself. 
 
-# 
+# Describe the difference between a `cookie`, `sessionStorage`, and `localStorage`
+All of them are key-value storage mechanisms on the client side. They are only able to store values as strings.
+## cookie
+
+## sessionStorage
+## localStorage
