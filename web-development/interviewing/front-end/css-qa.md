@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:44:34.252Z
+date: 2022-03-25T14:45:57.656Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -45,4 +45,11 @@ The `z-index` property controls vertical stacking order of elements that overlap
 Without any `z-index` value, they are stacked based off of where they appear in the DOM (lowest one down at the same hierarchy level appears on top). 
 
 ## Stacking Context
-A stacking context is an element that contains a set of layers.
+A stacking context is formed, anywhere in the document, by any of the following scenarios:
+
+- Root element of the document (`<html>`).
+- Element with a position value absolute or relative and z-index value other than auto.
+- Element with a position value fixed or sticky (sticky for all mobile browsers, but not older desktop).
+- Element that is a child of a flex container, with z-index value other than auto.
+- Element that is a child of a grid container, with z-index value other than auto.
+
