@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:16:48.016Z
+date: 2022-03-25T15:21:04.672Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -72,4 +72,14 @@ Combines multiple images into one larger image. It's a commonly used technique f
 - Use autoprefixer to automatically add vendor prefixes.
 - Use reset CSS or normalize CSS.
 - Many css transpilation libraries, like PostCSS, already handle this for you and will transform problematic sections of styles into corresponding safe code based off of targets you provide. 
+
+# How do you serve your pages for feature-constrained browsers? 
+## Graceful degradation
+The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
+## Progressive enhancement
+The practice of building an application for a base level of ux, but adding functional enhancements when a browser supports it. 
+## Check for feature support
+Use caniuse.com to check for feature support.
+## Feature detection
+Use something like modernizr to check for what features the user's browser supports.
 
