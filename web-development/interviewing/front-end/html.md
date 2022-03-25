@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:32:34.300Z
+date: 2022-03-25T01:33:05.608Z
 tags: interviewing
 editor: markdown
 ---
@@ -25,3 +25,5 @@ To let a search engine know that the same content is available in different lang
 - Text in png, gif, jpg etc is not scalable. 
 - Be wary of text length. Some content can be longer in other languages, creating layout issues.
 - Be mindful of how colors are perceived across cultures.
+- Formatting of dates and currencies. 
+- Don't concatenate translated strings. Languages will have different word order.
