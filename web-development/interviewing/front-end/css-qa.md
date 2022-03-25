@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:39:43.709Z
+date: 2022-03-25T15:52:11.066Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -113,5 +113,11 @@ The CSS Box model is responsible for calculating:
 - By default, paddings and borders are not part of the width and height of an element.
 
 # Compare `block`, `inline`, and `inline-block`
-
-
+|  | block | inline-block | inline |
+|---|---|---|---|
+| size | fills up width of its parent container | depends on content | depends on content |
+| Positioning | start on a new line and  tolerates no HMTL elements next to it (except for floats | flows along with other content and allows other elements beside it | flows along with other content and allows other elements beside it |
+| Can specify width  and height | yes | yes | no, will ignore it |
+| Can be aligned with  vertical-align | no | yes | yes |
+| margins and paddings | all sides respected | all sides respected | only horizontal respected. Vertical sides  dont affect layout. Vertical space it takes up  depends on line-height, even though the border and padding appear visually around the content. |
+| float | - | - | Becomes like a block element where you  can set vertical margins and paddings. |
