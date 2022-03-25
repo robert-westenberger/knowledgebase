@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:16:23.966Z
+date: 2022-03-25T15:16:48.016Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -71,5 +71,5 @@ Combines multiple images into one larger image. It's a commonly used technique f
 - Use a library like bootstrap that already handles this for you.
 - Use autoprefixer to automatically add vendor prefixes.
 - Use reset CSS or normalize CSS.
-- Many css transpilation libraries, like PostCSS, already handle this for you.
+- Many css transpilation libraries, like PostCSS, already handle this for you and will transform problematic sections of styles into corresponding safe code based off of targets you provide. 
 
