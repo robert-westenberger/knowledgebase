@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:37:41.591Z
+date: 2022-03-25T13:53:47.669Z
 tags: interviewing
 editor: markdown
 ---
@@ -35,6 +35,13 @@ They are intended to store extra data within DOM nodes. They generally aren't en
 # Describe the difference between a `cookie`, `sessionStorage`, and `localStorage`
 All of them are key-value storage mechanisms on the client side. They are only able to store values as strings.
 ## cookie
-Set on the client or by the server. The server can use the `Set-Cookie` header. It's possible to persist across browser sessions depending on whether the expiration on it is set. Cookies are automatically set with every request using the `Cookie` header.
+Set on the client or by the server. The server can use the `Set-Cookie` header. It's possible to persist across browser sessions depending on whether the expiration on it is set. Cookies are automatically set with every request using the `Cookie` header. 
 ## sessionStorage
+Set on the client. It lasts until the tab of the site for which it's set is closed.
 ## localStorage
+Set on the client. It lasts until cleared, and is persistent across browser sessions and is accessible from any window. It stays on the client.
+
+# Describe the difference between `<script>`, `<script async>`, and `<script defer>`
+-`<script>` HTML parsing is blocked, the script is fetched and executed immediately, HTML parsing resumes after the script is executed. 
+-`<script async>` - The script will be fetched in parallel to HTML parsing and executed as soon as its available, potentially before HTML parsing is complete. Use `async` when the script is independent of any other scripts on the page, for example, analytics. 
+-`<script defer>`- The script will be fetched in parallel to HTML parsing and executed when the page has finished parsing. If there are multiple of them, each deferred script is executed in the order they were encountered in the document. If a script relies on a fully-parsed DOM, the defer attribute will be useful in ensuring that the HTML is fully parsed before executing. 
