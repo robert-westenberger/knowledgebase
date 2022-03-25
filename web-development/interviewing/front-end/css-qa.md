@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:14:06.773Z
+date: 2022-03-25T15:16:23.966Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -66,4 +66,10 @@ A stacking context is formed, anywhere in the document, by any of the following 
 # Explain CSS Sprites, and how you would implement them on a page or site. 
 Combines multiple images into one larger image. It's a commonly used technique for icons. Images are extracted from the larger sprite using `background-image`, `background-position`, and `backgorund-size` properties.
 
+# How would you approach fixing browser-specific styling issues?
+- After identifying the issue and the offending browser, use a separate style sheet that only loads when that specific browser is being used. This requires SSR though. 
+- Use a library like bootstrap that already handles this for you.
+- Use autoprefixer to automatically add vendor prefixes.
+- Use reset CSS or normalize CSS.
+- Many css transpilation libraries, like PostCSS, already handle this for you.
 
