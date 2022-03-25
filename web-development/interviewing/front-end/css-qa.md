@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:28:07.383Z
+date: 2022-03-25T15:38:37.908Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -97,4 +97,17 @@ Even if WAI-ARIA is the ideal solution, I would go with the absolute positioning
 # What are some of the "gotchas" for writing efficient CSS?
 ## Avoid universal and tag key selectors
 Browsers match selectors from rightmost to left. Browsers filter out elements in the DOM according to this rightmost (key) selector and traverse up its parent elements to determine matches. So, avoid key selectors that are tag and universal selectors.
+## Be aware of CSS properties that trigger reflow, repaint, and compositing
 
+# Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models
+The CSS Box model is responsible for calculating:
+- How much space a block element takes up
+- Whether or not borders and/or margins overlap, or collapse
+- A box's dimensions.
+
+- The dimensions of a block element are calculated by width, height, padding, borders, and margins.
+- If no height is specified, a block element will be as high as the content it contains, plus padding (unless there are floats, for which see below).
+- If no width is specified, a non-floated block element will expand to fit the width of its parent minus padding.
+- The height of an element is calculated by the content's height.
+- The width of an element is calculated by the content's width.
+- By default, paddings and borders are not part of the width and height of an element.
