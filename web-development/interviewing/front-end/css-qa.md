@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:38:01.658Z
+date: 2022-03-25T14:38:32.056Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -31,3 +31,6 @@ In the case of equal specificity, the last rule declared is applied.
 - **Normalizing** - Preserves useful default styles rather than unstyling everything. It also corrects bugs for common browser dependencies.
 
 Resetting is a good choice for a highly customized or unconventional website.
+
+# Describe `float`s and how they work
+It's a CSS 
