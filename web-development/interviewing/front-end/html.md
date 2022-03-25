@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:33:05.608Z
+date: 2022-03-25T01:33:22.198Z
 tags: interviewing
 editor: markdown
 ---
@@ -27,3 +27,4 @@ To let a search engine know that the same content is available in different lang
 - Be mindful of how colors are perceived across cultures.
 - Formatting of dates and currencies. 
 - Don't concatenate translated strings. Languages will have different word order.
+- Language reading direction (LTR vs RTL).
