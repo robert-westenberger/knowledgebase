@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:50:39.821Z
+date: 2022-03-25T15:11:54.218Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -64,5 +64,5 @@ A stacking context is formed, anywhere in the document, by any of the following 
 - Element with a `contain` value of `layout`, or `paint`, or a composite value that includes either of them.
 
 # Explain CSS Sprites, and how you would implement them on a page or site. 
-
+Combines multiple images into one larger image. It's a commonly used technique for icons. Images are extracted from the larger sprite using `background-image`, `background-position`, and `backgorund-size` properties.
 
