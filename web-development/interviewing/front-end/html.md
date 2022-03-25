@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:35:41.196Z
+date: 2022-03-25T01:37:41.591Z
 tags: interviewing
 editor: markdown
 ---
@@ -35,6 +35,6 @@ They are intended to store extra data within DOM nodes. They generally aren't en
 # Describe the difference between a `cookie`, `sessionStorage`, and `localStorage`
 All of them are key-value storage mechanisms on the client side. They are only able to store values as strings.
 ## cookie
-
+Set on the client or by the server. The server can use the `Set-Cookie` header. It's possible to persist across browser sessions depending on whether the expiration on it is set. Cookies are automatically set with every request using the `Cookie` header.
 ## sessionStorage
 ## localStorage
