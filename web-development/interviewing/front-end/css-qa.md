@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:48:17.051Z
+date: 2022-03-25T14:50:39.821Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -62,4 +62,7 @@ A stacking context is formed, anywhere in the document, by any of the following 
   - mask / mask-image / mask-border
 - Element with a `isolation` value `isolate`. 
 - Element with a `contain` value of `layout`, or `paint`, or a composite value that includes either of them.
+
+# Explain CSS Sprites, and how you would implement them on a page or site. 
+
 
