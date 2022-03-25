@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:36:30.634Z
+date: 2022-03-25T14:38:01.658Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -26,4 +26,8 @@ In the case of equal specificity, the last rule declared is applied.
 
 # What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 
+- **Resetting** - Strips all default browser styling on elements. You'll have to redeclare styling for common typographic elements.
 
+- **Normalizing** - Preserves useful default styles rather than unstyling everything. It also corrects bugs for common browser dependencies.
+
+Resetting is a good choice for a highly customized or unconventional website.
