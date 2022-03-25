@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:27:16.775Z
+date: 2022-03-25T15:28:07.383Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -95,5 +95,6 @@ These techniques are related to accessibility (a11y).
 Even if WAI-ARIA is the ideal solution, I would go with the absolute positioning approach, as it has the least caveats, works for most elements and it's an easy technique.
 
 # What are some of the "gotchas" for writing efficient CSS?
+## Avoid universal and tag key selectors
+Browsers match selectors from rightmost to left. Browsers filter out elements in the DOM according to this rightmost (key) selector and traverse up its parent elements to determine matches. So, avoid key selectors that are tag and universal selectors.
 
-Browsers match selectors from rightmost to left. Browsers filter out elements in the DOM according to this rightmost key selector and traverse up its parent elements to determine matches. So, avoid rightmost(key) selectors that are tag and universal selectors.
