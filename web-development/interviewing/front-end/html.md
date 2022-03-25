@@ -2,7 +2,7 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T13:53:47.669Z
+date: 2022-03-25T14:09:48.430Z
 tags: interviewing
 editor: markdown
 ---
@@ -44,4 +44,17 @@ Set on the client. It lasts until cleared, and is persistent across browser sess
 # Describe the difference between `<script>`, `<script async>`, and `<script defer>`
 -`<script>` HTML parsing is blocked, the script is fetched and executed immediately, HTML parsing resumes after the script is executed. 
 -`<script async>` - The script will be fetched in parallel to HTML parsing and executed as soon as its available, potentially before HTML parsing is complete. Use `async` when the script is independent of any other scripts on the page, for example, analytics. 
--`<script defer>`- The script will be fetched in parallel to HTML parsing and executed when the page has finished parsing. If there are multiple of them, each deferred script is executed in the order they were encountered in the document. If a script relies on a fully-parsed DOM, the defer attribute will be useful in ensuring that the HTML is fully parsed before executing. 
+-`<script defer>`- The script will be fetched in parallel to HTML parsing and executed when the page has finished parsing. If there are multiple of them, each deferred script is executed in the order they were encountered in the document. If a script relies on a fully-parsed DOM, the defer attribute will be useful in ensuring that the HTML is fully parsed before executing.
+
+# Why is it a generally good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+## Links in the `<head>` 
+This is part of proper specification in building an optimized website. When a page first loads, HTML and CSS are being parsed simultaneously; HTML creates the DOM and CSS creates the CSSOM. Both are needed to allow for a quick "first meaningful paint" timing. 
+
+Placement of script tags near the bottom of the body tag might cause flashes of unstyled content (FOUC).
+
+## Scripts just before `</body>`
+`<script>` tags block HTML parsing while they are being downloaded and execute which can slow down your page. Placing scripts at the bottom will allow the HTML to be parsed and displayed to the user first.
+
+An exception for positioning of `<script>`s at the bottom is when your script contains `document.write()`, but using `document.write()` is not good practice. Also, placing `<script>`s at the bottom means that the browser cannot start downloading the scripts until the entire document is parsed. This ensures that your code that needs to manipulate DOM elements will not throw an error and halt the entire script. 
+
+If you need to put `<script>`s in the head, use the defer attribute, which will only execute the scripts once the DOM is loaded, but it will fetch them all in parallel. 
