@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:34:10.018Z
+date: 2022-03-25T14:36:30.634Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -19,5 +19,11 @@ Four comma-separated values, `a,b,c,d` are calculated based off the following:
 `c`: number of classes, attributes and pseudo-classes selectors
 
 `d`: number of tags and pseudo-element selectors.
+
+The resulting matrix of values are compared column by column. When comparing selectors to determine which has the highest specificity, look from left to right, and compare the highest value in each column. So a value in column `b` will override values in columns `c` and `d`, no matter what they might be. 
+
+In the case of equal specificity, the last rule declared is applied. 
+
+# What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 
 
