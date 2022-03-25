@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:41:57.602Z
+date: 2022-03-25T14:42:25.462Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -37,4 +37,4 @@ It's a CSS positional property. They can be floated to the left or right. The de
  
 If all elements in a container are floated, its height will collapse to 0. This is corrected by a clearfix. 
 
-Pretty much don't ever use floats anymore.
+**There is never a reason, under any circumstance to use floats anymore.**
