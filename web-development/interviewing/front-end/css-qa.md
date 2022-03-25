@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:21:04.672Z
+date: 2022-03-25T15:21:54.949Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -82,4 +82,7 @@ The practice of building an application for a base level of ux, but adding funct
 Use caniuse.com to check for feature support.
 ## Feature detection
 Use something like modernizr to check for what features the user's browser supports.
+Or on more modern browsers, the CSS @support query.
+
+
 
