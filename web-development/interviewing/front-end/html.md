@@ -1,8 +1,8 @@
 ---
-title: Front End HTML Interview Questions
+title: HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:16:11.841Z
+date: 2022-03-25T14:19:39.320Z
 tags: interviewing
 editor: markdown
 ---
