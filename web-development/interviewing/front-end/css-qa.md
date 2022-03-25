@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:43:25.773Z
+date: 2022-03-25T14:44:34.252Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -41,3 +41,8 @@ If all elements in a container are floated, its height will collapse to 0. This 
 
 # Describe `z-index` and how stacking context is formed
 The `z-index` property controls vertical stacking order of elements that overlap. It only works on elements with a `position` property that is anything but `static`. 
+
+Without any `z-index` value, they are stacked based off of where they appear in the DOM (lowest one down at the same hierarchy level appears on top). 
+
+## Stacking Context
+A stacking context is an element that contains a set of layers.
