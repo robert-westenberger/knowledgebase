@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:39:12.110Z
+date: 2022-03-25T14:40:53.205Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -33,4 +33,8 @@ In the case of equal specificity, the last rule declared is applied.
 Resetting is a good choice for a highly customized or unconventional website.
 
 # Describe `float`s and how they work
-It's a CSS 
+It's a CSS positional property. They can be floated to the left or right. The default is no float at all.
+ 
+If all elements in a container are floated, its height will collapse to 0. This is corrected by a clearfix. 
+
+Pretty much don't ever use floats anymore.
