@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:52:42.320Z
+date: 2022-03-25T15:58:27.079Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -123,3 +123,17 @@ The CSS Box model is responsible for calculating:
 | float | - | - | Becomes like a block element where you  can set vertical margins and paddings. |
 
 # What's the difference between a `relative`, `fixed`, `absolute`, and `static`ally positioned element?
+## static
+Default. Top, right, bottom, left, z-index don't apply.
+## relative
+The element's position is adjusted relative to itself, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned).
+## absolute
+The element is removed from the flow of the page and positioned at a specified position relative to its closed positioned ancestor if any, or otherwise relative to the initial containing block. 
+
+Absolutely positioned boxes can have margins, and they do not collapse with any other margins. These elements do not affect the position of other elements.
+
+## fixed
+The element is removed from the flow of the page and positioned at a specified position relative to the viewport and doesn't move when scrolled.
+
+## sticky
+Sticky positioning is a hybrid of relative and fixed positioning. The element is treated as relative positioned until it crosses a specified threshold, at which point it is treated as fixed positioned.
