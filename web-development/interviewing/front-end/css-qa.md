@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T15:52:11.066Z
+date: 2022-03-25T15:52:42.320Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -121,3 +121,5 @@ The CSS Box model is responsible for calculating:
 | Can be aligned with  vertical-align | no | yes | yes |
 | margins and paddings | all sides respected | all sides respected | only horizontal respected. Vertical sides  dont affect layout. Vertical space it takes up  depends on line-height, even though the border and padding appear visually around the content. |
 | float | - | - | Becomes like a block element where you  can set vertical margins and paddings. |
+
+# What's the difference between a `relative`, `fixed`, `absolute`, and `static`ally positioned element?
