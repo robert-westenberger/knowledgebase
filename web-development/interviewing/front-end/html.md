@@ -2,10 +2,9 @@
 title: Front End HTML Interview Questions
 description: 
 published: true
-date: 2022-03-25T01:23:44.934Z
+date: 2022-03-25T01:24:27.685Z
 tags: interviewing
 editor: markdown
 ---
 
-# Header
-Your content here
+# What does a DOCTYPE do?
