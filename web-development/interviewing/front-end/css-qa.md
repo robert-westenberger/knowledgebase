@@ -2,7 +2,7 @@
 title: CSS Interview Questions
 description: 
 published: true
-date: 2022-03-25T14:47:38.343Z
+date: 2022-03-25T14:48:17.051Z
 tags: interviewing, css, front-end
 editor: markdown
 ---
@@ -60,4 +60,6 @@ A stacking context is formed, anywhere in the document, by any of the following 
   - perspective
   - clip-path
   - mask / mask-image / mask-border
+- Element with a `isolation` value `isolate`. 
+- Element with a `contain` value of `layout`, or `paint`, or a composite value that includes either of them.
 
