@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T21:06:19.644Z
+date: 2022-03-26T21:09:29.549Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -25,4 +25,13 @@ from the user's followees on the application.
 6. Infinite scrollable news feeds whewre stories appear based on user subscriptions. 
 7. Support wide range of devices
 8. Be accessible to visual and hearing impaired users.
-## 
+
+# Component Architecture
+## Story Component
+### Avatar
+### Title (User's name)
+### Text and image content
+### Control Panel
+#### Like Button
+#### Comment Button
+#### Share Button
