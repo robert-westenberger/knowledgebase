@@ -2,7 +2,7 @@
 title: Javascript Event Loop
 description: 
 published: true
-date: 2022-03-26T23:40:55.991Z
+date: 2022-03-26T23:51:35.227Z
 tags: front-end, javascript
 editor: markdown
 ---
@@ -37,3 +37,28 @@ const baz = bar(7) // assigns 42 to baz
 3. When `foo` returns, the top frame element is popped out of the stack (leaving only `bar`'s call frame). 
 
 4. When `bar` returns, the stack is empty.
+
+# Heap
+Objects are allocated in a heap which is just a name to denote a large, mostly unstructured, region of memory.
+
+# Queue
+A javascript runtime uses a message queue, which is a list of messages to be processed. Each message has an associated function that gets called to handle the message.
+
+At some point during the event loop, the runtime starts handling messages on the queue, starting with the oldest. The message is removed from the queue and its corresponding function is called with the message as an input parameter.
+
+Processing of functions continues until the stack is empty. 
+
+# Event Loop
+Usually implemented as 
+```
+while (queue.waitForMessage()) {
+  queue.processNextMessage()
+}
+```
+## Run-to-completion
+Each message is processed completely before any other message is processed. 
+
+This means that whenever a function is run, it can't be interrupted by another function. This also means that, if a synchronous function takes too long to complete, the web app won't be able to process any other actions, such as a mouse click or scroll.
+
+## Adding Messages
+In web browsers, messages are added anytime an event occurs and there is an event listener attached to it.
