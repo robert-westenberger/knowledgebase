@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T17:01:21.842Z
+date: 2022-03-26T17:01:56.429Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -44,4 +44,4 @@ A closure is the combination of a function and the lexical environment within wh
 * Partial Applications or currying
 
 # What's a typical use case for anonymous functions?
-
+They can be used in IIFEs to encapsulate some code within a local scope so that vars declared in it do not leak to the global scope. 
