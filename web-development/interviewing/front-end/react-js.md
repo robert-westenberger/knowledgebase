@@ -2,7 +2,7 @@
 title: React Interview Questions
 description: 
 published: true
-date: 2022-03-26T19:40:38.224Z
+date: 2022-03-26T19:42:44.551Z
 tags: react, interviewing, front-end
 editor: markdown
 ---
@@ -34,3 +34,15 @@ Data passed down from parent to child components. When props change, it triggers
 - Renders on both client and server
 
 # What are the major features of React?
+- The Virtual DOM
+- Unidirectional data flow
+- Reusable / Composable UI components
+
+# What is Context? 
+Provides a way to pass data through the component tree without having to drill props at every level. 
+
+It's designed to share data that can be considered "global" for a tree of React components.
+## Usecases for context
+- Current authenticated user
+- Theme
+- Preferred language
