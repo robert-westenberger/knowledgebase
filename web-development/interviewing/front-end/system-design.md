@@ -2,7 +2,7 @@
 title: System Design Questions
 description: 
 published: true
-date: 2022-03-26T19:18:24.540Z
+date: 2022-03-26T19:21:10.147Z
 tags: interviewing, front-end
 editor: markdown
 ---
@@ -32,7 +32,18 @@ In other words, when extending functionality of our program, we should be able t
 ## Extra Stuff
 ### Multi device support
 ### User Experience
+#### Reflect state of the component to the user
+- Loading animations. 
+- Display error messages to user if appropriate.
+#### Display empty state if there are no items in a list
+#### Destructive actions, like delete, should have a confirmation step
+#### Disable interactive elements if they trigger an async request
+#### If there are search inputs involved, each keystroke should not fire a network request
+#### Handle extreme cases
+- Make sure UI works, if internationalized
+- If there are many items in a component, perhaps paginate them
 ### Performance
+
 ### Accessibility
 ### I18N
 ### Security
