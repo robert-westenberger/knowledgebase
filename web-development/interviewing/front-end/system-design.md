@@ -2,7 +2,7 @@
 title: System Design Questions
 description: 
 published: true
-date: 2022-03-26T19:23:48.988Z
+date: 2022-03-26T19:24:44.971Z
 tags: interviewing, front-end
 editor: markdown
 ---
@@ -50,6 +50,8 @@ In other words, when extending functionality of our program, we should be able t
 - Use the right HTML tags for semanticness, or the right `aria-role` attributes.
 - Clickable items should have the correct cursor style to indicate they can be clicked.
 - Images should have `alt` text. Go through your app with a screen reader.
-
 ### I18N
+- Never concatenate localized strings ( word order is diff between languages)
+- Handle different content sizes
+- Be aware of cultural signifigance of colors
 ### Security
