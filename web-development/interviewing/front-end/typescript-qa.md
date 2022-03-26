@@ -2,7 +2,7 @@
 title: Typescript Questions
 description: 
 published: true
-date: 2022-03-26T20:36:07.914Z
+date: 2022-03-26T20:45:31.072Z
 tags: typescript, interviewing
 editor: markdown
 ---
@@ -21,3 +21,4 @@ It's essentially an object factory ( a blueprint of what an object is supposed t
 Virtual structure that only exists within the context of typescript. Once code is transpiled to it's target language, interfaces will be stripped from the code. 
 ### When to use
 When we don't need to create an instance of a custom object. 
+
