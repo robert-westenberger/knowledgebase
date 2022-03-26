@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T21:28:48.219Z
+date: 2022-03-26T21:35:04.649Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -75,3 +75,7 @@ type Media = {
 ```
 
 # Data API
+## getPosts
+```
+getPosts(api_key, user_id, dateStart, dateEnd, fetchCount)
+```
