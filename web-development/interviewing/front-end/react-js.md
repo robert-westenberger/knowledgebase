@@ -2,7 +2,7 @@
 title: React Interview Questions
 description: 
 published: true
-date: 2022-03-26T19:54:54.584Z
+date: 2022-03-26T19:59:52.005Z
 tags: react, interviewing, front-end
 editor: markdown
 ---
@@ -66,3 +66,13 @@ Takes it's current value through `props` and notifies changes through callbacks 
 Stores its own state internally, and you query the DOM using a `ref` to find its current value when you need it.
 
 # What are Higher-Order components and why are they useful?
+A HOC is a function that takes a component as a parameter and returns a new component. 
+## Uses
+1. Code reuse, logic abstraction
+2. Render hijacking
+3. State abstraction and manipulation
+4. Props manipulation
+
+# What are some limitations of things you shouldn't do in the component's render method?
+- Don't call setState.. itll cause an infinite loop
+- Don't interact with the browser (that should be in componentDidMount or a useEffect hook) 
