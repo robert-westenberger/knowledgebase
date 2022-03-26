@@ -2,7 +2,7 @@
 title: React Interview Questions
 description: 
 published: true
-date: 2022-03-26T19:53:28.536Z
+date: 2022-03-26T19:54:54.584Z
 tags: react, interviewing, front-end
 editor: markdown
 ---
@@ -64,3 +64,5 @@ It's designed to share data that can be considered "global" for a tree of React 
 Takes it's current value through `props` and notifies changes through callbacks like `onChange`. A parent component `controls` it by handling the callback and managing its own state and passing thenew values as props to the controlled component. 
 ## Uncontrolled
 Stores its own state internally, and you query the DOM using a `ref` to find its current value when you need it.
+
+# What are Higher-Order components and why are they useful?
