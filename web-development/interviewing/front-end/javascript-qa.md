@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T17:01:56.429Z
+date: 2022-03-26T17:05:06.407Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -45,3 +45,9 @@ A closure is the combination of a function and the lexical environment within wh
 
 # What's a typical use case for anonymous functions?
 They can be used in IIFEs to encapsulate some code within a local scope so that vars declared in it do not leak to the global scope. 
+
+They can be used as callback functions. 
+
+# How do you organize your code? 
+React/Redux encourages a single-direcitonal data flow based on Flux architecture. The app's models are represented as plain objects that are manipulated by pure functions. State is manipulated using actions and reducers like in any other redux application.
+
