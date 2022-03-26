@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T22:17:44.801Z
+date: 2022-03-26T22:20:37.996Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -115,7 +115,10 @@ comments: {
 
 The main takeaway here is that we should be accessing data from the store by keys. We shouldn't have to traverse any arrays or deeply nested objects searching for data required to render our UI.
 
-# Edge Cases
+# Feature Implementation
 ## Loading New Stories without refresh
 Use **Server Sent Events** over long polling and websockets. Long polling has a lot of overhead since a new request is being sent each time, and websockets doesn't support HTTP2. Server sent events is easy to load balance (why?).
+## Infinite Scroll
+- Use intersection observer to detect what is in view of users viewport.
+
 
