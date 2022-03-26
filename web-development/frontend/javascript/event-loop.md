@@ -2,7 +2,7 @@
 title: Javascript Event Loop
 description: 
 published: true
-date: 2022-03-26T23:38:04.980Z
+date: 2022-03-26T23:40:55.991Z
 tags: front-end, javascript
 editor: markdown
 ---
@@ -15,6 +15,7 @@ The event loop is responsible for executing code, collecting and processing even
 # Stack
 Function calls form a stack of frames.
 
+## Order of Operations examples
 ```
 function foo(b) {
   let a = 10
@@ -28,3 +29,11 @@ function bar(x) {
 
 const baz = bar(7) // assigns 42 to baz
 ```
+
+1. When calling `bar`, a first frame is created containing references to `bar`'s arguments and local variables.
+
+2. When `bar` calls `foo`, a second frame is created and pushed on top of the first one, containing references to `foo`s arguments and local variables.
+
+3. When `foo` returns, the top frame element is popped out of the stack (leaving only `bar`'s call frame). 
+
+4. When `bar` returns, the stack is empty.
