@@ -2,7 +2,7 @@
 title: React Interview Questions
 description: 
 published: true
-date: 2022-03-26T19:38:26.386Z
+date: 2022-03-26T19:40:38.224Z
 tags: react, interviewing, front-end
 editor: markdown
 ---
@@ -26,3 +26,11 @@ They provide a way to access DOM nodes or React elements created in the render m
 Javascript unit testing framework made by facebook based on Jasmine and provides automated mock creation and a jsdom environment. Often used for testing react components.
 
 # What is `props` in React?
+Data passed down from parent to child components. When props change, it triggers another rerender. 
+
+# What are the advantages of React?
+- Increase performance with Virtual DOM
+- JSX makes code easy to read and write
+- Renders on both client and server
+
+# What are the major features of React?
