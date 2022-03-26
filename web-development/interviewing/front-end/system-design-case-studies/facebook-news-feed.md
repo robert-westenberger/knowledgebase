@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T23:03:54.584Z
+date: 2022-03-26T23:04:49.747Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -128,8 +128,8 @@ The main takeaway here is that we should be accessing data from the store by key
 ## Network Perf
 ### Asset optimization
 - gzip
-- optimize images
-- optimize images based off viewport (srcset)
+- compress images
+- serve images based off viewport (srcset)
 - cache images on CDN
 - bundle splitting
 
