@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T16:52:34.953Z
+date: 2022-03-26T16:53:31.129Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -27,3 +27,5 @@ ES6 allows you to use arrow functions which uses the enclosing lexical scope. Ar
 All javascript objects have a `__proto__` property (with the exception of objects created with `__Object.create(null)__`, that is a reference to another object called it's prototype. When a property is accessed on an object and if the property is not found on that object, the Javascript engine will traverse down this prototype chain looking for that property. 
 
 Note that the `class` keyword is just syntactical sugar, and javascript is still prototypal.
+
+# What's the difference between a variable that is: `null`, `undefined`, or undeclared?
