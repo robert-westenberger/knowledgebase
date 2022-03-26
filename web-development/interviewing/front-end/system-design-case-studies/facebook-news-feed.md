@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T22:07:39.137Z
+date: 2022-03-26T22:15:40.054Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -113,3 +113,4 @@ The main takeaway here is that we should be accessing data from the store by key
 
 # Edge Cases
 ## Loading New Stories
+Use **Server Sent Events** over long polling and websockets. Long polling has a lot of overhead since a new request is being sent each time, and websockets doesn't support HTTP2. Server sent events is easy to load balance (why?).
