@@ -2,7 +2,7 @@
 title: Javascript Event Loop
 description: 
 published: true
-date: 2022-03-26T23:52:18.172Z
+date: 2022-03-26T23:59:36.487Z
 tags: front-end, javascript
 editor: markdown
 ---
@@ -64,4 +64,8 @@ This means that whenever a function is run, it can't be interrupted by another f
 In web browsers, messages are added anytime an event occurs and there is an event listener attached to it. 
 
 ### setTimeout
-Called with two arguments: a message to add to the queue, and a time value.
+Called with two arguments: a message to add to the queue, and a time value. The time value represents the minimum delay after which the message will be pushed into the queue. 
+
+If there are other messages in the queue after the delay, those other messages will have to be processed before the setTimeout is executed. 
+
+## Several runtimes communicating together 
