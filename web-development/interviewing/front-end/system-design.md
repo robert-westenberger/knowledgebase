@@ -2,7 +2,7 @@
 title: System Design Questions
 description: 
 published: true
-date: 2022-03-26T19:16:46.813Z
+date: 2022-03-26T19:18:24.540Z
 tags: interviewing, front-end
 editor: markdown
 ---
@@ -27,6 +27,8 @@ Detail what data is being passed down among each component. It may be helpful to
 The component should be open for extension but closed for modification.
 
 In other words, when extending functionality of our program, we should be able to just add functionality to our base object / class, rather than adding (modifying) the behavior to the base class or object.
+### If the component is a part of a UI library, then the user should be allowed to customize the look and feel of the components
+### Add event handlers if necessary 
 ## Extra Stuff
 ### Multi device support
 ### User Experience
