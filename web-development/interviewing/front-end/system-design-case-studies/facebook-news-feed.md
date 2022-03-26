@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T20:54:59.112Z
+date: 2022-03-26T20:55:16.835Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -15,6 +15,7 @@ A news feed is a collection of trending stories on the homepage of a web applica
 - Likes
 - Photos
 - Videos
+from the user's followees on the application.
 ## Functional requirements
 1. News feed is generated using the posts from other entities in the system that the user followed or the user might be interested in.
 2. Posts might have text, image, and video
