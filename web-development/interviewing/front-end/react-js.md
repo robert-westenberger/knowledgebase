@@ -2,7 +2,7 @@
 title: React Interview Questions
 description: 
 published: true
-date: 2022-03-26T19:45:01.871Z
+date: 2022-03-26T19:53:28.536Z
 tags: react, interviewing, front-end
 editor: markdown
 ---
@@ -59,3 +59,8 @@ It's designed to share data that can be considered "global" for a tree of React 
 - These are basically just the render function in the class component
 - Can have state and mimic lifecycle events using hooks
 
+# What's the difference between a Controlled component and an Uncontrolled component?
+## Controlled (AKA dumb component)
+Takes it's current value through `props` and notifies changes through callbacks like `onChange`. A parent component `controls` it by handling the callback and managing its own state and passing thenew values as props to the controlled component. 
+## Uncontrolled
+Stores its own state internally, and you query the DOM using a `ref` to find its current value when you need it.
