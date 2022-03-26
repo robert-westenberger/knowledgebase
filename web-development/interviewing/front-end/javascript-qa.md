@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T23:28:29.979Z
+date: 2022-03-26T23:28:48.316Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -53,3 +53,5 @@ React/Redux encourages a single-direcitonal data flow based on Flux architecture
 
 # Why can we modify a key inside an object which was declared with a const variable?
 Because it's mutating the content of the object, not reassigning the variable itself. 
+
+To prevent the mutation of an object is another concern entirely. You need something like `Object.freeze()`. 
