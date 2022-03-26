@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T21:46:50.223Z
+date: 2022-03-26T21:53:08.536Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -87,3 +87,5 @@ createPost(api_key, user_id, post_data)
 ```
 createComment(api_key, user_id, post_id, comment_data);
 ```
+
+# Data Store Structure
