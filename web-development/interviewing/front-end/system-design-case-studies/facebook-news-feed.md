@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T21:09:29.549Z
+date: 2022-03-26T21:14:12.898Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -35,3 +35,13 @@ from the user's followees on the application.
 #### Like Button
 #### Comment Button
 #### Share Button
+
+## Comments List
+Has list of `<Comment />`s 
+## Comment
+### Avatar
+### Text input
+### Comment Input
+
+# Data Architecture
+# Story
