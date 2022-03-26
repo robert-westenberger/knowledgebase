@@ -2,7 +2,7 @@
 title: Typescript Questions
 description: 
 published: true
-date: 2022-03-26T20:33:28.100Z
+date: 2022-03-26T20:36:07.914Z
 tags: typescript, interviewing
 editor: markdown
 ---
