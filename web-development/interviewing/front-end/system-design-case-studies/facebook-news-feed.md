@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T22:22:04.262Z
+date: 2022-03-26T22:24:52.485Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -122,6 +122,5 @@ The main takeaway here is that we should be accessing data from the store by key
 - Server sent events is easy to load balance (why?).
 ## Infinite Scroll
 - Use intersection observer to detect what is in view of users viewport.
-
-
+- We only want to be rendering a maximum amount of elements. If a user is infinitely scrolling through a feed, the items they are scrolling past should be removed from the DOM and the items the user is scrolling towards should be added to the DOM. 
 
