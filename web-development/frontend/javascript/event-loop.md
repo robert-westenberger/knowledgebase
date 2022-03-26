@@ -2,7 +2,7 @@
 title: Javascript Event Loop
 description: 
 published: true
-date: 2022-03-26T23:51:35.227Z
+date: 2022-03-26T23:52:18.172Z
 tags: front-end, javascript
 editor: markdown
 ---
@@ -61,4 +61,7 @@ Each message is processed completely before any other message is processed.
 This means that whenever a function is run, it can't be interrupted by another function. This also means that, if a synchronous function takes too long to complete, the web app won't be able to process any other actions, such as a mouse click or scroll.
 
 ## Adding Messages
-In web browsers, messages are added anytime an event occurs and there is an event listener attached to it.
+In web browsers, messages are added anytime an event occurs and there is an event listener attached to it. 
+
+### setTimeout
+Called with two arguments: a message to add to the queue, and a time value.
