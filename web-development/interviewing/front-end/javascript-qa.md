@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T16:53:31.129Z
+date: 2022-03-26T17:01:21.842Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -29,3 +29,19 @@ All javascript objects have a `__proto__` property (with the exception of object
 Note that the `class` keyword is just syntactical sugar, and javascript is still prototypal.
 
 # What's the difference between a variable that is: `null`, `undefined`, or undeclared?
+## Undeclared
+Created when you assign a value to an identifier that is not previously created using `var`, `let`, or `const`. Undeclared vars will be defined globally, outside of the current scope. In strict mode, a `ReferenceError` will be thrown when you try to assign to an undeclared variable. 
+## `undefined`
+A variable that is `undefined` is a variable that has been declared, but not assigned a value. If a function does not return any value as the result of executing it is assigned to a variable, the variable also will be `undefined`. 
+## `null` 
+A variable that is `null` will have been explicitly assigned to the `null` value. It represents no value and is different from `undefined` in the sense that it has been explicitly assigned.
+
+# What is a closure?
+A closure is the combination of a function and the lexical environment within which that function was declared. A closure gives you access to an outer function's scope from an inner function. 
+
+# How / why would you use a closure?
+* Data privacy / emulating private methods with closures.
+* Partial Applications or currying
+
+# What's a typical use case for anonymous functions?
+
