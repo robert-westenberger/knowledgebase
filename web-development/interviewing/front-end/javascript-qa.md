@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T23:28:48.316Z
+date: 2022-03-26T23:29:50.189Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -12,6 +12,8 @@ A technique involving adding event listeners to a parent element instead of addi
 
 For example, instead of attaching an event indidvidually to each `<li>` in a list, you could attach it to just the `<ul>` and then check for the event target to see which list item was clicked.
 
+# How does the javascript event loop work?
+Javascript has a runtime model based on an event loop, which is responsible for executing the code. 
 # Explain how `this` works in Javascript
 1. If the `new` keyword is used when calling the function, `this` inside the function is a brand new object. 
 2. If `apply`, `call`, or `bind` are used to call/create a function, `this` inside the function is the object that is passed in as the arugment.
