@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T17:08:56.275Z
+date: 2022-03-26T23:28:29.979Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -51,4 +51,5 @@ They can be used as callback functions.
 # How do you organize your code? 
 React/Redux encourages a single-direcitonal data flow based on Flux architecture. The app's models are represented as plain objects that are manipulated by pure functions. State is manipulated using actions and reducers like in any other redux application.
 
-
+# Why can we modify a key inside an object which was declared with a const variable?
+Because it's mutating the content of the object, not reassigning the variable itself. 
