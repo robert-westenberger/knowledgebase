@@ -2,13 +2,13 @@
 title: Hagerty Insurance
 description: 
 published: true
-date: 2022-03-26T22:41:06.075Z
+date: 2022-03-26T22:41:11.825Z
 tags: interviews
 editor: markdown
 ---
 
 # Notes 
-Demand $100 / hour. 
+Demand $110 / hour. 
 Need to account for lost benefits, and potential for being unemployed for a couple of months. 
 # Other Resources
 https://www.hagerty.com/ 
