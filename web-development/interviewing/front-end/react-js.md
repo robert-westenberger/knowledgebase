@@ -2,7 +2,7 @@
 title: React Interview Questions
 description: 
 published: true
-date: 2022-03-26T19:42:44.551Z
+date: 2022-03-26T19:45:01.871Z
 tags: react, interviewing, front-end
 editor: markdown
 ---
@@ -46,3 +46,16 @@ It's designed to share data that can be considered "global" for a tree of React 
 - Current authenticated user
 - Theme
 - Preferred language
+
+# What are the differences between a class component and a functional component?
+## Class Comonents
+- Uses ES6 class syntax and the lifecycle methods
+- Extend from React.Comonent
+- You have to use the `this` keyword to access the props and functions that you declare inside the component
+
+## Functional Components
+- Simpler than class based components
+- Mainly focus on the UI of an applicaction, not the behavior
+- These are basically just the render function in the class component
+- Can have state and mimic lifecycle events using hooks
+
