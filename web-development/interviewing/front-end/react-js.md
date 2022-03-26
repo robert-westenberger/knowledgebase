@@ -2,7 +2,7 @@
 title: React Interview Questions
 description: 
 published: true
-date: 2022-03-26T20:05:08.089Z
+date: 2022-03-26T20:10:31.604Z
 tags: react, interviewing, front-end
 editor: markdown
 ---
@@ -80,3 +80,9 @@ A HOC is a function that takes a component as a parameter and returns a new comp
 # Why doesn't `this.props.children.map` work?
 `this.props.children` is an opaque data structure. It can either be a single element or an array. The `React.Children` API should be used for manipulating the `children` prop.
 
+# What benefit does `StrictMode` provide in React?
+- Identifying components with unsafe lifecycles
+- Warning about legacy string ref API usage
+- Warning about deprecated findDOMNode usage
+- Detecting unexpected side effects
+- Detecting legacy context API
