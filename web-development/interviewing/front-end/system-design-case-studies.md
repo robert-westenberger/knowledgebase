@@ -2,10 +2,10 @@
 title: System Design Case Studies
 description: 
 published: true
-date: 2022-03-26T22:43:15.050Z
+date: 2022-03-26T22:44:54.146Z
 tags: index, interviewing, front-end, system-design
 editor: markdown
 ---
 
-# Header
-Your content here
+# News Feed
+[Facebook news feed](/web-development/interviewing/front-end/system-design-case-studies/facebook-news-feed)
