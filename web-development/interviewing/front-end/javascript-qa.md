@@ -2,7 +2,7 @@
 title: Javascript Interview Questions
 description: 
 published: true
-date: 2022-03-26T16:12:27.626Z
+date: 2022-03-26T16:40:11.973Z
 tags: interviewing, javascript
 editor: markdown
 ---
@@ -19,3 +19,9 @@ For example, instead of attaching an event indidvidually to each `<li>` in a lis
 4. If a function is invoked as a free function invocation, meaning it was invoked without any of the conditions present above, `this` is the global object. In a browser, its the `window` object. If in strict mode, it will be undefined instead of the window object.
 5. If multiple of the above rules apply, the rule that is higher wins and will set the `this` value.
 6. If the function is an ES2015 arrow function, it ignores all the rules above and receives the `this` value of its surrounding scope at the time it is created.
+
+# Can you give an example of one of the ways that working with `this` has changed in ES6?
+ES6 allows you to use arrow functions which uses the enclosing lexical scope. Arrow functions establish `this` based on the scope the Arrow function is defined within. They shouldn't be used for methods on objects for this reason.
+
+# Explain how prototypal inheritance works
+All javascript objects have a `__proto__` property (with the exception of objects created with `__Object.create(null)__`, that is a reference to another object called it's prototype. When a property is accessed on an object and if the property is not found on that object, the Javascript engine will traverse down this prototype chain looking for that property. 
