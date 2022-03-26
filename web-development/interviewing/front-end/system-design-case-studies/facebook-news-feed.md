@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T21:40:33.491Z
+date: 2022-03-26T21:41:19.759Z
 tags: front-end, system-design
 editor: markdown
 ---
