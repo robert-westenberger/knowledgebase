@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T21:26:22.827Z
+date: 2022-03-26T21:28:48.219Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -44,7 +44,7 @@ Has list of `<Comment />`s
 ### Comment Input
 
 # Data Architecture
-# Story
+## Story
 ```
 type Story = {
 	id: number;
@@ -55,7 +55,7 @@ type Story = {
 };
 ```
 Note that `Media` type are things like links, images, videos.
-# Comment
+## Comment
 ```
 type Comment = {
 id: number;
@@ -65,7 +65,7 @@ date: number;
 content: string;
 };
 ```
-# Media 
+## Media 
 ```
 type Media = {
    id: number;
@@ -73,3 +73,5 @@ type Media = {
 	 uri: string;
 };
 ```
+
+# Data API
