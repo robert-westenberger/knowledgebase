@@ -2,7 +2,7 @@
 title: System Design Questions
 description: 
 published: true
-date: 2022-03-26T19:21:10.147Z
+date: 2022-03-26T19:23:48.988Z
 tags: interviewing, front-end
 editor: markdown
 ---
@@ -43,7 +43,13 @@ In other words, when extending functionality of our program, we should be able t
 - Make sure UI works, if internationalized
 - If there are many items in a component, perhaps paginate them
 ### Performance
-
+#### Lazy loading
+#### Preloading / Prefetching data ahead of time
 ### Accessibility
+- Make sure there is correct color contrast for colorblind or sight impaired users.
+- Use the right HTML tags for semanticness, or the right `aria-role` attributes.
+- Clickable items should have the correct cursor style to indicate they can be clicked.
+- Images should have `alt` text. Go through your app with a screen reader.
+
 ### I18N
 ### Security
