@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T21:53:08.536Z
+date: 2022-03-26T22:02:34.924Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -89,3 +89,22 @@ createComment(api_key, user_id, post_id, comment_data);
 ```
 
 # Data Store Structure
+State should be structured based on data types. The actual state within our store should be as normalized/flattened as much as possible. 
+
+
+```
+{
+feeds: {
+	[feed_id]: {...}
+},
+users: {
+	[feed_id]: {...}
+},
+media: {
+	[feed_id]: {...}
+},
+comments: {
+	[feed_id]: {...}
+}
+}
+```
