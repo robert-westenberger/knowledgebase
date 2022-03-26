@@ -2,7 +2,7 @@
 title: Facebook News Feed System Design Case Study
 description: 
 published: true
-date: 2022-03-26T23:10:12.308Z
+date: 2022-03-26T23:14:40.402Z
 tags: front-end, system-design
 editor: markdown
 ---
@@ -138,3 +138,5 @@ The main takeaway here is that we should be accessing data from the store by key
 - Inline critical styles and scripts so they don't block the initial render
 - Use defer property 
 
+## Javascript Performance
+- Use webworkers to offload heavy computations
