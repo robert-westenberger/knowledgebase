@@ -2,7 +2,7 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-27T20:13:34.124Z
+date: 2022-03-27T20:24:34.779Z
 tags: interviewing
 editor: markdown
 ---
@@ -18,7 +18,22 @@ Multiple problems did occur. Sometimes, videos weren't actually transcoded corre
 Then, because there  were problems, we pivoted to using Amazon ElasticTranscoder and Amazon Simple Message Service for the transcoding pipeline. Eventually, we got the system working, but it exceeded both time anad budget. 
 
 In retrospect, we could have just uploaded everything to youtube. 
+### Situation
+I was working on a whitelabel online learning platform. Platform provided the option for users to upload images and video. In order for the content that users uploaded to be useable, it needed to be transcoded. 
+### Task
+To make a concurrently available transcoding service that is both reliable and performant. 
+### Action
+- I made an encoding detector in python. 
+- I used ffmpeg and python to actually transcode the video, depending on the videos current encoding. 
+- I used SMS to send a message from the encoding server to the web server once encoding was complete, to indicate that the video is now useable. 
+- There were problems with the encoding service. It needed to be load balanced, and we needed to support different encodings for different devices.
+- After recognizing those issues, I pivoted to using AWS and their transcoding and SMS pipelines. 
+### Result 
+I delivered the product, following constraints and requirements, over time and over budget. 
 
+
+### What did I learn
+Instead of tackling the problem right away, think about all available options. 
 
 ## Magic Responsive Tables
 ### Situation
