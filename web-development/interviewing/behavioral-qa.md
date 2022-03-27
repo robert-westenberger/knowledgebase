@@ -2,7 +2,7 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-27T20:55:17.456Z
+date: 2022-03-27T21:47:45.967Z
 tags: interviewing
 editor: markdown
 ---
@@ -80,7 +80,10 @@ Implementation speed and ease took a lot faster.
 ## Give me an example of a time you made a mistake at work. 
 
 ## Have you ever faced conflict with a coworker? How did you resolve the situation?
+
 ## Tell me about a time when you handled pressure well.
+
+
 ## Was there a time when you had to be very strategic in order to meet a goal?
 ## Give me an example of a situation when you showed initiative and took charge of a situation.
 ## Tell me about a time when you went above and beyond your duties for a job or task.
