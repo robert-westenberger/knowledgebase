@@ -2,7 +2,7 @@
 title: Javascript Event Loop
 description: 
 published: true
-date: 2022-03-27T00:01:08.192Z
+date: 2022-03-27T00:03:54.096Z
 tags: front-end, javascript
 editor: markdown
 ---
@@ -70,3 +70,8 @@ If there are other messages in the queue after the delay, those other messages w
 
 ## Several runtimes communicating together
 A web worker or a cross-origin `iframe` has its own stack, heap, and message queue. Two runtimes can only communicate through `postMessage` method. 
+
+## Never Blocking
+Handling I/O is typically performed via events and callbacks, so when the applicaiton is waiting for an `XHR` to return, it can still process other things. 
+
+Exceptions to this are things like `alert` or synchronous XHR. 
