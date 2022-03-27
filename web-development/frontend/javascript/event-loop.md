@@ -2,7 +2,7 @@
 title: Javascript Event Loop
 description: 
 published: true
-date: 2022-03-27T00:00:19.074Z
+date: 2022-03-27T00:01:08.192Z
 tags: front-end, javascript
 editor: markdown
 ---
@@ -69,3 +69,4 @@ Called with two arguments: a message to add to the queue, and a time value. The 
 If there are other messages in the queue after the delay, those other messages will have to be processed before the setTimeout is executed. 
 
 ## Several runtimes communicating together
+A web worker or a cross-origin `iframe` has its own stack, heap, and message queue. Two runtimes can only communicate through `postMessage` method. 
