@@ -2,12 +2,24 @@
 title: Behavioral Questions
 description: 
 published: true
-date: 2022-03-23T22:57:55.579Z
+date: 2022-03-27T20:13:34.124Z
 tags: interviewing
 editor: markdown
 ---
 
 # Accomplishments that can be used
+## Transcoding Service
+I was tasked with creating a service that would detect encoding type, and based off of that encoding type, transcode and compress a video for use on the web. 
+
+For that, I used ffmpeg, and simple message service to send a message to the encoding server once transcoding was complete. 
+
+Multiple problems did occur. Sometimes, videos weren't actually transcoded correctly. Other times, the message that transcription actually completed were never sent. 
+
+Then, because there  were problems, we pivoted to using Amazon ElasticTranscoder and Amazon Simple Message Service for the transcoding pipeline. Eventually, we got the system working, but it exceeded both time anad budget. 
+
+In retrospect, we could have just uploaded everything to youtube. 
+
+
 ## Magic Responsive Tables
 ### Situation
 We were making all of screens in our app responsive. A large portion of our app were still legacy coldfusion, and there were still a lot of layout and data tables in use that were prohibitively difficult to make responsive. 
