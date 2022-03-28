@@ -2,7 +2,7 @@
 title: Typescript Questions
 description: 
 published: true
-date: 2022-03-26T20:45:31.072Z
+date: 2022-03-28T17:20:47.282Z
 tags: typescript, interviewing
 editor: markdown
 ---
@@ -22,3 +22,12 @@ Virtual structure that only exists within the context of typescript. Once code i
 ### When to use
 When we don't need to create an instance of a custom object. 
 
+# Types vs Interfaces
+## Interfaces
+For data shapes. 
+## Types
+For a particular type of data, for example
+- A union
+- A primitive
+- An intersection
+- A tuple
