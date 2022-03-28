@@ -1,9 +1,9 @@
 ---
-title: System Design
+title: System Design Interviews
 description: 
 published: true
-date: 2022-03-28T23:08:58.202Z
-tags: backend, front-end, web-development, architecture
+date: 2022-03-28T23:09:18.432Z
+tags: backend, interviewing, front-end, web-development, architecture
 editor: markdown
 ---
 
