@@ -2,10 +2,11 @@
 title: Furniture
 description: 
 published: true
-date: 2022-03-28T15:15:27.346Z
+date: 2022-03-28T15:16:25.555Z
 tags: 
 editor: markdown
 ---
 
-# Header
-Your content here
+![img_0070.jpg](/img_0070.jpg)
+![img_0071.jpg](/img_0071.jpg)
+![img_0072.jpg](/img_0072.jpg)
