@@ -2,18 +2,27 @@
 title: System Design Questions
 description: 
 published: true
-date: 2022-03-26T19:24:44.971Z
+date: 2022-03-28T23:22:30.560Z
 tags: interviewing, front-end
 editor: markdown
 ---
 
 # Overview
-## Requirements clarifications and alignment
+## Step 1: Requirements clarifications and alignment
 - What devices should the system support? Desktop web, mobile web, etc.
 - What's the primary device that users will access the system on?
 - Which browsers should we support?
 - Do we need to support internationalization?
 - How much styling customization do we want to allow?
+
+### Example: Designing Twitter
+- Will users of our service be able to post tweets and follow other people?
+- Should we also design to create and display the user’s timeline?
+- Will tweets contain photos and videos?
+- Are we focusing on the backend only, or are we developing the front-end too?
+- Will users be able to search tweets?
+- Do we need to display hot trending topics?
+- Will there be any push notification for new (or important) tweets?
 ## Architecture
 List down various subcomponents that will exist within components of the architecture. 
 
