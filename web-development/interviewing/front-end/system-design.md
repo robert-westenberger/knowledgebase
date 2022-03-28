@@ -2,7 +2,7 @@
 title: System Design Questions
 description: 
 published: true
-date: 2022-03-28T23:22:30.560Z
+date: 2022-03-28T23:29:40.788Z
 tags: interviewing, front-end
 editor: markdown
 ---
@@ -23,6 +23,13 @@ editor: markdown
 - Will users be able to search tweets?
 - Do we need to display hot trending topics?
 - Will there be any push notification for new (or important) tweets?
+
+## Step 2: Back-of-the-envelope-estimation
+Always a good idea to estimate the scale of the system we're going to esign. This will help later when we focus on scaling, partitioning, load balancing, and caching. 
+### Example: Designing Twitter
+- What scale is expected from the system? (number of new tweets, number of tweet views, number of timeline generations per second)
+- How much storage will we need? We will have different requirements if users can have photos and videos in their tweets.
+- What network bandwidth usage are we expecting? This will be crucial in deciding how we will manage traffic and balance load between servers.
 ## Architecture
 List down various subcomponents that will exist within components of the architecture. 
 
