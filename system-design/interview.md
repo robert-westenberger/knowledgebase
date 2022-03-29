@@ -2,7 +2,7 @@
 title: System Design Interviews
 description: 
 published: true
-date: 2022-03-29T00:58:23.318Z
+date: 2022-03-29T00:59:59.086Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -31,6 +31,8 @@ Interviewer's feedback should guide us to what parts of the system need further 
 
 Different approaches should be presented, and their pros and cons, and explain why we prefer one approach over the other. 
 
+## Step 7: Identifying and Resolving Bottlenecks
+Try and discuss as many bottlenecks as possible and different approaches to mitigate them. 
 
 
 # Example Designing Twitter
