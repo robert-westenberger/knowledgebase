@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T01:34:17.697Z
+date: 2022-03-29T01:34:22.882Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -41,4 +41,4 @@ Assuming we have 500m new URL shortenings per month, we can expect 50b redirecti
 ### Queries Per Second
 500m / (30 days * 24 hours * 3600 seconds) = ~200 new URLs / second
 
-Considering a 100:1 read/write ratio, redirections would be 20,000 per second.c 
+Considering a 100:1 read/write ratio, redirections would be 20,000 per second.
