@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:33:57.794Z
+date: 2022-03-29T16:36:06.540Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -149,4 +149,7 @@ Using base64 encoding, a 6 letters long key would result in $64^6$ = ~68.7 billi
 Using base64 encoding, an 8 letters long key would result in $64^8$ = ~281 trillion possible strings.
 
 With 68.7B unique strings, let's assume six letter keys would suffice for our system.
+
+IF we use MD5 as the hash function, it will produce a 128-bit hash value. After base64 encoding, we'll get a string having more than 21 characters. Now we only have space for 6 characters per short key.. how will we choose our key? We can take the first 6 letters of the key, but that could result in duplication. To resolve that, we can choose some other characters out of the encoding string or swap some characters.
+
 
