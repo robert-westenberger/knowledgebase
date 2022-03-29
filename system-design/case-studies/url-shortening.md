@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:32:06.049Z
+date: 2022-03-29T16:32:59.983Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -142,6 +142,11 @@ The problem we are solving is how to generate a short and unique key for a given
 
 ## Encoding actual URL
 We want to compute a unique hash of the given URL, so no matter the URL given, the resulting shortlink is always the same size. We then want to encode it for display.
+
+A good question to ask ourselves is, what would a good length of a short key be? 6, 8, or 10 characters?
+
+Using base64 encoding, a 6 letters long key would result in 64^6 = ~68.7 billion possible strings.
+Using base64 encoding, an 8 letters long key would result in 64^8 = ~281 trillion possible strings.
 ### Compute a unique hash (MD5 / SHA256)
 We can compute a unique hash of a given URL. 
 
