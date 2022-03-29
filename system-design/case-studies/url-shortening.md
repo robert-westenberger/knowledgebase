@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T01:47:03.329Z
+date: 2022-03-29T02:40:56.963Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -75,4 +75,37 @@ To cache 20% of those requests, we will need 170 GB of memory.
 Note that, since there will be many duplicate requests of the same URL, actual memory usage will be less than 170GB.
 
 # System APIs
+## Creating and deleting URLs
+### Creating URLs
+```
+createURL(api_dev_key, original_url, custom_alias=None, user_name=None, expire_date=None)
+```
+**Parameters:**
+api_dev_key (string): The API developer key of a registered account. This will be used to, among other things, throttle users based on their allocated quota.
+original_url (string): Original URL to be shortened.
+custom_alias (string): Optional custom key for the URL.
+user_name (string): Optional user name to be used in the encoding.
+expire_date (string): Optional expiration date for the shortened URL.
 
+**Return*:
+A successful insert returns the shortened URL; otherwise, it returns an error code.
+
+### Deleting URLs
+```
+deleteURL(api_dev_key, url_key);
+```
+url_key is a string representing the shortened URL to be retrieved; a successful deletion returns 'URL Removed'.
+
+## Preventing Abuse
+We can limit users via their api_dev_key, so a malicious user can't consume all URL keys. 
+
+# Database Design
+A few observations about the nature of the data we will store:
+1. We need to store billions of records
+2. Each object we store is small (less than 1 kilobyte)
+3. There are no relationships between records other than rstoring which user created a URL.
+4. Our service is read-heavy.
+
+## Database Schema
+Need two tables: one for storing information about the URL mappings and one for the user's data who created the short link. 
+### URL Table
