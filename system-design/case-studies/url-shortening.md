@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T02:40:56.963Z
+date: 2022-03-29T02:42:34.909Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -109,3 +109,4 @@ A few observations about the nature of the data we will store:
 ## Database Schema
 Need two tables: one for storing information about the URL mappings and one for the user's data who created the short link. 
 ### URL Table
+
