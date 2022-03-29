@@ -2,7 +2,7 @@
 title: System Design Interviews
 description: 
 published: true
-date: 2022-03-29T00:53:29.098Z
+date: 2022-03-29T00:54:13.516Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -50,4 +50,6 @@ Draw a block diagram with 5-6 boxes representing the core components of our syst
 
 ## High-level design
 For Twitter, we need multiple application servers to serve all the read/write requests with load balancers in front of them for traffic distributions. If we're assuming that we will have a lot more read traffic (compare to write), we can decide to have separate servers to handle this. 
+
+On the backend, we need an efficient database that can store all the tweets and support a large number of reads. We'll also need a distributed file storage system for storing photos and videos.
 ![twitter_structure.png](/twitter_structure.png)
