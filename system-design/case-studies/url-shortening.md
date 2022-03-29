@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T01:39:25.185Z
+date: 2022-03-29T01:43:39.679Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -51,3 +51,18 @@ Assume we store every URL shortening request for 5 years. Since we expect 500M n
 Assuming every stored object is 500 bytes (ballpark estimate), we need
 
 30 billion * 500 bytes = 15TB.
+
+## Bandwidth Estimates
+### Write requests
+200 new URLs every second, at 500 bytes each
+200 * 500 bytes = 100 KB/s
+
+### Read requests
+20,000 redirects per second, at 500 bytes each
+20,000 * 500 = 10 MB/s
+
+## Memory estimates
+If we want to cache some hot URLs that are frequently accessed, how much memory will we need?
+
+If we follow the 80-20 rule, meaning 20% of URLs generate 80% of traffic, we would like to cache 20% hot URLs. 
+
