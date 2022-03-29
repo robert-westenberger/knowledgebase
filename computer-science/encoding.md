@@ -2,7 +2,7 @@
 title: Encoding
 description: 
 published: true
-date: 2022-03-29T16:13:52.625Z
+date: 2022-03-29T16:14:41.586Z
 tags: computer-science
 editor: markdown
 ---
@@ -29,4 +29,6 @@ In decimal, `a=97`, `b=98`, `c=99`.
 
 `011000 — 010110 — 001001 — 100011`
 
-### Step 4: 
+### Step 4: Convert each binary into their equivalent decimal form
+
+`011000 = 24`, `010110=22`, `001001=9`, and `100011=35`. 
