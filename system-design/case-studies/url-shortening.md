@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T02:42:34.909Z
+date: 2022-03-29T03:08:57.807Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -110,3 +110,34 @@ A few observations about the nature of the data we will store:
 Need two tables: one for storing information about the URL mappings and one for the user's data who created the short link. 
 ### URL Table
 
+$$
+\begin{array}{|l|l|}
+\hline \text { PK } & \text { Hash: varchar(16) } \\
+\hline & \text { OriginalURL: varchar } \\
+& \text { CreationDate: datetime } \\
+& \text { ExpirationDate: datetime } \\
+& \text { UserID: int } \\
+\hline
+\end{array}
+$$
+
+### User Table
+
+$$
+\begin{array}{|l|l|}
+\hline \text { PK } & \text { UserID: Int } \\
+\hline & \text { Name: varchar } \\
+& \text { Email: datetime } \\
+& \text { CreationDate: datetime } \\
+& \text { LastLogin: datetime } \\
+\hline
+\end{array}
+$$
+
+## What kind of database should we use?
+Since we anticipate storing billions of rows, and we don't need to use relationships between objects - a NoSQL store like DynamoDB, Cassandra, or Riak is a better choice. 
+
+# Basic System Design and Algorithm
+The problem we are solving is how to generate a short and unique key for a given URL.
+
+## Encoding actual URL
