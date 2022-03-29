@@ -2,7 +2,7 @@
 title: System Design Interviews
 description: 
 published: true
-date: 2022-03-29T00:55:06.044Z
+date: 2022-03-29T00:58:23.318Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -26,7 +26,12 @@ Which database system should we use? Will NoSQL, or a relational database better
 ## Step 5: High-level design
 Draw a block diagram with 5-6 boxes representing the core components of our system. We should identify enough components that are needed to to solve the actual problem from end to end.
 
-## Step 6: Detailed 
+## Step 6: Detailed Design
+Interviewer's feedback should guide us to what parts of the system need further discussion. 
+
+Different approaches should be presented, and their pros and cons, and explain why we prefer one approach over the other. 
+
+
 
 # Example Designing Twitter
 ## Requirements Clarifications
@@ -54,3 +59,10 @@ For Twitter, we need multiple application servers to serve all the read/write re
 
 On the backend, we need an efficient database that can store all the tweets and support a large number of reads. We'll also need a distributed file storage system for storing photos and videos.
 ![twitter_structure.png](/twitter_structure.png)
+
+## Detailed design
+- Since we will be storing a massive amount of data, how sohuld it be partitioned to distribute it to multiple databases? Should we try to store all the data of a user on the same database? What issue could it cause?
+- How will we handle hot users who tweet a lot or follow lots of people?
+- Since user's timeline will contain the most recent / relevant tweets, should we try to store our data so that it is optimized for scanning the latest tweets?
+- How much and at which layer should we introduce cache to speed things up?
+- What components need better load balancing?
