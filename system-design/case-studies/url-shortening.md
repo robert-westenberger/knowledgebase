@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:47:17.299Z
+date: 2022-03-29T16:51:35.688Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -165,7 +165,18 @@ are identical except for the URL encoding.
 We could append the user id (which should be unique) to the input URL. However, if the user is not signed in, we would have to ask the user to choose a uniqueness key. Even after this, we have to keep trying to generate a key until we get a unique one.
 
 ## B. Generating keys offline
-We can have a standalone Key Generation Service that generates random six-letter strings beforehand and stores it in a DB. Whenever we want to shorten a URL, we will take one of the already generated keys and use it. We won't have to worry about dupes or collisions. 
+We can have a standalone Key Generation Service (**KGS**) that generates random six-letter strings beforehand and stores it in a DB. Whenever we want to shorten a URL, we will take one of the already generated keys and use it. We won't have to worry about dupes or collisions. 
 
 ### Potential problem: concurrency
 As soon as a key is used, it should be marked in the db to ensure that it is not used again. If there are multiple servers reading keys concurrently, we might get a scenario where two or more servers try to read the same key from the DB. 
+
+#### Possible solution
+Servers can use KGS to read/mark keys in the database. KGS can use two tables to store keys: one for keys that are not used yet, and one for all the used keys. As soon as KGS gives keys to one of the servers, it can move them to the used keys table. KGS can always keep some keys in memory to quickly provide them whenever a server needs them.
+
+For simplicity, as soon as KGS loads some keys in memory, it can move them to the used keys table. This ensures each server gets unique keys. If KGS dies before assigning all the loaded keys to some server, we will be wasting those keys–which could be acceptable, given the huge number of keys we have.
+
+KGS also has to make sure not to give the same key to multiple servers. For that, it must synchronize (or get a lock on) the data structure holding the keys before removing keys from it and giving them to a server.
+
+### Key Database Size
+With Base64 encoding, we can generate 68.7B unique six-letter keys. If we need one byte to store just one alphanumeric character, we can store these in 
+$6 \text {(characters per key)} * 68.7B \text{(unique keys)} = 412 GB$
