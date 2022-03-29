@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:42:33.190Z
+date: 2022-03-29T16:47:17.299Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -140,7 +140,7 @@ Since we anticipate storing billions of rows, and we don't need to use relations
 # Basic System Design and Algorithm
 The problem we are solving is how to generate a short and unique key for a given URL.
 
-## Encoding actual URL
+## A. Encoding actual URL
 We want to compute a unique hash of the given URL, so no matter the URL given, the resulting shortlink is always the same size. We then want to encode it for display.
 
 A good question to ask ourselves is, what would a good length of a short key be? 6, 8, or 10 characters?
@@ -162,4 +162,10 @@ http://www.test.com/distributed.php%3Fid%3Ddesign
 are identical except for the URL encoding.
 
 #### Workaround for issues
-We could append the user id (which should be unique) to the input URL. However, if the user is not signed in, we would have to ask the user to choose a uniqueness key.
+We could append the user id (which should be unique) to the input URL. However, if the user is not signed in, we would have to ask the user to choose a uniqueness key. Even after this, we have to keep trying to generate a key until we get a unique one.
+
+## B. Generating keys offline
+We can have a standalone Key Generation Service that generates random six-letter strings beforehand and stores it in a DB. Whenever we want to shorten a URL, we will take one of the already generated keys and use it. We won't have to worry about dupes or collisions. 
+
+### Potential problem: concurrency
+As soon as a key is used, it should be marked in the db to ensure that it is not used again. If there are multiple servers reading keys concurrently, we might get a scenario where two or more servers try to read the same key from the DB. 
