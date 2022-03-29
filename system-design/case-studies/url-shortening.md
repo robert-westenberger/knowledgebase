@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:36:06.540Z
+date: 2022-03-29T16:42:33.190Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -152,4 +152,14 @@ With 68.7B unique strings, let's assume six letter keys would suffice for our sy
 
 IF we use MD5 as the hash function, it will produce a 128-bit hash value. After base64 encoding, we'll get a string having more than 21 characters. Now we only have space for 6 characters per short key.. how will we choose our key? We can take the first 6 letters of the key, but that could result in duplication. To resolve that, we can choose some other characters out of the encoding string or swap some characters.
 
+### Some different issues with our encoding scheme
+1. If multiple users enter the same URL, they can get the same shortened URL, which is not acceptable.
+2. What if parts of the URL are URL encoded? e.g.
+```
+http://www.test.com/distributed.php?id=design
+http://www.test.com/distributed.php%3Fid%3Ddesign 
+```
+are identical except for the URL encoding.
 
+#### Workaround for issues
+We could append the user id (which should be unique) to the input URL. However, if the user is not signed in, we would have to ask the user to choose a uniqueness key.
