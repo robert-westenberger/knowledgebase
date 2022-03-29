@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T01:45:09.452Z
+date: 2022-03-29T01:47:03.329Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -65,4 +65,14 @@ Assuming every stored object is 500 bytes (ballpark estimate), we need
 If we want to cache some hot URLs that are frequently accessed, how much memory will we need?
 
 If we follow the 80-20 rule, meaning 20% of URLs generate 80% of traffic, we would like to cache 20% hot URLs. 
+
+With 20K requests per second, we will be getting 1.7 billion requests per day. 
+
+To cache 20% of those requests, we will need 170 GB of memory. 
+
+0.2 * 1.7 bilion * 500 bytes = 170GB
+
+Note that, since there will be many duplicate requests of the same URL, actual memory usage will be less than 170GB.
+
+# System APIs
 
