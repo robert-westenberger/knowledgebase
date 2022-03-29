@@ -2,7 +2,7 @@
 title: Encoding
 description: 
 published: true
-date: 2022-03-29T16:20:24.493Z
+date: 2022-03-29T16:20:55.239Z
 tags: computer-science
 editor: markdown
 ---
@@ -41,5 +41,5 @@ In decimal, `a=97`, `b=98`, `c=99`.
 Therefore, "abc" -> "YXJj" in Base64.
 
 
-**Note**: Sometimes it is impossible to divide the combined Binary into exact groups of 6 bits each. In that case, 0 is added in the end to make it an exact number of groups of 64 bits. This process is called as “Padding”. To encode the padded the data, if there are 6 fully padded bits, then it is mapped to “=”.
+**Note**: Sometimes it is impossible to divide the combined Binary into exact groups of 6 bits each. In that case, 0 is added in the end to make it an exact number of groups of 64 bits. This process is called as “Padding”. To encode the padded data, if there are 6 fully padded bits, then it is mapped to “=”.
 Example: “a:aa” => 011000 010011 101001 100001 011000 01xxxx xxxxxx xxxxxx => “YTphYQ==”
