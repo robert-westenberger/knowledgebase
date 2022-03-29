@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:32:59.983Z
+date: 2022-03-29T16:33:31.038Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -145,10 +145,8 @@ We want to compute a unique hash of the given URL, so no matter the URL given, t
 
 A good question to ask ourselves is, what would a good length of a short key be? 6, 8, or 10 characters?
 
-Using base64 encoding, a 6 letters long key would result in 64^6 = ~68.7 billion possible strings.
-Using base64 encoding, an 8 letters long key would result in 64^8 = ~281 trillion possible strings.
-### Compute a unique hash (MD5 / SHA256)
-We can compute a unique hash of a given URL. 
+Using base64 encoding, a 6 letters long key would result in $64^6$ = ~68.7 billion possible strings.
+Using base64 encoding, an 8 letters long key would result in $64^8$ = ~281 trillion possible strings.
 
-If we use the MD5 algorithm as our hash function, it will produce a 128-bit hash value. 
+With 
 
