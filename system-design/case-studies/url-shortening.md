@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:33:31.038Z
+date: 2022-03-29T16:33:57.794Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -148,5 +148,5 @@ A good question to ask ourselves is, what would a good length of a short key be?
 Using base64 encoding, a 6 letters long key would result in $64^6$ = ~68.7 billion possible strings.
 Using base64 encoding, an 8 letters long key would result in $64^8$ = ~281 trillion possible strings.
 
-With 
+With 68.7B unique strings, let's assume six letter keys would suffice for our system.
 
