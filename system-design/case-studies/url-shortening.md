@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T17:09:25.206Z
+date: 2022-03-29T17:29:36.075Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -209,4 +209,34 @@ Our hashing function will randomly distribute URLs into different partitions. Th
 # Cache
 We can cache URLs that are frequently accessed. 
 
+## How much cache memory should we have?
+We can start with 20% of daily traffic, and based on clients' usage patterns, adjust how many cache servers we need. 
+
+We estimated $170\text{GB}$ of memory to cache 20% of daily traffic. Since a modern-day server can have $256\text{GB}$ of memory, we can fit all the cache into one machine.
+
+## Which cache eviction policy would best fit our needs?
+When the cache is full, and we want to replace a link with a newer/hotter URL, we could discared the least recently used URL first. 
+
+We can use a Linked Hash Map or a similar data structure to store our URLs and hashes, which will keep track of the URLs that have been accessed recently.
+
+To further increase the efficiency, we can replicate our caching servers to distribute the load between them.
+
+## How can each cache replica be updated?
+Whenever there is a cache miss, our servers would be hitting a backend database. 
+
+Whenever this happens, we can update the cache and pass the new entry to all the cache replicas. Each replica can update its cache by adding the new entry. If a replica already has that entry, it can simply ignore it.
+
+# Load Balancer
+We can add a load balancing layer at three places in our system:
+1. Between Clients and Application servers
+2. Between Application Servers and DB servers
+3. Between Application Servers and Cache servers
+## Potential approach - Round Robin Load Balancing
+Initially, we could use a simple Round Robin approach that distributes incoming requests equally among backend servers. This LB is simple to implement and does not introduce any overhead. Another benefit of this approach is that if a server is dead, LB will take it out of the rotation and stop sending any traffic to it.
+### Potential Problem with round robin load balancing
+We do not consider the server load. As a result, if a server is overloaded or slow, the LB will not stop sending new requests to that server. To handle this, a more intelligent LB solution can be placed that periodically queries the backend server about its load and adjusts traffic based on that.
+
+
+# Purging / DB Cleanup
+We can do a lazy cleanup. 
 
