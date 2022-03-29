@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T16:51:35.688Z
+date: 2022-03-29T17:09:25.206Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -180,3 +180,33 @@ KGS also has to make sure not to give the same key to multiple servers. For that
 ### Key Database Size
 With Base64 encoding, we can generate 68.7B unique six-letter keys. If we need one byte to store just one alphanumeric character, we can store these in 
 $6 \text {(characters per key)} * 68.7B \text{(unique keys)} = 412 GB$
+
+### Potential Problem: Single Point of failure
+KGS is a single point of failure. To solve this, we can have a standby replica of KGS. Whenever the priamry server dies, the standby server can take over to generate and provide keys.
+
+### How would we perform a key lookup?
+We can look up the key in our database to get the full URL. If it’s present in the DB, issue an “HTTP 302 Redirect” status back to the browser, passing the stored URL in the “Location” field of the request. If that key is not present in our system, issue an “HTTP 404 Not Found” status or redirect the user back to the homepage.
+
+### Imposing size limits on custom aliases
+We should be imposing size limits on user specified aliases. We can assume user's can specify a maximum of 16 characters per customer key (as reflected in our DB schema).
+
+# Data Partitioning and Replication
+We need to develop a partitioning scheme that would divide and store our data into different DB servers.
+
+## Range Based Paritioning
+We can store URLs in separate partitions based on the hash key's first letter. We will save all the URL hash keys starting with the letter `A` and `a` in one partition, save those that start with the letter `B` in another partition, etc. We could bunch a bunch of infrequently occuring letters into one database partition. 
+
+### Main problem with range based partioning
+It can lead to unbalanced DB servers.
+
+## Hash Based Partitioning 
+We take a hash based off the object we are storing, and then calculate which partition to use based upon the hash. 
+
+In our case, we can take the hash of the 'key' or the short link to determine the partition in which we store the data object.
+
+Our hashing function will randomly distribute URLs into different partitions. This can still be inconsitent, but this can be solved using consistent hashing. 
+
+# Cache
+We can cache URLs that are frequently accessed. 
+
+
