@@ -2,7 +2,7 @@
 title: System Design Interviews
 description: 
 published: true
-date: 2022-03-29T00:59:59.086Z
+date: 2022-03-29T01:00:34.915Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -34,7 +34,10 @@ Different approaches should be presented, and their pros and cons, and explain w
 ## Step 7: Identifying and Resolving Bottlenecks
 Try and discuss as many bottlenecks as possible and different approaches to mitigate them. 
 
-
+- Is there any single point of failure in our system? What are we doing to mitigate it?
+- Do we have enough replicas of the data so that we can still serve our users if we lose a few servers?
+- Similarly, do we have enough copies of different services running such that a few failures will not cause a total system shutdown?
+- How are we monitoring the performance of our service? Do we get alerts whenever critical components fail or their performance degrades?
 # Example Designing Twitter
 ## Requirements Clarifications
 - Will users of our service be able to post tweets and follow other people?
