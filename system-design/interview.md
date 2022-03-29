@@ -2,7 +2,7 @@
 title: System Design Interviews
 description: 
 published: true
-date: 2022-03-29T00:54:13.516Z
+date: 2022-03-29T00:55:06.044Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -16,16 +16,17 @@ Always a good idea to estimate the scale of the system we're going to esign. Thi
 ## Step 3: System Interface Design
 Define what APIs are expected from the system. 
 
-## Defining data model
+## Step 4: Defining data model
 Defining the data model in the early part of the interview will clarify how data will flow between different system components. 
 
 Later, it will guide for data partitioning and management. The candidate should identify various system entities, how they will interact with eachother, and different aspects of data management like storage, transporation, encryption, etc.
 
 Which database system should we use? Will NoSQL, or a relational database better fit our needs? What kind of block storage should we use to store photos and videos?
 
-## High-level design
+## Step 5: High-level design
 Draw a block diagram with 5-6 boxes representing the core components of our system. We should identify enough components that are needed to to solve the actual problem from end to end.
 
+## Step 6: Detailed 
 
 # Example Designing Twitter
 ## Requirements Clarifications
