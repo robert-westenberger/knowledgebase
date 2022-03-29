@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T01:26:31.450Z
+date: 2022-03-29T01:34:17.697Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -29,3 +29,16 @@ Short links that redirect to longer URLs are useful because they
 ## Extended requirements
 1. Analytics (how many times a redirection happened?)
 2. Should be accessible through REST APIs by other services.
+
+# Capacity Estimation and Constraints
+The system will be read-heavy. There will be lots of redirection requests compared to new URL shortenings. 
+
+We can assume a 100:1 ratio between read and write.
+
+## Traffic Estimates
+Assuming we have 500m new URL shortenings per month, we can expect 50b redirections in the same period. 
+
+### Queries Per Second
+500m / (30 days * 24 hours * 3600 seconds) = ~200 new URLs / second
+
+Considering a 100:1 read/write ratio, redirections would be 20,000 per second.c 
