@@ -2,7 +2,7 @@
 title: URL Shortening Service
 description: 
 published: true
-date: 2022-03-29T01:34:22.882Z
+date: 2022-03-29T01:39:25.185Z
 tags: interviewing, system-design
 editor: markdown
 ---
@@ -42,3 +42,12 @@ Assuming we have 500m new URL shortenings per month, we can expect 50b redirecti
 500m / (30 days * 24 hours * 3600 seconds) = ~200 new URLs / second
 
 Considering a 100:1 read/write ratio, redirections would be 20,000 per second.
+
+## Storage Estimates
+Assume we store every URL shortening request for 5 years. Since we expect 500M new URLS every month..
+
+500 million * 5 years * 12 months = 30 billion 
+
+Assuming every stored object is 500 bytes (ballpark estimate), we need
+
+30 billion * 500 bytes = 15TB.
