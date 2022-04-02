@@ -2,7 +2,7 @@
 title: Domain Name System
 description: 
 published: true
-date: 2022-04-02T21:35:09.969Z
+date: 2022-04-02T22:39:30.641Z
 tags: system-design
 editor: markdown
 ---
@@ -28,3 +28,4 @@ Points a name to an IP address.
 
 ### CNAME (canonical) 
 Points a name to another name or `CNAME` or to an `A` record
+
