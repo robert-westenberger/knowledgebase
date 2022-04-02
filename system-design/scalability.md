@@ -2,7 +2,7 @@
 title: Scalability
 description: 
 published: true
-date: 2022-04-02T20:34:08.918Z
+date: 2022-04-02T20:53:47.977Z
 tags: system-design
 editor: markdown
 ---
@@ -15,4 +15,7 @@ Vertical scaling means increasing the amount of power on a single machine. It wo
 ## Drawbacks to vertical scaling
 * It poses a higher risk for downtime, since there is a single point of failure. 
 
-# Horizontal S
+# Horizontal Scaling
+Horizontal scaling adds more instances of machines of weaker power. 
+
+Horizontal scaling is more challenging, because it requires breaking a sequential piece of logic into smaller pieces so that they can be executed in parallel across multiple machines. 
