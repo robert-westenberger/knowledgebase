@@ -2,7 +2,7 @@
 title: Scalability
 description: 
 published: true
-date: 2022-04-02T20:59:39.054Z
+date: 2022-04-02T21:00:41.711Z
 tags: system-design
 editor: markdown
 ---
@@ -11,7 +11,10 @@ editor: markdown
 Vertical scaling means increasing the amount of power on a single machine. It would be like building a tower taller and taller, where the height of the tower represents power of server resources.
 
 ## Databases
-The data lives on a single node, and scaling is done thorugh multi-core, e.g. spreading the load between the CPU and the RAM resources of the machine. 
+The data lives on a single node, and scaling is done thorugh multi-core, e.g. spreading the load between the CPU and the RAM resources of the machine.
+
+## Downtime 
+Vertical scaling is limited to one machine. Scaling beyond that capacity can involve downtime and has a hard upper limit, which is the scale of the hardware on which you are currently running.
 ## Pros of vertical scaling
 * It's easier to implement. You don't need to modify any of your code, it's just a matter of paying more money for better hardware.
 ## Drawbacks to vertical scaling
