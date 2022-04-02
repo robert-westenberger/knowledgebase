@@ -2,7 +2,7 @@
 title: Scalability
 description: 
 published: true
-date: 2022-04-02T21:06:52.580Z
+date: 2022-04-02T21:11:43.879Z
 tags: system-design
 editor: markdown
 ---
@@ -38,3 +38,6 @@ In theory, adding more machines to the existing pool means you are not limited t
 ## Concurrency
 Also described as distributed programming, it involves distributing jobs across machines over the network. 
 
+
+## Load Balancing
+When clients make requests to a distributed server architecture, 
