@@ -2,7 +2,7 @@
 title: Scalability
 description: 
 published: true
-date: 2022-04-02T21:06:26.252Z
+date: 2022-04-02T21:06:52.580Z
 tags: system-design
 editor: markdown
 ---
@@ -31,8 +31,10 @@ Horizontal scaling is more challenging, because it requires breaking a sequentia
 
 ## Databases
 In a database world, horizontal scaling is usually based on the partitioning of data ( each node only contains part of the data ).
+
 ## Downtime
 In theory, adding more machines to the existing pool means you are not limited to the capacity of a single unit. There isn't a single point of failure, so there is less downtime compared to a purely vertical scaling approach. Also, you don't need to power off one machine to upgrade it. 
 
 ## Concurrency
 Also described as distributed programming, it involves distributing jobs across machines over the network. 
+
