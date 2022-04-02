@@ -2,7 +2,7 @@
 title: Domain Name System
 description: 
 published: true
-date: 2022-04-02T21:32:07.880Z
+date: 2022-04-02T21:33:09.175Z
 tags: system-design
 editor: markdown
 ---
@@ -14,3 +14,4 @@ DNS is hierarchical, with a few authoritative servers at the top level. Your rou
 
 ## Time to live / hop limit
 Time to live / hop limit is a mechanism which limits the lifespan or lifetime of data in a computer network. It may be implemented as a counter or timestamp attached to or embedded in the data. Once the event count or timespan has elapsed, data is discarded or revalidated.
+
