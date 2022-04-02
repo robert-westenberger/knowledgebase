@@ -2,7 +2,7 @@
 title: Domain Name System
 description: 
 published: true
-date: 2022-04-02T21:33:09.175Z
+date: 2022-04-02T21:35:09.969Z
 tags: system-design
 editor: markdown
 ---
@@ -15,3 +15,16 @@ DNS is hierarchical, with a few authoritative servers at the top level. Your rou
 ## Time to live / hop limit
 Time to live / hop limit is a mechanism which limits the lifespan or lifetime of data in a computer network. It may be implemented as a counter or timestamp attached to or embedded in the data. Once the event count or timespan has elapsed, data is discarded or revalidated.
 
+## DNS Records
+
+### NS (name server) record
+Specifies the DNS servers for your domain/subdomain.
+
+### MX (mail exchange) record
+Specifies the mail servers for accepting messages.
+
+### A (address) record
+Points a name to an IP address.
+
+### CNAME (canonical) 
+Points a name to another name or `CNAME` or to an `A` record
