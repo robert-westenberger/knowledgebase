@@ -2,10 +2,9 @@
 title: Scalability
 description: 
 published: true
-date: 2022-04-02T16:21:28.014Z
+date: 2022-04-02T16:23:09.209Z
 tags: system-design
 editor: markdown
 ---
 
-# Header
-Your content here
+# Horizontal Scaling
