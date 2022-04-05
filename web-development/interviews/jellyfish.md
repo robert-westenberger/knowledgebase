@@ -2,12 +2,13 @@
 title: Jellyfish
 description: 
 published: true
-date: 2022-04-05T02:04:38.315Z
+date: 2022-04-05T02:05:16.487Z
 tags: interviews
 editor: markdown
 ---
 
 # Resources
+https://jellyfish.co/
 https://www.prnewswire.com/news-releases/jellyfish-raises-71-million-series-c-funding-led-by-accel-insight-partners-and-tiger-global-301470515.html
 
 # Job Description
