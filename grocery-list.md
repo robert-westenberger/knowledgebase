@@ -2,7 +2,7 @@
 title: Grocery List
 description: 
 published: true
-date: 2022-04-06T01:43:34.173Z
+date: 2022-04-06T01:44:04.323Z
 tags: 
 editor: markdown
 ---
@@ -15,3 +15,7 @@ editor: markdown
 1 cup non fat greek yogurt
 4 cup shredded cheddar cheese (DONT BUY PRESHREDDED)
 2 cup cooked broccoli, chopped
+
+nonstick cooking spray
+salt
+pepper
