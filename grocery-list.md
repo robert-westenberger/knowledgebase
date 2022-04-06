@@ -2,7 +2,7 @@
 title: Grocery List
 description: 
 published: true
-date: 2022-04-06T01:42:59.952Z
+date: 2022-04-06T01:43:34.173Z
 tags: 
 editor: markdown
 ---
@@ -13,3 +13,5 @@ editor: markdown
 16 garlic cloves
 3C 1% low fat cottage cheese
 1 cup non fat greek yogurt
+4 cup shredded cheddar cheese (DONT BUY PRESHREDDED)
+2 cup cooked broccoli, chopped
