@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-20T15:31:38.096Z
+date: 2022-04-20T15:33:24.234Z
 tags: docker
 editor: markdown
 ---
@@ -30,4 +30,5 @@ The advantage of it is the ability to separate non-dependent steps and also run 
 Container self registration, self-inspects, copying files from the host to the contaienr.
 ### Data in the container
 If a container goes down, it needs a backup and recovery strategy. 
-### 
+### Mainly used for console / terminal based apps, not GUI
+You can still run GUI-based applicaitons developed with python and the QT framework in a linux container. You can also use X11 forwarding, but this is somewhat awkward (why?)
