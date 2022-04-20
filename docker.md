@@ -2,14 +2,14 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-20T15:05:22.047Z
+date: 2022-04-20T15:11:10.534Z
 tags: docker
 editor: markdown
 ---
 
 # Docker 
-## Benefits
-### Portability / Consistency
+## Advantages
+### Portability / Constistency
 Once you have tested your containerized application you can deploy it to any other system where Docker is running and you can be sure that your application will perform exactly as it did when you tested it.
 
 ### Performance
@@ -18,3 +18,7 @@ Although virtual machines are an alternative to containers, the fact that contai
 Docker containers are virtually identical in terms of performance in relation to bare metal. 
 
 
+### Continuous Integration Efficiency
+We can build a container image and use the same image over every step of the deployment process. 
+
+The advantage of it is the ability to separate non-dependent steps and also run them in parallel. 
