@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-20T15:33:24.234Z
+date: 2022-04-20T15:35:18.744Z
 tags: docker
 editor: markdown
 ---
@@ -32,3 +32,5 @@ Container self registration, self-inspects, copying files from the host to the c
 If a container goes down, it needs a backup and recovery strategy. 
 ### Mainly used for console / terminal based apps, not GUI
 You can still run GUI-based applicaitons developed with python and the QT framework in a linux container. You can also use X11 forwarding, but this is somewhat awkward (why?)
+### Persistent data storage is complicated
+By design, all of the data inside a container disappears forever when the container shuts down, unless you save it somewhere else first. There are ways to save data persistently in Docker, such as Docker Data Volumes, but this is arguably a challenge that still has yet to be addressed in a seamless way.
