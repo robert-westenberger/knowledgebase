@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:37:33.825Z
+date: 2022-04-24T19:37:58.244Z
 tags: docker
 editor: markdown
 ---
@@ -61,3 +61,5 @@ Pass the `--all` option... so
 `docker container rename <container identifier> <new name>`.
 
 See the "Name or Rename a Container" subsection above for more information about the `--name` option for the `run` command, for initially giving a name to a container.
+
+# Stop or Kill a Running Container
