@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T20:39:46.292Z
+date: 2022-04-24T20:42:32.013Z
 tags: docker
 editor: markdown
 ---
@@ -41,5 +41,8 @@ CMD ["nginx", "-g", "daemon off;"]
 Each instruction, `FROM`, `EXPOSE`, `RUN` and `CMD`, create another layer of the image.
 
 ## Building an Image
-In a directory containing a `Dockerfile`, the command
-`docker image build .` will build an image using that Dockerfile.
+To perform an image build, the daemon needs the name of the `Dockerfile` and the build context.
+
+Executing `docker image build .` will build an image. The daemon finds any file named `Dockerfile` within the context. 
+
+The `.` sets the context for the build. The context means the directory accessibile by the daemon during the build process.
