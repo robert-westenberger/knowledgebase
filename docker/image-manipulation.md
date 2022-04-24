@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:21:25.686Z
+date: 2022-04-24T21:26:06.979Z
 tags: docker
 editor: markdown
 ---
@@ -69,4 +69,19 @@ Taking the official `mysql` image for example, in order to run `mysql` version `
 `docker container run mysql:5.7`, where `mysql` is the image repo and `5.7` is the tag.
 
 
-`
+# List and Remove Docker Images
+The `image ls` command will list all images on your local system.
+
+`docker image ls`
+
+Images listed here can be deleted using the `image rm` command. 
+
+# Removing an Image
+`docker image rm <image identifier>`
+
+## By Force
+The `--force` option skips any confirmation questions. You can use the `--all` option to remove all cached images in your local registry. 
+
+## Remove All Cached Images
+The `--all` or `-a` option will remove all cached images in your local registry.
+
