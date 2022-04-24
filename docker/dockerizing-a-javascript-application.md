@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-24T23:55:36.493Z
+date: 2022-04-24T23:55:57.980Z
 tags: docker
 editor: markdown
 ---
@@ -16,7 +16,7 @@ editor: markdown
 - Copy the rest of the project files.
 - Start the development server by executing `npm run dev` (or relevant command).
 
-## Typical development Dockerfile
+## Typical Development Dockerfile
 ```
 FROM node:lts-alpine
 
@@ -35,3 +35,5 @@ COPY . .
 
 CMD [ "npm", "run", "dev" ]
 ```
+
+## Running a Development Container
