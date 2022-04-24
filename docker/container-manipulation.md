@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:09:16.527Z
+date: 2022-04-24T20:10:15.429Z
 tags: docker
 editor: markdown
 ---
@@ -34,7 +34,7 @@ Following this syntax, the `run` command can be written as follows:
 `docker container run <image name>` .
 
 The `image name` can be of any image from an online registry or your local system. 
-
+## Passing A Command to a Container That Is Not Running
 # Options
 ## Publishing Ports
 Since containers are isolated, your host system doesn't know anything about what's going on inside a container. Hence, applications running inside a container remain inaccessible from the outside. 
@@ -68,6 +68,7 @@ The `--name` option can be used to name the container.
 
 ## Remove Containers As Soon as They Are Stopped
 Ther `--rm` option for `container run` and `container start` will remove the containers as soon as they're stopped. 
+$$ 
 # List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
