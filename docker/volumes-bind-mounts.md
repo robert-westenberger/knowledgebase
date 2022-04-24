@@ -2,7 +2,7 @@
 title: Volumes and Bind Mounts
 description: 
 published: true
-date: 2022-04-24T23:33:04.794Z
+date: 2022-04-24T23:50:11.768Z
 tags: docker
 editor: markdown
 ---
@@ -15,6 +15,15 @@ A file or directory on the host machine is mounted into a container.
 --volume <local file system directory absolute path>:<container file system directory absolute path>:<read write access>
 ```
 # Volumes
+- Volumes are easier to back up or migrate than bind mounts.
+- You can manage volumes using Docker.
+- They work on both Linus and Windows containers.
+- Can be safely shared among multiple containers.
+- Volume drivers let you store volumes on remote hosts or cloud providers, to encrypt the contents of volumes, or to add other functionality.
+- New volumes can have their content pre-populated by a container.
+- Volumes on Docker Desktop have much higher performance than bind mounts from Mac and Windows hosts.
+- Volumes are often a better choice than persisting data in a container’s writable layer, because a volume does not increase the size of the containers using it, and the volume’s contents exist outside the lifecycle of a given container.
+
 
 # Anonymous Volumes
 ## Functionality
