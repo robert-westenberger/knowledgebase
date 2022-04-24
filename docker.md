@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:42:30.958Z
+date: 2022-04-24T18:43:16.111Z
 tags: docker
 editor: markdown
 ---
@@ -33,3 +33,7 @@ If a container goes down, it needs a backup and recovery strategy.
 You can still run GUI-based applicaitons developed with python and the QT framework in a linux container. You can also use X11 forwarding, but this is somewhat awkward (why?)
 ## Persistent data storage is complicated
 By design, all of the data inside a container disappears forever when the container shuts down, unless you save it somewhere else first. There are ways to save data persistently in Docker, such as Docker Data Volumes, but this is arguably a challenge that still has yet to be addressed in a seamless way.
+
+# Concepts
+## Container
+A container is an abstraction at the application layer that packages code and dependencies together. Instead of virtualizing the entire physical machine, containers virtualize the host operating system only.
