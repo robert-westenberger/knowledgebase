@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:29:17.976Z
+date: 2022-04-24T19:30:40.029Z
 tags: docker
 editor: markdown
 ---
@@ -38,5 +38,5 @@ To allow access from outside of a container, you must publish the appropriate po
 
 So for `--publish 8080:80`, any request sent to port `8080` of the host will be forwarded to port `80` inside the container.
 
-## How to Use Detached Mode
-
+## Detached Mode
+The `--detach` or `-d` option will override the default behavior of containers attaching themselves to the terminal window from which they are run. 
