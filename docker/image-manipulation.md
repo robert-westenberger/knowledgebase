@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:32:58.761Z
+date: 2022-04-24T21:35:34.514Z
 tags: docker
 editor: markdown
 ---
@@ -24,7 +24,8 @@ Using `EXPOSE` doesn't mean that you won't need to `--publish` the port. You'll 
 The `RUN` instruction executes a command inside the container shell. 
 ### CMD
 The `CMD` instruction sets the default command for your image. 
-
+### COPY
+The `COPY` instruction (`COPY <source> <destination`) copies files from your local filesystem and into an image.
 
 ### Example - Custom nginx
 ```
@@ -87,3 +88,5 @@ The `--all` or `-a` option will remove all cached images in your local registry.
 
 # View Layers of an Image
 The `docker image history <image repository>:<tag>` will list the layers of an image, ordered by age. 
+
+# 
