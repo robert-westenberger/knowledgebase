@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:04:15.656Z
+date: 2022-04-24T20:05:19.182Z
 tags: docker
 editor: markdown
 ---
@@ -56,6 +56,8 @@ The `-it` option passed to `container run` is a combination of the `-i` and `-t`
 
 `-i` will Keep STDIN open even if not attached.
 `-t` will allocate a pseudo-tty
+
+Running a container **interactively** will allow you to execute commands inside a running container.
 ## Name or Rename a Container
 By default, every container has two identifiers:
 
