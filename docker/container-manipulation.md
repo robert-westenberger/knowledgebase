@@ -2,16 +2,17 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:27:56.187Z
+date: 2022-04-24T19:29:17.976Z
 tags: docker
 editor: markdown
 ---
 
 # How to Run a container
-## Generic syntax
+## Syntax
+### Generic Syntax
 `docker run <image name>`
 
-## Restructured syntax
+### Restructured syntax
 `docker <object> <command> <options>
 
 - `<object>` indicates the type of Docker object you'll be manipulating. This can be a `container`, `image`, `network`, or `volume` object.
@@ -26,14 +27,16 @@ Following this syntax, the `run` command can be written as follows:
 
 The `image name` can be of any image from an online registry or your local system. 
 
-# How to Publish a Port
+## Options
+### Publishing Ports
 Since containers are isolated, your host system doesn't know anything about what's going on inside a container. Hence, applications running inside a container remain inaccessible from the outside. 
 
 To allow access from outside of a container, you must publish the appropriate port inside the container to a port on your local network. 
 
-## Common syntax for `--publish` or `-p` option
+#### Common syntax for `--publish` or `-p` option
 `--publish <host port>:<container port>`
 
 So for `--publish 8080:80`, any request sent to port `8080` of the host will be forwarded to port `80` inside the container.
 
-# How to Use Detached Mode
+## How to Use Detached Mode
+
