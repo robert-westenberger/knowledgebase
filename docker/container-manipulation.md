@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:54:31.397Z
+date: 2022-04-24T19:57:37.465Z
 tags: docker
 editor: markdown
 ---
@@ -86,5 +86,15 @@ The `stop` command shuts down a container gracefully by sending a `SIGTERM` sign
 `docker container restart <container identifier>`.
 
 The `container restart` command attempts to stop the target container and then starts it back up again, whereas the start command just starts an already stopped container.
+
+# Remove Dangling Containers
+The `container rm` command, whos generic syntax is
+`docker container rm <container identifier>`. 
+
+## Remove Multiple Containers At Once
+Pass identifiers to the `docker container rm` command separated by spaces.
+
+## Remove All Dangling Containers
+You can use the `container prune` command to remove all dangling containers in one go.
 
 
