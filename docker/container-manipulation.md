@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:26:47.810Z
+date: 2022-04-24T19:27:33.545Z
 tags: docker
 editor: markdown
 ---
@@ -33,3 +33,5 @@ To allow access from outside of a container, you must publish the appropriate po
 
 ## Common syntax for `--publish` or `-p` option
 `--publish <host port>:<container port>`
+
+So for `--publish 8080:80`, any request sent to port `8080` of the host will be forwarded to port `80` inside the container.
