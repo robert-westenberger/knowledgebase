@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:51:39.300Z
+date: 2022-04-24T18:52:47.720Z
 tags: docker
 editor: markdown
 ---
@@ -44,3 +44,5 @@ If you were to, for example, execute `uname -a` in a terminal in both the host o
 
 ## Image
 Multi-layered self contained files that act as the template for creating containers. They are like a frozen, read-only copy of a container. Images can be exchanged through registries.
+
+Through the Open Container Initiative, container images are now standardized, so an image built with Docker can be used with another runtime like Podman.
