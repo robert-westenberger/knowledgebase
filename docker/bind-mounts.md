@@ -2,10 +2,10 @@
 title: Bind Mounts
 description: 
 published: true
-date: 2022-04-24T23:10:28.573Z
+date: 2022-04-24T23:12:10.695Z
 tags: docker
 editor: markdown
 ---
 
-# Header
-Your content here
+# Functionality
+A file or directory on the host machine is mounted into a container. 
