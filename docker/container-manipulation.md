@@ -2,10 +2,10 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:11:35.532Z
+date: 2022-04-24T19:13:50.136Z
 tags: docker
 editor: markdown
 ---
 
-# Header
-Your content here
+# How to Run a container
+`docker run <image name>`
