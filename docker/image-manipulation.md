@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T20:34:43.751Z
+date: 2022-04-24T20:38:40.616Z
 tags: docker
 editor: markdown
 ---
@@ -20,6 +20,12 @@ Every valid `Dockerfile` starts with a `FROM` instruction. This is the base of t
 The `EXPOSE` instruction is used to indicate the port that needs to be published. 
 
 Using `EXPOSE` doesn't mean that you won't need to `--publish` the port. You'll still need to use the `--publish` option explicitly. The `EXPOSE` option works like documentation for someone who's trying to run a container using your image.
+### RUN 
+The `RUN` instruction executes a command inside the container shell. 
+### CMD
+The `CMD` instruction sets the default command for your image. 
+
+
 ### Example - Custom nginx
 ```
 FROM ubuntu:latest
@@ -33,3 +39,5 @@ RUN apt-get update && \
 CMD ["nginx", "-g", "daemon off;"]
 ```
 Each instruction, `FROM`, `EXPOSE`, `RUN` and `CMD`, create another layer of the image.
+
+## Building an Image
