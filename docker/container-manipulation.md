@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:57:37.465Z
+date: 2022-04-24T19:58:49.172Z
 tags: docker
 editor: markdown
 ---
@@ -58,6 +58,8 @@ By default, every container has two identifiers:
 - `NAME` - combination of two random words, joined with an underscore.
 
 The `--name` option can be used to name the container.
+
+## Remove Containers As Soon as They Are Stopped
 # List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
