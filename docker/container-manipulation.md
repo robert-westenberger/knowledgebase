@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:59:43.026Z
+date: 2022-04-24T20:01:02.731Z
 tags: docker
 editor: markdown
 ---
@@ -50,6 +50,7 @@ So for `--publish 8080:80`, any request sent to port `8080` of the host will be 
 The `--detach` or `-d` option will override the default behavior of containers attaching themselves to the terminal window from which they are run. 
 
 This means that if you then close that terminal window, the container will continue running.
+
 
 ## Name or Rename a Container
 By default, every container has two identifiers:
