@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:19:58.431Z
+date: 2022-04-24T21:20:12.824Z
 tags: docker
 editor: markdown
 ---
