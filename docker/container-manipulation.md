@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:38:35.317Z
+date: 2022-04-24T19:41:27.839Z
 tags: docker
 editor: markdown
 ---
@@ -66,3 +66,9 @@ See the "Name or Rename a Container" subsection above for more information about
 ## Containers Running in the Foreground
 Close the terminal window, or hit `ctrl + c`. 
 ## Containers Running in the Background
+### `container stop`
+`docker container stop <container identifier>` where `container identifier` can either be the id or the name of the container.
+
+The `stop` command shuts down a container gracefully by sending a `SIGTERM` signal. If the container doesn't stop within a certain period, a `SIGKILL` signal is sent which shuts down the container immediately. 
+### `container kill`
+`docker container kill <container identifier>` will send a `SIGKILL` signal instead.
