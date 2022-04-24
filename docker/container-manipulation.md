@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:16:22.970Z
+date: 2022-04-24T20:17:08.477Z
 tags: docker
 editor: markdown
 ---
@@ -80,6 +80,7 @@ The `--rm` option for `container run` and `container start` will remove the cont
 
 ## Use Volumes
 ### Bind Mounts
+A bind mount lets you form a two way data binding between the content of a local file system directory (source) and another directory inside a container (destination). This way any changes made in the destination directory will take effect on the source directory and vise versa.
 
 # List Containers
 ## Currently running
