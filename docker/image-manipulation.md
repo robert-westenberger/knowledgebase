@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:35:34.514Z
+date: 2022-04-24T21:49:41.397Z
 tags: docker
 editor: markdown
 ---
@@ -26,6 +26,14 @@ The `RUN` instruction executes a command inside the container shell.
 The `CMD` instruction sets the default command for your image. 
 ### COPY
 The `COPY` instruction (`COPY <source> <destination`) copies files from your local filesystem and into an image.
+## ADD 
+The `ADD` command has two forms:
+```
+ADD [--chown=<user>:<group>] <src>... <dest>
+ADD [--chown=<user>:<group>] ["<src>",... "<dest>"]
+```
+The `ADD` instruction copies new files, directories or remote file URLs from `<src>` and adds them to the filesystem of the image at the path `<dest>`.
+
 
 ### Example - Custom nginx
 ```
