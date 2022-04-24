@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:05:19.182Z
+date: 2022-04-24T20:09:16.527Z
 tags: docker
 editor: markdown
 ---
@@ -106,5 +106,6 @@ Pass identifiers to the `docker container rm` command separated by spaces.
 
 ## Remove All Dangling Containers
 You can use the `container prune` command to remove all dangling containers in one go.
+
 
 
