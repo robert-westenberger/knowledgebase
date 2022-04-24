@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:36:25.936Z
+date: 2022-04-24T19:37:33.825Z
 tags: docker
 editor: markdown
 ---
@@ -57,3 +57,7 @@ The `container ls` command can be used to list containers that are currently run
 Pass the `--all` option... so 
 `docker container ls --all`.
 
+# Rename a container
+`docker container rename <container identifier> <new name>`.
+
+See the "Name or Rename a Container" subsection above for more information about the `--name` option for the `run` command, for initially giving a name to a container.
