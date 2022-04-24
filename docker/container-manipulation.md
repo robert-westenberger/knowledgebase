@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:31:51.790Z
+date: 2022-04-24T19:36:25.936Z
 tags: docker
 editor: markdown
 ---
@@ -43,5 +43,17 @@ The `--detach` or `-d` option will override the default behavior of containers a
 
 This means that if you then close that terminal window, the container will continue running.
 
+## Name or Rename a Container
+By default, every container has two identifiers:
+
+- `CONTAINER ID` - a random 64 character-long string.
+- `NAME` - combination of two random words, joined with an underscore.
+
+The `--name` option can be used to name the container.
 # How to List Containers
+## Currently running
 The `container ls` command can be used to list containers that are currently running.
+## Containers that have run in the past
+Pass the `--all` option... so 
+`docker container ls --all`.
+
