@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:44:57.715Z
+date: 2022-04-24T18:48:56.904Z
 tags: docker
 editor: markdown
 ---
@@ -38,4 +38,6 @@ By design, all of the data inside a container disappears forever when the contai
 ## Container
 A container is an abstraction at the application layer that packages code and dependencies together. Instead of virtualizing the entire physical machine, containers virtualize the host operating system only. 
 
-They are a lot lighter than traditional virtual machines, so a large number of containers can be run simultaneously withotu affecting the performance of the host system. 
+They are a lot lighter than traditional virtual machines, so a large number of containers can be run simultaneously without affecting the performance of the host system. 
+
+If you were to, for example, execute `uname -a` in a terminal in both the host operating system and inside a container, you will see both the host OS and the container are using the same kernel.
