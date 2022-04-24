@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T22:14:25.071Z
+date: 2022-04-24T22:16:12.055Z
 tags: docker
 editor: markdown
 ---
@@ -50,6 +50,13 @@ ARG buildno=1
 The `WORKDIR` instruction sets the default working directory.
 
 It is set for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the Dockerfile. If the `WORKDIR` doesn’t exist, it will be created even if it’s not used in any subsequent Dockerfile instruction.
+
+It can be used multiple times per Dockerfile.
+
+### ENTRYPOINT
+An `ENTRYPOINT` instruciton allows you to config a container that will run as an executable.
+
+
 ### Example - Custom nginx
 ```
 FROM ubuntu:latest
