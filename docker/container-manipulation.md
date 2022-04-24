@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:01:27.833Z
+date: 2022-04-24T20:04:15.656Z
 tags: docker
 editor: markdown
 ---
@@ -52,7 +52,10 @@ The `--detach` or `-d` option will override the default behavior of containers a
 This means that if you then close that terminal window, the container will continue running.
 
 ## Interactive Mode
-The `-it` option passed to `container run`
+The `-it` option passed to `container run` is a combination of the `-i` and `-t` commands. 
+
+`-i` will Keep STDIN open even if not attached.
+`-t` will allocate a pseudo-tty
 ## Name or Rename a Container
 By default, every container has two identifiers:
 
