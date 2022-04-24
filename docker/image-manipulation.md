@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:20:12.824Z
+date: 2022-04-24T21:21:25.686Z
 tags: docker
 editor: markdown
 ---
@@ -58,6 +58,11 @@ The repository is usually known as the image name and the tag indicates a certai
 
 ### Tagging an Existing Image
 Use the `image tag` command.
+`docker image tag <image id> <image repository>:<image tag>`
+
+OR 
+
+`docker image tag <image repository>:<image tag> <new image repository>:<new image tag>`
 ### Example (Of using a tag)
 Taking the official `mysql` image for example, in order to run `mysql` version `5.7`, we would execute
 
