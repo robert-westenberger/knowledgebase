@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:55:57.481Z
+date: 2022-04-24T18:57:03.426Z
 tags: docker
 editor: markdown
 ---
@@ -46,10 +46,16 @@ Containers are just images in a running state.
 ## Image
 Multi-layered self contained files that act as the template for creating containers. They are like a frozen, read-only copy of a container. Images can be exchanged through registries.
 
+Through the Open Container Initiative, container images are now standardized, so an image built with Docker can be used with another runtime like Podman.
+
 ## Registry
 An image registry is a centralized place where you can upload your images and can also download images created by others. 
 
 [Docker Hub](https://hub.docker.com/) is the default public registry for Docker.
 
-Through the Open Container Initiative, container images are now standardized, so an image built with Docker can be used with another runtime like Podman.
+You can also create your own image registry for hosting private images. There is also a local registry that runs within your computer that caches images pulled from remote registries.
+
+
+
+
 
