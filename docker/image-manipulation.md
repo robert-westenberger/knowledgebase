@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:52:07.211Z
+date: 2022-04-24T21:57:01.304Z
 tags: docker
 editor: markdown
 ---
@@ -107,4 +107,4 @@ The `--all` or `-a` option will remove all cached images in your local registry.
 # View Layers of an Image
 The `docker image history <image repository>:<tag>` will list the layers of an image, ordered by age. 
 
-# 
+# Optimizing Docker Images
