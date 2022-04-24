@@ -2,7 +2,7 @@
 title: Docker Architecture
 description: 
 published: true
-date: 2022-04-24T19:08:54.797Z
+date: 2022-04-24T19:09:51.000Z
 tags: docker
 editor: markdown
 ---
@@ -34,3 +34,7 @@ Above is a diagram of what happens when `docker run hello-world` is executed.
 3. Docker daemon looks for the image within your local repository, and realizes that its not there, resulting in the `Unable to find image 'hello-world:latest' locally` that's printed on your terminal.
 
 4. The daemon then reaches out to the default public registry which is Docker Hub and puls in the latest copy of the `hello-world` image, indicated by the `latest: Pulling from library/hello-world` line in your terminal.
+
+5. Docker daemon then creates a new container from the freshly pulled image.
+
+6. Finally, Docker daemon runs the container created using the `hello-world` image outputting the wall of text to your terminal
