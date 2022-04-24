@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:13:19.878Z
+date: 2022-04-24T20:15:54.903Z
 tags: docker
 editor: markdown
 ---
@@ -77,7 +77,7 @@ The `--name` option can be used to name the container.
 
 ## Remove Containers As Soon as They Are Stopped
 Ther `--rm` option for `container run` and `container start` will remove the containers as soon as they're stopped. 
-$$ 
+
 # List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
