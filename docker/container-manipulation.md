@@ -2,12 +2,15 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:47:09.332Z
+date: 2022-04-24T19:49:40.297Z
 tags: docker
 editor: markdown
 ---
 
-# How to Run a container
+# Create a Container
+`container create` creates a container from a given image.
+# Run a container
+`container run` is, in reality, executing both `container create` and `container start`. 
 ## Syntax
 ### Generic Syntax
 `docker run <image name>`
@@ -50,7 +53,7 @@ By default, every container has two identifiers:
 - `NAME` - combination of two random words, joined with an underscore.
 
 The `--name` option can be used to name the container.
-# How to List Containers
+# List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
 ## Containers that have run in the past
@@ -85,4 +88,5 @@ The `container start` command starts any container in detached mode by default a
 `docker container restart <container identifier>`.
 
 The `container restart` command attempts to stop the target container and then starts it back up again, whereas the start command just starts an already stopped container.
+
 
