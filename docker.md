@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:43:16.111Z
+date: 2022-04-24T18:44:57.715Z
 tags: docker
 editor: markdown
 ---
@@ -36,4 +36,6 @@ By design, all of the data inside a container disappears forever when the contai
 
 # Concepts
 ## Container
-A container is an abstraction at the application layer that packages code and dependencies together. Instead of virtualizing the entire physical machine, containers virtualize the host operating system only.
+A container is an abstraction at the application layer that packages code and dependencies together. Instead of virtualizing the entire physical machine, containers virtualize the host operating system only. 
+
+They are a lot lighter than traditional virtual machines, so a large number of containers can be run simultaneously withotu affecting the performance of the host system. 
