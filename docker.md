@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:48:56.904Z
+date: 2022-04-24T18:51:05.281Z
 tags: docker
 editor: markdown
 ---
@@ -41,3 +41,5 @@ A container is an abstraction at the application layer that packages code and de
 They are a lot lighter than traditional virtual machines, so a large number of containers can be run simultaneously without affecting the performance of the host system. 
 
 If you were to, for example, execute `uname -a` in a terminal in both the host operating system and inside a container, you will see both the host OS and the container are using the same kernel.
+
+## Image
