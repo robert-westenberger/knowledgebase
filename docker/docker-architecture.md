@@ -2,7 +2,7 @@
 title: Docker Architecture
 description: 
 published: true
-date: 2022-04-24T19:09:51.000Z
+date: 2022-04-24T19:10:21.566Z
 tags: docker
 editor: markdown
 ---
@@ -37,4 +37,6 @@ Above is a diagram of what happens when `docker run hello-world` is executed.
 
 5. Docker daemon then creates a new container from the freshly pulled image.
 
-6. Finally, Docker daemon runs the container created using the `hello-world` image outputting the wall of text to your terminal
+6. Finally, Docker daemon runs the container created using the `hello-world` image outputting the wall of text to your terminal.
+
+Once an image has been fetched, it'll stay in the local cache.
