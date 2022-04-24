@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:51:05.281Z
+date: 2022-04-24T18:51:39.300Z
 tags: docker
 editor: markdown
 ---
@@ -43,3 +43,4 @@ They are a lot lighter than traditional virtual machines, so a large number of c
 If you were to, for example, execute `uname -a` in a terminal in both the host operating system and inside a container, you will see both the host OS and the container are using the same kernel.
 
 ## Image
+Multi-layered self contained files that act as the template for creating containers. They are like a frozen, read-only copy of a container. Images can be exchanged through registries.
