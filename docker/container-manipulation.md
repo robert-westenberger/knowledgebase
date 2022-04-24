@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:19:12.220Z
+date: 2022-04-24T20:22:06.431Z
 tags: docker
 editor: markdown
 ---
@@ -79,12 +79,14 @@ The `--name` option can be used to name the container.
 The `--rm` option for `container run` and `container start` will remove the containers as soon as they're stopped. 
 
 ## Use Volumes
-The `-v` or `--volume` option is used for creating a bind mount for a container. 
+The `-v` or `--volume` option is used for creating a bind mount for a container. It's valid for `container run` or `container create`. 
 ### Bind Mounts
 A bind mount lets you form a two way data binding between the content of a local file system directory (source) and another directory inside a container (destination). This way any changes made in the destination directory will take effect on the source directory and vise versa.
 
-The generic syntax is 
+#### Syntax
 `--volume <local file system directory absolute path>:<container file system directory absolute path>:<read write access>`
+
+The third field is optional, but you must pass the absolute path of your local directory and the absolute path of the directory inside the container. 
 
 # List Containers
 ## Currently running
