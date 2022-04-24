@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:51:23.606Z
+date: 2022-04-24T21:52:07.211Z
 tags: docker
 editor: markdown
 ---
@@ -38,6 +38,13 @@ The `ADD` instruction copies new files, directories or remote file URLs from `<s
 ARG <name>[=<default value>]
 ```
 The `ARG` instruction defines a variable that users can pass at build-time to the builder with the `docker build` command using the `--build-arg <varname>=<value>` flag.
+#### Default Values
+```
+FROM busybox
+ARG user1=someuser
+ARG buildno=1
+# ...
+```
 ### Example - Custom nginx
 ```
 FROM ubuntu:latest
