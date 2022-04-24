@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T22:28:44.253Z
+date: 2022-04-24T22:29:27.093Z
 tags: docker
 editor: markdown
 ---
@@ -53,6 +53,7 @@ It is set for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that
 
 It can be used multiple times per Dockerfile.
 
+By default, the working directory of any image is the root.
 ### ENTRYPOINT
 An `ENTRYPOINT` instruciton allows you to config a container that will run as an executable.
 
