@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T20:33:42.390Z
+date: 2022-04-24T20:34:43.751Z
 tags: docker
 editor: markdown
 ---
@@ -17,8 +17,9 @@ A `Dockerfile` is a collection of instructions that, once processed by the daemo
 Every valid `Dockerfile` starts with a `FROM` instruction. This is the base of the resultant image.
 
 ### EXPOSE 
-The `EXPOSE` instruction is used to indicate the port that needs to be published.
+The `EXPOSE` instruction is used to indicate the port that needs to be published. 
 
+Using `EXPOSE` doesn't mean that you won't need to `--publish` the port. You'll still need to use the `--publish` option explicitly. The `EXPOSE` option works like documentation for someone who's trying to run a container using your image.
 ### Example - Custom nginx
 ```
 FROM ubuntu:latest
