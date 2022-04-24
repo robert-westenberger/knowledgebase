@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T20:42:32.013Z
+date: 2022-04-24T20:44:26.102Z
 tags: docker
 editor: markdown
 ---
@@ -46,3 +46,4 @@ To perform an image build, the daemon needs the name of the `Dockerfile` and the
 Executing `docker image build .` will build an image. The daemon finds any file named `Dockerfile` within the context. 
 
 The `.` sets the context for the build. The context means the directory accessibile by the daemon during the build process.
+
