@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:45:33.369Z
+date: 2022-04-24T19:47:09.332Z
 tags: docker
 editor: markdown
 ---
@@ -82,6 +82,7 @@ You can get a list of all containers by executing `conatiner ls --all`. Then loo
 
 The `container start` command starts any container in detached mode by default and retains any port configurations made previously.
 ## Rebooting a Running Container
-- Restarting a container that has been previously stopped or killed.
-- Rebooting a running container
+`docker container restart <container identifier>`.
+
+The `container restart` command attempts to stop the target container and then starts it back up again, whereas the start command just starts an already stopped container.
 
