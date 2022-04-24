@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:20:35.079Z
+date: 2022-04-24T19:26:42.895Z
 tags: docker
 editor: markdown
 ---
@@ -25,3 +25,11 @@ Following this syntax, the `run` command can be written as follows:
 `docker container run <image name>` .
 
 The `image name` can be of any image from an online registry or your local system. 
+
+# How to Publish a Port
+Since containers are isolated, your host system doesn't know anything about what's going on inside a container. Hence, applications running inside a container remain inaccessible from the outside. 
+
+To allow access from outside of a container, you must publish the appropriate port inside the container to a port on your local network. 
+
+## Common syntax for `--publish` or `-p` option
+`--publish <host port>:<container port>
