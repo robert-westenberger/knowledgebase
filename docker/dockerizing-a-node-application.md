@@ -1,8 +1,8 @@
 ---
-title: Dockering A Node Application
+title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-20T15:37:42.545Z
+date: 2022-04-24T22:23:03.279Z
 tags: docker
 editor: markdown
 ---
