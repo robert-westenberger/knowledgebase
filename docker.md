@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:55:08.593Z
+date: 2022-04-24T18:55:57.481Z
 tags: docker
 editor: markdown
 ---
@@ -49,7 +49,7 @@ Multi-layered self contained files that act as the template for creating contain
 ## Registry
 An image registry is a centralized place where you can upload your images and can also download images created by others. 
 
-Docker Hub is the default public registry for Docker.
+[Docker Hub](https://hub.docker.com/) is the default public registry for Docker.
 
 Through the Open Container Initiative, container images are now standardized, so an image built with Docker can be used with another runtime like Podman.
 
