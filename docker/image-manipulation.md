@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T21:26:06.979Z
+date: 2022-04-24T21:32:58.761Z
 tags: docker
 editor: markdown
 ---
@@ -85,3 +85,5 @@ The `--force` option skips any confirmation questions. You can use the `--all` o
 ## Remove All Cached Images
 The `--all` or `-a` option will remove all cached images in your local registry.
 
+# View Layers of an Image
+The `docker image history <image repository>:<tag>` will list the layers of an image, ordered by age. 
