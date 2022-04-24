@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T20:45:48.427Z
+date: 2022-04-24T21:19:58.431Z
 tags: docker
 editor: markdown
 ---
@@ -50,7 +50,18 @@ The `.` sets the context for the build. The context means the directory accessib
 ## Tagging Docker Images
 Just like containers, you can assign custom identifiers to your images instead of relying on the randomly generated ID. It's just called **tagging** instead of naming.
 
+### At Build Time
 Generic syntax is
 `--tag <image repository>:<image tag>`
 
 The repository is usually known as the image name and the tag indicates a certain build or version.
+
+### Tagging an Existing Image
+Use the `image tag` command.
+### Example (Of using a tag)
+Taking the official `mysql` image for example, in order to run `mysql` version `5.7`, we would execute
+
+`docker container run mysql:5.7`, where `mysql` is the image repo and `5.7` is the tag.
+
+
+`
