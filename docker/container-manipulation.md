@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:44:11.708Z
+date: 2022-04-24T19:45:33.369Z
 tags: docker
 editor: markdown
 ---
@@ -74,12 +74,14 @@ The `stop` command shuts down a container gracefully by sending a `SIGTERM` sign
 `docker container kill <container identifier>` will send a `SIGKILL` signal instead.
 
 # Restart a Container
-For two scenarios, 
-- Restarting a container that has been previously stopped or killed.
-- Rebooting a running container
-
+## Restarting a Container That Has Been Previously Stopped or Killed.
 The `container start` command can be used to start any stopped or kiled container. The syntax is 
 `docker container start <container identifier>`. 
 
 You can get a list of all containers by executing `conatiner ls --all`. Then look for containers with the `Exited` status.
+
+The `container start` command starts any container in detached mode by default and retains any port configurations made previously.
+## Rebooting a Running Container
+- Restarting a container that has been previously stopped or killed.
+- Rebooting a running container
 
