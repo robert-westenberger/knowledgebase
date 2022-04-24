@@ -2,7 +2,7 @@
 title: Docker
 description: 
 published: true
-date: 2022-04-24T18:53:03.964Z
+date: 2022-04-24T18:54:00.173Z
 tags: docker
 editor: markdown
 ---
@@ -45,6 +45,9 @@ If you were to, for example, execute `uname -a` in a terminal in both the host o
 Containers are just images in a running state.
 ## Image
 Multi-layered self contained files that act as the template for creating containers. They are like a frozen, read-only copy of a container. Images can be exchanged through registries.
+
+## Registry
+An image registry is a centralized 
 
 Through the Open Container Initiative, container images are now standardized, so an image built with Docker can be used with another runtime like Podman.
 
