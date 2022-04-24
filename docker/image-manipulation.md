@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T22:22:12.135Z
+date: 2022-04-24T22:28:44.253Z
 tags: docker
 editor: markdown
 ---
@@ -56,7 +56,8 @@ It can be used multiple times per Dockerfile.
 ### ENTRYPOINT
 An `ENTRYPOINT` instruciton allows you to config a container that will run as an executable.
 
-
+### USER
+The `USER` instruction sets the default user for the image. By default, Docker runs containers as the root user. This can pose a security threat in some cases, so it's usually best to run as a non-root user.
 ### Example - Custom nginx
 ```
 FROM ubuntu:latest
