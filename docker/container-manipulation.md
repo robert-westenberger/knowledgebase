@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:30:40.029Z
+date: 2022-04-24T19:31:03.190Z
 tags: docker
 editor: markdown
 ---
@@ -40,3 +40,5 @@ So for `--publish 8080:80`, any request sent to port `8080` of the host will be 
 
 ## Detached Mode
 The `--detach` or `-d` option will override the default behavior of containers attaching themselves to the terminal window from which they are run. 
+
+This means that if you then close that terminal window, the container will continue running.
