@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T20:44:26.102Z
+date: 2022-04-24T20:45:48.427Z
 tags: docker
 editor: markdown
 ---
@@ -47,3 +47,10 @@ Executing `docker image build .` will build an image. The daemon finds any file 
 
 The `.` sets the context for the build. The context means the directory accessibile by the daemon during the build process.
 
+## Tagging Docker Images
+Just like containers, you can assign custom identifiers to your images instead of relying on the randomly generated ID. It's just called **tagging** instead of naming.
+
+Generic syntax is
+`--tag <image repository>:<image tag>`
+
+The repository is usually known as the image name and the tag indicates a certain build or version.
