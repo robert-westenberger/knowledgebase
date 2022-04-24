@@ -2,13 +2,18 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:49:40.297Z
+date: 2022-04-24T19:54:31.397Z
 tags: docker
 editor: markdown
 ---
 
 # Create a Container
-`container create` creates a container from a given image.
+`container create` creates a container from a given image. The container won't be running after this command.
+# Start a Container
+The `container start` command can be used to start any stopped or kiled container. The syntax is 
+`docker container start <container identifier>`. 
+
+The `container start` command starts any container in detached mode by default and retains any port configurations made previously.
 # Run a container
 `container run` is, in reality, executing both `container create` and `container start`. 
 ## Syntax
@@ -30,13 +35,13 @@ Following this syntax, the `run` command can be written as follows:
 
 The `image name` can be of any image from an online registry or your local system. 
 
-## Options
-### Publishing Ports
+# Options
+## Publishing Ports
 Since containers are isolated, your host system doesn't know anything about what's going on inside a container. Hence, applications running inside a container remain inaccessible from the outside. 
 
 To allow access from outside of a container, you must publish the appropriate port inside the container to a port on your local network. 
 
-#### Common syntax for `--publish` or `-p` option
+### Common syntax for `--publish` or `-p` option
 `--publish <host port>:<container port>`
 
 So for `--publish 8080:80`, any request sent to port `8080` of the host will be forwarded to port `80` inside the container.
@@ -56,7 +61,7 @@ The `--name` option can be used to name the container.
 # List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
-## Containers that have run in the past
+## All containers (including stopped or killed containers)
 Pass the `--all` option... so 
 `docker container ls --all`.
 
@@ -76,15 +81,8 @@ The `stop` command shuts down a container gracefully by sending a `SIGTERM` sign
 ### `container kill`
 `docker container kill <container identifier>` will send a `SIGKILL` signal instead.
 
-# Restart a Container
-## Restarting a Container That Has Been Previously Stopped or Killed.
-The `container start` command can be used to start any stopped or kiled container. The syntax is 
-`docker container start <container identifier>`. 
 
-You can get a list of all containers by executing `conatiner ls --all`. Then look for containers with the `Exited` status.
-
-The `container start` command starts any container in detached mode by default and retains any port configurations made previously.
-## Rebooting a Running Container
+# Rebooting a Running Container
 `docker container restart <container identifier>`.
 
 The `container restart` command attempts to stop the target container and then starts it back up again, whereas the start command just starts an already stopped container.
