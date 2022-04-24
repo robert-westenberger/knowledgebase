@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T22:16:12.055Z
+date: 2022-04-24T22:22:12.135Z
 tags: docker
 editor: markdown
 ---
@@ -120,3 +120,8 @@ The `--all` or `-a` option will remove all cached images in your local registry.
 The `docker image history <image repository>:<tag>` will list the layers of an image, ordered by age. 
 
 
+# Share Docker Images Online
+1. Create an account at any of the online registries.
+2. Login from the command line using `docker login`.
+3. Push the image by executing `docker image push <image repository>:<image tag>`.
+	In order to push it to a registry, the image must be tagged. 
