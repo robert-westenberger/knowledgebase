@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T22:11:05.653Z
+date: 2022-04-24T22:14:25.071Z
 tags: docker
 editor: markdown
 ---
@@ -45,6 +45,11 @@ ARG user1=someuser
 ARG buildno=1
 # ...
 ```
+
+### WORKDIR
+The `WORKDIR` instruction sets the default working directory.
+
+It is set for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` and `ADD` instructions that follow it in the Dockerfile. If the `WORKDIR` doesn’t exist, it will be created even if it’s not used in any subsequent Dockerfile instruction.
 ### Example - Custom nginx
 ```
 FROM ubuntu:latest
