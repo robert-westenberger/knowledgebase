@@ -2,7 +2,7 @@
 title: Image Manipulation
 description: 
 published: true
-date: 2022-04-24T20:38:40.616Z
+date: 2022-04-24T20:39:46.292Z
 tags: docker
 editor: markdown
 ---
@@ -41,3 +41,5 @@ CMD ["nginx", "-g", "daemon off;"]
 Each instruction, `FROM`, `EXPOSE`, `RUN` and `CMD`, create another layer of the image.
 
 ## Building an Image
+In a directory containing a `Dockerfile`, the command
+`docker image build .` will build an image using that Dockerfile.
