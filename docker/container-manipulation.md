@@ -2,8 +2,8 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:22:06.431Z
-tags: docker
+date: 2022-04-24T20:23:36.289Z
+tags: containers, docker
 editor: markdown
 ---
 
