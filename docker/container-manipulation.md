@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:10:15.429Z
+date: 2022-04-24T20:13:19.878Z
 tags: docker
 editor: markdown
 ---
@@ -34,7 +34,16 @@ Following this syntax, the `run` command can be written as follows:
 `docker container run <image name>` .
 
 The `image name` can be of any image from an online registry or your local system. 
-## Passing A Command to a Container That Is Not Running
+## Passing a Command to a Container That Is Not Running
+`docker container run <image name> <command>`
+
+Whatever you pass after the image name gets passed to the default entry point of the image.
+
+Most of the images except the executable images use shell or `sh` as the default entry-point, so any valid shell command can be passed to them as arguments.
+### Example: Perform base64 encoding using the busybox image
+`docker container run --rm busybox sh -c "echo -n my-secret | base64"`
+
+
 # Options
 ## Publishing Ports
 Since containers are isolated, your host system doesn't know anything about what's going on inside a container. Hence, applications running inside a container remain inaccessible from the outside. 
