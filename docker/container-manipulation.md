@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:20:04.058Z
+date: 2022-04-24T19:20:35.079Z
 tags: docker
 editor: markdown
 ---
@@ -23,3 +23,5 @@ editor: markdown
 Following this syntax, the `run` command can be written as follows: 
 
 `docker container run <image name>` .
+
+The `image name` can be of any image from an online registry or your local system. 
