@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T19:26:42.895Z
+date: 2022-04-24T19:26:47.810Z
 tags: docker
 editor: markdown
 ---
@@ -32,4 +32,4 @@ Since containers are isolated, your host system doesn't know anything about what
 To allow access from outside of a container, you must publish the appropriate port inside the container to a port on your local network. 
 
 ## Common syntax for `--publish` or `-p` option
-`--publish <host port>:<container port>
+`--publish <host port>:<container port>`
