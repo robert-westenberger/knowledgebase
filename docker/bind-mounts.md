@@ -1,8 +1,8 @@
 ---
-title: Bind Mounts
+title: Volumes and Bind Mounts
 description: 
 published: true
-date: 2022-04-24T23:22:27.418Z
+date: 2022-04-24T23:22:58.691Z
 tags: docker
 editor: markdown
 ---
