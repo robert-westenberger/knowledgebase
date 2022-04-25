@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T01:42:19.065Z
+date: 2022-04-25T01:43:01.371Z
 tags: docker
 editor: markdown
 ---
@@ -19,6 +19,10 @@ The default networking driver in Docker. This can be used when multiple containe
 Removes the network isolation completely. Any container running under a `host` network is basically attached to the network of the host system.
 ### None
 This driver disables networking for containers altogether.
+### Overlay
+Used for connecting multiple Docker daemons across computers.
+### Macvlan
+Allows assignment of MAC addresses to containers, making them function like physical devices in a network.
 ## List networks
 `docker network ls`
 # Create a User-Defined Bridge
