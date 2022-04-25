@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T03:33:19.848Z
+date: 2022-04-25T03:34:49.054Z
 tags: docker
 editor: markdown
 ---
@@ -36,7 +36,7 @@ All containers are attached to the default bridge network by default which can c
 During a container’s lifetime, you can connect or disconnect it from user-defined networks on the fly. To remove a container from the default bridge network, you need to stop the container and recreate it with different network options.
 ## Creating a User-Defined Bridge Network
 `docker network create <network name>`
-## Attach a Container to a Network in Docker
 # Attach a Container to a Network
+
 # Detach Containers From a Network
 # Get Rid of Networks 
