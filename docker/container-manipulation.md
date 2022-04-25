@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-24T20:23:36.289Z
+date: 2022-04-25T03:37:47.113Z
 tags: containers, docker
 editor: markdown
 ---
@@ -87,6 +87,7 @@ A bind mount lets you form a two way data binding between the content of a local
 `--volume <local file system directory absolute path>:<container file system directory absolute path>:<read write access>`
 
 The third field is optional, but you must pass the absolute path of your local directory and the absolute path of the directory inside the container. 
+## Attach To a Network
 
 # List Containers
 ## Currently running
