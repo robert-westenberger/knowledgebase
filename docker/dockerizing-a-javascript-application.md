@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T00:55:57.511Z
+date: 2022-04-25T00:56:18.630Z
 tags: docker
 editor: markdown
 ---
@@ -81,3 +81,4 @@ In the second stage of the build, we copy the compiled website assets from the f
 ##### Building Production Image
 `docker image build --tag appname:prod .`
 
+##### Running the Production Container
