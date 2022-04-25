@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T01:43:01.371Z
+date: 2022-04-25T02:01:32.384Z
 tags: docker
 editor: markdown
 ---
@@ -26,6 +26,9 @@ Allows assignment of MAC addresses to containers, making them function like phys
 ## List networks
 `docker network ls`
 # Create a User-Defined Bridge
+Docker comes with a default bridge network named `bridge`. Any container you run will be automatically attached to this bridge network. 
+## Extra Features of User-Defined Bridge Networks
+
 # Attach a Container to a Network
 # Detach Containers From a Network
 # Get Rid of Networks 
