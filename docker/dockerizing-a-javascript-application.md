@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T01:01:07.434Z
+date: 2022-04-25T01:07:28.670Z
 tags: docker
 editor: markdown
 ---
@@ -92,3 +92,11 @@ docker container run \
 ```
 
 # How to Ignore Unnecessary Files
+Use a `.dockerignore` file for ignoring unnecessary files.
+## Example `.dockerignore`
+```
+.git
+*Dockerfile*
+*docker-compose*
+node_modules
+```
