@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T02:01:32.384Z
+date: 2022-04-25T02:02:45.745Z
 tags: docker
 editor: markdown
 ---
@@ -28,7 +28,8 @@ Allows assignment of MAC addresses to containers, making them function like phys
 # Create a User-Defined Bridge
 Docker comes with a default bridge network named `bridge`. Any container you run will be automatically attached to this bridge network. 
 ## Extra Features of User-Defined Bridge Networks
-
+### User-defined bridges provide automatic DNS resolution between containers
+Containers attached to the same network can communicate with each other using the container name. If you have two containers named `api` and `db`, the API container will be able to connect to the database container using the `db` name. 
 # Attach a Container to a Network
 # Detach Containers From a Network
 # Get Rid of Networks 
