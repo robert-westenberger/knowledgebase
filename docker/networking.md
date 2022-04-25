@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T03:23:15.875Z
+date: 2022-04-25T03:23:58.369Z
 tags: docker
 editor: markdown
 ---
@@ -32,6 +32,8 @@ Docker comes with a default bridge network named `bridge`. Any container you run
 Containers attached to the same network can communicate with each other using the container name. If you have two containers named `api` and `db`, the API container will be able to connect to the database container using the `db` name. 
 ### Provide better isolation
 All containers are attached to the default bridge network by default which can cause conflicts among them. Attaching containers to a user-defined bridge can ensure better isolation. 
+### Containers can be attached and detached from user-defined networks on the fly
+During a container’s lifetime, you can connect or disconnect it from user-defined networks on the fly. To remove a container from the default bridge network, you need to stop the container and recreate it with different network options.
 # Attach a Container to a Network
 # Detach Containers From a Network
 # Get Rid of Networks 
