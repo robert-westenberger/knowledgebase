@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T01:07:28.670Z
+date: 2022-04-25T01:08:11.251Z
 tags: docker
 editor: markdown
 ---
@@ -92,7 +92,12 @@ docker container run \
 ```
 
 # How to Ignore Unnecessary Files
-Use a `.dockerignore` file for ignoring unnecessary files.
+Use a `.dockerignore` file for ignoring unnecessary files. 
+
+Files and directories in a `.dockerignore` will be ignored by the `COPY` instruction. 
+
+If you do a bind mount, the `.dockerignore` will have no effect.
+
 ## Example `.dockerignore`
 ```
 .git
