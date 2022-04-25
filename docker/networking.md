@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T03:25:56.703Z
+date: 2022-04-25T03:27:32.168Z
 tags: docker
 editor: markdown
 ---
@@ -34,6 +34,9 @@ Containers attached to the same network can communicate with each other using th
 All containers are attached to the default bridge network by default which can cause conflicts among them. Attaching containers to a user-defined bridge can ensure better isolation. 
 ### Containers can be attached and detached from user-defined networks on the fly
 During a container’s lifetime, you can connect or disconnect it from user-defined networks on the fly. To remove a container from the default bridge network, you need to stop the container and recreate it with different network options.
+## Creating a User-Defined Bridge Network
+`docker network create <network name>`
+## Attach a container to a network in docker 
 # Attach a Container to a Network
 # Detach Containers From a Network
 # Get Rid of Networks 
