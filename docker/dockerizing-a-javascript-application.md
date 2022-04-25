@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T00:59:59.212Z
+date: 2022-04-25T01:01:07.434Z
 tags: docker
 editor: markdown
 ---
@@ -90,3 +90,5 @@ docker container run \
     --publish 8080:80 \
     hello-dock:prod
 ```
+
+# How to Ignore Unnecessary Files
