@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-25T03:37:47.113Z
+date: 2022-04-25T03:38:07.242Z
 tags: containers, docker
 editor: markdown
 ---
@@ -88,7 +88,8 @@ A bind mount lets you form a two way data binding between the content of a local
 
 The third field is optional, but you must pass the absolute path of your local directory and the absolute path of the directory inside the container. 
 ## Attach To a Network
-
+Available to either `container run` or `container create`.
+`--network <network identifier>`.
 # List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
