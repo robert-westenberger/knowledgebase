@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T03:23:58.369Z
+date: 2022-04-25T03:25:56.703Z
 tags: docker
 editor: markdown
 ---
@@ -25,7 +25,7 @@ Used for connecting multiple Docker daemons across computers.
 Allows assignment of MAC addresses to containers, making them function like physical devices in a network.
 ## List networks
 `docker network ls`
-# Create a User-Defined Bridge
+# User-Defined Bridge Network
 Docker comes with a default bridge network named `bridge`. Any container you run will be automatically attached to this bridge network. 
 ## Extra Features of User-Defined Bridge Networks
 ### Provide automatic DNS resolution between containers
