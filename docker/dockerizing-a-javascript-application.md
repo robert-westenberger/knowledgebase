@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T00:39:30.466Z
+date: 2022-04-25T00:42:48.451Z
 tags: docker
 editor: markdown
 ---
@@ -46,3 +46,4 @@ In production mode, `npm run build` command compiles your JS code into static HT
 
 ## Creating a production build
 1. Use `node` as the base image and build the application.
+2. Install `nginx` inside 
