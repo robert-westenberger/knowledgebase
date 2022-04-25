@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-24T23:55:57.980Z
+date: 2022-04-25T00:20:49.576Z
 tags: docker
 editor: markdown
 ---
@@ -37,3 +37,6 @@ CMD [ "npm", "run", "dev" ]
 ```
 
 ## Running a Development Container
+- We want to bind mount the source code directory on our host machine into the running container.
+
+- We want to create an anonymous volume for the `node_modules` directory inside the container 
