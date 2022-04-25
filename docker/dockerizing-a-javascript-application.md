@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T00:47:11.662Z
+date: 2022-04-25T00:47:34.081Z
 tags: docker
 editor: markdown
 ---
@@ -54,4 +54,5 @@ The `node` image is big and most of the stuff it carries is unnecessary to serve
 - Use `node` image as the base and build the application.
 - Copy the files created using the `node` image to an `nginx` image. 
 - Create the final image based on `nginx` and discard all `node` related stuff.
+
 
