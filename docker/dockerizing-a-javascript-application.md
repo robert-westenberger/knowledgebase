@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T00:47:34.081Z
+date: 2022-04-25T00:54:45.862Z
 tags: docker
 editor: markdown
 ---
@@ -56,3 +56,24 @@ The `node` image is big and most of the stuff it carries is unnecessary to serve
 - Create the final image based on `nginx` and discard all `node` related stuff.
 
 
+#### Multi-staged Dockerfile build
+```
+FROM node:lts-alpine as builder
+
+WORKDIR /app
+
+COPY ./package.json ./
+RUN npm install
+
+COPY . .
+RUN npm run build
+
+FROM nginx:stable-alpine
+
+EXPOSE 80
+
+COPY --from=builder /app/dist /usr/share/nginx/html
+```
+In the above `Dockerfile`, on the first line we use the `as builder` syntax to assign a name to that particular stage of the build so it can be referred to later on. 
+
+In the second stage of the build, we copy the compiled website assets from the first stage into the serve folder for nginx.
