@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T00:55:49.187Z
+date: 2022-04-25T00:55:57.511Z
 tags: docker
 editor: markdown
 ---
@@ -79,5 +79,5 @@ In the above `Dockerfile`, on the first line we use the `as builder` syntax to a
 In the second stage of the build, we copy the compiled website assets from the first stage into the serve folder for nginx.
 
 ##### Building Production Image
-`docker image build --tag my-app:prod .`
+`docker image build --tag appname:prod .`
 
