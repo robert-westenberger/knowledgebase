@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T03:34:49.054Z
+date: 2022-04-25T03:36:50.455Z
 tags: docker
 editor: markdown
 ---
@@ -37,6 +37,9 @@ During a container’s lifetime, you can connect or disconnect it from user-defi
 ## Creating a User-Defined Bridge Network
 `docker network create <network name>`
 # Attach a Container to a Network
-
+## Use network connect command
+`docker network connect <network identifier> <container identifier>`
+## Use `--network` option for the `container run` or `container create` commands.
+`--network <network identifier>`.
 # Detach Containers From a Network
 # Get Rid of Networks 
