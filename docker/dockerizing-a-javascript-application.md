@@ -2,7 +2,7 @@
 title: Dockerizing a Javascript Application
 description: 
 published: true
-date: 2022-04-25T00:26:55.262Z
+date: 2022-04-25T00:36:08.639Z
 tags: docker
 editor: markdown
 ---
@@ -42,3 +42,4 @@ CMD [ "npm", "run", "dev" ]
 - We want to create an anonymous volume for the `node_modules` directory inside the container so it won't be overwritten by a (nonexistent) directory in the bind mount. 
 
 # Performing Multi-Staged Builds in Docker
+In production mode, `npm run build` command compiles your JS code into static HTML, CSS, and JS. To run, you don't need any other runtime dependencies. All you need is a server like `nginx` for example.
