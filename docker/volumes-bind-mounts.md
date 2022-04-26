@@ -2,7 +2,7 @@
 title: Volumes and Bind Mounts
 description: 
 published: true
-date: 2022-04-26T16:11:55.043Z
+date: 2022-04-26T16:13:38.303Z
 tags: docker
 editor: markdown
 ---
@@ -25,9 +25,9 @@ A file or directory on the host machine is mounted into a container.
 - Volumes are often a better choice than persisting data in a container’s writable layer, because a volume does not increase the size of the containers using it, and the volume’s contents exist outside the lifecycle of a given container.
 
 ## Named Volumes
-Very similar to an anonymous volume, except that you can refer to a named volume using it's name,
+Very similar to an anonymous volume, except that you can refer to a named volume using it's name. 
+### Creating a named volume.
 ## Anonymous Volumes
-### Functionality
 An anonymous volume is identical to a bind mount except that you don't need to specify the source directory. 
 ### Generic Syntax
 ```
