@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-26T16:31:25.007Z
+date: 2022-04-26T16:31:49.914Z
 tags: containers, docker
 editor: markdown
 ---
@@ -134,4 +134,10 @@ Pass identifiers to the `docker container rm` command separated by spaces.
 You can use the `container prune` command to remove all dangling containers in one go.
 
 
+# Access Logs from a Container in Docker
+To see logs from a container, you can use the `container logs` command. 
+## Generic syntax
+`docker container logs <container identifier>`
+### Options
+There is a `--follow` or `-f` option for the command which lets you attach the console to the logs output and get a continuous stream of text.
 
