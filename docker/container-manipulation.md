@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-26T16:31:49.914Z
+date: 2022-04-26T16:42:19.049Z
 tags: containers, docker
 editor: markdown
 ---
@@ -43,7 +43,7 @@ Most of the images except the executable images use shell or `sh` as the default
 ### Example: Perform base64 encoding using the busybox image
 `docker container run --rm busybox sh -c "echo -n my-secret | base64"`
 
-
+# Execute Commands in a Running Container
 # Options
 ## Publishing Ports
 Since containers are isolated, your host system doesn't know anything about what's going on inside a container. Hence, applications running inside a container remain inaccessible from the outside. 
