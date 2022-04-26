@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-25T03:38:36.622Z
+date: 2022-04-26T16:10:00.192Z
 tags: containers, docker
 editor: markdown
 ---
@@ -90,6 +90,10 @@ The third field is optional, but you must pass the absolute path of your local d
 ## Attach To a Network
 Available to either `container run` or `container create`.
 `--network <network identifier>`
+## Provide Environment Variables
+Available to either `container run` or `container create`.
+
+`--env <VARIABLE_NAME>=<VARIABLE_VALUE>
 # List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
