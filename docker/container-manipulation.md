@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-26T16:42:53.637Z
+date: 2022-04-26T16:44:26.899Z
 tags: containers, docker
 editor: markdown
 ---
@@ -45,7 +45,9 @@ Most of the images except the executable images use shell or `sh` as the default
 
 # Execute Commands in a Running Container
 `docker container exec <container identifier> <command>`
-
+## Execute an interactive command
+Pass the `-it` flag. To access a shell running inside a `notes-api` container, you can execute..
+`docker container exec -it notes-api sh`
 # Options
 ## Publishing Ports
 Since containers are isolated, your host system doesn't know anything about what's going on inside a container. Hence, applications running inside a container remain inaccessible from the outside. 
