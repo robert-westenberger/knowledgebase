@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-26T15:55:16.147Z
+date: 2022-04-26T15:57:36.419Z
 tags: docker
 editor: markdown
 ---
@@ -44,4 +44,6 @@ During a container’s lifetime, you can connect or disconnect it from user-defi
 ## Use `--network` option for the `container run` or `container create` commands.
 `--network <network identifier>`.
 # Detach Containers From a Network
-# Get Rid of Networks 
+`docker network disconnect <network identifier> <container identifier>`
+# Get Rid of Networks
+`docker network rm <network identifier>`
