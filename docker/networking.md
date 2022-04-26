@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2022-04-25T03:36:50.455Z
+date: 2022-04-26T15:55:16.147Z
 tags: docker
 editor: markdown
 ---
@@ -30,6 +30,8 @@ Docker comes with a default bridge network named `bridge`. Any container you run
 ## Extra Features of User-Defined Bridge Networks
 ### Provide automatic DNS resolution between containers
 Containers attached to the same network can communicate with each other using the container name. If you have two containers named `api` and `db`, the API container will be able to connect to the database container using the `db` name. 
+
+In order for automatic DNS resolution to work, you must assign custom names to the containers. Using randomly generated names will not work.
 ### Provide better isolation
 All containers are attached to the default bridge network by default which can cause conflicts among them. Attaching containers to a user-defined bridge can ensure better isolation. 
 ### Containers can be attached and detached from user-defined networks on the fly
