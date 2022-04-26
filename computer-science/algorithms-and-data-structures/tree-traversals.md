@@ -2,7 +2,7 @@
 title: Tree Traversals
 description: 
 published: true
-date: 2022-04-26T17:39:54.131Z
+date: 2022-04-26T17:57:09.168Z
 tags: algorithms, trees
 editor: markdown
 ---
@@ -27,4 +27,29 @@ printLevelorder(tree)
     b) Enqueue temp_node’s children 
       (first left then right children) to q
     c) Dequeue a node from q.
+```
+### Implementation
+#### Javascript
+```
+
+function treeByLevels (rootNode) {
+  const returnArray = [];
+  const queue = [];
+  if (rootNode !== null) {
+    queue.push(rootNode);
+  }
+  
+  while (queue.length !== 0) {
+    const node = queue.shift();
+    returnArray.push(node.value);
+    if (node.left !== null) {
+      queue.push(node.left);
+    }
+    if (node.right !== null) {
+      queue.push(node.right);
+    }
+  }
+
+	return returnArray;
+}
 ```
