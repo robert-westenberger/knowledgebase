@@ -2,7 +2,7 @@
 title: Container Manipulation
 description: 
 published: true
-date: 2022-04-26T16:10:00.192Z
+date: 2022-04-26T16:31:25.007Z
 tags: containers, docker
 editor: markdown
 ---
@@ -93,7 +93,7 @@ Available to either `container run` or `container create`.
 ## Provide Environment Variables
 Available to either `container run` or `container create`.
 
-`--env <VARIABLE_NAME>=<VARIABLE_VALUE>
+`--env <VARIABLE_NAME>=<VARIABLE_VALUE>`
 # List Containers
 ## Currently running
 The `container ls` command can be used to list containers that are currently running.
