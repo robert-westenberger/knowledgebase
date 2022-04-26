@@ -2,7 +2,7 @@
 title: Management Scripts in Docker
 description: 
 published: true
-date: 2022-04-26T16:49:33.783Z
+date: 2022-04-26T16:49:55.366Z
 tags: docker
 editor: markdown
 ---
@@ -45,3 +45,5 @@ printf "\n"
 
 printf "boot script finished\n\n"
 ```
+### `build.sh`
+Creates and runs the containers. It also creates the images, volumes, and networks if necessary.
