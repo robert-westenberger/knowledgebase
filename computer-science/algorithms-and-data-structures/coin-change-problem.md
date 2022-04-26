@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-26T18:05:54.076Z
+date: 2022-04-26T18:11:07.526Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -40,3 +40,6 @@ Explanation:
 4 way: 
    10 cents = 10 cents.
 ```
+# Approach
+## Dynamic Programming
+Dynamic programming can be used to tackle this problem. Recall that dynamic programming is simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner.
