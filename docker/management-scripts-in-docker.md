@@ -2,7 +2,7 @@
 title: Management Scripts in Docker
 description: 
 published: true
-date: 2022-04-26T16:50:59.488Z
+date: 2022-04-26T16:52:02.195Z
 tags: docker
 editor: markdown
 ---
@@ -10,7 +10,7 @@ editor: markdown
 # Writing Management Scripts in Docker
 Managing a multi-container project along with network and volumes means writing a lot of commands. To simplify, we can use shell scripts and a Makefile.
 
-## Examples
+## Example Shell Scripts
 Examples below utilize two pretend containers, "notes-api" and "notes-db".
 ### `boot.sh`
 Used for starting containers if they already exist.
@@ -216,4 +216,32 @@ fi
 printf "\n"
 
 printf "shutdown script finished\n\n"
+```
+## Example Makefile
+```
+#################
+## Production ##
+################
+start:
+	./boot.sh
+build:
+	./build.sh
+stop:
+	./shutdown.sh
+destroy: stop
+	./destroy.sh
+
+##################
+## Development ##
+#################
+dev-start:
+	docker-compose up --detach
+dev-build:
+	docker-compose up --detach --build; docker-compose exec api npm run db:migrate
+dev-shell:
+	docker-compose exec api bash
+dev-stop:
+	docker-compose stop
+dev-destroy:
+	docker-compose down --volume
 ```
