@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-27T16:33:51.944Z
+date: 2022-04-27T16:35:23.491Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -10,6 +10,7 @@ editor: markdown
 # Problem
 Given a list of coins i.e 1 cents, 5 cents and 10 cents, can you determine the total number of combinations of the coins in the given list to make up the number N?
 
+This is a type of **knapsack** problem.
 ## Example
 ### Example 1
 Suppose you are given the coins 1 cent, 5 cents, and 10 cents with N = 8 cents, what are the total number of combinations of the coins you can arrange to obtain 8 cents. 
@@ -42,4 +43,6 @@ Explanation:
 ```
 # Approach
 ## Dynamic Programming
-Dynamic programming can be used to tackle this problem. Recall that dynamic programming is simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner.
+Dynamic programming can be used to tackle this problem. Recall that dynamic programming is simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. 
+
+### The subproblem
