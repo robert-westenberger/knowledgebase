@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-27T16:45:45.732Z
+date: 2022-04-27T17:31:14.668Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -49,3 +49,21 @@ Dynamic programming can be used to tackle this problem. Recall that dynamic prog
 We need to calculate the number of ways to make change using the given coins for each integer between `0` and `n`, where `n` is the amount we are making change for. 
 
 The subproblems can be arranged in a two dimensional table. The value `arr[i][j]` in our array represents the number of possible ways that a sum `j` can be made using the first `i` coins only.
+
+#### Implementation (Javascript)
+```
+var countChange = function(money, coins) {
+  const subProbsArray = new Array(coins.length + 1).fill(null).map(() => new Array(money +1).fill(null).map(() => 0));
+  // 1 way to make change for 0...
+  for (let i = 0; i < coins.length + 1; i++){
+    subProbsArray[i][0] = 1;
+  }
+  for (let i = 1; i < coins.length + 1; i++) {
+    for (let j = 1; j < money + 1; j++) {
+      subProbsArray[i][j] = subProbsArray[i - 1][j] + 
+        (j >= coins[i-1] ? subProbsArray[i][j - coins[i -1]] : 0);
+    }
+  }
+  return subProbsArray[coins.length][money];
+}
+```
