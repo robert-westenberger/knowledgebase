@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-27T16:42:04.806Z
+date: 2022-04-27T16:43:06.849Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -46,4 +46,4 @@ Explanation:
 Dynamic programming can be used to tackle this problem. Recall that dynamic programming is simplifying a complicated problem by breaking it down into simpler sub-problems in a recursive manner. 
 
 ### The subproblem
-We need to calculate the number of ways to make change for  `x` using combinations of given coins, where `x` is a value between `0` and the amount `n` we are trying to calculate change for. 
+We need to calculate the number of ways to make change for each integer between `0` and `n`, where `n` is the amount we are making change for. 
