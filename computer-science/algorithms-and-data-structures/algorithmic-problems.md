@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-04-28T16:46:19.248Z
+date: 2022-04-28T16:47:28.606Z
 tags: algorithms
 editor: markdown
 ---
@@ -18,4 +18,5 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 
 # Pointer Algorithms
 Algorithms that take advantage of the structure of data, using pointers, to calculate something. 
-## 
+## Examples
+[Detect Loop in Linked List (Floyd's Cycle Detection Algorithm](/computer-science/algorithms-and-data-structures/algorithmic-problems/detect-loop-in-linked-list) - Uses two pointers, moving through a linked list at different speeds, to detect a loop.
