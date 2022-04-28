@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-27T17:31:14.668Z
+date: 2022-04-28T14:58:52.113Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -50,6 +50,39 @@ We need to calculate the number of ways to make change using the given coins for
 
 The subproblems can be arranged in a two dimensional table. The value `arr[i][j]` in our array represents the number of possible ways that a sum `j` can be made using the first `i` coins only.
 
+#### Subproblem tables generated
+Note that for the below generated tables, the rows are for arrays of coins, starting from no coins, and adding another coin on each row until we have an array of all the coins.
+
+For example, if we have coins `[1, 2, 5]`, we would have 
+```
+[]
+[1]
+[1, 2]
+[1, 2, 5]
+```
+
+The columns are series of sequential integers from `0` to `n` where `n` is the amount of money. So if we were trying to calculate change for `5`, the columns from left to right would be 
+```
+0 1 2 3 4 5
+```
+##### Making change for `4` with a `1` and a `2` coin.
+
+```
+[ 
+  [ 1, 0, 0, 0, 0 ], 
+  [ 1, 1, 1, 1, 1 ], 
+  [ 1, 1, 2, 2, 3 ]
+]
+```
+##### Making change for `10` with a `5`, `2`, and `3` coin
+```
+[ 
+  [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ],
+  [ 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 2 ],
+  [ 1, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ] 
+]
+```
 #### Implementation (Javascript)
 ```
 var countChange = function(money, coins) {
