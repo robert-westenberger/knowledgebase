@@ -2,7 +2,7 @@
 title: Maximum Path Sum in a Pyramid of Numbers
 description: 
 published: true
-date: 2022-04-28T17:05:37.110Z
+date: 2022-04-28T17:37:42.410Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -40,4 +40,33 @@ Find the max total from top to bottom of the triangle below.
 </pre>
 
 # Approaches
-## Dynamic Programming Top Down
+## Dynamic Programming
+The subproblem we have is to find the maximum path from any particular node to the bottom of the tree. After we combine the answers to those subproblems, that will be the answer to the main problem.
+
+So starting from the bottom row, each number on the bottom is it's own max sum. 
+
+Recursing up the tree, to the row that is above the bottom row, for each number in that row, we calculate the maximum path. It is whatever adjacent number is the biggest. We can add the numbers on the second to bottom most row to the adjacent bottom row numbers that are the largest. Recursively continue, bottom to top.
+
+So for example..
+<pre>
+   3
+  7 4           
+ 2 4 6
+8 5 9 3
+</pre>
+becomes
+<pre>
+   3
+  7 4           
+10 13 15
+</pre>
+becomes
+<pre>
+    3
+  20 19           
+</pre>
+So recursively expanding back out again,
+<pre>
+    <span style="color: red; font-weight: bold;">3</span>
+  <span style="color: red; font-weight: bold;">20</span> 19           
+</pre>
