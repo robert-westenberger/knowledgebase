@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-28T15:36:36.686Z
+date: 2022-04-28T15:38:46.066Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -118,6 +118,8 @@ If money is `0`, we return `1` because there is exactly `1` way to make change f
 Otherwise, recurse down two different paths. On one path, at each level of recursion, reduce the money amount by the value of the first coin in the array. On the other path, at each level of recursion, take a coin out of the array of coins.
 
 This top-down recursive approach will keep recursing down in each path, until it reaches the base cases. The solutions, in memory, are then added together to return our final answer.
+##### Example of using `[1,2]` coins to make change for `2`.
+We start with 
 #### Implementation 3 (Javascript) 
 ```
 let countChange = (amount, coins) => {
