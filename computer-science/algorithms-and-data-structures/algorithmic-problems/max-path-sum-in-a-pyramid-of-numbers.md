@@ -2,7 +2,7 @@
 title: Maximum Path Sum in a Pyramid of Numbers
 description: 
 published: true
-date: 2022-04-28T16:54:09.665Z
+date: 2022-04-28T16:54:29.974Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -38,3 +38,4 @@ Find the max total from top to bottom of the triangle below.
  63 66 04 68 89 53 67 30 73 16 69 87 40 31
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
 </pre>
+
