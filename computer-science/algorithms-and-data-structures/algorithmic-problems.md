@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-04-28T16:35:31.686Z
+date: 2022-04-28T16:35:53.931Z
 tags: algorithms
 editor: markdown
 ---
@@ -10,5 +10,5 @@ editor: markdown
 # Dynamic Programming
 
 ## Examples
-[coin-change-problem](/computer-science/algorithms-and-data-structures/algorithmic-problems/coin-change-problem)
-[max-path-sum-in-a-pyramid-of-numbers](/computer-science/algorithms-and-data-structures/algorithmic-problems/max-path-sum-in-a-pyramid-of-numbers)
+[Coin Change Problem](/computer-science/algorithms-and-data-structures/algorithmic-problems/coin-change-problem)
+[Max Path Sum in a Pyramid of Numbers](/computer-science/algorithms-and-data-structures/algorithmic-problems/max-path-sum-in-a-pyramid-of-numbers)
