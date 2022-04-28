@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-28T16:11:08.782Z
+date: 2022-04-28T16:11:37.377Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -144,14 +144,3 @@ So...
 `A = ((D+(H+I))+(F+G))`
 `A = ((1+(0+0))+(1+0))`
 `A=2`
-#### Implementation 3 (Javascript) 
-```
-let countChange = (amount, coins) => {
-  let [coin, ...rest] = coins
-  if (!coin)       return 0
-  if (amount <  0) return 0
-  if (amount == 0) return 1
-  return countChange(amount - coin, coins) + 
-         countChange(amount, rest)
-}
-```
