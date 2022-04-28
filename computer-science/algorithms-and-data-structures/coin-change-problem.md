@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-28T15:53:00.605Z
+date: 2022-04-28T16:11:08.782Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -124,17 +124,26 @@ This top-down recursive approach will keep recursing down in each path, until it
 
 `(B)countChange(1, [1,2])` - We return `(D)countChange(0, [1,2]) + (E)countChange(1, [2])`
 
-`(D)countChange(0, [1,2])` - We return 1
+`(C)countChange(2, [2]);` - We return `(F)countChange(0, [2]) +(G)countChange(2, [])`
 
-`(E)countChange(1, [2])` - We return `(F)countChange(0, [1,2]) + (G)countChange(1, [])`
+`(D)countChange(0, [1,2])` - Return 1
 
-`(F)countChange(0, [1,2])` - We return 1
-`(G)countChange(1, [])` - We return 0
-`(C)countChange(2, [2])` - We return `(H)countChange(0, [2]) + (I)countChange(2, [])`
-`(H)countChange(0, [2])` - We return 1
-`(I)countChange(2, [])` - We return 0
+`(E)countChange(1, [2])` - Return `(H)countChange(-1, [2]) + (I)countChange(1, [])` 
 
+`(F)countChange(0, [2])` Return 1
+`(G)countChange(2, [])` REturn 0
+`(H)countChange(-1, [2])` REturn 0
+`(I)countChange(1, [])` - Return 0
 
+So...
+`A = (B+C)`
+`B = (D+E)`
+`C = (F+G)`
+`E = (H+I)`
+`D=1, F=1, G=0,H=0,I=0`
+`A = ((D+(H+I))+(F+G))`
+`A = ((1+(0+0))+(1+0))`
+`A=2`
 #### Implementation 3 (Javascript) 
 ```
 let countChange = (amount, coins) => {
