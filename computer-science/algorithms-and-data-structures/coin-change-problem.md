@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-28T15:38:46.066Z
+date: 2022-04-28T15:41:34.042Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -119,7 +119,11 @@ Otherwise, recurse down two different paths. On one path, at each level of recur
 
 This top-down recursive approach will keep recursing down in each path, until it reaches the base cases. The solutions, in memory, are then added together to return our final answer.
 ##### Example of using `[1,2]` coins to make change for `2`.
-We start with 
+`countChange(2, [1,2]);`
+
+Recurse..
+`countChange(1, [1,2]) + countChange(2, [2]);`
+
 #### Implementation 3 (Javascript) 
 ```
 let countChange = (amount, coins) => {
