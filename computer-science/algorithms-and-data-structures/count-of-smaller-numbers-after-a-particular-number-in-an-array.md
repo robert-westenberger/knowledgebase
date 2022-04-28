@@ -2,7 +2,7 @@
 title: Get Count Of Smaller Numbers After Particular Number In An Array
 description: 
 published: true
-date: 2021-11-02T18:30:01.307Z
+date: 2022-04-28T16:34:06.463Z
 tags: algorithms
 editor: markdown
 ---
