@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-04-28T16:43:43.189Z
+date: 2022-04-28T16:45:08.298Z
 tags: algorithms
 editor: markdown
 ---
@@ -14,4 +14,4 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 [Max Path Sum in a Pyramid of Numbers](/computer-science/algorithms-and-data-structures/algorithmic-problems/max-path-sum-in-a-pyramid-of-numbers) - Calculate the maximum sum, from the top to the bottom of a pyramid, when you're only allowed to move to adjacent numbers at each level.
 
 # Pointer Algorithms
-Algorithms that take advantage 
+Algorithms that take advantage of the structure of data, using pointers, to calculate something. 
