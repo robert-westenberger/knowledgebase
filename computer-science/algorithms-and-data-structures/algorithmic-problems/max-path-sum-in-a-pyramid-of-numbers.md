@@ -2,7 +2,7 @@
 title: Maximum Path Sum in a Pyramid of Numbers
 description: 
 published: true
-date: 2022-04-28T16:59:07.142Z
+date: 2022-04-28T17:05:37.110Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -40,4 +40,4 @@ Find the max total from top to bottom of the triangle below.
 </pre>
 
 # Approaches
-## 
+## Dynamic Programming Top Down
