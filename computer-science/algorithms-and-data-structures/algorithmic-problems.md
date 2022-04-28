@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-04-28T16:46:08.818Z
+date: 2022-04-28T16:46:19.248Z
 tags: algorithms
 editor: markdown
 ---
@@ -18,3 +18,4 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 
 # Pointer Algorithms
 Algorithms that take advantage of the structure of data, using pointers, to calculate something. 
+## 
