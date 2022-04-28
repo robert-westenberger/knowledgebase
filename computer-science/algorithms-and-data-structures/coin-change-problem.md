@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-28T14:58:52.113Z
+date: 2022-04-28T15:18:44.330Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -83,7 +83,7 @@ The columns are series of sequential integers from `0` to `n` where `n` is the a
   [ 1, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ] 
 ]
 ```
-#### Implementation (Javascript)
+#### Implementation 1 (Javascript)
 ```
 var countChange = function(money, coins) {
   const subProbsArray = new Array(coins.length + 1).fill(null).map(() => new Array(money +1).fill(null).map(() => 0));
@@ -98,5 +98,30 @@ var countChange = function(money, coins) {
     }
   }
   return subProbsArray[coins.length][money];
+}
+```
+#### Implementation 2 (Javascript)
+```
+var countChange = function(money, coins) {
+  if(money < 0 || coins.length === 0)
+    return 0
+  else if(money === 0)
+    return 1
+  else
+    return countChange(money - coins[0], coins) + countChange(money, coins.slice(1))
+}
+```
+For this recursive implementation, starting from the amount of money we are checking for and the total set of coins, we return `0` if money is less than `0` or the amount of `coins` is `0`, since we can't make change for a negative amount or if we have no coins. 
+
+If money is `0`, we return `1` because there is exactly `1` way to make change for `0`. 
+#### Implementation 3 (Javascript) 
+```
+let countChange = (amount, coins) => {
+  let [coin, ...rest] = coins
+  if (!coin)       return 0
+  if (amount <  0) return 0
+  if (amount == 0) return 1
+  return countChange(amount - coin, coins) + 
+         countChange(amount, rest)
 }
 ```
