@@ -2,7 +2,7 @@
 title: Coin Change Problem
 description: 
 published: true
-date: 2022-04-28T15:18:44.330Z
+date: 2022-04-28T15:19:23.098Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -114,6 +114,8 @@ var countChange = function(money, coins) {
 For this recursive implementation, starting from the amount of money we are checking for and the total set of coins, we return `0` if money is less than `0` or the amount of `coins` is `0`, since we can't make change for a negative amount or if we have no coins. 
 
 If money is `0`, we return `1` because there is exactly `1` way to make change for `0`. 
+
+Otherwise, 
 #### Implementation 3 (Javascript) 
 ```
 let countChange = (amount, coins) => {
