@@ -2,7 +2,7 @@
 title: Maximum Path Sum in a Pyramid of Numbers
 description: 
 published: true
-date: 2022-04-28T16:53:49.070Z
+date: 2022-04-28T16:54:09.665Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -18,7 +18,9 @@ By starting at the top of the triangle below and moving to adjacent numbers on t
 </pre>
 
 That is, $3 + 7 + 4 + 9 = 23$.
-Find the max total from top to bottom of the triangle below..
+
+Find the max total from top to bottom of the triangle below.
+
 <pre>
               75
              95 64
