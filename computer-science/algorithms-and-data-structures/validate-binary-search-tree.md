@@ -2,7 +2,7 @@
 title: Validate a Binary Search Tree
 description: 
 published: true
-date: 2021-11-01T02:42:45.744Z
+date: 2022-04-28T16:32:02.967Z
 tags: algorithms
 editor: markdown
 ---
