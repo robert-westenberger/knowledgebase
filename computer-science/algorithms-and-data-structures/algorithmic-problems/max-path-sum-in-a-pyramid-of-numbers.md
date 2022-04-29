@@ -2,7 +2,7 @@
 title: Maximum Path Sum in a Pyramid of Numbers
 description: 
 published: true
-date: 2022-04-28T17:40:29.283Z
+date: 2022-04-29T14:00:43.303Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -65,10 +65,5 @@ becomes
     3
   20 19           
 </pre>
-So from bottom to top, we go LEFT->RIGHT->RIGHT, which with our original triangle we can see is 
-<pre>
-   <span style="color: red; font-weight: bold;">3</span>
-  <span style="color: red; font-weight: bold;">7</span> 4
- 2 <span style="color: red; font-weight: bold;">4</span> 6
-8 5 <span style="color: red; font-weight: bold;">9</span> 3
-</pre>
+becomes 23.
+
