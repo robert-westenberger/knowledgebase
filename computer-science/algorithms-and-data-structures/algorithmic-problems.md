@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-04-30T22:43:03.895Z
+date: 2022-04-30T22:44:13.205Z
 tags: algorithms
 editor: markdown
 ---
@@ -22,5 +22,6 @@ Algorithms that take advantage of the structure of data, using pointers, to calc
 ## Examples
 [Detect Loop in Linked List (Floyd's Cycle Detection Algorithm](/computer-science/algorithms-and-data-structures/algorithmic-problems/detect-loop-in-linked-list) - Uses two pointers, moving through a linked list at different speeds, to detect a loop.
 # Backtracking
+Backtracking is a general algorithm for finding solutions to some computational problems, notably constrant satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
 ## Examples
 [Generate Valid Parentheses](/computer-science/algorithms-and-data-structures/algorithmic-problems/generate-valid-parentheses) - For a number `n`, generate all combinations of well-formed parentheses.
