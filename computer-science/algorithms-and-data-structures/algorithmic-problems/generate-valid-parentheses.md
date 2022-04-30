@@ -2,7 +2,7 @@
 title: Generate Valid Parentheses
 description: 
 published: true
-date: 2022-04-30T21:02:29.077Z
+date: 2022-04-30T21:08:52.851Z
 tags: algorithms, parentheses-problems, recursion, bit-manipulation
 editor: markdown
 ---
@@ -20,3 +20,5 @@ Output: ["((()))","(()())","(())()","()(())","()()()"]
 Input: n = 1
 Output: ["()"]
 ```
+
+# Approach 
