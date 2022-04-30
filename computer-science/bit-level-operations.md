@@ -2,7 +2,7 @@
 title: Bit Level Operations
 description: 
 published: true
-date: 2022-04-30T22:10:49.376Z
+date: 2022-04-30T22:14:23.490Z
 tags: 
 editor: markdown
 ---
@@ -35,4 +35,4 @@ A bit shift moves each digit in a number's binary representation left or right. 
 When shifting left, the most-significant bit is lost, and the $0$ bit is inserted on the other end. 
 #### In Javascript
 The `<<` operator is the left-shift operator.
-The operation `a << b` will take a decimal number `a`, and shift it's binary representation `b` bits to the left. `b` $0$ bits will be added to the right. 
+The operation `a << b` will take a decimal number `a`, and shift it's binary representation `b` bits to the left. `b` $0$ bits will be added to the right.
