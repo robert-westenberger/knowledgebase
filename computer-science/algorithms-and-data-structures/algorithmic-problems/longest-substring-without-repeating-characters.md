@@ -2,7 +2,7 @@
 title: Longest Substring Without Repeating Characters
 description: 
 published: true
-date: 2022-05-01T19:23:48.155Z
+date: 2022-05-01T19:30:50.572Z
 tags: algorithms, sliding-window-technique
 editor: markdown
 ---
@@ -38,6 +38,14 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 - Inside this loop, do two things: 
 	- Create an object that will keep track of letters visited.
   - Run another loop inside this loop, starting at the current outer loop's position and running to the end of the string.
+- Inside the inner loop, if we encounter a character we have seen before, we break, incrementing the outer loop. This will reset the visited characters, and we restart the process over again.
+- Otherwise, we mark the character as visited. We also record the result, if its greater than the current result.
+
+The outer loop represents the left side of the sliding window. The inner loop represents the right side of the sliding window. 
+
+So starting from the beginning of the string, we increase the size of the window one character at a time. Every time the window size is increased, we check to see if the character that is added to the window is unique. If it is, we can expand the size of the window yet again. If it's not, we move the left bound of the window a position to the right, reset our "visited" object and shrink the window back to 1 character again. Then we repeat the process. 
+
+The result is whenever the window was at it's largest. 
 #### Implementation (Javascript)
 ```
 const lengthOfLongestSubstring = (s) => {
