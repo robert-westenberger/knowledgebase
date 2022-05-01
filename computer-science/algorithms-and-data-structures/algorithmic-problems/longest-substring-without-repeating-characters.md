@@ -2,7 +2,7 @@
 title: Longest Substring Without Repeating Characters
 description: 
 published: true
-date: 2022-05-01T19:35:11.467Z
+date: 2022-05-01T19:57:33.975Z
 tags: algorithms, sliding-window-technique
 editor: markdown
 ---
@@ -88,5 +88,6 @@ abcab**cb**b
 abcabc**b**b
 abcabcb**b**
 
+### Optimized Sliding Window Technique
 
 
