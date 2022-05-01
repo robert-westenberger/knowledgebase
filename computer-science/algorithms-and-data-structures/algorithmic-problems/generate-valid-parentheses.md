@@ -2,7 +2,7 @@
 title: Generate Valid Parentheses
 description: 
 published: true
-date: 2022-04-30T22:40:31.328Z
+date: 2022-05-01T00:11:28.161Z
 tags: algorithms, parentheses-problems, recursion, bit-manipulation
 editor: markdown
 ---
@@ -50,3 +50,25 @@ const generateParentheses = (n) => {
 }
 ```
 ## Backtracking
+
+### Implementation(Javascript)
+```
+const backtrack = (outputArray, currString, open, close, max, level = 0) => {
+  // base case
+  if (currString.length === max * 2) {
+    outputArray.push(currString);
+    return;
+  }
+  if (open < max) {
+    backtrack(outputArray, currString + "(", open + 1, close, max, level + 1);
+  }
+  if (close < open) {
+    backtrack(outputArray, currString + ")", open, close + 1, max, level + 1);
+  }
+}
+const generateParentheses = (n) => {
+  const outputArray = [];
+  backtrack(outputArray, "", 0, 0, n);
+  return outputArray;
+}
+```
