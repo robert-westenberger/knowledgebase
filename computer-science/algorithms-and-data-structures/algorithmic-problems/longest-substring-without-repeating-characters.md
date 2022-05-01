@@ -2,7 +2,7 @@
 title: Longest Substring Without Repeating Characters
 description: 
 published: true
-date: 2022-05-01T21:06:40.690Z
+date: 2022-05-01T21:15:16.333Z
 tags: algorithms, sliding-window-technique
 editor: markdown
 ---
@@ -91,5 +91,6 @@ abcabcb**b**
 ### Optimized Sliding Window Technique
 - Initialize an object to keep track of characters encountered.
 - Initialize result, left, and right variables to `0`.
-- Slide the right index from the beginning of the string to the end of the string. 
+- Slide the right index from the beginning of the string to the end of the string, one index at a time. If the new index is not in the window, keep sliding right. 
+- If a character is found that's currently in the window, we remove the character from the current window by sliding the left index to the right. 
 
