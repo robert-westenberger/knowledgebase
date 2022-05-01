@@ -2,7 +2,7 @@
 title: Generate Valid Parentheses
 description: 
 published: true
-date: 2022-05-01T00:11:28.161Z
+date: 2022-05-01T00:16:38.229Z
 tags: algorithms, parentheses-problems, recursion, bit-manipulation
 editor: markdown
 ---
@@ -50,7 +50,7 @@ const generateParentheses = (n) => {
 }
 ```
 ## Backtracking
-
+The longest the string can possibly be, for $n$ parens, is $n*2$.
 ### Implementation(Javascript)
 ```
 const backtrack = (outputArray, currString, open, close, max, level = 0) => {
