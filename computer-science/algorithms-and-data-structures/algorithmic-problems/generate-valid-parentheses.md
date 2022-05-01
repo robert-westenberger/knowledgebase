@@ -2,7 +2,7 @@
 title: Generate Valid Parentheses
 description: 
 published: true
-date: 2022-05-01T00:21:25.324Z
+date: 2022-05-01T00:28:01.833Z
 tags: algorithms, parentheses-problems, recursion, bit-manipulation
 editor: markdown
 ---
@@ -54,7 +54,10 @@ const generateParentheses = (n) => {
 The base case is when the length of the current string we are building is $n \cdot 2$. 
 
 
-The longest the string can possibly be, for $n$ parens, is $n\cdot2$. When we are building our possible answers, at each level of recursion we can check the length of the current string, and if it's length is $n \cdot 2$ we can add it to our list of answers. 
+The longest the string can possibly be, for $n$ parens, is $n\cdot2$. When we are building a possible string of valid parens, at each level of recursion, if it's length is $n \cdot 2$ we know it has $n$ valid parens and we can add it to our list of answers.
+### First Recursive Path - Open Parentheses
+Our first path of recursion adds an opening parens, if one can still be added. This path will be called exactly $n$ times.
+### Second recursive path - Close parentheses
 ### Implementation(Javascript)
 ```
 const backtrack = (outputArray, currString, open, close, max, level = 0) => {
