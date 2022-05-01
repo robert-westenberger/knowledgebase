@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-01T01:12:38.230Z
+date: 2022-05-01T01:13:54.419Z
 tags: algorithms
 editor: markdown
 ---
@@ -40,3 +40,7 @@ For finding subarrays in an array that satisfies given conditions.
 Given a string and a positive number `k`, find the longest substring of the string containing `k` distinct characters. If `k` is more than the total number of distinct characters in the string, return the whole string.
 ### Find all substrings of a string that are a permutation of another string.
 Find all substrings of a string that contains all characters of another string. In other words, find all substrings of the first string that are anagrams of the second string.
+### Find maximum length sequence of continuous ones (Using Sliding Window)
+Given a binary array, find the index of 0 to be replaced with 1 to get a maximum length sequence of continuous ones.
+### Count distinct absolute values in a sorted array
+Given an array of sorted integers that may contain several duplicate elements, count the total number of distinct absolute values in it.
