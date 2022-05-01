@@ -1,9 +1,9 @@
 ---
-title: Algorithms and Data Structures
+title: Algorithms
 description: 
 published: true
-date: 2021-08-30T18:10:54.539Z
-tags: book-notes, index
+date: 2022-05-01T23:21:44.141Z
+tags: book-notes, algorithms, index
 editor: markdown
 ---
 
