@@ -2,8 +2,8 @@
 title: AVL Tree
 description: 
 published: true
-date: 2021-11-05T23:34:12.357Z
-tags: data-structures
+date: 2022-05-01T23:18:56.665Z
+tags: data-structures, trees
 editor: markdown
 ---
 
