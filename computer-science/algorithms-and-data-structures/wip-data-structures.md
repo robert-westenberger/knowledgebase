@@ -2,7 +2,7 @@
 title: WIP Data Structures
 description: 
 published: true
-date: 2022-05-01T23:03:06.519Z
+date: 2022-05-01T23:04:23.771Z
 tags: data-structures
 editor: markdown
 ---
@@ -23,12 +23,7 @@ See [Arrays](/computer-science/algorithms-and-data-structures/arrays)
 # Linked Data Structures
 Composed of distinct chunks of memory bound together by pointers, and include lists, trees, and graph adjacency lists.
 
-## Advantages
-- Overflow on linked structures never occurs unless the memory is actually full.
-- Insertion and deletion are simpler than for static arrays. 
-- With large records, moving pointers is easier and faster than moving the items themselves.
-
-
+See [Linked Lists](/computer-science/algorithms-and-data-structures/linked-list)
 
 ## Pointers
 Pointers represent the address of a location in memory. A variable storing a pointer to a given data item can provide more freedom than storying a copy of the item itself. 
