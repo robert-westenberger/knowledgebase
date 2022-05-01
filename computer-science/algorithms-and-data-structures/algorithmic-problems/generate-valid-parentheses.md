@@ -2,7 +2,7 @@
 title: Generate Valid Parentheses
 description: 
 published: true
-date: 2022-05-01T00:16:38.229Z
+date: 2022-05-01T00:21:25.324Z
 tags: algorithms, parentheses-problems, recursion, bit-manipulation
 editor: markdown
 ---
@@ -50,7 +50,11 @@ const generateParentheses = (n) => {
 }
 ```
 ## Backtracking
-The longest the string can possibly be, for $n$ parens, is $n*2$.
+### Base Case
+The base case is when the length of the current string we are building is $n \cdot 2$. 
+
+
+The longest the string can possibly be, for $n$ parens, is $n\cdot2$. When we are building our possible answers, at each level of recursion we can check the length of the current string, and if it's length is $n \cdot 2$ we can add it to our list of answers. 
 ### Implementation(Javascript)
 ```
 const backtrack = (outputArray, currString, open, close, max, level = 0) => {
