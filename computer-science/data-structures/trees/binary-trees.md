@@ -2,7 +2,7 @@
 title: Binary Trees
 description: 
 published: true
-date: 2022-05-01T23:17:59.146Z
+date: 2022-05-01T23:36:26.599Z
 tags: data-structures, trees, binary-trees
 editor: markdown
 ---
@@ -77,6 +77,7 @@ tree *find_minimum(tree *t) {
 ```
 
 ### Traversal
+#### Recursive
 Visiting every node in a RBT is an important part of many algorithms. It is a special case of traversing all the nodes and edges in a graph.
 
 BST's make it easy to report labels in sorted order. All keys smaller than the root must lie in the left subtree of the root, and all keys bigger than the root in the right subtree. Visiting the nodes recursively produces an in-order traveersal of the search tree
@@ -95,6 +96,7 @@ Each item is processed only once during the course of traversal, so it runs in $
 Changing the position of the `process_item` call relative to the traversals of the left and right subtrees changes the order of the traversal. 
 * Processing the item first yields a **pre-order traversal**
 * Processing the item last yields a **post-order traversal**
+
 
 ### Insertion
 There is exactly one place to insert an item $x$ into a BST $T$. 
