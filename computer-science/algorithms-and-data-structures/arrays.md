@@ -2,11 +2,10 @@
 title: Arrays
 description: 
 published: true
-date: 2022-05-01T23:06:06.230Z
+date: 2022-05-01T23:08:45.579Z
 tags: data-structures, arrays
 editor: markdown
 ---
-
 
 # Overview
 Structure of fixed-size data records such that each element can be efficiently located by its index.
@@ -36,3 +35,14 @@ The first inserted element will have been recopied when the array expands after 
 Thus, each of the $n$ elements move only two times on average, and the total work of managing the dynamic array is the same $O(n)$ as it would have been if a single array of sufficient size had been allocated in advance.
 
 The primary thing lost using dynamic arrays is the guarantee that each array access takes constnat time in the worst case. Now all queries will be fast except for those that trigger array doubling.
+
+## Basic Operations
+### Traversal 
+#### Iterative
+```
+void traverse(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+        // iteratively visit arr[i]
+    }
+}
+```
