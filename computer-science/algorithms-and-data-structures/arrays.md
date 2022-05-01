@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-05-01T23:08:45.579Z
+date: 2022-05-01T23:17:02.121Z
 tags: data-structures, arrays
 editor: markdown
 ---
