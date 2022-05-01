@@ -2,7 +2,7 @@
 title: Binary Trees
 description: 
 published: true
-date: 2022-05-01T23:14:18.199Z
+date: 2022-05-01T23:17:59.146Z
 tags: data-structures, trees, binary-trees
 editor: markdown
 ---
