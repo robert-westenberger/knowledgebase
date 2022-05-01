@@ -2,7 +2,7 @@
 title: Longest Substring Without Repeating Characters
 description: 
 published: true
-date: 2022-05-01T19:30:50.572Z
+date: 2022-05-01T19:34:12.821Z
 tags: algorithms, sliding-window-technique
 editor: markdown
 ---
@@ -46,6 +46,7 @@ The outer loop represents the left side of the sliding window. The inner loop re
 So starting from the beginning of the string, we increase the size of the window one character at a time. Every time the window size is increased, we check to see if the character that is added to the window is unique. If it is, we can expand the size of the window yet again. If it's not, we move the left bound of the window a position to the right, reset our "visited" object and shrink the window back to 1 character again. Then we repeat the process. 
 
 The result is whenever the window was at it's largest. 
+
 #### Implementation (Javascript)
 ```
 const lengthOfLongestSubstring = (s) => {
@@ -65,3 +66,25 @@ const lengthOfLongestSubstring = (s) => {
     return result;
 };
 ```
+##### Example 
+So for the string "abcabcbb", the window is shown in **bold**.
+
+**a**bcabcbb
+**ab**cabcbb
+**abc**abcbb
+a**b**cabcbb
+a**bc**abcbb
+a**bca**bcbb
+ab**c**abcbb
+ab**ca**bcbb
+ab**cab**cbb
+abc**a**bcbb
+abc**ab**cbb
+abc**abc**bb
+abca**b**cbb
+abca**bc**bb
+abcabcbb
+abcabcbb
+
+
+
