@@ -2,7 +2,7 @@
 title: Linked List
 description: 
 published: true
-date: 2022-05-01T23:10:35.936Z
+date: 2022-05-01T23:11:43.009Z
 tags: data-structures, linked-lists
 editor: markdown
 ---
@@ -46,9 +46,27 @@ typedef struct list {
 The **list** is the simplest linked structure (pseudocode given in the preceding section). The three basic operations supported by lists are searching, insertion, and deletion. In **doubly-linked lists**, each node points to both its predecessor and successor element.
 
 ### Basic Operations
+```
+class ListNode {
+    int val;
+    ListNode next;
+}
+```
 #### Traversal
 ##### Iterative
 ```
+void traverse(ListNode head) {
+    for (ListNode p = head; p != null; p = p.next) {
+        // iteratively p.val
+    }
+}
+```
+##### Recursive
+```
+void traverse(ListNode head) {
+    // recursively head.val
+    traverse(head.next)
+}
 ```
 #### Insertion into a List
 There is no need to maintain the list in any particular order, since the "order" is maintained by each individual list item's pointer property. Insertion at the beginning of the list avoids any need to traverse the list, but does require us to update the pointer (denoted *l*)
