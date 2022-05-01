@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-04-30T22:44:13.205Z
+date: 2022-05-01T01:07:26.332Z
 tags: algorithms
 editor: markdown
 ---
@@ -25,3 +25,12 @@ Algorithms that take advantage of the structure of data, using pointers, to calc
 Backtracking is a general algorithm for finding solutions to some computational problems, notably constrant satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
 ## Examples
 [Generate Valid Parentheses](/computer-science/algorithms-and-data-structures/algorithmic-problems/generate-valid-parentheses) - For a number `n`, generate all combinations of well-formed parentheses.
+
+# Sliding Window Technique
+A computational technique which aims to reduce the use of a nested loop and replace it with a single loop (thereby reducing time complexity).
+
+## When to use it
+For finding subarrays in an array that satisfies given conditions. 
+
+
+## Examples
