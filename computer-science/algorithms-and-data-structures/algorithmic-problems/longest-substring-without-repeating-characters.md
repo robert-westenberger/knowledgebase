@@ -2,7 +2,7 @@
 title: Longest Substring Without Repeating Characters
 description: 
 published: true
-date: 2022-05-01T00:57:48.000Z
+date: 2022-05-01T01:14:18.600Z
 tags: algorithms, sliding-window-technique
 editor: markdown
 ---
@@ -31,3 +31,6 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
+
+## Approach
+### Sliding Window Technique
