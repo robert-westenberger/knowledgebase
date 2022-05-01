@@ -2,7 +2,7 @@
 title: Longest Substring Without Repeating Characters
 description: 
 published: true
-date: 2022-05-01T18:36:09.207Z
+date: 2022-05-01T19:19:03.814Z
 tags: algorithms, sliding-window-technique
 editor: markdown
 ---
@@ -34,4 +34,23 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 ## Approach
 ### Sliding Window Technique
-- Run a loop from 
+- Run a 
+#### Implementation (Javascript)
+```
+const lengthOfLongestSubstring = (s) => {
+    let result = 0;
+    
+    for (let i = 0; i < s.length; i++) {
+      const visited = {};
+      for (let j = i; j < s.length; j++) {
+        if (visited[s[j]]) {
+          break;
+        } else {
+          result = Math.max(result, j - i + 1);
+          visited[s[j]] = true;
+        }
+      }
+    }
+    return result;
+};
+```
