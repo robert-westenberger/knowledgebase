@@ -2,7 +2,7 @@
 title: Generic / N-array Trees
 description: 
 published: true
-date: 2022-05-01T23:39:15.957Z
+date: 2022-05-01T23:39:39.985Z
 tags: data-structures, trees
 editor: markdown
 ---
@@ -16,5 +16,15 @@ N-ary trees are tree data structures that allow us to have up to n children node
 class TreeNode {
     int val;
     TreeNode[] children;
+}
+```
+
+## Operations
+### Traversal
+#### Recursive
+```
+void traverse(TreeNode root) {
+    for (TreeNode child : root.children)
+        traverse(child)
 }
 ```
