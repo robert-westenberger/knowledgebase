@@ -2,7 +2,7 @@
 title: Arrays
 description: 
 published: true
-date: 2022-05-01T23:02:33.402Z
+date: 2022-05-01T23:06:06.230Z
 tags: data-structures, arrays
 editor: markdown
 ---
@@ -10,12 +10,13 @@ editor: markdown
 
 # Overview
 Structure of fixed-size data records such that each element can be efficiently located by its index.
-## Advantages (of contiguously-allocated arrays)
+## Advantages and Disadvantages
+### Advantages (of contiguously-allocated arrays)
 * Constant-time access given the index: Since the index of each element is mapped directly to a memory address, we can access arbitrary data items instnatly provided we know the index.
 * Space efficiency - Arrays consist purely of data, no space is wasted with links or other formatting information. End of record information is not needed because arrays are built from fixed-size records. 
 * Memory locality - Arrays are easily iterated through. Physical continuity between successive data accesses helps exploit the high-speed cache memory on modern computer architectures.
 
-## Disadvantages (of contiguously-allocated arrays)
+### Disadvantages (of contiguously-allocated arrays)
 We can't adjust their size in the middle of a program's execution.
 
 Because of the need for continuous chunks of memory, sufficient storage space must be allocated at one time. Therefore, if the array has to be expanded, we need to find and reallocate a larger space first, and then copy all the data over; time complexity $O(n)$.
