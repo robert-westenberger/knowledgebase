@@ -2,7 +2,7 @@
 title: Linked List
 description: 
 published: true
-date: 2022-05-01T23:05:52.512Z
+date: 2022-05-01T23:10:35.936Z
 tags: data-structures, linked-lists
 editor: markdown
 ---
@@ -45,7 +45,12 @@ typedef struct list {
 ## List 
 The **list** is the simplest linked structure (pseudocode given in the preceding section). The three basic operations supported by lists are searching, insertion, and deletion. In **doubly-linked lists**, each node points to both its predecessor and successor element.
 
-### Insertion into a List
+### Basic Operations
+#### Traversal
+##### Iterative
+```
+```
+#### Insertion into a List
 There is no need to maintain the list in any particular order, since the "order" is maintained by each individual list item's pointer property. Insertion at the beginning of the list avoids any need to traverse the list, but does require us to update the pointer (denoted *l*)
 
 ```
@@ -64,7 +69,7 @@ void insert_list(list **l, item_type x) {
 > The double star `**l` denotes that l is a pointer to a pointer to a list node. So the last line `*l=p;` copies p to the place pointed to by l, which is the external variable maintaining access to the head of the list. 
 {.is-info}
 
-### Deletion From a List
+#### Deletion From a List
 To delete from a singly linked list, we must find a pointer to the *predecessor* of the item to be deleted. 
 
 ```
