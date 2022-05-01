@@ -2,7 +2,7 @@
 title: Generate Valid Parentheses
 description: 
 published: true
-date: 2022-05-01T00:28:14.606Z
+date: 2022-05-01T00:29:02.128Z
 tags: algorithms, parentheses-problems, recursion, bit-manipulation
 editor: markdown
 ---
@@ -58,6 +58,7 @@ The longest the string can possibly be, for $n$ parens, is $n\cdot2$. When we ar
 ### First Recursive Path - Open Parentheses
 Our first path of recursion adds an opening parens, if one can still be added. This path will be called exactly $n$ times.
 ### Second Recursive Path - Close Parentheses
+Our second path of recursion adds a closing parens, if there exists an opening parentheses that does not already have a closing parentheses.
 ### Implementation(Javascript)
 ```
 const backtrack = (outputArray, currString, open, close, max, level = 0) => {
