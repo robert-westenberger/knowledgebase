@@ -2,7 +2,7 @@
 title: Find a Corresponding Node of a Binary Tree in a Clone of that Tree
 description: 
 published: true
-date: 2022-05-02T17:52:42.179Z
+date: 2022-05-02T17:55:47.375Z
 tags: algorithms, trees, binary-trees
 editor: markdown
 ---
@@ -23,7 +23,13 @@ target node is a node from the original tree and is not null.
 
 
 # Approach
-For this, we simultaneously recurse 
+For this, we simultaneously recurse the binary tree. 
+
+Our base cases are 
+- we reach a leaf node
+- We reach the target node, which is what we are searching for
+
+
 ## Implementation (Javascript)
 ```
 const getTargetCopy = function(original, cloned, target) { 
