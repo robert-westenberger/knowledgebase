@@ -2,7 +2,7 @@
 title: Binary Trees
 description: 
 published: true
-date: 2022-05-02T16:50:55.392Z
+date: 2022-05-02T16:57:01.602Z
 tags: data-structures, trees, binary-trees
 editor: markdown
 ---
@@ -60,7 +60,6 @@ tree *search_tree(tree *l, item_type x) {
 
 The above algorithm runs in $O(h)$, where $h$ denotes the height of the tree.
 
-#### Finding deepest leaves
 
 #### Finding minimum and maximum elements
 The smallest key in a BST must reside in the left subtree of the root by definition. 
