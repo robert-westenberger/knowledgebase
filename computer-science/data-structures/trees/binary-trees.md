@@ -2,7 +2,7 @@
 title: Binary Trees
 description: 
 published: true
-date: 2022-05-02T16:57:01.602Z
+date: 2022-05-02T17:48:08.348Z
 tags: data-structures, trees, binary-trees
 editor: markdown
 ---
@@ -16,11 +16,8 @@ A rooted binary tree is recursively defined as being either
 2. Consisting of a node called the **root**, together with two rooted binary trees called the left and right subtrees, respectively. 
 
 Order matters among "sibling" nodes in rooted trees. The left subtree is different from the right. 
-## Binary Search Trees
-A binary search tree labels each node in a binary tree with a single key such that for any node labeled $x$, all nodes in the left subtree of $x$ have keys $\lt x$ while all nodes in the right subtree have keys $\gt x$.
 
-
-### Implementation
+## Implementation
 Binary tree nodes have the following fields
 * Left pointer
 * Right pointer
@@ -33,8 +30,8 @@ typedef struct tree {
 	struct tree *right; /* pointer to right child */
 }
 ```
-### Operations
-#### Searching
+## Operations
+### Searching
 The BST labeling scheme uniquely identifies where each key is located. The algorithm is as follows:
 
 1. Start at the root
@@ -61,7 +58,7 @@ tree *search_tree(tree *l, item_type x) {
 The above algorithm runs in $O(h)$, where $h$ denotes the height of the tree.
 
 
-#### Finding minimum and maximum elements
+### Finding minimum and maximum elements
 The smallest key in a BST must reside in the left subtree of the root by definition. 
 ```
 tree *find_minimum(tree *t) {
@@ -77,8 +74,8 @@ tree *find_minimum(tree *t) {
 }
 ```
 
-#### Traversal
-##### Recursive
+### Traversal
+#### Recursive
 Visiting every node in a RBT is an important part of many algorithms. It is a special case of traversing all the nodes and edges in a graph.
 
 BST's make it easy to report labels in sorted order. All keys smaller than the root must lie in the left subtree of the root, and all keys bigger than the root in the right subtree. Visiting the nodes recursively produces an in-order traveersal of the search tree
@@ -99,7 +96,7 @@ Changing the position of the `process_item` call relative to the traversals of t
 * Processing the item last yields a **post-order traversal**
 
 
-#### Insertion
+### Insertion
 There is exactly one place to insert an item $x$ into a BST $T$. 
 
 This implementation uses recursion to combine the search and node inseration stages of key insertion. The three arguments to insert_tree are 
@@ -129,16 +126,16 @@ void insert_tree(tree **l, item_type x, tree *parent) {
 ```
 The node is allocated and linked in after hitting the NULL pointer. Note that we pass the pointer to the appropriate left/right poitner int he node during the search, so the assignment `*l=p;` links the new node into the tree.
 
-#### Deletion
+### Deletion
 ![bst_deletion.png](/bst_deletion.png)
 
 The above image depicts deleting tree nodes with 0, 1, and 2 children.
 
-##### Deleting a leaf node
+#### Deleting a leaf node
 Simply clear the pointer to the given node. We don't have to worry about relinking any other nodes.
 
-##### Deleting node with 1 child
+#### Deleting node with 1 child
 The child of the node to be deleted is linked to the deleted node's parent. 
 
-##### Deleting node with 2 children
+#### Deleting node with 2 children
 Relabel the deleted node with the key of its immediate successor in sorted order. This successor must be the smallest value in the right subtree, specifically the left-most decendant in the right subtree `p`. Moving this descendant to the point of deletion results in a properly labeled binary search tree, and reduces our deletion problem to physically removing a node with at most one child. 
