@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-01T01:13:54.419Z
+date: 2022-05-02T17:57:20.740Z
 tags: algorithms
 editor: markdown
 ---
@@ -44,3 +44,9 @@ Find all substrings of a string that contains all characters of another string. 
 Given a binary array, find the index of 0 to be replaced with 1 to get a maximum length sequence of continuous ones.
 ### Count distinct absolute values in a sorted array
 Given an array of sorted integers that may contain several duplicate elements, count the total number of distinct absolute values in it.
+
+# Trees
+## Tree Traversals
+### Examples
+#### Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](/computer-science/algorithms/algorithmic-problems/find-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)
