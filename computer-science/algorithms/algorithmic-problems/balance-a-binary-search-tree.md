@@ -2,7 +2,7 @@
 title: Balance a Binary Search Tree
 description: 
 published: true
-date: 2022-05-03T16:08:55.898Z
+date: 2022-05-03T16:19:10.716Z
 tags: algorithms, trees, binary-search-trees
 editor: markdown
 ---
@@ -15,3 +15,7 @@ A binary search tree is balanced if the depth of the two subtrees of every node 
 ## Constraints
 - The number of nodes in the tree is in the range [1, 10^4^].
 - 1 <= Node.val <= 105
+
+# Approach
+
+## Implementation (Javascript)
