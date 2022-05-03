@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-03T15:12:29.821Z
+date: 2022-05-03T16:01:56.025Z
 tags: algorithms
 editor: markdown
 ---
@@ -48,11 +48,10 @@ Given an array of sorted integers that may contain several duplicate elements, c
 # Trees
 ## Insertions
 ### Examples
-
-## Traversals
-### Examples
 #### Build a "Maximum Binary Tree"
 [maximum-binary-tree](/computer-science/algorithms/algorithmic-problems/maximum-binary-tree)
+## Traversals
+### Examples
 #### Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](/computer-science/algorithms/algorithmic-problems/find-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)
 #### Sum of Nodes With Even Valued Grandparent
