@@ -2,7 +2,7 @@
 title: Range Sum of BST
 description: 
 published: true
-date: 2022-05-03T14:47:02.517Z
+date: 2022-05-03T15:01:40.045Z
 tags: algorithms, trees, binary-trees, binary-search-trees
 editor: markdown
 ---
@@ -28,3 +28,31 @@ Given the root node of a binary search tree and two integers low and high, retur
 low=7 high=15
 **Output**: 32
 **Explanation**: Nodes 7, 10, and 15 are in the range [7, 15]. 7 + 10 + 15 = 32.
+
+# Approach
+Traverse the tree recursively. If the value of the current node is in range, add it to the sum. If the current value is greater than the lower bound, continue traversing left. If the current value is less than the higher bound, continue traversing right. 
+
+## Implementation (Javascript)
+```
+const rangeSumBST = function(root, low, high) {
+    let answer = 0;
+    const traverse = (node) => {
+        if (node == null){
+            return;
+        }
+        if (low <= node.val && node.val <= high) {
+            answer += node.val;
+        }
+  
+        if (node.val > low) {
+            traverse(node.left);
+        }
+        if (node.val < high) {
+            traverse(node.right);
+        }
+         
+    }
+    traverse(root);
+    return answer;
+};
+```
