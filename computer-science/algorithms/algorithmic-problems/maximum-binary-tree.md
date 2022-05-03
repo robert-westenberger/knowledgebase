@@ -2,7 +2,7 @@
 title: Maximum Binary Tree
 description: 
 published: true
-date: 2022-05-03T15:58:57.708Z
+date: 2022-05-03T16:01:41.992Z
 tags: algorithms, trees, binary-trees
 editor: markdown
 ---
@@ -36,7 +36,7 @@ Output:
 </pre>
 
 # Approach
-
+Starting from the root, which is the max value in the array, we recurse down left and right subtrees. 
 ## Implementation (Javascript)
 const constructMaximumBinaryTree = function(nums) {
     if (!nums.length) {
