@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-03T16:02:04.995Z
+date: 2022-05-03T16:06:42.261Z
 tags: algorithms
 editor: markdown
 ---
@@ -46,6 +46,9 @@ Given a binary array, find the index of 0 to be replaced with 1 to get a maximum
 Given an array of sorted integers that may contain several duplicate elements, count the total number of distinct absolute values in it.
 
 # Trees
+## Balancing
+### Examples
+#### Balance a Binary Search Tree
 ## Insertions
 ### Examples
 #### Build a "Maximum Binary Tree"
