@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-03T14:26:32.999Z
+date: 2022-05-03T15:03:05.508Z
 tags: algorithms
 editor: markdown
 ---
@@ -52,3 +52,4 @@ Given an array of sorted integers that may contain several duplicate elements, c
 [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](/computer-science/algorithms/algorithmic-problems/find-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)
 #### Sum of Nodes With Even Valued Grandparent
 [Sum of Nodes With Even Valued Grandparent](/computer-science/algorithms/algorithmic-problems/sum-of-nodes-with-even-valued-grandparent)
+#### Sum Numbers In A Range In A Binary Search Tree
