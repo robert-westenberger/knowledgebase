@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-03T15:04:43.474Z
+date: 2022-05-03T15:06:33.342Z
 tags: algorithms
 editor: markdown
 ---
@@ -53,4 +53,4 @@ Given an array of sorted integers that may contain several duplicate elements, c
 #### Sum of Nodes With Even Valued Grandparent
 [Sum of Nodes With Even Valued Grandparent](/computer-science/algorithms/algorithmic-problems/sum-of-nodes-with-even-valued-grandparent)
 #### Sum Numbers In A Range In A Binary Search Tree
-[range-sum-of-bst](/computer-science/algorithms/algorithmic-problems/range-sum-of-bst)
+[Range Sum of Binary Search Tree](/computer-science/algorithms/algorithmic-problems/range-sum-of-bst)
