@@ -2,7 +2,7 @@
 title: Balance a Binary Search Tree
 description: 
 published: true
-date: 2022-05-03T16:20:14.874Z
+date: 2022-05-03T16:21:54.587Z
 tags: algorithms, trees, binary-search-trees
 editor: markdown
 ---
@@ -17,7 +17,9 @@ A binary search tree is balanced if the depth of the two subtrees of every node 
 - 1 <= Node.val <= 105
 
 # Approach
+First, do an in order traversal of the binary search tree and store the node values. This will return a sorted list of numbers. 
 
+Then, recursively build a new tree using 
 ## Implementation (Javascript)
 ```
 const storeNodes = (root, nodes) => {
