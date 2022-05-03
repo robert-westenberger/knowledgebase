@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-03T15:06:33.342Z
+date: 2022-05-03T15:12:29.821Z
 tags: algorithms
 editor: markdown
 ---
@@ -46,8 +46,13 @@ Given a binary array, find the index of 0 to be replaced with 1 to get a maximum
 Given an array of sorted integers that may contain several duplicate elements, count the total number of distinct absolute values in it.
 
 # Trees
-## Tree Traversals
+## Insertions
 ### Examples
+
+## Traversals
+### Examples
+#### Build a "Maximum Binary Tree"
+[maximum-binary-tree](/computer-science/algorithms/algorithmic-problems/maximum-binary-tree)
 #### Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](/computer-science/algorithms/algorithmic-problems/find-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)
 #### Sum of Nodes With Even Valued Grandparent
