@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-03T16:01:56.025Z
+date: 2022-05-03T16:02:04.995Z
 tags: algorithms
 editor: markdown
 ---
@@ -49,7 +49,7 @@ Given an array of sorted integers that may contain several duplicate elements, c
 ## Insertions
 ### Examples
 #### Build a "Maximum Binary Tree"
-[maximum-binary-tree](/computer-science/algorithms/algorithmic-problems/maximum-binary-tree)
+[Maximum Binary Tree](/computer-science/algorithms/algorithmic-problems/maximum-binary-tree)
 ## Traversals
 ### Examples
 #### Find a Corresponding Node of a Binary Tree in a Clone of That Tree
