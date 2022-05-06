@@ -2,7 +2,7 @@
 title: Construct  Binary Search Tree From Given Preorder Traversal
 description: 
 published: true
-date: 2022-05-06T16:35:03.593Z
+date: 2022-05-06T16:56:23.570Z
 tags: algorithms, binary-trees, binary-search-trees
 editor: markdown
 ---
@@ -55,4 +55,25 @@ const bstFromPreorder = function(preorder) {
 ```
 ### Example 
 With a preorder of [8, 5, 1, 7, 10, 12]
+
+We make 8 the root of the BST, and call `constructBST` function for the first time.
+
+`CALL 1: constructBST(preorder, size, 1, root, Number.MIN_SAFE_INTEGER, Number.MAX_SAFE_INTEGER, 0);`
+**START CALL 1 EXECUTION**
+Size is 6.
+preorder[position] is 5
+current.val is 8
+
+preorder[position] < current.val evaluates to true, so we insert 5 to the left of the root 8. 
+
+position is incremented to 2. 
+
+We make another call to get the value of positon.
+
+`position = CALL 2: constructBST(preorder, size, 2, current.left, left, current.val - 1);`
+**START CALL 2 EXECUTION**
+
+**END CALL 2 EXECUTION**
+**END CALL 1 EXECUTION**
+
 
