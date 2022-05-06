@@ -2,7 +2,7 @@
 title: Construct  Binary Search Tree From Given Preorder Traversal
 description: 
 published: true
-date: 2022-05-06T16:56:23.570Z
+date: 2022-05-06T18:24:48.131Z
 tags: algorithms, binary-trees, binary-search-trees
 editor: markdown
 ---
@@ -72,6 +72,11 @@ We make another call to get the value of positon.
 
 `position = CALL 2: constructBST(preorder, size, 2, current.left, left, current.val - 1);`
 **START CALL 2 EXECUTION**
+preorder[position] is 1
+current.val is 5
+
+1 is inserted into current.right ( currently the 5 node).
+position is incremeted to 3.
 
 **END CALL 2 EXECUTION**
 **END CALL 1 EXECUTION**
