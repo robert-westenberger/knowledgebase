@@ -2,7 +2,7 @@
 title: Construct  Binary Search Tree From Given Preorder Traversal
 description: 
 published: true
-date: 2022-05-06T15:32:47.249Z
+date: 2022-05-06T16:29:28.224Z
 tags: algorithms, binary-trees, binary-search-trees
 editor: markdown
 ---
@@ -16,38 +16,40 @@ A binary search tree is a binary tree where for every node, any descendant of No
 
 A preorder traversal of a binary tree displays the value of the node first, then traverses Node.left, then traverses Node.right.
 
-## WIP
-/**
- * Definition for a binary tree node.
- * function TreeNode(val, left, right) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.left = (left===undefined ? null : left)
- *     this.right = (right===undefined ? null : right)
- * }
- */
-/**
- * @param {number[]} preorder
- * @return {TreeNode}
- */
+# Approach
+## Implementation (Javascript)
+```
+const constructBST = (preorder, size, position, current, left, right, level) => {
 
-const bstFromPreorder = function(preorder) {
-    // console.log(preorder);
-    const root = new TreeNode(preorder.shift());
-    const nodeQueue = [root];
-    let rightSubtreeIndex = preorder.length - 1;
-    // find index of first item in right subtree
-    for (let i = preorder.length; i > 0; i--) {
-        const item = preorder[i];
-        if (item < root.val) {
-            break;
-        }
-        if (item < preorder[rightSubtreeIndex]) {
-            rightSubtreeIndex = i;
-        }
+    if (position === size || preorder[position] < left || preorder[position] > right) {
+        return position;
     }
-    const leftTreeVals = preorder.slice(0, rightSubtreeIndex);
-    const rightTreeVals = preorder.slice(rightSubtreeIndex, preorder.length);
     
-    root,.
+    if (preorder[position] < current.val) {
+        current.left = new TreeNode(preorder[position]);
+        position += 1;
+        position = constructBST(preorder, size, position, current.left, left, current.val - 1);
+    }
     
+    if (position === size || preorder[position] < left || preorder[position]>right){
+        return position;
+    }
+    
+    current.right = new TreeNode(preorder[position]);
+    position+= 1;
+    position = constructBST(preorder, size, position, current.right, current.val + 1, right);
+    return position;
+}
+const bstFromPreorder = function(preorder) {
+    const size = preorder.length;
+    if (size === 0) {
+        return null;
+    }
+    const root = new TreeNode(preorder[0]);
+    if (size === 1) {
+        return root;
+    }
+    constructBST(preorder, size, 1, root, Number.MIN_SAFE_INTEGER, Number.MAX_SAFE_INTEGER);
+    return root;
 };
+```
