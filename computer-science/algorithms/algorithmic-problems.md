@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-05T16:42:55.053Z
+date: 2022-05-06T15:33:47.476Z
 tags: algorithms
 editor: markdown
 ---
@@ -52,6 +52,8 @@ Given an array of sorted integers that may contain several duplicate elements, c
 ### Examples
 #### Build a "Maximum Binary Tree"
 [Maximum Binary Tree](/computer-science/algorithms/algorithmic-problems/maximum-binary-tree)
+#### Construct Binary Search Tree from Preorder Traversal
+[Construct Binary Search Tree from Preorder Traversal](/computer-science/algorithms/algorithmic-problems/construct-binary-tree-from-given-preorder-traversal)
 ## Traversals
 ### Examples
 #### Find a Corresponding Node of a Binary Tree in a Clone of That Tree
