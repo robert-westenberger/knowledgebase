@@ -2,7 +2,7 @@
 title: Construct  Binary Search Tree From Given Preorder Traversal
 description: 
 published: true
-date: 2022-05-06T18:24:48.131Z
+date: 2022-05-06T22:43:12.250Z
 tags: algorithms, binary-trees, binary-search-trees
 editor: markdown
 ---
@@ -70,15 +70,67 @@ position is incremented to 2.
 
 We make another call to get the value of positon.
 
-`position = CALL 2: constructBST(preorder, size, 2, current.left, left, current.val - 1);`
+`position = CALL 2: constructBST(preorder, size, 2, current.left, left, current.val - 1 = 7);`
 **START CALL 2 EXECUTION**
 preorder[position] is 1
 current.val is 5
 
-1 is inserted into current.right ( currently the 5 node).
-position is incremeted to 3.
+preorder[position] < current.val evaluates to true, so we insert 1 to the left of the 5 node.
 
+position is incremented to 3.
+
+We make another call to get the value of position.
+
+`position = CALL 3: constructBST(preorder, size, 3, current.left, left, current.val - 1 = 4);`
+**START CALL 3 EXECUTION**
+preorder[position] is 7
+current.val is 1
+
+preorder[position] > right evaluates to true, so we return position, which is 3.
+**END CALL 3 EXECUTION**
+preorder[position] = 7
+current.val is still 5
+
+We place 1 as 5's right node. 
+
+Position is incremeted to 4.
+
+We make another call to get the value of position.
+
+`position= CALL 4: constructBST(preorder, size, 4, current.right, current.val + 1 = 6, right = 7)`
+
+**START CALL 4 EXECUTION**
+preorder[position] = 10
+current.val = 7 
+
+preorder[position] > right = true, so we return position (4)
+
+**END CALL 4 EXECUTION**
+return 4 position
 **END CALL 2 EXECUTION**
+preorder[position] = 10
+current.val = 8 (we are back at root)
+
+We push 10 to be the right child of root.
+
+increment position to 5
+
+We make another call to get the value of position
+`position=CALL 5: constructBST(preorder, size, 5, current.right, current.val + 1 (9), right (max int))`
+**START CALL 5 EXECUTION**
+current.val = 10
+preorder[position] = 12
+
+we make 12 the right child of 10
+we increment position
+we make another call to get the value of position
+`position=CALL 6: constructBST(preorder, size, 6, current.right, current.val + 1 (12), right (max int))`
+**START CALL 6 EXECUTION**
+position === size, so we return 6
+**END CALL 6 EXECUTION**
+We return 6
+**END CALL 5 EXECUTION**
+We return 6. The tree is now fully constructed.
 **END CALL 1 EXECUTION**
 
 
