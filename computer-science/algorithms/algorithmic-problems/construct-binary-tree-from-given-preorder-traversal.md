@@ -2,7 +2,7 @@
 title: Construct  Binary Search Tree From Given Preorder Traversal
 description: 
 published: true
-date: 2022-05-06T16:29:28.224Z
+date: 2022-05-06T16:35:03.593Z
 tags: algorithms, binary-trees, binary-search-trees
 editor: markdown
 ---
@@ -53,3 +53,6 @@ const bstFromPreorder = function(preorder) {
     return root;
 };
 ```
+### Example 
+With a preorder of [8, 5, 1, 7, 10, 12]
+
