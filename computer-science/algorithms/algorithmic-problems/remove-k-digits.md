@@ -2,7 +2,7 @@
 title: Remove K Digits
 description: Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 published: true
-date: 2022-05-07T21:07:37.261Z
+date: 2022-05-07T21:19:33.693Z
 tags: algorithms, stack
 editor: markdown
 ---
@@ -76,3 +76,53 @@ const removeKdigits = function(num, k) {
 };
 
 ```
+#### Example
+"1432219", 3
+
+**Position**: **1**432219
+**Stack**: []
+**k**: 3
+
+Stack is empty, push 1 onto stack.
+
+**Position**: 1**4**32219
+**Stack**: [1]
+**k**: 3
+
+4 greater than 1, push 4 onto stack.
+
+**Position**: 14**3**2219
+**Stack**: [1. 4]
+**k**: 3
+
+3 less than 4, remove 4 from stack. Decrement k.
+3 is greater than 1, push 3 onto the stack.
+
+**Position**: 143**2**219
+**Stack**: [1, 3]
+**k**: 2
+
+2 is less than 3, remove 3 from the stack. Decrement k.
+2 is greater than 1, push 2 onto the stack.
+
+**Position**: 1432**2**19
+**Stack**: [1, 2]
+**k**: 1
+2 is not less than 2, push 2 onto the stack.
+
+**Position**: 14322**1**9
+**Stack**: [1, 2, 2]
+**k**: 1
+
+1 is less than 2, remove 2 from the stack. Decrement k.
+k is now 0, push 1 onto the stack.
+
+**Position**: 143221**9**
+**Stack**: [1, 2, 1]
+**k**: 0
+k is 0, push 9 onto the stack.
+**Position**: (end of string)
+**Stack**: [1, 2, 1, 9]
+**k**: 0
+
+
