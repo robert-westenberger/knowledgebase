@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2022-05-07T19:26:43.942Z
+date: 2022-05-07T19:28:30.302Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -197,7 +197,9 @@ $$
 n = (\text{log}n)^h \rarr h = \text{log}n/\text{log}\text{log}n
 $$
 
-- 
+- $f(n)=\text{log}^2n$:
+- $f(n)=\sqrt{n}$:
+- $f(n)=n^{(1+\epsilon)}$:
 # Working with Big Oh
 ## Adding Functions
 The sum of two functions is governed by the dominanat one. Namely :
