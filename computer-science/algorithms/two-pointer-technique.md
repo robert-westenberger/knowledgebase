@@ -2,7 +2,7 @@
 title: Two Pointer Technique
 description: 
 published: true
-date: 2022-05-07T22:34:41.977Z
+date: 2022-05-07T22:35:08.015Z
 tags: algorithms, pointers
 editor: markdown
 ---
@@ -17,4 +17,4 @@ We start the sum of extreme values (smallest and largest) and conditionally move
 
 We move left pointer to the right when the sum of $(A[i]$ and $(A[j])$ is less than $X$. 
 
-We move the right pointer to the left when the sum of $(A[i]$ and $(A[j])$ is greater than $X$.
+We move the right pointer to the left when the sum of $(A[i]$ and $(A[j])$ is greater than $X$. We keep moving pointers until we get the sum as $X$.
