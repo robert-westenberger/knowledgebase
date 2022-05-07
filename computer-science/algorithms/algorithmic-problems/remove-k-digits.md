@@ -2,7 +2,7 @@
 title: Remove K Digits
 description: Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 published: true
-date: 2022-05-07T19:54:45.508Z
+date: 2022-05-07T19:57:59.990Z
 tags: algorithms, stack
 editor: markdown
 ---
@@ -31,3 +31,14 @@ Given string num representing a non-negative integer `num`, and an integer `k`, 
 ## Using Stack
 The length of the given string will be `n`, so the result string witll contain the length of `n-k`.
 
+We ensure that the output string contains minimum values at their high weightage positions by using a stack.
+
+1. Return $0$ if $k \ge n$, return `num` if $k=0$.
+
+2. Create a stack and iterate through `num` string and push the value at that position if it is greater than the top element of the stack.
+
+3. Iterate through the num string and if the integer value at that position is less than the top of the stack we will pop the stack and decrement k until we reach the condition where the top of the stack is less than the value we are looking at(while $k>0$) (by this we are making sure that most significant positions of the result are filled with minimum values).
+
+4. If the $k$ is still greater than $0$ we will pop stack until $k$ becomes $0$.
+5. Append the elements in the stack to the result string.
+6. Delete leading zeroes from the result string.
