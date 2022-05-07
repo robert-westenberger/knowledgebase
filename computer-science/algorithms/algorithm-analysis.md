@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2022-05-01T23:25:26.305Z
+date: 2022-05-07T19:16:19.059Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -264,7 +264,9 @@ G(n, a)=\sum_{i=0}^{n} a^{i}=\left(a^{n+1}-1\right) /(a-1)
 $$
 
 # Logarithms
-See [Logarithms](/computer-science/algorithms-and-data-structures/logarithms)
+See 
+- [Properties of Logarithms](/mathematics/Logarithms/properties-of-logarithms)
+- [Logarithm Identity Proofs](/mathematics/Logarithms/identity-proofs)
 # Limits and Dominance Relations
 We say that $f(n)$ **dominates** $g(n)$ if $\lim _{n \rightarrow \infty} g(n) / f(n)=0$.
 
