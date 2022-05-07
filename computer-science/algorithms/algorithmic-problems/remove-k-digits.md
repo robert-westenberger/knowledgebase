@@ -2,7 +2,7 @@
 title: Remove K Digits
 description: Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 published: true
-date: 2022-05-07T20:54:03.636Z
+date: 2022-05-07T21:00:29.989Z
 tags: algorithms, stack
 editor: markdown
 ---
@@ -44,7 +44,11 @@ We ensure that the output string contains minimum values at their high weightage
 6. Delete leading zeroes from the result string.
 
 
-So in summation, 
+So in summation, we iterate through the num string. 
+
+If the value at the current iteration is greater than the value of the top of the stack, we push onto the stack.
+
+If it's not, we remove an item from the stack and decrement k. 
 ### Implementation (Javascript)
 ```
 const removeKdigits = function(num, k) {
