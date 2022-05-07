@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2022-05-07T19:16:19.059Z
+date: 2022-05-07T19:26:43.942Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -182,6 +182,22 @@ $$
 n ! \gg 2^{n} \gg n^{3} \gg n^{2} \gg n \log n \gg n \gg \log n \gg 1
 $$
 
+### More Esoteric Orders of Dominance
+- Inverse Ackermann's function $f(n)=\alpha(n)$: Arises in the analysis of Union-Find data structure. It is the slowest growing complexity function. $\alpha(n)$ eventually gets to infinity as $n\rarr\infin$. The value of $\alpha(n)$ is smaller than $5$ for any value of $n$ that can be written in this physical universe.
+
+- $f(n)=\text{log}\text{log}n$: The "log log" function. One example is the binary search on a sorted array of only $lg n$ items.
+
+- $f(n)=\text{log}n/\text{log}\text{log}n$: Grows a little faster than $\text{log}n$, because its divided by an even slower growing function. Consider an $n$-leaf rooted tree of degree $d$. For binary trees, that is, when $d=2$, the height $h$ is given
+$$
+n =2^h\rarr h=\text{lg}n
+$$
+by taking the log of both sides of the equation. Now consider the height of such a tree when the degree $d=\text{log}n$. Then
+
+$$
+n = (\text{log}n)^h \rarr h = \text{log}n/\text{log}\text{log}n
+$$
+
+- 
 # Working with Big Oh
 ## Adding Functions
 The sum of two functions is governed by the dominanat one. Namely :
