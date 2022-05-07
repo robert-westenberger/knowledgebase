@@ -2,7 +2,7 @@
 title: Remove K Digits
 description: Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 published: true
-date: 2022-05-07T21:19:33.693Z
+date: 2022-05-07T21:21:28.091Z
 tags: algorithms, stack
 editor: markdown
 ---
@@ -126,3 +126,4 @@ k is 0, push 9 onto the stack.
 **k**: 0
 
 
+The answer hidden in the string is **1**43**2**2**19**
