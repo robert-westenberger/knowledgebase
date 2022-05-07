@@ -2,7 +2,7 @@
 title: Remove K Digits
 description: Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 published: true
-date: 2022-05-07T19:52:28.158Z
+date: 2022-05-07T19:52:41.435Z
 tags: algorithms, stack
 editor: markdown
 ---
@@ -27,3 +27,4 @@ Given string num representing a non-negative integer `num`, and an integer `k`, 
 **Output**: "200"
 **Explanation**: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.
 
+# Approach
