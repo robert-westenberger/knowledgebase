@@ -2,11 +2,18 @@
 title: Tree Traversals
 description: 
 published: true
-date: 2022-04-26T17:57:09.168Z
+date: 2022-05-08T21:16:04.055Z
 tags: algorithms, trees
 editor: markdown
 ---
 
+# Depth First
+## Inorder (Left, Root, Right)
+### Algorithm
+Algorithm Inorder(tree)
+   1. Traverse the left subtree, i.e., call Inorder(left-subtree)
+   2. Visit the root.
+   3. Traverse the right subtree, i.e., call Inorder(right-subtree)
 # Breadth-First or Level Order Traversal
 For a tree of 
 <pre>
@@ -53,3 +60,5 @@ function treeByLevels (rootNode) {
 	return returnArray;
 }
 ```
+
+
