@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-07T19:53:50.156Z
+date: 2022-05-10T16:08:18.798Z
 tags: algorithms
 editor: markdown
 ---
@@ -56,6 +56,8 @@ Given an array of sorted integers that may contain several duplicate elements, c
 [Construct Binary Search Tree from Preorder Traversal](/computer-science/algorithms/algorithmic-problems/construct-binary-tree-from-given-preorder-traversal)
 ## Traversals
 ### Examples
+#### Maximum Difference Between Node and Ancestor
+[Maximum Difference Between Node and Ancestor](/computer-science/algorithms/algorithmic-problems/maximum-difference-between-node-and-ancestor)
 #### Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](/computer-science/algorithms/algorithmic-problems/find-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)
 #### Sum of Nodes With Even Valued Grandparent
