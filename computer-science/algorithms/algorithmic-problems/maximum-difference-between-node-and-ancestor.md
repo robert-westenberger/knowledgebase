@@ -2,7 +2,7 @@
 title: Maximum Difference Between Node and Ancestor
 description: 
 published: true
-date: 2022-05-10T16:30:19.050Z
+date: 2022-05-10T16:30:27.676Z
 tags: algorithms, trees, recursion, binary-trees
 editor: markdown
 ---
@@ -18,6 +18,7 @@ At each subtree, find the minimum and maximum value. We store these in memory at
 When we recurse, we check the difference between the current node's value and the minimum and maximum value of the subtree. If it is larger than the current maximum difference found, we made that the new largest difference found. 
 
 ### Implementation (Javascript)
+```
 function Result() {
     this.r = 0;
 }
@@ -41,3 +42,4 @@ const maxAncestorDiff = function(root) {
     traverse(root, root.val, root.val);
     return answer.r;
 };
+```
