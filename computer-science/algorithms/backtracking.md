@@ -2,7 +2,7 @@
 title: Backtracking
 description: 
 published: true
-date: 2022-05-12T16:04:04.423Z
+date: 2022-05-12T16:05:36.659Z
 tags: algorithms, backtracking
 editor: markdown
 ---
@@ -22,3 +22,4 @@ It is a systematic way to run through all the possible configurations of a searc
 
 ## Examples
 ### Permutations
+See [Find Permutations](/computer-science/algorithms/algorithmic-problems/find-permutations)
