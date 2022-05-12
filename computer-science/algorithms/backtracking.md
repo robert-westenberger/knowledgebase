@@ -2,7 +2,7 @@
 title: Backtracking
 description: 
 published: true
-date: 2022-05-12T16:02:45.266Z
+date: 2022-05-12T16:04:04.423Z
 tags: algorithms, backtracking
 editor: markdown
 ---
@@ -18,3 +18,7 @@ It is a systematic way to run through all the possible configurations of a searc
 3. If not, try each of the possible moves from the current state.
 4. Once we have tried all the possible moves, backtrack to the previous state.
 5. Repeat the above steps until a solution is found or all possibilities have been exhausted.
+
+
+## Examples
+### Permutations
