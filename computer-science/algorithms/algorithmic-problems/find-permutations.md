@@ -2,7 +2,7 @@
 title: Find Permutations
 description: 
 published: true
-date: 2022-05-12T16:07:42.774Z
+date: 2022-05-13T14:38:48.323Z
 tags: algorithms, backtracking
 editor: markdown
 ---
@@ -20,3 +20,45 @@ To form a permutation, we need to
 1. Include all the elements ( this is the stopping condition / base case of the algorithm ).
 2. No element can be included more than once. This means that at any state, our possible moves include only the elements we have not included before.
 
+#### Implementation (JS)
+```
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+/**
+ * A backtracking algorithm to list all permutations from the choices.
+ * Each number choice is a unique natural number, and it is used exactly once.
+ * @param {number[]} choices A choice array of unique natural numbers
+ * @return {number[][]} The array containing all permutations
+ */
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+
+
+var permute = function (nums) {
+  const answer = [];
+  const backtrack = (list) => {
+
+    if (list.length === nums.length) {
+      answer.push([...list]);
+      return;
+    }
+    for (let i = 0; i < nums.length; i++) {
+      if (list.includes(nums[i])) {
+        continue;
+      }
+      list.push(nums[i]);
+      backtrack(list);
+      list.splice(list.length - 1);
+    }
+  }
+  backtrack([]);
+  return answer;
+};
+permute([1, 2, 3]);
+
+// answer.forEach(a=>console.log(a));
+```
