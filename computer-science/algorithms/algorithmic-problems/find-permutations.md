@@ -2,7 +2,7 @@
 title: Find Permutations
 description: 
 published: true
-date: 2022-05-13T14:51:58.682Z
+date: 2022-05-13T14:53:34.074Z
 tags: algorithms, backtracking
 editor: markdown
 ---
@@ -66,4 +66,4 @@ permute([1, 2, 3]);
 ##### Explanation
 For finding the permutations of `[1,2,3]`
 
-First, loop through the array of numbers, 
+First, loop through the array of numbers. At each iteration, add a number to the list, recurse with that list, and then backtrack by removing the just added item to the list.
