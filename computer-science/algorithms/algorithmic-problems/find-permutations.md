@@ -2,7 +2,7 @@
 title: Find Permutations
 description: 
 published: true
-date: 2022-05-13T14:55:09.127Z
+date: 2022-05-13T14:55:39.992Z
 tags: algorithms, backtracking
 editor: markdown
 ---
@@ -68,4 +68,4 @@ For finding the permutations of `[1,2,3]`
 
 First, loop through the array of numbers. At each iteration, add a number to the list, recurse with that list, and then backtrack by removing the just added item to the list.
 
-At each level of recursion, the same process is followed.
+At each level of recursion, the same process is followed. If the same number has already been added, we continue and don't recurse further. 
