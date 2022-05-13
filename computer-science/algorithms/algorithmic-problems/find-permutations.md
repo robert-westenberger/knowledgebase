@@ -2,7 +2,7 @@
 title: Find Permutations
 description: 
 published: true
-date: 2022-05-13T14:38:48.323Z
+date: 2022-05-13T14:51:58.682Z
 tags: algorithms, backtracking
 editor: markdown
 ---
@@ -62,3 +62,8 @@ permute([1, 2, 3]);
 
 // answer.forEach(a=>console.log(a));
 ```
+
+##### Explanation
+For finding the permutations of `[1,2,3]`
+
+First, loop through the array of numbers, 
