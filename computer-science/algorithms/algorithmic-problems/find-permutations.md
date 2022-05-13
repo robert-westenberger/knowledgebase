@@ -2,7 +2,7 @@
 title: Find Permutations
 description: 
 published: true
-date: 2022-05-13T14:55:39.992Z
+date: 2022-05-13T14:56:27.229Z
 tags: algorithms, backtracking
 editor: markdown
 ---
@@ -22,22 +22,6 @@ To form a permutation, we need to
 
 #### Implementation (JS)
 ```
-/**
- * @param {number[]} nums
- * @return {number[][]}
- */
-/**
- * A backtracking algorithm to list all permutations from the choices.
- * Each number choice is a unique natural number, and it is used exactly once.
- * @param {number[]} choices A choice array of unique natural numbers
- * @return {number[][]} The array containing all permutations
- */
-/**
- * @param {number[]} nums
- * @return {number[][]}
- */
-
-
 var permute = function (nums) {
   const answer = [];
   const backtrack = (list) => {
