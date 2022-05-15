@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-12T16:06:06.097Z
+date: 2022-05-15T20:10:52.409Z
 tags: algorithms
 editor: markdown
 ---
@@ -16,6 +16,10 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 [Max Path Sum in a Pyramid of Numbers](/computer-science/algorithms/algorithmic-problems/max-path-sum-in-a-pyramid-of-numbers) - Calculate the maximum sum, from the top to the bottom of a pyramid, when you're only allowed to move to adjacent numbers at each level.
 
 [Minimum Cost Path](/computer-science/algorithms/algorithmic-problems/minimum-cost-path) - Given a 2D matrix where each cell has a cost to travel, find a path from the left-top corner to the bottom-right corner with minimum travel cost. You can only move right or down. 
+# Divide and Conquer
+Divide and Conquer works by dividing the problem into sub-problems, conquer each sub-problem recursively and combine these solutions.
+## Examples
+[Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray)
 # Pointer Algorithms 
 Algorithms that take advantage of the structure of data, using pointers, to calculate something. 
 ## Examples
