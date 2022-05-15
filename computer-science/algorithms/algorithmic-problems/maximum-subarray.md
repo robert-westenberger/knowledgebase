@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T22:03:59.366Z
+date: 2022-05-15T22:06:27.685Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -138,7 +138,8 @@ Now back to `[2, 1, -5, 4]`, the max sum in the subarray is on the righthand sid
 Now we are out of recursion,  back to the original array `[-2,1,-3,4,-1,2,1,-5,4]`
 at the initial function call. The midpoint is `-1`, the max sum in the left subarray and the right subarrays are both `4`.
 
-Calculating the maximum contiguous sum for the lefthand side, starting from `4` that's left of the midpoint, 
+Calculating the maximum contiguous sum for the lefthand side, starting from `4` that's left of the midpoint and traversing to the value at the first index `-2`, we see that the largest sum here is just the `4`.
+
 ## Dynamic Programming
 ### Kadane's Algorithm
 TODO
