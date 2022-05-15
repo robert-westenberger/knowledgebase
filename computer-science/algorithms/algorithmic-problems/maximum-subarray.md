@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T21:58:12.111Z
+date: 2022-05-15T22:01:19.219Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -131,7 +131,9 @@ It's split into `[2]` and `[-5, 4]`.
 
 The max subarray of `[2]` is just `2`.
 
-`[-5,4]` is split into `[]` and `[4]`, since the mid point is `[-5]`. The sum traversing the midpoint is `-1`.
+`[-5,4]` is split into `[]` and `[4]`, since the mid point is `[-5]`. The sum traversing the midpoint is `-1`. We then return the largest val between left, mid, and right, which is the right side (`4`).
+
+Now back to `[2, 1, -5, 4]`, the max sum in the subarray is on the righthand side `4`, so we return that.
 ## Dynamic Programming
 ### Kadane's Algorithm
 TODO
