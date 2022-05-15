@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T20:24:23.166Z
+date: 2022-05-15T20:26:07.462Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -36,6 +36,7 @@ We then return the maximum of the following three:
 - Maximum subarray sum in left half (Make a recursive call)
 - Maximum subarray sum in right half (Make a recursive call)
 - Maximum subarray sum such that the subarray crosses the midpoint. 
+	- This is found by finding the maximum sum starting from mid point and ending at some point on left of mid. Then find the maxumum sum starting from mid + 1 and ending with some point on right of mid + 1. Finally, combine the two and return the max among left, right, and combination of both. 
 
 
 ## Dynamic Programming
