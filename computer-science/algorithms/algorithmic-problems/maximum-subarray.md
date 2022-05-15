@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T21:42:15.695Z
+date: 2022-05-15T21:43:32.451Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -120,7 +120,9 @@ The max subarray of `[-2]` is just `-2`.
 
 The max sum for `[]` is `-Infinity` and `4` for `[4]`.
 
-The left max contiguous sum for `[3, 4]` is `0` and the right max contiguous sum is `4`. The sum traversing the midpoint is the midpoint (`-3`) + left max (`0`) + right max (`4`) which is `1`.
+The left max contiguous sum for `[3, 4]` is `0` and the right max contiguous sum is `4`. The sum traversing the midpoint is the midpoint (`-3`) + left max (`0`) + right max (`4`) which is `1`. From this, we return the max between the midpoint sum, left sum and right sum, which is the right max (`4`).
+
+
 ## Dynamic Programming
 ### Kadane's Algorithm
 TODO
