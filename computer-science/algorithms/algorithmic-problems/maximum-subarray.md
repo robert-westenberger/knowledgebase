@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T20:22:17.363Z
+date: 2022-05-15T20:24:23.166Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -31,6 +31,12 @@ A subarray is a contiguous part of an array.
 # Approach
 ## Divide and Conquer
 We repeatedly cut the array in half, and search the halves for the max contiguous subarray sum. 
+
+We then return the maximum of the following three: 
+- Maximum subarray sum in left half (Make a recursive call)
+- Maximum subarray sum in right half (Make a recursive call)
+- Maximum subarray sum such that the subarray crosses the midpoint. 
+
 
 ## Dynamic Programming
 ### Kadane's Algorithm
