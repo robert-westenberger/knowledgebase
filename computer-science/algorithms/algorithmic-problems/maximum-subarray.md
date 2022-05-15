@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T22:07:53.488Z
+date: 2022-05-15T22:09:03.345Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -141,6 +141,10 @@ at the initial function call. The midpoint is `-1`, the max sum in the left suba
 Calculating the maximum contiguous sum for the lefthand side, starting from `4` that's left of the midpoint and traversing to the value at the first index `-2`, we see that the largest sum here is just the `4`.
 
 Doing the same for the right hand side, starting from the `2` that is right of the midpoint and going to the end of the array, the max contiguous sum there is the `2` and the `1`, which is `3`. 
+
+Therefore, the sum traversing the midpoint is `6` (left + mid + right = `6`).
+
+Finally, we return the largest value between the left subarray, middle, and right subarray, which is `6`.
 ## Dynamic Programming
 ### Kadane's Algorithm
 TODO
