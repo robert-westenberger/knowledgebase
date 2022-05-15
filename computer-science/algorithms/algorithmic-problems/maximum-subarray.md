@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T21:33:35.203Z
+date: 2022-05-15T21:35:14.362Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -114,9 +114,11 @@ Array is split into `[-2,1,-3,4]` and `[-1, 2, 1, -5, 4]`,
 
 `[-2,1,-3,4]` is split into `[-2]` and `[-3,4]`.
 
-The max subarray of `[-2]` is just `[-2]`.
+The max subarray of `[-2]` is just `-2`.
 
 `[-3,4]` is split into `[]` and `[4]`, since the mid point is `[-3]`.
+
+The max sum for `[]` is `-Infinity` and `4` for `[4]`.
 
 
 ## Dynamic Programming
