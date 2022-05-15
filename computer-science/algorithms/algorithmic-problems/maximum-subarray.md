@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T20:08:38.900Z
+date: 2022-05-15T20:18:58.587Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -27,3 +27,7 @@ A subarray is a contiguous part of an array.
 
 **Input**: nums = [5,4,-1,7,8]
 **Output**: 23
+
+# Approach
+## Divide and Conquer
+We repeatedly cut the array in half, and search the halves for the max contiguous subarray sum. 
