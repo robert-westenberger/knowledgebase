@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T20:26:07.462Z
+date: 2022-05-15T21:24:26.468Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -38,7 +38,75 @@ We then return the maximum of the following three:
 - Maximum subarray sum such that the subarray crosses the midpoint. 
 	- This is found by finding the maximum sum starting from mid point and ending at some point on left of mid. Then find the maxumum sum starting from mid + 1 and ending with some point on right of mid + 1. Finally, combine the two and return the max among left, right, and combination of both. 
 
+### Implementation (Javascript)
+```
+const maxSubArray = function(nums) {
+    const findMaxSumInArr = (arr) => {
 
+        // Base Case 1: 1 array item, return it.
+        if (arr.length === 1) {
+            return arr[0];
+        }
+
+        // Base Case 2: 0 array items, return -Infinity for 
+        // the purpose of calculations. ( We want a number that 
+        // will never be the max )
+        if (arr.length === 0) {
+            return -Infinity;
+        }
+
+        // 0-indexed length and midpoint
+        const length = arr.length - 1;
+        const mid = Math.floor(length / 2);
+
+        // Recursively divide, finding max sum in left and 
+        // right subarrs.
+
+        const leftMaxSumInSubarr = findMaxSumInArr(arr.slice(0, mid));
+        const rightMaxSumInSubarr = findMaxSumInArr(arr.slice(mid+1, length+1));
+
+        // Variables to record max contiguous sums for each side
+        let leftMaxContiguousSum = 0;
+        let rightMaxContiguousSum = 0;
+
+        // For left, find sum of contiguous array and keep an 
+        // updated record of the maximum.
+        // In order to account for contiguos arrays that 
+        // traverse the midpoint, start the search 
+        // from midpoint - 1 and traverse leftwards towards index 0.
+        // This will guarantee that a contiguous array traversing
+        // the midpoint will be able to add the midpoint itself
+        // and the right side's contiguous array.
+        for (let i = mid - 1, currContiguousSum = 0;i >= 0; i--) {
+            currContiguousSum += arr[i];
+            leftMaxContiguousSum = Math.max(leftMaxContiguousSum, currContiguousSum);
+        }
+
+        // Same as above, but for right side. 
+        for (let i = mid + 1, currContiguousSum = 0; i <= length; i++) {
+            currContiguousSum += arr[i];
+            rightMaxContiguousSum = Math.max(rightMaxContiguousSum, currContiguousSum);
+        }
+
+        // Return max sum from current array.. either 
+        // from the left side, right side, or a contiguous
+        // sub array traversing from left to right through the 
+        // midpoint.
+
+        const sumTraversingMidpoint = leftMaxContiguousSum + arr[mid] + rightMaxContiguousSum;
+        return Math.max(
+            // Max sum traverses the midpoint
+            sumTraversingMidpoint,
+            // Max sum is on the left
+            leftMaxSumInSubarr,
+            // Max sum is on the right
+            rightMaxSumInSubarr
+        );
+
+    }
+    return findMaxSumInArr(nums);
+};
+```
 ## Dynamic Programming
 ### Kadane's Algorithm
 TODO
