@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T21:51:57.971Z
+date: 2022-05-15T21:52:39.656Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -110,7 +110,7 @@ const maxSubArray = function(nums) {
 #### Explanation 
 Array is `[-2,1,-3,4,-1,2,1,-5,4]`
 
-Array is split into `[-2,1,-3,4]` and `[-1, 2, 1, -5, 4]`,
+Array is split into `[-2,1,-3,4]` and `[2, 1, -5, 4]`, (`-1`) is the midpoint).
 
 `[-2,1,-3,4]` is split into `[-2]` and `[-3,4]`.
 
@@ -125,6 +125,7 @@ The left max contiguous sum for `[3, 4]` is `0` and the right max contiguous sum
 Now we are back to `[-2,1,-3,4]`, and we know now that the max contiguous sum on the left subarray is `-2`, and on the right is `4` (`1` is the midpoint). 
 
 The left max contiguous sum for `[-2,1,-3,4]` is `0` and the right max contiguous sum is `1`. The sum traversing the midpoint is left max contiguous sum (`0`) + midpoint (`1`) + rightmax contiguous sum(`1`) = `2`. We return the max val between the sum traversing the midpoint, the left sum and the right sum, which is the right side (`4`).
+
 
 ## Dynamic Programming
 ### Kadane's Algorithm
