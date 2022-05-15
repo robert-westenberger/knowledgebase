@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T21:31:05.947Z
+date: 2022-05-15T21:32:00.855Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -112,7 +112,11 @@ Array is `[-2,1,-3,4,-1,2,1,-5,4]`
 
 Array is split into `[-2,1,-3,4]` and `[-1, 2, 1, -5, 4]`,
 
-`[-2,1,-3,4]` is split into `[-2]` and `[-3,4]`
+`[-2,1,-3,4]` is split into `[-2]` and `[-3,4]`.
+
+The max subarray of `[-2]` is just `[-2]`.
+
+
 ## Dynamic Programming
 ### Kadane's Algorithm
 TODO
