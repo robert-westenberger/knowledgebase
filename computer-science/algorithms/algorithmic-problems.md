@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-15T20:10:52.409Z
+date: 2022-05-15T20:11:41.686Z
 tags: algorithms
 editor: markdown
 ---
@@ -19,7 +19,7 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 # Divide and Conquer
 Divide and Conquer works by dividing the problem into sub-problems, conquer each sub-problem recursively and combine these solutions.
 ## Examples
-[Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray)
+[Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray) - Find the contiguous subarray that has the largest sum. 
 # Pointer Algorithms 
 Algorithms that take advantage of the structure of data, using pointers, to calculate something. 
 ## Examples
