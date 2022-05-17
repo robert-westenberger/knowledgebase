@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-15T20:11:41.686Z
+date: 2022-05-17T15:59:44.879Z
 tags: algorithms
 editor: markdown
 ---
@@ -20,8 +20,9 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 Divide and Conquer works by dividing the problem into sub-problems, conquer each sub-problem recursively and combine these solutions.
 ## Examples
 [Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray) - Find the contiguous subarray that has the largest sum. 
-# Pointer Algorithms 
-Algorithms that take advantage of the structure of data, using pointers, to calculate something. 
+# Two Pointer Algorithms 
+Algorithms that take advantage of the structure of data, using pointers, to calculate something.
+
 ## Examples
 [Detect Loop in Linked List (Floyd's Cycle Detection Algorithm](/computer-science/algorithms/algorithmic-problems/detect-loop-in-linked-list) - Uses two pointers, moving through a linked list at different speeds, to detect a loop.
 # Backtracking
