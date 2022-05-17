@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-17T15:59:44.879Z
+date: 2022-05-17T15:59:59.259Z
 tags: algorithms
 editor: markdown
 ---
@@ -24,7 +24,7 @@ Divide and Conquer works by dividing the problem into sub-problems, conquer each
 Algorithms that take advantage of the structure of data, using pointers, to calculate something.
 
 ## Examples
-[Detect Loop in Linked List (Floyd's Cycle Detection Algorithm](/computer-science/algorithms/algorithmic-problems/detect-loop-in-linked-list) - Uses two pointers, moving through a linked list at different speeds, to detect a loop.
+[Detect Loop in Linked List (Floyd's Cycle Detection Algorithm)](/computer-science/algorithms/algorithmic-problems/detect-loop-in-linked-list) - Uses two pointers, moving through a linked list at different speeds, to detect a loop.
 # Backtracking
 See [Backtracking](/computer-science/algorithms/backtracking)
 Backtracking is a general algorithm for finding solutions to some computational problems, notably constrant satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
