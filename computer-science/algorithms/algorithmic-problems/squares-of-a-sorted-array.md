@@ -2,7 +2,7 @@
 title: Squares of a Sorted Array
 description: 
 published: true
-date: 2022-05-17T16:02:26.329Z
+date: 2022-05-17T16:05:29.947Z
 tags: algorithms, two-pointers
 editor: markdown
 ---
@@ -31,3 +31,5 @@ Example 2:
  
 
 
+# Approach
+We use two pointer technique to square and sort the list in `O(n)` time. Taking note of how the numbers on either side of the unsquared list will be the largest values in the squared list, we can start with pointers on both the left and right ends of the list and converge towards the middle. 
