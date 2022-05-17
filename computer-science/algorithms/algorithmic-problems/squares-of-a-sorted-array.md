@@ -2,7 +2,7 @@
 title: Squares of a Sorted Array
 description: 
 published: true
-date: 2022-05-17T16:05:29.947Z
+date: 2022-05-17T16:59:14.703Z
 tags: algorithms, two-pointers
 editor: markdown
 ---
@@ -33,3 +33,28 @@ Example 2:
 
 # Approach
 We use two pointer technique to square and sort the list in `O(n)` time. Taking note of how the numbers on either side of the unsquared list will be the largest values in the squared list, we can start with pointers on both the left and right ends of the list and converge towards the middle. 
+
+## Implementation (Javascript)
+```
+const sortedSquares = function(nums) {
+    let left = 0;
+    let right = nums.length - 1;
+    const answer = [];
+    while (left <= right) {
+        const num1 = Math.pow(nums[left], 2);
+        const num2 = Math.pow(nums[right], 2);
+        if (left === right) {
+            answer.unshift(num1);
+            break;
+        }
+        else if (num1 > num2) {
+            answer.unshift(num1);
+            left++; 
+        } else {
+            answer.unshift(num2);  
+            right--; 
+        }
+    }
+    return answer;
+};
+```
