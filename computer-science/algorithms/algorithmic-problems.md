@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-17T16:03:27.776Z
+date: 2022-05-18T17:24:13.823Z
 tags: algorithms
 editor: markdown
 ---
@@ -43,7 +43,6 @@ For finding subarrays in an array that satisfies given conditions.
 ## Examples
 ### Find the longest substring of a string containing distinct characters
 [Longest Substring Without Repeating Characters](/computer-science/algorithms/algorithmic-problems/longest-substring-without-repeating-characters)
-### Find the longest substring of a string containing `k` distinct characters.
 Given a string and a positive number `k`, find the longest substring of the string containing `k` distinct characters. If `k` is more than the total number of distinct characters in the string, return the whole string.
 ### Find all substrings of a string that are a permutation of another string.
 Find all substrings of a string that contains all characters of another string. In other words, find all substrings of the first string that are anagrams of the second string.
