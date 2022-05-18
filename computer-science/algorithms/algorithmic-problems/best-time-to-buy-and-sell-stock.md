@@ -2,7 +2,7 @@
 title: Best Time to Buy and Sell Stock
 description: 
 published: true
-date: 2022-05-18T16:31:31.677Z
+date: 2022-05-18T16:31:41.299Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -22,3 +22,6 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 ## Constraints
 1 <= prices.length <= 10^5^
 0 <= prices[i] <= 10^4^
+
+# Approach
+## Dynamic Programming
