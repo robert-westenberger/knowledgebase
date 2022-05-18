@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-18T17:30:29.423Z
+date: 2022-05-18T17:31:12.000Z
 tags: algorithms
 editor: markdown
 ---
@@ -19,7 +19,7 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 
 [Best Time to Buy and Sell Stock](/computer-science/algorithms/algorithmic-problems/best-time-to-buy-and-sell-stock) - Given an array prices where prices[i] is the price of a given stock on the i^th^ day, return the maximum profit you can achieve by buy choosing a single day to buy the stock and a single day in the future to sell it. 
 
-
+Note that this one is similar to the "maximum subarray" problem.
 # Divide and Conquer
 Divide and Conquer works by dividing the problem into sub-problems, conquer each sub-problem recursively and combine these solutions.
 ## Examples
