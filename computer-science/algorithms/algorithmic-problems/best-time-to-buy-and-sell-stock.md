@@ -2,7 +2,7 @@
 title: Best Time to Buy and Sell Stock
 description: 
 published: true
-date: 2022-05-18T17:27:34.003Z
+date: 2022-05-18T17:27:59.164Z
 tags: algorithms, dynamic-programming
 editor: markdown
 ---
@@ -27,4 +27,17 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 ## Dynamic Programming
 ### Kadane's Algorithm
 #### Implementation (Javascript)
-
+```
+const maxProfit = function(prices) {
+    let maxProfit = 0; 
+    let minPrice = Infinity;
+    
+    prices.forEach(price => {
+        minPrice = Math.min(minPrice, price);
+        const profit = price - minPrice;
+        maxProfit = Math.max(maxProfit, profit);
+    });
+    
+    return maxProfit;
+};
+```
