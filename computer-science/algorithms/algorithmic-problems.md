@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-18T17:24:13.823Z
+date: 2022-05-18T17:30:29.423Z
 tags: algorithms
 editor: markdown
 ---
@@ -16,6 +16,10 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 [Max Path Sum in a Pyramid of Numbers](/computer-science/algorithms/algorithmic-problems/max-path-sum-in-a-pyramid-of-numbers) - Calculate the maximum sum, from the top to the bottom of a pyramid, when you're only allowed to move to adjacent numbers at each level.
 
 [Minimum Cost Path](/computer-science/algorithms/algorithmic-problems/minimum-cost-path) - Given a 2D matrix where each cell has a cost to travel, find a path from the left-top corner to the bottom-right corner with minimum travel cost. You can only move right or down. 
+
+[Best Time to Buy and Sell Stock](/computer-science/algorithms/algorithmic-problems/best-time-to-buy-and-sell-stock) - Given an array prices where prices[i] is the price of a given stock on the i^th^ day, return the maximum profit you can achieve by buy choosing a single day to buy the stock and a single day in the future to sell it. 
+
+
 # Divide and Conquer
 Divide and Conquer works by dividing the problem into sub-problems, conquer each sub-problem recursively and combine these solutions.
 ## Examples
