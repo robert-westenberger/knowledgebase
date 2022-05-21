@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-18T17:31:51.862Z
+date: 2022-05-21T21:14:02.848Z
 tags: algorithms
 editor: markdown
 ---
@@ -58,6 +58,10 @@ Given a binary array, find the index of 0 to be replaced with 1 to get a maximum
 ### Count distinct absolute values in a sorted array
 Given an array of sorted integers that may contain several duplicate elements, count the total number of distinct absolute values in it.
 
+# Linked Lists
+## Merge
+### Example
+[Merge Two Sorted Linked Lists](/computer-science/algorithms/algorithmic-problems/merge-two-sorted-linked-lists)
 # Trees
 ## Balancing
 ### Examples
