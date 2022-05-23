@@ -2,7 +2,7 @@
 title: Find Connected Cells in a Matrix
 description: 
 published: true
-date: 2022-05-23T00:25:09.577Z
+date: 2022-05-23T00:28:24.509Z
 tags: matrix, algorithms, arrays
 editor: markdown
 ---
@@ -33,3 +33,34 @@ Input: grid = [
 ]
 Output: 6
 ( Largest island is bolded)
+
+# Algorithm
+## Depth First Search
+We iterate over the grid. When we find an island, we use depth first search to find all of the connected pieces of the island. As we traverse the island, we set the `1`s to `0` to prevent researching the same piece of land twice.
+### Implementation(Javascript)
+```
+const maxAreaOfIsland = (grid) => {
+    let answer = 0;
+
+    const numRows = grid.length;
+    const numCols = grid[0].length;
+
+    const traverse = (row, col) => {
+        // if outside of map, return 0..
+        if (row < 0 || col < 0 || row >= numRows || col >= numCols || !grid[row][col]) {
+            return 0;
+        }
+        grid[row][col] = 0;
+        return 1 + traverse(row+1, col) + traverse(row-1, col) + traverse(row, col+1) + traverse(row, col-1);
+    }
+
+    for (let row = 0; row < numRows; row++) {
+        for (let col=0; col < numCols; col++) {
+            if (grid[row][col] === 1) {
+                answer = Math.max(answer, traverse(row, col));
+            }
+        }
+    }
+    return answer;
+}
+```
