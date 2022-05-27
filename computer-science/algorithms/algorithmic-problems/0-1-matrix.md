@@ -2,7 +2,7 @@
 title: 0 1 Matrix
 description: Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.
 published: true
-date: 2022-05-27T18:05:01.659Z
+date: 2022-05-27T18:07:19.198Z
 tags: matrix, algorithms, breadth-first-search
 editor: markdown
 ---
@@ -46,4 +46,8 @@ Output: [
 ## Breadth First Search
 You can think of the matrix as a graph. There are row * col vertices. There are a maximum of 4 * row * col edges. 
 
+The graph is undirected and unweighted.
+
 We want to find the shortest path between 1 and 0s for each 0 in the graph, which is breadth first search. 
+
+Usually BFS has one source node.
