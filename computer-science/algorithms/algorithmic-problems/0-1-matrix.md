@@ -2,7 +2,7 @@
 title: 0 1 Matrix
 description: Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.
 published: true
-date: 2022-05-27T17:56:42.971Z
+date: 2022-05-27T17:58:44.720Z
 tags: matrix, algorithms, breadth-first-search
 editor: markdown
 ---
@@ -43,3 +43,4 @@ Output: [
 - There is at least one 0 in mat.
 
 # Approach
+## Breadth First Search
