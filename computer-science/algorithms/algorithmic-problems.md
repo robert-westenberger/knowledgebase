@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-23T18:25:37.794Z
+date: 2022-05-27T17:58:01.680Z
 tags: algorithms
 editor: markdown
 ---
@@ -92,3 +92,8 @@ Given an array of sorted integers that may contain several duplicate elements, c
 ## Examples
 ### Building Lowest Number by Removing k digits from a given number
 [Remove k digits](/computer-science/algorithms/algorithmic-problems/remove-k-digits)
+
+# Graphs
+## Breadth First Search
+### Examples
+[0 1 Matrix](/computer-science/algorithms/algorithmic-problems/0-1-matrix) - Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.
