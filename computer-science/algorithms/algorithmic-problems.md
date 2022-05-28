@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-27T17:58:01.680Z
+date: 2022-05-28T21:22:14.428Z
 tags: algorithms
 editor: markdown
 ---
@@ -43,6 +43,8 @@ Backtracking is a general algorithm for finding solutions to some computational 
 [Generate Valid Parentheses](/computer-science/algorithms/algorithmic-problems/generate-valid-parentheses) - For a number `n`, generate all combinations of well-formed parentheses.
 
 [Find Permutations](/computer-science/algorithms/algorithmic-problems/find-permutations) - Given an array nums of distinct integers, return all the possible permutations.
+
+[Find Combinations](/computer-science/algorithms/algorithmic-problems/combinations)
 # Sliding Window Technique
 A computational technique which aims to reduce the use of a nested loop and replace it with a single loop (thereby reducing time complexity).
 
