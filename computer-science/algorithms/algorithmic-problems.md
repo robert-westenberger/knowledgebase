@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-28T21:22:14.428Z
+date: 2022-05-29T00:32:17.645Z
 tags: algorithms
 editor: markdown
 ---
@@ -17,6 +17,7 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 
 [Minimum Cost Path](/computer-science/algorithms/algorithmic-problems/minimum-cost-path) - Given a 2D matrix where each cell has a cost to travel, find a path from the left-top corner to the bottom-right corner with minimum travel cost. You can only move right or down. 
 
+[House Robber](/computer-science/algorithms/algorithmic-problems/house-robber) - Given an integer array, return the maximum sum when picking no two adjacent integers. 
 ## Kadane's Algorithm
 ### Examples
 [Best Time to Buy and Sell Stock](/computer-science/algorithms/algorithmic-problems/best-time-to-buy-and-sell-stock) - Given an array prices where prices[i] is the price of a given stock on the i^th^ day, return the maximum profit you can achieve by buy choosing a single day to buy the stock and a single day in the future to sell it. 
