@@ -2,7 +2,7 @@
 title: Search in Rotated Sorted Array
 description: 
 published: true
-date: 2022-06-04T21:45:44.169Z
+date: 2022-06-04T21:46:30.486Z
 tags: algorithms, arrays, binary-search
 editor: markdown
 ---
@@ -57,3 +57,26 @@ Of course we don't actually adjust the whole array but instead adjust only on th
 If nums[mid] and target are "on the same side" of nums[0], we just take nums[mid]. Otherwise we use -infinity or +infinity as needed.
 
 ## Implementation (Javascript)
+```
+const search = (nums, target) => {
+  let left = 0;
+  let right = nums.length;
+  
+  while (left < right){
+    const mid = Math.floor((left+right)/2);
+    const midLessThanFirst = nums[mid] < nums[0];
+    const targetLessThanFirst = target < nums[0];
+  
+    const num = midLessThanFirst === targetLessThanFirst ? nums[mid] : target < nums[0] ? -Infinity : Infinity;
+    
+    if (num < target) {
+      left = mid+1;
+    } else if (num > target) {
+      right = mid;
+    } else {
+      return mid;
+    }
+  }
+  return -1;
+}
+```
