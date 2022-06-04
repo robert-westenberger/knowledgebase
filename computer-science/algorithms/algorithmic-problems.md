@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-05-29T00:32:17.645Z
+date: 2022-06-04T20:48:34.584Z
 tags: algorithms
 editor: markdown
 ---
@@ -100,3 +100,7 @@ Given an array of sorted integers that may contain several duplicate elements, c
 ## Breadth First Search
 ### Examples
 [0 1 Matrix](/computer-science/algorithms/algorithmic-problems/0-1-matrix) - Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.
+
+# Arrays
+## Examples
+[Find Minimum In Rotated Array](/computer-science/algorithms/algorithmic-problems/find-minimum-in-rotated-array) - Given the sorted rotated array nums of unique elements, return the minimum element of this array in O(log n) time.
