@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-06-04T20:48:34.584Z
+date: 2022-06-04T21:48:24.851Z
 tags: algorithms
 editor: markdown
 ---
@@ -104,3 +104,4 @@ Given an array of sorted integers that may contain several duplicate elements, c
 # Arrays
 ## Examples
 [Find Minimum In Rotated Array](/computer-science/algorithms/algorithmic-problems/find-minimum-in-rotated-array) - Given the sorted rotated array nums of unique elements, return the minimum element of this array in O(log n) time.
+[Search in Rotated Sorted Array](/computer-science/algorithms/algorithmic-problems/search-in-sorted-rotated-array) - Given the sorted rotated array nums of unique elements, return the index of a target number, and -1 if it doesn't exist in the array.
