@@ -2,7 +2,7 @@
 title: Search in Rotated Sorted Array
 description: 
 published: true
-date: 2022-06-04T21:31:05.897Z
+date: 2022-06-04T21:32:53.762Z
 tags: algorithms, arrays, binary-search
 editor: markdown
 ---
@@ -38,3 +38,5 @@ Output: -1
 All values of nums are unique.
 nums is an ascending array that is possibly rotated.
 -10^4^ <= target <= 10^4^
+
+# Approach
