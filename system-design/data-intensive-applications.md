@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:39:41.859Z
+date: 2022-06-12T23:40:30.541Z
 tags: system-design
 editor: markdown
 ---
@@ -261,3 +261,5 @@ Data is sent to the warehouse in either a periodic data dump or a continuous str
 Data schemas in analytics are not very diverse. Many data warehouses use a fairly formulaic style, known as a star schema / dimensional modelling. 
 
 At the center of this schema is a fact-table. Each row in the fact-table represents an individual event that occured at a particular time. In a data warehouse of a grocery retailer, a row might represent a customers purchase of a product. Columns might represent a product sku, store location, valid instore promotions, quantity, net and discounted price. 
+
+Foreign key references in the fact-table reference dimension tables. The dimensions represent the who, what, where,m when, how, and why of an event. 
