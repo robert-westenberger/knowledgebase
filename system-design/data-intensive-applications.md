@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T01:35:53.409Z
+date: 2022-06-12T01:38:22.982Z
 tags: system-design
 editor: markdown
 ---
@@ -176,3 +176,5 @@ Maintaining additional structures incurs overhead, especially on writes, because
 
 ### Hash Indexes
 Key-value stores are usually implemented as a hash map / hash table. 
+
+If we were using a dead simple database, such as just appending new entries to a big text file, then a hash index for our data would be an in-memory hash map where every key is mapped to a byte offset in the data file - the value at which the value can be found. 
