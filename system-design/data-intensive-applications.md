@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:50:34.849Z
+date: 2022-06-12T23:51:55.359Z
 tags: system-design
 editor: markdown
 ---
@@ -274,3 +274,4 @@ Storage of fact-tables are **column-oriented**. All values of one row aren't sto
 The column-oriented storage layout relies on each column file containing the rows in the same order. Thus, if yo uneed to reassemble an entire row, you can take the 23rd entry from each of the individual column files and put them together to form the 23rd row of the table. 
 
 ### Column Compression
+One technique for compressing columns in a data warehouse is **bitmap encoding**.
