@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:32:43.389Z
+date: 2022-06-12T02:34:54.706Z
 tags: system-design
 editor: markdown
 ---
@@ -215,5 +215,13 @@ The LSM-tree algorithm can be slow when looking up keys that don't exist in the 
 In order to optimize this kind of access, storage engines often use additional Bloom filters (a memory-efficient data structure for approximating the contents of a set. It can tell you if a key does not appear in the database, and thus saves many unnecessary disk reads for nonexistent keys).
 
 There are also different strategies to determine the order and timing of how SSTables are compacted and merged. The most common options are size-tiered and leveled compaction. LevelDB and RocksDB use leveled compaction (hence the name of LevelDB), HBase uses size-tiered, and Cassandra supports both. In size-tiered compaction, newer and smaller SSTables are successively merged into older and larger SSTables. In leveled compaction, the key range is split up into smaller SSTables and older data is moved into separate “levels,” which allows the compaction to proceed more incrementally and use less disk space.
+
+The basic idea of LSM-trees - keeping a cascade of SSTables that are merged in the background- is simple and effective. 
+
+### B-Trees
+B-Trees are the most widely used indexing structure for relational databases (and many nonrelational databases).
+
+B-trees break down the database into fixed-size blocks or pages, traditionally 4 KB in size, and read or write one page at a time. This design corresponds more closely to the underlying hardware. 
+
 
 
