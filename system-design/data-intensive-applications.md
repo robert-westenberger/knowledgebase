@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:43:20.462Z
+date: 2022-06-12T23:49:30.714Z
 tags: system-design
 editor: markdown
 ---
@@ -265,3 +265,8 @@ At the center of this schema is a fact-table. Each row in the fact-table represe
 Foreign key references in the fact-table reference dimension tables. The dimensions represent the who, what, where,m when, how, and why of an event. 
 
 Snowflake tables are like star tables, but more normalized. 
+
+## Column-Oriented Storage
+Fact tables are typically massive, and much larger than dimension tables. They are often over 100 columns wide. Typical analytic queries on fact tables ignore all columns but a select few. 
+
+Storage of fact-tables are **column-oriented**. All values of one row aren't stored together. All the values of one column are stored together. If each column is stored in a separate file, a query only needs to read and parse those columns that are used in that query, which can save a lot of work. 
