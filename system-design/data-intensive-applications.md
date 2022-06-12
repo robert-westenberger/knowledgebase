@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:57:04.899Z
+date: 2022-06-12T04:14:34.671Z
 tags: system-design
 editor: markdown
 ---
@@ -239,3 +239,8 @@ Overwriting a page on disk is akin to an actual hardware operation. On a magneti
 Some operations require several different pages to be overwritten. If the database crashes after only some pages have been written, you end up with a corrupted index (there may be orphan pages, who don't have any parents). 
 
 To make the db more resilient to crashes, it's common for B-tree implementations to include an additional data structure on disk: A write-ahead log (WAL, alkso known as a redo log). It's an append-only file to which every B-tree modification must be written before it can be applied to the pages of the tree itself. When the database comes back up after a crash, this log is used to restore the B-tree back to a consistent state. 
+
+### Other Indexing Structures
+It is very common to have secondary indexes. In relational databases, you can create several secondary indexes on the same table using `CREATE INDEX` command. They are often crucial for performing joins efficiently.
+
+### Storing Values Within the Index
