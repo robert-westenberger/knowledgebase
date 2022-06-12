@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T01:07:48.175Z
+date: 2022-06-12T01:08:10.026Z
 tags: system-design
 editor: markdown
 ---
@@ -110,6 +110,8 @@ Based on the map / collect and reduce / fold / inject functions that exist in ma
 The map and reduce functions used in MapReduce must be pure. They can't perform additional queries, and must be free of any side effects.
 
 These restrictions allow the database to run the functions anywhere, in any order, and rerun them on failure. 
+
+MapReduce is a fairly low level programming model for distributed execution on a cluster of machines.
 ### Example
 Imagine you are a marine biologist, and you add an observation record to your database every time you see animals in the ocean. Now you want to generate a report saying how many sharks you have sighted per month.
 
