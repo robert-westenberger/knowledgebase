@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T22:46:19.030Z
+date: 2022-06-12T22:52:55.782Z
 tags: system-design
 editor: markdown
 ---
@@ -244,3 +244,8 @@ To make the db more resilient to crashes, it's common for B-tree implementations
 It is very common to have secondary indexes. In relational databases, you can create several secondary indexes on the same table using `CREATE INDEX` command. They are often crucial for performing joins efficiently.
 
 ## Transaction Processing or Analytics
+Databases are used for both storing information related to commercial transactions, and data analytics. 
+
+Commercial transactions follow the access patterns you might think of with conventional database access (records fetched by key, random-access low-latency writes from user input, primarily used by end users / customers via a web app or some other user facing interface).
+
+Analytics systems read a large number of records, and are used to gain business intelligence or 
