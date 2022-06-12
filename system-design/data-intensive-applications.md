@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:55:12.195Z
+date: 2022-06-12T23:58:48.361Z
 tags: system-design
 editor: markdown
 ---
@@ -276,3 +276,7 @@ The column-oriented storage layout relies on each column file containing the row
 ### Column Compression
 One technique for compressing columns in a data warehouse is **bitmap encoding**. Below is an illustration of a compressed, bitmap-indexed storage of a single column.
 ![bitmap-encoded-table.png](/bitmap-encoded-table.png)
+
+If the number of distinct values in a column is small compared to the number of rows,  we can take a column with n distinct values and turn it into n separate bitmaps: one bitmap for each distinct value, with one bit for each row. The bit is 1 if the row has that value, and 0 if not.
+
+If n is very small (eg, a country column may have approximately 200 distinct values), those bitmaps can be stored with one bit per row.
