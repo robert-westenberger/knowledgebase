@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:51:55.359Z
+date: 2022-06-12T23:52:51.205Z
 tags: system-design
 editor: markdown
 ---
