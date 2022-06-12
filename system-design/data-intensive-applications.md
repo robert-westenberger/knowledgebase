@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:49:30.714Z
+date: 2022-06-12T23:50:34.849Z
 tags: system-design
 editor: markdown
 ---
@@ -270,3 +270,7 @@ Snowflake tables are like star tables, but more normalized.
 Fact tables are typically massive, and much larger than dimension tables. They are often over 100 columns wide. Typical analytic queries on fact tables ignore all columns but a select few. 
 
 Storage of fact-tables are **column-oriented**. All values of one row aren't stored together. All the values of one column are stored together. If each column is stored in a separate file, a query only needs to read and parse those columns that are used in that query, which can save a lot of work. 
+
+The column-oriented storage layout relies on each column file containing the rows in the same order. Thus, if yo uneed to reassemble an entire row, you can take the 23rd entry from each of the individual column files and put them together to form the 23rd row of the table. 
+
+### Column Compression
