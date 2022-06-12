@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:38:11.206Z
+date: 2022-06-12T02:39:13.219Z
 tags: system-design
 editor: markdown
 ---
@@ -229,4 +229,8 @@ Whenever you want to look up a key in the index, you start at one page designate
 
 The number of references to child pages in one page of the B-tree is called the **branching factor**. In practice, the branching factor depends on the amount of space required to store the page references and the range boundaries, but typically it is several hundred.
 
-If you want to update the value for an existing key in a B-tree, you search for the leaf page containing that key, change the value in that page, and write the page back to disk (any references to that page remain valid). If you want to add a new key, you need to find the page whose range encompasses the new key and add it to that page. If there isn’t enough free space in the page to accommodate the new key, it is split into two half-full pages, and the parent page is updated to account for the new subdivision of key ranges
+If you want to update the value for an existing key in a B-tree, you search for the leaf page containing that key, change the value in that page, and write the page back to disk (any references to that page remain valid). If you want to add a new key, you need to find the page whose range encompasses the new key and add it to that page. If there isn’t enough free space in the page to accommodate the new key, it is split into two half-full pages, and the parent page is updated to account for the new subdivision of key ranges.
+
+When adding keys to a b-tree, it remains balanced. A B-tree with `n` keys always has a depth of `O(log n)`. 
+
+
