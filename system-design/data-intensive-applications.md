@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:01:27.436Z
+date: 2022-06-12T02:02:27.194Z
 tags: system-design
 editor: markdown
 ---
@@ -193,3 +193,6 @@ SSTables are like hash indexes, but they key-value pairs are **sorted by key**.
 2. In order to find a particular key in the file, you no longer need to keep an index of all the keys in memory. Say you're looking for they key `handiwork`, but you don't know the exact offset of that key in the segment file. However, say you know the offsets for keys `handbag` and `handsome`, and because of the sort order you know that `handiwork` must appear between these two. This means you can jump to the offset for `handbag` and scan from there until yo¨find `handiwork` (or not, if it's not in that file). 
 You still need an in-memory index to tell you the offsets for some of the keys, but it can be sparse: one key for evry few kbs of segment file is sufficient, because a few kilobytes can be scanned very quickly.
 3. Since read requests need to scan over several key-value pairs in the requested range anyway, it is possible to group those records into a block and compress it before writing it to disk.  Each entry of the sparse in-memory index then points at the start of a compressed block. Besides saving disk space, compression also reduces the I/O bandwidth use.
+
+#### Constructing and Maintaining SSTables
+You can use red-black trees, or AVL trees, to insert keys in any order and read them back in sorted order. 
