@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:29:31.488Z
+date: 2022-06-12T23:39:41.859Z
 tags: system-design
 editor: markdown
 ---
@@ -257,3 +257,7 @@ The data warehouse contains a read-only copy of the data in all the various OLTP
 
 Data is sent to the warehouse in either a periodic data dump or a continuous stream of updates. It's transformed into an analysis-friendly schema, cleaned up, and then loaded. This process is known as **Extract-Transform-Load** (ETL). 
 
+### Schemas for Analytics
+Data schemas in analytics are not very diverse. Many data warehouses use a fairly formulaic style, known as a star schema / dimensional modelling. 
+
+At the center of this schema is a fact-table. Each row in the fact-table represents an individual event that occured at a particular time. In a data warehouse of a grocery retailer, a row might represent a customers purchase of a product. Columns might represent a product sku, store location, valid instore promotions, quantity, net and discounted price. 
