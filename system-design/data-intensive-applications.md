@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:02:27.194Z
+date: 2022-06-12T02:04:07.005Z
 tags: system-design
 editor: markdown
 ---
@@ -195,4 +195,12 @@ You still need an in-memory index to tell you the offsets for some of the keys, 
 3. Since read requests need to scan over several key-value pairs in the requested range anyway, it is possible to group those records into a block and compress it before writing it to disk.  Each entry of the sparse in-memory index then points at the start of a compressed block. Besides saving disk space, compression also reduces the I/O bandwidth use.
 
 #### Constructing and Maintaining SSTables
-You can use red-black trees, or AVL trees, to insert keys in any order and read them back in sorted order. 
+You can use red-black trees, or AVL trees, to insert keys in any order and read them back in sorted order.
+
+- When a write comes in, add it to an in-memory balanced tree data structure (sometimes called a memtable). 
+
+- When the memtable gets bigger than some threshhold, typically a few megabytes, write it out to disk as an SSTable file. This can be done efficiently because the tree already maintains the key-value pairs sorted by key. The new SSTable file becomes the most recent segment of the database. While the SSTable is being written out to disk, writes can continue to a new memtable instance.
+
+- In order to serve a read request, first try to find the key in the memtable, then in the most recent on-disk segment, then in the next-older segment, etc.
+
+- From time to time, run a merging and compaction process in the background to combine segment files and to discard overwritten or deleted values.
