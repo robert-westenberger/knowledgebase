@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:36:20.422Z
+date: 2022-06-12T02:37:51.760Z
 tags: system-design
 editor: markdown
 ---
@@ -226,4 +226,6 @@ B-trees break down the database into fixed-size blocks or pages, traditionally 4
 Each page can be identified using an address or location, which allows one page to refer to another—similar to a pointer, but on disk instead of in memory. We can use these page references to construct a tree of pages. 
 
 Whenever you want to look up a key in the index, you start at one page designated as the **root**. This page contains several keys and references to child pages. Each child is responsible for a continuous range of keys, and the keys between the references indicate where the boundaries between those ranges lie. 
+
+The number of references to child pages in one page of the B-tree is called the **branching factor**. In practice, the branching factor depends on the amount of space required to store the page references and the range boundaries, but typically it is several hundred.
 
