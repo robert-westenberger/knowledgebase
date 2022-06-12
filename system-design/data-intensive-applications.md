@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:27:40.971Z
+date: 2022-06-12T23:29:31.488Z
 tags: system-design
 editor: markdown
 ---
@@ -253,4 +253,7 @@ Analytics systems read a large number of records, and are used to gain business 
 ### Data Warehousing
 The separate database analytics is run on is tcalled a **data warehouse**.
 
-The data warehouse contains a read-only copy of the data in all the various OLTP (online transaction processing) systems. Data is sent to the warehouse in either a periodic data dump or a continuous stream of updates.
+The data warehouse contains a read-only copy of the data in all the various OLTP (online transaction processing) systems.
+
+Data is sent to the warehouse in either a periodic data dump or a continuous stream of updates. It's transformed into an analysis-friendly schema, cleaned up, and then loaded. This process is known as **Extract-Transform-Load** (ETL). 
+
