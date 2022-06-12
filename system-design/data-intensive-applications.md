@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:35:27.757Z
+date: 2022-06-12T02:36:20.422Z
 tags: system-design
 editor: markdown
 ---
@@ -224,4 +224,6 @@ B-Trees are the most widely used indexing structure for relational databases (an
 B-trees break down the database into fixed-size blocks or pages, traditionally 4 KB in size, and read or write one page at a time. This design corresponds more closely to the underlying hardware. 
 
 Each page can be identified using an address or location, which allows one page to refer to another—similar to a pointer, but on disk instead of in memory. We can use these page references to construct a tree of pages. 
+
+Whenever you want to look up a key in the index, you start at one page designated as the **root**. This page contains several keys and references to child pages. Each child is responsible for a continuous range of keys, and the keys between the references indicate where the boundaries between those ranges lie. 
 
