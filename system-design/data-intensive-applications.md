@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:40:30.541Z
+date: 2022-06-12T23:43:20.462Z
 tags: system-design
 editor: markdown
 ---
@@ -263,3 +263,5 @@ Data schemas in analytics are not very diverse. Many data warehouses use a fairl
 At the center of this schema is a fact-table. Each row in the fact-table represents an individual event that occured at a particular time. In a data warehouse of a grocery retailer, a row might represent a customers purchase of a product. Columns might represent a product sku, store location, valid instore promotions, quantity, net and discounted price. 
 
 Foreign key references in the fact-table reference dimension tables. The dimensions represent the who, what, where,m when, how, and why of an event. 
+
+Snowflake tables are like star tables, but more normalized. 
