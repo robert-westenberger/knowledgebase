@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T01:19:01.206Z
+date: 2022-06-12T01:35:53.409Z
 tags: system-design
 editor: markdown
 ---
@@ -44,6 +44,10 @@ More recently, "NoSQL" datastores have emerged and are of two main types:
 1. **Document databases** - targets use cases where data comes in self-contained documents and relationships between one document and another are rare.
 
 2. **Graph databases** - targets use cases where anything is potentially related to everything. 
+
+One thing that document and graph databases have in common is that they typically don’t enforce a schema for the data they store, which can make it easier to adapt applications to changing requirements. However, your application most likely still assumes that data has a certain structure; it’s just a question of whether the schema is explicit (enforced on write) or implicit (assumed on read).
+
+
 ## MapReduce Querying
 Based on the map / collect and reduce / fold / inject functions that exist in many functional programming languages.
 
@@ -164,3 +168,11 @@ The subject of a triple is equivalent to a vertex in a graph. The object is one 
 
 2. Another vertex in the graph. In that case, the predicate is an edge in the graph, the subject is the tail vertex, and the object is the head vertex. For example, in (lucy, marriedTo, alain) the subject and object lucy and alain are both vertices, and the predicate marriedTo is the label of the edge that connects them.
 
+# Storage and Retrieval
+## Data Structures That Power Your Database
+An `index`, in a general sense, is a data structure that maintains some additional metadata derived from the primary data in the database. The index is used as a "signpost" to help locate data during searches. 
+
+Maintaining additional structures incurs overhead, especially on writes, because the index needs to be updated to account for the new data. 
+
+### Hash Indexes
+Key-value stores are usually implemented as a hash map / hash table. 
