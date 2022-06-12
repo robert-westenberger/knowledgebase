@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T01:04:18.959Z
+date: 2022-06-12T01:07:48.175Z
 tags: system-design
 editor: markdown
 ---
@@ -107,9 +107,13 @@ The subject of a triple is equivalent to a vertex in a graph. The object is one 
 ## MapReduce Querying
 Based on the map / collect and reduce / fold / inject functions that exist in many functional programming languages.
 
+The map and reduce functions used in MapReduce must be pure. They can't perform additional queries, and must be free of any side effects.
+
+These restrictions allow the database to run the functions anywhere, in any order, and rerun them on failure. 
 ### Example
 Imagine you are a marine biologist, and you add an observation record to your database every time you see animals in the ocean. Now you want to generate a report saying how many sharks you have sighted per month.
 
+#### Using PostgreSQL
 In PostgreSQL, the query would look like the following:
 
 ```
@@ -122,6 +126,7 @@ GROUP BY observation_month;
 
 This query first filters the observations to only show species in the `Sharks` family, then groups the observations by the calendar month in which they occurred, and finally adds up the number of animals seen in all observations in that month.
 
+#### Using Mongodb's MapReduce
 The same can be expressed with MongoDB's MapReduce feature as follows:
 
 ```
@@ -147,3 +152,5 @@ The `map` function emits a key ( a string consisting of year and month, such as 
 The key-value pair emmited by `map` are grouped by key. For all k-v pairs with the same key (i.e., the same month and year), the `reduce` function is called once.
 
 The `reduce` function adds up the number of animals from all observations in a particular month. 
+
+The final output is written to the collection `monthlySharkReport`. 
