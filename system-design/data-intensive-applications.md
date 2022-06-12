@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T01:38:22.982Z
+date: 2022-06-12T01:57:39.274Z
 tags: system-design
 editor: markdown
 ---
@@ -178,3 +178,14 @@ Maintaining additional structures incurs overhead, especially on writes, because
 Key-value stores are usually implemented as a hash map / hash table. 
 
 If we were using a dead simple database, such as just appending new entries to a big text file, then a hash index for our data would be an in-memory hash map where every key is mapped to a byte offset in the data file - the value at which the value can be found. 
+
+#### Disadvantages
+- The hash table must fit in memory, so if you have a very large number of keys, you’re out of luck. In principle, you could maintain a hash map on disk, but unfortunately it is difficult to make an on-disk hash map perform well. It requires a lot of random access I/O, it is expensive to grow when it becomes full, and hash collisions require fiddly logic
+
+- Range queries are not efficient. For example, you cannot easily scan over all keys between `kitty00000` and `kitty99999`—you’d have to look up each key individually in the hash maps.
+
+### SSTables (Sorted String Tables) and LSM-Trees
+SSTables are like hash indexes, but they key-value pairs are **sorted by key**.
+
+#### Advantages Over Log Segments With Hash Indexes
+1. Merging segments is simple and efficient, even if the files are bigger than the available memory. You start reading the input files side by side,look at the first key in each file, copy the lowest key (according to the sort order) to the output file, and repeat. This produces a new merged segment file, also sorted by key. 
