@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:39:13.219Z
+date: 2022-06-12T02:40:45.142Z
 tags: system-design
 editor: markdown
 ---
@@ -233,4 +233,5 @@ If you want to update the value for an existing key in a B-tree, you search for 
 
 When adding keys to a b-tree, it remains balanced. A B-tree with `n` keys always has a depth of `O(log n)`. 
 
+#### Making B-trees reliable
 
