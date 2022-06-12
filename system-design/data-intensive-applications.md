@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T01:10:46.513Z
+date: 2022-06-12T01:19:01.206Z
 tags: system-design
 editor: markdown
 ---
@@ -37,6 +37,13 @@ Good abstractions can help reduce complexity and make the system easier to modif
 Good operability means having good visibility into the system’s health, and having effective ways of managing it.
 
 # Data Models and Query Languages
+Historically, data started out being represented as one big tree (the hierarchical model), but that wasn't good for representing many-to-many relationships, so the relational model was invented to solve that problem. 
+
+More recently, "NoSQL" datastores have emerged and are of two main types: 
+
+1. **Document databases** - targets use cases where data comes in self-contained documents and relationships between one document and another are rare.
+
+2. **Graph databases** - targets use cases where anything is potentially related to everything. 
 ## MapReduce Querying
 Based on the map / collect and reduce / fold / inject functions that exist in many functional programming languages.
 
