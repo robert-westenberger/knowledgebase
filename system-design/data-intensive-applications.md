@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:58:48.361Z
+date: 2022-06-12T23:59:48.420Z
 tags: system-design
 editor: markdown
 ---
@@ -280,3 +280,5 @@ One technique for compressing columns in a data warehouse is **bitmap encoding**
 If the number of distinct values in a column is small compared to the number of rows,  we can take a column with n distinct values and turn it into n separate bitmaps: one bitmap for each distinct value, with one bit for each row. The bit is 1 if the row has that value, and 0 if not.
 
 If n is very small (eg, a country column may have approximately 200 distinct values), those bitmaps can be stored with one bit per row.
+
+If n is bigger, there will be a lot of zeros in most of the bitmaps (they are said to be sparse). In that case, the bitmaps can be additionally run-length encoded, at the bottom of the above illustration.
