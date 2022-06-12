@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:40:45.142Z
+date: 2022-06-12T02:57:04.899Z
 tags: system-design
 editor: markdown
 ---
@@ -234,4 +234,8 @@ If you want to update the value for an existing key in a B-tree, you search for 
 When adding keys to a b-tree, it remains balanced. A B-tree with `n` keys always has a depth of `O(log n)`. 
 
 #### Making B-trees reliable
+Overwriting a page on disk is akin to an actual hardware operation. On a magnetic disk, this means moving the disk head to the right place, waiting for the right position on the spinning platter to come around, and then overwriting the appropriate sector with new data. On SSDs, its more complicated due to the fact that an SSD must erase and rewrite fairly large blocks of a storage chip at a time. 
 
+Some operations require several different pages to be overwritten. If the database crashes after only some pages have been written, you end up with a corrupted index (there may be orphan pages, who don't have any parents). 
+
+To make the db more resilient to crashes, it's common for B-tree implementations to include an additional data structure on disk: A write-ahead log (WAL, alkso known as a redo log). It's an append-only file to which every B-tree modification must be written before it can be applied to the pages of the tree itself. When the database comes back up after a crash, this log is used to restore the B-tree back to a consistent state. 
