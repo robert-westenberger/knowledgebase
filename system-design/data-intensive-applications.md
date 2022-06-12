@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:10:44.601Z
+date: 2022-06-12T02:32:43.389Z
 tags: system-design
 editor: markdown
 ---
@@ -209,4 +209,11 @@ This process suffers from one problem: if the database crashes, the most recent 
 
 In order to avoid that problem, we can keep a separate log on disk to which every write is immediately appended, just like in the previous section. That log is not in sorted order, but that doesn’t matter, because its only purpose is to restore the memtable after a crash. Every time the memtable is written out to an SSTable, the corresponding log can be discarded.
 
-#### Making an LSM-tree out of SSTables
+#### Performance Optimizations
+The LSM-tree algorithm can be slow when looking up keys that don't exist in the db. You have to check the memtable, then the segments all the way back to the oldest (possible having to read from disk for each one) before you can be sure the key does not exist. 
+
+In order to optimize this kind of access, storage engines often use additional Bloom filters (a memory-efficient data structure for approximating the contents of a set. It can tell you if a key does not appear in the database, and thus saves many unnecessary disk reads for nonexistent keys).
+
+There are also different strategies to determine the order and timing of how SSTables are compacted and merged. The most common options are size-tiered and leveled compaction. LevelDB and RocksDB use leveled compaction (hence the name of LevelDB), HBase uses size-tiered, and Cassandra supports both. In size-tiered compaction, newer and smaller SSTables are successively merged into older and larger SSTables. In leveled compaction, the key range is split up into smaller SSTables and older data is moved into separate “levels,” which allows the compaction to proceed more incrementally and use less disk space.
+
+
