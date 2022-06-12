@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T02:05:42.777Z
+date: 2022-06-12T02:10:44.601Z
 tags: system-design
 editor: markdown
 ---
@@ -184,7 +184,7 @@ If we were using a dead simple database, such as just appending new entries to a
 
 - Range queries are not efficient. For example, you cannot easily scan over all keys between `kitty00000` and `kitty99999`—you’d have to look up each key individually in the hash maps.
 
-### SSTables (Sorted String Tables) and LSM-Trees
+### SSTables (Sorted String Tables) and LSM-Trees (Log-Structured Merge-Tree)
 SSTables are like hash indexes, but they key-value pairs are **sorted by key**.
 
 #### Advantages Over Log Segments With Hash Indexes
@@ -208,3 +208,5 @@ You can use red-black trees, or AVL trees, to insert keys in any order and read 
 This process suffers from one problem: if the database crashes, the most recent writes (which are in the memtable but not yet written out to disk) are lost. 
 
 In order to avoid that problem, we can keep a separate log on disk to which every write is immediately appended, just like in the previous section. That log is not in sorted order, but that doesn’t matter, because its only purpose is to restore the memtable after a crash. Every time the memtable is written out to an SSTable, the corresponding log can be discarded.
+
+#### Making an LSM-tree out of SSTables
