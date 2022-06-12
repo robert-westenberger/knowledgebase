@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-11T22:57:59.331Z
+date: 2022-06-12T01:04:18.959Z
 tags: system-design
 editor: markdown
 ---
@@ -103,3 +103,47 @@ The subject of a triple is equivalent to a vertex in a graph. The object is one 
 1. A value in a primitive datatype, such as a string or a number. In that case, the predicate and object of the triple are equivalent to the key and value of a property on the subject vertex. For example, (lucy, age, 33) is like a vertex lucy with properties {"age":33}.
 
 2. Another vertex in the graph. In that case, the predicate is an edge in the graph, the subject is the tail vertex, and the object is the head vertex. For example, in (lucy, marriedTo, alain) the subject and object lucy and alain are both vertices, and the predicate marriedTo is the label of the edge that connects them.
+
+## MapReduce Querying
+Based on the map / collect and reduce / fold / inject functions that exist in many functional programming languages.
+
+### Example
+Imagine you are a marine biologist, and you add an observation record to your database every time you see animals in the ocean. Now you want to generate a report saying how many sharks you have sighted per month.
+
+In PostgreSQL, the query would look like the following:
+
+```
+SELECT date_trunc('month', observation_timestamp) AS observation_month,
+       sum(num_animals) AS total_animals
+FROM observations
+WHERE family = 'Sharks'
+GROUP BY observation_month;
+```
+
+This query first filters the observations to only show species in the `Sharks` family, then groups the observations by the calendar month in which they occurred, and finally adds up the number of animals seen in all observations in that month.
+
+The same can be expressed with MongoDB's MapReduce feature as follows:
+
+```
+db.observations.mapReduce(
+    function map() { 
+        var year  = this.observationTimestamp.getFullYear();
+        var month = this.observationTimestamp.getMonth() + 1;
+        emit(year + "-" + month, this.numAnimals); 
+    },
+    function reduce(key, values) { 
+        return Array.sum(values); 
+    },
+    {
+        query: { family: "Sharks" }, 
+        out: "monthlySharkReport" 
+    }
+);
+```
+The javascript `map` function is called once for every document that matches `query`, with `this` set to the document object.
+
+The `map` function emits a key ( a string consisting of year and month, such as `"2013-12"` or `"2014-1"`) and a value (the number of animals in that observation).
+
+The key-value pair emmited by `map` are grouped by key. For all k-v pairs with the same key (i.e., the same month and year), the `reduce` function is called once.
+
+The `reduce` function adds up the number of animals from all observations in a particular month. 
