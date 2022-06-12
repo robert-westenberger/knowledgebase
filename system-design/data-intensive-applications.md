@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T04:14:34.671Z
+date: 2022-06-12T22:46:19.030Z
 tags: system-design
 editor: markdown
 ---
@@ -243,4 +243,4 @@ To make the db more resilient to crashes, it's common for B-tree implementations
 ### Other Indexing Structures
 It is very common to have secondary indexes. In relational databases, you can create several secondary indexes on the same table using `CREATE INDEX` command. They are often crucial for performing joins efficiently.
 
-### Storing Values Within the Index
+## Transaction Processing or Analytics
