@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T22:52:55.782Z
+date: 2022-06-12T22:53:49.055Z
 tags: system-design
 editor: markdown
 ---
@@ -248,4 +248,4 @@ Databases are used for both storing information related to commercial transactio
 
 Commercial transactions follow the access patterns you might think of with conventional database access (records fetched by key, random-access low-latency writes from user input, primarily used by end users / customers via a web app or some other user facing interface).
 
-Analytics systems read a large number of records, and are used to gain business intelligence or 
+Analytics systems read a large number of records, and are used to gain business intelligence or to glean some insight into a large dataset. The dataset size used in analytics is typically several orders of magnitude larger than that used in typical transaction processing systems. 
