@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-13T01:53:56.093Z
+date: 2022-06-13T02:00:29.688Z
 tags: system-design
 editor: markdown
 ---
@@ -289,3 +289,5 @@ The data in a column-storage oriented database needs to be sorted a row at a tim
 Columns can be chosen to act as indicies by which the rest of the table will be sorted. Good candidates are those columns that are commonly selected. 
 
 A second column can be selected to determine the sort order of any rows that have hte same value in the first column.
+
+You can even have multiple sort orders stored on different machines, so when you're processing a query, you can use the version that best fits the query pattern. 
