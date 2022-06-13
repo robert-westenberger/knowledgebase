@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-13T02:06:17.835Z
+date: 2022-06-13T03:02:24.753Z
 tags: system-design
 editor: markdown
 ---
@@ -295,4 +295,4 @@ You can even have multiple sort orders stored on different machines, so when you
 ### Writing to Column-Oriented Storage
 An update-in-place approach, like B-trees use, is not possible with compressed columns. If you want to insert a row in the middle of a sorted table, you would most likely ahve to rewrite all the column files. 
 
-LSM-trees are a good solution to this problem.
+LSM-trees are a good solution to this problem. All writes first go to an in-memory store, where they are added to a sorted structure and prepared for writing to disk. It doesn’t matter whether the in-memory store is row-oriented or column-oriented. When enough writes have accumulated, they are merged with the column files on disk and written to new files in bulk.
