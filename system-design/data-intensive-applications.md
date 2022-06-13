@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-13T00:10:30.815Z
+date: 2022-06-13T01:53:56.093Z
 tags: system-design
 editor: markdown
 ---
@@ -283,4 +283,9 @@ If n is very small (eg, a country column may have approximately 200 distinct val
 
 If n is bigger, there will be a lot of zeros in most of the bitmaps (they are said to be sparse). In that case, the bitmaps can be additionally run-length encoded, at the bottom of the above illustration.
 
-### Memory bandwidth 
+### Sort Order in Column Storage
+The data in a column-storage oriented database needs to be sorted a row at a time, even though it's stored by columns.  
+
+Columns can be chosen to act as indicies by which the rest of the table will be sorted. Good candidates are those columns that are commonly selected. 
+
+A second column can be selected to determine the sort order of any rows that have hte same value in the first column.
