@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-12T23:59:48.420Z
+date: 2022-06-13T00:10:30.815Z
 tags: system-design
 editor: markdown
 ---
@@ -282,3 +282,5 @@ If the number of distinct values in a column is small compared to the number of 
 If n is very small (eg, a country column may have approximately 200 distinct values), those bitmaps can be stored with one bit per row.
 
 If n is bigger, there will be a lot of zeros in most of the bitmaps (they are said to be sparse). In that case, the bitmaps can be additionally run-length encoded, at the bottom of the above illustration.
+
+### Memory bandwidth 
