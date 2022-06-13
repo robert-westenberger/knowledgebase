@@ -2,7 +2,7 @@
 title: Data Intensive Applications
 description: 
 published: true
-date: 2022-06-13T02:00:29.688Z
+date: 2022-06-13T02:06:17.835Z
 tags: system-design
 editor: markdown
 ---
@@ -291,3 +291,8 @@ Columns can be chosen to act as indicies by which the rest of the table will be 
 A second column can be selected to determine the sort order of any rows that have hte same value in the first column.
 
 You can even have multiple sort orders stored on different machines, so when you're processing a query, you can use the version that best fits the query pattern. 
+
+### Writing to Column-Oriented Storage
+An update-in-place approach, like B-trees use, is not possible with compressed columns. If you want to insert a row in the middle of a sorted table, you would most likely ahve to rewrite all the column files. 
+
+LSM-trees are a good solution to this problem.
