@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T18:43:47.088Z
+date: 2022-08-18T19:43:27.110Z
 tags: typescript
 editor: markdown
 ---
@@ -292,3 +292,33 @@ const cc: ColorfulCircle = {
 ```
 
 ## Generic Object Types
+We can make a generic `Box` that takes a type parameter
+
+```
+interface Box<Type> {
+  contents: Type;
+}
+```
+
+### Generic Constraints
+```
+function loggingIdentity<Type>(arg: Type): Type {
+  console.log(arg.length); // ERROR: Property 'length' does not exist on type 'Type'.
+  return arg;
+}
+```
+
+We'd like to constrain this function to work with any and all types that **also** have the `.length` property. 
+
+```
+interface Lengthwise {
+  length: number;
+}
+ 
+function loggingIdentity<Type extends Lengthwise>(arg: Type): Type {
+  console.log(arg.length); // Now we know it has a .length property, so no more error
+  return arg;
+}
+```
+
+Because the generic function is now constrained, it will no longer work over any and all types.
