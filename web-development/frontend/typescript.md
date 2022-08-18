@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T19:59:04.400Z
+date: 2022-08-18T20:07:10.628Z
 tags: typescript
 editor: markdown
 ---
@@ -395,3 +395,75 @@ However, you can use a type alias for a similar style of refactor:
 type key = "age";
 type Age = Person[key];
 ```
+
+# Conditional Types
+Conditional types take a form that looks a little like conditional expressions (`condition ? trueExpression : falseExpression`) in JavaScript:
+
+```
+  SomeType extends OtherType ? TrueType : FalseType;
+```
+
+## Example (Without conditional types)
+```
+interface IdLabel {
+  id: number /* some fields */;
+}
+interface NameLabel {
+  name: string /* other fields */;
+}
+ 
+function createLabel(id: number): IdLabel;
+function createLabel(name: string): NameLabel;
+function createLabel(nameOrId: string | number): IdLabel | NameLabel;
+function createLabel(nameOrId: string | number): IdLabel | NameLabel {
+  throw "unimplemented";
+}
+```
+
+## Example (With Conditional Types)
+```
+type NameOrId<T extends number | string> = T extends number
+  ? IdLabel
+  : NameLabel;
+
+function createLabel<T extends number | string>(idOrName: T): NameOrId<T> {
+  throw "unimplemented";
+}
+
+let a = createLabel("typescript");
+
+let b = createLabel(2.8);
+
+let c = createLabel(Math.random() ? "hello" : 42);
+```
+
+### Conditional Type Constraints
+```
+type MessageOf<T extends { message: unknown }> = T["message"];
+ 
+interface Email {
+  message: string;
+}
+ 
+type EmailMessageContents = MessageOf<Email>; // type EmailMessageContents = string
+```
+
+What if we wanted `MessageOf` to take any type, and default to something like `never` if a `message` property isn't available? We can do this by moving the constraint out and introducing a conditional type:
+
+```
+type MessageOf<T> = T extends { message: unknown } ? T["message"] : never;
+ 
+interface Email {
+  message: string;
+}
+ 
+interface Dog {
+  bark(): void;
+}
+ 
+type EmailMessageContents = MessageOf<Email>;
+type DogMessageContents = MessageOf<Dog>;
+```
+
+## Inferring Within Conditional Types
+Conditional types provide us with a way to `infer` from types we compare against in the true branch using the infer keyword.
