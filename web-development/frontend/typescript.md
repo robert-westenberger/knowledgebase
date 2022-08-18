@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T17:01:47.602Z
+date: 2022-08-18T17:19:24.639Z
 tags: typescript
 editor: markdown
 ---
@@ -90,6 +90,10 @@ if (isFish(pet)) {
 }
 ```
 
+You can use the type guard `isFish` to filter an array of `Fish | Bird` and obtain an array of `Fish`. 
+
+## Discriminated Unions
+
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
 
@@ -103,4 +107,5 @@ TypeScript only allows type assertions which convert to a more specific or less 
 ```
 const x = "hello" as number;
 ```
+
 
