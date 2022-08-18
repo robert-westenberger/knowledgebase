@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T17:50:47.907Z
+date: 2022-08-18T17:51:30.629Z
 tags: typescript
 editor: markdown
 ---
@@ -151,4 +151,4 @@ TypeScript only allows type assertions which convert to a more specific or less 
 const x = "hello" as number;
 ```
 
-
+# More on Functions
