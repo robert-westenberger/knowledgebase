@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T20:20:12.623Z
+date: 2022-08-18T20:21:33.543Z
 tags: typescript
 editor: markdown
 ---
@@ -566,4 +566,17 @@ interface Circle {
 }
  
 type KindlessCircle = RemoveKindField<Circle>; // type KindlessCircle = { radius: number; }
+```
+
+You can map over arbitrary unions, not just unions of `string | number | symbol`, but unions of any type.
+
+```
+type EventConfig<Events extends { kind: string }> = {
+    [E in Events as E["kind"]]: (event: E) => void;
+}
+ 
+type SquareEvent = { kind: "square", x: number, y: number };
+type CircleEvent = { kind: "circle", radius: number };
+ 
+type Config = EventConfig<SquareEvent | CircleEvent> // type Config = { square: (event: SquareEvent) => void; circle: (event: CircleEvent) => void; }
 ```
