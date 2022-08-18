@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T19:58:36.278Z
+date: 2022-08-18T19:59:04.400Z
 tags: typescript
 editor: markdown
 ---
@@ -388,4 +388,10 @@ You can only use types when indexing, meaning you can’t use a const to make a 
 ```
 const key = "age";
 type Age = Person[key]; // ERROR! 'key' refers to a value
+```
+
+However, you can use a type alias for a similar style of refactor:
+```
+type key = "age";
+type Age = Person[key];
 ```
