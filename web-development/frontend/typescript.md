@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T17:47:50.377Z
+date: 2022-08-18T17:50:47.907Z
 tags: typescript
 editor: markdown
 ---
@@ -98,7 +98,44 @@ A union of many different interfaces that has a property in common can use that 
 ## The never type
 The `never` type represents a type that shouldn't exist.
 ### Exhaustiveness Checking
+```
+type Shape = Circle | Square;
+ 
+function getArea(shape: Shape) {
+  switch (shape.kind) {
+    case "circle":
+      return Math.PI * shape.radius ** 2;
+    case "square":
+      return shape.sideLength ** 2;
+    default:
+      const _exhaustiveCheck: never = shape;
+      return _exhaustiveCheck;
+  }
+}
+```
 
+IF we add a new member to the `Shape` union,
+
+```
+interface Triangle {
+  kind: "triangle";
+  sideLength: number;
+}
+ 
+type Shape = Circle | Square | Triangle;
+ 
+function getArea(shape: Shape) {
+  switch (shape.kind) {
+    case "circle":
+      return Math.PI * shape.radius ** 2;
+    case "square":
+      return shape.sideLength ** 2;
+    default:
+      const _exhaustiveCheck: never = shape; // Type 'Triangle' is not assignable to type 'never'.
+      return _exhaustiveCheck;
+  }
+}
+```
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
 
