@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T16:36:02.480Z
+date: 2022-08-18T16:39:05.324Z
 tags: typescript
 editor: markdown
 ---
@@ -50,7 +50,8 @@ interface X extends string {
 When working with union types, typescript will allow an operation iff it is valid for every member of the union. 
 
 You can narrow the union with code. Narrowing occurs when TS can deduce a more specific type for a value based on the structure of the code. 
-
+## typeof type guards
+We can use the `typeof` operator to get the primitive type of a variable and execute behavior depending on what the typeof returns. For example, if we test that a variable is a string, any string operations on that variable within that particular if block will be supported.
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
 
@@ -64,3 +65,4 @@ TypeScript only allows type assertions which convert to a more specific or less 
 ```
 const x = "hello" as number;
 ```
+
