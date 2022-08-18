@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T20:13:23.773Z
+date: 2022-08-18T20:13:39.727Z
 tags: typescript
 editor: markdown
 ---
@@ -512,5 +512,4 @@ type ToArrayNonDist<Type> = [Type] extends [any] ? Type[] : never;
  
 // 'StrArrOrNumArr' is no longer a union.
 type StrArrOrNumArr = ToArrayNonDist<string | number>; // type StrArrOrNumArr = (string | number)[]
-
 ```
