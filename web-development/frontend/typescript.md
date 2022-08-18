@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T20:11:58.537Z
+date: 2022-08-18T20:12:55.355Z
 tags: typescript
 editor: markdown
 ---
@@ -488,4 +488,19 @@ the conditional type will be applied to each member of that union.
 
 ```
 type StrArrOrNumArr = ToArray<string | number>; // type StrArrOrNumArr = string[] | number[]
+```
+
+What happens here is that `StrArrOrNumArr` distributes on:
+```
+  string | number;
+  ```
+
+and maps over each member type of the union, to what is effectively:
+```
+  ToArray<string> | ToArray<number>;
+```
+
+which leaves us with:
+```
+  string[] | number[];
 ```
