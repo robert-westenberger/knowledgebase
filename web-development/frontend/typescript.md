@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T17:51:30.629Z
+date: 2022-08-18T18:12:39.688Z
 tags: typescript
 editor: markdown
 ---
@@ -152,3 +152,5 @@ const x = "hello" as number;
 ```
 
 # More on Functions
+## Constraints
+Sometimes we want to relate two values, but can only operate on a certain subset of values. In this case, we can use a **constraint** to limit the kinds of types that a type parameter can accept.
