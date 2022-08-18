@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T20:17:09.407Z
+date: 2022-08-18T20:20:12.623Z
 tags: typescript
 editor: markdown
 ---
@@ -528,4 +528,42 @@ type FeatureFlags = {
 };
  
 type FeatureOptions = OptionsFlags<FeatureFlags>; // type FeatureOptions = { darkMode: boolean; newUserProfile: boolean; }
+```
+## Mapping Modifiers
+`readonly` and `?` can be applied during mapping. You can remove or add these modifiers by prefixing with `-` and `+` respecificely. A `+` is assumed by default.
+
+## Key Remapping via `as`
+```
+type MappedTypeWithNewProperties<Type> = {
+    [Properties in keyof Type as NewKeyType]: Type[Properties]
+}
+```
+
+```
+type Getters<Type> = {
+    [Property in keyof Type as `get${Capitalize<string & Property>}`]: () => Type[Property]
+};
+ 
+interface Person {
+    name: string;
+    age: number;
+    location: string;
+}
+ 
+type LazyPerson = Getters<Person>;
+```
+
+You can filter out keys by producing `never` via a conditional type:
+```
+// Remove the 'kind' property
+type RemoveKindField<Type> = {
+    [Property in keyof Type as Exclude<Property, "kind">]: Type[Property]
+};
+ 
+interface Circle {
+    kind: "circle";
+    radius: number;
+}
+ 
+type KindlessCircle = RemoveKindField<Circle>; // type KindlessCircle = { radius: number; }
 ```
