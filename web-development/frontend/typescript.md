@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T16:48:24.699Z
+date: 2022-08-18T16:54:30.458Z
 tags: typescript
 editor: markdown
 ---
@@ -59,7 +59,15 @@ Another example is to test that an array is not null or undefined before iterati
 ## Equality Narrowing
 We can use switch statements or equality checks to compare two values that have some overlap. For example, if one has a type of string bool, and another has string number, if the values are strictly equal, typescript knows that we are dealing with a number.
 ## In operator Narrowing
-Typescript takes into account javascript's `in` opera
+Typescript takes into account javascript's `in` operator for determining if an object has a property with a name.
+## instanceof Narrowing
+Useful for most values constructed with `new`, the js `instanceof` operator is useful for checking whether the prototype chain of a particular variable contains a particular prototype.
+
+For example, `x instanceof Foo` checks whether the prototype chain of `x` contains `Foo.prototype`.
+
+## Control Flow Analysis
+Typescript analyzes codes and can (sometimes) determine what conditions must be true when code is executing in a particular place. For example, if a variable can be one of two primitive types, and there is an `if` statement that narrows down that variable and a `return` statement inside that particular block, then typescript will know that after that block that the variable must be the other primitive type. 
+
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
 
