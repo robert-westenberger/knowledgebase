@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T15:26:46.821Z
+date: 2022-08-18T16:27:27.905Z
 tags: typescript
 editor: markdown
 ---
@@ -39,4 +39,14 @@ type Puppy = { // this errors
   toys: number;
 };
 ```
+## Interfaces may only be used to declare the shapes of objects, not rename primitives
+```
+// This isn't feasible with interfaces
+interface X extends string {
 
+}
+```
+# Narrowing
+When working with union types, typescript will allow an operation iff it is valid for every member of the union. 
+
+You can narrow the union with code. Narrowing occurs when TS can deduce a more specific type for a value based on the structure of the code. 
