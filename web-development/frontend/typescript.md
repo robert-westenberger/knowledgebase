@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T20:13:39.727Z
+date: 2022-08-18T20:17:09.407Z
 tags: typescript
 editor: markdown
 ---
@@ -512,4 +512,20 @@ type ToArrayNonDist<Type> = [Type] extends [any] ? Type[] : never;
  
 // 'StrArrOrNumArr' is no longer a union.
 type StrArrOrNumArr = ToArrayNonDist<string | number>; // type StrArrOrNumArr = (string | number)[]
+```
+
+# Mapped Types
+A mapped type is a generic type which uses a union of `PropertyKey`s (frequently created via `keyof`) to iterate through keys to create a type:
+
+```
+type OptionsFlags<Type> = {
+  [Property in keyof Type]: boolean;
+};
+
+type FeatureFlags = {
+  darkMode: () => void;
+  newUserProfile: () => void;
+};
+ 
+type FeatureOptions = OptionsFlags<FeatureFlags>; // type FeatureOptions = { darkMode: boolean; newUserProfile: boolean; }
 ```
