@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T15:18:10.059Z
+date: 2022-08-18T15:20:31.023Z
 tags: typescript
 editor: markdown
 ---
@@ -11,7 +11,7 @@ editor: markdown
 ## Use Interfaces Over Type Aliases
 You will get better error messages.
 ## Interfaces are Open, Type Aliases are Closed
-This means you can extend an interface by declaring it a second time. 
+This means you can extend an interface by declaring it a second time.
 
 ```
 interface Kitten {
