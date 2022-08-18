@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T15:20:31.023Z
+date: 2022-08-18T15:26:46.821Z
 tags: typescript
 editor: markdown
 ---
@@ -39,3 +39,4 @@ type Puppy = { // this errors
   toys: number;
 };
 ```
+
