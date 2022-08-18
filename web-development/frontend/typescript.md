@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T17:35:31.703Z
+date: 2022-08-18T17:40:48.969Z
 tags: typescript
 editor: markdown
 ---
@@ -94,6 +94,11 @@ You can use the type guard `isFish` to filter an array of `Fish | Bird` and obta
 
 ## Discriminated Unions
 A union of many different interfaces that has a property in common can use that property (the discriminant) to help determine which kind of interface we are dealing with in the union.
+
+## The never type
+The `never` type represents a type that shouldn't exist.
+### Exhaustiveness Checking
+
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
 
