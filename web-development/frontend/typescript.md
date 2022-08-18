@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T16:47:48.952Z
+date: 2022-08-18T16:48:24.699Z
 tags: typescript
 editor: markdown
 ---
@@ -59,6 +59,7 @@ Another example is to test that an array is not null or undefined before iterati
 ## Equality Narrowing
 We can use switch statements or equality checks to compare two values that have some overlap. For example, if one has a type of string bool, and another has string number, if the values are strictly equal, typescript knows that we are dealing with a number.
 ## In operator Narrowing
+Typescript takes into account javascript's `in` opera
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
 
