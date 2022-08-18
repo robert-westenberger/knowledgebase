@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T19:43:27.110Z
+date: 2022-08-18T19:50:28.147Z
 tags: typescript
 editor: markdown
 ---
@@ -322,3 +322,36 @@ function loggingIdentity<Type extends Lengthwise>(arg: Type): Type {
 ```
 
 Because the generic function is now constrained, it will no longer work over any and all types.
+
+### Using Type Parameters in Generic Constraints
+You can declare a type param that is constrained by another type param. For example, below we'd like to get a property from an object given it's name. 
+```
+function getProperty<Type, Key extends keyof Type>(obj: Type, key: Key) {
+  return obj[key];
+}
+ 
+let x = { a: 1, b: 2, c: 3, d: 4 };
+
+getProperty(x, "a");
+getProperty(x, "m"); // Argument of type '"m"' is not assignable to parameter of type '"a" | "b" | "c" | "d"'.
+```
+
+# keyof type operator
+The `keyof` operator takes an object type and produces a string or numeric literal union of its keys. 
+
+The following type `P` is the same type as `"x"|"y"`. 
+
+```
+type Point = { x: number; y: number };
+type P = keyof Point;
+```
+
+If the type has a `string` or `number` index sig, `keyof` will return those types instead.
+
+```
+type Arrayish = { [n: number]: unknown };
+type A = keyof Arrayish; // A=number
+
+type Mapish = { [k: string]: boolean };
+type M = keyof Mapish; // M = string | number
+```
