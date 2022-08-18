@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T17:40:48.969Z
+date: 2022-08-18T17:47:50.377Z
 tags: typescript
 editor: markdown
 ---
@@ -101,6 +101,7 @@ The `never` type represents a type that shouldn't exist.
 
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
+
 
 In this situation, you can use a type assertion to specify a more specific type:
 ```
