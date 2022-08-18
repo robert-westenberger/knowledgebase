@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T18:42:03.362Z
+date: 2022-08-18T18:43:47.088Z
 tags: typescript
 editor: markdown
 ---
@@ -291,4 +291,4 @@ const cc: ColorfulCircle = {
 };
 ```
 
-## Intersection Types
+## Generic Object Types
