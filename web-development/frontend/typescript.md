@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T19:56:14.590Z
+date: 2022-08-18T19:58:36.278Z
 tags: typescript
 editor: markdown
 ---
@@ -371,4 +371,21 @@ type Age = Person["age"]; // type Age = number
 
 ```
 type I2 = Person[keyof Person]; // type I2 = string | number | boolean
+```
+
+```
+const MyArray = [
+  { name: "Alice", age: 15 },
+  { name: "Bob", age: 23 },
+  { name: "Eve", age: 38 },
+];
+ 
+type Person = typeof MyArray[number]; // type Person = { name: string; age: number; }
+```
+
+You can only use types when indexing, meaning you can’t use a const to make a variable reference:
+
+```
+const key = "age";
+type Age = Person[key]; // ERROR! 'key' refers to a value
 ```
