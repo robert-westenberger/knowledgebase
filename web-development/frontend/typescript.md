@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T16:56:13.440Z
+date: 2022-08-18T17:01:47.602Z
 tags: typescript
 editor: markdown
 ---
@@ -76,7 +76,19 @@ function isFish(pet: Fish | Bird): pet is Fish {
   return (pet as Fish).swim !== undefined;
 }
 ```
+`pet is Fish` is the type predicate for the above example. A predicate takes the form `parameterName is Type`, where `parameterName` must be the name of a parameter from the current function signature.
 
+Any time `isFish` is called with some variable, Typescript will narrow that variable to that specific type if the original type is compatible. 
+
+```
+let pet = getSmallPet();
+ 
+if (isFish(pet)) {
+  pet.swim();
+} else {
+  pet.fly();
+}
+```
 
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
