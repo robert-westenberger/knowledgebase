@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T20:12:55.355Z
+date: 2022-08-18T20:13:23.773Z
 tags: typescript
 editor: markdown
 ---
@@ -503,4 +503,14 @@ and maps over each member type of the union, to what is effectively:
 which leaves us with:
 ```
   string[] | number[];
+```
+
+To avoid distributivity, you can surround each side of the `extends` keyword with square brackets.
+
+```
+type ToArrayNonDist<Type> = [Type] extends [any] ? Type[] : never;
+ 
+// 'StrArrOrNumArr' is no longer a union.
+type StrArrOrNumArr = ToArrayNonDist<string | number>; // type StrArrOrNumArr = (string | number)[]
+
 ```
