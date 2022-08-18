@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T19:50:28.147Z
+date: 2022-08-18T19:56:14.590Z
 tags: typescript
 editor: markdown
 ---
@@ -354,4 +354,21 @@ type A = keyof Arrayish; // A=number
 
 type Mapish = { [k: string]: boolean };
 type M = keyof Mapish; // M = string | number
+```
+
+# typeof type operator
+```
+function f() {
+  return { x: 10, y: 3 };
+}
+type P = ReturnType<typeof f>; // type P = {x:number; y: number;}
+```
+# Indexed Access Types
+```
+type Person = { age: number; name: string; alive: boolean };
+type Age = Person["age"]; // type Age = number
+```
+
+```
+type I2 = Person[keyof Person]; // type I2 = string | number | boolean
 ```
