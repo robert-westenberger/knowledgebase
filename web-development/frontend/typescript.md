@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T18:12:39.688Z
+date: 2022-08-18T18:20:35.228Z
 tags: typescript
 editor: markdown
 ---
@@ -154,3 +154,40 @@ const x = "hello" as number;
 # More on Functions
 ## Constraints
 Sometimes we want to relate two values, but can only operate on a certain subset of values. In this case, we can use a **constraint** to limit the kinds of types that a type parameter can accept.
+
+The below function returns the longer of two values. It's parameter needs to be constrained such that it has a property `length` that is a `number`. That type parameter is constrained using the `extends` clause.
+
+```
+function longest<Type extends { length: number }>(a: Type, b: Type) {
+  if (a.length >= b.length) {
+    return a;
+  } else {
+    return b;
+  }
+}
+ 
+// longerArray is of type 'number[]'
+const longerArray = longest([1, 2], [1, 2, 3]);
+// longerString is of type 'alice' | 'bob'
+const longerString = longest("alice", "bob");
+// Error! Numbers don't have a 'length' property
+const notOK = longest(10, 100);
+```
+
+## Guidelines for Writing Good Generic Functions
+### Push Type Parameters Down
+```
+function firstElement1<Type>(arr: Type[]) {
+  return arr[0];
+}
+ 
+function firstElement2<Type extends any[]>(arr: Type) {
+  return arr[0];
+}
+ 
+// a: number (good)
+const a = firstElement1([1, 2, 3]);
+// b: any (bad)
+const b = firstElement2([1, 2, 3]);
+```
+
