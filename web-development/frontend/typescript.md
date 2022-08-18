@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T20:07:10.628Z
+date: 2022-08-18T20:11:58.537Z
 tags: typescript
 editor: markdown
 ---
@@ -467,3 +467,25 @@ type DogMessageContents = MessageOf<Dog>;
 
 ## Inferring Within Conditional Types
 Conditional types provide us with a way to `infer` from types we compare against in the true branch using the infer keyword.
+
+So instead of 
+```
+type Flatten<T> = T extends any[] ? T[number] : T;
+```
+
+we do 
+```
+type Flatten<Type> = Type extends Array<infer Item> ? Item : Type;
+```
+
+## Distributive Conditional Types
+When conditional types act on a generic type, they become distributive when given a union type. For example, when plugging a union type into 
+```
+type ToArray<Type> = Type extends any ? Type[] : never;
+```
+
+the conditional type will be applied to each member of that union.
+
+```
+type StrArrOrNumArr = ToArray<string | number>; // type StrArrOrNumArr = string[] | number[]
+```
