@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T18:36:32.375Z
+date: 2022-08-18T18:42:03.362Z
 tags: typescript
 editor: markdown
 ---
@@ -222,4 +222,73 @@ const d2 = makeDate(5, 5, 5);
 const d3 = makeDate(1, 3);
 ```
 
+# Object Types
+## Index Signatures
+Sometimes you don’t know all the names of a type’s properties ahead of time, but you do know the shape of the values.
 
+In those cases you can use an index signature to describe the types of possible values, for example:
+
+```
+interface StringArray {
+  [index: number]: string;
+}
+ 
+const myArray: StringArray = getStringArray();
+const secondItem = myArray[1];
+```
+
+The above `StringArray` interface has an index signatue. It states that when `StringArray` is indexed with a `number`, it wil return a `string`. An index signature property type must either be `string` or `number`.
+
+The following will give an error
+```
+interface NumberDictionary {
+  [index: string]: number;
+ 
+  length: number; // ok
+  name: string; // Property 'name' of type 'string' is not assignable to 'string' index type 'number'.
+}
+```  
+
+However, properties of different types are acceptable if the index signature is a union of the property types:
+```
+interface NumberOrStringDictionary {
+  [index: string]: number | string;
+  length: number; // ok, length is a number
+  name: string; // ok, name is a string
+}
+```
+
+## Extending Types
+```
+interface BasicAddress {
+  name?: string;
+  street: string;
+  city: string;
+  country: string;
+  postalCode: string;
+}
+ 
+interface AddressWithUnit extends BasicAddress {
+  unit: string;
+}
+```
+
+### Extending (Multiple) Types
+```
+interface Colorful {
+  color: string;
+}
+ 
+interface Circle {
+  radius: number;
+}
+ 
+interface ColorfulCircle extends Colorful, Circle {}
+ 
+const cc: ColorfulCircle = {
+  color: "red",
+  radius: 42,
+};
+```
+
+## Intersection Types
