@@ -2,7 +2,7 @@
 title: Typescript
 description: 
 published: true
-date: 2022-08-18T16:54:30.458Z
+date: 2022-08-18T16:56:13.440Z
 tags: typescript
 editor: markdown
 ---
@@ -67,6 +67,16 @@ For example, `x instanceof Foo` checks whether the prototype chain of `x` contai
 
 ## Control Flow Analysis
 Typescript analyzes codes and can (sometimes) determine what conditions must be true when code is executing in a particular place. For example, if a variable can be one of two primitive types, and there is an `if` statement that narrows down that variable and a `return` statement inside that particular block, then typescript will know that after that block that the variable must be the other primitive type. 
+
+## Using Type Predicates
+To define a user-defined type guard, we need to define a function whose return type is a `type predicate`. 
+
+```
+function isFish(pet: Fish | Bird): pet is Fish {
+  return (pet as Fish).swim !== undefined;
+}
+```
+
 
 # Type Assertions
 For example, if you’re using `document.getElementById`, TypeScript only knows that this will return some kind of `HTMLElement`, but you might know that your page will always have an `HTMLCanvasElement` with a given ID.
