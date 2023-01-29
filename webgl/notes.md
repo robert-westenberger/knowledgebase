@@ -2,7 +2,7 @@
 title: Notes
 description: 
 published: true
-date: 2023-01-29T18:49:40.860Z
+date: 2023-01-29T18:53:45.771Z
 tags: webgl, 3d-graphics
 editor: markdown
 ---
@@ -31,3 +31,10 @@ Above is where the different parts of a WebGL program are stored and executed.
 # The Graphics Pipeline
 ## Input model data
 Feed data into the pipeline, including model vertices (x,y,z) that define location, normal vectors (dx,dy,dz) that define direction, and color data.
+
+# File Organization for WebGL Programs
+- An HTML file which contains the web page description.
+- One or more CSS files which describe the properties of the HTML elements on the web page.
+- One or more JavaScript files which provide the processing logic for the WebGL program.
+- One or more data files which describe the objects that will be rendered.
+- One or more shader files which are the rendering programs for the graphics pipeline.
