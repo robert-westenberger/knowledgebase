@@ -2,7 +2,7 @@
 title: Notes
 description: 
 published: true
-date: 2023-01-29T18:53:45.771Z
+date: 2023-01-29T20:01:26.258Z
 tags: webgl, 3d-graphics
 editor: markdown
 ---
