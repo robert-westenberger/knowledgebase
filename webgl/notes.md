@@ -2,7 +2,7 @@
 title: Notes
 description: 
 published: true
-date: 2023-01-29T18:07:23.486Z
+date: 2023-01-29T18:08:29.986Z
 tags: webgl, 3d-graphics
 editor: markdown
 ---
@@ -22,3 +22,8 @@ GPU's are specially designed to render 3D graphics. Also, graphics memory is a s
 When data is to be rendered, it is placed into the GPU's memory. This typically only happens once in a typical graphics program. Once some data is in the GPU's memory, it can be rendered very quickly and efficiently. 
 
 In general, expensive operations are only done once. This is the **preprocessing step**. The **rendering step** happens many times and is the part that is performed each time an object is drawn.
+
+
+![data_location.png](/data_location.png)
+Above is where the different parts of a WebGL program are stored and executed.
+
