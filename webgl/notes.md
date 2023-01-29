@@ -2,12 +2,21 @@
 title: Notes
 description: 
 published: true
-date: 2023-01-29T18:01:10.283Z
+date: 2023-01-29T18:05:22.721Z
 tags: webgl, 3d-graphics
 editor: markdown
 ---
 
 From http://learnwebgl.brown37.net/index.html
 
-An HTML canvas element in the web page provides a rectangular area inwhich 3D graphics can be rendered.
 
+WebGL is mainly comprised of
+- An HTML canvas element in the web page provides a rectangular area inwhich 3D graphics can be rendered.
+- Graphical data that defines the 3D objects to be rendered
+- Javascript to load / configure / render graphical data and code that responds to user events.
+- OpenGL Shader programs that perform critical parts of the graphical rendering.
+
+
+GPU's are specially designed to render 3D graphics. Also, graphics memory is a separate memory system for video and graphics processing. 
+
+When data is to be rendered, it is placed into the GPU's memory. This typically only happens once in a typical graphics program. Once some data is in the GPU's memory, it can be rendered very quickly and efficiently. 
