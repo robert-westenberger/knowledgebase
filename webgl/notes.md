@@ -2,7 +2,7 @@
 title: Notes
 description: 
 published: true
-date: 2023-01-29T18:08:29.986Z
+date: 2023-01-29T18:49:40.860Z
 tags: webgl, 3d-graphics
 editor: markdown
 ---
@@ -27,3 +27,7 @@ In general, expensive operations are only done once. This is the **preprocessing
 ![data_location.png](/data_location.png)
 Above is where the different parts of a WebGL program are stored and executed.
 
+
+# The Graphics Pipeline
+## Input model data
+Feed data into the pipeline, including model vertices (x,y,z) that define location, normal vectors (dx,dy,dz) that define direction, and color data.
