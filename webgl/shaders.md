@@ -2,7 +2,7 @@
 title: Shaders
 description: 
 published: true
-date: 2023-01-29T23:57:01.240Z
+date: 2023-01-29T23:57:30.765Z
 tags: webgl
 editor: markdown
 ---
@@ -23,3 +23,7 @@ Your shader is called once per vertex. Each time it's called you are required to
 
 #### Attributes
 Data pulled from buffers.
+#### Uniforms
+Values that stay the same for all vertices of a single draw call.
+#### Textures
+Data from pixels/texels
