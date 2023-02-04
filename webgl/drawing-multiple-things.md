@@ -2,7 +2,7 @@
 title: Drawing Multiple Things
 description: 
 published: true
-date: 2023-02-04T21:17:21.144Z
+date: 2023-02-04T21:19:17.039Z
 tags: webgl
 editor: markdown
 ---
