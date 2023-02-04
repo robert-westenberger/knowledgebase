@@ -2,11 +2,18 @@
 title: How It Works
 description: 
 published: true
-date: 2023-02-04T21:22:14.043Z
+date: 2023-02-04T21:23:16.174Z
 tags: webgl
 editor: markdown
 ---
 
+# Interaction between WebGL and the GPU
+
+Basically 2 parts. 
+
+The first part processes vertices (or streams of data) into clip space vertices. 
+
+Second part draws pixels based on the first part.
 
 
 When you call 
