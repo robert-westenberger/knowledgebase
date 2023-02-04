@@ -2,7 +2,7 @@
 title: How It Works
 description: 
 published: true
-date: 2023-02-04T21:23:21.858Z
+date: 2023-02-04T21:23:54.085Z
 tags: webgl
 editor: markdown
 ---
@@ -23,5 +23,8 @@ const offset = 0;
 const count = 9;
 gl.drawArrays(primitiveType, offset, count);
 ```
+
+The `9` means "process 9 vertices" so here are 9 vertices being processed.
+
 
 ![vertex-shader-anim.gif](/vertex-shader-anim.gif)
