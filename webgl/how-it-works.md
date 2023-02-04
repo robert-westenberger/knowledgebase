@@ -2,7 +2,7 @@
 title: How It Works
 description: 
 published: true
-date: 2023-02-04T21:23:54.085Z
+date: 2023-02-04T21:24:17.211Z
 tags: webgl
 editor: markdown
 ---
@@ -28,3 +28,5 @@ The `9` means "process 9 vertices" so here are 9 vertices being processed.
 
 
 ![vertex-shader-anim.gif](/vertex-shader-anim.gif)
+
+On the left is the data you provide. The vertex shader is a function you write in GLSL.
