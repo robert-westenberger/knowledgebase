@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-09T15:49:02.743Z
+date: 2023-02-09T15:52:33.956Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -27,3 +27,5 @@ To add vectors together, just add each component together separately. For exampl
 $$
 (0,1,4) + (3,-2,5) = (0+3, 1-2, 4+5) = (3,-1,9)
 $$
+
+### Example
