@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-09T15:43:06.958Z
+date: 2023-02-09T15:46:28.231Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -18,3 +18,8 @@ A vector by itself is just a set of numbers. It is given meaning only by it's co
 
 
 ## Vector Addition
+To add vectors together, just add each component together separately. For example
+
+$$
+(0,1,4) + (3,-2,5) = (0+3, 1-2, 4+5) = (3,-1,9)
+$$
