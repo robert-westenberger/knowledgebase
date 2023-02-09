@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-09T15:57:42.758Z
+date: 2023-02-09T16:02:17.482Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -33,3 +33,7 @@ Below, we see mario jump and land over the course of 8 frames.
 ![mario-parabola.jpeg](/mario-parabola.jpeg)
 
 In this example, mario starts at position $(0,0)$. As he starts to jump, his velocity is $(1,3)$. He is moving upward quickly, but also to the right. His acceleration throughout is $(0, -1)$ because gravity is pulling him down.
+
+So what's happening frame by frame is: 
+1. Mario is stationary at $(0,0)$.
+2. He jumps, up and to the right. We add his velocity of $(1,3)$ to his current position of $(0,0)$ to get the new position of $(1,3)$.
