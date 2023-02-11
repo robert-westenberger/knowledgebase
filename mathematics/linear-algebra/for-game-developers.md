@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:26:15.109Z
+date: 2023-02-11T19:26:33.315Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -243,6 +243,6 @@ vec3 cross(vec3 a, vec3 b) {
 }
 ```
 
-#### Surface Normals
+#### 3D Surface Normals
 Another common use for cross product in games is to find surface normals -- the direciton that a surface is facing.
 ![cross-product-surface-normals.jpeg](/cross-product-surface-normals.jpeg)
