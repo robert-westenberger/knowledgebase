@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:10:30.972Z
+date: 2023-02-11T18:15:01.309Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -73,4 +73,20 @@ If we have a ship with velocity vector $V(4,3)$, we might to know it's speed as 
 To do that, we need to find the length/magnitude of vector $V$. The length of a vector is often written using $||$ for short, so the length of $V$ is $|V|$.
 
 
-$V$ is a right triangle with sides $4$ and $3$, and use the pythagorean theorem to find the hyptonuse: $x^2 + y^2=h^2$. That is, the length of a vector $H$ with components $(x,y)$ is $\sqrt{x^2+y^2}$.
+$V$ is a right triangle with sides $4$ and $3$, and use the pythagorean theorem to find the hyptonuse: $x^2 + y^2=h^2$. That is, the length of a vector $H$ with components $(x,y)$ is $\sqrt{x^2+y^2}$. 
+
+![pythag_vector_length.jpeg](/pythag_vector_length.jpeg)
+
+To calculate the speed of a ship, we use
+
+$$
+|V| = \sqrt{4^2+3^2} = \sqrt{25} = 5
+$$
+
+This works with 3D bectors as well. The length of a vector with components $(x,y,z)$ is 
+
+$$
+\sqrt{x^2+y^2+z^2}
+$$
+
+## Distance
