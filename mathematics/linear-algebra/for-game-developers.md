@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:37:33.381Z
+date: 2023-02-11T18:38:46.307Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -144,4 +144,6 @@ same direction = positive
 perpendicular = 0
 opposite directions = negative
 
-Proportional to how much vectors point in the sam edirection. 
+Proportional to how much vectors point in the sam e direction. 
+
+We have a guard at position $G(1,3)$ facing in the direction $D(1,1)$ with a 180 field of view. We have a hero sneaking by at position $H(3,2)$. 
