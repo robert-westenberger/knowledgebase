@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:30:04.523Z
+date: 2023-02-11T18:31:31.473Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -122,4 +122,7 @@ $$
 $$
 
 ## Dot Product
-
+To get the dot product of two vectors: 
+- multiply the components 
+- add them together.
+- 
