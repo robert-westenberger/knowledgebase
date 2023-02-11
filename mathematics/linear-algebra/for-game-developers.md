@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:24:18.190Z
+date: 2023-02-11T18:27:30.684Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -110,3 +110,7 @@ A vector with length $1$ is **normalized**.
 A gun is pointing in the direction of (1,0) that shoots a bullet at 20 m/s. What is the velocity of the bullet? Since the direction has length 1, we can multiply the direction and the bullet speed to get the bullet velocity (20, 0). If the direction of the bector had any other length, we couldn't do this -- the bullet would be too fast or slow. 
 
 ### Normalizing a Vector
+Divide each component by the vector's length. 
+
+#### Example
+We want to normalize a vector $V$ with components $(3,4)$, we divide each component by its length, $5$, to get $(\frac{3}{5},\frac{4}{5})$. 
