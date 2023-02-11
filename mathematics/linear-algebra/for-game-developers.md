@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:31:09.609Z
+date: 2023-02-11T21:26:55.981Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -262,3 +262,7 @@ vec3 GetTriangleNormal(vec3 a, vec3 b, vec3 c) {
 }
 ```
 
+# Transformation Matrix
+
+## Basis Vectors
+Let's say we're making an Asteroids game on really old hardware, and we want to have a simple 2D space ship that can rotate freely. The ship model looks like this:
