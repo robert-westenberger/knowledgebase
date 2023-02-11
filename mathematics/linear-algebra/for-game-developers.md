@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:20:10.980Z
+date: 2023-02-11T18:22:59.595Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -100,3 +100,10 @@ Order doesn't matter, $|E-P|$ give's the same result.
 $$
 \text{Distance} = |P-E| = |(3,3)-(1,2)| = |(2,1)| = \sqrt{22+12} = \sqrt5 = 2.23
 $$
+
+## Normalization
+When dealing with directions (as opposed to positions or velocities), it is important that they have a unit length (length of 1). It makes things easier for us. 
+
+### Example
+A gun is pointing in the direction of (1,0) that shoots a bullet at 20 m/s. What is the velocity of the bullet? Since the direction has length 1, we can multiply the direction and the bullet speed to get the bullet velocity (20, 0). If the direction of the bector had any other length, we couldn't do this -- the bullet would be too fast or slow. 
+
