@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T23:23:28.533Z
+date: 2023-02-11T23:23:37.303Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -50,4 +50,4 @@ The +x, +y, and +z directions point right, up, and forward, respectively
 ## Negating a Vector
 A vector is negated when you add it's additive inverse.
 
-To negate x, add to it -x.
+To negate $x$, add to it $-x$.
