@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T21:42:50.624Z
+date: 2023-02-11T21:44:49.873Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -26,3 +26,6 @@ If we assign +x, +y, and +z to point right, up, and forward, respectively, then 
 ![specifying-locations-in-3d.png](/specifying-locations-in-3d.png)
 
 ## Left-handed vs Right-handed Coordinate Spaces
+Not all 3D coord spaces are equal, in the sense that some pairs of coord systems cannot be rotated to line up with eachother. 
+
+There are 2 kinds of coord spaces, left-handed and right-handed. Only spaces of the same kind can be aligned.
