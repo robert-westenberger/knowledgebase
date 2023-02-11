@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:17:31.837Z
+date: 2023-02-11T19:18:01.961Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -222,7 +222,7 @@ If the boat is facing $(2,1)$, the right facing cannon fires toward $(-1, 2). Th
 
 #### 3D
 ![cross-product-2.jpeg](/cross-product-2.jpeg)
-Let's revisit our sailing ship. We have a vector for the direction of the mast $M$, going straight up $(0,1,0)$, and the direction of the north-north-east wind $W(1,0,2)$, and we want to find the direction the sail S should stick out in order to best catch the wind. The sail has to be perpendicular to the mast, and also perpendicular to the wind. To solve this, we can use the cross product: $S = M x W$.
+Let's revisit our sailing ship. We have a vector for the direction of the mast $M$, going straight up $(0,1,0)$, and the direction of the north-north-east wind $W(1,0,2)$, and we want to find the direction the sail S should stick out in order to best catch the wind. The sail has to be perpendicular to the mast, and also perpendicular to the wind. To solve this, we can use the cross product: $S = M \times W$.
 
 
 ![cross-product-surface-normals.jpeg](/cross-product-surface-normals.jpeg)
