@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:22:59.595Z
+date: 2023-02-11T18:23:59.453Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -104,6 +104,9 @@ $$
 ## Normalization
 When dealing with directions (as opposed to positions or velocities), it is important that they have a unit length (length of 1). It makes things easier for us. 
 
+A vector with length $1$ is **normalized**. 
+
 ### Example
 A gun is pointing in the direction of (1,0) that shoots a bullet at 20 m/s. What is the velocity of the bullet? Since the direction has length 1, we can multiply the direction and the bullet speed to get the bullet velocity (20, 0). If the direction of the bector had any other length, we couldn't do this -- the bullet would be too fast or slow. 
 
+### Normalizing A Vector
