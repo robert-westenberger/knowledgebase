@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T21:44:49.873Z
+date: 2023-02-11T21:45:47.993Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -29,3 +29,5 @@ If we assign +x, +y, and +z to point right, up, and forward, respectively, then 
 Not all 3D coord spaces are equal, in the sense that some pairs of coord systems cannot be rotated to line up with eachother. 
 
 There are 2 kinds of coord spaces, left-handed and right-handed. Only spaces of the same kind can be aligned.
+
+They are named that because you can make one with your hands. 
