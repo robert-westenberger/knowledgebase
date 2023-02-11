@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:38:59.160Z
+date: 2023-02-11T18:42:02.503Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -146,4 +146,7 @@ opposite directions = negative
 
 Proportional to how much vectors point in the same direction. 
 
-We have a guard at position $G(1,3)$ facing in the direction $D(1,1)$ with a 180 field of view. We have a hero sneaking by at position $H(3,2)$. 
+#### Field of view
+We have a guard at position $G(1,3)$ facing in the direction $D(1,1)$ with a $180\degree$ field of view. We have a hero sneaking by at position $H(3,2)$. 
+
+We can determine if he is in the guard's FOV by checking the sign of $D \cdot V$
