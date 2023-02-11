@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T21:45:47.993Z
+date: 2023-02-11T21:50:16.958Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -30,4 +30,14 @@ Not all 3D coord spaces are equal, in the sense that some pairs of coord systems
 
 There are 2 kinds of coord spaces, left-handed and right-handed. Only spaces of the same kind can be aligned.
 
-They are named that because you can make one with your hands. 
+They are named that because you can make one with your hands.
+
+### Differences
+They differ in the definition of "positive rotation".
+
+The left-hand rule works like this: put your left hand in the “thumbs
+up” position, with your thumb pointing towards the positive end of the axis
+of rotation. Positive rotation about the axis of rotation is in the direction
+that your fingers are curled.
+
+In 3D, there are 48 different combinations to assign axes.
