@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:20:12.574Z
+date: 2023-02-11T19:22:16.687Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -227,4 +227,19 @@ Let's revisit our sailing ship. We have a vector for the direction of the mast $
 The cross product of $A(a_1,a_2,a_3))$ and $B(b_1,b_2,b_3))$ is:
 
 $$(a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1)$$
+
+Now we can plug in our numbers to solve our problem. 
+
+$$S = M\times W = (0,1,0)\times (1,0,2) = ([1*2-0*0], [0*1-0*2], [0*0-1*1]) = (2,0,-1)$$
+
+##### In C++ GLSL inspired syntax
+```
+vec3 cross(vec3 a, vec3 b) {
+    vec3 result;
+    result[0] = a[1] * b[2] - a[2] * b[1];
+    result[1] = a[2] * b[0] - a[0] * b[2];
+    result[2] = a[0] * b[1] - a[1] * b[0];
+    return result;
+}
+```
 ![cross-product-surface-normals.jpeg](/cross-product-surface-normals.jpeg)
