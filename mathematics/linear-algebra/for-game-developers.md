@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:27:30.684Z
+date: 2023-02-11T18:29:44.092Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -114,3 +114,11 @@ Divide each component by the vector's length.
 
 #### Example
 We want to normalize a vector $V$ with components $(3,4)$, we divide each component by its length, $5$, to get $(\frac{3}{5},\frac{4}{5})$. 
+
+Pythagorean theorem is used to prove that is has length 1:
+
+$$
+(\frac35)^2 + (\frac45)^2 = \frac{9}{25} + \frac{16}{25} = \frac{25}{25} = 1
+
+## Dot Product
+$$
