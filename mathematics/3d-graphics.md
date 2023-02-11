@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T21:53:12.943Z
+date: 2023-02-11T23:23:28.533Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -45,3 +45,9 @@ In 3D, there are 48 different combinations to assign axes.
 **Everything in this page uses a left-handed coordinate system.** 
 
 The +x, +y, and +z directions point right, up, and forward, respectively
+
+# Vectors
+## Negating a Vector
+A vector is negated when you add it's additive inverse.
+
+To negate x, add to it -x.
