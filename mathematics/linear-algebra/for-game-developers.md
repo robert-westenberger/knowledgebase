@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:09:17.226Z
+date: 2023-02-11T19:10:01.645Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -194,3 +194,17 @@ The angle between the center of the guard's vision and the hero is $72$, so the 
 ![dot-product-fov-2.jpeg](/dot-product-fov-2.jpeg)
 
 ### In C++ GLSL inspired syntax
+In code, it's pretty simple.
+```
+//Initialize starting vectors
+vec2 guard_pos = vec2(1,3);
+vec2 guard_facing = vec2(1,1);
+vec2 hero_pos = vec2(3,2);
+
+//Prepare normalized vectors
+vec2 guard_facing_n = normalize(guard_facing);
+vec2 guard_to_hero = normalize(hero_pos - guard_pos);
+
+//Check angle
+float angle = acos(dot(guard_facing_n, guard_to_hero));
+```
