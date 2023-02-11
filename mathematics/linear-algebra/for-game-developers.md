@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:15:05.486Z
+date: 2023-02-11T19:15:35.459Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -210,6 +210,8 @@ float angle = acos(dot(guard_facing_n, guard_to_hero));
 ```
 
 ## Cross Product
+
+### Example Applications
 Let's say you have a boat that has cannons that fire to the left and right. Given that the boat is facing along the direction vector $(2,1)$, in which directions do the cannons fire?
 
 In $2D$, to rotate $90\degree$ clockwise, flip the two vector components, and then switch the sign of the second component. $(a,b)$ becomes $(b,-a)$.
