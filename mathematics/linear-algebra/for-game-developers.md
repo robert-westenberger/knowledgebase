@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:02:15.113Z
+date: 2023-02-11T18:04:36.130Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -55,3 +55,14 @@ $$
 
 ## Scalar-vector multiplication
 In the context of vectors, individual numbers are called **scalars**. $(3,4)$ is a vector, $5$ is a scalar.
+
+In games, it's often useful to multiply a vector by a scalar. 
+
+### Example
+We can simulate basic air resistance by multiplying the player's velocity by $0.9$ every frame. We just multiply each component of the vector by the scalar. 
+
+If the player's starting velocity is $(10, 20)$
+
+$$
+0.9*(10,20) = (0.9*10, 0.9*20) = (9,18)
+$$
