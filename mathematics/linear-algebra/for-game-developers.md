@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T17:57:57.319Z
+date: 2023-02-11T18:01:18.067Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -40,4 +40,16 @@ So what's happening frame by frame is:
 3. Second frame. We add his velocity (1,2) to his position (1,3) to get his new position of (2,5). Then, add his acceleration (0,1) to his velocity (1,2) to get (1, 1).
 
 **Usually in games the player controls a character's acceleration with the keyboard or gamepad, and the game calculates the new veolcity and position using physics integration (via vector addition). It's an integration problem, we are just using an approximate brute-forec approach.** 
+
+## Vector Subtraction
+Useful for getting a vector that points from one position to another. 
+
+## Example
+Player is standing at (1,2) with a rifle, and an enemy is at (4,3). To get the vector that the bullet must travel to hit the enemy, you can subtract the player's position from the robot's position. 
+
+$$
+(4,3)-(1,2) = (4-1, 3-2) = (3,1)
+$$
+
+![vector_subtraction_example.jpeg](/vector_subtraction_example.jpeg)
 
