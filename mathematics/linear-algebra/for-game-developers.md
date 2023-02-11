@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:35:14.220Z
+date: 2023-02-11T18:37:33.381Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -135,5 +135,13 @@ $$
 (3,2)\centerdot(1,4) = 3*1 + 2*4 
 $$
 
-### Examples
+### Example Applications
 ![dot-product-simple.jpeg](/dot-product-simple.jpeg)
+
+
+When vectors are pointing in () the dot product is
+same direction = positive 
+perpendicular = 0
+opposite directions = negative
+
+Proportional to how much vectors point in the sam edirection. 
