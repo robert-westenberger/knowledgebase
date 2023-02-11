@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:08:22.403Z
+date: 2023-02-11T18:08:44.061Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -71,3 +71,6 @@ $$
 If we have a ship with velocity vector $V(4,3)$, we might to know it's speed as well, in order to calculate how much fuel is used or how much the screen should shake. 
 
 To do that, we need to find the length/magnitude of vector $V$. The length of a vector is often written using $||$ for short, so the length of $V$ is $|V|$.
+
+
+$V$ is a right 
