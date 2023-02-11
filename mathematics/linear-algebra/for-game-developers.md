@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:06:58.245Z
+date: 2023-02-11T19:09:17.226Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -188,3 +188,9 @@ $$
 $$
 \theta = a\cos(D'V') = a\cos(0.71*0.89 + 0.71*(-0.45)) = a\cos(0.31) = 72
 $$
+
+The angle between the center of the guard's vision and the hero is $72$, so the guard does not see him.
+
+![dot-product-fov-2.jpeg](/dot-product-fov-2.jpeg)
+
+### In C++ GLSL inspired syntax
