@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:15:01.309Z
+date: 2023-02-11T18:18:38.164Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -90,3 +90,7 @@ $$
 $$
 
 ## Distance
+If the player $P$ is at $(3,3)$ and there is an explosion $E$ at $(1,2)$, we need to find the distance between them to see how much damage the player takes. 
+
+We combine vector subtraction and length. We subtract $P-E$ to get the vector between them, and then find the length of that vector to get the distance between them. 
+![vector-distance.jpeg](/vector-distance.jpeg)
