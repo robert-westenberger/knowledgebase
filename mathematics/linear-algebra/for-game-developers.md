@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:44:17.442Z
+date: 2023-02-11T18:49:54.839Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -159,3 +159,14 @@ D \cdot V = (1,1)\cdot(2,-1) = 1*2+1*-1 = 2-1 = 1
 $$
 
 Since $1$ is positive, the hero is in the guard's field of view.![dot-product-field-of-view.jpeg](/dot-product-field-of-view.jpeg)
+
+### Exact equation
+$$ AB = |A||B|cos \theta $$
+
+Where $\theta$ (pronounced theta) is the angle between $A$ and $B$. This allows us to solve for $\theta$ if we want to find out the angle.
+
+$$ \theta = a\cos(\frac{[AB]}{[|A||B|]})$$
+
+If $A$ and $B$ are normalized, then the equation is 
+
+$$\theta=a\cos(AB)$$
