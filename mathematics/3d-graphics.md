@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T21:40:13.619Z
+date: 2023-02-11T21:42:50.624Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -21,3 +21,8 @@ the xy plane, which is perpendicular to the z-axis. The xz plane is perpendicula
 ![3d-cartesian.png](/3d-cartesian.png)
 
 If we assign +x, +y, and +z to point right, up, and forward, respectively, then the 2D coordinate space of the “ground” is the xz plane, as shown above.
+
+## Specifying Locations in 3D
+![specifying-locations-in-3d.png](/specifying-locations-in-3d.png)
+
+## Left-handed vs Right-handed Coordinate Spaces
