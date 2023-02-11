@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:01:18.067Z
+date: 2023-02-11T18:02:15.113Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -53,3 +53,5 @@ $$
 
 ![vector_subtraction_example.jpeg](/vector_subtraction_example.jpeg)
 
+## Scalar-vector multiplication
+In the context of vectors, individual numbers are called **scalars**. $(3,4)$ is a vector, $5$ is a scalar.
