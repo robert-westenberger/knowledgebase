@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-09T17:17:45.459Z
+date: 2023-02-11T17:57:21.465Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -37,4 +37,7 @@ In this example, mario starts at position $(0,0)$. As he starts to jump, his vel
 So what's happening frame by frame is: 
 1. Mario is stationary at $(0,0)$.
 2. He jumps, up and to the right. We add his velocity of $(1,3)$ to his current position of $(0,0)$ to get the new position of $(1,3)$. Then, add his acceleration $(0,-1)$ to his velocity $(1,3)$ to get his new velocity $(1,2)$.
-3. 
+3. Second frame. We add his velocity (1,2) to his position (1,3) to get his new position of (2,5). Then, add his acceleration (0,1) to his velocity (1,2) to get (1, 1).
+
+**Usually in games the player controls a character's acceleration with the keyboard or gamepad, and the game calculates the new veolcity and position using physics integration (via vector addition). It's an integration problem.** 
+
