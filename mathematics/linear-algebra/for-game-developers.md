@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:18:38.164Z
+date: 2023-02-11T18:20:10.980Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -94,3 +94,9 @@ If the player $P$ is at $(3,3)$ and there is an explosion $E$ at $(1,2)$, we nee
 
 We combine vector subtraction and length. We subtract $P-E$ to get the vector between them, and then find the length of that vector to get the distance between them. 
 ![vector-distance.jpeg](/vector-distance.jpeg)
+
+Order doesn't matter, $|E-P|$ give's the same result.
+
+$$
+\text{Distance} = |P-E| = |(3,3)-(1,2)| = |(2,1)| = \sqrt{22+12} = \sqrt5 = 2.23
+$$
