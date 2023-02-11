@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T21:38:14.378Z
+date: 2023-02-11T21:40:13.619Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -17,3 +17,7 @@ In 3D, x and y aren't necessarily the same as they are in 2D. In 3D, any pair of
 
 For example, the plane containing the x- and y-axes is
 the xy plane, which is perpendicular to the z-axis. The xz plane is perpendicular to the y-axis, and the yz plane is perpendicular to the x-axis. Each are a 2D Cartesian coordinate space in its own right. 
+
+![3d-cartesian.png](/3d-cartesian.png)
+
+If we assign +x, +y, and +z to point right, up, and forward, respectively, then the 2D coordinate space of the “ground” is the xz plane, as shown above.
