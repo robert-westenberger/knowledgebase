@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:30:19.521Z
+date: 2023-02-11T19:31:09.609Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -246,6 +246,7 @@ vec3 cross(vec3 a, vec3 b) {
 #### 3D Surface Normals
 Another common use for cross product in games is to find surface normals -- the direciton that a surface is facing. 
 
+The basic expression for lighting in games is $N \cdot L$, where $N$ is the surface normal, and $L$ is the normalized light direction. This is what makes surfaces bright when they face towards the light, and dark when they don't.
 ##### Example 
 Take a triangle with vertex vectors $A$, $B$ and $C$. How do we find the direction that the triangle is facing? It seems tricky, but we have the tools to do it now. We can use subtraction to get the direction from $A$ to $C(C-A)$ 'Edge 1' and $A$ to $B(B-A)$ 'Edge 2', and then use the cross product to find a new vector $N$ perpendicular to both of them... the surface normal.
 
