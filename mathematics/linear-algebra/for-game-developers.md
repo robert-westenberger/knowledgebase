@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:42:02.503Z
+date: 2023-02-11T18:44:17.442Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -149,4 +149,13 @@ Proportional to how much vectors point in the same direction.
 #### Field of view
 We have a guard at position $G(1,3)$ facing in the direction $D(1,1)$ with a $180\degree$ field of view. We have a hero sneaking by at position $H(3,2)$. 
 
-We can determine if he is in the guard's FOV by checking the sign of $D \cdot V$
+We can determine if he is in the guard's FOV by checking the sign of $D \cdot V$ (the vector from the guard to the hero). 
+
+$$
+V = H-G = (3,2)-(1,3) = (3-1,2-3) = (2,-1)
+$$
+$$
+D \cdot V = (1,1)\cdot(2,-1) = 1*2+1*-1 = 2-1 = 1
+$$
+
+Since $1$ is positive, the hero is in the guard's field of view.![dot-product-field-of-view.jpeg](/dot-product-field-of-view.jpeg)
