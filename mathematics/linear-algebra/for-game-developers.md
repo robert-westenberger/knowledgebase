@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T18:49:54.839Z
+date: 2023-02-11T19:00:12.072Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -170,3 +170,9 @@ $$ \theta = a\cos(\frac{[AB]}{[|A||B|]})$$
 If $A$ and $B$ are normalized, then the equation is 
 
 $$\theta=a\cos(AB)$$
+
+
+#### FOV 2
+This time, the guard's FOV is only $120\degree$. 
+
+First, get the normalized vector's for the direction the guard is facing $(D')$, and the direction from the guard to the hero $(V')$. 
