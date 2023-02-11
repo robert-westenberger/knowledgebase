@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:10:01.645Z
+date: 2023-02-11T19:10:15.313Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -208,3 +208,5 @@ vec2 guard_to_hero = normalize(hero_pos - guard_pos);
 //Check angle
 float angle = acos(dot(guard_facing_n, guard_to_hero));
 ```
+
+## Cross Product
