@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-11T21:50:16.958Z
+date: 2023-02-11T21:53:12.943Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -41,3 +41,7 @@ of rotation. Positive rotation about the axis of rotation is in the direction
 that your fingers are curled.
 
 In 3D, there are 48 different combinations to assign axes.
+
+**Everything in this page uses a left-handed coordinate system.** 
+
+The +x, +y, and +z directions point right, up, and forward, respectively
