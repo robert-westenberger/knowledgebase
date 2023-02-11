@@ -2,7 +2,7 @@
 title: Linear Algebra for Game Developers
 description: Notes taken from http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/
 published: true
-date: 2023-02-11T19:00:12.072Z
+date: 2023-02-11T19:06:58.245Z
 tags: linear-algebra, 3d-graphics
 editor: markdown
 ---
@@ -175,4 +175,16 @@ $$\theta=a\cos(AB)$$
 #### FOV 2
 This time, the guard's FOV is only $120\degree$. 
 
-First, get the normalized vector's for the direction the guard is facing $(D')$, and the direction from the guard to the hero $(V')$. 
+First, get the normalized vector's for the direction the guard is facing $(D')$, and the direction from the guard to the hero $(V')$. Then, we check the angle between them. If it is greater than $60$ (half the FOV), then the hero is not seen. 
+
+$$
+D' = \frac{D}{|D|} = \frac{(1,1)}{\sqrt{1^2+1^2}} =  \frac{(1,1)}{\sqrt2} = (0.71,0.71)
+$$
+
+$$
+V' = \frac{V}{|V|} = \frac{(2,-1)}{\sqrt(2^2+(-1)^2)} = \frac{(2,-1)}{\sqrt5} = (0.89,-0.45)
+$$
+
+$$
+\theta = a\cos(D'V') = a\cos(0.71*0.89 + 0.71*(-0.45)) = a\cos(0.31) = 72
+$$
