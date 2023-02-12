@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T20:25:24.938Z
+date: 2023-02-12T20:28:33.159Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -55,23 +55,24 @@ To negate $x$, add to it $-x$.
 ## Vector Multiplication 
 We simply multiply each component of the vector by the scalar.
 
+
 $$
 k\left[\begin{array}{c}
 a_1 \\
 a_2 \\
-\vdots \\
+\dots \\
 a_{n-1} \\
 a_n
-\end{array}\right=\left[\begin{array}{c}
+\end{array}\right]=\left[\begin{array}{c}
 a_1 \\
 a_2 \\
-\vdots \\
+\dots \\
 a_{n-1} \\
 a_n
 \end{array}\right] k=\left[\begin{array}{c}
 k a_1 \\
 k a_2 \\
-\vdots \\
+\dots \\
 k a_{n-1} \\
 k a_n
 \end{array}\right]
