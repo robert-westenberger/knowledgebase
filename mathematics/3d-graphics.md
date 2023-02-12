@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T00:20:09.865Z
+date: 2023-02-12T20:20:57.557Z
 tags: 3d-graphics
 editor: markdown
 ---
