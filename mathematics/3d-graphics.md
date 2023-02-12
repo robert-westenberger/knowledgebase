@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T20:28:33.159Z
+date: 2023-02-12T20:29:17.619Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -75,5 +75,23 @@ k a_2 \\
 \dots \\
 k a_{n-1} \\
 k a_n
+\end{array}\right]
+$$
+
+For 3D vectors, we get
+
+$$
+k\left[\begin{array}{l}
+x \\
+y \\
+z
+\end{array}\right]=\left[\begin{array}{l}
+x \\
+y \\
+z
+\end{array}\right] k=\left[\begin{array}{l}
+k x \\
+k y \\
+k z
 \end{array}\right]
 $$
