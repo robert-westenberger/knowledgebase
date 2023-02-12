@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T20:29:17.619Z
+date: 2023-02-12T20:31:45.926Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -95,3 +95,14 @@ k y \\
 k z
 \end{array}\right]
 $$
+
+A vector may aslso be divided by a nonzero scalar. This is equivalent to multiplying by the reciprocal of the scalar. 
+
+$$
+\frac{\mathbf{v}}{k}=\left(\frac{1}{k}\right) \mathbf{v}=\left[\begin{array}{l}
+v_x / k \\
+v_y / k \\
+v_z / k
+\end{array}\right]
+$$
+for $3 \mathrm{D}$ vector $\mathbf{v}$ and nonzero scalar $k$
