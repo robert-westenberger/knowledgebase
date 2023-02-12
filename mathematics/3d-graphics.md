@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T20:48:49.491Z
+date: 2023-02-12T21:02:31.200Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -110,3 +110,11 @@ for $3 \mathrm{D}$ vector $\mathbf{v}$ and nonzero scalar $k$
 
 ### Geometric Interpretation
 Geometrically, multiplying a vector by a scalar $k$ has the effect of scaling the length by a factor of $|k|$. E.G, to double the length of a vector we would multiply the vector by 2. If $k<0$, then the direction of the vector is flipped.
+
+## Vector Magnitude
+The magnitude of a vector is the square root of the sum on the squares of the components of the vector. 
+
+$$
+\|\mathbf{v}\|=\sqrt{\sum_{i=1}^n v_i^2}=\sqrt{v_1^2+v_2^2+\cdots+v_{n-1}^2+v_n^2}
+$$
+
