@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T20:31:45.926Z
+date: 2023-02-12T20:33:33.193Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -106,3 +106,7 @@ v_z / k
 \end{array}\right]
 $$
 for $3 \mathrm{D}$ vector $\mathbf{v}$ and nonzero scalar $k$
+
+
+### Geometric Interpretation
+Geometrically, multiplying a vector by a scalar $k$ has the effect of scaling the length by a factor of $|k|$. E.G, to double the length of a vector we would multiply the vector by 2.
