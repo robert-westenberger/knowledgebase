@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T20:33:33.193Z
+date: 2023-02-12T20:33:57.917Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -109,4 +109,4 @@ for $3 \mathrm{D}$ vector $\mathbf{v}$ and nonzero scalar $k$
 
 
 ### Geometric Interpretation
-Geometrically, multiplying a vector by a scalar $k$ has the effect of scaling the length by a factor of $|k|$. E.G, to double the length of a vector we would multiply the vector by 2.
+Geometrically, multiplying a vector by a scalar $k$ has the effect of scaling the length by a factor of $|k|$. E.G, to double the length of a vector we would multiply the vector by 2. If $k<0$, then the direction of the vector is flipped.
