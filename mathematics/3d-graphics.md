@@ -2,7 +2,7 @@
 title: 3D Graphics
 description: 
 published: true
-date: 2023-02-12T20:20:57.557Z
+date: 2023-02-12T20:25:24.938Z
 tags: 3d-graphics
 editor: markdown
 ---
@@ -51,3 +51,28 @@ The +x, +y, and +z directions point right, up, and forward, respectively
 A vector is negated when you add it's additive inverse.
 
 To negate $x$, add to it $-x$.
+
+## Vector Multiplication 
+We simply multiply each component of the vector by the scalar.
+
+$$
+k\left[\begin{array}{c}
+a_1 \\
+a_2 \\
+\vdots \\
+a_{n-1} \\
+a_n
+\end{array}\right=\left[\begin{array}{c}
+a_1 \\
+a_2 \\
+\vdots \\
+a_{n-1} \\
+a_n
+\end{array}\right] k=\left[\begin{array}{c}
+k a_1 \\
+k a_2 \\
+\vdots \\
+k a_{n-1} \\
+k a_n
+\end{array}\right]
+$$
