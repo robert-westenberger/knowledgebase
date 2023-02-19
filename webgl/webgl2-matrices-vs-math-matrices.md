@@ -2,7 +2,7 @@
 title: WebGL2 Matrices vs Math Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-vs-math.html
 published: true
-date: 2023-02-19T23:55:01.950Z
+date: 2023-02-19T23:57:03.241Z
 tags: matrix, webgl, linear-algebra
 editor: markdown
 ---
@@ -82,3 +82,20 @@ const zAxis = [
   some4x4Matrix[10],
 ];
 ```
+
+The way WebGL gets around this is to call rows "columns".
+
+```
+const some4x4TranslationMatrix = [
+   1,  0,  0,  0,   // this is column 0
+   0,  1,  0,  0,   // this is column 1
+   0,  0,  1,  0,   // this is column 2
+  tx, ty, tz,  1,   // this is column 3
+];
+```
+
+Now it matches the math definition. Comparing to the example above, if we want the Z axis all we need to do is 
+```
+const zAxis = some4x4Matrix.slice(8, 11);
+```
+
