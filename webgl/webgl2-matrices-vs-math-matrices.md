@@ -2,7 +2,7 @@
 title: WebGL2 Matrices vs Math Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-vs-math.html
 published: true
-date: 2023-02-19T23:50:12.993Z
+date: 2023-02-19T23:51:20.432Z
 tags: matrix, webgl, linear-algebra
 editor: markdown
 ---
@@ -61,3 +61,13 @@ $$
 0 & 0 & 0 & 1
 \end{array}\right]
 $$
+
+We can't structure a 4x4 matrix like this :
+```
+const some4x4TranslationMatrix = [
+   1,  0,  0,  tx,
+   0,  1,  0,  ty,
+   0,  0,  1,  tx,
+   0,  0,  0,  1,
+];
+```
