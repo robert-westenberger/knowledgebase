@@ -2,7 +2,7 @@
 title: WebGL2 Matrices vs Math Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-vs-math.html
 published: true
-date: 2023-02-19T23:51:20.432Z
+date: 2023-02-19T23:55:01.950Z
 tags: matrix, webgl, linear-algebra
 editor: markdown
 ---
@@ -69,5 +69,16 @@ const some4x4TranslationMatrix = [
    0,  1,  0,  ty,
    0,  0,  1,  tx,
    0,  0,  0,  1,
+];
+```
+because each of the column's of a 4x4 matrix often has a meaning. The first, second, and third columns are often considered the x, y, and z axis respectively and the last column is the position or translation.
+
+So that means to get the Z axis, you'd have to do this:
+
+```
+const zAxis = [
+  some4x4Matrix[2],
+  some4x4Matrix[6],
+  some4x4Matrix[10],
 ];
 ```
