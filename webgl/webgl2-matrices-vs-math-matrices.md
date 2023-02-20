@@ -2,7 +2,7 @@
 title: WebGL2 Matrices vs Math Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-vs-math.html
 published: true
-date: 2023-02-20T00:01:35.000Z
+date: 2023-02-20T00:04:26.509Z
 tags: matrix, webgl, linear-algebra
 editor: markdown
 ---
