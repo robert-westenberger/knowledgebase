@@ -2,7 +2,7 @@
 title: WebGL2 2D Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-2d-matrices.html
 published: true
-date: 2023-02-20T00:31:39.116Z
+date: 2023-02-20T00:32:48.621Z
 tags: matrix, webgl
 editor: markdown
 ---
@@ -102,3 +102,6 @@ $$
 & \text { newY }=y * s y ;
 \end{aligned}
 $$
+
+
+# Applying All the Transformations at once using matrix multiplication
