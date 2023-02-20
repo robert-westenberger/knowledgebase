@@ -2,7 +2,7 @@
 title: WebGL2 2D Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-2d-matrices.html
 published: true
-date: 2023-02-20T00:30:52.517Z
+date: 2023-02-20T00:31:39.116Z
 tags: matrix, webgl
 editor: markdown
 ---
@@ -80,5 +80,25 @@ $$
 & \text { newX }=x * c+y * s \text {; } \\
 & \text { newY }=x *-s+y * c ; \\
 &
+\end{aligned}
+$$
+
+## Scale Matrix
+
+$$
+\begin{array}{|c|c|c|}
+\hline \text { sx } & 0.0 & 0.0 \\
+\hline \hline 0.0 & \text { sy } & 0.0 \\
+\hline \hline 0.0 & 0.0 & 1.0 \\
+\hline
+\end{array}
+$$
+
+Simplified
+
+$$
+\begin{aligned}
+& \text { newX }=x * s x \\
+& \text { newY }=y * s y ;
 \end{aligned}
 $$
