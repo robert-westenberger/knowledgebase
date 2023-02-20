@@ -2,7 +2,7 @@
 title: WebGL2 Matrices vs Math Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-matrix-vs-math.html
 published: true
-date: 2023-02-19T23:57:03.241Z
+date: 2023-02-20T00:01:35.000Z
 tags: matrix, webgl, linear-algebra
 editor: markdown
 ---
@@ -99,3 +99,67 @@ Now it matches the math definition. Comparing to the example above, if we want t
 const zAxis = some4x4Matrix.slice(8, 11);
 ```
 
+## Matrices in OpenGL
+For those familiar with C++, OpenGL itself requires the 16 values of a 4x4 matrix to be consecutive in memory so in C++ we could create a `Vec4` struct or class
+```
+// C++
+struct Vec4 {
+  float x;
+  float y;
+  float z;
+  float w;
+};
+```
+
+and we could create a 4x4 matrix from 4 of them
+
+```
+// C++
+struct Mat4x4 {
+  Vec4 x_axis;
+  Vec4 y_axis;
+  Vec4 z_axis;
+  Vec4 translation;
+}
+```
+
+or just 
+```
+// C++
+struct Mat4x4 {
+  Vec4 column[4];
+}
+```
+
+Unfortunately it looks nothing like the math version when you actually declare one statically in code.
+
+```
+// C++
+Mat4x4 someTranslationMatrix = {
+  {  1,  0,  0,  0, },
+  {  0,  1,  0,  0, },
+  {  0,  0,  1,  0, },
+  { tx, ty, tz,  1, },
+};
+```
+
+Or back to JavaScript where we don't generally have something like C++ structs.
+
+```
+const someTranslationMatrix = [
+   1,  0,  0,  0,
+   0,  1,  0,  0,
+   0,  0,  1,  0,
+  tx, ty, tz,  1,
+];
+```
+
+**Every other single dimensional array that is treated as a 2 dimensional array, rows go across.**
+```
+const someTranslationMatrix = [
+   1,  0,  0,  0,  // row 0
+   0,  1,  0,  0,  // row 1
+   0,  0,  1,  0,  // row 2
+  tx, ty, tz,  1,  // row 3
+];
+```
