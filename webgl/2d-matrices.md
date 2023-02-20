@@ -2,7 +2,7 @@
 title: WebGL2 2D Matrices
 description: Notes taken from https://webgl2fundamentals.org/webgl/lessons/webgl-2d-matrices.html
 published: true
-date: 2023-02-20T00:26:55.178Z
+date: 2023-02-20T00:30:52.517Z
 tags: matrix, webgl
 editor: markdown
 ---
@@ -50,5 +50,35 @@ $$
 \text { extra }= & \mathrm{x} * 0.0+ \\
 & \mathrm{y} * 0.0+ \\
 & 1 * 1.0
+\end{aligned}
+$$
+
+
+## Rotation Matrix
+
+$$
+\begin{aligned}
+& s=\text { Math.sin(angleToRotateInRadians) } ; \\
+& c=\text { Math.cos(angleToRotateInRadians) } ;
+\end{aligned}
+$$
+
+
+$$
+\begin{array}{|c|c|c|}
+\hline \mathrm{c} & -\mathrm{s} & 0.0 \\
+\hline \hline \mathrm{s} & \mathrm{c} & 0.0 \\
+\hline \hline 0.0 & 0.0 & 1.0 \\
+\hline
+\end{array}
+$$
+
+Simplifying the operations, we get 
+
+$$
+\begin{aligned}
+& \text { newX }=x * c+y * s \text {; } \\
+& \text { newY }=x *-s+y * c ; \\
+&
 \end{aligned}
 $$
