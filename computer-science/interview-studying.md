@@ -2,7 +2,7 @@
 title: Interview Grinding
 description: 
 published: true
-date: 2023-03-17T15:21:13.656Z
+date: 2023-03-17T15:46:28.421Z
 tags: interviewing, interviews
 editor: markdown
 ---
@@ -13,3 +13,4 @@ editor: markdown
 
 # Competitive Programmers Handbook
 ## Introduction
+### Modular Arithmetic
