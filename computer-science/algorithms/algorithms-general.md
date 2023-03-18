@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:26:24.116Z
+date: 2023-03-18T20:28:09.309Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -39,6 +39,8 @@ Many efficient algorithms use sorting as a subroutine, because it is often easie
 
 ## Selection Sort
 ## $O\left(n^2\right)$ algorithms
+### Inversions
+Bubble sort, for example, always swaps consecutive elements in the array. The time complexity of such an algorithm is always at least $O(n^2)$, because in the worst case, $O(n^2)$ swaps are required for sorting the array.
 ### Bubble Sort 
 
 Simple but not very efficient. Bubble sort conists of $n$ rounds. Orders by comparing adjacent elements, interchanging them if they are in the wrong order. 
