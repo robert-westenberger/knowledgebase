@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:34:13.412Z
+date: 2023-03-18T20:36:50.346Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -86,7 +86,7 @@ Merge sort sorts a subarray array $[a \ldots b]$ as follows:
 4. Recursively sort the subarray array $[k+1 \ldots b]$.
 5. Merge the sorted subarrays array $[a \ldots k]$ and array $[k+1 \ldots b]$ into a sorted subarray array $[a \ldots b]$.
 
-
+Merge sort is efficient beacuse it halves the size of the subarray at each step. The recursion consists of $O(\log n)$ levels, and processing each level takes $O(n)$ time. Merging the subarrays array $[a \ldots k]$ and array $[k+1 \ldots b]$ is possible in linear time, because they are already sorted.
 # String Matching
 Algorithms for finding where, if at all, a string of characters $P$, called the **pattern** occur, within another string $T$, called the **text**.
 
