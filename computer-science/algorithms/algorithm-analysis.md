@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:32:20.609Z
+date: 2023-03-18T19:34:05.549Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -29,6 +29,9 @@ A simple, single pass for loop, has a time complexity of $n$. A singly nested fo
 
 ### Order of magnitude
 A time complexity doesn't tell us the exact number of times the code inside a loop is executed, but it only shows us the order of magnitude.  
+
+## Phases
+If 
 
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
