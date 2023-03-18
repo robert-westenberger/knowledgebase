@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:39:50.175Z
+date: 2023-03-18T19:41:23.992Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -46,6 +46,9 @@ for (int i = 1; i <= n; i++) {
    }
 }
 ```
+
+## Recursion
+The time complexity of a recursive function depends on the number of times the function is called and the time complexity of a single call. The total time complexity is the product of these values.
 
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
