@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2022-05-07T19:28:30.302Z
+date: 2023-03-18T19:27:19.569Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -15,6 +15,8 @@ Machine-independent algorithm design depends upon a hypothetical computer called
 
 Run time on the RAM is measured by counting the number of steps an algorithm takes on a given problem instance.
 
+# Calculation Rules
+Usually, the variable $n$ denotes input size. If the input is an array of numbers, $n$ will be the array length. If the input is a string, $n$ will be the length of the string. 
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
 
