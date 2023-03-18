@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:43:00.487Z
+date: 2023-03-18T20:52:35.381Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -136,7 +136,8 @@ $$
 \end{array}
 $$
 
-
+## $O(n+k)$ algorithms
+### Counting Sort
 
 
 # String Matching
