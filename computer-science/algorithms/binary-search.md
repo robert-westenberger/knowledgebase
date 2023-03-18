@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T22:16:49.220Z
+date: 2023-03-18T22:18:55.389Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
@@ -75,5 +75,5 @@ B Search can be used to find the max value for a function that is first increasi
 - $f(x)<f(x+1)$ when $x<k$, and
 - $f(x)>f(x+1)$ when $x \geq k$.
 
-
+The idea is to use binary search for finding the largest value of $x$ for which $f(x)<f(x+1)$. This implies that $k = x + 1$ because $f(x+1)>f(x+2)$. 
 
