@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:31:31.893Z
+date: 2023-03-18T20:34:13.412Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -32,7 +32,6 @@ For use when the list is sorted and the list has items ordered by increasing siz
 # Sorting Algorithms
 Many efficient algorithms use sorting as a subroutine, because it is often easier to process data if the elements are in a sorted order. 
 ## Tim Sort
-## Merge Sort
 ## Quick Sort
 ## Shaker Sort
 ## Insertion Sort
@@ -74,6 +73,18 @@ for (int i = 0; i < n; i++) {
   }
 }
 ```
+
+## $O(n \log n)$ algorithms
+It is possible to sort an array efficiently in $O(n \log n)$ time using algorithms that are not limited to swapping consecutive elements.
+### Merge Sort
+Based on recursion. 
+
+Merge sort sorts a subarray array $[a \ldots b]$ as follows:
+1. If $a=b$, do not do anything, because the subarray is already sorted.
+2. Calculate the position of the middle element: $k=\lfloor(a+b) / 2\rfloor$.
+3. Recursively sort the subarray array $[a \ldots k]$.
+4. Recursively sort the subarray array $[k+1 \ldots b]$.
+5. Merge the sorted subarrays array $[a \ldots k]$ and array $[k+1 \ldots b]$ into a sorted subarray array $[a \ldots b]$.
 
 
 # String Matching
