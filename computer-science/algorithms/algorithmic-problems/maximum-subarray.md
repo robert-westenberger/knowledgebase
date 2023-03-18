@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2023-03-18T20:09:58.679Z
+date: 2023-03-18T20:15:18.762Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -150,6 +150,24 @@ Finally, we return the largest value between the left subarray, middle, and righ
 The following algorithm is $O(n)$. 
 
 The idea is to calculate, for each array position, the maximum sum of a subarray that ends at that position. After this, the answer for the problem is the maximum of those sums. 
+
+Consider the subproblem of finding the maximum-sum subarray that ends at position $k$. There are two possibilities: 
+
+1. The subarray only contains the element at position $k$. 
+2. The subarray consists of a subarray that ends at position $k-1$, followed by the element at position $k$. 
+
+In the latter case, since we want to find a subarray with maximum sum, the subarray that ends at position $k-1$ should also have the maximum sum. Thus, we can solve the problem efficiently by calculating the max subarray sum for each ending position from left to right. 
+
+The following code implements the algorithm. 
+```
+int best = 0, sum = 0;
+for (int k = 0; k < n; k++) {
+   sum = max(array[k],sum+array[k]);
+   best = max(best,sum);
+}
+cout << best << "\n";
+```
+
 
 
 ## Dynamic Programming
