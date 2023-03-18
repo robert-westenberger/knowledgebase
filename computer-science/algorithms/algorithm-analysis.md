@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:29:06.545Z
+date: 2023-03-18T19:32:20.609Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -26,6 +26,10 @@ $$
 
 ## Loops 
 A simple, single pass for loop, has a time complexity of $n$. A singly nested for loop will have a time complexity of $n^2$.
+
+### Order of magnitude
+A time complexity doesn't tell us the exact number of times the code inside a loop is executed, but it only shows us the order of magnitude.  
+
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
 
