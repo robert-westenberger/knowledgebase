@@ -2,7 +2,7 @@
 title: Properties of Logarithms
 description: 
 published: true
-date: 2023-03-18T19:18:58.038Z
+date: 2023-03-18T19:20:06.163Z
 tags: mathematics
 editor: markdown
 ---
@@ -25,7 +25,8 @@ $$
 \log _k\left(\frac{a}{b}\right)=\log _k(a)-\log _k(b)
 $$
 
-
+## Natural Logarithm
+The natural logarithm $\ln (x)$ of a number $x$ is a logarithm whose base is $e \approx 2.71828$. Another property of logarithms is that the number of digits of an integer $x$ in base $b$ is $\left\lfloor\log _b(x)+1\right\rfloor$. For example, the representation of 123 in base 2 is 1111011 and $\left\lfloor\log _2(123)+1\right\rfloor=7$.
 # Algorithmic Application of Logarithms
 ## The base of the logarithm has no real impact on the growth rate
 Compare the following three values: $\log _{2}(1,000,000)=19.9316, \log _{3}(1,000,000)=$
