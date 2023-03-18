@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:47:50.499Z
+date: 2023-03-18T19:48:17.205Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -78,6 +78,11 @@ g(n-2) & 4 \\
 g(1) & 2^{n-1}
 \end{array}
 $$
+
+$$
+1+2+4+\cdots+2^{n-1}=2^n-1=O\left(2^n\right)
+$$
+
 
 
 ## Best-Case, Worst-Case, and Average-Case Complexity
