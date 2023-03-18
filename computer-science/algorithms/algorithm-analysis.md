@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:36:32.649Z
+date: 2023-03-18T19:39:50.175Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -34,6 +34,18 @@ A time complexity doesn't tell us the exact number of times the code inside a lo
 If the algorithm consists of multiple consecutie phases, the total time complexity is the largest time coplexity of a single phase. The reason for this is that the slowest phase is usually the bottleneck of the code. 
 
 For example, if the body of a function consists of a for loop, a nested for loop, and a for loop, then it's time complexity is $O\left(n^2\right)$.
+
+## Several variables
+Sometimes the time complexitty depends on several factors. In this case, the time complexity formula contains several variables.
+
+For example, the time complexity of the following code is $O(\mathrm{~nm})$ :
+```
+for (int i = 1; i <= n; i++) {
+   for (int j = 1; j <= m; j++) {
+      // code
+   }
+}
+```
 
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
