@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:55:30.933Z
+date: 2023-03-18T19:56:09.481Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -257,6 +257,20 @@ An algorithm is polynomial if its time complexity is at most $O\left(n^k\right)$
 
 ### Estimating efficiency
 The following table contains some useful estimates assuming a time limit of one second. 
+
+$$
+\begin{array}{ll}
+\text { input size } & \text { required time complexity } \\
+\hline n \leq 10 & O(n !) \\
+n \leq 20 & O\left(2^n\right) \\
+n \leq 500 & O\left(n^3\right) \\
+n \leq 5000 & O\left(n^2\right) \\
+n \leq 10^6 & O(n \log n) \text { or } O(n) \\
+n \text { is large } & O(1) \text { or } O(\log n)
+\end{array}
+$$
+
+
 ### More Esoteric Orders of Dominance
 - Inverse Ackermann's function $f(n)=\alpha(n)$: Arises in the analysis of Union-Find data structure. It is the slowest growing complexity function. $\alpha(n)$ eventually gets to infinity as $n\rarr\infin$. The value of $\alpha(n)$ is smaller than $5$ for any value of $n$ that can be written in this physical universe.
 
