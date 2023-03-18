@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T22:12:07.879Z
+date: 2023-03-18T22:12:35.359Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
@@ -63,3 +63,5 @@ for (int b = z; b >= 1; b /= 2) {
 }
 int k = x+1;
 ```
+
+
