@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:34:05.549Z
+date: 2023-03-18T19:36:32.649Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -31,7 +31,9 @@ A simple, single pass for loop, has a time complexity of $n$. A singly nested fo
 A time complexity doesn't tell us the exact number of times the code inside a loop is executed, but it only shows us the order of magnitude.  
 
 ## Phases
-If 
+If the algorithm consists of multiple consecutie phases, the total time complexity is the largest time coplexity of a single phase. The reason for this is that the slowest phase is usually the bottleneck of the code. 
+
+For example, if the body of a function consists of a for loop, a nested for loop, and a for loop, then it's time complexity is $O\left(n^2\right)$.
 
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
