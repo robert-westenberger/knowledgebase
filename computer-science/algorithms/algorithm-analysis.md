@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:44:24.084Z
+date: 2023-03-18T19:47:50.499Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -56,7 +56,29 @@ void f(int n) {
    f(n-1);
 }
 ```
-The call $f(n)$ causes $n$ function calls, each of which have a constant ($O(1)$) time complexity.
+The call $f(n)$ causes $n$ function calls, each of which have a constant ($O(1)$) time complexity. Thus, the total time complexity is $O(n)$.
+
+```
+void g(int n) {
+	if (n == 1) return; 
+  g(n-1);
+  g(n-1);
+}
+```
+
+In this case, each function call generates two other calls, except for (n = 1). The following table shows the function calls produced by this single call: 
+
+$$
+\begin{array}{rr}
+\text { function call } & \text { number of calls } \\
+\hline g(n) & 1 \\
+g(n-1) & 2 \\
+g(n-2) & 4 \\
+\ldots & \ldots \\
+g(1) & 2^{n-1}
+\end{array}
+$$
+
 
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
