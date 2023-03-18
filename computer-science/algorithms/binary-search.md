@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T22:10:29.081Z
+date: 2023-03-18T22:11:59.430Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
@@ -55,3 +55,11 @@ x & 0 & 1 & \cdots & k-1 & k & k+1 & \cdots \\
 \end{array}
 \end{aligned}
 $$
+
+```
+int x = -1;
+for (int b = z; b >= 1; b /= 2) {
+while (!ok(x+b)) x += b;
+}
+int k = x+1;
+```
