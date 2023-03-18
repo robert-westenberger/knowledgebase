@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:38:51.212Z
+date: 2023-03-18T20:43:00.487Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -87,6 +87,54 @@ Merge sort sorts a subarray array $[a \ldots b]$ as follows:
 5. Merge the sorted subarrays array $[a \ldots k]$ and array $[k+1 \ldots b]$ into a sorted subarray array $[a \ldots b]$.
 
 Merge sort is efficient beacuse it halves the size of the subarray at each step. The recursion consists of $O(\log n)$ levels, and processing each level takes $O(n)$ time. Merging the subarrays array $[a \ldots k]$ and array $[k+1 \ldots b]$ is possible in linear time, because they are already sorted.
+
+#### Example
+Consider the following array 
+$$
+\begin{array}{|l|l|l|l|l|l|l|l|}
+\hline 1 & 3 & 6 & 2 & 8 & 2 & 5 & 9 \\
+\hline
+\end{array}
+$$
+
+Itll be divided into two subarrays
+
+$$
+\begin{aligned}
+&\begin{array}{|l|l|l|l|}
+\hline 1 & 3 & 6 & 2 \\
+\hline
+\end{array}\\
+&\begin{array}{|l|l|l|l|}
+\hline 8 & 2 & 5 & 9 \\
+\hline
+\end{array}
+\end{aligned}
+$$
+
+The subarrays will be sorted recursively as follows 
+
+$$
+\begin{aligned}
+&\begin{array}{|l|l|l|l|}
+\hline 1 & 2 & 3 & 6 \\
+\hline
+\end{array}\\
+&\begin{array}{|l|l|l|l|}
+\hline 2 & 5 & 8 & 9 \\
+\hline
+\end{array}
+\end{aligned}
+$$
+
+Finally, the algorithm merges the sorted subarrays and creates the final sorted array. 
+
+$$
+\begin{array}{|l|l|l|l|l|l|l|l|}
+\hline 1 & 2 & 2 & 3 & 5 & 6 & 8 & 9 \\
+\hline
+\end{array}
+$$
 
 
 
