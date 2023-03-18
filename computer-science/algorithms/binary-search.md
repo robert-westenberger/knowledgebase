@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T22:10:00.792Z
+date: 2023-03-18T22:10:29.081Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
@@ -44,7 +44,7 @@ During the search, the variable $b$ contains the current jump length. The time c
 
 # Applications
 ## Finding the smallest solution
-An important use for binary search is to find the position where the value of a function changes. Suppose we wish to find the smallest value $k$ that is a valid soln for a problem. We are given a function $ok(x)$ that returns `true` if $x$ is a valid soln and `false` otherwise. In addition, we know that $ok(x)$ is `false` when $x \lt k$ and `true` when $x \gte k$.
+An important use for binary search is to find the position where the value of a function changes. Suppose we wish to find the smallest value $k$ that is a valid soln for a problem. We are given a function $ok(x)$ that returns `true` if $x$ is a valid soln and `false` otherwise. In addition, we know that $ok(x)$ is `false` when $x \lt k$ and `true` when $x \geq k$.
 
 $$
 \begin{aligned}
