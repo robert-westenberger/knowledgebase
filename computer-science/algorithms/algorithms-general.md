@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2021-07-12T03:04:59.029Z
+date: 2023-03-18T20:21:06.642Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -30,6 +30,7 @@ For each item in a list, check to see if item in the list is the value we are lo
 For use when the list is sorted and the list has items ordered by increasing size. It compares the target item to the item in the middle of the list. The list is then split into two smaller sublists of the same size, or where one of the sublists is one item fewer than the other. The search continues by restricting the search to the appropriate sublist based on the comparison of the element to be located and the middle term.
 
 # Sorting Algorithms
+Many efficient algorithms use sorting as a subroutine, because it is often easier to process data if the elements are in a sorted order. 
 ## Tim Sort
 ## Merge Sort
 ## Quick Sort
