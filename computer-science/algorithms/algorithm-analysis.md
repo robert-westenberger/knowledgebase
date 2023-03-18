@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:56:09.481Z
+date: 2023-03-18T19:58:15.841Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -270,6 +270,7 @@ n \text { is large } & O(1) \text { or } O(\log n)
 \end{array}
 $$
 
+It is important to remember that a time complexity is only an estimate of efficiency, because it hides the constant factors. For example, an algorithm that runs in $O(n)$ time may perform $n / 2$ or $5 n$ operations. This has an important effect on the actual running time of the algorithm. 
 
 ### More Esoteric Orders of Dominance
 - Inverse Ackermann's function $f(n)=\alpha(n)$: Arises in the analysis of Union-Find data structure. It is the slowest growing complexity function. $\alpha(n)$ eventually gets to infinity as $n\rarr\infin$. The value of $\alpha(n)$ is smaller than $5$ for any value of $n$ that can be written in this physical universe.
