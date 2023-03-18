@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:21:06.642Z
+date: 2023-03-18T20:23:44.542Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -38,7 +38,9 @@ Many efficient algorithms use sorting as a subroutine, because it is often easie
 ## Insertion Sort
 
 ## Selection Sort
-## Bubble Sort
+## $O\left(n^2\right)$ algorithms
+### Bubble Sort 
+
 Simple but not very efficient. Orders by comparing adjacent elements, interchanging them if they are in the wrong order. 
 To carry out the bubble sort, we
 perform the basic operation, that is, interchanging a larger element with a smaller one following
