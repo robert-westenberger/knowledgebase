@@ -2,7 +2,7 @@
 title: Properties of Logarithms
 description: 
 published: true
-date: 2021-08-30T18:25:33.979Z
+date: 2023-03-18T19:18:20.791Z
 tags: mathematics
 editor: markdown
 ---
@@ -19,6 +19,12 @@ Changing the base of $\log b$ from base-$a$ to base-$c$ involves multiplying by 
 
 ## Power Rule
 $\log _{a} x^{y}=y \log _{a} x$
+
+## Logarithm of a quotient
+$$
+\log _k\left(\frac{a}{b}\right)=\log _k(a)-\log _k(b)
+$$
+
 # Algorithmic Application of Logarithms
 ## The base of the logarithm has no real impact on the growth rate
 Compare the following three values: $\log _{2}(1,000,000)=19.9316, \log _{3}(1,000,000)=$
