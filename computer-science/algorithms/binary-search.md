@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T22:02:21.443Z
+date: 2023-03-18T22:05:24.162Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
