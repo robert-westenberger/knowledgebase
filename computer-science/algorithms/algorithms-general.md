@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:23:44.542Z
+date: 2023-03-18T20:25:00.709Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -41,10 +41,11 @@ Many efficient algorithms use sorting as a subroutine, because it is often easie
 ## $O\left(n^2\right)$ algorithms
 ### Bubble Sort 
 
-Simple but not very efficient. Orders by comparing adjacent elements, interchanging them if they are in the wrong order. 
+Simple but not very efficient. Bubble sort conists of $n$ rounds. Orders by comparing adjacent elements, interchanging them if they are in the wrong order. 
 To carry out the bubble sort, we
 perform the basic operation, that is, interchanging a larger element with a smaller one following
 it, starting at the beginning of the list, for a full pass.
+
 # String Matching
 Algorithms for finding where, if at all, a string of characters $P$, called the **pattern** occur, within another string $T$, called the **text**.
 
