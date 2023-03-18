@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:52:35.381Z
+date: 2023-03-18T20:54:10.863Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -138,8 +138,9 @@ $$
 
 ## $O(n+k)$ algorithms
 ### Counting Sort
+Sorts an array in $O(n)$ time assuming that every element in the array is an integer between $0 \ldots c$ and $c=O(n)$
 
-
+The algorithm creates a bookkeeping array, whose indices are elements of the original array. The algorithm iterates through the original array and calculates how many times each element appears in the array. 
 # String Matching
 Algorithms for finding where, if at all, a string of characters $P$, called the **pattern** occur, within another string $T$, called the **text**.
 
