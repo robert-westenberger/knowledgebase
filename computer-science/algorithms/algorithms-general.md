@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:29:01.935Z
+date: 2023-03-18T20:30:37.403Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -43,6 +43,21 @@ Many efficient algorithms use sorting as a subroutine, because it is often easie
 Bubble sort, for example, always swaps consecutive elements in the array. The time complexity of such an algorithm is always at least $O(n^2)$, because in the worst case, $O(n^2)$ swaps are required for sorting the array.
 
 A useful concept when analyzing sorting algorithms is an inversion: a pair of array elements (array $[a]$, array $[b]$ ) such that $a<b$ and array $[a]>$ array $[b]$, i.e., the elements are in the wrong order. For example, the array
+
+$$
+\begin{array}{|l|l|l|l|l|l|l|l|}
+\hline 1 & 2 & 2 & 6 & 3 & 5 & 9 & 8 \\
+\hline
+\end{array}
+$$
+
+has three inversions: $(6,3),(6,5)$ and $(9,8)$. The number of inversions indicates how much work is needed to sort the array. An array is completely sorted when there are no inversions. On the other hand, if the array elements are in the reverse order, the number of inversions is the largest possible:
+$$
+1+2+\cdots+(n-1)=\frac{n(n-1)}{2}=O\left(n^2\right)
+$$
+Swapping a pair of consecutive elements that are in the wrong order removes exactly one inversion from the array. Hence, if a sorting algorithm can only swap consecutive elements, each swap removes at most one inversion, and the time complexity of the algorithm is at least $O\left(n^2\right)$.
+
+
 
 ### Bubble Sort 
 
