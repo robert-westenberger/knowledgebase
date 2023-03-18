@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T22:19:23.390Z
+date: 2023-03-18T22:19:58.714Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
@@ -84,3 +84,5 @@ for (int b = z; b >= 1; b /= 2) {
 }
 int k = x+1;
 ```
+
+Note that unlike the ordinary b search, here it is not allowed that consecutive vals of the fn are equal. In this case it would not be possible to know how to continue the search
