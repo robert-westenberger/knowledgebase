@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:41:23.992Z
+date: 2023-03-18T19:44:24.084Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -49,6 +49,14 @@ for (int i = 1; i <= n; i++) {
 
 ## Recursion
 The time complexity of a recursive function depends on the number of times the function is called and the time complexity of a single call. The total time complexity is the product of these values.
+
+```
+void f(int n) {
+   if (n == 1) return;
+   f(n-1);
+}
+```
+The call $f(n)$ causes $n$ function calls, each of which have a constant ($O(1)$) time complexity.
 
 ## Best-Case, Worst-Case, and Average-Case Complexity
 " "-Case refers to the resources (computations, memory) required for an algorithm to finish.
