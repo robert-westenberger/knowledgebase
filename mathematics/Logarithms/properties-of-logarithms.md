@@ -2,7 +2,7 @@
 title: Properties of Logarithms
 description: 
 published: true
-date: 2023-03-18T19:18:20.791Z
+date: 2023-03-18T19:18:58.038Z
 tags: mathematics
 editor: markdown
 ---
@@ -24,6 +24,7 @@ $\log _{a} x^{y}=y \log _{a} x$
 $$
 \log _k\left(\frac{a}{b}\right)=\log _k(a)-\log _k(b)
 $$
+
 
 # Algorithmic Application of Logarithms
 ## The base of the logarithm has no real impact on the growth rate
