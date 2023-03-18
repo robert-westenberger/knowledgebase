@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2023-03-18T20:15:18.762Z
+date: 2023-03-18T20:17:09.730Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -146,7 +146,8 @@ Therefore, the sum traversing the midpoint is `6` (left + mid + right = `6`).
 
 Finally, we return the largest value between the left subarray, middle, and right subarray, which is `6`.
 
-## Alternative Algorithm
+## Dynamic Programming
+### Kadane's Algorithm
 The following algorithm is $O(n)$. 
 
 The idea is to calculate, for each array position, the maximum sum of a subarray that ends at that position. After this, the answer for the problem is the maximum of those sums. 
@@ -167,9 +168,3 @@ for (int k = 0; k < n; k++) {
 }
 cout << best << "\n";
 ```
-
-
-
-## Dynamic Programming
-### Kadane's Algorithm
-TODO
