@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:25:20.774Z
+date: 2023-03-18T20:26:24.116Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -45,6 +45,16 @@ Simple but not very efficient. Bubble sort conists of $n$ rounds. Orders by comp
 To carry out the bubble sort, we
 perform the basic operation, that is, interchanging a larger element with a smaller one following
 it, starting at the beginning of the list, for a full pass.
+```
+for (int i = 0; i < n; i++) {
+  for (int j = 0; j < n-1; j++) {
+    if (array[j] > array[j+1]) {
+      swap(array[j],array[j+1]);
+    }
+  }
+}
+```
+
 
 # String Matching
 Algorithms for finding where, if at all, a string of characters $P$, called the **pattern** occur, within another string $T$, called the **text**.
