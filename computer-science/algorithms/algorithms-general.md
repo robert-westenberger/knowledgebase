@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:54:10.863Z
+date: 2023-03-18T20:55:34.387Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -141,6 +141,31 @@ $$
 Sorts an array in $O(n)$ time assuming that every element in the array is an integer between $0 \ldots c$ and $c=O(n)$
 
 The algorithm creates a bookkeeping array, whose indices are elements of the original array. The algorithm iterates through the original array and calculates how many times each element appears in the array. 
+
+#### Example
+The array 
+$$
+\begin{array}{|l|l|l|l|l|l|l|l|}
+\hline 1 & 3 & 6 & 9 & 9 & 3 & 5 & 9 \\
+\hline
+\end{array}
+$$
+
+corresponds to the following bookkeeping array 
+
+$$
+\begin{aligned}
+&\begin{array}{lllllllll}
+1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9
+\end{array}\\
+&\begin{array}{|l|l|l|l|l|l|l|l|l|}
+\hline 1 & 0 & 2 & 0 & 1 & 1 & 0 & 0 & 3 \\
+\hline
+\end{array}
+\end{aligned}
+$$
+
+
 # String Matching
 Algorithms for finding where, if at all, a string of characters $P$, called the **pattern** occur, within another string $T$, called the **text**.
 
