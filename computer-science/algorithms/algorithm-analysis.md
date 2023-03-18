@@ -2,7 +2,7 @@
 title: Algorithm Analysis
 description: 
 published: true
-date: 2023-03-18T19:48:17.205Z
+date: 2023-03-18T19:52:15.460Z
 tags: data-structures, algorithms
 editor: markdown
 ---
@@ -251,6 +251,9 @@ A faster growing function **dominates** a slower growing one. When $f$ and $g$ b
 $$
 n ! \gg 2^{n} \gg n^{3} \gg n^{2} \gg n \log n \gg n \gg \log n \gg 1
 $$
+
+### Polynomial algorithms
+An algorithm is polynomial if its time complexity is at most $O\left(n^k\right)$ where $k$ is a constant. All the above time complexities except $O\left(2^n\right)$ and $O(n !)$ are polynomial. In practice, the constant $k$ is usually small, and therefore a polynomial time complexity roughly means that the algorithm is efficient.
 
 ### More Esoteric Orders of Dominance
 - Inverse Ackermann's function $f(n)=\alpha(n)$: Arises in the analysis of Union-Find data structure. It is the slowest growing complexity function. $\alpha(n)$ eventually gets to infinity as $n\rarr\infin$. The value of $\alpha(n)$ is smaller than $5$ for any value of $n$ that can be written in this physical universe.
