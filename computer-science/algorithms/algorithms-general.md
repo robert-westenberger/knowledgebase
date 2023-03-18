@@ -2,7 +2,7 @@
 title: Algorithms
 description: 
 published: true
-date: 2023-03-18T20:55:34.387Z
+date: 2023-03-18T20:56:53.391Z
 tags: computer-science, discrete-mathematics, algorithms
 editor: markdown
 ---
@@ -164,6 +164,12 @@ $$
 \end{array}
 \end{aligned}
 $$
+
+For example, the value at position 3 in the bookkeeping array is 2 , because the element 3 appears 2 times in the original array.
+
+Construction of the bookkeeping array takes $O(n)$ time. After this, the sorted array can be created in $O(n)$ time because the number of occurrences of each element can be retrieved from the bookkeeping array. Thus, the total time complexity of counting sort is $O(n)$.
+
+Counting sort is a very efficient algorithm but it can only be used when the constant $c$ is small enough, so that the array elements can be used as indices in the bookkeeping array.
 
 
 # String Matching
