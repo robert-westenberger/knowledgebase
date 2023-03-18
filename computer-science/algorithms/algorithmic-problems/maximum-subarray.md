@@ -2,7 +2,7 @@
 title: Maximum Subarray
 description: 
 published: true
-date: 2022-05-15T22:09:03.345Z
+date: 2023-03-18T20:09:58.679Z
 tags: algorithms, dynamic-programming, arrays
 editor: markdown
 ---
@@ -145,6 +145,13 @@ Doing the same for the right hand side, starting from the `2` that is right of t
 Therefore, the sum traversing the midpoint is `6` (left + mid + right = `6`).
 
 Finally, we return the largest value between the left subarray, middle, and right subarray, which is `6`.
+
+## Alternative Algorithm
+The following algorithm is $O(n)$. 
+
+The idea is to calculate, for each array position, the maximum sum of a subarray that ends at that position. After this, the answer for the problem is the maximum of those sums. 
+
+
 ## Dynamic Programming
 ### Kadane's Algorithm
 TODO
