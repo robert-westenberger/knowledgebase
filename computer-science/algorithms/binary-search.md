@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T22:12:35.359Z
+date: 2023-03-18T22:15:03.249Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
@@ -63,5 +63,9 @@ for (int b = z; b >= 1; b /= 2) {
 }
 int k = x+1;
 ```
+
+The search finds the largest value of $x$ for which ok $(x)$ is false. Thus, the next value $k=x+1$ is the smallest possible value for which ok $(k)$ is true. The initial jump length $z$ has to be large enough, for example some value for which we know beforehand that ok $(z)$ is true.
+
+The algorithm calls the function ok $O(\log z)$ times, so the total time complexity depends on the function ok. For example, if the function works in $O(n)$ time, the total time complexity is $O(n \log z)$.
 
 
