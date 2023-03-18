@@ -2,7 +2,7 @@
 title: Binary Search
 description: 
 published: true
-date: 2023-03-18T21:12:49.495Z
+date: 2023-03-18T21:13:03.660Z
 tags: algorithms, binary-search, search-algorithms
 editor: markdown
 ---
@@ -23,3 +23,5 @@ while (a <= b) {
 ```
 
 At each step, the search checks the middle element of the active region. If the middle element is the target element, the search terminates. Otherwise, the search recursively continues to the left or right half of the region, depending on the value of the middle element.
+
+# Method 2
