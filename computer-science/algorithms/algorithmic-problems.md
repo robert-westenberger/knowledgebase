@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T22:14:25.601Z
+date: 2023-03-19T22:18:16.669Z
 tags: algorithms
 editor: markdown
 ---
@@ -30,6 +30,11 @@ Use iterative binary search.
 
 Initialize `low = 0`, `high = n-1`. Run a loop until `low <= high`. 
 
+1. Calculate mid, i.e. $\mathrm{mid}=10 w+($ high - low $) / 2$
+2. Now compare the value at mid with the target. The middle element will be the first occurrence in two situations: 1) target $==A[$ mid $]$ and target $>A[$ mid -1$]$, i.e. when the first occurrence is present somewhere in the middle. 2) mid $==0$ and $A$ [mid] $==$ target, i.e., when the first occurrence is present at the first position. In both situations, we return mid-index as the first occurrence.
+3. If (target $>A[\mathrm{mid}]$ ), we search for the first occurrence in the right part because all values in the left part are less than the target. Update low $=$ mid +1.
+4. If both conditions are not satisfied, we need to search for the first occurrence in the left part (Think). We update high $=$ mid -1.
+5. If we did not find the target value by the end of the loop, we return -1 .
 ## Find Target Indices After Sorting Array 
 You are given a 0-indexed integer array nums and a target element target.
 
