@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T23:33:10.695Z
+date: 2023-03-19T23:36:52.855Z
 tags: algorithms
 editor: markdown
 ---
@@ -66,6 +66,8 @@ function findIndexOfFirstNegative(arr) {
 Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid.
 ### First attempt 
 Once we find the first occurence of a negative number within a row, know that all numbers to the right in the same row and below it in the same column are negative. 
+
+The approach is, starting from the first row, to use binary search to scan for the first negative. Once the first negative is found, subsequent rows are searched with the upper limit as the index of the first negative number in the current row. In other words, once a negative number is found, that entire column for subsequent rows is never searched.
 ```
 function findIndexOfFirstNegative(arr: number[], arrHigh: number) {
   let low = 0;
