@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T23:31:03.692Z
+date: 2023-03-19T23:33:10.695Z
 tags: algorithms
 editor: markdown
 ---
@@ -65,6 +65,7 @@ function findIndexOfFirstNegative(arr) {
 ## Count Negative Numbers in a Sorted Matrix
 Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid.
 ### First attempt 
+Once we find the first occurence of a negative number within a row, know that all numbers to the right in the same row and below it in the same column are negative. 
 ```
 function findIndexOfFirstNegative(arr: number[], arrHigh: number) {
   let low = 0;
