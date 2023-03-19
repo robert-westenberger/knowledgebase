@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T22:21:34.104Z
+date: 2023-03-19T22:45:29.727Z
 tags: algorithms
 editor: markdown
 ---
@@ -25,16 +25,43 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 [Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray) - Find the contiguous subarray that has the largest sum. 
 
 # [Binary Search](/computer-science/algorithms/binary-search)
-## Find First Position of Element In Sorted Array ($O(\log n)$)
+## Find First Position of Element in Array sorted in non-increasing order ($O(\log n)$)
 Use iterative binary search. 
+Initialize low = 0 
+high = arr.length - 1.
 
-Initialize `low = 0`, `high = n-1`. Run a loop until `low <= high`. 
+1. While $\mathrm{low} \le \mathrm{high}$ :
+2. If arr[mid] is negative and arr[mid-1] is nonnegative, return mid.
+3. If mid is 0 and arr[mid] is negative, return mid.
+4. If arr[mid] is positive, set low = mid + 1 and continue the while loop.
+5. Otherwise, high = mid - 1.
 
-1. Calculate mid, i.e. $\mathrm{mid}=\mathrm{low}+\mathrm{(high-low)} / 2$
-2. Now compare the value at mid with the target. The middle element will be the first occurrence in two situations: 1) target $==A[$ mid $]$ and target $>A[$ mid -1$]$, i.e. when the first occurrence is present somewhere in the middle. 2) mid $==0$ and $A$ [mid] $==$ target, i.e., when the first occurrence is present at the first position. In both situations, we return mid-index as the first occurrence.
-3. If (target $>A[\mathrm{mid}]$ ), we search for the first occurrence in the right part because all values in the left part are less than the target. Update low $=$ mid +1.
-4. If both conditions are not satisfied, we need to search for the first occurrence in the left part. We update high $=$ mid -1.
-5. If we did not find the target value by the end of the loop, we return -1 or null .
+```
+function findIndexOfFirstNegative(arr) {
+  let low = 0;
+  let high = arr.length - 1;
+
+  while (low <= high) {
+    const mid = low + Math.floor((high - low) / 2);
+
+    if (0 > arr[mid] && 0 < arr[mid - 1]) {
+      return mid;
+    }
+
+    if (mid === 0 && arr[mid] < 0) {
+      return mid;
+    }
+
+    if (0 < arr[mid]) {
+      low = mid + 1;
+
+      continue;
+    }
+    high = mid - 1;
+  }
+  return -1;
+}
+```
 ## Find Target Indices After Sorting Array 
 You are given a 0-indexed integer array nums and a target element target.
 
