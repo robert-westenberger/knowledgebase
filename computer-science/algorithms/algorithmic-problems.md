@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T02:13:49.182Z
+date: 2023-03-19T02:24:32.329Z
 tags: algorithms
 editor: markdown
 ---
@@ -34,7 +34,50 @@ A target index is an index i such that nums[i] == target.
 Return a list of the target indices of nums after sorting nums in non-decreasing order. If there are no target indices, return an empty list. The returned list must be sorted in increasing order.
 
 #### First attempt
-
+```
+function targetIndices(nums: number[], target: number): number[] {
+    const ans: number[] = [];
+    const sorted = nums.sort((a, b) => {
+        return a-b;
+    });
+    let a = 0; 
+    let b = sorted.length - 1;
+    while (a <= b) {
+        const k = Math.floor((a+b) / 2);
+        
+        if (sorted[k] === target) {
+            let c = k - 1;
+            let d = k + 1
+            ans.push(k);
+            while (0 <= c) {
+                if (sorted[c] === target) {
+            
+                    ans.unshift(c);
+                
+                } else {
+                    break;
+                }
+                c = c-1;
+            }
+            while (d < sorted.length) {
+               if (sorted[d] === target) {
+                    ans.push(d);
+                } else {
+                    break;
+                }
+                d = d + 1;
+            }
+       break;
+        }
+        if (sorted[k] > target) {
+            b = k-1;
+        } else {
+            a = k+1;
+        }
+    }
+    return ans;
+};
+```
 # Depth First Search
 ## Examples
 ### [Find Connected Cells in a Matrix](/computer-science/algorithms/algorithmic-problems/find-connected-cells-in-matrix)
