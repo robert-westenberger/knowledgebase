@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T23:48:03.415Z
+date: 2023-03-19T23:49:53.589Z
 tags: algorithms
 editor: markdown
 ---
@@ -25,6 +25,12 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 [Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray) - Find the contiguous subarray that has the largest sum. 
 
 # [Binary Search](/computer-science/algorithms/binary-search)
+## Maximum Count of Positive Integer and Negative Integer
+Given an array nums sorted in non-decreasing order, return the maximum between the number of positive integers and the number of negative integers.
+
+In other words, if the number of positive integers in nums is pos and the number of negative integers is neg, then return the maximum of pos and neg.
+Note that 0 is neither positive nor negative.
+### First Attempt
 ## Find First Position of Element in Array sorted in non-increasing order ($O(\log n)$)
 Use iterative binary search. 
 Initialize low = 0 
