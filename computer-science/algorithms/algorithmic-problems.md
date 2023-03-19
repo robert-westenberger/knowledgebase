@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2022-06-04T21:48:24.851Z
+date: 2023-03-19T01:46:42.309Z
 tags: algorithms
 editor: markdown
 ---
@@ -23,6 +23,8 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 [Best Time to Buy and Sell Stock](/computer-science/algorithms/algorithmic-problems/best-time-to-buy-and-sell-stock) - Given an array prices where prices[i] is the price of a given stock on the i^th^ day, return the maximum profit you can achieve by buy choosing a single day to buy the stock and a single day in the future to sell it. 
 
 [Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray) - Find the contiguous subarray that has the largest sum. 
+
+# Binary Search
 
 # Depth First Search
 ## Examples
