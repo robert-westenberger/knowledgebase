@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T22:09:10.674Z
+date: 2023-03-19T22:14:25.601Z
 tags: algorithms
 editor: markdown
 ---
@@ -25,16 +25,19 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 [Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray) - Find the contiguous subarray that has the largest sum. 
 
 # [Binary Search](/computer-science/algorithms/binary-search)
-## Examples
-### Find First Position of Element In Sorted Array
-### Find Target Indices After Sorting Array
+## Find First Position of Element In Sorted Array ($O(\log n)$)
+Use iterative binary search. 
+
+Initialize `low = 0`, `high = n-1`. Run a loop until `low <= high`. 
+
+## Find Target Indices After Sorting Array 
 You are given a 0-indexed integer array nums and a target element target.
 
 A target index is an index i such that nums[i] == target.
 
 Return a list of the target indices of nums after sorting nums in non-decreasing order. If there are no target indices, return an empty list. The returned list must be sorted in increasing order.
 
-#### First attempt
+### First attempt
 ```
 function targetIndices(nums: number[], target: number): number[] {
     const ans: number[] = [];
@@ -79,7 +82,7 @@ function targetIndices(nums: number[], target: number): number[] {
     return ans;
 };
 ```
-#### $O(n)$ algorithm
+### $O(n)$ algorithm
 Don't need to sort the array.
 Maintain a `count` and a `lessThan` variable, both initialized to 0. 
 
