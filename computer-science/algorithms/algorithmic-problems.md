@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T23:30:23.601Z
+date: 2023-03-19T23:31:03.692Z
 tags: algorithms
 editor: markdown
 ---
@@ -60,6 +60,51 @@ function findIndexOfFirstNegative(arr) {
     high = mid - 1;
   }
   return -1;
+}
+```
+## Count Negative Numbers in a Sorted Matrix
+Given a m x n matrix grid which is sorted in non-increasing order both row-wise and column-wise, return the number of negative numbers in grid.
+### First attempt 
+```
+function findIndexOfFirstNegative(arr: number[], arrHigh: number) {
+  let low = 0;
+  let high = arrHigh;
+
+  while (low <= high) {
+    const mid = low + Math.floor((high - low) / 2);
+
+    if (0 > arr[mid] && 0 <= arr[mid - 1]) {
+      return mid;
+    }
+
+    if (mid === 0 && arr[mid] < 0) {
+      return mid;
+    }
+
+    if (0 <= arr[mid]) {
+      low = mid + 1;
+
+      continue;
+    }
+    high = mid - 1;
+  }
+  return -1;
+}
+
+function countNegatives(grid: number[][]): number{
+  let count = 0;
+  const rowLastIndex = grid[0].length - 1;
+  let high = rowLastIndex;
+  grid.forEach((row) => {
+    const indexOfFirstNeg = findIndexOfFirstNegative(row, high);
+    if (indexOfFirstNeg < 0) {
+      high = rowLastIndex;
+      return;
+    }
+    high = indexOfFirstNeg;
+    count = count + grid[0].length - indexOfFirstNeg;
+  });
+  return count;
 }
 ```
 ## Find Target Indices After Sorting Array 
