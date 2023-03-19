@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T02:27:21.726Z
+date: 2023-03-19T19:57:26.740Z
 tags: algorithms
 editor: markdown
 ---
@@ -78,6 +78,13 @@ function targetIndices(nums: number[], target: number): number[] {
     return ans;
 };
 ```
+#### $O(n)$ algorithm
+Don't need to sort the array. 
+Maintain a `count` and a `lessThan` variable, both initialized to 0. 
+
+
+
+
 # Depth First Search
 ## Examples
 ### [Find Connected Cells in a Matrix](/computer-science/algorithms/algorithmic-problems/find-connected-cells-in-matrix)
