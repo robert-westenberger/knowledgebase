@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T19:57:26.740Z
+date: 2023-03-19T20:01:09.041Z
 tags: algorithms
 editor: markdown
 ---
@@ -79,11 +79,16 @@ function targetIndices(nums: number[], target: number): number[] {
 };
 ```
 #### $O(n)$ algorithm
-Don't need to sort the array. 
+Don't need to sort the array.
 Maintain a `count` and a `lessThan` variable, both initialized to 0. 
 
-
-
+- For each number in the array
+	- If num === target, increment count
+  - If num < target, increment lessThan
+  
+- For the number of found items (IE, count) 
+  - Push the current value of lessThan to the results array
+  - Increment lessThan
 
 # Depth First Search
 ## Examples
