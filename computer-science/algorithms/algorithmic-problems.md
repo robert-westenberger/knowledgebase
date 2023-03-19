@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T23:36:52.855Z
+date: 2023-03-19T23:44:45.075Z
 tags: algorithms
 editor: markdown
 ---
@@ -107,6 +107,36 @@ function countNegatives(grid: number[][]): number{
     high = indexOfFirstNeg;
     count = count + grid[0].length - indexOfFirstNeg;
   });
+  return count;
+}
+```
+### $O(m + n)$ solution
+This solution uses the fact that negative regions of the matrix will form a "staircase" shape...
+```
+++++++
+++++--
+++++--
++++---
++-----
++-----
+```
+
+```
+function countNegatives(grid: number[][]): number {
+  const numRows = grid.length;
+  const numCols = grid[0].length;
+  let row = numRows - 1;
+  let col = 0;
+  let count = 0;
+
+  while (row >= 0 && col < numCols) {
+    if (grid[row][col] < 0) {
+      row--;
+      count += numCols - col; // there are n - c negative numbers in current row.
+    } else {
+      col++;
+    }
+  }
   return count;
 }
 ```
