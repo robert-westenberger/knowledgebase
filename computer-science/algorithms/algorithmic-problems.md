@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T01:56:53.883Z
+date: 2023-03-19T02:12:03.899Z
 tags: algorithms
 editor: markdown
 ---
@@ -24,7 +24,7 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 
 [Maximum Subarray](/computer-science/algorithms/algorithmic-problems/maximum-subarray) - Find the contiguous subarray that has the largest sum. 
 
-# Binary Search
+# [Binary Search](/computer-science/algorithms/binary-search)
 ## Examples
 ### Find Target Indices After Sorting Array
 You are given a 0-indexed integer array nums and a target element target.
