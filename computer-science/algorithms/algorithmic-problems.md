@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T23:44:56.398Z
+date: 2023-03-19T23:45:17.159Z
 tags: algorithms
 editor: markdown
 ---
@@ -121,6 +121,8 @@ This solution uses the fact that negative regions of the matrix will form a "sta
 +-----
 ```
 This solution traces the outline of the staircase.
+
+Starting from the bottom-left corner of the matrix, count the negative numbers in each row.
 ```
 function countNegatives(grid: number[][]): number {
   const numRows = grid.length;
