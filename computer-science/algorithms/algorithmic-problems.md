@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T20:01:09.041Z
+date: 2023-03-19T22:09:10.674Z
 tags: algorithms
 editor: markdown
 ---
@@ -26,6 +26,7 @@ Dynamic Programming is simplifying a complicated problem by breaking it down int
 
 # [Binary Search](/computer-science/algorithms/binary-search)
 ## Examples
+### Find First Position of Element In Sorted Array
 ### Find Target Indices After Sorting Array
 You are given a 0-indexed integer array nums and a target element target.
 
