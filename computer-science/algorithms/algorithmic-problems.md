@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-19T23:52:04.813Z
+date: 2023-03-20T18:38:35.935Z
 tags: algorithms
 editor: markdown
 ---
@@ -45,6 +45,9 @@ Output: 4
 Explanation: There are 4 positive integers and 0 negative integers. The maximum count among them is 4.
 
 ### First Attempt
+
+
+
 ## Find First Position of Element in Array sorted in non-increasing order ($O(\log n)$)
 Use iterative binary search. 
 Initialize low = 0 
