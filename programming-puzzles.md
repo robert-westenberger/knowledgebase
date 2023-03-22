@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T20:50:48.151Z
+date: 2023-03-22T20:53:49.042Z
 tags: 
 editor: markdown
 ---
@@ -71,7 +71,9 @@ function call B is swallowed because B, C is in the cooling time from A, and C i
 
 If the function is being throttled, then all we do is capture the arguments. This is done by just setting the args to our `lastArgs` variable.
 
+If the function is not being throttled, then we call the function with the args. We also activate the throttle mode. 
 
+Then, we instantiate the timeout function and immediately invoke it. 
 ```
 export function throttle<T extends (...args:any[]) => any>(func: T, wait: number): T {
 
