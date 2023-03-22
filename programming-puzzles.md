@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T22:56:29.812Z
+date: 2023-03-22T23:36:26.363Z
 tags: 
 editor: markdown
 ---
@@ -154,3 +154,17 @@ Could you solve this problem with special DOM api for better performance?
 
 What are the time cost for each solution?
 ## Implementation
+```
+const findCorrespondingNode = (rootA, rootB, target) => {
+  if (rootA === target) {
+    return rootB;
+  }
+
+  for (let i = 0; i < rootA.children.length; i++ ) {
+    const result = findCorrespondingNode(rootA.children[i], rootB.children[i], target);
+    if (result) {
+      return result;
+    }
+  }
+}
+```
