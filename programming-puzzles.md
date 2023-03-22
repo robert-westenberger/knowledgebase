@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T21:17:10.664Z
+date: 2023-03-22T21:26:07.881Z
 tags: 
 editor: markdown
 ---
@@ -108,3 +108,4 @@ export function throttle<T extends (...args:any[]) => any>(func: T, wait: number
   } as T;
 }
 ```
+# Implement a basic debounce function
