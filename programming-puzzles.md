@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T02:50:26.142Z
+date: 2023-03-22T03:00:22.958Z
 tags: 
 editor: markdown
 ---
