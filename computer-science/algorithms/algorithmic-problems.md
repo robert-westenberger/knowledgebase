@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-22T23:32:33.526Z
+date: 2023-03-22T23:33:32.401Z
 tags: algorithms
 editor: markdown
 ---
@@ -306,6 +306,20 @@ Return a reference to the same node in the cloned tree.
 Note that you are not allowed to change any of the two trees or the target node and the answer must be a reference to a node in the cloned tree.
 
 The values of the nodes of the `tree` are unique.
+#### Implementation
+```
+function getTargetCopy(original: TreeNode | null, cloned: TreeNode | null, target: TreeNode | null): TreeNode | null {
+
+  if (original == null || original == target) {
+      return cloned;
+  }
+  const leftHand = getTargetCopy(original.left, cloned.left, target);
+  if (leftHand) {
+      return leftHand;
+  }
+  return getTargetCopy(original.right, cloned.right, target);
+};
+```
 # Stack
 ## Examples
 ### Building Lowest Number by Removing k digits from a given number
