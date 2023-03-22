@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T21:26:07.881Z
+date: 2023-03-22T21:26:36.951Z
 tags: 
 editor: markdown
 ---
@@ -109,3 +109,18 @@ export function throttle<T extends (...args:any[]) => any>(func: T, wait: number
 }
 ```
 # Implement a basic debounce function
+Debounce is a common technique used in Web Application, in most cases using lodash solution would be a good choice.
+
+could you implement your own version of basic debounce()?
+
+In case you forgot, debounce(func, delay) will returned a debounced function, which delays the invoke.
+
+Here is an example.
+
+Before debouncing we have a series of calling like
+
+─A─B─C─ ─D─ ─ ─ ─ ─ ─E─ ─F─G
+
+After debouncing at wait time of 3 dashes
+
+─ ─ ─ ─ ─ ─ ─ ─ D ─ ─ ─ ─ ─ ─ ─ ─ ─ G
