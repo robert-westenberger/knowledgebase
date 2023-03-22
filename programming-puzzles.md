@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T22:55:27.249Z
+date: 2023-03-22T22:55:55.770Z
 tags: 
 editor: markdown
 ---
@@ -138,3 +138,6 @@ export function debounce<T extends (...args: any[]) => any>(func: T, wait: numbe
 
 }
 ```
+
+# find corresponding node in two identical DOM tree
+## Implementation
