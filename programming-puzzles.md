@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T21:06:43.093Z
+date: 2023-03-22T21:08:27.674Z
 tags: 
 editor: markdown
 ---
@@ -65,9 +65,11 @@ Be aware that
 call A is triggered right way because not in waiting time
 function call B is swallowed because B, C is in the cooling time from A, and C is latter.
 ## Implementation
-- Initialize a variable to false, used to check whether the function is currently being throttled.
-- Initialize a variable to capture arguments from invocations made during the throttle phase.
-- Return an anonymous function, which is a wrapper for the original function that handles the throttling and capturing of args. 
+Initialize a variable to false, used to check whether the function is currently being throttled.
+
+Initialize a variable to capture arguments from invocations made during the throttle phase.
+
+Return an anonymous function, which is a wrapper for the original function that handles the throttling and capturing of args. 
 
 If the function is being throttled, then all we do is capture the arguments. This is done by just setting the args to our `lastArgs` variable.
 
