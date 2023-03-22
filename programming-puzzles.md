@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T21:16:58.763Z
+date: 2023-03-22T21:17:10.664Z
 tags: 
 editor: markdown
 ---
@@ -81,7 +81,7 @@ The timeout function uses `setTimeout()` to delay execution after the specified 
 
 The body of the timeout function disables the throttle mode. 
 
-If captured args exist, call the passed function with lastArgs, activate the throttle, clear the captured arguments, and Lastly, recursively call the timeout function. 
+If captured args exist, call the passed function with lastArgs, activate the throttle, clear the captured arguments, and recursively call the timeout function. 
 ```
 export function throttle<T extends (...args:any[]) => any>(func: T, wait: number): T {
 
