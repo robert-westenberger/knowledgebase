@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T02:33:45.849Z
+date: 2023-03-22T02:44:51.041Z
 tags: 
 editor: markdown
 ---
@@ -65,6 +65,7 @@ Be aware that
 call A is triggered right way because not in waiting time
 function call B is swallowed because B, C is in the cooling time from A, and C is latter.
 ## Implementation
+- Initialize a variable `throttleTimer` to `false` and `lastArgs` to an empty array.
 
 ```
 export function throttle<T extends (...args:any[]) => any>(func: T, wait: number): T {
