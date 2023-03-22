@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T20:55:27.089Z
+date: 2023-03-22T21:01:24.158Z
 tags: 
 editor: markdown
 ---
@@ -74,6 +74,8 @@ If the function is being throttled, then all we do is capture the arguments. Thi
 If the function is not being throttled, then we call the function with the args. We also activate the throttle mode. 
 
 Then, we instantiate the timeout function and immediately invoke it. 
+
+The timeout function uses `setTimeout()` to delay execution after the specified `delay`. The body of the timeout function disables the throttle mode.
 ```
 export function throttle<T extends (...args:any[]) => any>(func: T, wait: number): T {
 
