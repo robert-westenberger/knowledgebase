@@ -2,7 +2,7 @@
 title: Algorithmic Problems
 description: 
 published: true
-date: 2023-03-20T18:38:35.935Z
+date: 2023-03-22T23:32:33.526Z
 tags: algorithms
 editor: markdown
 ---
@@ -296,6 +296,16 @@ Given an array of sorted integers that may contain several duplicate elements, c
 ## Miscellaneous
 ### Examples
 [Populating Next Right Pointers in Each Node](/computer-science/algorithms/algorithmic-problems/populating-next-right-pointers-in-each-node)
+### Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+Given two binary trees original and cloned and given a reference to a node target in the original tree.
+
+The cloned tree is a copy of the original tree.
+
+Return a reference to the same node in the cloned tree.
+
+Note that you are not allowed to change any of the two trees or the target node and the answer must be a reference to a node in the cloned tree.
+
+The values of the nodes of the `tree` are unique.
 # Stack
 ## Examples
 ### Building Lowest Number by Removing k digits from a given number
