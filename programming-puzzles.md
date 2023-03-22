@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T22:55:08.707Z
+date: 2023-03-22T22:55:27.249Z
 tags: 
 editor: markdown
 ---
@@ -124,4 +124,17 @@ Before debouncing we have a series of calling like
 After debouncing at wait time of 3 dashes
 
 ─ ─ ─ ─ ─ ─ ─ ─ D ─ ─ ─ ─ ─ ─ ─ ─ ─ G
-## 
+## Implementation
+```
+export function debounce<T extends (...args: any[]) => any>(func: T, wait: number): T {
+  
+  let timer: undefined | NodeJS.Timeout = undefined;
+  return function(...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      func(...args);
+    }, wait);
+  } as T;
+
+}
+```
