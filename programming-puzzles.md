@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T03:12:47.504Z
+date: 2023-03-22T20:30:52.843Z
 tags: 
 editor: markdown
 ---
@@ -67,7 +67,9 @@ function call B is swallowed because B, C is in the cooling time from A, and C i
 ## Implementation
 - Initialize a variable to false, used to check whether the function is currently being throttled.
 - Initialize a variable to capture arguments from invocations made during the throttle phase.
-- Return an anonymous function, which is a wrapper for the original function that handles the throttling and capture of args. If 
+- Return an anonymous function, which is a wrapper for the original function that handles the throttling and capturing of args. 
+
+If
 ```
 export function throttle<T extends (...args:any[]) => any>(func: T, wait: number): T {
 
