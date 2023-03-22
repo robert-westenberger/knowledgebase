@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-21T20:59:41.880Z
+date: 2023-03-22T02:32:37.607Z
 tags: 
 editor: markdown
 ---
@@ -40,5 +40,54 @@ function curry(fn) {
         return curriedFn(...args, ...partial);
       }
   }
+}
+```
+
+# Implement Basic Throttle
+Throttling is a common technique used in Web Application, in most cases using lodash solution would be a good choice.
+
+could you implement your own version of basic throttle()?
+
+In case you forgot, throttle(func, delay) will return a throttled function, which will invoke the func at a max frequency no matter how throttled one is called.
+
+Here is an example.
+
+Before throttling we have a series of calling like
+
+─A─B─C─ ─D─ ─ ─ ─ ─ ─ E─ ─F─G
+
+After throttling at wait time of 3 dashes
+
+─A─ ─ ─C─ ─ ─D ─ ─ ─ ─ E─ ─ ─G
+
+Be aware that
+
+call A is triggered right way because not in waiting time
+function call B is swallowed because B, C is in the cooling time from A, and C is latter.
+## Implementation
+```
+export function throttle<T extends (...args:any[]) => any>(func: T, wait: number): T {
+
+  let throttleTimer = false;
+  let lastArgs: any = null;
+  return function(...args) {
+   
+    if (!throttleTimer) {
+      func(...args);
+      throttleTimer = true;
+      const timeout = () => setTimeout(() => {
+        throttleTimer = false;
+        if (lastArgs) {
+          func(...lastArgs);
+          throttleTimer = true;
+          lastArgs = null;
+          timeout();
+        }
+      }, wait);
+      timeout();
+    } else {
+      lastArgs = args;
+    }
+  } as T;
 }
 ```
