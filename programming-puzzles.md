@@ -2,7 +2,7 @@
 title: Programming Puzzles
 description: 
 published: true
-date: 2023-03-22T23:36:26.363Z
+date: 2023-03-25T20:23:31.183Z
 tags: 
 editor: markdown
 ---
@@ -42,6 +42,7 @@ function curry(fn) {
   }
 }
 ```
+# Implement Curry with placeholder
 
 # Implement Basic Throttle
 Throttling is a common technique used in Web Application, in most cases using lodash solution would be a good choice.
