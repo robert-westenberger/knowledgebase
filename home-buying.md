@@ -2,7 +2,7 @@
 title: Home buying
 description: 
 published: true
-date: 2023-08-06T03:38:00.189Z
+date: 2023-08-06T04:00:14.868Z
 tags: 
 editor: markdown
 ---
@@ -28,3 +28,6 @@ editor: markdown
 "What happens if I'm not satisfied with the home after I move in?"
 
 "How do you ensure that I'm seeing homes that truly match my criteria and price range?"
+
+# Random points of interest
+- Never use inspector recommended by realtor. Conflict of interest.
