@@ -2,7 +2,7 @@
 title: Home buying
 description: 
 published: true
-date: 2023-08-06T03:37:19.202Z
+date: 2023-08-06T03:38:00.189Z
 tags: 
 editor: markdown
 ---
@@ -23,7 +23,7 @@ editor: markdown
 
 "How do you handle multiple offers and bidding wars? What strategies do you employ to make my offer stand out?"
 
-"Can you recommend service providers like mortgage lenders, home inspectors, and contractors if needed?"
+**"Can you recommend service providers like mortgage lenders, home inspectors, and contractors if needed?"** <-- Isn't this a conflict of interest?
 
 "What happens if I'm not satisfied with the home after I move in?"
 
