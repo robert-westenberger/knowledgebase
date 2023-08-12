@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T16:49:22.559Z
+date: 2023-08-12T16:52:05.285Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -31,4 +31,8 @@ Entire objects with significant pose variation, e.g. keyboards, different breeds
 When fine tuning an image recognition model, we adapt what those last layers focus on (flowers, humans, animals).
 
 ## Non-image tasks
-Sound can be converted to a spectorgram, which is a chart that shows the amount of each frequency at each time in an audio file. 
+You just need to convert data to images. 
+
+### Interesting examples
+- Sound can be converted to a spectrogram, which is a chart that shows the amount of each frequency at each time in an audio file.
+- A binary file can be divided into 8-bit sequences that are convereted to decimal values. The decimal vector is reshaped and a gray-scale image is generated that represents the malware sample.
