@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:08:06.889Z
+date: 2023-08-12T18:09:27.650Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -39,5 +39,9 @@ You just need to convert data to images.
 - Using mouse movement / heatmaps from users for fraud detection. 
 
 # State of Deep Learning (as of 2020)
-## Computer Vision (Object recognition)
+## Computer Vision 
+### Object recognition
 Computers can recognize what items are in an image at least as well as people can - even specially trained people like radiologists. 
+
+### Object detection
+Computers are also good at recognizing where objects in an image are, and can highlight their locations and name each found object.
