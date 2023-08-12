@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:31:16.272Z
+date: 2023-08-12T18:32:34.987Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -81,3 +81,6 @@ Nearly all machine learning approaches only tell you what products a particular 
 
 ## Other data types
 Often, domain-specific data types fit very nicely into existing categories. Protein chains look a lot like natural language documents, in that they are a long sequence of distinct tokens with complex relationships and meaning throughout the sequence. Using NLP is the current state-of-the-art approach for many types of protein analysis.
+
+# The Drivetrain Approach
+There are many accurate models that are useless, and many innacurate models that are highly useful. 
