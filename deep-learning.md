@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:14:43.105Z
+date: 2023-08-12T18:16:36.271Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -55,5 +55,7 @@ In production, we can check for **out-of-domain** data, which is data the model 
 Labelling data for object detection can be slow and expensive. One approach that is helpful is to synthetically generate variations of input images, such as by rotating them or changing their brightness and contrast. This is **data augmentation** and also works well for text and other types of models.
 
 ## Text (Natural Language Processing)
+### Classifying Text
 Computers are good at classifying both short and long documents based on whether it's spam or not spam, sentiment analysis, author, source website, etc.
-
+### Generating text
+Computers are good at generating context appropriate text, such as 
