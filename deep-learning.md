@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:17:02.331Z
+date: 2023-08-12T18:18:03.479Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -59,4 +59,6 @@ Labelling data for object detection can be slow and expensive. One approach that
 Computers are good at classifying both short and long documents based on whether it's spam or not spam, sentiment analysis, author, source website, etc.
 ### Generating text
 Computers are good at generating context appropriate text, such as 
-replies to social media posts, and imitating a particular author's style.
+replies to social media posts, and imitating a particular author's style. 
+### Downsides
+Deep learning is currently not good at generating correct responses. We currently don't have a good way of combining a knowledge base of medical information with a deep learning model for generating medically correct natural language responses.
