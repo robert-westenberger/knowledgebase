@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:29:32.681Z
+date: 2023-08-12T18:31:16.272Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -78,3 +78,6 @@ For example, if customer A buys products 1 and 10, and customer B buys products 
 
 ### Downsides
 Nearly all machine learning approaches only tell you what products a particular user might like, rather than what recommendations would be helpful for a user.
+
+## Other data types
+Often, domain-specific data types fit very nicely into existing categories. Protein chains look a lot like natural language documents, in that they are a long sequence of distinct tokens with complex relationships and meaning throughout the sequence. Using NLP is the current state-of-the-art approach for many types of protein analysis.
