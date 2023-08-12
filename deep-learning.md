@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:09:27.650Z
+date: 2023-08-12T18:10:38.919Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -45,3 +45,6 @@ Computers can recognize what items are in an image at least as well as people ca
 
 ### Object detection
 Computers are also good at recognizing where objects in an image are, and can highlight their locations and name each found object.
+
+### Downsides
+Not good at recognizing images that are significantly different than the training set (e.g., training on photos and then giving the trained model a handdrawn image).
