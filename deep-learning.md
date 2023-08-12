@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:26:13.799Z
+date: 2023-08-12T18:29:32.681Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -72,4 +72,9 @@ A deep learning model can be trained on input images with output captions writte
 ## Tabular Data
 Deep learning has recently been used as a part of an ensemble of multiple types of model (random forests, gradient boosting machines). Deep learning increases the variety of columns you can include - for example, columns containing natural language, and high-cardinality categorical columns (columns that contain a high number of discrete choices like zip code or product id).
 ## Recommendation Systems
-Recommendation systems are really just a special type of tabular data. 
+Recommendation systems are really just a special type of tabular data. A company like Amazon represents every purchase as a giantsparse matrix, with customers as rows and products as columns. Data scientists apply some form of collaborative filtering to fill in the matrix.
+
+For example, if customer A buys products 1 and 10, and customer B buys products 1, 2, 4, and 10, the engine will recommend that A buy 2 and 4.
+
+### Downsides
+Nearly all machine learning approaches only tell you what products a particular user might like, rather than what recommendations would be helpful for a user.
