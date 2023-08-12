@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T16:41:17.368Z
+date: 2023-08-12T16:42:23.253Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -17,3 +17,5 @@ Below layers are from a model called AlexNet.
 ## Layer 1
 The first layer of an image recognition model recognizes very rudimentary and basic parts of an image. Horizontal, vertical, diagonal lines and gradients. These learned building blocks are very similar to the basic visual machinery of the human eye.
 ## Layer 2 
+At this layer, the model looks for corners, repeating lines, circles, and other simple patterns.
+## Layer 3
