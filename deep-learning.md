@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:32:34.987Z
+date: 2023-08-12T18:34:11.885Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -84,3 +84,6 @@ Often, domain-specific data types fit very nicely into existing categories. Prot
 
 # The Drivetrain Approach
 There are many accurate models that are useless, and many innacurate models that are highly useful. 
+
+
+![drivetrain-approach.png](/drivetrain-approach.png)
