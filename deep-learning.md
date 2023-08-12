@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:21:35.993Z
+date: 2023-08-12T18:26:13.799Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -68,3 +68,8 @@ Deep learning is currently not good at generating correct responses. We currentl
 
 ## Combining text and images
 A deep learning model can be trained on input images with output captions written in English, and can learn to generate surprisingly appropriate captions automatically for new images. There is no guarantee the captions will be correct, though.
+
+## Tabular Data
+Deep learning has recently been used as a part of an ensemble of multiple types of model (random forests, gradient boosting machines). Deep learning increases the variety of columns you can include - for example, columns containing natural language, and high-cardinality categorical columns (columns that contain a high number of discrete choices like zip code or product id).
+## Recommendation Systems
+Recommendation systems are really just a special type of tabular data. 
