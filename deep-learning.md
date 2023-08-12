@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:34:11.885Z
+date: 2023-08-12T18:47:19.410Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -83,7 +83,25 @@ Nearly all machine learning approaches only tell you what products a particular 
 Often, domain-specific data types fit very nicely into existing categories. Protein chains look a lot like natural language documents, in that they are a long sequence of distinct tokens with complex relationships and meaning throughout the sequence. Using NLP is the current state-of-the-art approach for many types of protein analysis.
 
 # The Drivetrain Approach
-There are many accurate models that are useless, and many innacurate models that are highly useful. 
+There are many accurate models that are useless, and many innacurate models that are highly useful. To ensure models are useful in practice, we need to consider how they will be used.
 
 
 ![drivetrain-approach.png](/drivetrain-approach.png)
+
+Below are the steps, and we'll use the example of Google developing their first search engine.
+
+## Defining a clear objective
+Google considered, "What is the user's main objective when typing in a search query?". This lead them to their objective, which was to "show the most relevant search result". 
+
+## Consider what levers can be pulled
+What actions can we take to better achieve the objective? In Google's case, it's ranking of the search results.
+
+## What new data can we collect?
+What new data would Google need to produce such a ranking? They realized the implicit information regarding which pages linked to which other pages could be used for this purpose. 
+
+## Use the above information to make a model
+Our objective and available levers, what data we have and what additional data will need to be collected, determine what models can be built.
+
+# Gathering Data
+
+
