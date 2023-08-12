@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:20:15.907Z
+date: 2023-08-12T18:21:35.993Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -65,3 +65,6 @@ replies to social media posts, and imitating a particular author's style.
 ### Find all mentions of a concept of interest
 ### Downsides
 Deep learning is currently not good at generating correct responses. We currently don't have a good way of combining a knowledge base of medical information with a deep learning model for generating medically correct natural language responses.
+
+## Combining text and images
+A deep learning model can be trained on input images with output captions written in English, and can learn to generate surprisingly appropriate captions automatically for new images. There is no guarantee the captions will be correct, though.
