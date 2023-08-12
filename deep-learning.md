@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:18:03.479Z
+date: 2023-08-12T18:20:15.907Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -60,5 +60,8 @@ Computers are good at classifying both short and long documents based on whether
 ### Generating text
 Computers are good at generating context appropriate text, such as 
 replies to social media posts, and imitating a particular author's style. 
+### Translate text from one language to another
+### Summarize long documents
+### Find all mentions of a concept of interest
 ### Downsides
 Deep learning is currently not good at generating correct responses. We currently don't have a good way of combining a knowledge base of medical information with a deep learning model for generating medically correct natural language responses.
