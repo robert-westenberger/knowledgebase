@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:12:11.397Z
+date: 2023-08-12T18:13:30.803Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -50,3 +50,6 @@ Computers are also good at recognizing where objects in an image are, and can hi
 Not good at recognizing images that are significantly different than the training set (e.g., training on photos and then giving the trained model a handdrawn image).
 
 In production, we can check for **out-of-domain** data, which is data the model has not been trained on (in the example above, checking for handdrawn images when the model has been trained on photos).
+
+### Data augmentation
+Labelling data for object detection can be slow and expensive. One approach that is helpful is to synthetically generate variations of input images, such as by rotating them or changing their brightness and contrast. This is data augmentation.
