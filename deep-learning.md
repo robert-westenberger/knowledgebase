@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T18:10:38.919Z
+date: 2023-08-12T18:11:52.726Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -48,3 +48,5 @@ Computers are also good at recognizing where objects in an image are, and can hi
 
 ### Downsides
 Not good at recognizing images that are significantly different than the training set (e.g., training on photos and then giving the trained model a handdrawn image).
+
+In production, we can check for **out-of-domain** data, which is data the model has not been trained on.
