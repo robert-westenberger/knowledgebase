@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T16:42:23.253Z
+date: 2023-08-12T16:47:06.136Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -19,3 +19,8 @@ The first layer of an image recognition model recognizes very rudimentary and ba
 ## Layer 2 
 At this layer, the model looks for corners, repeating lines, circles, and other simple patterns.
 ## Layer 3
+The model recognizes and matches with higher level semantic components, like car wheels, text, flower petals.
+## Layers 4
+Even higher level semantic concepts, grouped by classification. Dog faces, bird's legs. 
+## Layer 5
+Entire objects with significant pose variation, e.g. keyboards, different breeds of dogs. 
