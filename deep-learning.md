@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T22:24:43.452Z
+date: 2023-08-12T23:03:53.349Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -10,6 +10,10 @@ editor: markdown
 # train_loss vs valid_loss vs error_rate
 ## train_loss
 The loss function's value on the training dataset. It measures how well the model is fitting to the training data, but not necessarily how well it will generalize to unseen data.
+## valid_loss
+The loss function's value on the validation dataset. This dataset is not used during training. The validation loss gives an indication of how well the model is generalizing unseen data.
+## error_rate
+Metric that quantifies the number of mistakes the model makes. It could be calculated as the ratio of incorrect predictions to the total number of predictions. It is often used as a more interpretable measure of model performance.
 # Overfitting
 The longer you train for, the better your accuracy you will get on the training set. The validation set accuracy will also improve for a while, but eventually it will start getting worse as the model starts to memorize the training set, rather htan finding generalizable underlying patterns in the data.
 
