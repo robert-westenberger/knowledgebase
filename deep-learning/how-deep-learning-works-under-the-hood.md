@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:13:31.540Z
+date: 2023-08-13T21:15:25.085Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -158,3 +158,5 @@ Here, `mse` stands for mean squared error, and `l1` referes to the standard math
 We generally use PyTorch tensors over NumPy arrays because PyTorch tensors are GPU accelerated, which are critical for deep learning.
 
 NumPy and PyTorch are both wrappers around compiled objects written and optimized in another language, like C, since python is so slow.
+
+A NumPy array is a multidimensional table of data, which can be any type at all. The innermost arrays can potentially be different sizes - this is a "jagged array". 
