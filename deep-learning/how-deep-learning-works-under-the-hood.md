@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:46:52.935Z
+date: 2023-08-13T20:49:58.129Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -92,3 +92,11 @@ stacked_sevens = torch.stack(seven_tensors).float()/255
 stacked_threes = torch.stack(three_tensors).float()/255
 stacked_threes.shape
 ```
+
+The most important thing about a tensor is it's `shape`, which is the length of each axis. The above outputs
+
+```
+torch.Size([6131, 28, 28])
+```
+
+we can see we have 6131 images, each 28x28 pixels.
