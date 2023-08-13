@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:18:20.450Z
+date: 2023-08-13T18:19:24.993Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -145,4 +145,10 @@ In fastai, we use `load_learner` and point to the pickle file:
 
 ```
 learn_inf = load_learner(path/'export.pkl')
+```
+
+When doing inference, we're generally just getting predictions one image at a time. To do this, pass a filename to `predict`:
+```
+learn_inf.predict('images/grizzly.jpg')
+## ('grizzly', TensorBase(1), TensorBase([2.0671e-05, 9.9998e-01, 1.9522e-07]))
 ```
