@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:33:42.449Z
+date: 2023-08-13T21:34:54.135Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -229,4 +229,11 @@ valid_3_tens.shape,valid_7_tens.shape
 ## (torch.Size([1010, 28, 28]), torch.Size([1028, 28, 28])) <-- the shape of each tensor
 ```
 
-We ultimately want a function, `is_3`, that will decide if an arbitrary image is a 3 or a 7.
+We ultimately want a function, `is_3`, that will decide if an arbitrary image is a 3 or a 7, based on which of the two "ideal digits" the arbitrary image is closer to. 
+
+We can write a simple function that calculates the mean absolute error:
+
+```
+def mnist_distance(a,b): return (a-b).abs().mean((-1,-2))
+mnist_distance(a_3, mean3)
+```
