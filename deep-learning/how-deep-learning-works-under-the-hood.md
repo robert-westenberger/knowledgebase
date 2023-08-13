@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:44:37.323Z
+date: 2023-08-13T21:44:51.863Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -240,3 +240,4 @@ mnist_distance(a_3, mean3)
 ```
 
 Note that passing (-1,-2) to the mean function means we are computing the average across the last two dimensions of the tensor (ours is (batch_size, width, height)). 
+
