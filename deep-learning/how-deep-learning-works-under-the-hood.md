@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:46:44.595Z
+date: 2023-08-13T21:51:41.893Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -252,4 +252,8 @@ valid_3_dist, valid_3_dist.shape
 ## (tensor([0.1050, 0.1526, 0.1186,  ..., 0.1122, 0.1170, 0.1086]),
  torch.Size([1010]))
 ```
+Instead of complaining about shapes not matching, it returned the distance for every single image as a vector (a rank-1 tensor) of length 1010 (the number of 3s in our validation set). 
 
+This happened because PyTorch used **broadcasting**. When PyTorch tries to perform a simple subtraction operation between two tensors of different ranks, it will automatically expand the tensor with the smaller rank to ahve the same size as the one with the larger rank. 
+
+After broadcasting so the two argument tensors have the same rank, PyTorch applies its usual logic for two tensors of the same rank: it performs the operation on each corresponding element of the two tensors, an returns the tensor result.
