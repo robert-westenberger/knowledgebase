@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T22:06:55.635Z
+date: 2023-08-13T22:11:31.273Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -290,6 +290,14 @@ is_3(valid_3_tens)
 ## tensor([True, True, True,  ..., True, True, True])
 ```
 
+Nowe we can calculate the accuracy for each of the 3s and 7s by taking the average of that function for all 3s and its inverse for all 7s.
+
+```
+accuracy_3s =      is_3(valid_3_tens).float() .mean()
+accuracy_7s = (1 - is_3(valid_7_tens).float()).mean()
+
+accuracy_3s,accuracy_7s,(accuracy_3s+accuracy_7s)/2
+```
 ### Important broadcasting implementation details
 PyTorch doesn't actually copy, in the above example `mean3`, 1010 times. It pretends if it were a tensor of that shape, but doesn't allocate any additional memory.
 
