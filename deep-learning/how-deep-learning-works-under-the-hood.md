@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:31:56.968Z
+date: 2023-08-13T21:32:51.568Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -226,4 +226,5 @@ valid_7_tens = torch.stack([tensor(Image.open(o))
                             for o in (path/'valid'/'7').ls()])
 valid_7_tens = valid_7_tens.float()/255
 valid_3_tens.shape,valid_7_tens.shape
+## (torch.Size([1010, 28, 28]), torch.Size([1028, 28, 28])) <-- the shape of each tensor
 ```
