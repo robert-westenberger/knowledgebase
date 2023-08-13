@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:44:51.863Z
+date: 2023-08-13T21:45:43.230Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -240,4 +240,8 @@ mnist_distance(a_3, mean3)
 ```
 
 Note that passing (-1,-2) to the mean function means we are computing the average across the last two dimensions of the tensor (ours is (batch_size, width, height)). 
+
+
+In order to calculate a metric for overall accuracy, we need to calculate the distance to the ideal 3 for every image in the validation set. We could write a loop over all the single image tensors that are stacked within our validationset tensor, but there is a better way. 
+
 
