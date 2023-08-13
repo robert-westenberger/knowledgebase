@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T19:16:58.046Z
+date: 2023-08-13T19:17:35.700Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -29,3 +29,18 @@ array([[  0,   0,   0,   0,   0,   0],
 ```
 
 The `4:10` indicatres we requested the rows from index 4 (inclusive) to 10 (not inclusive), same for cols. NumPy indexes from top to bottom and left to right, so this section is located in the top-left corner of the image.
+
+The same thing in a PyTorch sensor: 
+
+```
+tensor(im3)[4:10,4:10]
+```
+
+```
+tensor([[  0,   0,   0,   0,   0,   0],
+        [  0,   0,   0,   0,   0,  29],
+        [  0,   0,   0,  48, 166, 224],
+        [  0,  93, 244, 249, 253, 187],
+        [  0, 107, 253, 253, 230,  48],
+        [  0,   3,  20,  20,  15,   0]], dtype=torch.uint8)
+```
