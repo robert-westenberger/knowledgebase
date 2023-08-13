@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-12T23:03:53.349Z
+date: 2023-08-13T15:59:21.535Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -109,6 +109,9 @@ What new data would Google need to produce such a ranking? They realized the imp
 ## Use the above information to make a model
 Our objective and available levers, what data we have and what additional data will need to be collected, determine what models can be built.
 
-# Gathering Data
+# Debugging model data
+## Confusion Matrix
+Below is a confusion matrix from a model that was tuned to identify black, grizzly, and teddy bears. We can see that the model had the best performance on teddy bears, guessing that one bear was teddy when in actuality it was a grizzly bear. 
+![confusion_matrix.png](/confusion_matrix.png)
 
 
