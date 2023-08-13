@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:55:47.615Z
+date: 2023-08-13T20:56:43.099Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -115,4 +115,4 @@ In other words, for every pixel position, this will compute the average of that 
 mean3 = stacked_threes.mean(0)
 show_image(mean3);
 ```
-
+![averaged_3.png](/averaged_3.png)
