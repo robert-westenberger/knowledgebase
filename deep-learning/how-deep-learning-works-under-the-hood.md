@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T22:05:24.315Z
+date: 2023-08-13T22:06:55.635Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -282,6 +282,14 @@ We can use `mnist_distance`, defined above, to figure out whether an image is a 
 ```
 def is_3(x): return mnist_distance(x,mean3) < mnist_distance(x,mean7)
 ```
+
+We can test it on the full validation set of 3s thanks to broadcasting:
+
+```
+is_3(valid_3_tens)
+## tensor([True, True, True,  ..., True, True, True])
+```
+
 ### Important broadcasting implementation details
 PyTorch doesn't actually copy, in the above example `mean3`, 1010 times. It pretends if it were a tensor of that shape, but doesn't allocate any additional memory.
 
