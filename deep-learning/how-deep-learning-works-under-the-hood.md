@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:59:59.389Z
+date: 2023-08-13T22:02:04.812Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -277,3 +277,7 @@ mean3.shape
 ## torch.Size([1010, 28, 28])
 ```
 
+### Important broadcasting implementation details
+PyTorch doesn't actually copy, in the above example `mean3`, 1010 times. It pretends if it were a tensor of that shape, but doesn't allocate any additional memory.
+
+It does the whole calculation in C (or if you're using an nvidia GPU, in CUDA).
