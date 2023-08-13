@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:53:55.102Z
+date: 2023-08-13T20:54:06.277Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -101,7 +101,7 @@ torch.Size([6131, 28, 28])
 
 we can see we have 6131 images, each 28x28 pixels.
 
-The **length** of a tensor's shape is it's rank (in other words, it's just it's  number of axes.
+The **length** of a tensor's shape is it's rank (in other words, it's just it's  number of axes / dimensions.
 
 ```
 len(stacked_threes.shape)
