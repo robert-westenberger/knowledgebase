@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:56:43.099Z
+date: 2023-08-13T20:59:14.134Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -116,3 +116,8 @@ mean3 = stacked_threes.mean(0)
 show_image(mean3);
 ```
 ![averaged_3.png](/averaged_3.png)
+
+### Measure the difference from an arbitrary 3 and the ideal 3
+There are two main ways data scientists measure distance in this context:
+
+- Take the mean of the absolute value of differences. This is the **mean absolute difference** or **L1 norm**.
