@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:34:54.135Z
+date: 2023-08-13T21:35:18.511Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -236,4 +236,5 @@ We can write a simple function that calculates the mean absolute error:
 ```
 def mnist_distance(a,b): return (a-b).abs().mean((-1,-2))
 mnist_distance(a_3, mean3)
+## tensor(0.1114)
 ```
