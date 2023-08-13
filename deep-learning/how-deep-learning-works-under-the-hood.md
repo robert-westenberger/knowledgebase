@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:52:11.731Z
+date: 2023-08-13T21:53:27.232Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -264,3 +264,5 @@ For instance,
 tensor([1,2,3]) + tensor(1)
 ## tensor([2,3,4])
 ```
+
+
