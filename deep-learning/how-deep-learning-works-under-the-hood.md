@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T19:17:35.700Z
+date: 2023-08-13T19:20:03.713Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -44,3 +44,15 @@ tensor([[  0,   0,   0,   0,   0,   0],
         [  0, 107, 253, 253, 230,  48],
         [  0,   3,  20,  20,  15,   0]], dtype=torch.uint8)
 ```
+
+Below we use Pandas DataFrame to color-code the values using a gradient, which shows us clearly how the image is created from pixel vals: 
+
+```
+im3_t = tensor(im3)
+df = pd.DataFrame(im3_t[4:15,4:22])
+df.style.set_properties(**{'font-size':'6pt'}).background_gradient('Greys')
+```
+
+![pandas_dataframe.png](/pandas_dataframe.png)
+
+We can see white pixels are stored as 0, black as 255, and shades of grey between both. 
