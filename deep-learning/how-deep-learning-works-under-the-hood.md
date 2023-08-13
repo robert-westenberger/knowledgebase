@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:41:34.780Z
+date: 2023-08-13T20:44:11.192Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -72,3 +72,11 @@ We create a tensor containing all of the 3s stacked together, and a tensor for a
 seven_tensors = [tensor(Image.open(o)) for o in sevens]
 three_tensors = [tensor(Image.open(o)) for o in threes]
 ```
+
+We use fastai's `show_image` function to display the tensors.
+
+```
+show_image(three_tensors[1])
+```
+
+will show an image of a "3".
