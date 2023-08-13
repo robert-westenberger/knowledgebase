@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:23:03.130Z
+date: 2023-08-13T21:24:46.229Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -191,3 +191,15 @@ You can combine these with python slice syntax (`[start:end]`, with `end` being 
 tns[1,1:3]
 ## tensor([5,6])
 ```
+
+#### Manipulating tensors
+You can use the standard operations `+`, `-`, `*`, `/`
+```
+tns+1
+```
+will output
+```
+tensor([[2, 3, 4],
+        [5, 6, 7]])
+```
+
