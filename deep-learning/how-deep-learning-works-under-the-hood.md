@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T22:28:38.844Z
+date: 2023-08-13T22:32:41.091Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -307,3 +307,4 @@ PyTorch doesn't actually copy, in the above example `mean3`, 1010 times. It pret
 It does the whole calculation in C (or if you're using an nvidia GPU, in CUDA).
 
 ## Second try: Stochastic Gradient Descent (SGD)
+We can't really improve our pixel similarity approach. We don;t have any kind of weight assignment, or any way of improving based on testing and effectiveness of a weight assignment. In other words, we can't really improve our pixel similarity approach by modifying a set of weights / paramters.
