@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:37:49.978Z
+date: 2023-08-13T18:38:45.258Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -177,3 +177,5 @@ If we used our model for identifying black, grizzly, and teddy bears for a bear 
 - Dealing with low rez camera images
 - Ensuring results are returned fast enough to be useful in practice
 - Recognizing bears in positions that are rearely seen in photos that people post online (form behind, partially obscured by bushes, a far distance from the camera)
+
+All of the above would be **out-of-domain data** 
