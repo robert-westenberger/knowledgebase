@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:35:22.229Z
+date: 2023-08-13T18:37:49.978Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -169,3 +169,11 @@ You don't need a GPU to serve your model in production. It's only necessary for 
 
 # How to avoid disaster
 On3 of the biggest issues to consider is that understanding and testing the behavior of a deep learning model is much more difficult than with most other code you write.
+
+If we used our model for identifying black, grizzly, and teddy bears for a bear detection system used in campsites and national parks, it would be disastrous. There would be all kinds of problems, such as: 
+
+- Working with video data instead of images
+- Handling nighttime images, which may not appear in the dataset we found on bing image search
+- Dealing with low rez camera images
+- Ensuring results are returned fast enough to be useful in practice
+- Recognizing bears in positions that are rearely seen in photos that people post online (form behind, partially obscured by bushes, a far distance from the camera)
