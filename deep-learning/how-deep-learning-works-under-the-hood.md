@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T22:02:04.812Z
+date: 2023-08-13T22:05:24.315Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -277,6 +277,11 @@ mean3.shape
 ## torch.Size([1010, 28, 28])
 ```
 
+We can use `mnist_distance`, defined above, to figure out whether an image is a 3 or not by using the following logic: if the distance between the digit in question and the ideal 3 is less than the distance to the ideal 7, then it's a 3. This function will automatically do broadcasting and be applied elementwise, just like all PyTorch functions and operators: 
+
+```
+def is_3(x): return mnist_distance(x,mean3) < mnist_distance(x,mean7)
+```
 ### Important broadcasting implementation details
 PyTorch doesn't actually copy, in the above example `mean3`, 1010 times. It pretends if it were a tensor of that shape, but doesn't allocate any additional memory.
 
