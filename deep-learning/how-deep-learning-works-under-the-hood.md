@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:02:31.031Z
+date: 2023-08-13T21:02:37.726Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -143,4 +143,4 @@ dist_7_abs,dist_7_sqr
 which outputs
 `(tensor(0.1586), tensor(0.3021))`
 
-We can see the distance between the arbitrarily chosen 3 and the "ideal" 3 is less than the distance to the ideal 7. So our simple model gives the right prediction in this cas.e
+We can see the distance between the arbitrarily chosen 3 and the "ideal" 3 is less than the distance to the ideal 7. So our simple model gives the right prediction in this case.
