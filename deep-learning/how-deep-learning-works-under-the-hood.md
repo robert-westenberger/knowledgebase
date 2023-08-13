@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T19:16:34.021Z
+date: 2023-08-13T19:16:58.046Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -28,4 +28,4 @@ array([[  0,   0,   0,   0,   0,   0],
        [  0,   3,  20,  20,  15,   0]], dtype=uint8)
 ```
 
-The `4:10` indicatres we requested the rows from index 4 (inclusive) to 10 (not inclusive).
+The `4:10` indicatres we requested the rows from index 4 (inclusive) to 10 (not inclusive), same for cols. NumPy indexes from top to bottom and left to right, so this section is located in the top-left corner of the image.
