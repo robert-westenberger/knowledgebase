@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:26:49.308Z
+date: 2023-08-13T21:28:07.485Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -207,3 +207,7 @@ tensors have a type
 `tns.type()` here will output `torch.LongTensor`. It automatically changes.
 
 if we assign a value to `tns*1.5`, it will be a tensor, but this type of type `torch.FloatTensor`.
+
+
+## Computing Metrics Using Broadcasting
+Now we have a baseline model, but is it any good?
