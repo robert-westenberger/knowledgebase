@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:34:53.388Z
+date: 2023-08-13T18:35:22.229Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -168,3 +168,4 @@ learn_inf.dls.vocab
 You don't need a GPU to serve your model in production. It's only necessary for training.
 
 # How to avoid disaster
+On3 of the biggest issues to consider is that understanding and testing the behavior of a deep learning model is much more difficult than with most other code you write.
