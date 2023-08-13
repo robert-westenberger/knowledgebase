@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:11:36.409Z
+date: 2023-08-13T18:14:20.200Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -127,3 +127,6 @@ Recall that loss is a number that is higher if the model is incorrect (especiall
 ## Using fastai ImageClassifierCleaner
 ImageClassifierCleaner is a GUI for data cleaning. It allows you to choose a category anad the training versus validation set and view the highest-loss images in order, along with menus to allow images to be selected for removal or relabeling.
 
+# Turning Your Model into an Online Application
+## Using the model for inference
+Recall that a model consists of two parts: the architecture and the trained parameters (weights). The easiest way to save the model is to save both of these, because that way when you load a model you can be sure you have matching architecture and params.
