@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:22:14.631Z
+date: 2023-08-13T21:23:03.130Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -184,4 +184,10 @@ Selecting a column, we use `:` to indicate all of the first axis:
 ```
 tns[:,1]
 ## tensor([2,5])
+```
+
+You can combine these with python slice syntax (`[start:end]`, with `end` being non inclusive) to select part of a row or column
+```
+tns[1,1:3]
+## tensor([5,6])
 ```
