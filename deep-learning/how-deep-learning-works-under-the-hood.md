@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:54:06.277Z
+date: 2023-08-13T20:54:34.265Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -106,3 +106,4 @@ The **length** of a tensor's shape is it's rank (in other words, it's just it's 
 ```
 len(stacked_threes.shape)
 ```
+
