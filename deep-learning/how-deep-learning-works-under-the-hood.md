@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:29:55.124Z
+date: 2023-08-13T21:30:38.459Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -214,4 +214,4 @@ Now we have a baseline model, but is it any good?
 
 Recall that a metric is a number calculated based on the predictions of our model, and the correct labels in our dataset, in order to tell us how good our model is. 
 
-We want to calculate our metric over a validation set, so we don't inadvertently train our model to work well only on training data (overfitting).
+We want to calculate our metric over a validation set, so we don't inadvertently train our model to work well only on training data (overfitting). This isn't really necessary because with the pixel similarity model, it has no trained components, but it's a good habit we do this anyway.
