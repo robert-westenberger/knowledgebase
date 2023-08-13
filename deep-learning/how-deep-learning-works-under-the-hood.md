@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:15:25.085Z
+date: 2023-08-13T21:15:51.715Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -159,4 +159,4 @@ We generally use PyTorch tensors over NumPy arrays because PyTorch tensors are G
 
 NumPy and PyTorch are both wrappers around compiled objects written and optimized in another language, like C, since python is so slow.
 
-A NumPy array is a multidimensional table of data, which can be any type at all. The innermost arrays can potentially be different sizes - this is a "jagged array". 
+A NumPy array is a multidimensional table of data, which can be any type at all. The innermost arrays can potentially be different sizes - this is a "jagged array". If all the items are all of some simple type like integer or float, then NumPy will store them as a compact C data structure in memory.
