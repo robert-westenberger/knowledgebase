@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:54:34.265Z
+date: 2023-08-13T20:55:47.615Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -105,5 +105,14 @@ The **length** of a tensor's shape is it's rank (in other words, it's just it's 
 
 ```
 len(stacked_threes.shape)
+```
+
+Now, we calculate the mean of all the image tensors by taking the mean along dimension 0 of our stacked, rank-3 tensor. This is the dimension that indexes over all the images. 
+
+In other words, for every pixel position, this will compute the average of that pixel over all images. The result will be one value for every pixel position, or a single image. 
+
+```
+mean3 = stacked_threes.mean(0)
+show_image(mean3);
 ```
 
