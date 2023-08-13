@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:24:46.229Z
+date: 2023-08-13T21:26:49.308Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -203,3 +203,7 @@ tensor([[2, 3, 4],
         [5, 6, 7]])
 ```
 
+tensors have a type
+`tns.type()` here will output `torch.LongTensor`. It automatically changes.
+
+if we assign a value to `tns*1.5`, it will be a tensor, but this type of type `torch.FloatTensor`.
