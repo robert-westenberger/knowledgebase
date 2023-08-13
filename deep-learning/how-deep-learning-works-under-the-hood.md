@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T19:16:04.795Z
+date: 2023-08-13T19:16:34.021Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -28,3 +28,4 @@ array([[  0,   0,   0,   0,   0,   0],
        [  0,   3,  20,  20,  15,   0]], dtype=uint8)
 ```
 
+The `4:10` indicatres we requested the rows from index 4 (inclusive) to 10 (not inclusive).
