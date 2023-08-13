@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:53:27.232Z
+date: 2023-08-13T21:59:59.389Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -264,5 +264,16 @@ For instance,
 tensor([1,2,3]) + tensor(1)
 ## tensor([2,3,4])
 ```
+In this case, PyTorch treats `mean3`, a rank-2 tensor representing a single image, as if it were 1010 copies of the same image, and then subtracts each of those copies from each 3 in our validation set.
 
+```
+valid_3_tens.shape
+## torch.Size([1010, 28, 28])
+
+mean3.shape
+## torch.Size([28, 28])
+
+(valid_3_tens-mean3).shape
+## torch.Size([1010, 28, 28])
+```
 
