@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:45:00.085Z
+date: 2023-08-13T18:46:07.561Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -189,3 +189,5 @@ The below infographic diagram details a good approach to minimizing these types 
 
 ## Unforeseen Consequences and Feedback Loops
 One of the biggest challenges in rolling out a model is that your model may change the behavior of the system it is a part of.
+
+For example, consider a "predictive policing" algorithm that predicts more crime in certain neighborhoods, causing more police officers to be sent to those neighborhoods, which can result in more crimes being recorded in those neighborhoods, and so on.
