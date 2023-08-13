@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T22:19:33.797Z
+date: 2023-08-13T22:26:51.528Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -305,3 +305,5 @@ We can see we have over 90% accuracy on 3s, over 98% accuracy on 7s, and about 9
 PyTorch doesn't actually copy, in the above example `mean3`, 1010 times. It pretends if it were a tensor of that shape, but doesn't allocate any additional memory.
 
 It does the whole calculation in C (or if you're using an nvidia GPU, in CUDA).
+
+## Second try: Stochastic Gradient Descent (SGD)
