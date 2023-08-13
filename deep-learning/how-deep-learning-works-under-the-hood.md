@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:35:18.511Z
+date: 2023-08-13T21:44:37.323Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -238,3 +238,5 @@ def mnist_distance(a,b): return (a-b).abs().mean((-1,-2))
 mnist_distance(a_3, mean3)
 ## tensor(0.1114)
 ```
+
+Note that passing (-1,-2) to the mean function means we are computing the average across the last two dimensions of the tensor (ours is (batch_size, width, height)). 
