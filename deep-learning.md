@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:19:32.340Z
+date: 2023-08-13T18:24:11.125Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -152,3 +152,7 @@ When doing inference, we're generally just getting predictions one image at a ti
 learn_inf.predict('images/grizzly.jpg')
 ## > ('grizzly', TensorBase(1), TensorBase([2.0671e-05, 9.9998e-01, 1.9522e-07]))
 ```
+the predict method returns 3 things: 
+- the predicted category in the same format originally provided
+- index of the predicted category,
+- the probabilities of each category
