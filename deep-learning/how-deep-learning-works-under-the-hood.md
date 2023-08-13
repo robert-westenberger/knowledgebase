@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:03:52.767Z
+date: 2023-08-13T21:04:32.333Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -151,3 +151,5 @@ PyTorch provides both of these as loss functions, which the PyTorch team recomme
 F.l1_loss(a_3.float(),mean7), F.mse_loss(a_3,mean7).sqrt()
 ## (tensor(0.1586), tensor(0.3021))
 ```
+
+Here, `mse` stands for mean squared error, and `l1` referes to the standard mathematical jargon for mean absolute value (the L1 norm).
