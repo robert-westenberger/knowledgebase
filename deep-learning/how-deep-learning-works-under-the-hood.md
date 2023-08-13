@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:21:02.483Z
+date: 2023-08-13T21:22:14.631Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -177,4 +177,11 @@ This will select the second row
 ```
 tns[1]
 ## tensor([4,5,6])
+```
+
+Selecting a column, we use `:` to indicate all of the first axis:
+
+```
+tns[:,1]
+## tensor([2,5])
 ```
