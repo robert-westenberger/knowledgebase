@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:41:02.381Z
+date: 2023-08-13T18:43:20.912Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -181,3 +181,8 @@ If we used our model for identifying black, grizzly, and teddy bears for a bear 
 All of the above would be **out-of-domain data** for our model. 
 
 Another problem is **domain shift**, where the type of data our model sees changes over time. For instance, an insurance company may use a deep learning model as part of it's pricing and risk algorithm, but over time the types of customers the company attracts and the risks they represent might change so much that the original training data is no longer relevant.
+
+The above two problems indicate the biggest problem with machine learning: you can never fully understand the entire behavior of your neural network. 
+
+The below infographic diagram details a good approach to minimizing these types of problems
+![ml_reducing_problems.png](/ml_reducing_problems.png)
