@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:28:07.485Z
+date: 2023-08-13T21:29:55.124Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -211,3 +211,7 @@ if we assign a value to `tns*1.5`, it will be a tensor, but this type of type `t
 
 ## Computing Metrics Using Broadcasting
 Now we have a baseline model, but is it any good?
+
+Recall that a metric is a number calculated based on the predictions of our model, and the correct labels in our dataset, in order to tell us how good our model is. 
+
+We want to calculate our metric over a validation set, so we don't inadvertently train our model to work well only on training data (overfitting).
