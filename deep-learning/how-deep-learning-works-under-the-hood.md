@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:02:37.726Z
+date: 2023-08-13T21:03:52.767Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -144,3 +144,10 @@ which outputs
 `(tensor(0.1586), tensor(0.3021))`
 
 We can see the distance between the arbitrarily chosen 3 and the "ideal" 3 is less than the distance to the ideal 7. So our simple model gives the right prediction in this case.
+
+PyTorch provides both of these as loss functions, which the PyTorch team recommends importing as `F` (and is available by default under that name in fastai).
+
+```
+F.l1_loss(a_3.float(),mean7), F.mse_loss(a_3,mean7).sqrt()
+## (tensor(0.1586), tensor(0.3021))
+```
