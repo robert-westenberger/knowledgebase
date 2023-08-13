@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:24:11.125Z
+date: 2023-08-13T18:25:03.937Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -156,3 +156,10 @@ the predict method returns 3 things:
 - the predicted category in the same format originally provided
 - index of the predicted category,
 - the probabilities of each category
+
+At inference time, you can access the `DataLoaders` as an attribute of the `Learner`. 
+
+```
+learn_inf.dls.vocab
+## > ['black','grizzly','teddy']
+```
