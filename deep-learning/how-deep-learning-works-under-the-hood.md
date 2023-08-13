@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T22:33:25.781Z
+date: 2023-08-13T23:18:35.970Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -310,3 +310,9 @@ It does the whole calculation in C (or if you're using an nvidia GPU, in CUDA).
 We can't really improve our pixel similarity approach. We don;t have any kind of weight assignment, or any way of improving based on testing and effectiveness of a weight assignment. In other words, we can't really improve our pixel similarity approach by modifying a set of weights / paramters.
 
 Instead of trying to find the similarity betwween an image and an "ideal image", we could instead look at each individual pixel and come up with a set of weights for each one, such that the highest weights are associated with those pixels most likely to be black for a particular category.
+
+For instance, piels towards the bottom right are not very likely to be active for a 7, so they should have a low weight for a 7, but they are likely to be activated for an 8, so they should have a high weight for an 8. This can be represented as a function and set of weight values for each possible category - for instance the probability of being the number 8:
+
+```
+def pr_eight(x,w): return (x*w).sum()
+```
