@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:45:39.692Z
+date: 2023-08-13T20:46:52.935Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -81,4 +81,14 @@ show_image(three_tensors[1])
 
 will show an image of a "3".
 
-For every pixel position, we want to compute the average over all the images of the intensity of that pixel. We first combine all the images into a single 3D tensor. This is commonly referred to a `rank-3 tensor`. We often need to stack up individual tensors in a collection into a single tensor. 
+For every pixel position, we want to compute the average over all the images of the intensity of that pixel. We first combine all the images into a single 3D tensor. This is commonly referred to a `rank-3 tensor`. We often need to stack up individual tensors in a collection into a single tensor.
+
+Some operations in PyTorch, like taking a mean, require us to cast our integer types to float types. Casting in PyTorch is as simple as typing the name of the type you wish to cast to, and treating it as a method.
+
+Generally when images are floats, the pixel values ar eexpected to be between 0 and 1, and so we will divide by 255 here:
+
+```
+stacked_sevens = torch.stack(seven_tensors).float()/255
+stacked_threes = torch.stack(three_tensors).float()/255
+stacked_threes.shape
+```
