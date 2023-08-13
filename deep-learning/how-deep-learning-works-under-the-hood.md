@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:45:43.230Z
+date: 2023-08-13T21:46:44.595Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -244,4 +244,12 @@ Note that passing (-1,-2) to the mean function means we are computing the averag
 
 In order to calculate a metric for overall accuracy, we need to calculate the distance to the ideal 3 for every image in the validation set. We could write a loop over all the single image tensors that are stacked within our validationset tensor, but there is a better way. 
 
+We can pass in the tensor representing the 3s validation set to our function:
+
+```
+valid_3_dist = mnist_distance(valid_3_tens, mean3)
+valid_3_dist, valid_3_dist.shape
+## (tensor([0.1050, 0.1526, 0.1186,  ..., 0.1122, 0.1170, 0.1086]),
+ torch.Size([1010]))
+```
 
