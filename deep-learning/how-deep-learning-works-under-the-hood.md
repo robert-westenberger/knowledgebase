@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:32:51.568Z
+date: 2023-08-13T21:33:42.449Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -228,3 +228,5 @@ valid_7_tens = valid_7_tens.float()/255
 valid_3_tens.shape,valid_7_tens.shape
 ## (torch.Size([1010, 28, 28]), torch.Size([1028, 28, 28])) <-- the shape of each tensor
 ```
+
+We ultimately want a function, `is_3`, that will decide if an arbitrary image is a 3 or a 7.
