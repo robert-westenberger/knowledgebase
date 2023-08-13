@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T19:20:03.713Z
+date: 2023-08-13T19:21:20.360Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -56,3 +56,6 @@ df.style.set_properties(**{'font-size':'6pt'}).background_gradient('Greys')
 ![pandas_dataframe.png](/pandas_dataframe.png)
 
 We can see white pixels are stored as 0, black as 255, and shades of grey between both. 
+
+## First try: Pixel Similarity
+So we need to create a model that can recognize 3s and 7s. How about we find the average pixel value for every pixel of the 3s, then do the same for the 7s. That will give us two group averages, defining what we mgiht call the "ideal" 3 and 7. 
