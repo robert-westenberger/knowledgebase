@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T16:34:22.455Z
+date: 2023-08-13T18:11:36.409Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -123,4 +123,7 @@ Here is the confusion matrix after cleaning the data ..
 In the case of our model that is used to identify bears, we can sort images by their loss to see exactly where errors are occuring and determine whether it's due to a dataset problem (images aren't bears, the are labelled incorrectly, from a bad angle, etc).
 
 Recall that loss is a number that is higher if the model is incorrect (especially if it's also confident of its incorrect answer), or if it's correct, but not confident of its correct answer. 
+
+## Using fastai ImageClassifierCleaner
+ImageClassifierCleaner is a GUI for data cleaning. It allows you to choose a category anad the training versus validation set and view the highest-loss images in order, along with menus to allow images to be selected for removal or relabeling.
 
