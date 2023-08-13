@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:51:41.893Z
+date: 2023-08-13T21:52:11.731Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -257,3 +257,10 @@ Instead of complaining about shapes not matching, it returned the distance for e
 This happened because PyTorch used **broadcasting**. When PyTorch tries to perform a simple subtraction operation between two tensors of different ranks, it will automatically expand the tensor with the smaller rank to ahve the same size as the one with the larger rank. 
 
 After broadcasting so the two argument tensors have the same rank, PyTorch applies its usual logic for two tensors of the same rank: it performs the operation on each corresponding element of the two tensors, an returns the tensor result.
+
+For instance,
+
+```
+tensor([1,2,3]) + tensor(1)
+## tensor([2,3,4])
+```
