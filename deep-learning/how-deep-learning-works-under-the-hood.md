@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:40:09.104Z
+date: 2023-08-13T20:41:34.780Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -65,3 +65,10 @@ This will make a good **baseline** ( a simple model which you are confident shou
 
 ### Get average of pixel values 
 First, we get the average of the pixel values for each of our two groups.
+
+We create a tensor containing all of the 3s stacked together, and a tensor for all the 7s stacked together. We used python list comprehensions to create a plain list of the single image tensors.
+
+```
+seven_tensors = [tensor(Image.open(o)) for o in sevens]
+three_tensors = [tensor(Image.open(o)) for o in threes]
+```
