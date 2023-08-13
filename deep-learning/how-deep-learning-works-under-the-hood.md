@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:45:25.243Z
+date: 2023-08-13T20:45:39.692Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -81,4 +81,4 @@ show_image(three_tensors[1])
 
 will show an image of a "3".
 
-For every pixel position, we want to compute the average over all the images of the intensity of that pixel. We first combine all the images into a single 3D tensor. This is commonly referred to a `rank-3 tensor`. 
+For every pixel position, we want to compute the average over all the images of the intensity of that pixel. We first combine all the images into a single 3D tensor. This is commonly referred to a `rank-3 tensor`. We often need to stack up individual tensors in a collection into a single tensor. 
