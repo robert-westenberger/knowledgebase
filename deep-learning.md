@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:31:08.448Z
+date: 2023-08-13T18:34:53.388Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -166,3 +166,5 @@ learn_inf.dls.vocab
 
 ## Deploying your app
 You don't need a GPU to serve your model in production. It's only necessary for training.
+
+# How to avoid disaster
