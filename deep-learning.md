@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T16:28:28.523Z
+date: 2023-08-13T16:34:22.455Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -114,6 +114,11 @@ Our objective and available levers, what data we have and what additional data w
 Below is a confusion matrix from a model that was tuned to identify black, grizzly, and teddy bears. We can see that the model had the best performance on teddy bears, guessing that one bear was teddy when in actuality it was a grizzly bear. 
 ![confusion_matrix.png](/confusion_matrix.png)
 
+It turns out the data was really dirty, lots of grizzly bears were labeled as black bears. There were some polar bears and other sorts of bears in both the grizzly bear and black bear images. 
+
+Here is the confusion matrix after cleaning the data ..
+
+![confusion_matrix_cleaned.png](/confusion_matrix_cleaned.png)
 ## Sorting data by loss
 In the case of our model that is used to identify bears, we can sort images by their loss to see exactly where errors are occuring and determine whether it's due to a dataset problem (images aren't bears, the are labelled incorrectly, from a bad angle, etc).
 
