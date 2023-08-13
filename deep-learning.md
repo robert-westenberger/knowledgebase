@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T16:01:54.348Z
+date: 2023-08-13T16:28:28.523Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -116,4 +116,6 @@ Below is a confusion matrix from a model that was tuned to identify black, grizz
 
 ## Sorting data by loss
 In the case of our model that is used to identify bears, we can sort images by their loss to see exactly where errors are occuring and determine whether it's due to a dataset problem (images aren't bears, the are labelled incorrectly, from a bad angle, etc).
+
+Recall that loss is a number that is higher if the model is incorrect (especially if it's also confident of its incorrect answer), or if it's correct, but not confident of its correct answer. 
 
