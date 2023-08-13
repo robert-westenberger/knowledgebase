@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:14:20.200Z
+date: 2023-08-13T18:18:20.450Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -130,3 +130,19 @@ ImageClassifierCleaner is a GUI for data cleaning. It allows you to choose a cat
 # Turning Your Model into an Online Application
 ## Using the model for inference
 Recall that a model consists of two parts: the architecture and the trained parameters (weights). The easiest way to save the model is to save both of these, because that way when you load a model you can be sure you have matching architecture and params.
+### Exporting in fastai
+```
+learn.export()
+```
+It even saves the definition of how to create your `DataLoaders`. Otherwise, you'd have to redefine how to transform your data in order to use your model in production. 
+
+A file will be saved, `export.pkl`. 
+
+## Consuming an exported model
+**Inference** is when we use a model for getting predictions, instead of training. 
+
+In fastai, we use `load_learner` and point to the pickle file:
+
+```
+learn_inf = load_learner(path/'export.pkl')
+```
