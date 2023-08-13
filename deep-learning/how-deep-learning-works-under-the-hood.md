@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:18:23.917Z
+date: 2023-08-13T21:21:02.483Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -164,3 +164,17 @@ A NumPy array is a multidimensional table of data, which can be any type at all.
 A PyTorch tensor is nearly the same thing as a NumPy array, but with additional restrictions that unlocks some additional capabilities. A PyTorch tensor must use a single basic numeric type for all components. It can't be jagged like a NumPy array can. It's always a regularly shaped multidimensional rectangular structure.
 
 One major capability PyTorch has over NumPy is that PyTorch's structures can live on the GPU and run much faster. In addition, PyTorch can automatically calculate derivatives of these operations, including combinations of operations. 
+
+#### Creating arrays or tensors
+```
+data = [[1,2,3],[4,5,6]]
+arr = array (data)
+tns = tensor(data)
+```
+
+#### Accessing tensors
+This will select the second row
+```
+tns[1]
+## tensor([4,5,6])
+```
