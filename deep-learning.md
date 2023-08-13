@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:25:03.937Z
+date: 2023-08-13T18:31:08.448Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -163,3 +163,6 @@ At inference time, you can access the `DataLoaders` as an attribute of the `Lear
 learn_inf.dls.vocab
 ## > ['black','grizzly','teddy']
 ```
+
+## Deploying your app
+You don't need a GPU to serve your model in production. It's only necessary for training.
