@@ -2,7 +2,7 @@
 title: Deep Learning
 description: 
 published: true
-date: 2023-08-13T18:43:20.912Z
+date: 2023-08-13T18:45:00.085Z
 tags: ai, deep-learning, machine-learning, neural-networks
 editor: markdown
 ---
@@ -186,3 +186,6 @@ The above two problems indicate the biggest problem with machine learning: you c
 
 The below infographic diagram details a good approach to minimizing these types of problems
 ![ml_reducing_problems.png](/ml_reducing_problems.png)
+
+## Unforeseen Consequences and Feedback Loops
+One of the biggest challenges in rolling out a model is that your model may change the behavior of the system it is a part of.
