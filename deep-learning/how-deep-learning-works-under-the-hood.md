@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T20:59:14.134Z
+date: 2023-08-13T21:00:00.537Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -121,3 +121,4 @@ show_image(mean3);
 There are two main ways data scientists measure distance in this context:
 
 - Take the mean of the absolute value of differences. This is the **mean absolute difference** or **L1 norm**.
+- Take the mean of the square of differences ( which makes everything positive) and then take the square root (which undoes the squaring). This is called the **root mean squared error (RMSE)** or **L2 norm**.
