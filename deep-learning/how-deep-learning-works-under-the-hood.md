@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T21:17:01.817Z
+date: 2023-08-13T21:17:16.483Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -161,4 +161,4 @@ NumPy and PyTorch are both wrappers around compiled objects written and optimize
 
 A NumPy array is a multidimensional table of data, which can be any type at all. The innermost arrays can potentially be different sizes - this is a "jagged array". If all the items are all of some simple type like integer or float, then NumPy will store them as a compact C data structure in memory.
 
-A PyTorch tensor is nearly the same thing as a NumPy array, but with additional restrictions that unlocks some additional capabilities. A PyTorch tensor must use a single basic numeric type for all components. It can't be jagged like a NumPy array can.  
+A PyTorch tensor is nearly the same thing as a NumPy array, but with additional restrictions that unlocks some additional capabilities. A PyTorch tensor must use a single basic numeric type for all components. It can't be jagged like a NumPy array can. It's always a regularly shaped multidimensional rectangular structure.
