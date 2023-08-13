@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-13T22:32:41.091Z
+date: 2023-08-13T22:33:25.781Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -308,3 +308,5 @@ It does the whole calculation in C (or if you're using an nvidia GPU, in CUDA).
 
 ## Second try: Stochastic Gradient Descent (SGD)
 We can't really improve our pixel similarity approach. We don;t have any kind of weight assignment, or any way of improving based on testing and effectiveness of a weight assignment. In other words, we can't really improve our pixel similarity approach by modifying a set of weights / paramters.
+
+Instead of trying to find the similarity betwween an image and an "ideal image", we could instead look at each individual pixel and come up with a set of weights for each one, such that the highest weights are associated with those pixels most likely to be black for a particular category.
