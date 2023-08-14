@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:18:14.152Z
+date: 2023-08-14T16:20:24.160Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -333,4 +333,9 @@ Here are the steps we are going to require, to turn this function into a machine
 
 A simple way to figure out whether a weight should be increased by a bit or decreased by a bit would be to just try it: increase or decrease and see if the loss goes up or down. This process is a bit slow though. Calculus allows us to directly figure out in which direction, and by roughly how much, to change each weight, without having to try all these changes.
 
+### Simple application of a loss function
+Let's pretend the quadratic equation is our loss function.
+```
+def f(x): return x**2
+```
 
