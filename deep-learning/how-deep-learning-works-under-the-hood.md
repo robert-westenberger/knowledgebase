@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:23:36.468Z
+date: 2023-08-14T16:30:44.514Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -341,3 +341,19 @@ def f(x): return x**2
 
 ![quadratic.png](/quadratic.png)
 
+
+The sequence of steps we described earlier starts by picking some random value for a param, and calculating the value of the loss.
+
+```
+plot_function(f, 'x', 'x**2')
+plt.scatter(-1.5, f(-1.5), color='red');
+```
+![loss1.png](/loss1.png)
+
+Now we look to see what would happen if we increased or decreased our parameter by a little bit - the adjustment. This is just the slope at a particular point. 
+
+![loss2.png](/loss2.png)
+
+We can change our weight by a little in the direction of the slope, calculate our loss and adjustment again, and repeat this a few times. Eventually, we will get to the lowest point on the curve.
+
+![loss3.png](/loss3.png)
