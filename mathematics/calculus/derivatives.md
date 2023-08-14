@@ -2,7 +2,7 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T17:18:05.973Z
+date: 2023-08-14T17:28:53.878Z
 tags: calculus
 editor: markdown
 ---
@@ -30,6 +30,7 @@ $$
 $$
 
 Essentially, calculus allows us to calculate the slope of a curved line. The slope of a curved line is constantly changing, unlike that of a straight line.
+
 
  
 
