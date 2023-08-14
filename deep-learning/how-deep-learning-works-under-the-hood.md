@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:20:24.160Z
+date: 2023-08-14T16:23:36.468Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -338,4 +338,6 @@ Let's pretend the quadratic equation is our loss function.
 ```
 def f(x): return x**2
 ```
+
+![quadratic.png](/quadratic.png)
 
