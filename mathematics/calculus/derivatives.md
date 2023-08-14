@@ -2,7 +2,7 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T17:01:42.420Z
+date: 2023-08-14T17:05:23.589Z
 tags: calculus
 editor: markdown
 ---
@@ -17,4 +17,9 @@ Algebra is useful for calculating the average speed of Usain Bolt during a 100 m
 
 Using that example, if we were to graph it with y as the distance and x as the time, the slope from the origin to the destination (starting time + position to end time + position, e.g. the starting line and the finish line at 9.58 seconds) is his average speed ( 10.4 meters per second , roughly 23.5 mph)
 
-On a graph though, in reality Usain is not travelling from the starting line to the finish line at a constant rate of speed. He is accelerating off the line, eventually reaches a top speed and presumably croses the finish line at that top speed.
+On a graph though, in reality Usain is not travelling from the starting line to the finish line at a constant rate of speed. He is accelerating off the line, eventually reaches a top speed and presumably croses the finish line at that top speed. The slope of the graph actually has a curve to it, because at the beginning he is going slower and at the end he is going faster.
+
+![deriv.png](/deriv.png)
+
+
+
