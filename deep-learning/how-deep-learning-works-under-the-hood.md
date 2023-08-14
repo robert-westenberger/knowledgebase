@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:31:28.448Z
+date: 2023-08-14T16:38:41.241Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -359,3 +359,6 @@ We can change our weight by a little in the direction of the slope, calculate ou
 ![loss3.png](/loss3.png)
 
 The basic idea goes all the way back to Isaac Newton, who pointed out we can optimize arbitrary functions in this way. Regardless of how complicated our functions become, this basic approach of gradient descent will not significantly change. 
+
+
+### Calculating Gradients
