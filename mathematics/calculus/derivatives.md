@@ -2,7 +2,7 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T17:11:33.492Z
+date: 2023-08-14T17:12:59.748Z
 tags: calculus
 editor: markdown
 ---
@@ -28,5 +28,7 @@ We actually want to take the limit as the change in x approaches 0.
 $$
 \lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x} \rightarrow \frac{d y}{d x}
 $$
+
+
  
 
