@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:30:44.514Z
+date: 2023-08-14T16:31:28.448Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -357,3 +357,5 @@ Now we look to see what would happen if we increased or decreased our parameter 
 We can change our weight by a little in the direction of the slope, calculate our loss and adjustment again, and repeat this a few times. Eventually, we will get to the lowest point on the curve.
 
 ![loss3.png](/loss3.png)
+
+The basic idea goes all the way back to Isaac Newton, who pointed out we can optimize arbitrary functions in this way. Regardless of how complicated our functions become, this basic approach of gradient descent will not significantly change. 
