@@ -2,7 +2,7 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T17:05:23.589Z
+date: 2023-08-14T17:10:38.979Z
 tags: calculus
 editor: markdown
 ---
@@ -21,5 +21,11 @@ On a graph though, in reality Usain is not travelling from the starting line to 
 
 ![deriv.png](/deriv.png)
 
+We want to see what happens as the $\Delta x$ gets smaller and smaller, $\Delta y$ will get smaller and smaller and we'll get a better approximation of both values and we'll be able to approximate the instantaneous rate of change. 
+
+We actually want to take the limit as the change in x approaches 0.
+$$
+\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}
+$$
 
 
