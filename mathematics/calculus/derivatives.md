@@ -2,7 +2,7 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T16:59:03.011Z
+date: 2023-08-14T16:59:48.837Z
 tags: calculus
 editor: markdown
 ---
@@ -14,5 +14,6 @@ It's the instantaneous rate of change of something.
 
 Algebra is useful for calculating the average speed of Usain Bolt during a 100 meter dash. We know it took him 9.58 seconds, and we can calculate his average speed by dividing the change in distance  by the change in time.
 
-Using that example, if we were to graph it with y as the distance and x as the time, the slope from the origin to the destination (starting time + position to end time + position, e.g. the starting line and the finish line at 9.58 seconds) is his average speed ( 10.4 meters per second )
+Using that example, if we were to graph it with y as the distance and x as the time, the slope from the origin to the destination (starting time + position to end time + position, e.g. the starting line and the finish line at 9.58 seconds) is his average speed ( 10.4 meters per second , roughly 23.5 mph)
+
 
