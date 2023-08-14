@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:09:53.208Z
+date: 2023-08-14T16:11:27.768Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -320,3 +320,11 @@ def pr_eight(x,w): return (x*w).sum()
 Here we assume that `x` is the image, represented as a vector ( all the rows stacked up end to end in a single long line). The weights are a vector `w`. We just need a way to update the weights to make them a little better. We can repeat this step repeatedly until they are as good as we can make them.
 
 We want to find the specific values for the vector `w` s.t. the result of our funciton will be high for those images that are actually 8s, and low for those images that are not. Searching for the best vector `w` is a way to search for the best function for recognising 8's.
+
+Here are the steps we are going to require, to turn this function into a machine learning classifier: 
+
+1. Initialize the weights
+2. For each image, use the weights to predict whether it appears to be a 3 or a 7. 
+3. Based on these predictions, calculate how good the model is (its loss).
+4. Calculate the gradient, which measures for each weight, how changing that weight would change the loss.
+5. Step (that is, change) all the weights based on that calculation.
