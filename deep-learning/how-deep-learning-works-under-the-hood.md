@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:07:35.056Z
+date: 2023-08-14T16:08:55.481Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -317,4 +317,4 @@ For instance, piels towards the bottom right are not very likely to be active fo
 def pr_eight(x,w): return (x*w).sum()
 ```
 
-Here we assume that `x` is the image, represented as a vector ( all the rows stacked up end to end in a single long line). The weights are a vector `w`.
+Here we assume that `x` is the image, represented as a vector ( all the rows stacked up end to end in a single long line). The weights are a vector `w`. We just need a way to update the weights to make them a little better. We can repeat this step repeatedly until they are as good as we can make them.
