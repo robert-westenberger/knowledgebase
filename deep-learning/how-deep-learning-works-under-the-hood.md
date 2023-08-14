@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-14T16:12:11.992Z
+date: 2023-08-14T16:16:17.572Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -323,10 +323,15 @@ We want to find the specific values for the vector `w` s.t. the result of our fu
 
 Here are the steps we are going to require, to turn this function into a machine learning classifier: 
 
-1. Initialize the weights
+1. Initialize the weights. We initialize to random values.
 2. For each image, use the weights to predict whether it appears to be a 3 or a 7. 
-3. Based on these predictions, calculate how good the model is (its loss).
+3. Based on these predictions, calculate how good the model is (its loss). The standard approach is to treat a small loss as good, and a large loss as bad.
 4. Calculate the gradient, which measures for each weight, how changing that weight would change the loss.
 5. Step (that is, change) all the weights based on that calculation.
 6. Go back to step 2, repeating the process.
-7. ITerate until you decide to stop the training process ( because the model is good enough or you don't want to wait any longer).
+7. Iterate until you decide to stop the training process ( because the model is good enough or you don't want to wait any longer).
+
+
+
+
+
