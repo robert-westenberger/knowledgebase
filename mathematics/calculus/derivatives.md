@@ -2,7 +2,7 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T17:12:59.748Z
+date: 2023-08-14T17:18:05.973Z
 tags: calculus
 editor: markdown
 ---
@@ -29,6 +29,7 @@ $$
 \lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x} \rightarrow \frac{d y}{d x}
 $$
 
+Essentially, calculus allows us to calculate the slope of a curved line. The slope of a curved line is constantly changing, unlike that of a straight line.
 
  
 
