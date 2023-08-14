@@ -2,10 +2,9 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T16:43:44.514Z
+date: 2023-08-14T16:46:23.094Z
 tags: calculus
 editor: markdown
 ---
 
-# Header
-Your content here
+# What the hell is a derivative
