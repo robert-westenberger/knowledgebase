@@ -2,7 +2,7 @@
 title: Derivatives
 description: 
 published: true
-date: 2023-08-14T17:28:53.878Z
+date: 2023-08-14T17:29:46.843Z
 tags: calculus
 editor: markdown
 ---
@@ -31,6 +31,7 @@ $$
 
 Essentially, calculus allows us to calculate the slope of a curved line. The slope of a curved line is constantly changing, unlike that of a straight line.
 
-
+In the below image, on the righthand side the instantaneous rate of change at x1 is equal to the slope of the tangent (blue) line.
+![deriv2.png](/deriv2.png)
  
 
