@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T16:05:52.856Z
+date: 2023-08-15T16:23:24.576Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -367,3 +367,17 @@ Recall that the [**derivative**](/mathematics/calculus/derivatives)of a function
 When we are calculating the derivatives for loss functions, the derivative with respect to a particular parameter tells us how the loss changes if you change that parameter slightly. When we know how changing a weight changes the value of the loss function, we know what we need to do in order to make it smaller.
 
 Our function has lots of weights we need to adjust, so when we calculate the derivative we won't get back one number, but lots of them - a gradient for every weight. There isn't anything mathematically tricky here, you can calculate the derivative with respect to one weight, and treat all the other weights as constant, then repeat that for each weight. 
+
+#### In PyTorch
+```
+xt = tensor(3.).requires_grad_()
+```
+The `requires_grad_` method tells PyTorch that we want to calculate gradients with respect to the variable at that value. 
+
+```
+yt = f(xt)
+yt
+## tensor(9., grad_fn=<PowBackward0>)
+```
+
+(recall that our function `f` is `f(x) x**2`. Notice how PyTorch prints not just the value calculated, but a note that it has a gradient function it'll be using to calculate our gradients when needed.
