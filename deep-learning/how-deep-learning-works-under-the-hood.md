@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T16:50:37.393Z
+date: 2023-08-15T16:51:59.637Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -390,3 +390,8 @@ yt.backward()
 The "backward" here refers to backpropagation, which is the name given to the process of calculating the derivative of each layer.
 This is called the "backward pass" of the network, as opposed to the "forward pass", which is where the activations are calculated. 
 
+We can now view the gradients by checking the grad attribute of our tensor. 
+
+```
+xt.grad
+```
