@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T16:55:18.661Z
+date: 2023-08-15T16:56:31.165Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -394,7 +394,7 @@ We can now view the gradients by checking the grad attribute of our tensor.
 
 ```
 xt.grad
-## tensor(6.1)
+## tensor(6.)
 ```
 
-If you remember 
+Recall the derivative of $x^2$ is $2x$, and we have $x=3$, so the gradient should be $2*3=6$, which is what PyTorch calculated.
