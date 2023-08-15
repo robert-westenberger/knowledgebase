@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T16:47:01.114Z
+date: 2023-08-15T16:50:37.393Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -360,11 +360,6 @@ We can change our weight by a little in the direction of the slope, calculate ou
 
 The basic idea goes all the way back to Isaac Newton, who pointed out we can optimize arbitrary functions in this way. Regardless of how complicated our functions become, this basic approach of gradient descent will not significantly change. 
 
-### By hand
-$$
-\mathrm{MSE}=\frac{1}{7}\left((2 \cdot(-2)+3-(-1))^2+\ldots+\right.
-\left.(2 \cdot 4+3-11)^2\right)=\frac{1}{7}(0+0+\ldots+0)=0
-$$
 
 ### Calculating Gradients
 Recall that the [**derivative**](/mathematics/calculus/derivatives)of a function tells you how much a change in its parameters will change its result.
@@ -372,7 +367,6 @@ Recall that the [**derivative**](/mathematics/calculus/derivatives)of a function
 When we are calculating the derivatives for loss functions, the derivative with respect to a particular parameter tells us how the loss changes if you change that parameter slightly. When we know how changing a weight changes the value of the loss function, we know what we need to do in order to make it smaller.
 
 Our function has lots of weights we need to adjust, so when we calculate the derivative we won't get back one number, but lots of them - a gradient for every weight. There isn't anything mathematically tricky here, you can calculate the derivative with respect to one weight, and treat all the other weights as constant, then repeat that for each weight. 
-
 
 #### In PyTorch
 ```
@@ -388,4 +382,11 @@ yt
 
 (recall that our function `f` is `f(x) x**2`. Notice how PyTorch prints not just the value calculated, but a note that it has a gradient function it'll be using to calculate our gradients when needed.
 
+Finally, we tell PyTorch to calculate the gradients for us:
+```
+yt.backward()
+```
+
+The "backward" here refers to backpropagation, which is the name given to the process of calculating the derivative of each layer.
+This is called the "backward pass" of the network, as opposed to the "forward pass", which is where the activations are calculated. 
 
