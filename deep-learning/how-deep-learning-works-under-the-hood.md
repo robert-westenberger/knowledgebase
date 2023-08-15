@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T16:04:45.719Z
+date: 2023-08-15T16:05:52.856Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -365,3 +365,5 @@ The basic idea goes all the way back to Isaac Newton, who pointed out we can opt
 Recall that the [**derivative**](/mathematics/calculus/derivatives)of a function tells you how much a change in its parameters will change its result.
 
 When we are calculating the derivatives for loss functions, the derivative with respect to a particular parameter tells us how the loss changes if you change that parameter slightly. When we know how changing a weight changes the value of the loss function, we know what we need to do in order to make it smaller.
+
+Our function has lots of weights we need to adjust, so when we calculate the derivative we won't get back one number, but lots of them - a gradient for every weight. There isn't anything mathematically tricky here, you can calculate the derivative with respect to one weight, and treat all the other weights as constant, then repeat that for each weight. 
