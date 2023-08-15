@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T16:51:59.637Z
+date: 2023-08-15T16:55:18.661Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -394,4 +394,7 @@ We can now view the gradients by checking the grad attribute of our tensor.
 
 ```
 xt.grad
+## tensor(6.1)
 ```
+
+If you remember 
