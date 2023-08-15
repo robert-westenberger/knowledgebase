@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T16:36:33.497Z
+date: 2023-08-15T16:43:27.843Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
