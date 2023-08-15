@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T15:08:21.176Z
+date: 2023-08-15T16:04:45.719Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -364,3 +364,4 @@ The basic idea goes all the way back to Isaac Newton, who pointed out we can opt
 ### Calculating Gradients
 Recall that the [**derivative**](/mathematics/calculus/derivatives)of a function tells you how much a change in its parameters will change its result.
 
+When we are calculating the derivatives for loss functions, the derivative with respect to a particular parameter tells us how the loss changes if you change that parameter slightly. When we know how changing a weight changes the value of the loss function, we know what we need to do in order to make it smaller.
