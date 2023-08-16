@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:22:44.352Z
+date: 2023-08-16T15:26:26.970Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -404,3 +404,5 @@ xt = tensor([3.,4.,10.]).requires_grad_()
 xt
 ### tensor([ 3.,  4., 10.], requires_grad=True)
 ```
+
+(Note that those are floats)
