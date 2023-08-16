@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T16:00:38.120Z
+date: 2023-08-16T16:03:56.607Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -452,3 +452,14 @@ This below image shows that when the learning rate is too high, it may "bounce" 
 
 ### An end-to-end SGD example
 Now let's look at an example of how finding a minimum can be used to train a model to fit data better.
+
+Imagine you were measuring the speed of a roller coaster as it went over the top of a hump. It would start fast, and then get slower as it went up the hill; it would be slowest at the top of the hill, and then it would speed up again as it went downhill. We want to build a model of how the speed changes over time. If we were measuring the speed manually every second for 20 seconds, it migjht look something like this:
+
+```
+time = torch.arange(0,20).float(); time
+```
+
+```
+speed = torch.randn(20)*3 + 0.75*(time-9.5)**2 + 1
+plt.scatter(time,speed);
+```
