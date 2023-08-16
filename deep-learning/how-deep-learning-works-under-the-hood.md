@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:48:42.084Z
+date: 2023-08-16T15:50:10.549Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -426,3 +426,7 @@ xt.grad
 ```
 
 The gradients only tell us the slope of our function, they don't actually tell us exactly how far to adjust the parameters. It gives us some idea of how far; if the slope is very large, then that may suggest we have more adjustments to do; if the slope is very small, that may suggest we are close to the optimal value.
+
+### Stepping With a Learning Rate
+
+Deciding how to change our parameters based on the values of the gradients is an important part of deep learning. Nearly all approaches start with the basic idea of multiplying the gradient by some small number, called the **learning rate (LR)**. It's often a number between 0.001 and 0.1.
