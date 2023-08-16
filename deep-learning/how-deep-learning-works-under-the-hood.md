@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:47:48.133Z
+date: 2023-08-16T15:48:42.084Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -425,4 +425,4 @@ xt.grad
 ## tensor([ 6.,  8., 20.])
 ```
 
-The gradients only tell us the slope of our function, they don't actually tell us exactly how far to adjust the parameters.
+The gradients only tell us the slope of our function, they don't actually tell us exactly how far to adjust the parameters. It gives us some idea of how far; if the slope is very large, then that may suggest we have more adjustments to do; if the slope is very small, that may suggest we are close to the optimal value.
