@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:50:10.549Z
+date: 2023-08-16T15:52:20.644Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -430,3 +430,11 @@ The gradients only tell us the slope of our function, they don't actually tell u
 ### Stepping With a Learning Rate
 
 Deciding how to change our parameters based on the values of the gradients is an important part of deep learning. Nearly all approaches start with the basic idea of multiplying the gradient by some small number, called the **learning rate (LR)**. It's often a number between 0.001 and 0.1.
+
+Once you pick a learning rate, you can adjust your parameters using this simple function:
+
+```
+w -= gradient(w) * lr
+```
+
+This is stepping your parameters, using an optimizer step. Notice how we subtract `gradient * lr` from the parameter to update it. This allows us to adjust the parameter in the direction of the slope by increasing the parameter when the slope is negative and decreasing the parameter when the slope is positive. We want to adjust our parameters in the direction of the slope because our goal in deep learning is to minimize the loss.
