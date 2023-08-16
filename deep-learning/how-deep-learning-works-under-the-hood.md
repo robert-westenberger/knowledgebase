@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:52:20.644Z
+date: 2023-08-16T15:57:00.604Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -438,3 +438,10 @@ w -= gradient(w) * lr
 ```
 
 This is stepping your parameters, using an optimizer step. Notice how we subtract `gradient * lr` from the parameter to update it. This allows us to adjust the parameter in the direction of the slope by increasing the parameter when the slope is negative and decreasing the parameter when the slope is positive. We want to adjust our parameters in the direction of the slope because our goal in deep learning is to minimize the loss.
+
+The below image shows if we pick a learning rate that is too low, we don't get to the bottom of the slope without a lot of steps.
+
+![low_learning_rate_descent.png](/low_learning_rate_descent.png)
+
+This next image shows picking a learning rate that's too high. We can see the loss is actually getting worse. 
+![high_learning_rate_descent.png](/high_learning_rate_descent.png)
