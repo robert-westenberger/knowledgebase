@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:58:37.381Z
+date: 2023-08-16T16:00:38.120Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -448,3 +448,7 @@ This next image shows picking a learning rate that's too high. We can see the lo
 
 This below image shows that when the learning rate is too high, it may "bounce" around rather than diverging.
 ![high_learning_rate_descent2.png](/high_learning_rate_descent2.png)
+
+
+### An end-to-end SGD example
+Now let's look at an example of how finding a minimum can be used to train a model to fit data better.
