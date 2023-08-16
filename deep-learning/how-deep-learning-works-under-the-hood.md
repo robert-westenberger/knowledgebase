@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:30:02.203Z
+date: 2023-08-16T15:32:08.887Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -415,4 +415,11 @@ def f(x): return (x**2).sum()
 yt = f(xt)
 yt
 ## tensor(125., grad_fn=<SumBackward0>)
+```
+
+Our gradients are `2*xt`, as we'd expect.
+
+```
+yt.backward()
+xt.grad
 ```
