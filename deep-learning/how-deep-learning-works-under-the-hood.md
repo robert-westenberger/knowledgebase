@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-15T17:00:03.147Z
+date: 2023-08-16T15:22:44.352Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -399,3 +399,8 @@ xt.grad
 
 Recall the derivative of $x^2$ is $2x$, and we have $x=3$, so the gradient should be $2*3=6$, which is what PyTorch calculated.
 
+```
+xt = tensor([3.,4.,10.]).requires_grad_()
+xt
+### tensor([ 3.,  4., 10.], requires_grad=True)
+```
