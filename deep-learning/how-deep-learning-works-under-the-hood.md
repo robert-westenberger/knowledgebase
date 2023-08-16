@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:26:26.970Z
+date: 2023-08-16T15:30:02.203Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -406,3 +406,13 @@ xt
 ```
 
 (Note that those are floats)
+
+Now we'll add sum to our function so it can take a vector (a rank-1 tensor) and return a scalar (a rank 0 tensor)
+
+```
+def f(x): return (x**2).sum()
+
+yt = f(xt)
+yt
+## tensor(125., grad_fn=<SumBackward0>)
+```
