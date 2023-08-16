@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T15:57:00.604Z
+date: 2023-08-16T15:58:37.381Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -445,3 +445,6 @@ The below image shows if we pick a learning rate that is too low, we don't get t
 
 This next image shows picking a learning rate that's too high. We can see the loss is actually getting worse. 
 ![high_learning_rate_descent.png](/high_learning_rate_descent.png)
+
+This below image shows that when the learning rate is too high, it may "bounce" around rather than diverging.
+![high_learning_rate_descent2.png](/high_learning_rate_descent2.png)
