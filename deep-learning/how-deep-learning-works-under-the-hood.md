@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T14:56:00.300Z
+date: 2023-08-17T14:58:52.653Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -477,3 +477,5 @@ def f(t, params):
     return a*(t**2) + (b*t) + c
 ```
 In other words, we've restricted the problem of finding the best imaginable function that fits the data, to finding the best quadratic function. This greatly simplifies the problem, since every quadratic function is fully defined by the three parameters `a`, `b`, and `c`. To find the best quadratic function, we only need to find the best values for `a`, `b`, and `c`.
+
+If we can solve this problem for the three params of a quadratic function, we'll be able to apply the same approach for other, more complex functions with more params - such as a neural net. Let's find the `f` first, and then we'll come back and do the same thing for the MNIST dataset with a neural net.
