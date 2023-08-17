@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T16:14:07.575Z
+date: 2023-08-17T16:14:49.078Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -624,4 +624,4 @@ We just stopped at 10 epochs arbitrarily. In practice, we would watch the traini
 
 To summarize, at the beginning the weights of our model can be random (training from scratch) or come from a pretrained model (transfer learning). The model will need to learn better weights.
 
-We begin by comparing the outputs the model gives us with our targets ( we have labeled data, so we know what result the model should give us) using a loss function, which returns a number that we want to make as low as possible by improving our weights. 
+We begin by comparing the outputs the model gives us with our targets ( we have labeled data, so we know what result the model should give us) using a loss function, which returns a number that we want to make as low as possible by improving our weights. To do this, we take a few data items from the training set and feed them to our model. We compare the corresponding targets using our loss function, and the score we get tells us how wrong our predictions were. We then change the weights a little bit to make it slightly better. 
