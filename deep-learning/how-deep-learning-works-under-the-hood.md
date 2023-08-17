@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T16:10:22.657Z
+date: 2023-08-17T16:11:30.162Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -615,4 +615,9 @@ plt.tight_layout()
 ```
 
 ![sgd_iterations.png](/sgd_iterations.png)
+
+#### Step 7: Stop
+We just stopped at 10 epochs arbitrarily. In practice, we would watch the training and validation losses and our metrics to decide when to stop.
+
+
 
