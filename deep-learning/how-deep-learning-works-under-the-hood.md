@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:00:05.804Z
+date: 2023-08-17T15:01:33.219Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -480,4 +480,4 @@ In other words, we've restricted the problem of finding the best imaginable func
 
 If we can solve this problem for the three params of a quadratic function, we'll be able to apply the same approach for other, more complex functions with more params - such as a neural net. Let's find the `f` first, and then we'll come back and do the same thing for the MNIST dataset with a neural net.
 
-We need to define first what we mean by "best". 
+We need to define first what we mean by "best". We define 
