@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:58:44.161Z
+date: 2023-08-17T16:04:58.020Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -560,5 +560,44 @@ Let's see if the loss has improved:
 preds = f(time,params)
 mse(preds, speed)
 ## tensor(5435.5356, grad_fn=<MeanBackward0>)
+```
+
+and take a look at the plot again
+
+```
+show_preds(preds)
+```
+
+![preds.png](/preds.png)
+
+We need to repeat this a few times, so we'll create a function to apply one step:
+
+```
+def apply_step(params, prn=True):
+    preds = f(time, params)
+    loss = mse(preds, speed)
+    loss.backward()
+    params.data -= lr * params.grad.data
+    params.grad = None
+    if prn: print(loss.item())
+    return preds
+```
+
+#### Step 6: Repeat the process
+Now we iterate. By looping and performing many improvements, we hope to reach a good result:
+
+```
+for i in range(10): apply_step(params)
+
+## 5435.53564453125
+## 1577.44921875
+## 847.3778076171875
+## 709.2225341796875
+## 683.0758056640625
+## 678.1243896484375
+## 677.1838989257812
+## 677.0023803710938
+## 676.9645385742188
+## 676.9537353515625
 ```
 
