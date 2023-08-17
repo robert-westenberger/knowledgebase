@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:30:37.875Z
+date: 2023-08-17T15:33:11.930Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -543,3 +543,5 @@ params
 ## tensor([ 1.5980,  0.1115, -0.0392], requires_grad=True)
 ```
 
+#### Step 5: Step the weights
+Now we need to 
