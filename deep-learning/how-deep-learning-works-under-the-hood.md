@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T16:11:30.162Z
+date: 2023-08-17T16:14:07.575Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -619,5 +619,9 @@ plt.tight_layout()
 #### Step 7: Stop
 We just stopped at 10 epochs arbitrarily. In practice, we would watch the training and validation losses and our metrics to decide when to stop.
 
+### Summarizing Gradient Descent
+![gradient_descent.png](/gradient_descent.png)
 
+To summarize, at the beginning the weights of our model can be random (training from scratch) or come from a pretrained model (transfer learning). The model will need to learn better weights.
 
+We begin by comparing the outputs the model gives us with our targets ( we have labeled data, so we know what result the model should give us) using a loss function, which returns a number that we want to make as low as possible by improving our weights. 
