@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:28:47.980Z
+date: 2023-08-17T15:30:37.875Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -534,5 +534,12 @@ params.grad
 ```
 params.grad * 1e-5
 ## tensor([0.8203, 0.0527, 0.0034])
+```
+
+We can use these gradients to improve our parameters. We'll need to pick a learning rate, for now let's use 0.00001 . 
+
+```
+params 
+## tensor([ 1.5980,  0.1115, -0.0392], requires_grad=True)
 ```
 
