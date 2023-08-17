@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-16T16:04:41.129Z
+date: 2023-08-17T14:52:21.514Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -463,3 +463,7 @@ time = torch.arange(0,20).float(); time
 speed = torch.randn(20)*3 + 0.75*(time-9.5)**2 + 1
 plt.scatter(time,speed);
 ```
+
+![sgd_scatter_1.png](/sgd_scatter_1.png)
+
+We've added a bit of random noise, since measuring things manually isn't precise. This means its not that easy to answer the question: What was the roller coaster's speed? Using SGD we can try to find a function that matches our observations. We can't consider every possible fn, so let's use a guess that it will be quadratic - a function of the form `a*(time**2)+(b*time)+c` .
