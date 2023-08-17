@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T16:14:49.078Z
+date: 2023-08-17T16:16:23.977Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -625,3 +625,11 @@ We just stopped at 10 epochs arbitrarily. In practice, we would watch the traini
 To summarize, at the beginning the weights of our model can be random (training from scratch) or come from a pretrained model (transfer learning). The model will need to learn better weights.
 
 We begin by comparing the outputs the model gives us with our targets ( we have labeled data, so we know what result the model should give us) using a loss function, which returns a number that we want to make as low as possible by improving our weights. To do this, we take a few data items from the training set and feed them to our model. We compare the corresponding targets using our loss function, and the score we get tells us how wrong our predictions were. We then change the weights a little bit to make it slightly better. 
+
+To find how to change the weights to make the loss a bit better, we (well, PyTorch...) use calculus to calculate the gradients. 
+
+#### An analogy for SGD
+ Imagine you are lost in the mountains with your car parked at the lowest point. To find your way back to it, you might wander in a random direction, but that probably wouldn't help much. Since you know your vehicle is at the lowest point, you would be better off going downhill. By always taking a step in the direction of the steepest downward slope, you should eventually arrive at your destination. We use the magnitude of the gradient (i.e., the steepness of the slope) to tell us how big a step to take; specifically, we multiply the gradient by a number we choose called the learning rate to decide on the step size. We then iterate until we have reached the lowest point, which will be our parking lot, then we can stop.
+ 
+
+## The MNIST Loss Function
