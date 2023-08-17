@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T14:52:21.514Z
+date: 2023-08-17T14:53:53.995Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -467,3 +467,13 @@ plt.scatter(time,speed);
 ![sgd_scatter_1.png](/sgd_scatter_1.png)
 
 We've added a bit of random noise, since measuring things manually isn't precise. This means its not that easy to answer the question: What was the roller coaster's speed? Using SGD we can try to find a function that matches our observations. We can't consider every possible fn, so let's use a guess that it will be quadratic - a function of the form `a*(time**2)+(b*time)+c` .
+
+
+We want to distinguish clearly between the function's input (the time when we are measuring the coaster's speed) and its parameters (the values that define which quadratic we're trying). So let's collect the parameters in one argument and thus separate the input, `t`, and the aprameters, `params`, in the functions signature: 
+
+```
+def f(t, params):
+    a,b,c = params
+    return a*(t**2) + (b*t) + c
+```
+
