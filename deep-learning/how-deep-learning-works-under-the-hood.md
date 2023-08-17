@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T16:06:19.830Z
+date: 2023-08-17T16:06:57.065Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -605,3 +605,6 @@ params = orig_params.detach().requires_grad_()
 ```
 
 The loss is going down, just as we'd hoped. But looking only at these loss numbers disguises the fact that each iteration represents an entirely different quadratic funciton being tried, on the way to finding the best possible quadratic function.
+
+We can see this process visually if we plot the function at every step. We can see how the shape is approaching the best possible quadratic function for our data:
+
