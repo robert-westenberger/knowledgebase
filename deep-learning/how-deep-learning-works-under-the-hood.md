@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:20:53.493Z
+date: 2023-08-17T15:28:47.980Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -508,5 +508,31 @@ def show_preds(preds, ax=None):
     ax.scatter(time, speed)
     ax.scatter(time, to_np(preds), color='red')
     ax.set_ylim(-300,100)
+```
+
+![sgd_predict_1.png](/sgd_predict_1.png)
+
+This doesn't look very close.
+
+#### Step 3: Calculate the loss
+```
+loss = mse(preds, speed)
+loss
+## tensor(25823.8086, grad_fn=<MeanBackward0>)
+```
+Our goal is to improve this. To do this, we'll need to know the gradients.
+
+#### Step 4: Calculate the gradients
+The next steps is to calculate the gradients. In other words, calcualte an approximation of how the parameters need to change:
+
+```
+loss.backward()
+params.grad
+## tensor([82025.9219,  5272.2275,   342.7042])
+```
+
+```
+params.grad * 1e-5
+## tensor([0.8203, 0.0527, 0.0034])
 ```
 
