@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:33:11.930Z
+date: 2023-08-17T15:55:36.290Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -544,4 +544,12 @@ params
 ```
 
 #### Step 5: Step the weights
-Now we need to 
+Now we need to update the params based on the gradients we just calculated:
+
+```
+lr = 1e-5
+params.data -= lr * params.grad.data
+params.grad = None
+```
+
+Understanding this bit depends on remembering recent history. To calculate the gradients we call `backward` on the `loss`. But this `loss` was itself calculated by `mse`, which in turn took `preds` as an input, which was calculated using `f` taking as an input `params`, which was the object on which we originally called requires_grad_—which is the original call that now allows us to call backward on loss. This chain of function calls represents the mathematical composition of functions, which enables PyTorch to use calculus's chain rule under the hood to calculate these gradients.
