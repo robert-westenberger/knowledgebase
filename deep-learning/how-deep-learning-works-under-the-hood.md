@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:01:33.219Z
+date: 2023-08-17T15:15:59.890Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -480,4 +480,16 @@ In other words, we've restricted the problem of finding the best imaginable func
 
 If we can solve this problem for the three params of a quadratic function, we'll be able to apply the same approach for other, more complex functions with more params - such as a neural net. Let's find the `f` first, and then we'll come back and do the same thing for the MNIST dataset with a neural net.
 
-We need to define first what we mean by "best". We define 
+We need to define first what we mean by "best". We define this precisely by choosing a **loss function**, which will return a value vased on a prediciton and a target, where lower values of the function correspond to "better" predictions. It's important for loss functions to return lower values when predictions are more accurate, as SGD procedure we defined earlier will try to minimize this loss. For continuous data, it's common to use mean squared error:
+
+```
+def mse(preds, targets): return ((preds-targets)**2).mean()
+```
+
+#### Step 1: Initialize the parameters
+First, we init the params to random vals, and tell PyTorch that we want to track their gradients, using `requires_grad_`
+
+```
+params = torch.randn(3).requires_grad_()
+orig_params = params.clone()
+```
