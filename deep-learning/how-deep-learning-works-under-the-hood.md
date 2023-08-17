@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:15:59.890Z
+date: 2023-08-17T15:19:08.033Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -493,3 +493,11 @@ First, we init the params to random vals, and tell PyTorch that we want to track
 params = torch.randn(3).requires_grad_()
 orig_params = params.clone()
 ```
+
+#### Step 2: Calculate the predictions
+Next, we calculate the predictions:
+```
+preds = f(time, params)
+```
+
+Let's create a little function to see how close our predictions are to our targets, and take a look.
