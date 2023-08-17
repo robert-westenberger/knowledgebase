@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:19:08.033Z
+date: 2023-08-17T15:20:53.493Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -501,3 +501,12 @@ preds = f(time, params)
 ```
 
 Let's create a little function to see how close our predictions are to our targets, and take a look.
+
+```
+def show_preds(preds, ax=None):
+    if ax is None: ax=plt.subplots()[1]
+    ax.scatter(time, speed)
+    ax.scatter(time, to_np(preds), color='red')
+    ax.set_ylim(-300,100)
+```
+
