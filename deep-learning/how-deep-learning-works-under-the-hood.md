@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T15:57:28.426Z
+date: 2023-08-17T15:58:44.161Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -553,3 +553,12 @@ params.grad = None
 ```
 
 Understanding this bit depends on remembering recent history. To calculate the gradients we call `backward` on the `loss`. But this `loss` was itself calculated by `mse`, which in turn took `preds` as an input, which was calculated using `f` taking as an input `params`, which was the object on which we originally called `requires_grad_`—which is the original call that now allows us to call `backward` on `loss`. This chain of function calls represents the mathematical composition of functions, which enables PyTorch to use calculus's chain rule under the hood to calculate these gradients.
+
+Let's see if the loss has improved:
+
+```
+preds = f(time,params)
+mse(preds, speed)
+## tensor(5435.5356, grad_fn=<MeanBackward0>)
+```
+
