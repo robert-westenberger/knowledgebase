@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:08:32.787Z
+date: 2023-08-18T16:09:43.848Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -759,5 +759,9 @@ Unfortunately, we have a significant technical problem here. The gradient of a f
 We can write this mathematically as `(y_new - y_old) / (x_new - x_old)`. This gives us a good approximation of the gradient when `x_new` is very similar to `x_old`, meaning that their difference is very small. But accuracy only changes at all when a prediction changes from a 3 to a 7, or vice versa. The problem is that a small change in weights from `x_old` to `x_new` isn't likely to cause any prediciton to change, so `(y_new - y_old)` will almost always be 0. In other words, the gradient is 0 almost everywhere.
 
 A very small change inthe value of a weight will often not actually change the accuracy at all. This means its not useful to use accuracy as a loss function - if we do, most of the time ourgradients will actually be 0, and the model will not be able to learn from that number. 
+
+> In mathematical terms, accuracy is a function that is constant almost everywhere (except at the threshhold, 0.5), so its derivative is nil almost everywhere (and infinity at the threshhold). This then gives gradients that are 0 or infinite, which areuseless for updating the model.
+{.is-info}
+
 
 
