@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:41:49.004Z
+date: 2023-08-18T15:43:33.088Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -673,3 +673,7 @@ weights = init_params((28*28,1))
 ```
 
 The function `weights*pixels` won't be flexible enough-it is always equal to 0 when the pixels are equal to 0 (i.e. its intercept is 0). You might remember from high school math that the formula for a line is `y=w*x+b`; we still need the `b`. We'll initialize it to a random number too.
+
+```
+bias = init_params(1)
+```
