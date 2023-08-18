@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:54:25.309Z
+date: 2023-08-18T15:55:19.281Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -716,3 +716,4 @@ preds
 ##         [ 0.3403]], grad_fn=<AddBackward0>)
 ```
 
+The first element is the same as we calculated before, as we expect. This equation, `batch@weights + bias`, is one of the two fundamental equations of any neural network (the other one is the activation function, which we'll see in a moment).
