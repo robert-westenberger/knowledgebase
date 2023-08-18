@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:45:37.257Z
+date: 2023-08-18T16:46:16.080Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -807,3 +807,5 @@ For instance, if we change our prediction for one of the "false" target from `0.
 mnist_loss(tensor([0.9, 0.4, 0.8]),trgts)
 ## tensor(0.2333)
 ```
+
+One problem with the `mnist_loss` as currently defined is that it assumes that predictions are always between 0 and 1. We need to ensure then that this is actually the case. 
