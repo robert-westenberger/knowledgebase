@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:39:31.965Z
+date: 2023-08-18T15:41:49.004Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -664,3 +664,12 @@ valid_dset = list(zip(valid_x,valid_y))
 
 Now we need an (initially random) weight for every pixel (this is the initialize step in our seven-step process).
 
+```
+def init_params(size, std=1.0): return (torch.randn(size)*std).requires_grad_()
+```
+
+```
+weights = init_params((28*28,1))
+```
+
+The function `weights*pixels` won't be flexible enough-it is always equal to 0 when the pixels are equal to 0 (i.e. its intercept is 0). You might remember from high school math that the formula for a line is `y=w*x+b`; we still need the `b`. We'll initialize it to a random number too.
