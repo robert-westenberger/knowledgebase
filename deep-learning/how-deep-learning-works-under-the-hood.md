@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:27:26.902Z
+date: 2023-08-18T15:28:11.625Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -633,4 +633,4 @@ To find how to change the weights to make the loss a bit better, we (well, PyTor
  
 
 ## The MNIST Loss Function
-We already have our independent variables `x` - the images themselves.
+We already have our independent variables `x` - the images themselves. We'll concatenate them all into a single tensor, and also change them from a list of matrices (a rank-3 tensor) to a list of vectors (a rank-2 tensor).
