@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:11:41.502Z
+date: 2023-08-18T16:34:09.370Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -768,4 +768,20 @@ Instead, we need a loss function which, when our weights result in slightly bett
 Let's write such a function. What form does it take?
 
 The loss function receives not the images themselves, but the predictions from the model. Let's make one argument, `prds`, of values between 0 and 1, where each value is the prediction that an image is a 3. It is a vector (rank-1 tensor), indexed over the images.
+
+The purpose of the loss function is to measure the difference between predicted values and the true values - that is, targets (aka labels). Let's make another argument, `trgts`, with values of 0 or 1, which tells whether an image is actually a 3 or not. It is also a vector (rank 1 tensor), indexed over the images.
+
+Suppose we had three images which we knew were a 3, 7, and a 3. Suppose our model predicted with high confidence (`0.9`) that the first was a 3, with slight confidence (`0.4`) that the second was a 7, and with fair confidence (`0.2`) but incorrectly that the last was a 7. That would mean our loss function would receive these values as inputs:
+
+```
+trgts  = tensor([1,0,1])
+prds   = tensor([0.9, 0.4, 0.2])
+```
+
+Here's a first try at a loss function that measures the distance between `predictions` and `targets`:
+
+```
+def mnist_loss(predictions, targets):
+    return torch.where(targets==1, 1-predictions, predictions).mean()
+```
 
