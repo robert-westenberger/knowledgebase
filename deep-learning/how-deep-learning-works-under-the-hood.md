@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:58:39.798Z
+date: 2023-08-18T16:01:02.063Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -736,4 +736,16 @@ corrects
 corrects.float().mean().item()
 ## 0.5855114459991455
 ```
+
+Now let's see what the change in accuracy is for a small change in one of the weights (note that we have to ask PyTorch not to calculate the gradients as we do this, which is what `with torch.no_grad()` is doing here:
+
+```
+with torch.no_grad(): weights[0] *= 1.0001
+```
+
+```
+preds = linear1(train_x)
+((preds>0.0).float() == train_y).float().mean().item()
+```
+
 
