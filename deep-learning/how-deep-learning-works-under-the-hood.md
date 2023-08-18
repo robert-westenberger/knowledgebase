@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:34:09.370Z
+date: 2023-08-18T16:39:16.460Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -785,3 +785,11 @@ def mnist_loss(predictions, targets):
     return torch.where(targets==1, 1-predictions, predictions).mean()
 ```
 
+We're using a new function, `torch.where(a,b,c)`. This. is the same as running the list comprehension `[b[i] if a[i] else c[i] for i in range(len(a))]`, except it works on tensors, at C/CUDA speed. In plain English, this function will measure how distant each prediction is from 1 if it should be 1, and how distant it is from 0 if it should be 0, and then it will take the mean of all those distances.
+
+Lets try it on our `prds` and `trgts`:
+
+```
+torch.where(trgts==1, 1-prds, prds)
+## tensor([0.1000, 0.4000, 0.8000])
+```
