@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:02:36.891Z
+date: 2023-08-18T16:03:46.815Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -750,4 +750,7 @@ preds = linear1(train_x)
 ```
 
 As we've seen, we need gradients in order to improve our model using SGD, and in order to calculate the gradients we need some loss function that represents how good our model is. That is because the gradients are a measure of how that loss function changes with small tweaks to the weights.
+
+
+So we need to choose a loss function. The obvious approach would be to use accuracy, which is our metric, as our loss function as well. We would calculate our prediction for each image, collect these values to calculate overall accuracy , and then calculate the gradients of each weight with respect to that overall accuracy.
 
