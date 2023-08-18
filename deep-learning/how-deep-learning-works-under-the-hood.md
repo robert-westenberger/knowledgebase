@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:39:16.460Z
+date: 2023-08-18T16:45:37.257Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -792,4 +792,18 @@ Lets try it on our `prds` and `trgts`:
 ```
 torch.where(trgts==1, 1-prds, prds)
 ## tensor([0.1000, 0.4000, 0.8000])
+```
+
+You can see that this function returns a lower number when predictions are more accurate, when accurate predicitons are more confident (higher absolute vals), and when inaccurate predictions are less confident). In PyTorch, we always assume that a lower values of a loss function is better. Since we need a scalar for the final loss, `mnist_loss` takes the mean of the previous tensor:
+
+```
+mnist_loss(prds, trgts)
+## tensor(0.4333)
+```
+
+For instance, if we change our prediction for one of the "false" target from `0.2` to `0.8`,  the loss will go down, indicating that this is a better predictio:
+
+```
+mnist_loss(tensor([0.9, 0.4, 0.8]),trgts)
+## tensor(0.2333)
 ```
