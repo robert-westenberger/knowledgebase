@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:03:46.815Z
+date: 2023-08-18T16:07:22.941Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -754,3 +754,6 @@ As we've seen, we need gradients in order to improve our model using SGD, and in
 
 So we need to choose a loss function. The obvious approach would be to use accuracy, which is our metric, as our loss function as well. We would calculate our prediction for each image, collect these values to calculate overall accuracy , and then calculate the gradients of each weight with respect to that overall accuracy.
 
+Unfortunately, we have a significant technical problem here. The gradient of a function is its slope, or steepness, which can be defined as rise over run - how much the value of the function goes upo or down divided by how much we changed the input. 
+
+We can write this mathematically as `(y_new - y_old) / (x_new - x_old)`. This gives us a good approximation of the gradient when `x_new` is very similar to `x_old`, meaning that their difference is very small. But accuracy only changes at all when a prediction changes from a 3 to a 7, or vice versa. The problem is that a small change in weights from `x_old` to `x_new` isn't likely to cause any prediciton to change, so `(y_new - y_old)` will almost always be 0. In other words, the gradient is 0 almost everywhere.
