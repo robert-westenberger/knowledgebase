@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:01:02.063Z
+date: 2023-08-18T16:02:36.891Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -746,6 +746,8 @@ with torch.no_grad(): weights[0] *= 1.0001
 ```
 preds = linear1(train_x)
 ((preds>0.0).float() == train_y).float().mean().item()
+## 0.5855114459991455
 ```
 
+As we've seen, we need gradients in order to improve our model using SGD, and in order to calculate the gradients we need some loss function that represents how good our model is. That is because the gradients are a measure of how that loss function changes with small tweaks to the weights.
 
