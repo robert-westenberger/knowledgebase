@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:07:22.941Z
+date: 2023-08-18T16:08:32.787Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -757,3 +757,7 @@ So we need to choose a loss function. The obvious approach would be to use accur
 Unfortunately, we have a significant technical problem here. The gradient of a function is its slope, or steepness, which can be defined as rise over run - how much the value of the function goes upo or down divided by how much we changed the input. 
 
 We can write this mathematically as `(y_new - y_old) / (x_new - x_old)`. This gives us a good approximation of the gradient when `x_new` is very similar to `x_old`, meaning that their difference is very small. But accuracy only changes at all when a prediction changes from a 3 to a 7, or vice versa. The problem is that a small change in weights from `x_old` to `x_new` isn't likely to cause any prediciton to change, so `(y_new - y_old)` will almost always be 0. In other words, the gradient is 0 almost everywhere.
+
+A very small change inthe value of a weight will often not actually change the accuracy at all. This means its not useful to use accuracy as a loss function - if we do, most of the time ourgradients will actually be 0, and the model will not be able to learn from that number. 
+
+
