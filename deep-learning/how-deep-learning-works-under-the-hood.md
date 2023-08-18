@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:43:33.088Z
+date: 2023-08-18T15:44:42.075Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -677,3 +677,7 @@ The function `weights*pixels` won't be flexible enough-it is always equal to 0 w
 ```
 bias = init_params(1)
 ```
+
+In neural networks, the `w` in the equation `y=w*x+b` is called the **weights**, and the `b` is called the **bias**. Together, the weights and bias make up the **parameters**.
+
+
