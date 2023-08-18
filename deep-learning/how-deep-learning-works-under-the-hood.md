@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:46:50.227Z
+date: 2023-08-18T15:54:25.309Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -690,3 +690,29 @@ We can now calculate a prediction for one image:
 While we could use a Python `for` loop to calculate the prediction for each image, that would be very slow (they don't run on the GPU). 
 
 There's an extremely convenient mathematical operation that calculates the `w*x` for every row of a matrix - it's called matrix multiplication. 
+
+![matrix_multiplication.png](/matrix_multiplication.png)
+
+This image shows two matrices, `A` and `B`, being multiplied together. Each item of the result, which we'll call `AB`, contains each item of its corresponding row of `A` multiplied by each item of its corresponding column of `B`, added together. 
+
+For instance, row 1, column 2 (the yellow dot with a red border) is calculated as 
+
+$
+a_{1,1} * b_{1,2}+a_{1,2} * b_{2,2}
+$
+
+In Python, matrix multiplication is represented with the `@` opreator. 
+
+```
+def linear1(xb): return xb@weights + bias
+preds = linear1(train_x)
+preds
+## tensor([[16.2561],
+##         [14.0191],
+##         [16.8736],
+##         ...,
+##         [ 5.3612],
+##         [ 5.3861],
+##         [ 0.3403]], grad_fn=<AddBackward0>)
+```
+
