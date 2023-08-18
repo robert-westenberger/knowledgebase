@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:55:19.281Z
+date: 2023-08-18T15:57:21.691Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -717,3 +717,19 @@ preds
 ```
 
 The first element is the same as we calculated before, as we expect. This equation, `batch@weights + bias`, is one of the two fundamental equations of any neural network (the other one is the activation function, which we'll see in a moment).
+
+Let's check our accuracy. To decide if an output represents a 3 or a 7, we can just check whether its greater than 0.0, so our accuracy for each item can be calculated (using broadcasting, so no loops) with:
+
+```
+corrects = (preds>0.0).float() == train_y
+corrects
+## tensor([[ True],
+##         [ True],
+##         [ True],
+##         ...,
+##         [False],
+##         [False],
+##         [False]])
+```
+
+
