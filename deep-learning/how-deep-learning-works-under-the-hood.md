@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-17T16:16:23.977Z
+date: 2023-08-18T15:27:26.902Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -633,3 +633,4 @@ To find how to change the weights to make the loss a bit better, we (well, PyTor
  
 
 ## The MNIST Loss Function
+We already have our independent variables `x` - the images themselves.
