@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:28:11.625Z
+date: 2023-08-18T15:31:36.129Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -633,4 +633,4 @@ To find how to change the weights to make the loss a bit better, we (well, PyTor
  
 
 ## The MNIST Loss Function
-We already have our independent variables `x` - the images themselves. We'll concatenate them all into a single tensor, and also change them from a list of matrices (a rank-3 tensor) to a list of vectors (a rank-2 tensor).
+We already have our independent variables `x` - the images themselves. We'll concatenate them all into a single tensor, and also change them from a list of matrices (a rank-3 tensor) to a list of vectors (a rank-2 tensor). We can do this using `view`, which is a PyTorch method that changes the shape of a tensor without changing its contents. `-1` is a special parameter to `view` that means "make this axis as big as necessary to fit all the data".
