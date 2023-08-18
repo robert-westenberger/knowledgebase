@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:09:43.848Z
+date: 2023-08-18T16:10:43.725Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -762,6 +762,8 @@ A very small change inthe value of a weight will often not actually change the a
 
 > In mathematical terms, accuracy is a function that is constant almost everywhere (except at the threshhold, 0.5), so its derivative is nil almost everywhere (and infinity at the threshhold). This then gives gradients that are 0 or infinite, which areuseless for updating the model.
 {.is-info}
+
+Instead, we need a loss function which, when our weights result in slightly better predictions, give us a slightly better loss. What does a "slightly better prediction" look like? In this case, it means that if the correct answer is 3 the score is a little higher, or if the correct answer is a 7 the score is a little lower.
 
 
 
