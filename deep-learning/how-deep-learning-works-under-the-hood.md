@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:44:42.075Z
+date: 2023-08-18T15:46:50.227Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -680,4 +680,13 @@ bias = init_params(1)
 
 In neural networks, the `w` in the equation `y=w*x+b` is called the **weights**, and the `b` is called the **bias**. Together, the weights and bias make up the **parameters**.
 
+We can now calculate a prediction for one image: 
 
+```
+(train_x[0]*weights.T).sum() + bias
+## tensor([16.2561], grad_fn=<AddBackward0>)
+```
+
+While we could use a Python `for` loop to calculate the prediction for each image, that would be very slow (they don't run on the GPU). 
+
+There's an extremely convenient mathematical operation that calculates the `w*x` for every row of a matrix - it's called matrix multiplication. 
