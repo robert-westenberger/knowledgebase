@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T15:31:36.129Z
+date: 2023-08-18T15:39:31.965Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -634,3 +634,33 @@ To find how to change the weights to make the loss a bit better, we (well, PyTor
 
 ## The MNIST Loss Function
 We already have our independent variables `x` - the images themselves. We'll concatenate them all into a single tensor, and also change them from a list of matrices (a rank-3 tensor) to a list of vectors (a rank-2 tensor). We can do this using `view`, which is a PyTorch method that changes the shape of a tensor without changing its contents. `-1` is a special parameter to `view` that means "make this axis as big as necessary to fit all the data".
+
+```
+train_x = torch.cat([stacked_threes, stacked_sevens]).view(-1, 28*28)
+```
+
+We need a label for each image. We'll use `1` for 3s and `0` for 7s:
+
+```
+train_y = tensor([1]*len(threes) + [0]*len(sevens)).unsqueeze(1)
+train_x.shape,train_y.shape
+## (torch.Size([12396, 784]), torch.Size([12396, 1]))
+```
+
+A `Dataset` in PyTorch is required to return a tuple of `(x,y)` when indexed. Python provides a `zip` function which, when cominbed with `list`, provides a simple way to get this functionality:
+
+```
+dset = list(zip(train_x,train_y))
+x,y = dset[0]
+x.shape,y
+## (torch.Size([784]), tensor([1]))
+```
+
+```
+valid_x = torch.cat([valid_3_tens, valid_7_tens]).view(-1, 28*28)
+valid_y = tensor([1]*len(valid_3_tens) + [0]*len(valid_7_tens)).unsqueeze(1)
+valid_dset = list(zip(valid_x,valid_y))
+```
+
+Now we need an (initially random) weight for every pixel (this is the initialize step in our seven-step process).
+
