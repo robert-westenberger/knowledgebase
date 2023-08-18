@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:10:43.725Z
+date: 2023-08-18T16:11:41.502Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -765,5 +765,7 @@ A very small change inthe value of a weight will often not actually change the a
 
 Instead, we need a loss function which, when our weights result in slightly better predictions, give us a slightly better loss. What does a "slightly better prediction" look like? In this case, it means that if the correct answer is 3 the score is a little higher, or if the correct answer is a 7 the score is a little lower.
 
+Let's write such a function. What form does it take?
 
+The loss function receives not the images themselves, but the predictions from the model. Let's make one argument, `prds`, of values between 0 and 1, where each value is the prediction that an image is a 3. It is a vector (rank-1 tensor), indexed over the images.
 
