@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-08-18T16:46:16.080Z
+date: 2023-09-04T15:16:59.823Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -808,4 +808,15 @@ mnist_loss(tensor([0.9, 0.4, 0.8]),trgts)
 ## tensor(0.2333)
 ```
 
-One problem with the `mnist_loss` as currently defined is that it assumes that predictions are always between 0 and 1. We need to ensure then that this is actually the case. 
+One problem with the `mnist_loss` as currently defined is that it assumes that predictions are always between 0 and 1. We need to ensure then that this is actually the case.
+
+### Sigmoid
+The **sigmoid** function always outputs a number between 0 and 1. 
+
+```
+def sigmoid(x): return 1/(1+torch.exp(-x))
+```
+
+![sigmoid.png](/sigmoid.png)
+
+It's a smooth curve that only goes up, which makes it easier for SGD to find meaningful fradients.
