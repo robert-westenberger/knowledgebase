@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:49:44.506Z
+date: 2023-09-04T15:51:40.117Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -970,4 +970,22 @@ def validate_epoch(model):
 ```
 validate_epoch(linear1)
 ## 0.5264
+```
+
+That's our starting point. Let's train for one epoch, and see if accuracy improves:
+
+```
+lr = 1.
+params = weights,bias
+train_epoch(linear1, lr, params)
+validate_epoch(linear1)
+## 0.8721
+```
+
+Then do a few more: 
+```
+for i in range(20):
+    train_epoch(linear1, lr, params)
+    print(validate_epoch(linear1), end=' ')
+## 0.9287 0.943 0.9459 0.9493 0.9498 0.9518 0.9528 0.9523 0.9533 0.9537 0.9537 0.9543 0.9543 0.9543 0.9538 0.9538 0.9533 0.9533 0.9533 0.9528 
 ```
