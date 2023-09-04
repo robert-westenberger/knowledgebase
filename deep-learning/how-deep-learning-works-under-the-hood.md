@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:53:01.647Z
+date: 2023-09-04T15:59:25.187Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -992,3 +992,6 @@ for i in range(20):
 
 ## Creating an Optimizer
 An **optimizer** in PyTorch is  an object that will handle the SGD step for us. 
+### TODO: finish this section
+
+## Adding a Nonlinearity
