@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:23:00.988Z
+date: 2023-09-04T15:24:36.598Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -833,3 +833,5 @@ def mnist_loss(predictions, targets):
 Now that we have a loss function that is driving SGD, we can consider some of the details involved in the next phase of the learning process, which is to change or update the weights based on the gradients. This is called the **optimization step**.
 
 In order to take an optimization step we need to calculate the loss over one or more data items. We calculate the average loss for a few data items at a time (a mini-batch). We do this because calculating the loss for just one item would result in an imprecise and unstable gradient, and calculting it for the whole dataset would take too long.
+
+The number of items in the mini-batch is called the **batch size**. A larger batch size means we'll get a more accurate and stable estimate of the dataset's gradients from the loss function, but it will take longer.
