@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:43:49.275Z
+date: 2023-09-04T15:45:20.690Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -925,4 +925,15 @@ The gradients have changed. The reason is the `loss.backward` actually adds the 
 ```
 weights.grad.zero_()
 bias.grad.zero_();
+```
+
+Our only remaining step is to update the weights and biases based on the gradient and learning rate. When we do so, we have to tell PyTorch not to take the gradient of this step too - otherwise things will get very confusing when we try to compute the derivative at the next batch. If we assign to the `data` attribute of a tensor then PyTorch will not take the gradient of that step. 
+
+```
+def train_epoch(model, lr, params):
+    for xb,yb in dl:
+        calc_grad(xb, yb, model)
+        for p in params:
+            p.data -= p.grad*lr
+            p.grad.zero_()
 ```
