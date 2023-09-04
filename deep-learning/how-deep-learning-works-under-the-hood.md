@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:46:55.131Z
+date: 2023-09-04T15:48:22.905Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -944,3 +944,11 @@ We can check how we're doing by looking at the accuracy of the validation set. T
 (preds>0.0).float() == train_y[:4]
 ```
 
+This gives us this function to calculate our validation accuracy
+
+```
+def batch_accuracy(xb, yb):
+    preds = xb.sigmoid()
+    correct = (preds>0.5) == yb
+    return correct.float().mean()
+```
