@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:38:05.423Z
+date: 2023-09-04T15:40:49.924Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -873,4 +873,22 @@ Let's create a mini-batch of size 4 for testing:
 ```
 batch = train_x[:4]
 batch.shape
+## torch.Size([4, 784])
 ```
+
+```
+preds = linear1(batch)
+preds 
+## tensor([[-2.1876],
+##         [-8.3973],
+##         [ 2.5000],
+##         [-4.9473]], grad_fn=<AddBackward0>)
+```
+
+```
+loss = mnist_loss(preds, train_y[:4])
+loss
+## tensor(4.2580, grad_fn=<MeanBackward0>)
+```
+
+
