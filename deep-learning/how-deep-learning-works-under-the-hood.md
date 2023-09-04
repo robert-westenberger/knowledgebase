@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:48:22.905Z
+date: 2023-09-04T15:49:44.506Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -951,4 +951,23 @@ def batch_accuracy(xb, yb):
     preds = xb.sigmoid()
     correct = (preds>0.5) == yb
     return correct.float().mean()
+```
+
+We can check it works:
+
+```
+batch_accuracy(linear1(batch), train_y[:4])
+## tensor(0.2500)
+```
+
+and then put the batches together:
+```
+def validate_epoch(model):
+    accs = [batch_accuracy(model(xb), yb) for xb,yb in valid_dl]
+    return round(torch.stack(accs).mean().item(), 4)
+```
+
+```
+validate_epoch(linear1)
+## 0.5264
 ```
