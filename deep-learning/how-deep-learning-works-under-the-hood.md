@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:40:49.924Z
+date: 2023-09-04T15:42:59.647Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -891,4 +891,31 @@ loss
 ## tensor(4.2580, grad_fn=<MeanBackward0>)
 ```
 
+Now we can calculate the gradients:
+```
+loss.backward()
+weights.grad.shape,weights.grad.mean(),bias.grad
+## (torch.Size([784, 1]), tensor(-0.1511), tensor([-1.]))
+```
 
+Let's put all that in a function: 
+```
+def calc_grad(xb, yb, model):
+    preds = model(xb)
+    loss = mnist_loss(preds, yb)
+    loss.backward()
+```
+
+and test it:
+```
+calc_grad(batch, train_y[:4], linear1)
+weights.grad.mean(),bias.grad
+## (tensor(-0.3022), tensor([-2.]))
+```
+
+But look at what happens if we call it twice:
+```
+calc_grad(batch, train_y[:4], linear1)
+weights.grad.mean(),bias.grad
+## (tensor(-0.6045), tensor([-4.]))
+```
