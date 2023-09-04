@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:19:35.341Z
+date: 2023-09-04T15:20:30.604Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -830,3 +830,4 @@ def mnist_loss(predictions, targets):
 ```
 
 ### SGD and Mini-Batches
+Now that we have a loss function that is driving SGD, we can consider some of the details involved in the next phase of the learning process, which is to change or update the weights based on the gradients. This is called the **optimization step**.
