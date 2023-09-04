@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:36:12.266Z
+date: 2023-09-04T15:38:05.423Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -838,3 +838,39 @@ The number of items in the mini-batch is called the **batch size**. A larger bat
 
 
 ## Putting It All Together
+Our process will be implemented something like this for each epoch:
+
+```python
+for x,y in dl:
+    pred = model(x)
+    loss = loss_func(pred, y)
+    loss.backward()
+    parameters -= parameters.grad * lr
+```
+
+First let's reinitialize our params
+
+```
+weights = init_params((28*28,1))
+bias = init_params(1)
+```
+
+A DataLoader can be created from a Dataset
+
+```
+dl = DataLoader(dset, batch_size=256)
+xb,yb = first(dl)
+xb.shape,yb.shape
+```
+
+We can do the same for the validation set:
+
+```
+valid_dl = DataLoader(valid_dset, batch_size=256)
+```
+
+Let's create a mini-batch of size 4 for testing:
+```
+batch = train_x[:4]
+batch.shape
+```
