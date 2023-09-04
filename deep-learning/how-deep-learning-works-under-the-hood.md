@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:42:59.647Z
+date: 2023-09-04T15:43:49.275Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -918,4 +918,11 @@ But look at what happens if we call it twice:
 calc_grad(batch, train_y[:4], linear1)
 weights.grad.mean(),bias.grad
 ## (tensor(-0.6045), tensor([-4.]))
+```
+
+The gradients have changed. The reason is the `loss.backward` actually adds the gradients of `loss` to any gradients that are currently stored. So we have to set the current gradient to 0 first.
+
+```
+weights.grad.zero_()
+bias.grad.zero_();
 ```
