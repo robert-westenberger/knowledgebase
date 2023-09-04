@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:45:20.690Z
+date: 2023-09-04T15:46:55.131Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -937,3 +937,10 @@ def train_epoch(model, lr, params):
             p.data -= p.grad*lr
             p.grad.zero_()
 ```
+
+We can check how we're doing by looking at the accuracy of the validation set. To decide if an output represents a 3 or a 7, we can check whether it's greater than 0. Our accuracy for each item can be caclulated using broadcasting:
+
+```
+(preds>0.0).float() == train_y[:4]
+```
+
