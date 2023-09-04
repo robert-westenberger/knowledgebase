@@ -2,7 +2,7 @@
 title: How deep learning works under the hood
 description: 
 published: true
-date: 2023-09-04T15:16:59.823Z
+date: 2023-09-04T15:19:35.341Z
 tags: deep-learning, machine-learning
 editor: markdown
 ---
@@ -819,4 +819,14 @@ def sigmoid(x): return 1/(1+torch.exp(-x))
 
 ![sigmoid.png](/sigmoid.png)
 
-It's a smooth curve that only goes up, which makes it easier for SGD to find meaningful fradients.
+It's a smooth curve that only goes up, which makes it easier for SGD to find meaningful gradients.
+
+Let's update `mnist_loss` to first apply `sigmoid` to the inputs:
+
+```
+def mnist_loss(predictions, targets):
+    predictions = predictions.sigmoid()
+    return torch.where(targets==1, 1-predictions, predictions).mean()
+```
+
+### SGD and Mini-Batches
