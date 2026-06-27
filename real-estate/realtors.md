@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-27T18:17:34.128Z
+date: 2026-06-27T18:17:50.993Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -44,6 +44,7 @@ dateCreated: 2026-06-27T02:14:05.645Z
 # Pennsylvania
 - Bucks County
 - Philadelphia County (emphasizing philly suburbs)
+- Montgomery County
 # Maryland
 
 # Delaware
