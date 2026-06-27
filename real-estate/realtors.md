@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-27T18:40:02.597Z
+date: 2026-06-27T18:40:20.668Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -28,7 +28,7 @@ e=expensive (700k+),
 ## South
 ### TODO
 - Atlantic(`m`), Cape May(`e`)
-- Burlington, Camden, Gloucester
+- Burlington(`m`), Camden(`m`), Gloucester(`m`)
 - Salem, Cumberland
 
 
