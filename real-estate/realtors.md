@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-27T18:39:11.865Z
+date: 2026-06-27T18:39:25.432Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -22,7 +22,7 @@ e=expensive (700k+),
 
 ## Central
 ### TODO
-- Hunterdon(`m`), Somerset(`e`), Mercer(`m)
+- Hunterdon(`m`), Somerset(`e`), Mercer(`m`)
 - Monmouth (`e`)
 - Ocean (`m`)
 ## South
