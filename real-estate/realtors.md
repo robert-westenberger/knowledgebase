@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-27T18:17:50.993Z
+date: 2026-06-27T18:18:13.316Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -11,12 +11,7 @@ dateCreated: 2026-06-27T02:14:05.645Z
 # New Jersey
 ## North
 ### John Bowe (2019238834)
-- Bergen
-- Essex
-- Union
-- Hudson
-- Middlesex
-
+- Bergen, Essex, Union, Hudson, Middlesex
 ### TODO
 - Sussex
 - Passaic
