@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-27T18:07:28.487Z
+date: 2026-06-27T18:10:36.418Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -40,3 +40,5 @@ dateCreated: 2026-06-27T02:14:05.645Z
 - Gloucester
 - Ocean
 - Salem
+
+# Pennsylvania
