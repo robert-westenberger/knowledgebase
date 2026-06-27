@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-27T18:11:21.511Z
+date: 2026-06-27T18:17:34.128Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -42,7 +42,8 @@ dateCreated: 2026-06-27T02:14:05.645Z
 - Salem
 
 # Pennsylvania
-
+- Bucks County
+- Philadelphia County (emphasizing philly suburbs)
 # Maryland
 
 # Delaware
