@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-27T18:36:06.550Z
+date: 2026-06-27T18:39:11.865Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -16,15 +16,15 @@ e=expensive (700k+),
 # New Jersey
 ## North
 ### John Bowe (2019238834)
-- Bergen, Essex, Union, Hudson, Middlesex
+- Bergen(`e`), Essex(`e`), Union(`e`), Hudson(`e`), Middlesex(`e`)
 ### TODO
-- Sussex, Warren
+- Sussex(`m`), Warren(`m`)
 
 ## Central
 ### TODO
-- Hunterdon, Somerset, Mercer
-- Monmouth
-- Ocean
+- Hunterdon(`m`), Somerset(`e`), Mercer(`m)
+- Monmouth (`e`)
+- Ocean (`m`)
 ## South
 ### TODO
 - Atlantic, Cape May
