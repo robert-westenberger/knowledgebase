@@ -2,7 +2,7 @@
 title: Locations
 description: 
 published: true
-date: 2026-06-28T16:40:44.018Z
+date: 2026-06-28T17:09:19.530Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -12,7 +12,7 @@ dateCreated: 2026-06-27T02:14:05.645Z
 `c`= cheap( < 400k)
 `m` = moderate (400k <= && >= 700k)
 `e` = expensive ( > 700k )
-e=expensive (700k+), 
+
 # New Jersey
 ## North
 ### Bergen (e)
@@ -20,10 +20,10 @@ e=expensive (700k+),
 ### Union (e)
 ### Hudson (e)
 ### Middlesex (e)
-### John Bowe (2019238834)
-- Bergen(`e`), Essex(`e`), Union(`e`), Hudson(`e`), Middlesex(`e`)
-### TODO
-- Sussex(`m`), Warren(`m`)
+
+### Suxxex (m)
+### Warren (m)
+
 
 ## Central
 ### TODO
