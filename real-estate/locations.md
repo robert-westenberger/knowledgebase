@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-28T16:39:51.896Z
+date: 2026-06-28T16:40:06.283Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -18,7 +18,7 @@ e=expensive (700k+),
 ### Bergen
 ### Essex
 ### Union
-### Hudson
+### Hudson (e)
 ### Middlesex (e)
 ### John Bowe (2019238834)
 - Bergen(`e`), Essex(`e`), Union(`e`), Hudson(`e`), Middlesex(`e`)
