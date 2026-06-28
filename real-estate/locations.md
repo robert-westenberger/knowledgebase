@@ -2,7 +2,7 @@
 title: Locations
 description: 
 published: true
-date: 2026-06-28T23:19:53.783Z
+date: 2026-06-28T23:20:17.477Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -16,6 +16,9 @@ dateCreated: 2026-06-27T02:14:05.645Z
 (Actual number values are parsed from https://www.redfin.com/news/data-center )
 
 # Locations to focus on
+## NJ
+### Sussex County
+### Warren County
 # New Jersey
 
 ## North
