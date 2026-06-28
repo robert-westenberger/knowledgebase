@@ -2,7 +2,7 @@
 title: All Counties In Search Area
 description: 
 published: true
-date: 2026-06-28T23:21:46.642Z
+date: 2026-06-28T23:22:47.240Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -15,11 +15,7 @@ dateCreated: 2026-06-27T02:14:05.645Z
 
 (Actual number values are parsed from https://www.redfin.com/news/data-center )
 
-# Locations to focus on
-## NJ
-### Sussex County
-### Warren County
-### Mercer County
+
 # New Jersey
 
 ## North
