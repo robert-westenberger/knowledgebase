@@ -2,7 +2,7 @@
 title: Locations
 description: 
 published: true
-date: 2026-06-28T17:13:18.907Z
+date: 2026-06-28T17:13:40.485Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -180,24 +180,3 @@ dateCreated: 2026-06-27T02:14:05.645Z
 ### Baltimore County (`m`)
 
 ### Baltimore City (`c`)
-
-
-
-
-
-# Pennsylvania
-- Bucks County
-- Philadelphia County (emphasizing philly suburbs)
-- Montgomery County
-- Delaware, Chester
-- Lehigh Valley ( Northampton County, Lehigh county, carbon county)
-
-# Maryland
-
-# Delaware
-
-# New York State
-- Rockland County, Orange County
-- Sullivan County, Ulster County
-- Westchester County, Putnam County, Dutchess County
-# Connecticut
