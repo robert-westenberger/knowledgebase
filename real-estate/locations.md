@@ -1,8 +1,8 @@
 ---
-title: Realtors
+title: Locations
 description: 
 published: true
-date: 2026-06-28T16:40:14.474Z
+date: 2026-06-28T16:40:44.018Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
