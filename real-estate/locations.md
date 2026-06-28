@@ -2,7 +2,7 @@
 title: Locations
 description: 
 published: true
-date: 2026-06-28T23:18:51.534Z
+date: 2026-06-28T23:19:53.783Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -14,6 +14,8 @@ dateCreated: 2026-06-27T02:14:05.645Z
 `e` = expensive ( > 700k )
 
 (Actual number values are parsed from https://www.redfin.com/news/data-center )
+
+# Locations to focus on
 # New Jersey
 
 ## North
