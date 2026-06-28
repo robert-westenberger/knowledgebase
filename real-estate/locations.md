@@ -2,7 +2,7 @@
 title: Locations
 description: 
 published: true
-date: 2026-06-28T17:14:04.739Z
+date: 2026-06-28T23:16:43.270Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -14,169 +14,138 @@ dateCreated: 2026-06-27T02:14:05.645Z
 `e` = expensive ( > 700k )
 
 # New Jersey
+
 ## North
-### Bergen (`e`)
-### Essex (`e`)
-### Union (`e`)
-### Hudson (`e`)
-### Middlesex (`e`)
 
-### Suxxex (`m`)
-### Warren (`m`)
-
+### Bergen (`e`) — $787,638
+### Essex (`e`) — $722,832
+### Union (`e`) — $720,339
+### Hudson (`m`) — $682,952
+### Middlesex (`m`) — $538,385
+### Sussex (`m`) — $473,580
+### Warren (`m`) — $409,771
 
 ## Central
-### Hunterdon(`m`)
-### Somerset(`e`)
-### Mercer(`m`)
-### Monmouth (`e`)
-### Ocean (`m`)
-## South
-### Atlantic(`m`)
-### Cape May(`e`)
-### Burlington(`m`)
-### Camden(`m`)
-### Gloucester(`m`)
-### Salem(`c`)
-### Cumberland(`c`)
 
+### Hunterdon (`m`) — $613,161
+### Somerset (`m`) — $635,594
+### Mercer (`m`) — $478,565
+### Monmouth (`e`) — $722,832
+### Ocean (`m`) — $516,650
+
+## South
+
+### Atlantic (`c`) — $399,801
+### Cape May (`e`) — $742,772
+### Burlington (`c`) — $388,834
+### Camden (`c`) — $375,013
+### Gloucester (`c`) — $373,879
+### Salem (`c`) — $264,208
+### Cumberland (`c`) — $285,743
 
 # Pennsylvania
 
 ## Philadelphia and Suburbs
 
-### Philadelphia (`m`)
-
-### Bucks (`e`)
-
-### Montgomery (`e`)
-
-### Delaware (`m`)
-
-### Chester (`e`)
+### Philadelphia (`c`) — $293,029
+### Bucks (`m`) — $538,385
+### Montgomery (`m`) — $484,547
+### Delaware (`c`) — $366,900
+### Chester (`m`) — $551,745
 
 ## Lehigh Valley
 
-### Lehigh (`m`)
-
-### Northampton (`m`)
-
-### Carbon (`c`)
+### Lehigh (`c`) — $365,155
+### Northampton (`c`) — $385,344
+### Carbon (`c`) — $298,106
 
 ## Northeastern Pennsylvania
 
-### Monroe (`m`)
-
-### Pike (`m`)
-
-### Wayne (`c`)
-
-### Lackawanna (`c`)
-
-### Luzerne (`c`)
-
-### Susquehanna (`c`)
+### Monroe (`c`) — $348,854
+### Pike (`c`) — $348,953
+### Wayne (`c`) — $286,640
+### Lackawanna (`c`) — $244,267
+### Luzerne (`c`) — $234,297
+### Susquehanna (`c`) — $209,372
 
 ## Reading and Central Pennsylvania
 
-### Berks (`c`)
-
-### Schuylkill (`c`)
-
-### Lancaster (`m`)
-
-### Lebanon (`c`)
-
-### Dauphin (`m`)
-
-### Cumberland (`m`)
-
-### York (`m`)
-
-### Perry (`c`)
+### Berks (`c`) — $304,088
+### Schuylkill (`c`) — $197,358
+### Lancaster (`c`) — $363,909
+### Lebanon (`c`) — $309,073
+### Dauphin (`c`) — $293,619
+### Cumberland (`c`) — $320,539
+### York (`c`) — $298,514
+### Perry (`c`) — $321,536
 
 ## North-Central Pennsylvania
 
-### Columbia (`c`)
-
-### Montour (`c`)
-
-### Northumberland (`c`)
+### Columbia (`c`) — $239,282
+### Montour (`c`) — $234,247
+### Northumberland (`c`) — $174,227
 
 # New York
 
 ## Lower Hudson Valley
 
-### Rockland (`e`)
-
-### Orange (`m`)
-
-### Westchester (`e`)
-
-### Putnam (`e`)
+### Rockland (`e`) — $746,760
+### Orange (`m`) — $476,072
+### Westchester (`e`) — $867,398
+### Putnam (`m`) — $538,385
 
 ## Mid-Hudson Valley
 
-### Dutchess (`m`)
-
-### Ulster (`m`)
-
-### Sullivan (`c`)
+### Dutchess (`m`) — $518,445
+### Ulster (`m`) — $453,639
+### Sullivan (`c`) — $299,103
 
 ## New York City
 
-### Bronx (`e`)
-
-### New York / Manhattan (`e`)
-
-### Kings / Brooklyn (`e`)
-
-### Queens (`e`)
-
-### Richmond / Staten Island (`e`)
+### Bronx (`m`) — $611,915
+### New York / Manhattan (`e`) — $1,445,664
+### Kings / Brooklyn (`e`) — $1,046,860
+### Queens (`e`) — $742,274
+### Richmond / Staten Island (`e`) — $742,772
 
 ## Long Island
 
-### Nassau (`e`)
-
-### Suffolk (`e`)
+### Nassau (`e`) — $847,458
+### Suffolk (`m`) — $679,961
 
 # Connecticut
 
 ## Southwest
 
-### Fairfield (`e`)
+### Fairfield (`e`) — $747,757
 
 ## Western Connecticut
 
-### Litchfield (`m`)
-
-### New Haven (`m`)
+### Litchfield (`m`) — $428,714
+### New Haven (`m`) — $418,744
 
 # Delaware
 
 ## North
 
-### New Castle (`m`)
+### New Castle (`c`) — $388,734
 
 ## Central
 
-### Kent (`m`)
+### Kent (`c`) — $368,794
 
 ## South
 
-### Sussex (`e`)
+### Sussex (`m`) — $443,669
 
 # Maryland
 
 ## Northeast
 
-### Cecil (`m`)
-
-### Harford (`m`)
+### Cecil (`c`) — $364,060
+### Harford (`m`) — $423,729
 
 ## Baltimore Area
 
-### Baltimore County (`m`)
-
-### Baltimore City (`c`)
+### Baltimore County (`c`) — $378,365
+### Baltimore City — no data
