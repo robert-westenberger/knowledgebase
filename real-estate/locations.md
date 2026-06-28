@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-06-28T16:40:06.283Z
+date: 2026-06-28T16:40:14.474Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T02:14:05.645Z
@@ -15,9 +15,9 @@ dateCreated: 2026-06-27T02:14:05.645Z
 e=expensive (700k+), 
 # New Jersey
 ## North
-### Bergen
-### Essex
-### Union
+### Bergen (e)
+### Essex (e)
+### Union (e)
 ### Hudson (e)
 ### Middlesex (e)
 ### John Bowe (2019238834)
