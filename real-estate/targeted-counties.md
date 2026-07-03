@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T21:19:08.284Z
+date: 2026-07-03T21:24:59.789Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -85,6 +85,7 @@ All prices are median prices from redfin
 ### Lackawanna — $244,267
 
 ### Luzerne — $234,297
+- https://www.zillow.com/homedetails/76-Spring-Ct-Pittston-PA-18640/53487900_zpid/ (345k duplex )
 
 ### Susquehanna — $209,372
 
