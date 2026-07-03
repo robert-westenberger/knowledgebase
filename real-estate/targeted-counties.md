@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T20:54:58.061Z
+date: 2026-07-03T21:01:43.462Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -41,7 +41,7 @@ All prices are median prices from redfin
 - https://www.zillow.com/homedetails/2154-Browning-Rd-Pennsauken-NJ-08110/38295650_zpid/ (365k 1924 duplex)
 
 ### Gloucester — $373,879
-
+- https://www.zillow.com/homedetails/1009-Hessian-Ave-West-Deptford-NJ-08093/38820947_zpid/ (409k duplex 1940 UNDER CONTRACT )
 ### Salem — $264,208
 
 ### Cumberland — $285,743
