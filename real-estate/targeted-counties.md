@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:52:36.648Z
+date: 2026-07-03T20:33:21.470Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -66,6 +66,7 @@ All prices are median prices from redfin
 ## Lehigh Valley
 
 ### Lehigh — $365,155
+- https://www.zillow.com/homedetails/744-N-5th-St-Allentown-PA-18102/81914630_zpid/ (399k 1900 triplex each one bedroom units).
 
 ### Northampton — $385,344
 
