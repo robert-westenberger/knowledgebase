@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T21:04:49.446Z
+date: 2026-07-03T21:19:08.284Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -30,7 +30,7 @@ All prices are median prices from redfin
 ## South
 
 ### Atlantic — $399,801
-
+- https://www.zillow.com/homedetails/2705-Arctic-Ave-Atlantic-City-NJ-08401/52667619_zpid/ ( 339k duplex 1920)
 
 ### Burlington — $388,834
 - https://www.zillow.com/homedetails/332-Bailey-Ave-Maple-Shade-NJ-08052/38118077_zpid/ (472k 1955 duplex)
