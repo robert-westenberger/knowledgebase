@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:07:42.956Z
+date: 2026-07-03T19:14:06.663Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -47,6 +47,7 @@ All prices are median prices from redfin
 ## Philadelphia and Suburbs
 
 ### Philadelphia — $293,029
+- https://www.zillow.com/homedetails/7500-Thouron-Ave-Philadelphia-PA-19150/2132198261_zpid/ (310k 1941 triplex small driveway )
 
 ### Bucks — $538,385
 
