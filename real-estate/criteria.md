@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-06-27T00:48:56.518Z
+date: 2026-07-03T20:32:03.178Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -52,8 +52,6 @@ Purchase an **owner-occupied 2–4 unit property** that provides a comfortable p
 * Owner’s unit or immediate neighborhood would be unacceptable to live in
 
 ## Strong Preferences
-
-* Three or four units rather than a duplex
 * Separate utilities
 * Off-street parking
 * Low-maintenance exterior
