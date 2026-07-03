@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:06:56.942Z
+date: 2026-07-03T19:07:42.956Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -55,7 +55,7 @@ All prices are median prices from redfin
 ### Delaware — $366,900
 
 ### Chester — $551,745
-- https://www.zillow.com/homedetails/537-539-W-1st-Ave-Parkesburg-PA-19365/2098635516_zpid/ (475k duplex)
+- https://www.zillow.com/homedetails/537-539-W-1st-Ave-Parkesburg-PA-19365/2098635516_zpid/ (475k duplex built 1900 offstreet parking corner lot). 
 
 ## Lehigh Valley
 
