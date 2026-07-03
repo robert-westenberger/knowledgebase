@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:34:53.100Z
+date: 2026-07-03T19:37:05.286Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -54,7 +54,7 @@ All prices are median prices from redfin
 ### Bucks — $538,385
 
 ### Montgomery — $484,547
-
+- https://www.zillow.com/homedetails/1001-W-High-St-Stowe-PA-19464/10067973_zpid/ (379k 1910 duplex)
 ### Delaware — $366,900
 
 ### Chester — $551,745
