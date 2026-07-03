@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T21:01:43.462Z
+date: 2026-07-03T21:04:49.446Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -42,6 +42,7 @@ All prices are median prices from redfin
 
 ### Gloucester — $373,879
 - https://www.zillow.com/homedetails/1009-Hessian-Ave-West-Deptford-NJ-08093/38820947_zpid/ (409k duplex 1940 UNDER CONTRACT )
+- https://www.zillow.com/homedetails/25-Grant-Ave-Swedesboro-NJ-08085/462825852_zpid/ (400k duplex 1930)
 ### Salem — $264,208
 
 ### Cumberland — $285,743
