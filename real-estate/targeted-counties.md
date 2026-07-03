@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:39:38.717Z
+date: 2026-07-03T19:43:02.846Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -121,6 +121,7 @@ All prices are median prices from redfin
 ## Mid-Hudson Valley
 
 ### Dutchess — $518,445
+- https://www.zillow.com/homedetails/161-Union-St-Poughkeepsie-NY-12601/30082158_zpid/ (399k duplex 1907 )
 
 ### Ulster — $453,639
 
