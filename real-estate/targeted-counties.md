@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:14:06.663Z
+date: 2026-07-03T19:29:57.649Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -48,6 +48,7 @@ All prices are median prices from redfin
 
 ### Philadelphia — $293,029
 - https://www.zillow.com/homedetails/7500-Thouron-Ave-Philadelphia-PA-19150/2132198261_zpid/ (310k 1941 triplex small driveway )
+- https://www.zillow.com/homedetails/4945-Chestnut-St-Philadelphia-PA-19139/2078629118_zpid/ (530k 1925 duplex + inlaw suite in university area)
 
 ### Bucks — $538,385
 
