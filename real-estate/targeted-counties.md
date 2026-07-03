@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:46:23.681Z
+date: 2026-07-03T19:50:25.086Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -37,7 +37,7 @@ All prices are median prices from redfin
 
 ### Camden — $375,013
 - https://www.zillow.com/homedetails/153-New-Freedom-Rd-Berlin-NJ-08009/248768465_zpid/ (525k triplex 1950 )
-- https://www.zillow.com/homedetails/3-Maynard-Dr-Sicklerville-NJ-08081/38264875_zpid/ (399k duplex 1983)
+- https://www.zillow.com/homedetails/3-Maynard-Dr-Sicklerville-NJ-08081/38264875_zpid/ (399k duplex 1983) ( https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0415_19202_3&sale_start_date=null&sale_end_date=null&sig=Do0E_weTt7VTJ2Sa9JL1LHvN7PmVgh6u02tkRtZAMJ4= )
 
 ### Gloucester — $373,879
 
