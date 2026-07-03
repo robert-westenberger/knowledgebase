@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:50:25.086Z
+date: 2026-07-03T19:52:36.648Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -44,6 +44,7 @@ All prices are median prices from redfin
 ### Salem — $264,208
 
 ### Cumberland — $285,743
+- https://www.zillow.com/homedetails/815-Sawyer-Ave-Vineland-NJ-08360/38424104_zpid/ ( 345k 1940 duplex)
 
 # Pennsylvania
 
