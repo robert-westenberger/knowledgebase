@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T20:33:21.470Z
+date: 2026-07-03T20:45:45.737Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -97,6 +97,7 @@ All prices are median prices from redfin
 ### Lebanon — $309,073
 
 ### Dauphin — $293,619
+- https://www.zillow.com/homedetails/568-570-Race-St-Harrisburg-PA-17104/461185756_zpid/ ( 380k triplex 1900 .. pending / under contract).
 
 ### Cumberland — $320,539
 
