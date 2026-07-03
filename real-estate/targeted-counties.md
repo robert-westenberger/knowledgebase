@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T19:29:57.649Z
+date: 2026-07-03T19:34:53.100Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -35,6 +35,7 @@ All prices are median prices from redfin
 ### Burlington — $388,834
 
 ### Camden — $375,013
+- https://www.zillow.com/homedetails/153-New-Freedom-Rd-Berlin-NJ-08009/248768465_zpid/ (525k triplex 1950 )
 
 ### Gloucester — $373,879
 
