@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T21:12:21.821Z
+date: 2026-07-04T21:13:37.419Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -28,6 +28,7 @@ All prices are median prices from redfin
 
 ### Mercer — $478,565
 - https://www.zillow.com/homedetails/6-Peace-St-Trenton-NJ-08608/39020076_zpid/ ( 260k 1887 duplex fully occupied)
+- https://www.zillow.com/homedetails/327-Rutherford-Ave-Trenton-NJ-08618/39015567_zpid/ ( 300k 1900 duplex)
 
 ## South
 
