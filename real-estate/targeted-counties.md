@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T19:06:08.257Z
+date: 2026-07-04T19:08:25.647Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -137,7 +137,7 @@ All prices are median prices from redfin
 ### Ulster — $453,639
 
 ### Sullivan — $299,103
-
+- https://www.zillow.com/homedetails/85-Delaware-Trl-Glen-Spey-NY-12737/208790930_zpid/ ( 200k duplex (mobile home + separate cottage)) )
 
 # Connecticut
 
