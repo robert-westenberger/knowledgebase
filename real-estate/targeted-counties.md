@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T20:00:34.583Z
+date: 2026-07-04T20:11:54.584Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -20,6 +20,7 @@ All prices are median prices from redfin
 
 ### Warren — $409,771
 - https://www.zillow.com/homedetails/62-Summit-Ave-Phillipsburg-NJ-08865/40113638_zpid/ (340k 1900 duplex )
+- https://www.zillow.com/homedetails/19-Limekiln-Rd-Phillipsburg-NJ-08865/2081730941_zpid/ (260k 1920 duplex
 
 ## Central
 
@@ -70,7 +71,7 @@ All prices are median prices from redfin
 
 ### Lehigh — $365,155
 - https://www.zillow.com/homedetails/744-N-5th-St-Allentown-PA-18102/81914630_zpid/ (399k 1900 triplex each one bedroom units).
-
+- https://www.zillow.com/homedetails/223-S-15th-St-Allentown-PA-18102/81917831_zpid/ (260k 1920 duplex)
 ### Northampton — $385,344
 
 ### Carbon — $298,106
