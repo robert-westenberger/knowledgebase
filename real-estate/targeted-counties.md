@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T21:08:24.407Z
+date: 2026-07-04T21:12:21.821Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -34,6 +34,7 @@ All prices are median prices from redfin
 ### Atlantic — $399,801
 - https://www.zillow.com/homedetails/2705-Arctic-Ave-Atlantic-City-NJ-08401/52667619_zpid/ ( 339k duplex 1920)
 - https://www.zillow.com/homedetails/46-S-Elberon-Ave-Atlantic-City-NJ-08401/52665649_zpid/ ( 550k duplex 1900 )
+- https://www.zillow.com/homedetails/3107-Fairmount-Ave-Atlantic-City-NJ-08401/52668081_zpid/ (390k duplex 1900 )
 
 ### Burlington — $388,834
 - https://www.zillow.com/homedetails/332-Bailey-Ave-Maple-Shade-NJ-08052/38118077_zpid/ (472k 1955 duplex)
