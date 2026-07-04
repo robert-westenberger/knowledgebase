@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-03T21:25:22.564Z
+date: 2026-07-04T19:06:08.257Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -19,6 +19,7 @@ All prices are median prices from redfin
 ### Sussex — $473,580
 
 ### Warren — $409,771
+- https://www.zillow.com/homedetails/62-Summit-Ave-Phillipsburg-NJ-08865/40113638_zpid/ (340k 1900 duplex )
 
 ## Central
 
@@ -94,8 +95,10 @@ All prices are median prices from redfin
 ### Berks — $304,088
 
 ### Schuylkill — $197,358
+- https://www.zillow.com/homedetails/23-W-Spruce-St-Tamaqua-PA-18252/124658731_zpid/ (312k 1910 triplex. it has an elevator. Current rents are $650 1 bdr, $850 2 bdr, $1200 3 bdr.)
 
 ### Lancaster — $363,909
+- https://www.zillow.com/homedetails/702-Poplar-St-Lancaster-PA-17603/9741917_zpid/ (375k 1880 triplex, new roof new sewer line ). Quality Long term tenants.
 
 ### Lebanon — $309,073
 
@@ -115,6 +118,7 @@ All prices are median prices from redfin
 ### Montour — $234,247
 
 ### Northumberland — $174,227
+- https://www.zillow.com/homedetails/647-649-Hepburn-St-Milton-PA-17847/78735127_zpid/ (175k 1978 duplex fully rented middle of nowhere)
 
 # New York
 
