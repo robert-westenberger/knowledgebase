@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T19:08:25.647Z
+date: 2026-07-04T19:12:35.405Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -100,6 +100,7 @@ All prices are median prices from redfin
 ### Lancaster — $363,909
 - https://www.zillow.com/homedetails/702-Poplar-St-Lancaster-PA-17603/9741917_zpid/ (375k 1880 triplex, new roof new sewer line ). Quality Long term tenants.
 
+- https://www.zillow.com/homedetails/537-E-King-St-Lancaster-PA-17602/9731870_zpid/ (325k triplex 1900 under contract fully leased)
 ### Lebanon — $309,073
 
 ### Dauphin — $293,619
