@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T21:15:01.000Z
+date: 2026-07-04T22:28:08.892Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -17,6 +17,8 @@ All prices are median prices from redfin
 ### Middlesex — $538,385
 
 ### Sussex — $473,580
+
+### Essex — $722,832
 
 ### Warren — $409,771
 - https://www.zillow.com/homedetails/62-Summit-Ave-Phillipsburg-NJ-08865/40113638_zpid/ (340k 1900 duplex )
