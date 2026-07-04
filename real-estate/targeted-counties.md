@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T22:28:08.892Z
+date: 2026-07-04T22:31:21.193Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -19,7 +19,8 @@ All prices are median prices from redfin
 ### Sussex — $473,580
 
 ### Essex — $722,832
-
+- https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_zpid/ (410k duplex)
+- https://www.zillow.com/homedetails/84-Union-St-Newark-NJ-07105/185671563_zpid/ (475k duplex)
 ### Warren — $409,771
 - https://www.zillow.com/homedetails/62-Summit-Ave-Phillipsburg-NJ-08865/40113638_zpid/ (340k 1900 duplex )
 - https://www.zillow.com/homedetails/19-Limekiln-Rd-Phillipsburg-NJ-08865/2081730941_zpid/ (260k 1920 duplex)
