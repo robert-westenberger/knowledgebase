@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-05T20:58:56.816Z
+date: 2026-07-05T21:06:54.804Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -52,19 +52,20 @@ Purchase an **owner-occupied 2–4 unit property** that provides a comfortable p
 * Owner’s unit or immediate neighborhood would be unacceptable to live in
 
 ## Strong Preferences
-* One of the units is a one or two bedroom that I could stay in.
 * Separate utilities
-* Off-street parking
-* Low-maintenance exterior
 * Laundry facilities or hookups
 * Storage for tenants
-* Existing tenants with documented payment histories
-* Modestly below-market rents with realistic upside
 * Cosmetic improvements rather than major system replacements
 * A vacant owner’s unit requiring little or no work
 * Individually controlled heating and cooling
 * Convenient access to employment centers, transit, shopping, and services
 
+## Minor Preferences
+* One of the units is optimized for a single owner occupant. e.g. I would prefer a triplex with two 4 bedrooms and one 1 br rather than a duplex with two 5 bedrooms. I am just by myself and those other rooms would really just go to waste. 
+* Low-maintenance exterior
+* Existing tenants with documented payment histories
+* Modestly below-market rents with realistic upside
+* Off-street parking
 ## Search Summary
 
 > Legal, financeable 2–4 unit property with one comfortable unit available for owner occupancy. Prefer a conservative personal housing cost of no more than $1,500 per month and a maximum near $2,000. Property should be habitable without major rehabilitation, have verifiable rental income and expenses, retain strong cash reserves after closing, and have no significant zoning, occupancy, structural, water, or tenant-related problems.
