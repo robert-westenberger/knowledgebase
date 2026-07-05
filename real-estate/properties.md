@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-05T21:30:37.462Z
+date: 2026-07-05T21:30:46.743Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -12,7 +12,7 @@ dateCreated: 2026-06-28T23:22:19.836Z
 The price next to each county heading is the median prices from redfin data.
 
 
-I have not verified that each of these properties meet my  [search criteria](/real-estate/criteria).
+**I have not verified that each of these properties meet my  [search criteria](/real-estate/criteria).**
 # New Jersey
 
 ## North
