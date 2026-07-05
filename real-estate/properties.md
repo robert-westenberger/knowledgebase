@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-05T21:31:05.427Z
+date: 2026-07-05T21:52:04.201Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -154,6 +154,10 @@ The price next to each county heading is the median prices from redfin data.
 
 ### Sullivan — $299,103
 - https://www.zillow.com/homedetails/85-Delaware-Trl-Glen-Spey-NY-12737/208790930_zpid/ ( 200k duplex (mobile home + separate cottage)) )
+
+## Central New York
+### Onondaga
+- https://www.zillow.com/homedetails/216-Westcott-St-Syracuse-NY-13210/188366377_zpid/ (300k 1900 duplex. "This property was previously rented by the bedroom for $550 per bedroom which would equal $2,750 and $3,300, making a total monthly rent for $6,050 per month on the entire building", but per bedroom doesn't actually scale up to what those would rent for if they were rented a multi bedroom units..)
 
 ## Finger Lakes - OUTSIDE OF SEARCH RANGE
 ### Monroe
