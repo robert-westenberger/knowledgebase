@@ -2,13 +2,13 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-05T21:16:04.791Z
+date: 2026-07-05T21:20:25.401Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
 ---
 
-# Locations to focus on
+
 The price next to each county heading is the median prices from redfin data
 # New Jersey
 
