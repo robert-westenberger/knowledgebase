@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-05T21:20:25.401Z
+date: 2026-07-05T21:28:43.129Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -14,6 +14,7 @@ The price next to each county heading is the median prices from redfin data
 
 ## North
 
+### Passaic - $605,683
 ### Middlesex — $538,385
 
 ### Sussex — $473,580
