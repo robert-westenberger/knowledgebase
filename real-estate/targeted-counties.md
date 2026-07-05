@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-05T20:21:36.010Z
+date: 2026-07-05T20:22:35.185Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -152,6 +152,7 @@ All prices are median prices from redfin
 
 ## Southern Tier - OUTSIDE OF SEARCH RANGE
 ### Courtland - OUTSIDE OF SEARCH RANGE
+- https://www.zillow.com/homedetails/2-South-Ave-Cortland-NY-13045/2087423653_zpid/ (185k, 1964 triplex ~ 14-15% cap rate?)
 ### Chemung - OUTSIDE OF SEARCH RANGE
 - https://www.zillow.com/homedetails/708-Linden-Pl-Elmira-NY-14901/2072187299_zpid/ (180k duplex? 1952. ~15% cap rate???)
 
