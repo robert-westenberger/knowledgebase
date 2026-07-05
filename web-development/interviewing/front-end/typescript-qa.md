@@ -1,10 +1,11 @@
 ---
 title: Typescript Questions
 description: 
-published: true
-date: 2022-03-28T17:20:47.282Z
-tags: typescript, interviewing
+published: false
+date: 2026-07-05T21:10:19.185Z
+tags: interviewing, typescript
 editor: markdown
+dateCreated: 2026-06-26T22:56:50.239Z
 ---
 
 # What are generics?
