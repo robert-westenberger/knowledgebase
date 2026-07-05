@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-05T20:22:35.185Z
+date: 2026-07-05T20:37:13.147Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -149,7 +149,7 @@ All prices are median prices from redfin
 ### Sullivan — $299,103
 - https://www.zillow.com/homedetails/85-Delaware-Trl-Glen-Spey-NY-12737/208790930_zpid/ ( 200k duplex (mobile home + separate cottage)) )
 
-
+## Finger Lakes - OUTSIDE OF SEARCH RANGE
 ## Southern Tier - OUTSIDE OF SEARCH RANGE
 ### Courtland - OUTSIDE OF SEARCH RANGE
 - https://www.zillow.com/homedetails/2-South-Ave-Cortland-NY-13045/2087423653_zpid/ (185k, 1964 triplex ~ 14-15% cap rate?)
