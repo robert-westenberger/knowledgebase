@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-04T22:31:21.193Z
+date: 2026-07-05T19:26:59.502Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -148,6 +148,11 @@ All prices are median prices from redfin
 
 ### Sullivan — $299,103
 - https://www.zillow.com/homedetails/85-Delaware-Trl-Glen-Spey-NY-12737/208790930_zpid/ ( 200k duplex (mobile home + separate cottage)) )
+
+
+## Southern Tier
+### Chemung - OUTSIDE OF SEARCH RANGE
+- https://www.zillow.com/homedetails/708-Linden-Pl-Elmira-NY-14901/2072187299_zpid/ (180k duplex? 1952. 26% cap rate???)
 
 # Connecticut
 
