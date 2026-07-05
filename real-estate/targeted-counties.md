@@ -2,7 +2,7 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-05T20:37:13.147Z
+date: 2026-07-05T20:37:57.904Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -150,6 +150,8 @@ All prices are median prices from redfin
 - https://www.zillow.com/homedetails/85-Delaware-Trl-Glen-Spey-NY-12737/208790930_zpid/ ( 200k duplex (mobile home + separate cottage)) )
 
 ## Finger Lakes - OUTSIDE OF SEARCH RANGE
+### Monroe
+- https://www.zillow.com/homedetails/272-274-Meigs-St-Rochester-NY-14607/30885336_zpid/ (475k 1920 triplex "Annual Income is $77,580 per year annual expenses including taxes are $27,973 the cap rate is 10.44%" )
 ## Southern Tier - OUTSIDE OF SEARCH RANGE
 ### Courtland - OUTSIDE OF SEARCH RANGE
 - https://www.zillow.com/homedetails/2-South-Ave-Cortland-NY-13045/2087423653_zpid/ (185k, 1964 triplex ~ 14-15% cap rate?)
