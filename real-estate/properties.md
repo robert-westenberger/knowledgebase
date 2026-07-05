@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-05T22:17:59.251Z
+date: 2026-07-05T22:49:01.123Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -141,7 +141,7 @@ The price next to each county heading is the median prices from redfin data.
 
 
 ### Orange — $476,072
-
+- https://www.zillow.com/homedetails/22-E-Broome-St-Port-Jervis-NY-12771/31797420_zpid/ ( 420k 1840 triplex "- EARN 8.3% ROI AFTER ALL EXPENSES  $35,000 NET ANNUAL INCOME. Gross Income $55,800!!". Sold "as is". Is there something wrong with the property? Can't tell by looking at the pictures. 
 ### Putnam — $538,385
 
 ## Mid-Hudson Valley
