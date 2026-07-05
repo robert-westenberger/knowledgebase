@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-05T21:06:54.804Z
+date: 2026-07-05T21:07:18.128Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -61,7 +61,7 @@ Purchase an **owner-occupied 2–4 unit property** that provides a comfortable p
 * Convenient access to employment centers, transit, shopping, and services
 
 ## Minor Preferences
-* One of the units is optimized for a single owner occupant. e.g. I would prefer a triplex with two 4 bedrooms and one 1 br rather than a duplex with two 5 bedrooms. I am just by myself and those other rooms would really just go to waste. 
+* The unit breakdown is optimized for a single owner occupant. e.g. I would prefer a triplex with two 4 bedrooms and one 1 br rather than a duplex with two 5 bedrooms. I am just by myself and those other rooms would really just go to waste. 
 * Low-maintenance exterior
 * Existing tenants with documented payment histories
 * Modestly below-market rents with realistic upside
