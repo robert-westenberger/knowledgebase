@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-05T20:58:17.070Z
+date: 2026-07-05T20:58:56.816Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -52,7 +52,7 @@ Purchase an **owner-occupied 2–4 unit property** that provides a comfortable p
 * Owner’s unit or immediate neighborhood would be unacceptable to live in
 
 ## Strong Preferences
-* The unit breakdown is optimized for me to stay in one unit without it being "wasted". 
+* One of the units is a one or two bedroom that I could stay in.
 * Separate utilities
 * Off-street parking
 * Low-maintenance exterior
