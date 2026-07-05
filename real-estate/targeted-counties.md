@@ -2,14 +2,14 @@
 title: Targeted Counties
 description: 
 published: true
-date: 2026-07-05T20:56:32.913Z
+date: 2026-07-05T21:15:26.572Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
 ---
 
 # Locations to focus on
-All prices are median prices from redfin
+The price next to each county heading is the median prices from redfin data
 # New Jersey
 
 ## North
