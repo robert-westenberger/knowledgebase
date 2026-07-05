@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-05T22:09:41.028Z
+date: 2026-07-05T22:10:04.031Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -169,7 +169,7 @@ The price next to each county heading is the median prices from redfin data.
 ### Chemung - OUTSIDE OF SEARCH RANGE
 - https://www.zillow.com/homedetails/708-Linden-Pl-Elmira-NY-14901/2072187299_zpid/ (180k duplex? 1952. ~15% cap rate???)
 ### Tompkins
-- https://www.zillow.com/homedetails/217-Snyder-Hill-Rd-Ithaca-NY-14850/32824668_zpid/ (450k 1970 duplex "...has generated approximately $61,000 in rental income over the past year..."
+- https://www.zillow.com/homedetails/217-Snyder-Hill-Rd-Ithaca-NY-14850/32824668_zpid/ (450k 1970 duplex "...has generated approximately $61,000 in rental income over the past year...". OVerall a nice looking property by the pictures
 # Connecticut
 
 ## Western Connecticut
