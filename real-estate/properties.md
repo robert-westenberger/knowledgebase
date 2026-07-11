@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-05T23:14:32.052Z
+date: 2026-07-11T18:49:08.588Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -45,6 +45,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/46-S-Elberon-Ave-Atlantic-City-NJ-08401/52665649_zpid/ ( 550k duplex 1900 )
 - https://www.zillow.com/homedetails/3107-Fairmount-Ave-Atlantic-City-NJ-08401/52668081_zpid/ (390k duplex 1900 )
 - https://www.zillow.com/homedetails/132-N-Tennessee-Ave-Atlantic-City-NJ-08401/52667367_zpid/ (449k duplex. first floor 3br 1ba rents for $2586. Second floor 5 br 2 bath listed for $2800).
+- https://www.zillow.com/homedetails/1830-E-Riverside-Dr-Atlantic-City-NJ-08401/52670355_zpid/ (445k duplex. 1900 two 4 bedroom. " Both units have been recently renovated. One unit is rented for $2,500".  I wonder how long that rental lease is in place. Will need to see the rent rolls.
 
 ### Burlington — $388,834
 - https://www.zillow.com/homedetails/332-Bailey-Ave-Maple-Shade-NJ-08052/38118077_zpid/ (472k 1955 duplex)
