@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-11T19:41:59.205Z
+date: 2026-07-11T19:42:35.972Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -173,7 +173,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/2-South-Ave-Cortland-NY-13045/2087423653_zpid/ (185k, 1964 triplex ~ 14-15% cap rate?)
 - https://www.zillow.com/homedetails/26-Lincoln-Ave-Cortland-NY-13045/30019858_zpid/ ( 325k triplex, 1920, "Gross Income $66275.00 Expenses $25833.00= Net income $40,442.00" .. self managed 12.4 % cap rate. )
 - https://www.zillow.com/homedetails/41-Greenbush-St-Cortland-NY-13045/30020394_zpid/ ( 190k 1890 triplex "36k in annual rental income"
-- https://www.zillow.com/homedetails/26-Owego-St-Cortland-NY-13045/305206449_zpid/ (240k 1900 duplex 2 4 bedroom)
+- https://www.zillow.com/homedetails/26-Owego-St-Cortland-NY-13045/305206449_zpid/ (240k 1900 duplex 2 4 bedroom). Does NOT appear to be set up for separate utilities.
 ### Chemung - OUTSIDE OF SEARCH RANGE
 - https://www.zillow.com/homedetails/708-Linden-Pl-Elmira-NY-14901/2072187299_zpid/ (180k duplex? 1952. ~15% cap rate???)
 ### Tompkins
