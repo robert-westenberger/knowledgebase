@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-11T19:49:00.596Z
+date: 2026-07-11T20:02:30.832Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -72,6 +72,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/7500-Thouron-Ave-Philadelphia-PA-19150/2132198261_zpid/ (310k 1941 triplex small driveway )
 - https://www.zillow.com/homedetails/4945-Chestnut-St-Philadelphia-PA-19139/2078629118_zpid/ (530k 1925 duplex + inlaw suite in university area)
 - https://www.zillow.com/homedetails/2255-N-12th-St-Philadelphia-PA-19133/126259093_zpid/ (540k 2015 triplex " The property generates $4,500 in monthly rental income, totaling $54,000 annually. Annual real estate taxes are approximately $2,082, and annual insurance costs are approximately $3,638, resulting in a Net Operating Income (NOI) of approximately $48,280 per year." **This is just outside of temple police's patrol boundaries.**
+- https://www.zillow.com/homedetails/2517-N-Front-St-Philadelphia-PA-19133/10322222_zpid/ (250k 1875 triplex three individual units with one bedroom each). Why aren't there any pictures of this property? In norris square neighborhood.
 ### Bucks — $538,385
 
 ### Montgomery — $484,547
