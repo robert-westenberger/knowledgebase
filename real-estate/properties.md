@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-11T19:16:52.679Z
+date: 2026-07-11T19:24:08.952Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -211,4 +211,4 @@ The price next to each county heading is the median prices from redfin data.
 ### Baltimore County — $378,365
 
 # Washington DC
-
+- https://www.zillow.com/homedetails/1722-1726-Galen-St-SE-Washington-DC-20020/462738378_zpid/ (550k 1965 duplex? . I like how the property looks, but why do so many windows on this street have bars on them?? The right unit has bars on the SECOND floor window? Otherwise the street looks relatively clean? Some of the houses on the same street just a few houses over have no bars on them? Is this a bad street or not?)
