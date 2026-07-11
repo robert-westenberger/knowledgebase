@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-11T19:42:35.972Z
+date: 2026-07-11T19:49:00.596Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -165,6 +165,9 @@ The price next to each county heading is the median prices from redfin data.
 
 ### Otsego
 - https://www.zillow.com/homedetails/26-Reynolds-Ave-Oneonta-NY-13820/31624491_zpid/ (180k 1900 triplex. "cap-rate of over 14% Located super close to all of the shopping, restaurants, and entertainment that Oneonta has to offer. Close to Hartwick College, SUNY Oneonta, and Cooperstown All-Star Village opens up the potential for additional income streams. With an excellent rental history and a current annual income of almost $37,000, this would be an excellent addition to a portfolio of any size." 
+
+### Madison
+- https://www.zillow.com/homedetails/117-W-Walnut-St-Oneida-NY-13421/30824800_zpid/ (180k 1916 triplex " this building generates over $3,000 per month in gross income" "two 1-bedroom apartments and one spacious 2-bedroom unit"). 
 ## Finger Lakes - OUTSIDE OF SEARCH RANGE
 ### Monroe
 - https://www.zillow.com/homedetails/272-274-Meigs-St-Rochester-NY-14607/30885336_zpid/ (475k 1920 triplex "Annual Income is $77,580 per year annual expenses including taxes are $27,973 the cap rate is 10.44%" )
