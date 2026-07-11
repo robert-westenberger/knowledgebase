@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-11T18:51:31.607Z
+date: 2026-07-11T19:15:07.405Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -163,6 +163,8 @@ The price next to each county heading is the median prices from redfin data.
 ### Onondaga
 - https://www.zillow.com/homedetails/216-Westcott-St-Syracuse-NY-13210/188366377_zpid/ (300k 1900 duplex. "This property was previously rented by the bedroom for $550 per bedroom which would equal $2,750 and $3,300, making a total monthly rent for $6,050 per month on the entire building", but per bedroom doesn't actually scale up to what those would rent for if they were rented a multi bedroom units..)
 
+### Otsego
+- https://www.zillow.com/homedetails/26-Reynolds-Ave-Oneonta-NY-13820/31624491_zpid/
 ## Finger Lakes - OUTSIDE OF SEARCH RANGE
 ### Monroe
 - https://www.zillow.com/homedetails/272-274-Meigs-St-Rochester-NY-14607/30885336_zpid/ (475k 1920 triplex "Annual Income is $77,580 per year annual expenses including taxes are $27,973 the cap rate is 10.44%" )
