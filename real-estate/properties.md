@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-11T18:49:08.588Z
+date: 2026-07-11T18:51:31.607Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -207,4 +207,6 @@ The price next to each county heading is the median prices from redfin data.
 ## Baltimore Area
 
 ### Baltimore County — $378,365
+
+# Washington DC
 
