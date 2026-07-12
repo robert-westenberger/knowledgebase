@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-12T20:36:11.686Z
+date: 2026-07-12T20:36:21.233Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -150,7 +150,7 @@ The price next to each county heading is the median prices from redfin data.
 ### Orange — $476,072
 - https://www.zillow.com/homedetails/22-E-Broome-St-Port-Jervis-NY-12771/31797420_zpid/ ( 420k 1840 triplex "- EARN 8.3% ROI AFTER ALL EXPENSES  $35,000 NET ANNUAL INCOME. Gross Income $55,800!!". Sold "as is". Is there something wrong with the property? Can't tell by looking at the pictures. 
 - https://www.zillow.com/homedetails/155-Chambers-St-Newburgh-NY-12550/31793858_zpid/ (390k 1900 triplex. The pictures look immaculate. Streetview from 2023 shows the house next door with boarded up windows. I think this is in the ghetto.)
-- https://www.zillow.com/homedetails/157-Chambers-St-Newburgh-NY-12550/31793857_zpid/ (500k 1900 triplex. This is the house that is next door to the above's property 2023 streetview with boarded up windows and a for sale sign. Property records show it was sold in 2024 for 275k. Someone listed it for rent march 2026 for $2500, listing was removed next month, and then it was listed for sale june of this year. Thats an 81.5% increase, this is someone's BRRR).
+- https://www.zillow.com/homedetails/157-Chambers-St-Newburgh-NY-12550/31793857_zpid/ (500k 1900 triplex. This is the house that is next door to the above's property 2023 streetview with boarded up windows and a for sale sign. Property records show it was sold in 2024 for 275k. Someone listed it for rent march 2026 for $2500, listing was removed next month, and then it was listed for sale june of this year. Thats an 81.5% increase, this is someone's BRRRR).
 ### Putnam — $538,385
 
 ## Mid-Hudson Valley
