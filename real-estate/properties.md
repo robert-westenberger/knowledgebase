@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-12T20:36:21.233Z
+date: 2026-07-12T20:41:00.479Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -142,6 +142,8 @@ The price next to each county heading is the median prices from redfin data.
 ## Southwestern Pennsylvania
 ### Allegheny
 - https://www.zillow.com/homedetails/3206-Dobson-St-Pittsburgh-PA-15219/11402638_zpid/ (500k 1918 triplex. two units generating ~1500 each, third is vacant)
+### Indiana
+- https://www.zillow.com/homedetails/525-School-Street-190-Wherle-Way-Indiana-PA-15701/462362943_zpid/ ( 260k 1920 triplex)
 # New York
 
 ## Lower Hudson Valley
