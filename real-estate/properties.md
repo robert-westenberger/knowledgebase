@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-12T20:55:56.714Z
+date: 2026-07-12T20:56:33.688Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -181,7 +181,7 @@ The price next to each county heading is the median prices from redfin data.
 ## Finger Lakes - OUTSIDE OF SEARCH RANGE
 ### Monroe
 - https://www.zillow.com/homedetails/272-274-Meigs-St-Rochester-NY-14607/30885336_zpid/ (475k 1920 triplex "Annual Income is $77,580 per year annual expenses including taxes are $27,973 the cap rate is 10.44%" )
-- https://www.zillow.com/homedetails/19-Mercer-St-Brockport-NY-14420/31035249_zpid/ (400k 1920 triplex "Furnace ('22), Water Heaters ('22&'23), Paved Driveway ('21), Lawn Grading ('23), 2 Gas Meters, 2 Water Meters, 3 Electric Meters, Roof (~10yrs)."). 
+- https://www.zillow.com/homedetails/19-Mercer-St-Brockport-NY-14420/31035249_zpid/ (400k 1920 triplex "Furnace ('22), Water Heaters ('22&'23), Paved Driveway ('21), Lawn Grading ('23), 2 Gas Meters, 2 Water Meters, 3 Electric Meters, Roof (~10yrs)."). unit 1 4br 2 br, unit 2/3 2br 1 bath
 ### Ontario
 - https://www.zillow.com/homedetails/39-Genesee-St-Geneva-NY-14456/31878958_zpid/ (240k 1881 triplex " two spacious 2-bedroom, 1-bath apartments along with a 1-bedroom, 1-bath lower-level apartment...separate utilities"). Looks awesome like a castle or something 
 ## Southern Tier - OUTSIDE OF SEARCH RANGE
