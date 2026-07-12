@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-12T21:15:30.368Z
+date: 2026-07-12T21:17:17.135Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -159,7 +159,7 @@ The price next to each county heading is the median prices from redfin data.
 
 ### Dutchess — $518,445
 - https://www.zillow.com/homedetails/161-Union-St-Poughkeepsie-NY-12601/30082158_zpid/ (399k duplex 1907 )
-
+- https://www.zillow.com/homedetails/32-N-Bridge-St-Poughkeepsie-NY-12601/30082032_zpid/ (470k triplex 1900
 ### Ulster — $453,639
 - https://www.zillow.com/homedetails/87-Vineyard-Ave-Highland-NY-12528/32847787_zpid/ ( 300k duplex 1930 )
 
