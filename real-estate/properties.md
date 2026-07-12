@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-12T20:43:42.987Z
+date: 2026-07-12T20:46:47.154Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -175,6 +175,9 @@ The price next to each county heading is the median prices from redfin data.
 
 ### Madison
 - https://www.zillow.com/homedetails/117-W-Walnut-St-Oneida-NY-13421/30824800_zpid/ (180k 1916 triplex " this building generates over $3,000 per month in gross income" "two 1-bedroom apartments and one spacious 2-bedroom unit"). 
+## Capital Region - Outside of search range?
+### Albany
+- https://www.zillow.com/homedetails/5-West-St-Albany-NY-12206/29648477_zpid/ (290k 1890 triplex). Looks nice, is renovated. Street view looks like its in a safe area.
 ## Finger Lakes - OUTSIDE OF SEARCH RANGE
 ### Monroe
 - https://www.zillow.com/homedetails/272-274-Meigs-St-Rochester-NY-14607/30885336_zpid/ (475k 1920 triplex "Annual Income is $77,580 per year annual expenses including taxes are $27,973 the cap rate is 10.44%" )
