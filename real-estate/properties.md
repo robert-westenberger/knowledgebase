@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-12T20:50:34.823Z
+date: 2026-07-12T20:50:43.297Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -182,7 +182,7 @@ The price next to each county heading is the median prices from redfin data.
 ### Monroe
 - https://www.zillow.com/homedetails/272-274-Meigs-St-Rochester-NY-14607/30885336_zpid/ (475k 1920 triplex "Annual Income is $77,580 per year annual expenses including taxes are $27,973 the cap rate is 10.44%" )
 ### Ontario
-- https://www.zillow.com/homedetails/39-Genesee-St-Geneva-NY-14456/31878958_zpid/ (240k 1881 triplex " two spacious 2-bedroom, 1-bath apartments along with a 1-bedroom, 1-bath lower-level apartment...separate utilities"). Looks awesome like a castle or smth 
+- https://www.zillow.com/homedetails/39-Genesee-St-Geneva-NY-14456/31878958_zpid/ (240k 1881 triplex " two spacious 2-bedroom, 1-bath apartments along with a 1-bedroom, 1-bath lower-level apartment...separate utilities"). Looks awesome like a castle or something 
 ## Southern Tier - OUTSIDE OF SEARCH RANGE
 ### Cortland - OUTSIDE OF SEARCH RANGE
 - https://www.zillow.com/homedetails/2-South-Ave-Cortland-NY-13045/2087423653_zpid/ (185k, 1964 triplex ~ 14-15% cap rate?)
