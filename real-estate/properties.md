@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-13T17:10:51.182Z
+date: 2026-07-13T17:12:59.756Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -167,6 +167,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/32-N-Bridge-St-Poughkeepsie-NY-12601/30082032_zpid/ (470k triplex 1900. "two fully renovated units, one vacant, one recently rented, and a third with long term tenant"
 ### Ulster — $453,639
 - https://www.zillow.com/homedetails/87-Vineyard-Ave-Highland-NY-12528/32847787_zpid/ ( 300k duplex 1930 )
+- https://www.zillow.com/homedetails/9-Hickory-St-Ellenville-NY-12428/32879895_zpid/ (400k 1915 duplex)
 
 ### Sullivan — $299,103
 - https://www.zillow.com/homedetails/85-Delaware-Trl-Glen-Spey-NY-12737/208790930_zpid/ ( 200k duplex (mobile home + separate cottage)) )
