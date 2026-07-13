@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-13T16:56:38.416Z
+date: 2026-07-13T17:04:48.381Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -57,6 +57,7 @@ p- https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_z
 - https://www.zillow.com/homedetails/153-New-Freedom-Rd-Berlin-NJ-08009/248768465_zpid/ (525k triplex 1950 )
 - https://www.zillow.com/homedetails/3-Maynard-Dr-Sicklerville-NJ-08081/38264875_zpid/ (399k duplex 1983) ( https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0415_19202_3&sale_start_date=null&sale_end_date=null&sig=Do0E_weTt7VTJ2Sa9JL1LHvN7PmVgh6u02tkRtZAMJ4= )
 - https://www.zillow.com/homedetails/2154-Browning-Rd-Pennsauken-NJ-08110/38295650_zpid/ (365k 1924 duplex)
+- https://www.zillow.com/homedetails/109-W-Evesham-Ave-Magnolia-NJ-08049/38283704_zpid/ (425k 1900 duplex). 2 bedroom units. 
 
 ### Gloucester — $373,879
 - https://www.zillow.com/homedetails/1009-Hessian-Ave-West-Deptford-NJ-08093/38820947_zpid/ (409k duplex 1940 UNDER CONTRACT )
