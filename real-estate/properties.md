@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-12T21:21:23.433Z
+date: 2026-07-13T16:56:38.416Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -19,12 +19,13 @@ The price next to each county heading is the median prices from redfin data.
 
 ### Passaic - $605,683
 - https://www.zillow.com/homedetails/63-Pearl-St-Paterson-NJ-07501/39762538_zpid/ ( 484k 1960 duplex "generating $5,200/month ")
+- https://www.zillow.com/homedetails/1-Park-Pl-Paterson-NJ-07524/39759295_zpid/ ( 530k 1940 duplex)
 ### Middlesex — $538,385
 
 ### Sussex — $473,580
 
 ### Essex — $722,832
-- https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_zpid/ (410k duplex)
+p- https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_zpid/ (410k duplex)
 - https://www.zillow.com/homedetails/84-Union-St-Newark-NJ-07105/185671563_zpid/ (475k duplex)
 - https://www.zillow.com/homedetails/69-Wagner-Pl-Irvington-NJ-07111/38663488_zpid/ (550k 1926 triplex)
 ### Warren — $409,771
