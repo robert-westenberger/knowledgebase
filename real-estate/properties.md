@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-13T17:06:37.910Z
+date: 2026-07-13T17:10:51.182Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -20,6 +20,7 @@ The price next to each county heading is the median prices from redfin data.
 ### Passaic - $605,683
 - https://www.zillow.com/homedetails/63-Pearl-St-Paterson-NJ-07501/39762538_zpid/ ( 484k 1960 duplex "generating $5,200/month ")
 - https://www.zillow.com/homedetails/1-Park-Pl-Paterson-NJ-07524/39759295_zpid/ ( 530k 1940 duplex)
+- https://www.zillow.com/homedetails/191-Kearney-St-Paterson-NJ-07522/39754815_zpid/ (590k 1940 duplex) 
 ### Middlesex — $538,385
 
 ### Sussex — $473,580
