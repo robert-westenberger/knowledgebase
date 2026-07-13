@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-13T17:04:48.381Z
+date: 2026-07-13T17:06:37.910Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -25,13 +25,15 @@ The price next to each county heading is the median prices from redfin data.
 ### Sussex — $473,580
 
 ### Essex — $722,832
-p- https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_zpid/ (410k duplex)
+- https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_zpid/ (410k duplex)
 - https://www.zillow.com/homedetails/84-Union-St-Newark-NJ-07105/185671563_zpid/ (475k duplex)
 - https://www.zillow.com/homedetails/69-Wagner-Pl-Irvington-NJ-07111/38663488_zpid/ (550k 1926 triplex)
 ### Warren — $409,771
 - https://www.zillow.com/homedetails/62-Summit-Ave-Phillipsburg-NJ-08865/40113638_zpid/ (340k 1900 duplex )
 - https://www.zillow.com/homedetails/19-Limekiln-Rd-Phillipsburg-NJ-08865/2081730941_zpid/ (260k 1920 duplex)
 
+### Somerset - ???
+- https://www.zillow.com/homedetails/41-Elizabeth-St-South-Bound-Brook-NJ-08880/39915001_zpid/ ( 570k 1860 duplex) 
 ## Central
 
 
