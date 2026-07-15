@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-15T14:48:59.652Z
+date: 2026-07-15T14:51:11.751Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -187,6 +187,7 @@ The price next to each county heading is the median prices from redfin data.
 ## Capital Region - Outside of search range?
 ### Albany
 - https://www.zillow.com/homedetails/5-West-St-Albany-NY-12206/29648477_zpid/ (290k 1890 triplex). Looks nice, is renovated. Street view looks like its in a safe area.
+- https://www.zillow.com/homedetails/469-Madison-Ave-Albany-NY-12210/142538119_zpid/ (375k 1930 duplex)
 ## Finger Lakes - OUTSIDE OF SEARCH RANGE
 ### Monroe
 - https://www.zillow.com/homedetails/272-274-Meigs-St-Rochester-NY-14607/30885336_zpid/ (475k 1920 triplex "Annual Income is $77,580 per year annual expenses including taxes are $27,973 the cap rate is 10.44%" )
