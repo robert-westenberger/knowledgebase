@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-15T15:37:11.960Z
+date: 2026-07-15T15:39:45.542Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -34,7 +34,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/19-Limekiln-Rd-Phillipsburg-NJ-08865/2081730941_zpid/ (260k 1920 duplex)
 
 ### Somerset - ???
-- https://www.zillow.com/homedetails/41-Elizabeth-St-South-Bound-Brook-NJ-08880/39915001_zpid/ ( 570k 1860 duplex) 
+- https://www.zillow.com/homedetails/41-Elizabeth-St-South-Bound-Brook-NJ-08880/39915001_zpid/ ( 570k 1860 duplex)
 ## Central
 
 
