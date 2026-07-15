@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-15T14:51:11.751Z
+date: 2026-07-15T15:25:20.349Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -204,6 +204,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/708-Linden-Pl-Elmira-NY-14901/2072187299_zpid/ (180k duplex? 1952. ~15% cap rate???)
 ### Tompkins
 - https://www.zillow.com/homedetails/217-Snyder-Hill-Rd-Ithaca-NY-14850/32824668_zpid/ (450k 1970 duplex "...has generated approximately $61,000 in rental income over the past year...". OVerall a nice looking property by the pictures
+- https://www.zillow.com/homedetails/522-W-Seneca-St-Ithaca-NY-14850/32812274_zpid/ (399k 1880 duplex )
 ### Delaware
 - https://www.zillow.com/homedetails/400-Souer-Rd-Stamford-NY-12167/84113437_zpid/ (530k two separate cabins each 1 br 1 bath)
 # Connecticut
