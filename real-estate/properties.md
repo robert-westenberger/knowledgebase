@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-15T16:00:17.033Z
+date: 2026-07-15T16:00:24.165Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -26,7 +26,7 @@ The price next to each county heading is the median prices from redfin data.
 ### Sussex — $473,580
 
 ### Morris - ???
-- https://www.zillow.com/homedetails/1416-Church-St-Sussex-NJ-07461/39958042_zpid/ (420k)
+- https://www.zillow.com/homedetails/1416-Church-St-Sussex-NJ-07461/39958042_zpid/ (420k duplex)
 ### Essex — $722,832
 - https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_zpid/ (410k duplex)
 - https://www.zillow.com/homedetails/84-Union-St-Newark-NJ-07105/185671563_zpid/ (475k duplex)
