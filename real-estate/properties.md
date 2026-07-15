@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-14T18:57:20.028Z
+date: 2026-07-15T14:48:45.062Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -108,6 +108,7 @@ The price next to each county heading is the median prices from redfin data.
 
 ### Lackawanna — $244,267
 - https://www.zillow.com/homedetails/708-710-Harrison-Ave-Scranton-PA-18510/239875818_zpid/ (425k 2023 duplex. 2 units at $1,775/mo and $1,700/mo)
+- https://www.zillow.com/homedetails/708-710-Harrison-Ave-Scranton-PA-18510/239875818_zpid/ (425k 2023 duplex)
 ### Luzerne — $234,297
 - https://www.zillow.com/homedetails/76-Spring-Ct-Pittston-PA-18640/53487900_zpid/ (345k duplex 1900)
 
