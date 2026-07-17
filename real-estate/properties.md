@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-17T15:29:45.182Z
+date: 2026-07-17T15:48:01.083Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -58,6 +58,7 @@ The price next to each county heading is the median prices from redfin data.
 ### Burlington — $388,834
 - https://www.zillow.com/homedetails/332-Bailey-Ave-Maple-Shade-NJ-08052/38118077_zpid/ (472k 1955 duplex)
 - https://www.zillow.com/homedetails/66-Pine-St-Mount-Holly-NJ-08060/38133998_zpid/  (450k 1930 triplex)
+- https://www.zillow.com/homedetails/106-Willow-Turn-Mount-Laurel-NJ-08054/38137193_zpid/ (550k 1979 duplex)
 
 ### Camden — $375,013
 - https://www.zillow.com/homedetails/153-New-Freedom-Rd-Berlin-NJ-08009/248768465_zpid/ (525k triplex 1950 )
