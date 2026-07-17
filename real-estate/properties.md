@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-15T16:00:24.165Z
+date: 2026-07-17T14:59:55.091Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -22,7 +22,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/1-Park-Pl-Paterson-NJ-07524/39759295_zpid/ ( 530k 1940 duplex)
 - https://www.zillow.com/homedetails/191-Kearney-St-Paterson-NJ-07522/39754815_zpid/ (590k 1940 duplex) 
 ### Middlesex — $538,385
-
+- https://www.zillow.com/homedetails/520-Johnstone-St-Perth-Amboy-NJ-08861/39136184_zpid/ (495k 1909 duplex)
 ### Sussex — $473,580
 
 ### Morris - ???
