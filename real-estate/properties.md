@@ -2,7 +2,7 @@
 title: Properties
 description: 
 published: true
-date: 2026-07-17T14:59:55.091Z
+date: 2026-07-17T15:17:35.708Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T23:22:19.836Z
@@ -31,6 +31,7 @@ The price next to each county heading is the median prices from redfin data.
 - https://www.zillow.com/homedetails/25-Holland-St-Newark-NJ-07103/2085537451_zpid/ (410k duplex)
 - https://www.zillow.com/homedetails/84-Union-St-Newark-NJ-07105/185671563_zpid/ (475k duplex)
 - https://www.zillow.com/homedetails/69-Wagner-Pl-Irvington-NJ-07111/38663488_zpid/ (550k 1926 triplex)
+- https://www.zillow.com/homedetails/207-Lembeck-Ave-Jersey-City-NJ-07305/38906688_zpid/ (590k ?? duplex)
 ### Warren — $409,771
 - https://www.zillow.com/homedetails/62-Summit-Ave-Phillipsburg-NJ-08865/40113638_zpid/ (340k 1900 duplex )
 - https://www.zillow.com/homedetails/19-Limekiln-Rd-Phillipsburg-NJ-08865/2081730941_zpid/ (260k 1920 duplex)
