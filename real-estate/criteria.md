@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-05T21:07:18.128Z
+date: 2026-07-19T22:15:25.956Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
