@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:38:47.416Z
+date: 2026-07-22T19:40:29.213Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -12,7 +12,9 @@ dateCreated: 2026-06-27T00:35:41.783Z
 
 ## Primary Goal
 
-Purchase an **owner-occupied 2–3 unit property** that provides a comfortable place to live, substantially reduces monthly housing costs, and does not require a major rehabilitation project.
+Purchase an **owner-occupied 2–3 unit property** that provides a comfortable place to live, substantially reduces monthly housing costs, and does not require a major rehabilitation project. 
+
+I am not expecting a "dream" deal or something unnattainable in the current market (1% rent-to-value, having my mortgage completely covered by a tenant or tenants, etc).
 
 ## Must-Haves
 
