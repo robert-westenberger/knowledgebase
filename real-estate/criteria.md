@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:40:36.112Z
+date: 2026-07-22T19:41:37.684Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -28,7 +28,7 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 * Rental income supported by current leases or credible market comparables
 * Comfortable owner’s unit with acceptable condition, layout, privacy, and parking
 * Location is suitable for both personal occupancy and long-term rental demand
-* Purchase leaves a substantial cash reserve after closing and immediate repairs
+* Purchase leaves a substantial cash reserve after closing and immediate repairs. **My current liquid cash reserves are around $150k**.
 
 ## Financial Criteria
 
