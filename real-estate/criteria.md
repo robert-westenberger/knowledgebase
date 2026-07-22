@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:42:57.133Z
+date: 2026-07-22T19:43:32.082Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -40,7 +40,7 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 ## Deal-Breakers
 
 * Illegal, unpermitted, or unverifiable units
-* No dependable path to occupy one unit
+* No dependable path to occupy one unit. It's okay if a unit is not immediately available.
 * Major structural damage or persistent water problems
 * Serious fire, mold, environmental, sewer, or foundation issues
 * Open-ended zoning, variance, permit, certificate-of-occupancy, or code-enforcement problems
