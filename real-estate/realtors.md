@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-07-20T23:20:05.921Z
+date: 2026-07-22T19:57:42.486Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T16:41:32.352Z
@@ -14,7 +14,8 @@ https://maphub.net/rwestenb01/cb_2018_us_county_20m
 Bergen(e), Essex(e), Union(e), Hudson(e), Middlesex(e)
 
 
-
+# Denis Keily (c: 9082564487 office: 9735398000)
+???
 # Need realtor for
 ## New Jersey
 ### North
