@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:40:29.213Z
+date: 2026-07-22T19:40:36.112Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -18,7 +18,7 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 
 ## Must-Haves
 
-* Legal 2–4 unit residential property
+* Legal 2–3 unit residential property
 * One unit available for owner occupancy
 * Property is financeable with conventional, FHA, or another appropriate owner-occupied loan
 * Zoning, certificate of occupancy, tax records, and physical unit count are consistent
