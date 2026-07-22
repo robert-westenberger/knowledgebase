@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:44:13.678Z
+date: 2026-07-22T19:44:31.121Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -65,6 +65,4 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 * Existing tenants with documented payment histories
 * Modestly below-market rents with realistic upside
 * Off-street parking
-## Search Summary
 
-> Legal, financeable 2–3 unit property with one comfortable unit available for owner occupancy. Prefer a conservative personal housing cost of no more than $1,500 per month and a maximum near $2,000. Property should be habitable without major rehabilitation, have verifiable rental income and expenses, retain strong cash reserves after closing, and have no significant zoning, occupancy, structural, water, or tenant-related problems.
