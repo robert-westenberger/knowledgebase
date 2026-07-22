@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:43:32.082Z
+date: 2026-07-22T19:43:59.789Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -54,8 +54,6 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 
 ## Strong Preferences
 * Separate utilities
-* Laundry facilities or hookups
-* Storage for tenants
 * Cosmetic improvements rather than major system replacements
 * A vacant owner’s unit requiring little or no work
 * Individually controlled heating and cooling
