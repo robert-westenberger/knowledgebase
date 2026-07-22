@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:41:37.684Z
+date: 2026-07-22T19:42:57.133Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -33,7 +33,6 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 ## Financial Criteria
 
 * **Preferred personal monthly housing cost:** $1,500 or less after rental income
-* **Maximum personal monthly housing cost:** approximately $2,000
 * Property should remain affordable with conservative assumptions for vacancy, repairs, maintenance, and capital expenses
 * Deal should not depend on immediate rent increases, refinancing, rapid appreciation, or converting unapproved space into another unit
 * Immediate repairs must fit comfortably within the available budget
