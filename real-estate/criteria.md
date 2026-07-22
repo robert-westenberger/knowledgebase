@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:44:31.121Z
+date: 2026-07-22T19:44:44.827Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -61,8 +61,5 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 
 ## Minor Preferences
 * The unit breakdown is optimized for a single owner occupant. e.g. I would prefer a triplex with two 4 bedrooms and one 1 br rather than a duplex with two 5 bedrooms. I am just by myself and those other rooms would really just go to waste. 
-* Low-maintenance exterior
 * Existing tenants with documented payment histories
-* Modestly below-market rents with realistic upside
-* Off-street parking
 
