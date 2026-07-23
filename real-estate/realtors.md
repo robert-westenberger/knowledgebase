@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-07-23T21:39:31.728Z
+date: 2026-07-23T21:40:09.666Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T16:41:32.352Z
@@ -11,7 +11,11 @@ dateCreated: 2026-06-28T16:41:32.352Z
 https://maphub.net/rwestenb01/cb_2018_us_county_20m
 
 # John Bowe (2019238834)
-Bergen(e), Essex(e), Union(e), Hudson(e), Middlesex(e)
+- Bergen 
+- Essex 
+- Union 
+- Hudson
+- Middlesex
 
 
 # Denis Keily (c: 9082564487 office: 9735398000)
