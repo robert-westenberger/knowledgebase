@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-07-22T19:57:42.486Z
+date: 2026-07-23T21:39:31.728Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T16:41:32.352Z
@@ -15,7 +15,10 @@ Bergen(e), Essex(e), Union(e), Hudson(e), Middlesex(e)
 
 
 # Denis Keily (c: 9082564487 office: 9735398000)
-???
+- Warren
+- Hunterdon
+- East Morris
+- South Sussex
 # Need realtor for
 ## New Jersey
 ### North
