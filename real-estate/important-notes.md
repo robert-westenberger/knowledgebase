@@ -2,7 +2,7 @@
 title: Important Notes
 description: 
 published: true
-date: 2026-07-25T20:43:44.482Z
+date: 2026-07-25T20:44:15.741Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-25T20:36:30.374Z
@@ -15,4 +15,4 @@ dateCreated: 2026-07-25T20:36:30.374Z
 
 # Property Management
 - Start with two annual unit inspections a year. If a tenant appears to be taking good care of the unit, move to annual inspections.
-- Stay ahead of routine maintenance.
+- Stay ahead of routine maintenance. Create a calendar for things like HVAC service, gutter cleaning, smoke detector checks, plumbing inspections, seasoninal maintenance.
