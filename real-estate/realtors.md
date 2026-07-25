@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-07-23T21:40:09.666Z
+date: 2026-07-25T21:32:20.657Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-28T16:41:32.352Z
@@ -27,8 +27,7 @@ https://maphub.net/rwestenb01/cb_2018_us_county_20m
 ## New Jersey
 ### North
 - Passaic
-- Sussex
-- Warren
+- Sussex (North)
 - Somerset
 
 ### Central
