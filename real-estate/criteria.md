@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-07-22T19:48:53.497Z
+date: 2026-07-25T18:58:13.559Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -32,7 +32,7 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 
 ## Financial Criteria
 * I'm looking for a property between $300k - $600k.
-* **Preferred personal monthly housing cost:** $1,500 or less after rental income
+* **$3500 / month or less in PITI** (not counting rental income)
 * Property should remain affordable with conservative assumptions for vacancy, repairs, maintenance, and capital expenses
 * Deal should not depend on immediate rent increases, refinancing, rapid appreciation, or converting unapproved space into another unit
 * Immediate repairs must fit comfortably within the available budget
