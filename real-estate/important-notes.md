@@ -2,11 +2,11 @@
 title: Important Notes
 description: 
 published: true
-date: 2026-07-25T20:36:30.374Z
+date: 2026-07-25T20:36:54.434Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-25T20:36:30.374Z
 ---
 
-# Header
-Your content here
+# Tenant Screening
+- Verify rental history and employment directly.
