@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2026-07-19T22:15:03.386Z
+date: 2026-07-25T21:46:35.075Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-26T22:10:40.069Z
@@ -17,3 +17,4 @@ dateCreated: 2026-06-26T22:10:40.069Z
 
 [List of my realtors](/real-estate/realtors)
 
+[Important Notes](/real-estate/important-notes)
