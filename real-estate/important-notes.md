@@ -2,7 +2,7 @@
 title: Important Notes
 description: 
 published: true
-date: 2026-07-25T20:43:19.942Z
+date: 2026-07-25T20:43:44.482Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-25T20:36:30.374Z
@@ -15,3 +15,4 @@ dateCreated: 2026-07-25T20:36:30.374Z
 
 # Property Management
 - Start with two annual unit inspections a year. If a tenant appears to be taking good care of the unit, move to annual inspections.
+- Stay ahead of routine maintenance.
