@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:01:17.201Z
+date: 2026-09-05T22:04:52.132Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -49,5 +49,9 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Major contracts/capital expenditures: owner approval
 - Records/funds after termination: turned over promptly
 - Maintenance markups/referral fees: fully disclosed
+## SLAs (TODO)
+### Response Times
+- Emergency tenant issues (actual emergencies) - within 1 hour
+
 # Questions to Ask
 - How do you make your money?
