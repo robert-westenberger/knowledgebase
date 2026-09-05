@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:06:25.030Z
+date: 2026-09-05T22:07:49.752Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -10,6 +10,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 
 # Good (Requirements)
 - Okay with me being involved / learning. I pay a premium for that.
+- I should have insight / be able to see the data about the tenants that were screened. They can't just find tenants - they have to screen them too.
 - Proactive Maintenance
 - Ability to use my own contractors. I should retain the right to get my own contractors.
 - The property manager should have incentives that align with mine. 
