@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-09-05T23:28:39.012Z
+date: 2026-09-05T23:30:41.518Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -43,4 +43,5 @@ dateCreated: 2026-09-05T22:49:08.007Z
   
   
 # Interview Questions
-- How do you analyze a property?
+- How many 2–4 unit properties have you helped buyers purchase in the last 1–2 years?
+- When you evaluate a multifamily listing for me, what numbers and documents would you want before recommending an offer?
