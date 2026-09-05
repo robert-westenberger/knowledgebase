@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T21:46:16.663Z
+date: 2026-09-05T21:50:58.615Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -23,6 +23,6 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Management fees based on rent due. It should be % of rent actually collected.
 - Lots of junk fees
 - Lease renewal fee of 1 months rent. It should be a smaller flat fee.
-
+- Manager keeps application fees, late fees, etc. Those are not revenue streams. 
 # Questions to Ask
 - How do you make your money?
