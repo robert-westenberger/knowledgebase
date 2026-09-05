@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:32:35.565Z
+date: 2026-09-05T22:34:34.045Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -67,5 +67,8 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Emergency tenant issues (actual emergencies) - within 1 hour
 
 # Questions to Ask
+# TODO
+- Say there is a requirement to get a lawyer (although i guess this is more general) - what is to stop the PM from colluding with some 3rd party to charge an exorbitant fee?
+## To the PM
 - How do you make your money?
 - Can I see an example owner's report
