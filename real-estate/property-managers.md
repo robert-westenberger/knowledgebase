@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:23:04.371Z
+date: 2026-09-05T22:24:02.532Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -12,6 +12,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Okay with me being involved / learning. I pay a premium for that.
 - I should have insight / be able to see the data about the tenants that were screened. They can't just find tenants - they have to screen them too.
 - ALL non emergency repair requests are sent to me first. If i don't respond in a reasonable time, the PM handles it. 
+- For repairs they do, need full written breakdown of costs.
 - Proactive Maintenance
 - Ability to use my own contractors. I should retain the right to get my own contractors.
 - The property manager should have incentives that align with mine. 
@@ -28,6 +29,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Management fees based on rent due. It should be % of rent actually collected.
 - Lots of junk fees
 - Vague or hidden fees
+- Markups on repairs that aren't disclosed upfront
 - Lease renewal fee of 1 months rent. It should be a smaller flat fee.
 - Manager keeps application fees, late fees, etc. Those are not revenue streams. 
 - Power to change rent without my approval. They can recommend rents.
