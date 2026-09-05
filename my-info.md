@@ -2,7 +2,7 @@
 title: My Info
 description: 
 published: true
-date: 2026-09-05T20:28:45.982Z
+date: 2026-09-05T20:29:41.634Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T20:15:10.232Z
@@ -16,3 +16,4 @@ Engine: 2.5L H4 MPI
 Style: Wagon 4D
 Steering: Rack & Pinion
 Drivetrain: All Wheel drive
+Max Towing Capacity: 2700 lb
