@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-09-05T23:27:20.311Z
+date: 2026-09-05T23:28:15.471Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -37,6 +37,7 @@ dateCreated: 2026-09-05T22:49:08.007Z
   - shared heating systems
   - nonconforming units
 - They imply that you can simply raise inherited tenants to whatever rent you want without checking applicable laws or lease terms.
+- They want a long, broad exclusive buyer-agency agreement covering huge territories before proving they are useful.
   
   
 # Interview Questions
