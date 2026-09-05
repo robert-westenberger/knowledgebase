@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:30:02.256Z
+date: 2026-09-05T22:32:35.565Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -50,6 +50,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 # Reasonable Contract
 - Management fee: 8–10% of rent actually collected
 - Leasing fee: perhaps 50–100% of one month's rent for a new tenant (MAYBE?)
+- If a tenant leaves early after a short period, part of that placement fee should be refunded.
 - Renewal fee: $0–$250 rather than another month's rent
 - Repair authorization: ~$300–$500 without calling you
 - Emergency repairs: unrestricted enough to prevent serious damage/injury, but immediate notification required
