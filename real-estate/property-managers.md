@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T21:44:35.613Z
+date: 2026-09-05T21:46:16.663Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -16,13 +16,13 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Property Managers that have clients that have a huge number of units
 - "We keep all the late fees". No thanks retard.
 - They get money for every signed lease. This incentivizes them to not get long term tenants.
-## Contract
 - Long Lock in periods (month to month , or 1 year == good). Can terminate without cause on 30-60 days notice. Avoid contracts where terminating has big penalty.
 - Automatic renewals
 - Authority to spend unlimited amounts on repairs. There should be a threshhold.
 - Vague definition of "emergency". It should mean situations involving imminent property damage, habitability, health or safety. 
 - Management fees based on rent due. It should be % of rent actually collected.
-
+- Lots of junk fees
+- Lease renewal fee of 1 months rent. It should be a smaller flat fee.
 
 # Questions to Ask
 - How do you make your money?
