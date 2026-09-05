@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:27:28.752Z
+date: 2026-09-05T22:30:02.256Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -46,7 +46,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Broad power of attorney
 - Authority to borrow money or place liens/encumbrances against the property.
 - A sale commission hidden in the management contract
-
+- Confusing or missing reporting. Can't show me a sample owner statement. I should be able to easily see income, expenses, and what is paid out ot me. They should be responsive when asked for records.
 # Reasonable Contract
 - Management fee: 8–10% of rent actually collected
 - Leasing fee: perhaps 50–100% of one month's rent for a new tenant (MAYBE?)
@@ -67,3 +67,4 @@ dateCreated: 2026-09-05T21:34:20.556Z
 
 # Questions to Ask
 - How do you make your money?
+- Can I see an example owner's report
