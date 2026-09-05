@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T21:51:24.405Z
+date: 2026-09-05T21:51:49.688Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -25,5 +25,6 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Lease renewal fee of 1 months rent. It should be a smaller flat fee.
 - Manager keeps application fees, late fees, etc. Those are not revenue streams. 
 - Power to change rent without my approval. They can recommend rents.
+- Power to approve tenants with no standards agreed upon beforehand.
 # Questions to Ask
 - How do you make your money?
