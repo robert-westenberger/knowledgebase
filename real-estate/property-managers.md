@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:19:24.338Z
+date: 2026-09-05T22:23:04.371Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -27,6 +27,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Vague definition of "emergency". It should mean situations involving imminent property damage, habitability, health or safety. 
 - Management fees based on rent due. It should be % of rent actually collected.
 - Lots of junk fees
+- Vague or hidden fees
 - Lease renewal fee of 1 months rent. It should be a smaller flat fee.
 - Manager keeps application fees, late fees, etc. Those are not revenue streams. 
 - Power to change rent without my approval. They can recommend rents.
