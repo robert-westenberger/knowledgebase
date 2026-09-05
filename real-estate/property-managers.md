@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T21:43:15.503Z
+date: 2026-09-05T21:44:35.613Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -11,6 +11,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 # Good (Requirements)
 - Proactive Maintenance
 - Ability to use my own contractors. I should retain the right to get my own contractors.
+- The property manager should have incentives that align with mine. 
 # Bad
 - Property Managers that have clients that have a huge number of units
 - "We keep all the late fees". No thanks retard.
@@ -20,6 +21,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Automatic renewals
 - Authority to spend unlimited amounts on repairs. There should be a threshhold.
 - Vague definition of "emergency". It should mean situations involving imminent property damage, habitability, health or safety. 
+- Management fees based on rent due. It should be % of rent actually collected.
 
 
 # Questions to Ask
