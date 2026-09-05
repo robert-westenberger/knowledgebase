@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T21:50:58.615Z
+date: 2026-09-05T21:51:12.240Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -24,5 +24,6 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Lots of junk fees
 - Lease renewal fee of 1 months rent. It should be a smaller flat fee.
 - Manager keeps application fees, late fees, etc. Those are not revenue streams. 
+- Power to change rent without my approval
 # Questions to Ask
 - How do you make your money?
