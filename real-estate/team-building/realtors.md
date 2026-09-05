@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-09-05T22:55:28.337Z
+date: 2026-09-05T22:56:42.983Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -14,4 +14,6 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - They are comfortable telling me, "This property doesn't make sense at this price". Avoid someone whose solution to every property is "write an offer".
 - They understand basic investment metrics like NOI, cap rate, cash flow, and DSCR, even if they're not doing sophisticated underwriting themselves.
 - They understand that seller-provided numbers can be bullshit and should be independently checked.
+- They know local multifamily-specific issues: rental registrations, inspections, CO requirements, zoning/nonconforming uses, rent control if applicable, and local landlord rules.
+- They ask questions about your acceptable monthly out-of-pocket cost after rents, rather than only asking your maximum mortgage preapproval.
 # Red Flags
