@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:27:18.713Z
+date: 2026-09-05T22:27:28.752Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -22,7 +22,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Can explain how they comply with fair housing laws.
 - Has a clear process for maintenance requests
 - Detailed answers about how vendors are chosen
-- Has reventantive maintenance plan
+- Has preventantive maintenance plan
 # Bad
 - Property Managers that have clients that have a huge number of units
 - "We keep all the late fees". No thanks retard.
