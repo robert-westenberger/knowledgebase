@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-09-05T22:59:27.276Z
+date: 2026-09-05T23:27:00.930Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -18,3 +18,25 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - They ask questions about your acceptable monthly out-of-pocket cost after rents, rather than only asking your maximum mortgage preapproval.
 - They're comfortable negotiating based on defects or financial issues discovered during diligence instead of pressuring you to waive everything.
 # Red Flags
+- They don't see the diff between single / multi family
+- They use gross rent minus mortgage as their entire cash-flow analysis
+- They ignore property taxes, insurance, repairs, vacancy, utils, capex, or PM
+- They can't explain how they'll verify whether all units are legal
+- They push you to waive inspection, appraisal, attorney review, financing contingencies, etc. without a very specific reason.
+- They discourage you from requesting leases, expense records, utility bills, or municipal records because you're "overthinking it."
+- They tell you appreciation will make a bad deal worthwhile.
+- They focus heavily on your maximum purchasing power instead of helping you stay within your desired economics.
+- They don't recognize the significance of:
+	- below-market tenants
+  - month-to-month tenants
+  - unpaid rent
+  - inherited tenants
+  - owner-paid utilities
+  - deferred maintenance
+  - old roofs/HVAC
+  - shared heating systems
+  - nonconforming units
+  
+  
+# Interview Questions
+- How do you analyze a property?
