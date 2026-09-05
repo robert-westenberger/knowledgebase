@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T21:51:49.688Z
+date: 2026-09-05T21:53:33.691Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -26,5 +26,6 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - Manager keeps application fees, late fees, etc. Those are not revenue streams. 
 - Power to change rent without my approval. They can recommend rents.
 - Power to approve tenants with no standards agreed upon beforehand.
+- Power to do anything that affects my money, legal positon, or the property itself (hiring lawyers, renovations, replacing major equopment, repairs above the threshold, filing an eviction, settling claims, spending security deposit money, entering long-term vendor contracts).
 # Questions to Ask
 - How do you make your money?
