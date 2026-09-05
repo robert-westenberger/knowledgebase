@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-09-05T23:27:00.930Z
+date: 2026-09-05T23:27:20.311Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -36,6 +36,7 @@ dateCreated: 2026-09-05T22:49:08.007Z
   - old roofs/HVAC
   - shared heating systems
   - nonconforming units
+- They imply that you can simply raise inherited tenants to whatever rent you want without checking applicable laws or lease terms.
   
   
 # Interview Questions
