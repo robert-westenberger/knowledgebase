@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:24:02.532Z
+date: 2026-09-05T22:25:40.026Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -18,6 +18,7 @@ dateCreated: 2026-09-05T21:34:20.556Z
 - The property manager should have incentives that align with mine. 
 - The agreement should require prompt transfer of leases, tenant ledgers, applications, inspection records, keys, deposits/funds, invoices and accounting records when management ends.
 - Can provide references to other properties they have managed in the past.
+- Company can explain in detail how they screen tenants, verify income, employment, rental history
 # Bad
 - Property Managers that have clients that have a huge number of units
 - "We keep all the late fees". No thanks retard.
