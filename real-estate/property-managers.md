@@ -2,13 +2,14 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:04:52.132Z
+date: 2026-09-05T22:06:25.030Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
 ---
 
 # Good (Requirements)
+- Okay with me being involved / learning. I pay a premium for that.
 - Proactive Maintenance
 - Ability to use my own contractors. I should retain the right to get my own contractors.
 - The property manager should have incentives that align with mine. 
