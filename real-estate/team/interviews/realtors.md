@@ -2,7 +2,7 @@
 title: Realtor Interviews
 description: 
 published: true
-date: 2026-09-06T20:52:54.992Z
+date: 2026-09-06T20:56:02.238Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-06T20:05:55.961Z
@@ -110,7 +110,7 @@ dateCreated: 2026-09-06T20:05:55.961Z
 
 # Extra Questions
 
-> How many of those buyers were owner-occupants who planned to rent out the other units?
+> Of the buyers you've helped purchase 2-4 unit propertiesm how many of those buyers were owner-occupants who planned to rent out the other units?
 
 > Gives a specific number and can describe several owner-occupied multifamily transactions.
 > {.is-success}
