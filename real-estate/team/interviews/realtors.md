@@ -2,12 +2,13 @@
 title: Realtor Interviews
 description: 
 published: true
-date: 2026-09-06T20:27:55.451Z
+date: 2026-09-06T20:52:14.836Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-06T20:05:55.961Z
 ---
 
+# Primary Questions
 > How many 2–4 unit properties have you helped buyers purchase in the last 1–2 years?
 
 > Specific number, locations, and examples.
@@ -105,3 +106,6 @@ dateCreated: 2026-09-06T20:05:55.961Z
 
 > Is vague, says "don't worry about it," or implies you'll never owe anything without explaining what the agreement actually says.
 {.is-danger}
+
+
+# Other Questions
