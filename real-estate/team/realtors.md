@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-09-05T23:30:41.518Z
+date: 2026-09-06T23:39:24.627Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -42,6 +42,3 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - They consistently defend the seller/listing agent instead of advocating for you.
   
   
-# Interview Questions
-- How many 2–4 unit properties have you helped buyers purchase in the last 1–2 years?
-- When you evaluate a multifamily listing for me, what numbers and documents would you want before recommending an offer?
