@@ -2,7 +2,7 @@
 title: Property Managers
 description: 
 published: true
-date: 2026-09-05T22:34:34.045Z
+date: 2026-09-06T20:09:46.769Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T21:34:20.556Z
@@ -69,6 +69,3 @@ dateCreated: 2026-09-05T21:34:20.556Z
 # Questions to Ask
 # TODO
 - Say there is a requirement to get a lawyer (although i guess this is more general) - what is to stop the PM from colluding with some 3rd party to charge an exorbitant fee?
-## To the PM
-- How do you make your money?
-- Can I see an example owner's report
