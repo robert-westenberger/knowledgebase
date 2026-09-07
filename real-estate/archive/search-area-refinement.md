@@ -2,7 +2,7 @@
 title: Search Area Refinement
 description: 
 published: true
-date: 2026-09-07T21:16:51.095Z
+date: 2026-09-07T21:24:24.691Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-06T22:47:54.526Z
@@ -42,7 +42,9 @@ dateCreated: 2026-09-06T22:47:54.526Z
 ### Cape May (`e`) — $742,772
 ### Burlington (`c`) — $388,834
 - [Zillow](https://www.zillow.com/burlington-county-nj/duplex/?searchQueryState=%7B%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22north%22%3A40.20056077317393%2C%22south%22%3A39.52435348057491%2C%22east%22%3A-74.37260235449217%2C%22west%22%3A-75.0771006455078%7D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22price%22%3A%7B%22min%22%3A200000%2C%22max%22%3A650000%7D%2C%22mp%22%3A%7B%22min%22%3A1770%2C%22max%22%3A2275%7D%2C%22sf%22%3A%7B%22value%22%3Afalse%7D%2C%22tow%22%3A%7B%22value%22%3Afalse%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22apco%22%3A%7B%22value%22%3Afalse%7D%2C%2255plus%22%3A%7B%22value%22%3A%22e%22%7D%7D%2C%22isListVisible%22%3Atrue%2C%22mapZoom%22%3A11%2C%22usersSearchTerm%22%3A%22burlington%20county%20nj%20multi%20family%22%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A2896%2C%22regionType%22%3A4%7D%5D%7D)
-- Good? Small inventory. pics look ok
+- Good? Small inventory. pics look ok. Suburb of philadelphia.
+
+
 ### Camden (`c`) — $375,013
 ### Gloucester (`c`) — $373,879
 ### Salem (`c`) — $264,208
