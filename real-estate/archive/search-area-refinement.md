@@ -2,7 +2,7 @@
 title: Search Area Refinement
 description: 
 published: true
-date: 2026-09-07T21:30:52.056Z
+date: 2026-09-07T21:31:34.320Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-06T22:47:54.526Z
@@ -48,6 +48,7 @@ dateCreated: 2026-09-06T22:47:54.526Z
 ### Camden (`c`) — $375,013
 ### Gloucester (`c`) — $373,879
 - [Zillow](https://www.zillow.com/gloucester-county-nj/duplex/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22west%22%3A-76.18154714257814%2C%22east%22%3A-74.14632985742189%2C%22south%22%3A38.33402250958148%2C%22north%22%3A41.04301967493849%7D%2C%22mapZoom%22%3A9%2C%22usersSearchTerm%22%3A%22Gloucester%20County%20NJ%22%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A2929%2C%22regionType%22%3A4%7D%5D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22price%22%3A%7B%22min%22%3A200000%2C%22max%22%3A650000%7D%2C%22mp%22%3A%7B%22min%22%3A1770%2C%22max%22%3A2275%7D%2C%22sf%22%3A%7B%22value%22%3Afalse%7D%2C%22tow%22%3A%7B%22value%22%3Afalse%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22apco%22%3A%7B%22value%22%3Afalse%7D%2C%2255plus%22%3A%7B%22value%22%3A%22e%22%7D%7D%2C%22isListVisible%22%3Atrue%7D)
+- More philly 'burbs
 - https://www.zillow.com/homedetails/223-N-Main-St-Mullica-Hill-NJ-08062/38780909_zpid/
 - Good
 ### Salem (`c`) — $264,208
