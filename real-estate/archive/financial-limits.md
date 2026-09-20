@@ -2,7 +2,7 @@
 title: Financial Limits
 description: 
 published: true
-date: 2026-09-20T21:47:44.736Z
+date: 2026-09-20T21:49:55.817Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-20T21:44:12.970Z
@@ -16,3 +16,8 @@ dateCreated: 2026-09-20T21:44:12.970Z
 - Aggresive: $3500/mo (40% of gross income)
 
 # Max Purchase Price (Assuming No Rental Income)
+- Comfortable: $340k (68k down payment)
+- Reasonable: $365k (73k down payment)
+- Manageable: $400k (80k down payment)
+- Tight: $430k (86k down payment)
+- Aggresive: $465k (93k down payment)
