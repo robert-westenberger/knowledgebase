@@ -2,7 +2,7 @@
 title: Financial Limits
 description: 
 published: true
-date: 2026-09-20T21:46:43.025Z
+date: 2026-09-20T21:47:44.736Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-20T21:44:12.970Z
@@ -14,3 +14,5 @@ dateCreated: 2026-09-20T21:44:12.970Z
 - Manageable: $3060/mo (35% of gross income)
 - Tight: $3280/mo (37.5% of gross income)
 - Aggresive: $3500/mo (40% of gross income)
+
+# Max Purchase Price (Assuming No Rental Income)
