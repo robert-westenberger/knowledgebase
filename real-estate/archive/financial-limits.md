@@ -2,7 +2,7 @@
 title: Financial Limits
 description: 
 published: true
-date: 2026-09-20T21:49:55.817Z
+date: 2026-09-20T21:52:57.034Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-20T21:44:12.970Z
@@ -21,3 +21,4 @@ dateCreated: 2026-09-20T21:44:12.970Z
 - Manageable: $400k (80k down payment)
 - Tight: $430k (86k down payment)
 - Aggresive: $465k (93k down payment)
+
