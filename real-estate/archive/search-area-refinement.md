@@ -2,7 +2,7 @@
 title: Search Area Refinement
 description: 
 published: true
-date: 2026-09-20T21:21:21.575Z
+date: 2026-09-27T20:53:03.806Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-06T22:47:54.526Z
@@ -51,6 +51,7 @@ dateCreated: 2026-09-06T22:47:54.526Z
 - More philly 'burbs
 - https://www.zillow.com/homedetails/223-N-Main-St-Mullica-Hill-NJ-08062/38780909_zpid/
 - https://www.zillow.com/homedetails/47-S-Broad-St-Woodbury-NJ-08096/2070979876_zpid/
+- https://www.zillow.com/homedetails/30-N-Broad-St-Woodbury-NJ-08096/2070191359_zpid/
 
 ### Salem (`c`) — $264,208
 ### Cumberland (`c`) — $285,743
