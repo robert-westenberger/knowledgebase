@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-10-04T22:48:23.785Z
+date: 2026-10-04T22:53:11.957Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -49,7 +49,8 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - If an agent makes you sign an agreement the first time or two you meet them, walk away or tell them no. You should go out and look at homes a few times before signing anything to ensure you get a good feel for the agent and see how you like them.
 
 
-# What Should They Be Doing
+# What Should They Be Doing / What I should expect
 - Should be sending homes that meet my criteria as soon as they hit the market.
 - On properties I am interested in, they should be running comps so I can make an educated and fair offer.
 - When under contract, they should be keeping track of all contingency deadlines.
+- I shouldn't expect comps ran on every property I see, but they should be ran before making an offer.
