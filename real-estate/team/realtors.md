@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-10-04T23:05:43.654Z
+date: 2026-10-04T23:07:41.431Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -54,6 +54,12 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - On properties I am interested in, they should be running comps so I can make an educated and fair offer.
 - When under contract, they should be keeping track of all contingency deadlines.
 - I shouldn't expect comps ran on every property I see, but they should be ran before making an offer.
+
+## Making an offer
+Your agent will put together a comparative market analysis (CMA) for that particular house and help you come up with your desired offer price. They will also help you prepare the rest of your offer strategy (depending on what market you’re in, that could mean conducting a pre-inspection, writing an offer letter, offering more/less earnest money or converting it to a nonrefundable deposit, including or waiving various contingencies, throwing on an escalation clause, offering a rent-back, asking for seller-paid closing credit, having your lender check to see if you qualify for an appraisal waiver, etc).
+
+When it comes time, your buyer’s agent will write up your offer, knowing which forms to include or exclude and the best way to structure everything for this particular property. Is it on sewer? Better make sure you will be allowed to scope the sewer during your inspection. Is it on septic? Better make sure you have the septic contingency for the right county included in the paperwork. Was it built before 1978? Don’t forget the Lead Based Paint addendum! Is the seller foreign? Very important to include that special FIRPTA form for escrow! Before you sign the offer, your agent will walk you through the paperwork, going over the forms in as much detail as you need, and answering all of your questions. The legalese can be difficult to read and you need to understand what you’re signing.
+
 ## Communication
 - Should be quick. Absolute 24h max for response time, and that should be rare. Weekends included. At least within 2-3 hours should be typical max response time. 
 ## Analysis Chart
