@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-09-06T23:39:24.627Z
+date: 2026-10-04T22:42:43.490Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -17,6 +17,8 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - They know local multifamily-specific issues: rental registrations, inspections, CO requirements, zoning/nonconforming uses, rent control if applicable, and local landlord rules.
 - They ask questions about your acceptable monthly out-of-pocket cost after rents, rather than only asking your maximum mortgage preapproval.
 - They're comfortable negotiating based on defects or financial issues discovered during diligence instead of pressuring you to waive everything.
+- When touring properties, a good agent will point out all of the negatives about a house, and will make suggestions on what you can use as leverage when negotiating. If the agent is pushy and doesn't point out any negatives and just wants you to buy the home, walk away.
+- A good agent will never let you settle or tell you how long it should take to buy a house; take your time. In a hot market, the second the house hits the market you need to look at it because it will be gone within few hours/days. I'm literally like a doctor on call and I will drop everything to show a house immediately to my clients (of course no one is perfect and there will be some exceptions). If the agent says she can't show you for another few days, walk away. They should be able to show you a home within 24 hours or on the same day, especially in this market. However, if the house has a deadline for offers, you may be okay waiting a day, but you never know.
 # Red Flags
 - They don't see the diff between single / multi family
 - They use gross rent minus mortgage as their entire cash-flow analysis
@@ -42,3 +44,6 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - They consistently defend the seller/listing agent instead of advocating for you.
   
   
+# Other protips
+- Never use the sellergs agent to represent me as a buyer.
+- If an agent makes you sign an agreement the first time or two you meet them, walk away or tell them no. You should go out and look at homes a few times before signing anything to ensure you get a good feel for the agent and see how you like them.
