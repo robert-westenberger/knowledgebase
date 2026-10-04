@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-10-04T23:03:41.929Z
+date: 2026-10-04T23:04:52.344Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -54,7 +54,8 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - On properties I am interested in, they should be running comps so I can make an educated and fair offer.
 - When under contract, they should be keeping track of all contingency deadlines.
 - I shouldn't expect comps ran on every property I see, but they should be ran before making an offer.
-
+## Communication
+- Should be quick. Absolute 24h max for response time, and that should be rare. Weekends included.
 ## Analysis Chart
 
 | Stage | What I’d expect from the realtor |
