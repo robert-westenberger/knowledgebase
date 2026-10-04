@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-10-04T22:53:11.957Z
+date: 2026-10-04T22:53:46.581Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -54,3 +54,13 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - On properties I am interested in, they should be running comps so I can make an educated and fair offer.
 - When under contract, they should be keeping track of all contingency deadlines.
 - I shouldn't expect comps ran on every property I see, but they should be ran before making an offer.
+
+## Analysis Chart
+
+| Stage | What I’d expect from the realtor |
+|---|---|
+| **Initial listing review** | Quick sanity check: legality concerns, obvious condition/issues, neighborhood, asking price, rents, taxes, whether it seems worth pursuing |
+| **You become seriously interested / before scheduling or after viewing** | Some preliminary opinion on price and whether the rents/income seem realistic |
+| **You are considering making an offer** | **This is where I would expect actual comps and more serious financial analysis** |
+| **Before finalizing offer price/terms** | CMA/sales comps, rent comps where relevant, review of leases/rent roll/expenses, discussion of NOI/cash flow and an appropriate offer range |
+| **Under contract / due diligence** | Verify the assumptions: actual leases, utility responsibility, taxes, insurance, zoning/legal units, certificates, operating expenses, condition, etc. |
