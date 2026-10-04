@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-10-04T23:30:11.325Z
+date: 2026-10-04T23:36:54.220Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -21,6 +21,8 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - A good agent will never let you settle or tell you how long it should take to buy a house; take your time. In a hot market, the second the house hits the market you need to look at it because it will be gone within few hours/days. I'm literally like a doctor on call and I will drop everything to show a house immediately to my clients (of course no one is perfect and there will be some exceptions). If the agent says she can't show you for another few days, walk away. They should be able to show you a home within 24 hours or on the same day, especially in this market. However, if the house has a deadline for offers, you may be okay waiting a day, but you never know.
 # Red Flags
 - They don't ask me any questions
+- Feeling pressured, even subtlely, that I need to "pick a place". 
+- They don't have me think ahead of time for inspections i mgiht need.
 - They don't see the diff between single / multi family
 - They use gross rent minus mortgage as their entire cash-flow analysis
 - They ignore property taxes, insurance, repairs, vacancy, utils, capex, or PM
