@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-10-04T23:04:52.344Z
+date: 2026-10-04T23:05:11.301Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -55,7 +55,7 @@ dateCreated: 2026-09-05T22:49:08.007Z
 - When under contract, they should be keeping track of all contingency deadlines.
 - I shouldn't expect comps ran on every property I see, but they should be ran before making an offer.
 ## Communication
-- Should be quick. Absolute 24h max for response time, and that should be rare. Weekends included.
+- Should be quick. Absolute 24h max for response time, and that should be rare. Weekends included. At least within 2-3 hours should be typical.
 ## Analysis Chart
 
 | Stage | What I’d expect from the realtor |
