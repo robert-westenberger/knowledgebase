@@ -2,7 +2,7 @@
 title: Realtor Interview Template
 description: 
 published: true
-date: 2026-10-04T20:28:11.155Z
+date: 2026-10-04T20:28:52.379Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-07T22:34:29.567Z
@@ -55,7 +55,7 @@ dateCreated: 2026-09-07T22:34:29.567Z
 
 ---
 
-## What are some multifamily deals you've advised clients to walk away from, and why?
+## Have you ever advised a client to walk away from a deal?
 
 **Answer / Notes:**
 
