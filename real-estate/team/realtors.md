@@ -2,7 +2,7 @@
 title: Realtors
 description: 
 published: true
-date: 2026-10-04T22:42:43.490Z
+date: 2026-10-04T22:48:23.785Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-05T22:49:08.007Z
@@ -47,3 +47,9 @@ dateCreated: 2026-09-05T22:49:08.007Z
 # Other protips
 - Never use the sellergs agent to represent me as a buyer.
 - If an agent makes you sign an agreement the first time or two you meet them, walk away or tell them no. You should go out and look at homes a few times before signing anything to ensure you get a good feel for the agent and see how you like them.
+
+
+# What Should They Be Doing
+- Should be sending homes that meet my criteria as soon as they hit the market.
+- On properties I am interested in, they should be running comps so I can make an educated and fair offer.
+- When under contract, they should be keeping track of all contingency deadlines.
