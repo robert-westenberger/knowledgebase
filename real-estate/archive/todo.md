@@ -2,7 +2,7 @@
 title: Todo
 description: 
 published: true
-date: 2026-10-07T18:51:00.292Z
+date: 2026-10-07T18:57:57.095Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-07T22:06:57.263Z
@@ -16,5 +16,7 @@ dateCreated: 2026-09-07T22:06:57.263Z
   d. Camden Conty NJ (Gloucester City, Collingswood, Pennsauken, Merchantville, Oaklyn, Audubon, Bellmawr, Cherry Hill, Clementon)
   
   
-Have realtors for: Woodbury, Mount Holly, Pennsauken  
+Have realtors for: Woodbury, Mount Holly, Pennsauken  .
+
+Look up origin requirement. Agents are required to enter in an origination agreement.
 3. 
