@@ -2,7 +2,7 @@
 title: Todo
 description: 
 published: true
-date: 2026-10-07T17:17:15.959Z
+date: 2026-10-07T18:48:53.058Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-07T22:06:57.263Z
@@ -14,4 +14,7 @@ dateCreated: 2026-09-07T22:06:57.263Z
   b. Gloucester County NJ (Woodbury, Westville, Deptford, Swedesboro)
   c. Burlington County NJ (Mount Holly, Burlington City, Palmyra, Riverside, Beverly, Mount Laurel)
   d. Camden Conty NJ (Gloucester City, Collingswood, Pennsauken, Merchantville, Oaklyn, Audubon, Bellmawr, Cherry Hill, Clementon)
+  
+  
+HAve realtors for: Woodbury, Mount Holly, Pennsauken  
 3. 
