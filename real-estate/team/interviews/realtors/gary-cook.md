@@ -2,7 +2,7 @@
 title: Gary Cook Realtor Interview
 description: 
 published: true
-date: 2026-10-09T16:35:09.842Z
+date: 2026-10-09T16:35:41.663Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-09T16:35:09.842Z
@@ -10,9 +10,9 @@ dateCreated: 2026-10-09T16:35:09.842Z
 
 # Realtor Interview
 
-**Realtor:**  
+**Realtor:**  Gary Cook
 **Brokerage:**  
-**Date:**  
+**Date:**  10-9-26
 **Areas Covered:**  
 
 ---
