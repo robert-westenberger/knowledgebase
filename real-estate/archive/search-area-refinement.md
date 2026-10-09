@@ -2,7 +2,7 @@
 title: Search Area Refinement
 description: 
 published: true
-date: 2026-10-07T17:16:22.445Z
+date: 2026-10-09T15:05:44.756Z
 tags: 
 editor: markdown
 dateCreated: 2026-09-06T22:47:54.526Z
@@ -15,6 +15,7 @@ dateCreated: 2026-09-06T22:47:54.526Z
 
 (Actual number values are parsed from https://www.redfin.com/news/data-center )
 
+https://www.zillow.com/homes/for_sale/?searchQueryState=%7B%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22west%22%3A-75.3431586303245%2C%22east%22%3A-74.71899786372293%2C%22south%22%3A39.58128856902076%2C%22north%22%3A40.15730083030383%7D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22sf%22%3A%7B%22value%22%3Afalse%7D%2C%22tow%22%3A%7B%22value%22%3Afalse%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22apco%22%3A%7B%22value%22%3Afalse%7D%2C%22price%22%3A%7B%22min%22%3A250000%2C%22max%22%3A550000%7D%7D%2C%22isListVisible%22%3Atrue%2C%22mapZoom%22%3A11%2C%22customRegionId%22%3A%22f866d6ac90X1-CRb1k861tg3f6p_1158y4%22%2C%22pagination%22%3A%7B%7D%2C%22usersSearchTerm%22%3A%22%22%7D
 
 # New Jersey
 
