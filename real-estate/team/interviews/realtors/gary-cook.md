@@ -2,7 +2,7 @@
 title: Gary Cook Realtor Interview
 description: 
 published: true
-date: 2026-10-09T16:35:41.663Z
+date: 2026-10-09T16:36:41.625Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-09T16:35:09.842Z
@@ -13,7 +13,7 @@ dateCreated: 2026-10-09T16:35:09.842Z
 **Realtor:**  Gary Cook
 **Brokerage:**  
 **Date:**  10-9-26
-**Areas Covered:**  
+**Areas Covered:**  Camden County, NJ, Burlington County, NJ, Gloucester County, NJ
 
 ---
 
