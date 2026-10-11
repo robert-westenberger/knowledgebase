@@ -2,7 +2,7 @@
 title: Random Notes
 description: 
 published: true
-date: 2026-10-11T22:03:24.180Z
+date: 2026-10-11T23:43:16.782Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-11T21:33:30.880Z
@@ -14,3 +14,6 @@ https://www.zillow.com/homedetails/47-S-Broad-St-Woodbury-NJ-08096/2070979876_zp
 
 - These two properties, need to figure out the breakdown between commercial / residential sqft. 
 - What kind of insurance would I need to  carry for either of these? 
+
+  
+- how does the security deposit situation work 
