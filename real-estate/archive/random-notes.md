@@ -2,7 +2,7 @@
 title: Random Notes
 description: 
 published: true
-date: 2026-10-12T17:37:00.506Z
+date: 2026-10-12T18:41:03.521Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-11T21:33:30.880Z
@@ -17,7 +17,9 @@ https://www.zillow.com/homedetails/47-S-Broad-St-Woodbury-NJ-08096/2070979876_zp
 - basement is 1308
 - These two properties, need to figure out the breakdown between commercial / residential sqft. 
 - What kind of insurance would I need to  carry for either of these? 
-
+- 2 br ( $1100 / mo current) potential $1600
+- 1 br ( $1100 / mo current) potential $1600
+- commercial ( $1300/mo current) potential $2000
   
 - how does the security deposit situation work 
 
