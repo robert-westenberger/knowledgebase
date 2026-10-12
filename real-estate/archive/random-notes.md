@@ -2,7 +2,7 @@
 title: Random Notes
 description: 
 published: true
-date: 2026-10-11T23:43:16.782Z
+date: 2026-10-12T17:13:09.422Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-11T21:33:30.880Z
@@ -17,3 +17,5 @@ https://www.zillow.com/homedetails/47-S-Broad-St-Woodbury-NJ-08096/2070979876_zp
 
   
 - how does the security deposit situation work 
+
+
