@@ -2,7 +2,7 @@
 title: Random Notes
 description: 
 published: true
-date: 2026-10-12T18:41:03.521Z
+date: 2026-10-14T17:39:32.135Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-11T21:33:30.880Z
@@ -22,5 +22,9 @@ https://www.zillow.com/homedetails/47-S-Broad-St-Woodbury-NJ-08096/2070979876_zp
 - commercial ( $1300/mo current) potential $2000
   
 - how does the security deposit situation work 
+
+
+----
+- Leases for 47 S Broad St expire 7/31/27 
 
 
