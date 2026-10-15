@@ -2,11 +2,15 @@
 title: Random Notes
 description: 
 published: true
-date: 2026-10-14T17:39:32.135Z
+date: 2026-10-15T17:42:38.974Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-11T21:33:30.880Z
 ---
+
+- House hack calc
+https://vouchermatch.com/rentalcalcs/tools/house-hack
+
 
 https://www.zillow.com/homedetails/189-Broadway-191-Westville-NJ-08093/454926771_zpid/
 
