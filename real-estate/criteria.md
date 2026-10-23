@@ -2,7 +2,7 @@
 title: Criteria
 description: 
 published: true
-date: 2026-10-23T21:36:54.603Z
+date: 2026-10-23T21:37:50.860Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-27T00:35:41.783Z
@@ -36,7 +36,7 @@ I am not expecting a "dream" deal or something unnattainable in the current mark
 * Property should remain affordable with conservative assumptions for vacancy, repairs, maintenance, and capital expenses
 * Deal should not depend on immediate rent increases, refinancing, rapid appreciation, or converting unapproved space into another unit
 * Immediate repairs must fit comfortably within the available budget
-
+* Should meet or be close to meeting FHA self sufficiency rule (regardless of whether an FHA loan is even used)
 ## Deal-Breakers
 
 * Illegal, unpermitted, or unverifiable units
