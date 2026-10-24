@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T20:42:38.456Z
+date: 2026-10-24T20:44:19.046Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -23,6 +23,9 @@ https://www.realtor.com/realestateandhomes-detail/153-New-Freedom-Rd_Berlin_NJ_0
 
 #### Zoning
 `Berlin Boro Block: 2100 Lot: 3`
+- https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0405_2100_3&sale_start_date=null&sale_end_date=null&sig=BBylTQ069ACWbBgfKRC_1zZ10rJaxaANFJwAR5Gf1Io=
+
+
 #### Questions
 - What is R1 zoning?
 
