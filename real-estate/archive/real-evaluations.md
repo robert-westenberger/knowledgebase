@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T20:56:38.241Z
+date: 2026-10-24T20:59:33.620Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -35,5 +35,5 @@ Sold 	04/05/2017 280k ( 385k in 2026 )
 - https://ecode360.com/8950414#8950848
 
 #### Questions
-- What is R1 zoning?
+- MLS and property assessment ( https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0405_2100_3&sale_start_date=null&sale_end_date=null&sig=BBylTQ069ACWbBgfKRC_1zZ10rJaxaANFJwAR5Gf1Io= ) lists this property zoned R-1 .. how is this being rented out?
 
