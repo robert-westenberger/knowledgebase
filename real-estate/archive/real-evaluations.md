@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T21:17:46.522Z
+date: 2026-10-24T21:22:02.183Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -47,3 +47,4 @@ Assessment - https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%2
 #### Sale
 04/15/2024 515k ( 553k 2026)
 
+#### Offer - Start at 515k, go up to 525k?
