@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T21:25:23.870Z
+date: 2026-10-24T22:04:28.585Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -52,5 +52,9 @@ Assessment - https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%2
 ### 11 High St, Woodbury, NJ 08096
 https://www.zillow.com/homedetails/11-High-St-Woodbury-NJ-08096/38827589_zpid/
 
+Block: 64Lot: 15
+
 Tax - https://taxrecords-nj.com/pub/cgi/m4.cgi?district=0822&l02=082200064____00015_________m
+
+Parcel - https://www.msnj.us/inq/08/cgi/inq/m4.cgi?&cc=08&dd=22&user=gz1&h00=64&h01=15&h02=
 
