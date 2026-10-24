@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T20:54:15.790Z
+date: 2026-10-24T20:56:38.241Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -27,7 +27,8 @@ https://www.nj-map.com/parcels/undefined/?override=1&zoom=18&lat=39.778601564520
 #### Tax Data / assessments
 https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0405_2100_3&sale_start_date=null&sale_end_date=null&sig=BBylTQ069ACWbBgfKRC_1xdf4JnSfLfN_m7fQzSf7es=
 
-
+#### Sale
+Sold 	04/05/2017 280k ( 385k in 2026 )
 #### Zoning
 `Berlin Boro Block: 2100 Lot: 3`
 - https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0405_2100_3&sale_start_date=null&sale_end_date=null&sig=BBylTQ069ACWbBgfKRC_1zZ10rJaxaANFJwAR5Gf1Io=
