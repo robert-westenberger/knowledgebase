@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T20:42:27.720Z
+date: 2026-10-24T20:42:38.456Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -22,7 +22,7 @@ https://www.zillow.com/homedetails/153-New-Freedom-Rd-Berlin-NJ-08009/248768465_
 https://www.realtor.com/realestateandhomes-detail/153-New-Freedom-Rd_Berlin_NJ_08009_M56285-36533
 
 #### Zoning
-`Berlin BoroBlock: 2100 Lot: 3`
+`Berlin Boro Block: 2100 Lot: 3`
 #### Questions
 - What is R1 zoning?
 
