@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T21:12:54.740Z
+date: 2026-10-24T21:16:29.680Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -41,3 +41,8 @@ Sold 	04/05/2017 280k ( 385k in 2026 )
 - ASsuming 6.5% interest rate, 20% down, property needs to be $403000 to pass 
 
 ### 705 Collings Ave Collingswood, NJ 08107
+https://www.zillow.com/homedetails/705-Collings-Ave-Collingswood-NJ-08107/38243366_zpid/
+
+Assessment - https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0412_165_20.01&sale_start_date=null&sale_end_date=null&sig=Vj-as6oWqDIhU4opfxEKmq9fX_Vd4dgrIaFACxBwF6rQCgERgwCHtfwJQGPyOxr5
+
+#### Zoning
