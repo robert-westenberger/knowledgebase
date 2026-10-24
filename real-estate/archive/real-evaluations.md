@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T21:00:03.399Z
+date: 2026-10-24T21:09:13.172Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -37,3 +37,7 @@ Sold 	04/05/2017 280k ( 385k in 2026 )
 #### Questions
 - MLS and property assessment ( https://www.taxdatahub.com/60d088c3d3501df3b0e45ddb/Camden-County%20Property%20Assessment%20Search%20Hub/details?id=0405_2100_3&sale_start_date=null&sale_end_date=null&sig=BBylTQ069ACWbBgfKRC_1zZ10rJaxaANFJwAR5Gf1Io= ) lists this property zoned R-1 .. how is this being rented out?
 
+#### Adjustments
+- ASsuming 6.5% interest rate, 20% down, property needs to be $403000 to pass 
+
+### 
