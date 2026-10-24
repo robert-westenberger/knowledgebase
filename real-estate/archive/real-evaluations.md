@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T21:09:13.172Z
+date: 2026-10-24T21:12:54.740Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -40,4 +40,4 @@ Sold 	04/05/2017 280k ( 385k in 2026 )
 #### Adjustments
 - ASsuming 6.5% interest rate, 20% down, property needs to be $403000 to pass 
 
-### 
+### 705 Collings Ave Collingswood, NJ 08107
