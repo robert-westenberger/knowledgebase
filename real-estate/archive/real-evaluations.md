@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-10-24T22:04:28.585Z
+date: 2026-10-25T20:02:50.932Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -58,3 +58,7 @@ Tax - https://taxrecords-nj.com/pub/cgi/m4.cgi?district=0822&l02=082200064____00
 
 Parcel - https://www.msnj.us/inq/08/cgi/inq/m4.cgi?&cc=08&dd=22&user=gz1&h00=64&h01=15&h02=
 
+#### Questions
+- "Buyer are responsible for conducting their own due diligence regarding zoning, permitted use, unit count, rental requirements, historical district requirements and any intended future use of the property with the appropriate municipal and governmental authorities" How do we do that?
+- According to https://www.msnj.us/inq/08/cgi/inq/m4.cgi?&cc=08&dd=22&user=gz1&h00=64&h01=15&h02= , it's zoned as `R01` ?
+- For this, can we request insurance quotes, utility bills, and repair history?
