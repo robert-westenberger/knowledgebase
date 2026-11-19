@@ -2,7 +2,7 @@
 title: Real Evaluations
 description: 
 published: true
-date: 2026-11-18T20:47:37.180Z
+date: 2026-11-19T20:52:54.639Z
 tags: 
 editor: markdown
 dateCreated: 2026-10-18T20:16:45.707Z
@@ -14,7 +14,7 @@ dateCreated: 2026-10-18T20:16:45.707Z
 https://www.zillow.com/homedetails/117-W-Merchant-St-Audubon-NJ-08106/2144981503_zpid/
 https://matrix.brightmls.com/Matrix/Public/Portal.aspx?ID=DE-349896624212&agt=1#1
 
-rents - commercial (1150 / mo) 2br (1425/mo) 1br (800)
+rents - commercial (1150 / mo) 2br (1425/mo) 1br (800/mo)
 ### 47 S Broad St woodbury
 
 https://www.zillow.com/homedetails/47-S-Broad-St-Woodbury-NJ-08096/2070979876_zpid/
